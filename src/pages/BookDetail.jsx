@@ -245,14 +245,7 @@ export default function BookDetail() {
                   transition: 'border-color 0.3s, transform 0.2s',
                   color: 'var(--color-text)',
                 }}
-                onMouseEnter={e => {
-                  e.currentTarget.style.borderColor = 'rgba(212, 168, 67, 0.4)'
-                  e.currentTarget.style.transform = 'translateY(-2px)'
-                }}
-                onMouseLeave={e => {
-                  e.currentTarget.style.borderColor = 'rgba(212, 168, 67, 0.12)'
-                  e.currentTarget.style.transform = 'translateY(0)'
-                }}
+                className="hover-border-gold"
               >
                 <span style={{
                   width: '32px',
@@ -639,8 +632,7 @@ export default function BookDetail() {
                 cursor: 'pointer',
                 transition: 'all 0.3s',
               }}
-              onMouseEnter={e => { e.currentTarget.style.background = book.color; e.currentTarget.style.color = '#fff' }}
-              onMouseLeave={e => { if (!readerOpen) { e.currentTarget.style.background = `${book.color}22`; e.currentTarget.style.color = book.color }}}
+              className="hover-border-gold"
             >
               📖 {readerOpen ? '阅读中...' : '开始阅读原著'}
             </button>
@@ -743,16 +735,7 @@ export default function BookDetail() {
                       textDecoration: 'none',
                       transition: 'all 0.3s ease',
                     }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.background = 'rgba(212,175,55,0.1)'
-                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.35)'
-                      e.currentTarget.style.transform = 'translateX(4px)'
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.background = 'rgba(212,175,55,0.05)'
-                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.15)'
-                      e.currentTarget.style.transform = 'translateX(0)'
-                    }}
+                    className="hover-slide-right"
                   >
                     <span style={{ fontSize: '2rem' }}>🎬</span>
                     <div>
@@ -775,11 +758,7 @@ export default function BookDetail() {
         {keyChars.length > 0 && (
           <div className="detail-section">
             <h2 className="detail-section-title">👥 关键人物</h2>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))',
-              gap: '12px',
-            }}>
+            <div className="grid-auto-140">
               {keyChars.map(char => (
                 <Link
                   to={`/characters/${char.id}`}
@@ -795,14 +774,7 @@ export default function BookDetail() {
                     textDecoration: 'none',
                     transition: 'all 0.3s',
                   }}
-                  onMouseEnter={e => {
-                    e.currentTarget.style.background = 'rgba(212,175,55,0.08)'
-                    e.currentTarget.style.transform = 'translateY(-2px)'
-                  }}
-                  onMouseLeave={e => {
-                    e.currentTarget.style.background = 'rgba(255,255,255,0.03)'
-                    e.currentTarget.style.transform = 'translateY(0)'
-                  }}
+                  className="hover-lift-subtle"
                 >
                   <div style={{
                     width: '56px',
@@ -819,9 +791,7 @@ export default function BookDetail() {
                     fontSize: '2rem',
                   }}>
                     {char.image ? (
-                      <img src={char.image} alt={char.name} style={{
-                        width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
-                      }} />
+                      <img src={char.image} alt={char.name} className="char-avatar-circle" />
                     ) : char.avatar}
                   </div>
                   <span style={{ fontSize: '0.8rem', color: 'var(--color-gold)', fontWeight: '600', textAlign: 'center' }}>

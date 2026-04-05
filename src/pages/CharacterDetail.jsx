@@ -187,11 +187,7 @@ export default function CharacterDetail() {
           return charMovies.length > 0 ? (
             <div className="detail-section">
               <h2 className="detail-section-title">🎬 出演电影</h2>
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-                gap: '10px',
-              }}>
+              <div className="grid-auto-180">
                 {charMovies.map(m => (
                   <Link
                     key={m.id}
@@ -205,16 +201,7 @@ export default function CharacterDetail() {
                       transition: 'all 0.3s ease',
                       display: 'block',
                     }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.background = 'rgba(212,175,55,0.12)'
-                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.3)'
-                      e.currentTarget.style.transform = 'translateY(-2px)'
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.background = 'rgba(212,175,55,0.05)'
-                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.12)'
-                      e.currentTarget.style.transform = 'translateY(0)'
-                    }}
+                    className="hover-lift-sm"
                   >
                     <div style={{ fontSize: '0.72rem', color: 'var(--color-gold)', marginBottom: '4px' }}>
                       第{m.number}部 · {m.year}年

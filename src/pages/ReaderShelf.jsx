@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import useDocumentHead from '../hooks/useDocumentHead'
+import StatsPanel from '../components/StatsPanel'
 import { bookTitles, bookTitlesEn, bookCovers, bookColors, chapterNames } from '../data/bookLoader'
 import books from '../data/books'
 
@@ -81,38 +82,15 @@ export default function ReaderShelf() {
       </div>
 
       {/* 统计信息 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
-        gap: '12px',
-        marginBottom: '36px',
-      }}>
-        {[
-          { label: '原著总数', value: '7 部', icon: '📚' },
-          { label: '总章节数', value: `${Object.values(chapterNames).reduce((a, b) => a + b.length, 0)} 章`, icon: '📑' },
-          { label: '出版年份', value: '1997-2007', icon: '📅' },
-          { label: '阅读语言', value: lang === 'cn' ? '中文译本' : '英文原版', icon: lang === 'cn' ? '🇨🇳' : '🇬🇧' },
-        ].map((stat, i) => (
-          <div key={i} style={{
-            textAlign: 'center',
-            padding: '16px 12px',
-            background: 'linear-gradient(135deg, rgba(30, 30, 60, 0.5), rgba(20, 20, 50, 0.7))',
-            borderRadius: '10px',
-            border: '1px solid rgba(212, 168, 67, 0.1)',
-          }}>
-            <div style={{ fontSize: '1.4rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.72rem', color: 'var(--color-text-secondary)', marginTop: '2px' }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel compact stats={[
+        { label: '原著总数', value: '7 部', icon: '📚' },
+        { label: '总章节数', value: `${Object.values(chapterNames).reduce((a, b) => a + b.length, 0)} 章`, icon: '📑' },
+        { label: '出版年份', value: '1997-2007', icon: '📅' },
+        { label: '阅读语言', value: lang === 'cn' ? '中文译本' : '英文原版', icon: lang === 'cn' ? '🇨🇳' : '🇬🇧' },
+      ]} />
 
       {/* 书架 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-        gap: '20px',
-      }}>
+      <div className="grid-auto-320">
         {[1, 2, 3, 4, 5, 6, 7].map(num => (
           <Link
             key={num}
@@ -229,8 +207,7 @@ export default function ReaderShelf() {
                   transition: 'all 0.3s',
                   flexShrink: 0,
                 }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(212,175,55,0.3)'; e.currentTarget.style.color = 'var(--color-gold)' }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'var(--color-text-secondary)' }}
+                className="hover-lift-sm"
               >
                 📚 百科
               </Link>

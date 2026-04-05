@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import useDocumentHead from '../hooks/useDocumentHead'
 import WikiCrossLinks from '../components/WikiCrossLinks'
+import StatsPanel from '../components/StatsPanel'
 
 const creatures = [
   { emoji: '🐉', name: '龙', nameEn: 'Dragon', desc: '最壮观的魔法生物之一，已知有十个品种，包括匈牙利树蜂龙、瑞典短鼻龙等。龙的心弦是三种魔杖芯之一，龙血有十二种已知用途（由邓布利多发现）。在三强争霸赛中，参赛者需要绕过龙来获取金蛋。', danger: '极危险', classification: 'XXXXX', habitat: '山地、荒野' },
@@ -51,29 +52,12 @@ export default function Creatures() {
       <p className="page-subtitle">从龙到独角兽，探索魔法世界中最神奇的生物</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '收录生物', value: `${creatures.length} 种`, icon: '🐉' },
-          { label: '极危险', value: `${creatures.filter(c => c.danger === '极危险').length} 种`, icon: '⚠️' },
-          { label: '危险级别', value: '5 级', icon: '📊' },
-          { label: 'XXXXX级', value: `${creatures.filter(c => c.classification === 'XXXXX').length} 种`, icon: '💀' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '收录生物', value: `${creatures.length} 种`, icon: '🐉' },
+        { label: '极危险', value: `${creatures.filter(c => c.danger === '极危险').length} 种`, icon: '⚠️' },
+        { label: '危险级别', value: '5 级', icon: '📊' },
+        { label: 'XXXXX级', value: `${creatures.filter(c => c.classification === 'XXXXX').length} 种`, icon: '💀' },
+      ]} />
 
       <div className="search-container">
         <input
@@ -99,7 +83,7 @@ export default function Creatures() {
 
       <div className="spells-grid">
         {filtered.map((creature, i) => (
-          <div key={i} className="spell-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
+          <div key={i} className="creature-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
               <span className="spell-icon">{creature.emoji}</span>
               <div>

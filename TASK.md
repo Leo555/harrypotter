@@ -58,6 +58,32 @@
 
 ---
 
+## Phase 6：设计质量优化（顶级设计师 Review）
+
+- [x] **TASK 15**：提取可复用 StatsPanel 组件 ✅ 2025-04-06
+  - [x] TASK 15a：创建 `StatsPanel.jsx` 通用统计面板组件（含 compact 变体） ✅ 2025-04-06
+  - [x] TASK 15b：为统计面板添加完整 CSS 类（`.stats-panel`, `.stat-card` 等） ✅ 2025-04-06
+  - [x] TASK 15c：9 个页面统计面板内联样式 → StatsPanel 组件（Books / Movies / Characters / Spells / Creatures / MagicItems / Potions / Places / ReaderShelf） ✅ 2025-04-06
+- [x] **TASK 16**：WikiCrossLinks 组件重构 ✅ 2025-04-06
+  - [x] TASK 16a：全部内联样式迁移到 CSS 类（`.wiki-cross-links`, `.wiki-cross-link` 等） ✅ 2025-04-06
+  - [x] TASK 16b：JS hover → CSS `:hover` 伪类 ✅ 2025-04-06
+  - [x] TASK 16c：修复魔药路径 `/potions` → `/world/potions` ✅ 2025-04-06
+  - [x] TASK 16d：去除重复"原著阅读"链接（与"原著百科"路径重复） ✅ 2025-04-06
+- [x] **TASK 17**：JS hover 效果全站迁移到 CSS `:hover` ✅ 2025-04-06
+  - [x] TASK 17a：创建通用 hover CSS 类（`.hover-lift`, `.hover-lift-sm`, `.hover-card-gold`, `.hover-tag-gold`, `.hover-link-underline`, `.hover-slide-right`, `.hover-lift-subtle`, `.hover-border-gold`, `.hover-bg-subtle` 等） ✅ 2025-04-06
+  - [x] TASK 17b：10+ 文件 27+ 处 `onMouseEnter`/`onMouseLeave` → CSS 类替换 ✅ 2025-04-06
+- [x] **TASK 18**：内联 grid 布局迁移到 CSS 类 ✅ 2025-04-06
+  - [x] TASK 18a：创建通用 grid CSS 类（`.grid-auto-140/180/200/260/280/320`） ✅ 2025-04-06
+  - [x] TASK 18b：Home / CharacterDetail / MovieDetail / BookDetail / ReaderShelf 内联 grid → CSS 类 ✅ 2025-04-06
+- [x] **TASK 19**：角色头像通用样式 ✅ 2025-04-06
+  - [x] TASK 19a：创建 `.char-avatar-circle` CSS 类 ✅ 2025-04-06
+  - [x] TASK 19b：MovieDetail / Home / BookDetail 内联头像样式 → CSS 类 ✅ 2025-04-06
+- [x] **TASK 20**：语义化 CSS 类名修复 ✅ 2025-04-06
+  - [x] TASK 20a：为 Creatures / MagicItems / Places / Potions 创建独立语义类名（`.creature-card`, `.magic-item-card`, `.place-card`, `.potion-card`） ✅ 2025-04-06
+  - [x] TASK 20b：4 个百科页面 `spell-card` → 语义类名替换 ✅ 2025-04-06
+
+---
+
 > 完成规则：每完成一个 TASK，将 `[ ]` 改为 `[x]` 并标注完成日期。
 >
 > *"在霍格沃茨，只要有人寻求帮助，帮助就会来到。" — 阿不思·邓布利多*

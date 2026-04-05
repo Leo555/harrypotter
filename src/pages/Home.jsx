@@ -35,7 +35,7 @@ const interactiveItems = [
   { path: '/interactive/sorting', icon: '🎩', title: '分院帽测试', desc: '回答十道问题，发现你属于哪个学院', status: 'active' },
   { path: '/interactive/patronus', icon: '🦌', title: '守护神测试', desc: '呼神护卫——发现属于你的守护神', status: 'active' },
   { path: '/interactive/wand', icon: '🪄', title: '魔杖匹配', desc: '魔杖选择巫师——找到你的命定之杖', status: 'active' },
-  { path: '/books', icon: '📖', title: '原著阅读', desc: '在线阅读七部原著，百科详情页内直接开读', status: 'active' },
+  { path: '/reader', icon: '📖', title: '原著阅读', desc: '在线阅读七部原著，百科详情页内直接开读', status: 'active' },
 ]
 
 export default function Home() {
@@ -47,7 +47,7 @@ export default function Home() {
 
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
   const latestNews = news.slice(0, 3)
-  const featuredCharacters = characters.slice(0, 6)
+  const featuredCharacters = characters.slice(0, 10)
 
   return (
     <div className="fade-in">
@@ -131,17 +131,23 @@ export default function Home() {
           </h2>
           <Link to="/books" className="section-link">查看全部 →</Link>
         </div>
-        <div className="books-scroll">
+        <div className="showcase-scroll">
           {books.map(book => (
-            <Link to={`/books/${book.id}`} key={book.id} className="book-mini-card" style={{ borderColor: book.color }}>
-              <div className="book-mini-number">第{book.number}部</div>
-              <div className="book-mini-cover" style={{ background: book.coverImage ? 'transparent' : book.color }}>
+            <Link to={`/books/${book.id}`} key={book.id} className="showcase-card">
+              <div className="showcase-poster" style={{ background: book.coverImage ? '#1a1a2e' : book.color }}>
                 {book.coverImage ? (
-                  <img src={book.coverImage} alt={book.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                ) : book.cover}
+                  <img src={book.coverImage} alt={book.title} className="showcase-poster-img" />
+                ) : (
+                  <span className="showcase-poster-emoji">{book.cover}</span>
+                )}
+                <div className="showcase-poster-overlay">
+                  <span className="showcase-badge">第{book.number}部</span>
+                </div>
               </div>
-              <div className="book-mini-title">{book.title}</div>
-              <div className="book-mini-year">{book.year}年出版</div>
+              <div className="showcase-info">
+                <div className="showcase-title">{book.title}</div>
+                <div className="showcase-meta">{book.year}年出版</div>
+              </div>
             </Link>
           ))}
         </div>
@@ -156,18 +162,18 @@ export default function Home() {
           </h2>
           <Link to="/movies" className="section-link">查看全部 →</Link>
         </div>
-        <div className="movies-scroll">
+        <div className="showcase-scroll">
           {movies.map(movie => (
-            <Link to={`/movies/${movie.id}`} key={movie.id} className="movie-mini-card">
-              <div className="movie-mini-poster">
-                <img src={movie.cover} alt={movie.title} />
-                <div className="movie-mini-overlay">
-                  <span className="movie-mini-number">#{movie.number}</span>
+            <Link to={`/movies/${movie.id}`} key={movie.id} className="showcase-card">
+              <div className="showcase-poster">
+                <img src={movie.cover} alt={movie.title} className="showcase-poster-img" />
+                <div className="showcase-poster-overlay">
+                  <span className="showcase-badge">#{movie.number}</span>
                 </div>
               </div>
-              <div className="movie-mini-info">
-                <div className="movie-mini-title">{movie.title}</div>
-                <div className="movie-mini-year">{movie.year} · {movie.director}</div>
+              <div className="showcase-info">
+                <div className="showcase-title">{movie.title}</div>
+                <div className="showcase-meta">{movie.year} · {movie.director}</div>
               </div>
             </Link>
           ))}
@@ -183,17 +189,9 @@ export default function Home() {
           </h2>
           <Link to="/characters" className="section-link">查看全部 →</Link>
         </div>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-          gap: '16px',
-        }}>
+        <div className="home-characters-grid">
           {featuredCharacters.map(char => (
-            <Link to={`/characters/${char.id}`} key={char.id} className="feature-card" style={{
-              padding: '20px 16px',
-              textAlign: 'center',
-              textDecoration: 'none',
-            }}>
+            <Link to={`/characters/${char.id}`} key={char.id} className="feature-card home-char-card">
               <div style={{
                 width: 72, height: 72,
                 borderRadius: '50%',
@@ -205,9 +203,7 @@ export default function Home() {
                 boxShadow: '0 2px 12px rgba(0,0,0,0.3)',
               }}>
                 {char.image ? (
-                  <img src={char.image} alt={char.name} style={{
-                    width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
-                  }} />
+                  <img src={char.image} alt={char.name} className="char-avatar-circle" />
                 ) : (
                   char.avatar
                 )}
@@ -230,11 +226,7 @@ export default function Home() {
           <span className="section-icon">🎯</span>
           互动专区
         </h2>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-          gap: '16px',
-        }}>
+        <div className="grid-auto-280">
           {interactiveItems.map((item, i) => (
             <Link to={item.path} key={i} className="feature-card" style={{
               textDecoration: 'none',

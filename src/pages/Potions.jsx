@@ -2,6 +2,7 @@ import { useState } from 'react'
 import potions from '../data/potions'
 import useDocumentHead from '../hooks/useDocumentHead'
 import WikiCrossLinks from '../components/WikiCrossLinks'
+import StatsPanel from '../components/StatsPanel'
 
 export default function Potions() {
   useDocumentHead({
@@ -29,29 +30,12 @@ export default function Potions() {
       <p className="page-subtitle">从复方汤剂到福灵剂，探索魔法世界中最神奇的魔药配方</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '收录魔药', value: `${potions.length} 种`, icon: '⚗️' },
-          { label: '高级魔药', value: `${potions.filter(p => p.difficulty === '高级').length} 种`, icon: '🔥' },
-          { label: '极高级', value: `${potions.filter(p => p.difficulty === '极高级').length} 种`, icon: '⭐' },
-          { label: '中级魔药', value: `${potions.filter(p => p.difficulty === '中级').length} 种`, icon: '📚' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '收录魔药', value: `${potions.length} 种`, icon: '⚗️' },
+        { label: '高级魔药', value: `${potions.filter(p => p.difficulty === '高级').length} 种`, icon: '🔥' },
+        { label: '极高级', value: `${potions.filter(p => p.difficulty === '极高级').length} 种`, icon: '⭐' },
+        { label: '中级魔药', value: `${potions.filter(p => p.difficulty === '中级').length} 种`, icon: '📚' },
+      ]} />
 
       <div className="search-container">
         <input
@@ -77,7 +61,7 @@ export default function Potions() {
 
       <div className="spells-grid">
         {filtered.map(potion => (
-          <div key={potion.id} className="spell-card" style={{ borderColor: `${potion.color}44` }}>
+          <div key={potion.id} className="potion-card" style={{ borderColor: `${potion.color}44` }}>
             <div className="spell-card-header">
               <span className="spell-icon">{potion.icon}</span>
               <div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { characters, houses } from '../data/characters'
 import useDocumentHead from '../hooks/useDocumentHead'
+import StatsPanel from '../components/StatsPanel'
 
 export default function Characters() {
   useDocumentHead({
@@ -34,29 +35,12 @@ export default function Characters() {
       <p className="page-subtitle">魔法世界的每一位重要人物，从"大难不死的男孩"到"永远的"斯内普</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '收录人物', value: `${characters.length} 位`, icon: '🧙' },
-          { label: '格兰芬多', value: `${houseCounts.gryffindor || 0} 位`, icon: '🦁' },
-          { label: '斯莱特林', value: `${houseCounts.slytherin || 0} 位`, icon: '🐍' },
-          { label: '拉文克劳', value: `${houseCounts.ravenclaw || 0} 位`, icon: '🦅' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '收录人物', value: `${characters.length} 位`, icon: '🧙' },
+        { label: '格兰芬多', value: `${houseCounts.gryffindor || 0} 位`, icon: '🦁' },
+        { label: '斯莱特林', value: `${houseCounts.slytherin || 0} 位`, icon: '🐍' },
+        { label: '拉文克劳', value: `${houseCounts.ravenclaw || 0} 位`, icon: '🦅' },
+      ]} />
 
       <div className="search-container">
         <input

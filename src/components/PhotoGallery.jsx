@@ -26,16 +26,7 @@ export default function PhotoGallery({ photos, characterName }) {
               border: '1px solid rgba(212,175,55,0.15)',
               transition: 'all 0.3s ease',
             }}
-            onMouseEnter={e => {
-              e.currentTarget.style.transform = 'translateY(-4px)'
-              e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.4)'
-              e.currentTarget.style.borderColor = 'rgba(212,175,55,0.4)'
-            }}
-            onMouseLeave={e => {
-              e.currentTarget.style.transform = 'translateY(0)'
-              e.currentTarget.style.boxShadow = 'none'
-              e.currentTarget.style.borderColor = 'rgba(212,175,55,0.15)'
-            }}
+            className="hover-lift"
           >
             {/* 场景装饰 */}
             <div style={{
@@ -235,8 +226,7 @@ export default function PhotoGallery({ photos, characterName }) {
               justifyContent: 'center',
               transition: 'all 0.3s',
             }}
-            onMouseEnter={e => e.currentTarget.style.background = 'rgba(212,175,55,0.2)'}
-            onMouseLeave={e => e.currentTarget.style.background = 'rgba(0,0,0,0.5)'}
+            className="hover-gallery-btn"
           >
             ✕
           </button>

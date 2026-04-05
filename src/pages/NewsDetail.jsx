@@ -72,16 +72,7 @@ export default function NewsDetail() {
                     textDecoration: 'none',
                     transition: 'all 0.3s ease',
                   }}
-                  onMouseEnter={e => {
-                    e.currentTarget.style.background = 'rgba(212,175,55,0.2)'
-                    e.currentTarget.style.borderColor = 'rgba(212,175,55,0.5)'
-                    e.currentTarget.style.color = 'var(--color-gold)'
-                  }}
-                  onMouseLeave={e => {
-                    e.currentTarget.style.background = 'rgba(212,175,55,0.1)'
-                    e.currentTarget.style.borderColor = 'rgba(212,175,55,0.25)'
-                    e.currentTarget.style.color = 'var(--color-parchment)'
-                  }}
+                  className="hover-tag-gold"
                 >
                   {link.label} →
                 </Link>
@@ -113,8 +104,7 @@ export default function NewsDetail() {
                 textDecoration: 'none',
                 wordBreak: 'break-all',
               }}
-              onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
-              onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+              className="hover-link-underline"
             >
               {item.source} ↗
             </a>

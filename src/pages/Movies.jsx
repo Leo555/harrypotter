@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import movies from '../data/movies'
 import useDocumentHead from '../hooks/useDocumentHead'
+import StatsPanel from '../components/StatsPanel'
 
 export default function Movies() {
   useDocumentHead({
@@ -20,31 +21,14 @@ export default function Movies() {
       <p className="page-subtitle">从2001到2011年，八部电影将魔法世界完美呈现在银幕之上</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '电影数量', value: '8 部', icon: '🎬' },
-          { label: '时间跨度', value: '2001-2011', icon: '📅' },
-          { label: '总票房', value: `${totalBoxOffice.toFixed(1)}亿$`, icon: '💰' },
-          { label: '导演人数', value: '4 位', icon: '🎥' },
-          { label: '演员阵容', value: `${totalCast}+ 人`, icon: '🎭' },
-          { label: '最高单片', value: '13.42亿$', icon: '🏆' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '电影数量', value: '8 部', icon: '🎬' },
+        { label: '时间跨度', value: '2001-2011', icon: '📅' },
+        { label: '总票房', value: `${totalBoxOffice.toFixed(1)}亿$`, icon: '💰' },
+        { label: '导演人数', value: '4 位', icon: '🎥' },
+        { label: '演员阵容', value: `${totalCast}+ 人`, icon: '🎭' },
+        { label: '最高单片', value: '13.42亿$', icon: '🏆' },
+      ]} />
 
 
       <div className="movies-grid">

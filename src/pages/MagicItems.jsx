@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import useDocumentHead from '../hooks/useDocumentHead'
 import WikiCrossLinks from '../components/WikiCrossLinks'
+import StatsPanel from '../components/StatsPanel'
 
 const magicItems = [
   { emoji: '📔', name: '汤姆·里德尔的日记', nameEn: "Tom Riddle's Diary", type: '魂器', desc: '伏地魔创造的第一个魂器，记录着年少时代的里德尔。日记中潜藏着16岁汤姆·里德尔的灵魂碎片，它曾控制金妮·韦斯莱打开密室释放蛇怪。哈利在密室中用蛇怪的毒牙将其刺穿摧毁——这是第一个被摧毁的魂器。', destroyed: '蛇怪毒牙（哈利·波特）' },
@@ -53,29 +54,12 @@ export default function MagicItems() {
       <p className="page-subtitle">从死亡圣器到活点地图，魔法世界中最传奇的物品</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '收录物品', value: `${magicItems.length} 件`, icon: '⚗️' },
-          { label: '魂器', value: `${magicItems.filter(i => i.type === '魂器').length + 1} 件`, icon: '💀' },
-          { label: '死亡圣器', value: '3 件', icon: '△' },
-          { label: '传奇物品', value: `${magicItems.filter(i => i.type === '魔法道具' || i.type === '传奇物品').length} 件`, icon: '✨' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '收录物品', value: `${magicItems.length} 件`, icon: '⚗️' },
+        { label: '魂器', value: `${magicItems.filter(i => i.type === '魂器').length + 1} 件`, icon: '💀' },
+        { label: '死亡圣器', value: '3 件', icon: '△' },
+        { label: '传奇物品', value: `${magicItems.filter(i => i.type === '魔法道具' || i.type === '传奇物品').length} 件`, icon: '✨' },
+      ]} />
 
       <div className="search-container">
         <input
@@ -101,7 +85,7 @@ export default function MagicItems() {
 
       <div className="spells-grid">
         {filtered.map((item, i) => (
-          <div key={i} className="spell-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
+          <div key={i} className="magic-item-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
               <span className="spell-icon">{item.emoji}</span>
               <div>

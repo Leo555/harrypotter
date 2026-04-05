@@ -503,122 +503,104 @@ a:hover { color: var(--color-gold-light); }
 }
 .feature-card:hover .feature-arrow { color: var(--color-gold); transform: translateX(4px); }
 
-/* 书籍横向滚动 */
-.books-scroll {
+/* ===== 首页展示卡片横向滚动（原著 + 电影通用） ===== */
+.showcase-scroll {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   overflow-x: auto;
-  padding-bottom: 16px;
-  margin-bottom: 60px;
+  padding: 8px 0 20px;
+  margin-bottom: 40px;
   scrollbar-width: thin;
   scrollbar-color: rgba(212,168,67,0.3) transparent;
+  -webkit-overflow-scrolling: touch;
 }
-.books-scroll::-webkit-scrollbar { height: 6px; }
-.books-scroll::-webkit-scrollbar-thumb { background: rgba(212,168,67,0.3); border-radius: 3px; }
-.book-mini-card {
+.showcase-scroll::-webkit-scrollbar { height: 6px; }
+.showcase-scroll::-webkit-scrollbar-thumb { background: rgba(212,168,67,0.3); border-radius: 3px; }
+.showcase-card {
   flex-shrink: 0;
-  width: 150px;
-  text-align: center;
-  padding: 16px 12px;
-  background: rgba(255,255,255,0.02);
+  width: 200px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 14px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.06);
-  border-radius: var(--radius);
-  transition: all 0.3s;
-  text-decoration: none;
+}
+.showcase-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.45);
+  border-color: rgba(212,168,67,0.25);
   color: inherit;
 }
-.book-mini-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(212,168,67,0.3);
-  color: inherit;
-}
-.book-mini-number { font-size: 0.7rem; color: rgba(245,230,200,0.4); margin-bottom: 8px; }
-.book-mini-cover {
-  width: 64px; height: 90px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center; justify-content: center;
-  font-size: 1.8rem;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  margin: 0 auto 10px;
-}
-.book-mini-title { font-size: 0.8rem; color: var(--color-parchment); margin-bottom: 4px; font-weight: 600; line-height: 1.3; }
-.book-mini-year { font-size: 0.7rem; color: rgba(245,230,200,0.3); }
-
-/* 电影横向滚动 - 方形剧照卡片 */
-.movies-scroll {
-  display: flex;
-  gap: 16px;
-  overflow-x: auto;
-  padding-bottom: 16px;
-  margin-bottom: 60px;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(212,168,67,0.3) transparent;
-}
-.movies-scroll::-webkit-scrollbar { height: 6px; }
-.movies-scroll::-webkit-scrollbar-thumb { background: rgba(212,168,67,0.3); border-radius: 3px; }
-.movie-mini-card {
-  flex-shrink: 0;
-  width: 160px;
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.3s;
-}
-.movie-mini-card:hover {
-  transform: translateY(-4px);
-  color: inherit;
-}
-.movie-mini-poster {
-  width: 160px;
-  height: 160px;
-  border-radius: 12px;
-  overflow: hidden;
+.showcase-poster {
   position: relative;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: #1a1a2e;
 }
-.movie-mini-poster img {
+.showcase-poster-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s;
+  object-position: center center;
+  transition: transform 0.5s ease;
 }
-.movie-mini-card:hover .movie-mini-poster img {
-  transform: scale(1.08);
+.showcase-card:hover .showcase-poster-img {
+  transform: scale(1.06);
 }
-.movie-mini-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 8px;
-  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+.showcase-poster-emoji {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 3.5rem;
+}
+.showcase-poster-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);
+  display: flex;
+  align-items: flex-end;
   justify-content: flex-end;
+  padding: 10px;
+  pointer-events: none;
 }
-.movie-mini-number {
-  font-size: 0.7rem;
+.showcase-badge {
+  font-size: 0.72rem;
   font-weight: 700;
-  color: rgba(255,255,255,0.8);
-  background: rgba(0,0,0,0.4);
-  padding: 2px 8px;
+  color: rgba(255,255,255,0.9);
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(6px);
+  padding: 3px 10px;
   border-radius: 10px;
-  backdrop-filter: blur(4px);
+  letter-spacing: 0.5px;
+  font-family: 'Cinzel', serif;
 }
-.movie-mini-info {
-  padding: 10px 4px 0;
-  text-align: center;
+.showcase-info {
+  padding: 14px 14px 16px;
 }
-.movie-mini-title {
-  font-size: 0.8rem;
+.showcase-title {
+  font-size: 0.9rem;
   color: var(--color-parchment);
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.4;
   margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.movie-mini-year {
-  font-size: 0.7rem;
+.showcase-meta {
+  font-size: 0.75rem;
   color: rgba(245,230,200,0.4);
+}
+@media (max-width: 640px) {
+  .showcase-card { width: 160px; }
+  .showcase-scroll { gap: 14px; }
+  .showcase-info { padding: 10px 10px 12px; }
+  .showcase-title { font-size: 0.82rem; }
 }
 
 /* 首页新闻网格 */
@@ -654,6 +636,20 @@ a:hover { color: var(--color-gold-light); }
 }
 .news-home-summary { font-size: 0.8rem; color: rgba(245,230,200,0.5); line-height: 1.5; }
 .news-home-date { font-size: 0.75rem; color: rgba(245,230,200,0.3); margin-top: 8px; }
+
+/* 首页人物风云榜网格 — 固定 2 行 */
+.home-characters-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
+  overflow: hidden;
+}
+.home-char-card {
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+}
 
 /* 分院帽横幅 */
 .sorting-banner {
@@ -866,12 +862,13 @@ a:hover { color: var(--color-gold-light); }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
+  padding-top: 8px;
 }
 .book-card {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.06);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: visible;
   text-decoration: none;
   color: inherit;
   transition: all 0.4s ease;
@@ -882,12 +879,13 @@ a:hover { color: var(--color-gold-light); }
   color: inherit;
 }
 .book-card-cover {
-  height: 180px;
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 .book-card-cover-img {
   height: 100%;
@@ -910,7 +908,7 @@ a:hover { color: var(--color-gold-light); }
   font-size: 0.75rem;
   color: #fff;
 }
-.book-card-body { padding: 20px; }
+.book-card-body { padding: 20px; border-radius: 0 0 var(--radius) var(--radius); overflow: hidden; }
 .book-card-title { font-size: 1.05rem; color: var(--color-gold); margin-bottom: 4px; font-weight: 600; }
 .book-card-title-en { font-size: 0.75rem; color: rgba(245,230,200,0.4); margin-bottom: 12px; }
 .book-card-meta { display: flex; gap: 12px; margin-bottom: 12px; font-size: 0.78rem; color: rgba(245,230,200,0.5); }
@@ -1371,6 +1369,27 @@ a:hover { color: var(--color-gold-light); }
 .spell-desc { font-size: 0.82rem; color: rgba(245,230,200,0.5); line-height: 1.6; margin-bottom: 8px; }
 .spell-source { font-size: 0.75rem; color: rgba(245,230,200,0.3); }
 
+/* 语义化别名：其他百科复用 spell-card 布局结构 */
+.creature-card,
+.magic-item-card,
+.place-card,
+.potion-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border-left: 3px solid;
+  transition: all 0.3s;
+}
+
+.creature-card:hover,
+.magic-item-card:hover,
+.place-card:hover,
+.potion-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
 /* ============================
    新闻
    ============================ */
@@ -1773,6 +1792,7 @@ a:hover { color: var(--color-gold-light); }
   .mobile-menu-btn { display: block; }
   .feature-grid { grid-template-columns: 1fr; }
   .character-grid { grid-template-columns: 1fr; }
+  .home-characters-grid { grid-template-columns: repeat(3, 1fr); }
   .books-grid { grid-template-columns: 1fr; }
   .movies-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .spells-grid { grid-template-columns: 1fr; }
@@ -1816,6 +1836,7 @@ a:hover { color: var(--color-gold-light); }
   .hero-title { font-size: 1.6rem; letter-spacing: 1px; }
   .hero-subtitle { font-size: 0.85rem; }
   .hero-stats { flex-direction: column; gap: 12px; }
+  .home-characters-grid { grid-template-columns: repeat(2, 1fr); }
   .page-title { font-size: 1.3rem; }
   .page-subtitle { font-size: 0.82rem; }
   .container { padding: 20px 14px; }
@@ -2217,4 +2238,267 @@ a:hover { color: var(--color-gold-light); }
 .stories-empty p {
   margin-top: 12px;
   font-size: 1rem;
+}
+
+/* ============================
+   统计面板 StatsPanel
+   ============================ */
+.stats-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+  padding: 24px;
+  background: rgba(212, 175, 55, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.stats-panel--compact {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin: 0 0 36px;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.stats-panel--compact .stat-card {
+  padding: 16px 12px;
+  background: linear-gradient(135deg, rgba(30, 30, 60, 0.5), rgba(20, 20, 50, 0.7));
+  border-radius: 10px;
+  border: 1px solid rgba(212, 168, 67, 0.1);
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card__icon {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.stat-card__value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-gold);
+}
+
+.stat-card__label {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+.stats-panel--compact .stat-card__icon {
+  font-size: 1.4rem;
+}
+
+.stats-panel--compact .stat-card__value {
+  font-size: 1rem;
+}
+
+.stats-panel--compact .stat-card__label {
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+  opacity: 1;
+}
+
+/* ============================
+   WikiCrossLinks 交叉导航
+   ============================ */
+.wiki-cross-links {
+  margin-top: 40px;
+  padding: 24px;
+  border-radius: 16px;
+  background: rgba(212, 175, 55, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.wiki-cross-links__title {
+  font-size: 1rem;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.wiki-cross-links__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+
+.wiki-cross-link {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.wiki-cross-link:hover {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: rgba(212, 175, 55, 0.3);
+  transform: translateY(-2px);
+}
+
+.wiki-cross-link__label {
+  font-size: 0.82rem;
+  color: var(--color-parchment);
+  font-weight: 500;
+}
+
+.wiki-cross-link__desc {
+  font-size: 0.65rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+/* ============================
+   通用 hover 卡片效果
+   ============================ */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  border-color: rgba(212, 175, 55, 0.4) !important;
+}
+
+.hover-lift-sm {
+  transition: all 0.3s ease;
+}
+
+.hover-lift-sm:hover {
+  background: rgba(212, 175, 55, 0.12) !important;
+  border-color: rgba(212, 175, 55, 0.3) !important;
+  transform: translateY(-2px);
+}
+
+.hover-card-gold {
+  transition: all 0.3s ease;
+}
+
+.hover-card-gold:hover {
+  background: rgba(212, 175, 55, 0.1) !important;
+  border-color: rgba(212, 175, 55, 0.35) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hover-tag-gold {
+  transition: all 0.3s ease;
+}
+
+.hover-tag-gold:hover {
+  background: rgba(212, 175, 55, 0.2) !important;
+  border-color: rgba(212, 175, 55, 0.5) !important;
+  color: var(--color-gold) !important;
+}
+
+.hover-link-underline {
+  transition: text-decoration 0.3s ease;
+}
+
+.hover-link-underline:hover {
+  text-decoration: underline;
+}
+
+.hover-gallery-btn {
+  transition: background 0.3s ease;
+}
+
+.hover-gallery-btn:hover {
+  background: rgba(212, 175, 55, 0.2) !important;
+}
+
+.hover-slide-right {
+  transition: all 0.3s ease;
+}
+
+.hover-slide-right:hover {
+  background: rgba(212, 175, 55, 0.1) !important;
+  border-color: rgba(212, 175, 55, 0.35) !important;
+  transform: translateX(4px);
+}
+
+.hover-lift-subtle {
+  transition: all 0.3s ease;
+}
+
+.hover-lift-subtle:hover {
+  background: rgba(212, 175, 55, 0.08) !important;
+  transform: translateY(-2px);
+}
+
+.hover-border-gold {
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.hover-border-gold:hover {
+  border-color: rgba(212, 168, 67, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+.hover-bg-subtle {
+  transition: background 0.2s;
+}
+
+.hover-bg-subtle:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ============================
+   角色头像通用样式
+   ============================ */
+.char-avatar-circle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ============================
+   内联 grid 布局 → CSS 类
+   ============================ */
+.grid-auto-140 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.grid-auto-180 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.grid-auto-200 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.grid-auto-280 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.grid-auto-260 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+}
+
+.grid-auto-320 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
 }

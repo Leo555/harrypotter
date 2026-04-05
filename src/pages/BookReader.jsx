@@ -185,14 +185,7 @@ export default function BookReader() {
                 transition: 'border-color 0.3s, transform 0.2s',
                 color: 'var(--color-text)',
               }}
-              onMouseEnter={e => {
-                e.currentTarget.style.borderColor = 'rgba(212, 168, 67, 0.4)'
-                e.currentTarget.style.transform = 'translateY(-2px)'
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.borderColor = 'rgba(212, 168, 67, 0.12)'
-                e.currentTarget.style.transform = 'translateY(0)'
-              }}
+              className="hover-border-gold"
             >
               <span style={{
                 width: '36px',
@@ -349,8 +342,7 @@ export default function BookReader() {
                         fontSize: '0.82rem',
                         transition: 'background 0.2s',
                       }}
-                      onMouseEnter={e => { if (ch.number !== chapterNum) e.currentTarget.style.background = 'rgba(255,255,255,0.05)' }}
-                      onMouseLeave={e => { if (ch.number !== chapterNum) e.currentTarget.style.background = 'transparent' }}
+                      className="hover-bg-subtle"
                     >
                       <span style={{ color: 'var(--color-gold)', marginRight: '8px', fontSize: '0.75rem' }}>
                         {ch.number}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import useDocumentHead from '../hooks/useDocumentHead'
 import WikiCrossLinks from '../components/WikiCrossLinks'
+import StatsPanel from '../components/StatsPanel'
 
 const places = [
   { emoji: '🏰', name: '霍格沃茨魔法学校', nameEn: 'Hogwarts School', location: '苏格兰高地', type: '学校', desc: '全世界最著名的魔法学校，约于公元990年由戈德里克·格兰芬多、赫尔加·赫奇帕奇、罗伊纳·拉文克劳和萨拉查·斯莱特林四人共同创建。城堡拥有142道楼梯（其中有些会移动）、无数密室和秘道。对麻瓜来说，它看起来只是一片危险的废墟和"禁止入内"的标志。七楼的有求必应室会根据需求变化形态。' },
@@ -51,29 +52,12 @@ export default function Places() {
       <p className="page-subtitle">从霍格沃茨到对角巷，走遍魔法世界的每一个角落</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '收录地点', value: `${places.length} 个`, icon: '🗺️' },
-          { label: '地点类型', value: `${types.length} 种`, icon: '🏷️' },
-          { label: '伦敦地区', value: `${places.filter(p => p.location.includes('伦敦')).length} 个`, icon: '🇬🇧' },
-          { label: '苏格兰', value: `${places.filter(p => p.location.includes('苏格兰')).length} 个`, icon: '🏴' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '收录地点', value: `${places.length} 个`, icon: '🗺️' },
+        { label: '地点类型', value: `${types.length} 种`, icon: '🏷️' },
+        { label: '伦敦地区', value: `${places.filter(p => p.location.includes('伦敦')).length} 个`, icon: '🇬🇧' },
+        { label: '苏格兰', value: `${places.filter(p => p.location.includes('苏格兰')).length} 个`, icon: '🏴' },
+      ]} />
 
       <div className="search-container">
         <input
@@ -105,7 +89,7 @@ export default function Places() {
 
       <div className="spells-grid">
         {filtered.map((place, i) => (
-          <div key={i} className="spell-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
+          <div key={i} className="place-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
               <span className="spell-icon">{place.emoji}</span>
               <div>

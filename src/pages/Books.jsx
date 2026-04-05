@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import books from '../data/books'
 import useDocumentHead from '../hooks/useDocumentHead'
+import StatsPanel from '../components/StatsPanel'
 
 export default function Books() {
   useDocumentHead({
@@ -19,31 +20,14 @@ export default function Books() {
       <p className="page-subtitle">J.K.罗琳创作的七部哈利·波特小说，构建了一个完整而迷人的魔法世界</p>
 
       {/* 统计面板 */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-        gap: '16px',
-        margin: '32px 0',
-        padding: '24px',
-        background: 'rgba(212,175,55,0.05)',
-        borderRadius: '16px',
-        border: '1px solid rgba(212,175,55,0.15)',
-      }}>
-        {[
-          { label: '全系列', value: '7 部', icon: '📚' },
-          { label: '总页数', value: `${totalPages} 页`, icon: '📄' },
-          { label: '总章节', value: `${totalChapters} 章`, icon: '📑' },
-          { label: '时间跨度', value: '1997-2007', icon: '📅' },
-          { label: '经典名句', value: `${totalQuotes} 条`, icon: '💬' },
-          { label: '全球销量', value: '5亿+册', icon: '🌍' },
-        ].map((stat, i) => (
-          <div key={i} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
-            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
-            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
+      <StatsPanel stats={[
+        { label: '全系列', value: '7 部', icon: '📚' },
+        { label: '总页数', value: `${totalPages} 页`, icon: '📄' },
+        { label: '总章节', value: `${totalChapters} 章`, icon: '📑' },
+        { label: '时间跨度', value: '1997-2007', icon: '📅' },
+        { label: '经典名句', value: `${totalQuotes} 条`, icon: '💬' },
+        { label: '全球销量', value: '5亿+册', icon: '🌍' },
+      ]} />
 
       {/* 书籍卡片 */}
       <div className="books-grid">

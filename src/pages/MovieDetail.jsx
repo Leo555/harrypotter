@@ -224,11 +224,7 @@ export default function MovieDetail() {
               <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginBottom: '16px' }}>
                 点击卡片查看详细人物档案
               </p>
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-                gap: '12px',
-              }}>
+              <div className="grid-auto-200">
                 {relatedCharacters.map(char => (
                   <Link
                     key={char.id}
@@ -242,18 +238,7 @@ export default function MovieDetail() {
                       transition: 'all 0.3s ease',
                       display: 'block',
                     }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.background = 'rgba(212,175,55,0.1)'
-                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.35)'
-                      e.currentTarget.style.transform = 'translateY(-3px)'
-                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.3)'
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.background = 'rgba(212,175,55,0.04)'
-                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.12)'
-                      e.currentTarget.style.transform = 'translateY(0)'
-                      e.currentTarget.style.boxShadow = 'none'
-                    }}
+                    className="hover-card-gold"
                   >
                     <div style={{
                       width: '56px',
@@ -271,9 +256,7 @@ export default function MovieDetail() {
                       fontSize: '2rem',
                     }}>
                       {char.image ? (
-                        <img src={char.image} alt={char.name} style={{
-                          width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
-                        }} />
+                        <img src={char.image} alt={char.name} className="char-avatar-circle" />
                       ) : char.avatar}
                     </div>
                     <div style={{
