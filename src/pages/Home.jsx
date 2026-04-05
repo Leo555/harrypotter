@@ -33,8 +33,9 @@ const quotes = [
 
 const interactiveItems = [
   { path: '/interactive/sorting', icon: '🎩', title: '分院帽测试', desc: '回答十道问题，发现你属于哪个学院', status: 'active' },
-  { path: '/interactive/patronus', icon: '🦌', title: '守护神测试', desc: '呼神护卫——发现属于你的守护神', status: 'coming' },
-  { path: '/interactive/wand', icon: '🪄', title: '魔杖匹配', desc: '魔杖选择巫师——找到你的命定之杖', status: 'coming' },
+  { path: '/interactive/patronus', icon: '🦌', title: '守护神测试', desc: '呼神护卫——发现属于你的守护神', status: 'active' },
+  { path: '/interactive/wand', icon: '🪄', title: '魔杖匹配', desc: '魔杖选择巫师——找到你的命定之杖', status: 'active' },
+  { path: '/reader', icon: '📖', title: '原著阅读', desc: '在线阅读七部英文原著，沉浸式体验', status: 'active' },
 ]
 
 export default function Home() {

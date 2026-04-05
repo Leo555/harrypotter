@@ -73,6 +73,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <ScrollToTopButton />
     </BrowserRouter>
   )
 }

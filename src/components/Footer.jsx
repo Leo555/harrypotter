@@ -38,6 +38,9 @@ export default function Footer() {
           <div className="footer-col">
             <h4>互动体验</h4>
             <Link to="/interactive/sorting">分院帽测试</Link>
+            <Link to="/interactive/patronus">守护神测试</Link>
+            <Link to="/interactive/wand">魔杖匹配</Link>
+            <Link to="/reader">原著阅读</Link>
             <Link to="/news">预言家日报</Link>
           </div>
         </div>
