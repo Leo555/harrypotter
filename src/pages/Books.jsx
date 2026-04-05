@@ -81,7 +81,11 @@ export default function Books() {
         {books.map(book => (
           <Link to={`/books/${book.id}`} key={book.id} id={`book-${book.number}`} className="book-card">
             <div className="book-card-cover" style={{ background: `linear-gradient(135deg, ${book.color}, ${book.color}88)` }}>
-              <span className="book-card-emoji">{book.cover}</span>
+              {book.coverImage ? (
+                <img src={book.coverImage} alt={book.title} className="book-card-cover-img" />
+              ) : (
+                <span className="book-card-emoji">{book.cover}</span>
+              )}
               <span className="book-card-number">第{book.number}部</span>
             </div>
             <div className="book-card-body">

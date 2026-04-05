@@ -41,8 +41,12 @@ export default function BookDetail() {
       <div className="book-detail">
         {/* 头部 */}
         <div className="book-detail-header" style={{ borderColor: book.color }}>
-          <div className="book-detail-cover" style={{ background: `linear-gradient(135deg, ${book.color}, ${book.color}88)` }}>
-            <span style={{ fontSize: '4rem' }}>{book.cover}</span>
+          <div className="book-detail-cover" style={{ background: book.coverImage ? 'transparent' : `linear-gradient(135deg, ${book.color}, ${book.color}88)` }}>
+            {book.coverImage ? (
+              <img src={book.coverImage} alt={book.title} className="book-detail-cover-img" />
+            ) : (
+              <span style={{ fontSize: '4rem' }}>{book.cover}</span>
+            )}
           </div>
           <div className="book-detail-info">
             <div className="book-detail-number" style={{ color: book.color }}>第{book.number}部</div>
@@ -58,6 +62,28 @@ export default function BookDetail() {
                 🏰 {book.hogwartsYear}
               </div>
             )}
+            <Link
+              to={`/reader/${book.number}`}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                marginTop: '14px',
+                padding: '8px 20px',
+                borderRadius: '20px',
+                background: `${book.color}22`,
+                color: book.color,
+                border: `1px solid ${book.color}44`,
+                fontSize: '0.85rem',
+                fontWeight: '600',
+                textDecoration: 'none',
+                transition: 'all 0.3s',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.background = book.color; e.currentTarget.style.color = '#fff' }}
+              onMouseLeave={e => { e.currentTarget.style.background = `${book.color}22`; e.currentTarget.style.color = book.color }}
+            >
+              📖 开始阅读原著
+            </Link>
           </div>
         </div>
 
@@ -233,10 +259,15 @@ export default function BookDetail() {
           <h2 className="detail-section-title">📑 章节目录</h2>
           <div className="chapters-grid">
             {book.chapters.map((chapter, i) => (
-              <div key={i} className="chapter-item">
+              <Link
+                to={`/reader/${book.number}/${i + 1}`}
+                key={i}
+                className="chapter-item chapter-item-link"
+              >
                 <span className="chapter-number">第{i + 1}章</span>
                 <span className="chapter-name">{chapter}</span>
-              </div>
+                <span className="chapter-read-icon">📖</span>
+              </Link>
             ))}
           </div>
         </div>

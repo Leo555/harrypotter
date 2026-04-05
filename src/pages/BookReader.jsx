@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import useDocumentHead from '../hooks/useDocumentHead'
-import { loadBook, bookTitles, bookCovers, bookColors } from '../data/bookLoader'
+import { loadBook, bookTitles, bookTitlesEn, bookCovers, bookColors } from '../data/bookLoader'
+import books from '../data/books'
 
 export default function BookReader() {
   const { bookId, chapterId } = useParams()
@@ -14,20 +15,29 @@ export default function BookReader() {
   const [error, setError] = useState(null)
   const [fontSize, setFontSize] = useState(16)
   const [showToc, setShowToc] = useState(false)
+  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'en')
   const contentRef = useRef(null)
   const tocRef = useRef(null)
 
+  const toggleLang = () => {
+    setLang(prev => {
+      const next = prev === 'en' ? 'cn' : 'en'
+      localStorage.setItem('hp-reader-lang', next)
+      return next
+    })
+  }
+
   useDocumentHead({
-    title: `📖 ${bookTitles[bookNum] || '原著阅读器'} — 在线阅读`,
-    description: `在线阅读哈利波特原著《${bookTitles[bookNum] || ''}》，沉浸式阅读体验。`,
-    keywords: `哈利波特在线阅读,${bookTitles[bookNum] || ''},原著,英文原版`,
+    title: `📖 ${bookTitles[bookNum] || '原著阅读器'} — ${lang === 'cn' ? '中文版' : '英文原版'}`,
+    description: `在线阅读哈利波特原著《${bookTitles[bookNum] || ''}》${lang === 'cn' ? '中文版' : '英文原版'}，沉浸式阅读体验。`,
+    keywords: `哈利波特在线阅读,${bookTitles[bookNum] || ''},原著,${lang === 'cn' ? '中文版' : '英文原版'}`,
   })
 
   useEffect(() => {
     let cancelled = false
     setLoading(true)
     setError(null)
-    loadBook(bookNum)
+    loadBook(bookNum, lang)
       .then(data => {
         if (!cancelled) {
           setBookData(data)
@@ -41,7 +51,7 @@ export default function BookReader() {
         }
       })
     return () => { cancelled = true }
-  }, [bookNum])
+  }, [bookNum, lang])
 
   // 滚动到顶部
   useEffect(() => {
@@ -103,7 +113,7 @@ export default function BookReader() {
             正在打开 {bookTitles[bookNum] || '书籍'}...
           </h2>
           <p style={{ color: 'var(--color-text-secondary)', fontSize: '0.9rem' }}>
-            翻开羊皮纸，魔法文字正在浮现
+            {lang === 'cn' ? '翻开羊皮纸，中文译本正在浮现' : '翻开羊皮纸，魔法文字正在浮现'}
           </p>
         </div>
       </div>
@@ -130,8 +140,27 @@ export default function BookReader() {
   if (!chapterId) {
     return (
       <div className="container fade-in">
-        <h1 className="page-title">{bookCovers[bookNum]} {bookData.title}</h1>
-        <p className="page-subtitle">选择章节开始阅读（英文原版）</p>
+        <h1 className="page-title">{bookCovers[bookNum]} {bookData.titleCn || bookData.title}</h1>
+        <p className="page-subtitle">
+          选择章节开始阅读（{lang === 'cn' ? '中文译本' : '英文原版'}）
+          <button
+            onClick={toggleLang}
+            style={{
+              marginLeft: '12px',
+              padding: '4px 14px',
+              borderRadius: '14px',
+              border: '1px solid rgba(212, 168, 67, 0.3)',
+              background: 'rgba(212, 168, 67, 0.1)',
+              color: 'var(--color-gold)',
+              cursor: 'pointer',
+              fontSize: '0.82rem',
+              fontWeight: 600,
+              transition: 'all 0.3s',
+            }}
+          >
+            {lang === 'cn' ? '🇬🇧 切换英文' : '🇨🇳 切换中文'}
+          </button>
+        </p>
 
         <div style={{
           display: 'grid',
@@ -182,17 +211,26 @@ export default function BookReader() {
               </span>
               <div>
                 <div style={{ fontSize: '0.92rem', fontWeight: 600 }}>{ch.titleCn}</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
-                  {ch.title}
-                </div>
+                {lang === 'en' && ch.title !== ch.titleCn && (
+                  <div style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
+                    {ch.title}
+                  </div>
+                )}
               </div>
             </button>
           ))}
         </div>
 
-        <div style={{ textAlign: 'center', marginTop: '40px' }}>
+        <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
           <Link to="/reader" className="btn btn-outline" style={{ textDecoration: 'none' }}>
             ← 返回书架
+          </Link>
+          <Link
+            to={`/books/${books.find(b => b.number === bookNum)?.id || ''}`}
+            className="btn btn-outline"
+            style={{ textDecoration: 'none' }}
+          >
+            📚 查看本书百科
           </Link>
         </div>
       </div>
@@ -334,6 +372,27 @@ export default function BookReader() {
             {chapterNum} / {totalChapters}
           </div>
 
+          {/* 语言切换 */}
+          <button
+            onClick={toggleLang}
+            style={{
+              padding: '5px 12px',
+              borderRadius: '14px',
+              border: '1px solid rgba(212, 168, 67, 0.25)',
+              background: 'rgba(212, 168, 67, 0.08)',
+              color: 'var(--color-gold)',
+              cursor: 'pointer',
+              fontSize: '0.75rem',
+              fontWeight: 600,
+              flexShrink: 0,
+              transition: 'all 0.3s',
+              whiteSpace: 'nowrap',
+            }}
+            title={lang === 'cn' ? '切换到英文原版' : '切换到中文译本'}
+          >
+            {lang === 'cn' ? '🇨🇳 中文' : '🇬🇧 EN'}
+          </button>
+
           {/* 右：字号控制 */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexShrink: 0 }}>
             <button
@@ -384,19 +443,19 @@ export default function BookReader() {
             color: 'var(--color-gold)',
             letterSpacing: '3px',
             marginBottom: '8px',
-            textTransform: 'uppercase',
+            textTransform: lang === 'en' ? 'uppercase' : 'none',
           }}>
-            Chapter {chapterNum}
+            {lang === 'cn' ? `第 ${chapterNum} 章` : `Chapter ${chapterNum}`}
           </div>
           <h1 style={{
-            fontFamily: "'Cinzel', serif",
+            fontFamily: lang === 'cn' ? "'Noto Serif SC', 'SimSun', serif" : "'Cinzel', serif",
             fontSize: '1.6rem',
             color: 'var(--color-text)',
             marginBottom: '6px',
           }}>
             {chapter.titleCn}
           </h1>
-          {chapter.title !== `Chapter ${chapterNum}` && (
+          {lang === 'en' && chapter.title !== `Chapter ${chapterNum}` && chapter.title !== chapter.titleCn && (
             <div style={{
               fontSize: '0.9rem',
               color: 'var(--color-text-secondary)',
@@ -417,9 +476,11 @@ export default function BookReader() {
         {/* 段落 */}
         <div style={{
           fontSize: `${fontSize}px`,
-          lineHeight: 1.95,
+          lineHeight: lang === 'cn' ? 2.1 : 1.95,
           color: 'rgba(220, 220, 230, 0.9)',
-          fontFamily: "'Georgia', 'Times New Roman', serif",
+          fontFamily: lang === 'cn'
+            ? "'Noto Serif SC', 'Source Han Serif SC', 'SimSun', 'STSong', serif"
+            : "'Georgia', 'Times New Roman', serif",
         }}>
           {paragraphs.map((p, i) => (
             <p key={i} style={{
@@ -464,7 +525,7 @@ export default function BookReader() {
           ) : (
             <div style={{ textAlign: 'right' }}>
               <div style={{ fontSize: '0.82rem', color: 'var(--color-gold)', marginBottom: '8px' }}>
-                ✨ 恭喜你读完了《{bookData.title}》！
+                ✨ 恭喜你读完了《{bookData.titleCn || bookData.title}》！
               </div>
               {bookNum < 7 ? (
                 <Link
