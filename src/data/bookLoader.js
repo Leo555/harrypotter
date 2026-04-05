@@ -1,0 +1,165 @@
+// 书籍文本加载器 — 动态导入原著文本并按章节分割
+// 文件映射
+const bookFiles = {
+  1: () => import('../../books/Book1-Harry_Potter_and_the_Sorcerers_Stone.txt?raw'),
+  2: () => import('../../books/Book2-Harry_Potter_and_the_Chamber_of_Secrets.txt?raw'),
+  3: () => import('../../books/Book3-Harry_Potter_and_the_Prisoner_of_Azkaban.txt?raw'),
+  4: () => import('../../books/Book4-Harry_Potter_and_the_Goblet_of_Fire.txt?raw'),
+  5: () => import('../../books/Book5-Harry_Potter_and_the_Order_of_the_Phoenix.txt?raw'),
+  6: () => import('../../books/Book6-Harry_Potter_and_the_Half_Blood_Prince.txt?raw'),
+  7: () => import('../../books/Book7-Harry_Potter_and_the_Deathly_Hallows.txt?raw'),
+}
+
+// 中文章节名映射（来自 books.js 数据）
+const chapterNames = {
+  1: [
+    '大难不死的男孩', '悄悄消失的玻璃', '猫头鹰传书', '钥匙管理员',
+    '对角巷', '从九又四分之三站台开始的旅程', '分院帽', '魔药课老师',
+    '午夜决斗', '万圣节', '魁地奇比赛', '厄里斯魔镜',
+    '尼可·勒梅', '挪威脊背龙诺伯', '禁林', '穿越活板门', '双面人'
+  ],
+  2: [
+    '最糟糕的生日', '多比的警告', '陋居', '在丽痕书店',
+    '打人柳', '吉德罗·洛哈特', '泥巴种和低声细语', '忌辰晚会',
+    '墙上的字', '失控的游走球', '决斗俱乐部', '复方汤剂',
+    '最秘密的日记', '大蜘蛛阿拉戈克', '密室', '斯莱特林的继承人',
+    '凤凰与宝剑', '多比的报偿'
+  ],
+  3: [
+    '猫头鹰邮递', '玛姬姑妈的大错', '骑士公共汽车', '破釜酒吧',
+    '摄魂怪', '鹰爪与茶叶', '柜子里的博格特', '胖夫人逃跑',
+    '凶兆', '活点地图', '火弩箭', '守护神', '格兰芬多对拉文克劳',
+    '斯内普的怨恨', '魁地奇决赛', '特里劳妮教授的预言',
+    '猫、老鼠和狗', '月亮脸、虫尾巴、大脚板和尖头叉子',
+    '伏地魔的仆人', '摄魂怪之吻', '赫敏的秘密', '又见猫头鹰邮递'
+  ],
+  4: [
+    '里德尔府', '伤疤', '邀请', '回到陋居',
+    '韦斯莱魔法把戏坊', '门钥匙', '行李箱和扣子', '魁地奇世界杯',
+    '黑魔标记', '魔法部的混乱', '登上霍格沃茨特快列车', '三强争霸赛',
+    '疯眼汉穆迪', '不可饶恕咒', '布斯巴顿和德姆斯特朗',
+    '火焰杯', '四位勇士', '检验魔杖', '匈牙利树蜂',
+    '第一个项目', '家养小精灵解放阵线', '意外的挑战', '丽塔·斯基特的独家报道',
+    '彩蛋', '第二个项目', '大脚板归来', '克劳奇先生的疯狂',
+    '梦境', '冥想盆', '第三个项目', '食死徒', '骨肉仆', '黑魔王崛起',
+    '闪回咒', '十字路口', '真相', '分道扬镳', '开始'
+  ],
+  5: [
+    '达力·德思礼遭遇摄魂怪', '猫头鹰群', '先遣警卫', '格里莫广场12号',
+    '凤凰社', '最高贵的布莱克家族', '魔法部', '听证会',
+    '韦斯莱夫人的烦恼', '卢娜·洛夫古德', '分院帽的新歌', '乌姆里奇教授',
+    '用羽毛笔罚写', '珀西和大脚板', '霍格沃茨高级调查官',
+    '在猪头酒吧', '第二十四号教育令', '邓布利多军',
+    '狮子和蛇', '海格的故事', '蛇眼', '圣芒戈魔法伤病医院',
+    '封闭病房', '大脑封闭术', '被占的小甲虫', '见到了出乎意料的人',
+    '蜈蚣', '斯内普最痛苦的记忆', '就业指导', '格洛普',
+    'O.W.L.考试', '在帷幔之外', '反击', '魔法部',
+    '帷幔的彼端', '唯一一个他惧怕的人', '失去的预言', '迷失而又找回的'
+  ],
+  6: [
+    '另一位部长', '蜘蛛尾巷', '遗嘱与遗愿', '霍拉斯·斯拉格霍恩',
+    '过量的黏痰', '德拉科的绕道', '鼻涕虫俱乐部', '斯内普的胜利',
+    '混血王子', '盖恩特家的小屋', '赫敏的帮手', '银器和蛋白石',
+    '绝密的里德尔', '菲利克斯·福灵剂', '牢不可破的誓言', '冰冻的圣诞节',
+    '迟缓的记忆', '生日的惊喜', '小精灵尾巴', '伏地魔的请求',
+    '不可知的房间', '葬礼之后', '魂器', '神锋无影',
+    '窥探者', '岩洞', '闪电击中的塔楼', '凤凰挽歌',
+    '混血王子逃跑了', '白色坟墓'
+  ],
+  7: [
+    '黑魔王归来', '在逃', '德思礼一家离开', '七个波特',
+    '堕落的勇士', '身穿睡衣的食尸鬼', '阿不思·邓布利多的遗嘱', '婚礼',
+    '藏身之处', '克利切的故事', '贿赂', '魔法即是权力',
+    '麻瓜出身登记委员会', '小偷', '妖精的报复', '戈德里克山谷',
+    '巴希达的秘密', '阿不思·邓布利多的生与谎', '银色的牝鹿', '卢娜的爸爸',
+    '三兄弟的传说', '死亡圣器', '马尔福庄园', '魔杖制作人',
+    '贝壳小屋', '古灵阁', '最后的隐匿', '迷失的冠冕',
+    '劫后余生', '西弗勒斯·斯内普的故事', '禁林',
+    '国王十字车站', '裂缝', '缺陷', '再一次', '尾声：十九年后'
+  ],
+}
+
+const bookTitles = {
+  1: '哈利·波特与魔法石',
+  2: '哈利·波特与密室',
+  3: '哈利·波特与阿兹卡班囚徒',
+  4: '哈利·波特与火焰杯',
+  5: '哈利·波特与凤凰社',
+  6: '哈利·波特与混血王子',
+  7: '哈利·波特与死亡圣器',
+}
+
+const bookCovers = {
+  1: '📕', 2: '📗', 3: '📘', 4: '📙', 5: '📓', 6: '📒', 7: '📔',
+}
+
+const bookColors = {
+  1: '#740001', 2: '#1a472a', 3: '#0e1a40', 4: '#ecb939',
+  5: '#5a2d82', 6: '#2a623d', 7: '#1a1a2e',
+}
+
+/**
+ * 加载书籍文本并分割为章节
+ * @param {number} bookNum - 书号 (1-7)
+ * @returns {Promise<{ title: string, chapters: Array<{ title: string, titleCn: string, content: string }> }>}
+ */
+export async function loadBook(bookNum) {
+  const loader = bookFiles[bookNum]
+  if (!loader) throw new Error(`Book ${bookNum} not found`)
+
+  const module = await loader()
+  const text = module.default
+
+  // 分割为章节 — 支持不同格式
+  // 格式1: "CHAPTER ONE\nTITLE" (Book 1-3 前几卷)
+  // 格式2: "Chapter One\n\nThe Dark Lord Ascending" (Book 7 等)
+  const chapterRegex = /(?:^|\n)\s*(CHAPTER|Chapter)\s+([A-Za-z-]+(?:\s+[A-Za-z-]+)*)\s*\n/g
+  const splits = []
+  let match
+
+  while ((match = chapterRegex.exec(text)) !== null) {
+    splits.push({
+      index: match.index,
+      raw: match[0],
+    })
+  }
+
+  const cnNames = chapterNames[bookNum] || []
+  const chapters = []
+
+  for (let i = 0; i < splits.length; i++) {
+    const start = splits[i].index + splits[i].raw.length
+    const end = i + 1 < splits.length ? splits[i + 1].index : text.length
+    let content = text.slice(start, end).trim()
+
+    // 尝试提取英文章节标题（紧接在 CHAPTER X 后面的下一行）
+    let engTitle = ''
+    const firstNewline = content.indexOf('\n')
+    if (firstNewline > 0 && firstNewline < 80) {
+      const possibleTitle = content.slice(0, firstNewline).trim()
+      // 如果首行全大写或者首字母大写且较短，当作标题
+      if (possibleTitle.length < 80 && possibleTitle.length > 0 &&
+          (possibleTitle === possibleTitle.toUpperCase() || /^[A-Z]/.test(possibleTitle))) {
+        engTitle = possibleTitle
+        content = content.slice(firstNewline).trim()
+      }
+    }
+
+    chapters.push({
+      number: i + 1,
+      title: engTitle || `Chapter ${i + 1}`,
+      titleCn: cnNames[i] || `第${i + 1}章`,
+      content,
+    })
+  }
+
+  return {
+    bookNum,
+    title: bookTitles[bookNum],
+    cover: bookCovers[bookNum],
+    color: bookColors[bookNum],
+    chapters,
+  }
+}
+
+export { bookTitles, bookCovers, bookColors, chapterNames }

@@ -21,6 +21,8 @@ import Patronus from './pages/Patronus'
 import WandMatch from './pages/WandMatch'
 import Timeline from './pages/Timeline'
 import ExtraStories from './pages/ExtraStories'
+import ReaderShelf from './pages/ReaderShelf'
+import BookReader from './pages/BookReader'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -56,6 +58,11 @@ export default function App() {
           <Route path="/interactive/sorting" element={<SortingHat />} />
           <Route path="/interactive/patronus" element={<Patronus />} />
           <Route path="/interactive/wand" element={<WandMatch />} />
+
+          {/* 原著阅读器 */}
+          <Route path="/reader" element={<ReaderShelf />} />
+          <Route path="/reader/:bookId" element={<BookReader />} />
+          <Route path="/reader/:bookId/:chapterId" element={<BookReader />} />
 
           {/* 其他 */}
           <Route path="/timeline" element={<Timeline />} />

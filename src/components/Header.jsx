@@ -34,6 +34,10 @@ const navItems = [
     path: '/extra-stories',
   },
   {
+    label: '📖 原著阅读',
+    path: '/reader',
+  },
+  {
     label: '🎯 互动专区',
     path: '/interactive',
     children: [
