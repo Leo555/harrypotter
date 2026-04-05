@@ -1,6 +1,6 @@
-// 书籍文本加载器 — 动态导入原著文本并按章节分割
-// 文件映射
-const bookFiles = {
+// 书籍文本加载器 — 动态导入原著文本并按章节分割，支持中英文双语
+// 英文文件映射
+const bookFilesEn = {
   1: () => import('../../books/Book1-Harry_Potter_and_the_Sorcerers_Stone.txt?raw'),
   2: () => import('../../books/Book2-Harry_Potter_and_the_Chamber_of_Secrets.txt?raw'),
   3: () => import('../../books/Book3-Harry_Potter_and_the_Prisoner_of_Azkaban.txt?raw'),
@@ -8,6 +8,17 @@ const bookFiles = {
   5: () => import('../../books/Book5-Harry_Potter_and_the_Order_of_the_Phoenix.txt?raw'),
   6: () => import('../../books/Book6-Harry_Potter_and_the_Half_Blood_Prince.txt?raw'),
   7: () => import('../../books/Book7-Harry_Potter_and_the_Deathly_Hallows.txt?raw'),
+}
+
+// 中文文件映射
+const bookFilesCn = {
+  1: () => import('../../books/Book1-哈利·波特与魔法石.txt?raw'),
+  2: () => import('../../books/Book2-哈利·波特与密室.txt?raw'),
+  3: () => import('../../books/Book3-哈利·波特与阿兹卡班的囚徒.txt?raw'),
+  4: () => import('../../books/Book4-哈利·波特与火焰杯.txt?raw'),
+  5: () => import('../../books/Book5-哈利·波特与凤凰社.txt?raw'),
+  6: () => import('../../books/Book6-哈利·波特与混血王子.txt?raw'),
+  7: () => import('../../books/Book7-哈利·波特与死亡圣器.txt?raw'),
 }
 
 // 中文章节名映射（来自 books.js 数据）
@@ -89,77 +100,126 @@ const bookTitles = {
   7: '哈利·波特与死亡圣器',
 }
 
+const bookTitlesEn = {
+  1: "Harry Potter and the Sorcerer's Stone",
+  2: 'Harry Potter and the Chamber of Secrets',
+  3: 'Harry Potter and the Prisoner of Azkaban',
+  4: 'Harry Potter and the Goblet of Fire',
+  5: 'Harry Potter and the Order of the Phoenix',
+  6: 'Harry Potter and the Half-Blood Prince',
+  7: 'Harry Potter and the Deathly Hallows',
+}
+
 const bookCovers = {
   1: '📕', 2: '📗', 3: '📘', 4: '📙', 5: '📓', 6: '📒', 7: '📔',
 }
 
 const bookColors = {
-  1: '#740001', 2: '#1a472a', 3: '#0e1a40', 4: '#ecb939',
-  5: '#5a2d82', 6: '#2a623d', 7: '#1a1a2e',
+  1: '#C62828', 2: '#2E7D32', 3: '#1565C0', 4: '#F9A825',
+  5: '#8E24AA', 6: '#00897B', 7: '#E65100',
 }
 
 /**
- * 加载书籍文本并分割为章节
+ * 加载书籍文本并分割为章节（支持中英文）
  * @param {number} bookNum - 书号 (1-7)
- * @returns {Promise<{ title: string, chapters: Array<{ title: string, titleCn: string, content: string }> }>}
+ * @param {'en'|'cn'} lang - 语言，默认 'en'
+ * @returns {Promise<{ title: string, chapters: Array<{ number, title, titleCn, content }>, lang }>}
  */
-export async function loadBook(bookNum) {
-  const loader = bookFiles[bookNum]
+export async function loadBook(bookNum, lang = 'en') {
+  const files = lang === 'cn' ? bookFilesCn : bookFilesEn
+  const loader = files[bookNum]
   if (!loader) throw new Error(`Book ${bookNum} not found`)
 
   const module = await loader()
   const text = module.default
 
-  // 分割为章节 — 支持不同格式
-  // 格式1: "CHAPTER ONE\nTITLE" (Book 1-3 前几卷)
-  // 格式2: "Chapter One\n\nThe Dark Lord Ascending" (Book 7 等)
-  const chapterRegex = /(?:^|\n)\s*(CHAPTER|Chapter)\s+([A-Za-z-]+(?:\s+[A-Za-z-]+)*)\s*\n/g
-  const splits = []
-  let match
-
-  while ((match = chapterRegex.exec(text)) !== null) {
-    splits.push({
-      index: match.index,
-      raw: match[0],
-    })
-  }
-
   const cnNames = chapterNames[bookNum] || []
   const chapters = []
 
-  for (let i = 0; i < splits.length; i++) {
-    const start = splits[i].index + splits[i].raw.length
-    const end = i + 1 < splits.length ? splits[i + 1].index : text.length
-    let content = text.slice(start, end).trim()
+  if (lang === 'cn') {
+    // 中文版：按 "第X章　标题" 分割，同时支持 "尾声" 作为最后一章
+    const cnChapterRegex = /(?:^|\n)(第[一二三四五六七八九十百零\d]+章[\s　]+.+|尾声[\s　]+.+)\n/g
+    const splits = []
+    let match
 
-    // 尝试提取英文章节标题（紧接在 CHAPTER X 后面的下一行）
-    let engTitle = ''
-    const firstNewline = content.indexOf('\n')
-    if (firstNewline > 0 && firstNewline < 80) {
-      const possibleTitle = content.slice(0, firstNewline).trim()
-      // 如果首行全大写或者首字母大写且较短，当作标题
-      if (possibleTitle.length < 80 && possibleTitle.length > 0 &&
-          (possibleTitle === possibleTitle.toUpperCase() || /^[A-Z]/.test(possibleTitle))) {
-        engTitle = possibleTitle
-        content = content.slice(firstNewline).trim()
+    while ((match = cnChapterRegex.exec(text)) !== null) {
+      // 提取章节标题（去掉 "第X章　" 前缀）
+      let heading = match[1].trim()
+      let chTitle = ''
+      const headingMatch = heading.match(/^第[一二三四五六七八九十百零\d]+章[\s　]+(.+)/)
+      if (headingMatch) {
+        chTitle = headingMatch[1].trim()
+      } else if (heading.startsWith('尾声')) {
+        chTitle = heading.replace(/^尾声[\s　]+/, '').trim()
       }
+      splits.push({
+        index: match.index,
+        raw: match[0],
+        chTitle,
+      })
     }
 
-    chapters.push({
-      number: i + 1,
-      title: engTitle || `Chapter ${i + 1}`,
-      titleCn: cnNames[i] || `第${i + 1}章`,
-      content,
-    })
+    for (let i = 0; i < splits.length; i++) {
+      const start = splits[i].index + splits[i].raw.length
+      const end = i + 1 < splits.length ? splits[i + 1].index : text.length
+      const content = text.slice(start, end).trim()
+
+      chapters.push({
+        number: i + 1,
+        title: cnNames[i] || splits[i].chTitle || `第${i + 1}章`,
+        titleCn: cnNames[i] || splits[i].chTitle || `第${i + 1}章`,
+        content,
+      })
+    }
+  } else {
+    // 英文版：按 "CHAPTER X" / "Chapter X" 分割
+    const chapterRegex = /(?:^|\n)\s*(CHAPTER|Chapter)\s+([A-Za-z-]+(?:\s+[A-Za-z-]+)*)\s*\n/g
+    const splits = []
+    let match
+
+    while ((match = chapterRegex.exec(text)) !== null) {
+      splits.push({
+        index: match.index,
+        raw: match[0],
+      })
+    }
+
+    for (let i = 0; i < splits.length; i++) {
+      const start = splits[i].index + splits[i].raw.length
+      const end = i + 1 < splits.length ? splits[i + 1].index : text.length
+      let content = text.slice(start, end).trim()
+
+      // 尝试提取英文章节标题（紧接在 CHAPTER X 后面的下一行）
+      let engTitle = ''
+      const firstNewline = content.indexOf('\n')
+      if (firstNewline > 0 && firstNewline < 80) {
+        const possibleTitle = content.slice(0, firstNewline).trim()
+        if (possibleTitle.length < 80 && possibleTitle.length > 0 &&
+            (possibleTitle === possibleTitle.toUpperCase() || /^[A-Z]/.test(possibleTitle))) {
+          engTitle = possibleTitle
+          content = content.slice(firstNewline).trim()
+        }
+      }
+
+      chapters.push({
+        number: i + 1,
+        title: engTitle || `Chapter ${i + 1}`,
+        titleCn: cnNames[i] || `第${i + 1}章`,
+        content,
+      })
+    }
   }
 
   return {
     bookNum,
-    title: bookTitles[bookNum],
+    title: lang === 'cn' ? bookTitles[bookNum] : bookTitlesEn[bookNum],
+    titleCn: bookTitles[bookNum],
+    titleEn: bookTitlesEn[bookNum],
     cover: bookCovers[bookNum],
     color: bookColors[bookNum],
+    lang,
     chapters,
   }
 }
 
-export { bookTitles, bookCovers, bookColors, chapterNames }
+export { bookTitles, bookTitlesEn, bookCovers, bookColors, chapterNames }

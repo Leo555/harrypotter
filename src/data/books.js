@@ -1,4 +1,11 @@
 // 哈利波特七部原著数据
+// 书籍封面图片映射（文件位于 src/assets/books/）
+const bookCoverImages = import.meta.glob('../assets/books/*.{jpg,png}', { eager: true })
+function getBookCoverImage(id) {
+  const key = Object.keys(bookCoverImages).find(k => k.includes(`/${id}.`))
+  return key ? bookCoverImages[key].default : null
+}
+
 const books = [
   {
     id: 'philosophers-stone',
@@ -8,7 +15,8 @@ const books = [
     year: 1997,
     pages: 309,
     cover: '📕',
-    color: '#740001',
+    coverImage: getBookCoverImage('philosophers-stone'),
+    color: '#C62828',
     hogwartsYear: '一年级（1991-1992）',
     wordCount: '约7.7万字（英文）',
     translator: '苏农（人民文学出版社）',
@@ -55,7 +63,8 @@ const books = [
     year: 1998,
     pages: 341,
     cover: '📗',
-    color: '#1a472a',
+    coverImage: getBookCoverImage('chamber-of-secrets'),
+    color: '#2E7D32',
     hogwartsYear: '二年级（1992-1993）',
     wordCount: '约8.5万字（英文）',
     translator: '马爱农、马爱新（人民文学出版社）',
@@ -102,7 +111,8 @@ const books = [
     year: 1999,
     pages: 435,
     cover: '📘',
-    color: '#0e1a40',
+    coverImage: getBookCoverImage('prisoner-of-azkaban'),
+    color: '#1565C0',
     hogwartsYear: '三年级（1993-1994）',
     wordCount: '约10.7万字（英文）',
     translator: '郑须弥（人民文学出版社）',
@@ -150,7 +160,8 @@ const books = [
     year: 2000,
     pages: 636,
     cover: '📙',
-    color: '#ecb939',
+    coverImage: getBookCoverImage('goblet-of-fire'),
+    color: '#F9A825',
     hogwartsYear: '四年级（1994-1995）',
     wordCount: '约19万字（英文）',
     translator: '马爱新（人民文学出版社）',
@@ -201,7 +212,8 @@ const books = [
     year: 2003,
     pages: 766,
     cover: '📓',
-    color: '#5a2d82',
+    coverImage: getBookCoverImage('order-of-the-phoenix'),
+    color: '#8E24AA',
     hogwartsYear: '五年级（1995-1996）',
     wordCount: '约25.7万字（英文）',
     translator: '马爱农、马爱新（人民文学出版社）',
@@ -254,7 +266,8 @@ const books = [
     year: 2005,
     pages: 607,
     cover: '📒',
-    color: '#2a623d',
+    coverImage: getBookCoverImage('half-blood-prince'),
+    color: '#00897B',
     hogwartsYear: '六年级（1996-1997）',
     wordCount: '约16.9万字（英文）',
     translator: '马爱农、马爱新（人民文学出版社）',
@@ -305,7 +318,8 @@ const books = [
     year: 2007,
     pages: 759,
     cover: '📔',
-    color: '#1a1a2e',
+    coverImage: getBookCoverImage('deathly-hallows'),
+    color: '#E65100',
     hogwartsYear: '七年级（未完成，1997-1998）',
     wordCount: '约19.8万字（英文）',
     translator: '马爱农、马爱新（人民文学出版社）',
