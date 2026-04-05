@@ -1,5 +1,6 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import books from '../data/books'
+import { characters } from '../data/characters'
 import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function BookDetail() {
@@ -27,6 +28,11 @@ export default function BookDetail() {
   const prevBook = books.find(b => b.number === book.number - 1)
   const nextBook = books.find(b => b.number === book.number + 1)
 
+  // 获取关键人物数据
+  const keyChars = (book.keyCharacters || [])
+    .map(cid => characters.find(c => c.id === cid))
+    .filter(Boolean)
+
   return (
     <div className="container fade-in">
       <button className="back-btn" onClick={() => navigate('/books')}>← 返回原著百科</button>
@@ -46,14 +52,130 @@ export default function BookDetail() {
               <span className="meta-tag">📄 {book.pages}页</span>
               <span className="meta-tag">📑 {book.chapters.length}章</span>
             </div>
+            {book.hogwartsYear && (
+              <div style={{ marginTop: '8px', fontSize: '0.85rem', color: 'rgba(212,175,55,0.8)', fontStyle: 'italic' }}>
+                🏰 {book.hogwartsYear}
+              </div>
+            )}
           </div>
         </div>
+
+        {/* 出版信息 */}
+        <div className="detail-section">
+          <h2 className="detail-section-title">📋 出版信息</h2>
+          <div className="info-grid">
+            <div className="info-item"><span className="info-label">出版年份</span><span className="info-value">{book.year}年</span></div>
+            <div className="info-item"><span className="info-label">页数</span><span className="info-value">{book.pages}页</span></div>
+            <div className="info-item"><span className="info-label">章节数</span><span className="info-value">{book.chapters.length}章</span></div>
+            {book.wordCount && <div className="info-item"><span className="info-label">字数</span><span className="info-value">{book.wordCount}</span></div>}
+            {book.translator && <div className="info-item"><span className="info-label">中文译者</span><span className="info-value">{book.translator}</span></div>}
+            {book.hogwartsYear && <div className="info-item"><span className="info-label">对应学年</span><span className="info-value">{book.hogwartsYear}</span></div>}
+          </div>
+          {book.dedicatedTo && (
+            <div style={{
+              marginTop: '16px',
+              padding: '12px 16px',
+              background: 'rgba(212,175,55,0.05)',
+              borderRadius: '8px',
+              borderLeft: `3px solid ${book.color}`,
+              fontSize: '0.85rem',
+              fontStyle: 'italic',
+              color: 'rgba(212,175,55,0.7)',
+            }}>
+              📜 {book.dedicatedTo}
+            </div>
+          )}
+        </div>
+
+        {/* 主题与教训 */}
+        {book.themes && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">🎯 核心主题</h2>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '16px' }}>
+              {book.themes.map((theme, i) => (
+                <span key={i} style={{
+                  padding: '6px 16px',
+                  borderRadius: '20px',
+                  background: `${book.color}15`,
+                  color: book.color,
+                  fontSize: '0.85rem',
+                  border: `1px solid ${book.color}40`,
+                  fontWeight: '600',
+                }}>
+                  {theme}
+                </span>
+              ))}
+            </div>
+            {book.lesson && (
+              <blockquote className="book-quote" style={{ borderColor: book.color }}>
+                <p>💡 {book.lesson}</p>
+              </blockquote>
+            )}
+          </div>
+        )}
 
         {/* 故事梗概 */}
         <div className="detail-section">
           <h2 className="detail-section-title">📖 故事梗概</h2>
-          <p className="detail-description">{book.summary}</p>
+          <p className="detail-description">{book.detailedSummary || book.summary}</p>
+          {book.setting && (
+            <div style={{
+              marginTop: '16px',
+              padding: '12px 16px',
+              background: 'rgba(212,175,55,0.05)',
+              borderRadius: '8px',
+              fontSize: '0.85rem',
+            }}>
+              🗺️ <strong>故事背景：</strong>{book.setting}
+            </div>
+          )}
         </div>
+
+        {/* 关键人物 */}
+        {keyChars.length > 0 && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">👥 关键人物</h2>
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))',
+              gap: '12px',
+            }}>
+              {keyChars.map(char => (
+                <Link
+                  to={`/characters/${char.id}`}
+                  key={char.id}
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    padding: '16px 8px',
+                    background: 'rgba(255,255,255,0.03)',
+                    borderRadius: '12px',
+                    border: '1px solid rgba(212,175,55,0.1)',
+                    textDecoration: 'none',
+                    transition: 'all 0.3s',
+                  }}
+                  onMouseEnter={e => {
+                    e.currentTarget.style.background = 'rgba(212,175,55,0.08)'
+                    e.currentTarget.style.transform = 'translateY(-2px)'
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.03)'
+                    e.currentTarget.style.transform = 'translateY(0)'
+                  }}
+                >
+                  <span style={{ fontSize: '2rem', marginBottom: '8px' }}>{char.avatar}</span>
+                  <span style={{ fontSize: '0.8rem', color: 'var(--color-gold)', fontWeight: '600', textAlign: 'center' }}>
+                    {char.name}
+                  </span>
+                  <span style={{ fontSize: '0.7rem', opacity: 0.5, textAlign: 'center' }}>
+                    {char.nameEn}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* 章节目录 */}
         <div className="detail-section">
@@ -103,6 +225,21 @@ export default function BookDetail() {
             ))}
           </div>
         </div>
+
+        {/* 幕后花絮 */}
+        {book.behindTheScenes && book.behindTheScenes.length > 0 && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">🎬 幕后花絮</h2>
+            <div className="trivia-list">
+              {book.behindTheScenes.map((trivia, i) => (
+                <div key={i} className="trivia-item">
+                  <span className="trivia-bullet">✦</span>
+                  <span>{trivia}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* 上下本导航 */}
         <div className="book-nav">
