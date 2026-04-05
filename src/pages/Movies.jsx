@@ -8,10 +8,70 @@ export default function Movies() {
     description: '哈利·波特八部电影详细资料 — 导演、演员表、票房数据、幕后花絮、经典台词一网打尽。',
     keywords: '哈利波特电影,魔法石电影,密室电影,死亡圣器电影,丹尼尔·雷德克里夫',
   })
+
+  // 计算票房数据
+  const parseBoxOffice = (str) => parseFloat(str.replace(/[^0-9.]/g, ''))
+  const totalBoxOffice = movies.reduce((sum, m) => sum + parseBoxOffice(m.boxOffice), 0)
+  const totalCast = new Set(movies.flatMap(m => m.cast.map(c => c.actorEn))).size
+
   return (
     <div className="container fade-in">
       <h1 className="page-title">🎬 电影百科</h1>
       <p className="page-subtitle">从2001到2011年，八部电影将魔法世界完美呈现在银幕之上</p>
+
+      {/* 统计面板 */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+        gap: '16px',
+        margin: '32px 0',
+        padding: '24px',
+        background: 'rgba(212,175,55,0.05)',
+        borderRadius: '16px',
+        border: '1px solid rgba(212,175,55,0.15)',
+      }}>
+        {[
+          { label: '电影数量', value: '8 部', icon: '🎬' },
+          { label: '时间跨度', value: '2001-2011', icon: '📅' },
+          { label: '总票房', value: `${totalBoxOffice.toFixed(1)}亿$`, icon: '💰' },
+          { label: '导演人数', value: '4 位', icon: '🎥' },
+          { label: '演员阵容', value: `${totalCast}+ 人`, icon: '🎭' },
+          { label: '最高单片', value: '13.42亿$', icon: '🏆' },
+        ].map((stat, i) => (
+          <div key={i} style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
+            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
+            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* 导演时间线 */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '12px',
+        marginBottom: '32px',
+        flexWrap: 'wrap',
+      }}>
+        {[
+          { name: '克里斯·哥伦布', films: '1-2', color: '#740001' },
+          { name: '阿方索·卡隆', films: '3', color: '#0e1a40' },
+          { name: '迈克·纽维尔', films: '4', color: '#ecb939' },
+          { name: '大卫·叶茨', films: '5-8', color: '#5a2d82' },
+        ].map((d, i) => (
+          <div key={i} style={{
+            padding: '6px 14px',
+            borderRadius: '20px',
+            background: `${d.color}22`,
+            border: `1px solid ${d.color}44`,
+            fontSize: '0.75rem',
+          }}>
+            <span style={{ color: d.color, fontWeight: '700' }}>#{d.films}</span>
+            <span style={{ marginLeft: '6px', opacity: 0.8 }}>{d.name}</span>
+          </div>
+        ))}
+      </div>
 
       <div className="movies-grid">
         {movies.map(movie => (
@@ -30,13 +90,50 @@ export default function Movies() {
               <div className="movie-card-box">
                 💰 全球票房 {movie.boxOffice}
               </div>
+              {/* 评分 */}
+              {movie.score && (
+                <div style={{
+                  display: 'flex',
+                  gap: '8px',
+                  marginTop: '8px',
+                  flexWrap: 'wrap',
+                }}>
+                  {movie.score.douban && (
+                    <span style={{
+                      padding: '2px 8px',
+                      borderRadius: '10px',
+                      background: 'rgba(44,182,44,0.1)',
+                      color: '#2cb62c',
+                      fontSize: '0.65rem',
+                      border: '1px solid rgba(44,182,44,0.3)',
+                    }}>
+                      豆瓣 {movie.score.douban}
+                    </span>
+                  )}
+                  {movie.score.imdb && (
+                    <span style={{
+                      padding: '2px 8px',
+                      borderRadius: '10px',
+                      background: 'rgba(245,197,24,0.1)',
+                      color: '#f5c518',
+                      fontSize: '0.65rem',
+                      border: '1px solid rgba(245,197,24,0.3)',
+                    }}>
+                      IMDb {movie.score.imdb}
+                    </span>
+                  )}
+                </div>
+              )}
             </div>
           </Link>
         ))}
       </div>
 
       <div className="section-info-box">
-        <p>🎬 八部电影全球总票房超过 <strong>77亿美元</strong>，是史上最成功的电影系列之一</p>
+        <p>🎬 八部电影全球总票房超过 <strong>{totalBoxOffice.toFixed(1)}亿美元</strong>，是史上最成功的电影系列之一</p>
+        <p style={{ marginTop: '8px', fontSize: '0.8rem', opacity: 0.7 }}>
+          🏆 系列最高评分：《死亡圣器（下）》IMDb 8.1 / 豆瓣 9.2 / 烂番茄 96%
+        </p>
       </div>
     </div>
   )

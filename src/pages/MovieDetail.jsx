@@ -50,10 +50,101 @@ export default function MovieDetail() {
           </div>
         </div>
 
+        {/* 制作信息 */}
+        <div className="detail-section">
+          <h2 className="detail-section-title">📋 制作信息</h2>
+          <div className="info-grid">
+            <div className="info-item"><span className="info-label">导演</span><span className="info-value">{movie.director}（{movie.directorEn}）</span></div>
+            <div className="info-item"><span className="info-label">上映年份</span><span className="info-value">{movie.year}年</span></div>
+            <div className="info-item"><span className="info-label">时长</span><span className="info-value">{movie.duration}</span></div>
+            <div className="info-item"><span className="info-label">全球票房</span><span className="info-value">{movie.boxOffice}</span></div>
+            {movie.budget && <div className="info-item"><span className="info-label">制作预算</span><span className="info-value">{movie.budget}</span></div>}
+            {movie.rating && <div className="info-item"><span className="info-label">分级</span><span className="info-value">{movie.rating}</span></div>}
+            {movie.music && <div className="info-item"><span className="info-label">配乐</span><span className="info-value">{movie.music}</span></div>}
+          </div>
+        </div>
+
+        {/* 评分 */}
+        {movie.score && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">⭐ 评分</h2>
+            <div style={{
+              display: 'flex',
+              gap: '16px',
+              flexWrap: 'wrap',
+            }}>
+              {movie.score.douban && (
+                <div style={{
+                  flex: '1',
+                  minWidth: '120px',
+                  padding: '20px',
+                  background: 'rgba(44,182,44,0.05)',
+                  borderRadius: '12px',
+                  border: '1px solid rgba(44,182,44,0.2)',
+                  textAlign: 'center',
+                }}>
+                  <div style={{ fontSize: '0.75rem', opacity: 0.6, marginBottom: '4px' }}>豆瓣</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '700', color: '#2cb62c' }}>{movie.score.douban}</div>
+                </div>
+              )}
+              {movie.score.imdb && (
+                <div style={{
+                  flex: '1',
+                  minWidth: '120px',
+                  padding: '20px',
+                  background: 'rgba(245,197,24,0.05)',
+                  borderRadius: '12px',
+                  border: '1px solid rgba(245,197,24,0.2)',
+                  textAlign: 'center',
+                }}>
+                  <div style={{ fontSize: '0.75rem', opacity: 0.6, marginBottom: '4px' }}>IMDb</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '700', color: '#f5c518' }}>{movie.score.imdb}</div>
+                </div>
+              )}
+              {movie.score.rottenTomatoes && (
+                <div style={{
+                  flex: '1',
+                  minWidth: '120px',
+                  padding: '20px',
+                  background: 'rgba(250,60,60,0.05)',
+                  borderRadius: '12px',
+                  border: '1px solid rgba(250,60,60,0.2)',
+                  textAlign: 'center',
+                }}>
+                  <div style={{ fontSize: '0.75rem', opacity: 0.6, marginBottom: '4px' }}>烂番茄</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '700', color: '#fa3c3c' }}>{movie.score.rottenTomatoes}</div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* 剧情简介 */}
         <div className="detail-section">
           <h2 className="detail-section-title">📖 剧情简介</h2>
-          <p className="detail-description">{movie.summary}</p>
+          <p className="detail-description">{movie.detailedSummary || movie.summary}</p>
+          {movie.relatedBook && (
+            <div style={{ marginTop: '16px' }}>
+              <Link
+                to={`/books/${movie.relatedBook}`}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '8px 16px',
+                  background: 'rgba(212,175,55,0.08)',
+                  borderRadius: '8px',
+                  border: '1px solid rgba(212,175,55,0.2)',
+                  color: 'var(--color-gold)',
+                  textDecoration: 'none',
+                  fontSize: '0.85rem',
+                  transition: 'all 0.3s',
+                }}
+              >
+                📚 查看原著对照 →
+              </Link>
+            </div>
+          )}
         </div>
 
         {/* 演员表 */}
@@ -97,6 +188,27 @@ export default function MovieDetail() {
             ))}
           </div>
         </div>
+
+        {/* 奖项 */}
+        {movie.awards && movie.awards.length > 0 && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">🏆 奖项与荣誉</h2>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {movie.awards.map((award, i) => (
+                <span key={i} style={{
+                  padding: '6px 16px',
+                  borderRadius: '20px',
+                  background: 'rgba(212,175,55,0.1)',
+                  color: 'var(--color-gold)',
+                  fontSize: '0.85rem',
+                  border: '1px solid rgba(212,175,55,0.3)',
+                }}>
+                  🏅 {award}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* 上下部导航 */}
         <div className="book-nav">
