@@ -6,7 +6,7 @@ import useDocumentHead from '../hooks/useDocumentHead'
 export default function Characters() {
   useDocumentHead({
     title: '🧙 人物百科',
-    description: '魔法世界50+核心人物详细档案 — 哈利·波特、赫敏·格兰杰、伏地魔等角色的身份背景、魔杖信息、人生轨迹与关系网络。',
+    description: '魔法世界核心人物详细档案 — 哈利·波特、赫敏·格兰杰、伏地魔等角色的身份背景、详细传记、人生轨迹与关系网络。',
     keywords: '哈利波特人物,魔法师,霍格沃茨角色,邓布利多,斯内普,伏地魔',
   })
 
@@ -22,10 +22,41 @@ export default function Characters() {
     return matchesHouse && matchesSearch
   })
 
+  // 学院统计
+  const houseCounts = {}
+  characters.forEach(c => {
+    houseCounts[c.house] = (houseCounts[c.house] || 0) + 1
+  })
+
   return (
     <div className="container fade-in">
       <h1 className="page-title">🧙 人物百科</h1>
       <p className="page-subtitle">魔法世界的每一位重要人物，从"大难不死的男孩"到"永远的"斯内普</p>
+
+      {/* 统计面板 */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+        gap: '16px',
+        margin: '32px 0',
+        padding: '24px',
+        background: 'rgba(212,175,55,0.05)',
+        borderRadius: '16px',
+        border: '1px solid rgba(212,175,55,0.15)',
+      }}>
+        {[
+          { label: '收录人物', value: `${characters.length} 位`, icon: '🧙' },
+          { label: '格兰芬多', value: `${houseCounts.gryffindor || 0} 位`, icon: '🦁' },
+          { label: '斯莱特林', value: `${houseCounts.slytherin || 0} 位`, icon: '🐍' },
+          { label: '拉文克劳', value: `${houseCounts.ravenclaw || 0} 位`, icon: '🦅' },
+        ].map((stat, i) => (
+          <div key={i} style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
+            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
+            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
+          </div>
+        ))}
+      </div>
 
       <div className="search-container">
         <input
@@ -74,6 +105,38 @@ export default function Characters() {
                 </span>
                 <span className="meta-tag">{char.bloodStatus}</span>
               </div>
+              {/* 演员信息 */}
+              {char.actor && (
+                <div style={{
+                  fontSize: '0.7rem',
+                  opacity: 0.6,
+                  marginTop: '6px',
+                }}>
+                  🎬 {char.actor}
+                </div>
+              )}
+              {/* 技能标签 */}
+              {char.skills && (
+                <div style={{
+                  display: 'flex',
+                  gap: '4px',
+                  flexWrap: 'wrap',
+                  marginTop: '8px',
+                }}>
+                  {char.skills.slice(0, 3).map((skill, i) => (
+                    <span key={i} style={{
+                      padding: '1px 6px',
+                      borderRadius: '8px',
+                      background: 'rgba(212,175,55,0.1)',
+                      color: 'var(--color-gold)',
+                      fontSize: '0.6rem',
+                      border: '1px solid rgba(212,175,55,0.2)',
+                    }}>
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              )}
               <div className="character-quote">{char.quote}</div>
             </div>
           </Link>
@@ -88,7 +151,10 @@ export default function Characters() {
       )}
 
       <div className="section-info-box">
-        <p>📊 共收录 <strong>{characters.length}</strong> 位巫师和女巫，更多人物档案持续更新中...</p>
+        <p>📊 共收录 <strong>{characters.length}</strong> 位巫师和女巫的详细档案，包含传记、技能、演员信息</p>
+        <p style={{ marginTop: '8px', fontSize: '0.8rem', opacity: 0.7 }}>
+          ✨ 点击人物卡片查看完整传记、人生轨迹和关系网络
+        </p>
       </div>
     </div>
   )
