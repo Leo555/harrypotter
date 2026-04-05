@@ -87,7 +87,6 @@ export default function Movies() {
             </Link>
             {movie.watchLinks && (
               <div className="movie-card-watch">
-                <span className="movie-card-watch-label">▶ 观看原片</span>
                 <div className="movie-card-watch-links">
                   <a
                     href={movie.watchLinks.tencent}

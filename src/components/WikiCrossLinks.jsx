@@ -12,7 +12,7 @@ const allLinks = [
   { label: '🎩 分院帽测试', path: '/interactive/sorting', desc: '测测你的学院' },
   { label: '🦌 守护神测试', path: '/interactive/patronus', desc: '发现你的守护神' },
   { label: '🪄 魔杖匹配', path: '/interactive/wand', desc: '找到你的魔杖' },
-  { label: '📖 在线阅读', path: '/reader', desc: '全文在线阅读' },
+  { label: '📖 原著阅读', path: '/books', desc: '百科内直接阅读' },
 ]
 
 export default function WikiCrossLinks({ currentPath }) {

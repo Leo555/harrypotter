@@ -104,12 +104,12 @@ export default function ExtraStories() {
               <div className="story-icon">{story.icon}</div>
               <div className="story-info">
                 <div className="story-collection-tag">{story.collection}</div>
-                <h3 className="story-title">{story.title}</h3>
-                <div className="story-title-en">{story.titleEn}</div>
+                <h3 className="story-title">{language === 'en' ? story.titleEn : story.title}</h3>
+                <div className="story-title-en">{language === 'en' ? story.title : story.titleEn}</div>
                 <div className="story-meta">
                   <span className="story-year">📅 {story.year}</span>
                   <span className="story-category-tag">{story.category}</span>
-                  <span className="story-chapter-count">📄 {story.chapters.length} 篇</span>
+                  <span className="story-chapter-count">📄 {story.chapters.length} {language === 'en' ? 'stories' : '篇'}</span>
                 </div>
               </div>
               <div className={`story-expand-icon ${expandedStory === story.id ? 'expanded' : ''}`}>
@@ -118,7 +118,7 @@ export default function ExtraStories() {
             </div>
 
             {/* 故事描述 */}
-            <div className="story-description">{story.description}</div>
+            <div className="story-description">{language === 'en' ? (story.descriptionEn || story.description) : story.description}</div>
 
             {/* 展开的章节列表 */}
             {expandedStory === story.id && (
@@ -134,8 +134,8 @@ export default function ExtraStories() {
                       >
                         <span className="chapter-icon">{chapter.icon}</span>
                         <div className="chapter-titles">
-                          <span className="chapter-title">{chapter.title}</span>
-                          <span className="chapter-title-en">{chapter.titleEn}</span>
+                          <span className="chapter-title">{language === 'en' ? chapter.titleEn : chapter.title}</span>
+                          <span className="chapter-title-en">{language === 'en' ? chapter.title : chapter.titleEn}</span>
                         </div>
                         <div className={`chapter-expand ${isExpanded ? 'expanded' : ''}`}>
                           ▼

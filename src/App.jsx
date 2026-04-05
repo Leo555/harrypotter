@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
@@ -22,8 +22,7 @@ import Patronus from './pages/Patronus'
 import WandMatch from './pages/WandMatch'
 import Timeline from './pages/Timeline'
 import ExtraStories from './pages/ExtraStories'
-import ReaderShelf from './pages/ReaderShelf'
-import BookReader from './pages/BookReader'
+import ReaderRedirect from './pages/ReaderRedirect'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -60,10 +59,10 @@ export default function App() {
           <Route path="/interactive/patronus" element={<Patronus />} />
           <Route path="/interactive/wand" element={<WandMatch />} />
 
-          {/* 原著阅读器 */}
-          <Route path="/reader" element={<ReaderShelf />} />
-          <Route path="/reader/:bookId" element={<BookReader />} />
-          <Route path="/reader/:bookId/:chapterId" element={<BookReader />} />
+          {/* 原著阅读器（重定向到原著百科） */}
+          <Route path="/reader" element={<Navigate to="/books" replace />} />
+          <Route path="/reader/:bookId" element={<ReaderRedirect />} />
+          <Route path="/reader/:bookId/:chapterId" element={<ReaderRedirect />} />
 
           {/* 其他 */}
           <Route path="/timeline" element={<Timeline />} />
