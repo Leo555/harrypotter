@@ -22,6 +22,7 @@ const navItems = [
       { path: '/world/creatures', label: '🐉 魔法生物' },
       { path: '/world/items', label: '⚗️ 魔法物品' },
       { path: '/world/places', label: '🗺️ 地点百科' },
+      { path: '/world/potions', label: '🧪 魔药百科' },
     ]
   },
   {

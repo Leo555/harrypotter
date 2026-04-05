@@ -1,28 +1,96 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 const creatures = [
-  { emoji: '🐉', name: '龙', nameEn: 'Dragon', desc: '最壮观的魔法生物之一，已知有十个品种，包括匈牙利树蜂龙、瑞典短鼻龙等。', danger: '极危险', classification: 'XXXXX' },
-  { emoji: '🦅', name: '鹰头马身有翼兽', nameEn: 'Hippogriff', desc: '马身鹰头的骄傲生物，接近时必须鞠躬表示尊重。巴克比克是最著名的鹰头马身有翼兽。', danger: '危险', classification: 'XXX' },
-  { emoji: '🐦', name: '凤凰', nameEn: 'Phoenix', desc: '能够在火焰中重生的不朽之鸟。凤凰泪有强大的治愈能力，邓布利多的福克斯是最著名的凤凰。', danger: '有趣', classification: 'XXXX' },
-  { emoji: '🦄', name: '独角兽', nameEn: 'Unicorn', desc: '纯洁而美丽的生物，银色血液有延续生命的力量，但饮用者将从此被诅咒。', danger: '无害', classification: 'XXXX' },
-  { emoji: '🕷️', name: '八眼蜘蛛', nameEn: 'Acromantula', desc: '能说人话的巨型蜘蛛，海格的宠物阿拉戈克就是一只八眼蜘蛛。', danger: '极危险', classification: 'XXXXX' },
-  { emoji: '👻', name: '摄魂怪', nameEn: 'Dementor', desc: '阿兹卡班的守卫，能吸取人类的快乐和希望，最可怕的攻击是摄魂怪之吻。', danger: '极危险', classification: 'Non-being' },
-  { emoji: '🧝', name: '家养小精灵', nameEn: 'House-elf', desc: '服务于巫师家族的忠诚生物，只有收到主人赠予的衣物才能获得自由。多比是最著名的家养小精灵。', danger: '无害', classification: 'Being' },
-  { emoji: '🐍', name: '蛇怪', nameEn: 'Basilisk', desc: '蛇之王，凝视其眼睛会立即死亡，只有公鸡的啼鸣能杀死它。', danger: '极危险', classification: 'XXXXX' },
-  { emoji: '🐎', name: '夜骐', nameEn: 'Thestral', desc: '只有见证过死亡的人才能看到的骨瘦如柴的飞马，外表可怕但性情温顺。', danger: '危险', classification: 'XXXX' },
-  { emoji: '🧚', name: '小仙子', nameEn: 'Pixie', desc: '蓝色的小型捣蛋精灵，擅长制造混乱，洛哈特的课上曾被大量释放。', danger: '烦人', classification: 'XXX' },
-  { emoji: '🐺', name: '狼人', nameEn: 'Werewolf', desc: '满月时变身为狼的巫师，芬里尔·格雷伯克是最臭名昭著的狼人，卢平是最著名的好狼人。', danger: '极危险', classification: 'XXXXX' },
-  { emoji: '🔥', name: '火焰杯守卫巨龙', nameEn: 'Tournament Dragons', desc: '三强争霸赛第一项任务中的四条母龙：匈牙利树蜂龙、中国火球龙、瑞典短鼻龙和威尔士绿龙。', danger: '极危险', classification: 'XXXXX' },
+  { emoji: '🐉', name: '龙', nameEn: 'Dragon', desc: '最壮观的魔法生物之一，已知有十个品种，包括匈牙利树蜂龙、瑞典短鼻龙等。龙的心弦是三种魔杖芯之一，龙血有十二种已知用途（由邓布利多发现）。在三强争霸赛中，参赛者需要绕过龙来获取金蛋。', danger: '极危险', classification: 'XXXXX', habitat: '山地、荒野' },
+  { emoji: '🦅', name: '鹰头马身有翼兽', nameEn: 'Hippogriff', desc: '马身鹰头的骄傲生物，接近时必须鞠躬表示尊重。巴克比克是最著名的鹰头马身有翼兽，曾被冤判死刑后被哈利和赫敏用时间转换器救出，此后成为小天狼星的坐骑。', danger: '危险', classification: 'XXX', habitat: '开阔草地' },
+  { emoji: '🐦', name: '凤凰', nameEn: 'Phoenix', desc: '能够在火焰中重生的不朽之鸟。凤凰泪有强大的治愈能力，邓布利多的福克斯是最著名的凤凰。福克斯的两根尾羽分别成为哈利和伏地魔魔杖的芯，导致两根魔杖无法正面对决（闪回咒）。', danger: '有趣', classification: 'XXXX', habitat: '山峰高处' },
+  { emoji: '🦄', name: '独角兽', nameEn: 'Unicorn', desc: '纯洁而美丽的生物，银色血液有延续生命的力量，但饮用者将从此被诅咒过着半死不活的生活。幼年独角兽是金色的，两岁时变为银色，四岁时变为纯白色。独角兽更亲近女性。', danger: '无害', classification: 'XXXX', habitat: '禁林深处' },
+  { emoji: '🕷️', name: '八眼蜘蛛', nameEn: 'Acromantula', desc: '能说人话的巨型蜘蛛，体长可达15英尺。海格的宠物阿拉戈克就是一只八眼蜘蛛，在禁林深处建立了庞大的蛛群。它们极度惧怕蛇怪，这是它们唯一的天敌。', danger: '极危险', classification: 'XXXXX', habitat: '热带丛林、禁林' },
+  { emoji: '👻', name: '摄魂怪', nameEn: 'Dementor', desc: '阿兹卡班的守卫，能吸取人类的快乐和希望。它们在靠近时会使周围变得冰冷、绝望。最可怕的攻击是"摄魂怪之吻"——直接吸取受害者的灵魂。唯一已知的防御方法是守护神咒。', danger: '极危险', classification: 'Non-being', habitat: '阿兹卡班' },
+  { emoji: '🧝', name: '家养小精灵', nameEn: 'House-elf', desc: '服务于巫师家族的忠诚生物，拥有强大的魔法但受到奴役契约束缚。只有收到主人赠予的衣物才能获得自由。多比是最著名的家养小精灵，被哈利解放后成为自由精灵。赫敏创建了S.P.E.W（家养小精灵权益促进会）。', danger: '无害', classification: 'Being', habitat: '巫师宅邸' },
+  { emoji: '🐍', name: '蛇怪', nameEn: 'Basilisk', desc: '蛇之王，由蛇佬腔使用者将蟾蜍蛋放在母鸡下面孵化而成。直视其眼睛会立即死亡，间接看到（如通过镜子或水面）则只会被石化。公鸡的啼鸣是它的致命弱点。密室中的蛇怪已存活近千年。', danger: '极危险', classification: 'XXXXX', habitat: '密室' },
+  { emoji: '🐎', name: '夜骐', nameEn: 'Thestral', desc: '只有见证过死亡的人才能看到的骨瘦如柴的飞马。外表虽然可怕——黑色皮包骨，蝙蝠翅膀，白色无瞳眼睛——但性情温顺且极其聪明。霍格沃茨的马车就是由夜骐牵引的。哈利直到五年级才能看到它们。', danger: '危险', classification: 'XXXX', habitat: '禁林' },
+  { emoji: '🧚', name: '康沃尔小仙子', nameEn: 'Cornish Pixie', desc: '蓝色的小型捣蛋精灵，身高约8英寸，非常吵闹且喜欢制造混乱。洛哈特在第一堂黑魔法防御术课上释放了一箱小仙子，结果完全无法控制。赫敏用冻结咒将它们制服。', danger: '烦人', classification: 'XXX', habitat: '康沃尔' },
+  { emoji: '🐺', name: '狼人', nameEn: 'Werewolf', desc: '被狼人咬伤后受诅咒的巫师，在满月时会不受控制地变身为狼。芬里尔·格雷伯克是最臭名昭著的狼人，卢平教授是最著名的善良狼人。狼毒药剂可以让狼人在变身时保持理智。', danger: '极危险', classification: 'XXXXX', habitat: '各地' },
+  { emoji: '🔥', name: '三头犬', nameEn: 'Fluffy (Three-Headed Dog)', desc: '海格的宠物三头犬路威，负责看守通往魔法石的活板门。它唯一的弱点是音乐——听到音乐就会沉沉睡去。海格从一个希腊人手里买下了它。', danger: '极危险', classification: 'XXXXX', habitat: '霍格沃茨（曾经）' },
 ]
 
 export default function Creatures() {
+  useDocumentHead({
+    title: '🐉 魔法生物',
+    description: '魔法世界生物图鉴 — 龙、凤凰、独角兽、摄魂怪等魔法生物的分级、习性与故事。',
+    keywords: '哈利波特生物,魔法生物,龙,凤凰,独角兽,摄魂怪,夜骐',
+  })
+
+  const [search, setSearch] = useState('')
+  const [filter, setFilter] = useState('all')
+
+  const dangers = ['all', '极危险', '危险', '有趣', '无害', '烦人']
+
+  const filtered = creatures.filter(c => {
+    const matchesSearch = search === '' ||
+      c.name.includes(search) ||
+      c.nameEn.toLowerCase().includes(search.toLowerCase()) ||
+      c.desc.includes(search)
+    const matchesDanger = filter === 'all' || c.danger === filter
+    return matchesSearch && matchesDanger
+  })
+
   return (
     <div className="container fade-in">
       <h1 className="page-title">🐉 魔法生物</h1>
       <p className="page-subtitle">从龙到独角兽，探索魔法世界中最神奇的生物</p>
 
+      {/* 统计面板 */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+        gap: '16px',
+        margin: '32px 0',
+        padding: '24px',
+        background: 'rgba(212,175,55,0.05)',
+        borderRadius: '16px',
+        border: '1px solid rgba(212,175,55,0.15)',
+      }}>
+        {[
+          { label: '收录生物', value: `${creatures.length} 种`, icon: '🐉' },
+          { label: '极危险', value: `${creatures.filter(c => c.danger === '极危险').length} 种`, icon: '⚠️' },
+          { label: '危险级别', value: '5 级', icon: '📊' },
+          { label: 'XXXXX级', value: `${creatures.filter(c => c.classification === 'XXXXX').length} 种`, icon: '💀' },
+        ].map((stat, i) => (
+          <div key={i} style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
+            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
+            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
+          </div>
+        ))}
+      </div>
+
+      <div className="search-container">
+        <input
+          className="search-input"
+          type="text"
+          placeholder="🔮 搜索生物名称..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+        />
+      </div>
+
+      <div className="filter-bar">
+        {dangers.map(d => (
+          <button
+            key={d}
+            className={`filter-btn ${filter === d ? 'active' : ''}`}
+            onClick={() => setFilter(d)}
+          >
+            {d === 'all' ? '✨ 全部' : d === '极危险' ? '💀 极危险' : d === '危险' ? '⚠️ 危险' : d === '有趣' ? '🤔 有趣' : d === '无害' ? '🕊️ 无害' : '😤 烦人'}
+          </button>
+        ))}
+      </div>
+
       <div className="spells-grid">
-        {creatures.map((creature, i) => (
+        {filtered.map((creature, i) => (
           <div key={i} className="spell-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
               <span className="spell-icon">{creature.emoji}</span>
@@ -45,14 +113,24 @@ export default function Creatures() {
                 </span>
                 <span className="spell-category">分级 {creature.classification}</span>
               </div>
+              {creature.habitat && (
+                <div style={{ fontSize: '0.7rem', opacity: 0.6, marginBottom: '4px' }}>📍 栖息地：{creature.habitat}</div>
+              )}
               <p className="spell-desc">{creature.desc}</p>
             </div>
           </div>
         ))}
       </div>
 
+      {filtered.length === 0 && (
+        <div style={{ textAlign: 'center', padding: '60px 0', opacity: 0.5 }}>
+          <span style={{ fontSize: '3rem' }}>🔮</span>
+          <p style={{ marginTop: 16 }}>没有找到匹配的魔法生物...</p>
+        </div>
+      )}
+
       <div className="section-info-box">
-        <p>🐉 共收录 <strong>{creatures.length}</strong> 种魔法生物，更多生物图鉴持续更新中...</p>
+        <p>🐉 共收录 <strong>{creatures.length}</strong> 种魔法生物，按魔法部分级标准分类</p>
       </div>
     </div>
   )

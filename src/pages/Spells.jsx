@@ -28,6 +28,31 @@ export default function Spells() {
       <h1 className="page-title">✨ 咒语大全</h1>
       <p className="page-subtitle">收录魔法世界中的经典咒语，从基础的"荧光闪烁"到致命的"阿瓦达索命"</p>
 
+      {/* 统计面板 */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+        gap: '16px',
+        margin: '32px 0',
+        padding: '24px',
+        background: 'rgba(212,175,55,0.05)',
+        borderRadius: '16px',
+        border: '1px solid rgba(212,175,55,0.15)',
+      }}>
+        {[
+          { label: '收录咒语', value: `${spells.length} 条`, icon: '✨' },
+          { label: '防御咒语', value: `${spells.filter(s => s.category === '防御').length} 条`, icon: '🛡️' },
+          { label: '黑魔法', value: `${spells.filter(s => s.category === '黑魔法').length} 条`, icon: '💀' },
+          { label: '实用咒语', value: `${spells.filter(s => s.category === '实用').length} 条`, icon: '🔧' },
+        ].map((stat, i) => (
+          <div key={i} style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: '1.6rem', marginBottom: '4px' }}>{stat.icon}</div>
+            <div style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-gold)' }}>{stat.value}</div>
+            <div style={{ fontSize: '0.75rem', opacity: 0.6 }}>{stat.label}</div>
+          </div>
+        ))}
+      </div>
+
       <div className="search-container">
         <input
           className="search-input"
@@ -81,6 +106,10 @@ export default function Spells() {
           <p style={{ marginTop: 16 }}>没有找到匹配的咒语...</p>
         </div>
       )}
+
+      <div className="section-info-box">
+        <p>✨ 共收录 <strong>{spells.length}</strong> 条经典咒语，涵盖防御、黑魔法、实用和特殊四大类别</p>
+      </div>
     </div>
   )
 }

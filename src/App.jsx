@@ -13,6 +13,7 @@ import Spells from './pages/Spells'
 import Creatures from './pages/Creatures'
 import MagicItems from './pages/MagicItems'
 import Places from './pages/Places'
+import Potions from './pages/Potions'
 import News from './pages/News'
 import NewsDetail from './pages/NewsDetail'
 import SortingHat from './pages/SortingHat'
@@ -45,6 +46,7 @@ export default function App() {
           <Route path="/world/creatures" element={<Creatures />} />
           <Route path="/world/items" element={<MagicItems />} />
           <Route path="/world/places" element={<Places />} />
+          <Route path="/world/potions" element={<Potions />} />
 
           {/* 资讯 */}
           <Route path="/news" element={<News />} />
