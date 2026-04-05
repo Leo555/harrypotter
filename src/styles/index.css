@@ -805,11 +805,23 @@ a:hover { color: var(--color-gold-light); }
   color: inherit;
 }
 .book-card-cover {
-  height: 140px;
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
+}
+.book-card-cover-img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4));
+}
+.book-card:hover .book-card-cover-img {
+  transform: scale(1.05);
 }
 .book-card-emoji { font-size: 3rem; }
 .book-card-number {
@@ -841,11 +853,19 @@ a:hover { color: var(--color-gold-light); }
   border-left: 4px solid;
 }
 .book-detail-cover {
-  width: 100px; height: 120px;
+  width: 120px; height: 170px;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center; justify-content: center;
   flex-shrink: 0;
+  overflow: hidden;
+}
+.book-detail-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }
 .book-detail-info { flex: 1; }
 .book-detail-number { font-size: 0.8rem; margin-bottom: 4px; font-weight: 700; }
@@ -1074,6 +1094,59 @@ a:hover { color: var(--color-gold-light); }
 .movie-card-box-inline {
   color: var(--color-gold);
   font-weight: 500;
+}
+/* 观看原片区域 */
+.movie-card-watch {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.movie-card-watch-label {
+  display: block;
+  font-size: 0.7rem;
+  color: rgba(245,230,200,0.5);
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+.movie-card-watch-links {
+  display: flex;
+  gap: 8px;
+}
+.movie-watch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+  position: relative;
+  z-index: 2;
+}
+.movie-watch-tencent {
+  background: rgba(0,190,95,0.12);
+  color: #00be5f;
+  border: 1px solid rgba(0,190,95,0.25);
+}
+.movie-watch-tencent:hover {
+  background: rgba(0,190,95,0.25);
+  color: #00e070;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,190,95,0.2);
+}
+.movie-watch-bilibili {
+  background: rgba(0,174,236,0.12);
+  color: #00aeec;
+  border: 1px solid rgba(0,174,236,0.25);
+}
+.movie-watch-bilibili:hover {
+  background: rgba(0,174,236,0.25);
+  color: #33c5f5;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,174,236,0.2);
 }
 
 /* ============================
