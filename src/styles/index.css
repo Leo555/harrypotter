@@ -887,9 +887,34 @@ a:hover { color: var(--color-gold-light); }
   border-radius: var(--radius-sm);
   font-size: 0.88rem;
   align-items: baseline;
+  transition: all 0.3s ease;
+}
+.chapter-item-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.chapter-item-link:hover {
+  background: rgba(212,175,55,0.06);
+  border-color: rgba(212,175,55,0.2);
+  color: inherit;
+}
+.chapter-item-link:hover .chapter-name {
+  color: var(--color-gold);
+}
+.chapter-read-icon {
+  margin-left: auto;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  flex-shrink: 0;
+}
+.chapter-item-link:hover .chapter-read-icon {
+  opacity: 0.7;
 }
 .chapter-number { color: var(--color-gold); font-size: 0.75rem; flex-shrink: 0; opacity: 0.6; }
-.chapter-name { color: rgba(245,230,200,0.7); }
+.chapter-name { color: rgba(245,230,200,0.7); transition: color 0.3s; }
 
 /* 名句列表 */
 .quotes-list { display: flex; flex-direction: column; gap: 16px; }
