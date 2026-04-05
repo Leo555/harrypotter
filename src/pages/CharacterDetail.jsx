@@ -1,5 +1,8 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { characters, houses } from '../data/characters'
+import movies from '../data/movies'
+import characterGallery from '../data/gallery'
+import PhotoGallery from '../components/PhotoGallery'
 import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function CharacterDetail() {
@@ -47,17 +50,69 @@ export default function CharacterDetail() {
           {char.actor && (
             <div style={{
               marginTop: '12px',
-              padding: '8px 16px',
-              background: 'rgba(255,255,255,0.05)',
-              borderRadius: '20px',
-              fontSize: '0.8rem',
-              display: 'inline-flex',
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '8px',
+              justifyContent: 'center',
               alignItems: 'center',
-              gap: '6px',
             }}>
-              <span>🎬</span>
-              <span>饰演者：{char.actor}</span>
-              {char.actorEn && <span style={{ opacity: 0.5 }}>（{char.actorEn}）</span>}
+              <div style={{
+                padding: '8px 16px',
+                background: 'rgba(255,255,255,0.05)',
+                borderRadius: '20px',
+                fontSize: '0.8rem',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+              }}>
+                <span>🎬</span>
+                <span>饰演者：{char.actor}</span>
+                {char.actorEn && <span style={{ opacity: 0.5 }}>（{char.actorEn}）</span>}
+              </div>
+              {char.actorEn && (
+                <a
+                  href={`https://www.imdb.com/find/?q=${encodeURIComponent(char.actorEn)}&s=nm`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    padding: '6px 12px',
+                    borderRadius: '16px',
+                    background: 'rgba(245,197,24,0.1)',
+                    border: '1px solid rgba(245,197,24,0.3)',
+                    color: '#f5c518',
+                    fontSize: '0.72rem',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    transition: 'all 0.3s',
+                  }}
+                >
+                  🔗 IMDb
+                </a>
+              )}
+              {char.actor && (
+                <a
+                  href={`https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(char.actor)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    padding: '6px 12px',
+                    borderRadius: '16px',
+                    background: 'rgba(44,182,44,0.1)',
+                    border: '1px solid rgba(44,182,44,0.3)',
+                    color: '#2cb62c',
+                    fontSize: '0.72rem',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    transition: 'all 0.3s',
+                  }}
+                >
+                  🔗 豆瓣
+                </a>
+              )}
             </div>
           )}
         </div>
@@ -113,6 +168,67 @@ export default function CharacterDetail() {
           </div>
         )}
 
+        {/* 出演电影 */}
+        {(() => {
+          const charMovies = movies.filter(m =>
+            m.cast.some(c => {
+              const roleName = c.role
+              return roleName === char.name ||
+                (char.id === 'voldemort' && (roleName === '伏地魔' || roleName === '汤姆·里德尔')) ||
+                (char.id === 'dobby' && (roleName === '多比' || roleName === '多比（配音）'))
+            })
+          )
+          return charMovies.length > 0 ? (
+            <div className="detail-section">
+              <h2 className="detail-section-title">🎬 出演电影</h2>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+                gap: '10px',
+              }}>
+                {charMovies.map(m => (
+                  <Link
+                    key={m.id}
+                    to={`/movies/${m.id}`}
+                    style={{
+                      padding: '12px 14px',
+                      borderRadius: '10px',
+                      background: 'rgba(212,175,55,0.05)',
+                      border: '1px solid rgba(212,175,55,0.12)',
+                      textDecoration: 'none',
+                      transition: 'all 0.3s ease',
+                      display: 'block',
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.background = 'rgba(212,175,55,0.12)'
+                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.3)'
+                      e.currentTarget.style.transform = 'translateY(-2px)'
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.background = 'rgba(212,175,55,0.05)'
+                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.12)'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                    }}
+                  >
+                    <div style={{ fontSize: '0.72rem', color: 'var(--color-gold)', marginBottom: '4px' }}>
+                      第{m.number}部 · {m.year}年
+                    </div>
+                    <div style={{ fontSize: '0.82rem', color: 'var(--color-parchment)', fontWeight: '500' }}>
+                      {m.title}
+                    </div>
+                    <div style={{ fontSize: '0.65rem', color: 'var(--color-text-secondary)', marginTop: '3px' }}>
+                      {m.cast.find(c => c.role === char.name || 
+                        (char.id === 'voldemort' && (c.role === '伏地魔' || c.role === '汤姆·里德尔')) ||
+                        (char.id === 'dobby' && (c.role === '多比' || c.role === '多比（配音）'))
+                      )?.actor || ''}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null
+        })()}
+
         <div className="detail-section">
           <h2 className="detail-section-title">📖 人物简介</h2>
           <p className="detail-description">{char.description}</p>
@@ -139,6 +255,20 @@ export default function CharacterDetail() {
                 </p>
               ))}
             </div>
+          </div>
+        )}
+
+        {/* 📸 剧照画廊 */}
+        {characterGallery[char.id]?.photos?.length > 0 && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">📸 电影剧照 · 经典瞬间</h2>
+            <p style={{ fontSize: '0.8rem', opacity: 0.5, marginBottom: '16px' }}>
+              点击查看大图 · 共 {characterGallery[char.id].photos.length} 张经典场景
+            </p>
+            <PhotoGallery
+              photos={characterGallery[char.id].photos}
+              characterName={char.name}
+            />
           </div>
         )}
 

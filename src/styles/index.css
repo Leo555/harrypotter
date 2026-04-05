@@ -1679,8 +1679,64 @@ a:hover { color: var(--color-gold-light); }
 }
 
 .chapter-content {
-  padding: 0 16px 16px;
+  padding: 8px 20px 20px;
   animation: fadeIn 0.3s ease;
+}
+
+.chapter-source {
+  font-size: 0.78rem;
+  color: rgba(212, 168, 67, 0.5);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed rgba(212, 168, 67, 0.12);
+}
+
+.chapter-source a {
+  color: rgba(212, 168, 67, 0.6);
+  text-decoration: none;
+  word-break: break-all;
+  transition: color 0.3s;
+}
+
+.chapter-source a:hover {
+  color: var(--color-gold);
+  text-decoration: underline;
+}
+
+.chapter-fulltext {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 0.92rem;
+  line-height: 2;
+  color: rgba(245, 230, 200, 0.85);
+}
+
+.chapter-paragraph {
+  margin-bottom: 8px;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+.chapter-para-spacer {
+  height: 12px;
+}
+
+.chapter-section-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  margin: 20px 0 10px;
+  padding-left: 8px;
+  border-left: 3px solid rgba(212, 168, 67, 0.5);
+  text-indent: 0;
+}
+
+.chapter-list-item {
+  margin-bottom: 10px;
+  padding-left: 0.5em;
+  text-indent: 0;
+  text-align: justify;
+  line-height: 1.9;
 }
 
 .chapter-summary {
