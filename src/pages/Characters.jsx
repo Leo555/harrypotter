@@ -91,7 +91,11 @@ export default function Characters() {
           <Link to={`/characters/${char.id}`} key={char.id} className="character-card">
             <div className="character-card-header">
               <div className="character-avatar" style={{ background: houses[char.house]?.color || '#333' }}>
-                {char.avatar}
+                {char.image ? (
+                  <img src={char.image} alt={char.name} className="character-avatar-img" />
+                ) : (
+                  char.avatar
+                )}
               </div>
               <div>
                 <div className="character-card-name">{char.name}</div>

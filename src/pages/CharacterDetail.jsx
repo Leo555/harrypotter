@@ -38,7 +38,13 @@ export default function CharacterDetail() {
 
       <div className="character-detail">
         <div className="detail-header">
-          <span className="detail-avatar">{char.avatar}</span>
+          {char.image ? (
+            <div className="detail-avatar-img-wrap">
+              <img src={char.image} alt={char.name} className="detail-avatar-img" />
+            </div>
+          ) : (
+            <span className="detail-avatar">{char.avatar}</span>
+          )}
           <h1 className="detail-name">{char.name}</h1>
           <div className="detail-name-en">{char.nameEn}</div>
           <div style={{ marginTop: 12 }}>
@@ -311,13 +317,21 @@ export default function CharacterDetail() {
             <h2 className="detail-section-title">🗺️ 关系网络</h2>
             <div className="relation-map">
               <div className="relation-center" style={{ borderColor: house?.color }}>
-                <span className="relation-center-emoji">{char.avatar}</span>
+                {char.image ? (
+                  <img src={char.image} alt={char.name} className="relation-center-img" />
+                ) : (
+                  <span className="relation-center-emoji">{char.avatar}</span>
+                )}
                 <span className="relation-center-name">{char.name}</span>
               </div>
               <div className="relation-nodes">
                 {relatedChars.map(rc => (
                   <Link to={`/characters/${rc.id}`} key={rc.id} className="relation-node">
-                    <span className="relation-node-emoji">{rc.avatar}</span>
+                    {rc.image ? (
+                      <img src={rc.image} alt={rc.name} className="relation-node-img" />
+                    ) : (
+                      <span className="relation-node-emoji">{rc.avatar}</span>
+                    )}
                     <span className="relation-node-name">{rc.name}</span>
                   </Link>
                 ))}
