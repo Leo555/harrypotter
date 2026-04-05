@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import useDocumentHead from '../hooks/useDocumentHead'
+import WikiCrossLinks from '../components/WikiCrossLinks'
 
 const magicItems = [
   { emoji: '📔', name: '汤姆·里德尔的日记', nameEn: "Tom Riddle's Diary", type: '魂器', desc: '伏地魔创造的第一个魂器，记录着年少时代的里德尔。日记中潜藏着16岁汤姆·里德尔的灵魂碎片，它曾控制金妮·韦斯莱打开密室释放蛇怪。哈利在密室中用蛇怪的毒牙将其刺穿摧毁——这是第一个被摧毁的魂器。', destroyed: '蛇怪毒牙（哈利·波特）' },
@@ -17,6 +18,12 @@ const magicItems = [
   { emoji: '🪞', name: '厄里斯魔镜', nameEn: 'Mirror of Erised', type: '魔法道具', desc: '能显示观看者内心最深切渴望的魔镜。镜框上刻着"Erised stra ehru oyt ube cafru oyt on wohsi"（倒写的"I show not your face but your heart\'s desire"）。邓布利多在镜中看到自己的家人团聚，哈利看到了父母。', destroyed: null },
   { emoji: '🗡️', name: '格兰芬多之剑', nameEn: 'Sword of Gryffindor', type: '传奇物品', desc: '由妖精工匠格里菲克用精灵银打造，它会在真正的格兰芬多人有需要时出现。剑会吸收让它变强的物质——哈利用它杀死蛇怪后，剑浸透了蛇怪毒液，因此能够摧毁魂器。它先后被哈利、邓布利多、罗恩和纳威使用。', destroyed: null },
   { emoji: '🧹', name: '火弩箭', nameEn: 'Firebolt', type: '魔法道具', desc: '世界上最快的竞赛飞天扫帚，10秒内可加速到150英里/小时。由小天狼星作为圣诞礼物匿名送给哈利。曾被麦格教授没收检查是否被施了恶咒（让哈利和赫敏产生了短暂的矛盾）。在"七个波特"行动中被毁。', destroyed: null },
+  { emoji: '📻', name: '波特守望', nameEn: 'Potterwatch', type: '魔法道具', desc: '第二次巫师战争期间由凤凰社成员运营的秘密广播节目。使用密码才能收听（如"疯眼汉"），由李·乔丹主持，弗雷德和乔治参与。节目为躲藏中的人提供真实的战争消息、失踪者名单和鼓舞士气的信息——在预言家日报被控制的黑暗时期，它是人们获得真相的唯一渠道。', destroyed: null },
+  { emoji: '🔮', name: '预言球', nameEn: 'Prophecy Orb', type: '魔法道具', desc: '魔法部神秘事务司预言厅中保存的水晶球，记录了有关哈利和伏地魔的完整预言。只有预言涉及的当事人才能安全地取下它。伏地魔为了得到完整预言而引诱哈利前往神秘事务司，导致了那场改变了一切的战斗。预言球在混战中被打碎。', destroyed: '在神秘事务司之战中被打碎' },
+  { emoji: '📜', name: '韦斯莱魔法把戏坊发明', nameEn: "Weasleys' Wizard Wheezes Products", type: '魔法道具', desc: '弗雷德和乔治·韦斯莱发明的一系列恶作剧和防护道具。速效翘课糖（流鼻血太妃糖、发烧软糖等）可以让学生快速"生病"翘课；伸缩耳用于偷听远处的对话；便携沼泽可以在任何地方制造一片真正的沼泽。战时他们还研发了盾帽和隐形斗篷等防护装备。', destroyed: null },
+  { emoji: '🪙', name: '达力·韦斯莱假金加隆', nameEn: 'Dumbledore\'s Army Coins', type: '魔法道具', desc: '赫敏制作的联络金币，外观与普通金加隆完全相同，但边缘的数字会随着哈利的信号而变化发热。这是赫敏将变形咒应用于实物通讯的天才发明——灵感来自伏地魔的黑魔标记。DA的所有成员人手一枚，用于通知集会时间和地点。纳威在七年级用它召集DA成员参与霍格沃茨大战。', destroyed: null },
+  { emoji: '🏆', name: '三强争霸赛杯', nameEn: 'Triwizard Cup', type: '魔法道具', desc: '三强争霸赛的最终奖杯，在第三项任务——迷宫中等待最先到达的选手。然而在1994年的比赛中，冒牌穆迪（克劳奇二世）将奖杯变成了门钥匙，将同时触碰到奖杯的哈利和塞德里克传送到小汉格顿墓地。塞德里克被虫尾巴杀害，伏地魔在这里重获肉体。', destroyed: null },
+  { emoji: '💌', name: '吼叫信', nameEn: 'Howler', type: '魔法道具', desc: '一种特殊的巫师邮件，如果不及时打开会自动爆炸。打开后会以发信人的声音（放大数十倍）大声怒吼其中的内容。莫丽·韦斯莱在罗恩和哈利飞车去学校后寄了一封经典的吼叫信，在大厅里当着所有人的面怒吼，让罗恩恨不得钻到地缝里。', destroyed: null },
 ]
 
 export default function MagicItems() {
@@ -146,6 +153,8 @@ export default function MagicItems() {
       <div className="section-info-box">
         <p>⚗️ 共收录 <strong>{magicItems.length}</strong> 件传奇魔法物品，含魂器摧毁方式等详细信息</p>
       </div>
+
+      <WikiCrossLinks currentPath="/world/items" />
     </div>
   )
 }

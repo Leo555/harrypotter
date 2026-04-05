@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { spells } from '../data/spells'
 import useDocumentHead from '../hooks/useDocumentHead'
+import WikiCrossLinks from '../components/WikiCrossLinks'
 
 export default function Spells() {
   useDocumentHead({
@@ -110,6 +111,8 @@ export default function Spells() {
       <div className="section-info-box">
         <p>✨ 共收录 <strong>{spells.length}</strong> 条经典咒语，涵盖防御、黑魔法、实用和特殊四大类别</p>
       </div>
+
+      <WikiCrossLinks currentPath="/world/spells" />
     </div>
   )
 }

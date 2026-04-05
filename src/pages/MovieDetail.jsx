@@ -1,6 +1,31 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import movies from '../data/movies'
+import { characters } from '../data/characters'
 import useDocumentHead from '../hooks/useDocumentHead'
+
+// 电影角色名 → 人物百科ID映射
+const roleToCharacterId = {
+  '哈利·波特': 'harry-potter',
+  '赫敏·格兰杰': 'hermione-granger',
+  '罗恩·韦斯莱': 'ron-weasley',
+  '阿不思·邓布利多': 'albus-dumbledore',
+  '西弗勒斯·斯内普': 'severus-snape',
+  '米勒娃·麦格': 'minerva-mcgonagall',
+  '鲁伯·海格': 'rubeus-hagrid',
+  '金妮·韦斯莱': 'ginny-weasley',
+  '小天狼星·布莱克': 'sirius-black',
+  '德拉科·马尔福': 'draco-malfoy',
+  '卢娜·洛夫古德': 'luna-lovegood',
+  '纳威·隆巴顿': 'neville-longbottom',
+  '莱姆斯·卢平': 'remus-lupin',
+  '伏地魔': 'voldemort',
+  '汤姆·里德尔': 'voldemort',
+  '多比（配音）': 'dobby',
+  '多比': 'dobby',
+  '贝拉特里克斯·莱斯特兰奇': 'bellatrix-lestrange',
+  '疯眼汉穆迪': 'alastor-moody',
+  '尼法朵拉·唐克斯': 'nymphadora-tonks',
+}
 
 export default function MovieDetail() {
   const { id } = useParams()
@@ -151,15 +176,145 @@ export default function MovieDetail() {
         <div className="detail-section">
           <h2 className="detail-section-title">🎭 主要演员</h2>
           <div className="cast-grid">
-            {movie.cast.map((c, i) => (
-              <div key={i} className="cast-card">
-                <div className="cast-role">{c.role}</div>
-                <div className="cast-actor">{c.actor}</div>
-                <div className="cast-actor-en">{c.actorEn}</div>
-              </div>
-            ))}
+            {movie.cast.map((c, i) => {
+              const charId = roleToCharacterId[c.role]
+              return (
+                <div key={i} className="cast-card">
+                  {charId ? (
+                    <Link to={`/characters/${charId}`} style={{
+                      color: 'var(--color-gold)',
+                      textDecoration: 'none',
+                      fontWeight: '600',
+                      transition: 'opacity 0.3s',
+                    }}>
+                      <div className="cast-role" style={{ color: 'var(--color-gold)' }}>
+                        {c.role} →
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className="cast-role">{c.role}</div>
+                  )}
+                  <a
+                    href={`https://www.imdb.com/find/?q=${encodeURIComponent(c.actorEn)}&s=nm`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: 'var(--color-parchment)',
+                      textDecoration: 'none',
+                      transition: 'color 0.3s',
+                    }}
+                  >
+                    <div className="cast-actor">{c.actor} 🔗</div>
+                  </a>
+                  <div className="cast-actor-en">{c.actorEn}</div>
+                </div>
+              )
+            })}
           </div>
         </div>
+
+        {/* 相关人物百科卡片 */}
+        {(() => {
+          const relatedCharacters = movie.cast
+            .map(c => {
+              const charId = roleToCharacterId[c.role]
+              return charId ? characters.find(ch => ch.id === charId) : null
+            })
+            .filter(Boolean)
+          return relatedCharacters.length > 0 ? (
+            <div className="detail-section">
+              <h2 className="detail-section-title">🧙 相关人物百科</h2>
+              <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginBottom: '16px' }}>
+                点击卡片查看详细人物档案
+              </p>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+                gap: '12px',
+              }}>
+                {relatedCharacters.map(char => (
+                  <Link
+                    key={char.id}
+                    to={`/characters/${char.id}`}
+                    style={{
+                      textDecoration: 'none',
+                      padding: '16px',
+                      borderRadius: '12px',
+                      background: 'rgba(212,175,55,0.04)',
+                      border: '1px solid rgba(212,175,55,0.12)',
+                      transition: 'all 0.3s ease',
+                      display: 'block',
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.background = 'rgba(212,175,55,0.1)'
+                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.35)'
+                      e.currentTarget.style.transform = 'translateY(-3px)'
+                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.3)'
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.background = 'rgba(212,175,55,0.04)'
+                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.12)'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                      e.currentTarget.style.boxShadow = 'none'
+                    }}
+                  >
+                    <div style={{
+                      fontSize: '2rem',
+                      marginBottom: '8px',
+                      textAlign: 'center',
+                    }}>
+                      {char.avatar}
+                    </div>
+                    <div style={{
+                      fontSize: '0.9rem',
+                      fontWeight: '600',
+                      color: 'var(--color-parchment)',
+                      textAlign: 'center',
+                      marginBottom: '4px',
+                    }}>
+                      {char.name}
+                    </div>
+                    <div style={{
+                      fontSize: '0.72rem',
+                      color: 'var(--color-text-secondary)',
+                      textAlign: 'center',
+                      marginBottom: '8px',
+                    }}>
+                      {char.nameEn}
+                    </div>
+                    {char.house && (
+                      <div style={{
+                        fontSize: '0.7rem',
+                        textAlign: 'center',
+                        padding: '3px 8px',
+                        borderRadius: '10px',
+                        background: 'rgba(212,175,55,0.08)',
+                        color: 'var(--color-gold)',
+                        display: 'inline-block',
+                        width: '100%',
+                      }}>
+                        {char.house}
+                      </div>
+                    )}
+                    <div style={{
+                      fontSize: '0.72rem',
+                      color: 'var(--color-text-secondary)',
+                      textAlign: 'center',
+                      marginTop: '6px',
+                      lineHeight: '1.3',
+                      display: '-webkit-box',
+                      WebkitLineClamp: 2,
+                      WebkitBoxOrient: 'vertical',
+                      overflow: 'hidden',
+                    }}>
+                      {char.occupation}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null
+        })()}
 
         {/* 经典台词 */}
         {movie.classicLines && movie.classicLines.length > 0 && (

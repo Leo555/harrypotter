@@ -131,7 +131,26 @@ export default function ExtraStories() {
                       </div>
                       {isExpanded && (
                         <div className="chapter-content">
-                          <p className="chapter-summary">{chapter.summary}</p>
+                          {chapter.source && (
+                            <div className="chapter-source">
+                              📎 来源：<a href={`https://${chapter.source}`} target="_blank" rel="noopener noreferrer">{chapter.source}</a>
+                            </div>
+                          )}
+                          <div className="chapter-fulltext">
+                            {(chapter.fullText || chapter.summary || '').split('\n').map((para, pIdx) => {
+                              const trimmed = para.trim()
+                              if (!trimmed) return <div key={pIdx} className="chapter-para-spacer" />
+                              // 【标题】样式
+                              if (/^【.+】$/.test(trimmed)) {
+                                return <h4 key={pIdx} className="chapter-section-title">{trimmed}</h4>
+                              }
+                              // ■ 列表项样式
+                              if (trimmed.startsWith('■') || trimmed.startsWith('·')) {
+                                return <p key={pIdx} className="chapter-list-item">{trimmed}</p>
+                              }
+                              return <p key={pIdx} className="chapter-paragraph">{trimmed}</p>
+                            })}
+                          </div>
                           {chapter.characters && chapter.characters.length > 0 && (
                             <div className="chapter-characters">
                               <span className="chapter-characters-label">相关人物：</span>

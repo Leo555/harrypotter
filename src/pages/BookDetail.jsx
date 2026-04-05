@@ -1,6 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import books from '../data/books'
 import { characters } from '../data/characters'
+import movies from '../data/movies'
 import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function BookDetail() {
@@ -130,6 +131,56 @@ export default function BookDetail() {
             </div>
           )}
         </div>
+
+        {/* 对应电影改编 */}
+        {(() => {
+          const relatedMovies = movies.filter(m => m.relatedBook === book.id)
+          return relatedMovies.length > 0 ? (
+            <div className="detail-section">
+              <h2 className="detail-section-title">🎬 电影改编</h2>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                {relatedMovies.map(m => (
+                  <Link
+                    key={m.id}
+                    to={`/movies/${m.id}`}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '16px',
+                      padding: '14px 18px',
+                      borderRadius: '12px',
+                      background: 'rgba(212,175,55,0.05)',
+                      border: '1px solid rgba(212,175,55,0.15)',
+                      textDecoration: 'none',
+                      transition: 'all 0.3s ease',
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.background = 'rgba(212,175,55,0.1)'
+                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.35)'
+                      e.currentTarget.style.transform = 'translateX(4px)'
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.background = 'rgba(212,175,55,0.05)'
+                      e.currentTarget.style.borderColor = 'rgba(212,175,55,0.15)'
+                      e.currentTarget.style.transform = 'translateX(0)'
+                    }}
+                  >
+                    <span style={{ fontSize: '2rem' }}>🎬</span>
+                    <div>
+                      <div style={{ fontSize: '0.9rem', fontWeight: '600', color: 'var(--color-parchment)' }}>
+                        {m.title}
+                      </div>
+                      <div style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
+                        {m.year}年 · {m.director} · {m.duration} · 票房{m.boxOffice}
+                      </div>
+                    </div>
+                    <span style={{ marginLeft: 'auto', color: 'var(--color-gold)', fontSize: '0.85rem' }}>查看详情 →</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null
+        })()}
 
         {/* 关键人物 */}
         {keyChars.length > 0 && (

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import potions from '../data/potions'
 import useDocumentHead from '../hooks/useDocumentHead'
+import WikiCrossLinks from '../components/WikiCrossLinks'
 
 export default function Potions() {
   useDocumentHead({
@@ -133,6 +134,8 @@ export default function Potions() {
       <div className="section-info-box">
         <p>⚗️ 共收录 <strong>{potions.length}</strong> 种经典魔药，包含配方、难度、酿制时间等详细信息</p>
       </div>
+
+      <WikiCrossLinks currentPath="/potions" />
     </div>
   )
 }

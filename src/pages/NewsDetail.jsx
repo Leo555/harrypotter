@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
 import { news } from '../data/characters'
 
 export default function NewsDetail() {
@@ -28,7 +28,98 @@ export default function NewsDetail() {
           <span className="news-category" style={{ fontSize: '0.85rem' }}>{item.category}</span>
           <div className="news-date" style={{ marginTop: 12 }}>🕐 {item.date}</div>
         </div>
+
         <div className="news-detail-content">{item.content}</div>
+
+        {/* 相关链接区域 */}
+        {item.relatedLinks && item.relatedLinks.length > 0 && (
+          <div style={{
+            marginTop: 32,
+            padding: '20px 24px',
+            borderRadius: '12px',
+            background: 'rgba(212,175,55,0.05)',
+            border: '1px solid rgba(212,175,55,0.15)',
+          }}>
+            <h3 style={{
+              fontSize: '1rem',
+              color: 'var(--color-gold)',
+              marginBottom: 14,
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+            }}>
+              🔗 相关内容
+            </h3>
+            <div style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '10px',
+            }}>
+              {item.relatedLinks.map((link, i) => (
+                <Link
+                  key={i}
+                  to={link.path}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    padding: '8px 16px',
+                    borderRadius: '20px',
+                    background: 'rgba(212,175,55,0.1)',
+                    border: '1px solid rgba(212,175,55,0.25)',
+                    color: 'var(--color-parchment)',
+                    fontSize: '0.85rem',
+                    textDecoration: 'none',
+                    transition: 'all 0.3s ease',
+                  }}
+                  onMouseEnter={e => {
+                    e.currentTarget.style.background = 'rgba(212,175,55,0.2)'
+                    e.currentTarget.style.borderColor = 'rgba(212,175,55,0.5)'
+                    e.currentTarget.style.color = 'var(--color-gold)'
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.background = 'rgba(212,175,55,0.1)'
+                    e.currentTarget.style.borderColor = 'rgba(212,175,55,0.25)'
+                    e.currentTarget.style.color = 'var(--color-parchment)'
+                  }}
+                >
+                  {link.label} →
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 来源信息 */}
+        {item.source && (
+          <div style={{
+            marginTop: 16,
+            padding: '12px 20px',
+            borderRadius: '8px',
+            background: 'rgba(255,255,255,0.03)',
+            border: '1px solid rgba(255,255,255,0.08)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}>
+            <span style={{ fontSize: '0.8rem', color: 'var(--color-text-secondary)' }}>📎 来源：</span>
+            <a
+              href={item.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontSize: '0.8rem',
+                color: 'var(--color-gold)',
+                textDecoration: 'none',
+                wordBreak: 'break-all',
+              }}
+              onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+              onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+            >
+              {item.source} ↗
+            </a>
+          </div>
+        )}
       </div>
     </div>
   )
