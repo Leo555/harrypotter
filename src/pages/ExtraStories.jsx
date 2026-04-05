@@ -133,7 +133,7 @@ export default function ExtraStories() {
                         <div className="chapter-content">
                           {chapter.source && (
                             <div className="chapter-source">
-                              📎 来源：<a href={`https://${chapter.source}`} target="_blank" rel="noopener noreferrer">{chapter.source}</a>
+                              📎 来源：<a href={chapter.source} target="_blank" rel="noopener noreferrer">{chapter.source}</a>
                             </div>
                           )}
                           <div className="chapter-fulltext">

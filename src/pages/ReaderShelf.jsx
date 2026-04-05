@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import useDocumentHead from '../hooks/useDocumentHead'
-import { bookTitles, bookCovers, bookColors, chapterNames } from '../data/bookLoader'
+import { bookTitles, bookTitlesEn, bookCovers, bookColors, chapterNames } from '../data/bookLoader'
+import books from '../data/books'
 
 const bookDescriptions = {
   1: '在姨妈家饱受欺凌的哈利·波特，在11岁生日那天踏入了魔法世界...',
@@ -13,16 +15,70 @@ const bookDescriptions = {
 }
 
 export default function ReaderShelf() {
+  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'en')
+
+  const toggleLang = (newLang) => {
+    setLang(newLang)
+    localStorage.setItem('hp-reader-lang', newLang)
+  }
+
   useDocumentHead({
     title: '📖 原著阅读器 — 书架',
-    description: '在线阅读哈利波特全系列七部原著，沉浸式阅读体验，支持章节导航和字号调节。',
-    keywords: '哈利波特在线阅读,原著阅读器,Harry Potter,英文原版',
+    description: '在线阅读哈利波特全系列七部原著，支持中文译本和英文原版，沉浸式阅读体验。',
+    keywords: '哈利波特在线阅读,原著阅读器,Harry Potter,英文原版,中文版',
   })
 
   return (
     <div className="container fade-in">
       <h1 className="page-title">📖 原著阅读器</h1>
-      <p className="page-subtitle">翻开羊皮纸，重新走进那个魔法世界（英文原版）</p>
+      <p className="page-subtitle">翻开羊皮纸，重新走进那个魔法世界</p>
+
+      {/* 语言切换 */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '12px',
+        marginBottom: '28px',
+      }}>
+        <button
+          onClick={() => toggleLang('cn')}
+          style={{
+            padding: '10px 28px',
+            borderRadius: '24px',
+            border: lang === 'cn' ? '2px solid var(--color-gold)' : '1px solid rgba(212, 168, 67, 0.2)',
+            background: lang === 'cn' ? 'rgba(212, 168, 67, 0.15)' : 'rgba(30, 30, 60, 0.5)',
+            color: lang === 'cn' ? 'var(--color-gold)' : 'var(--color-text-secondary)',
+            cursor: 'pointer',
+            fontSize: '0.92rem',
+            fontWeight: 700,
+            transition: 'all 0.3s',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+        >
+          🇨🇳 中文译本
+        </button>
+        <button
+          onClick={() => toggleLang('en')}
+          style={{
+            padding: '10px 28px',
+            borderRadius: '24px',
+            border: lang === 'en' ? '2px solid var(--color-gold)' : '1px solid rgba(212, 168, 67, 0.2)',
+            background: lang === 'en' ? 'rgba(212, 168, 67, 0.15)' : 'rgba(30, 30, 60, 0.5)',
+            color: lang === 'en' ? 'var(--color-gold)' : 'var(--color-text-secondary)',
+            cursor: 'pointer',
+            fontSize: '0.92rem',
+            fontWeight: 700,
+            transition: 'all 0.3s',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+        >
+          🇬🇧 英文原版
+        </button>
+      </div>
 
       {/* 统计信息 */}
       <div style={{
@@ -35,7 +91,7 @@ export default function ReaderShelf() {
           { label: '原著总数', value: '7 部', icon: '📚' },
           { label: '总章节数', value: `${Object.values(chapterNames).reduce((a, b) => a + b.length, 0)} 章`, icon: '📑' },
           { label: '出版年份', value: '1997-2007', icon: '📅' },
-          { label: '阅读语言', value: '英文原版', icon: '🇬🇧' },
+          { label: '阅读语言', value: lang === 'cn' ? '中文译本' : '英文原版', icon: lang === 'cn' ? '🇨🇳' : '🇬🇧' },
         ].map((stat, i) => (
           <div key={i} style={{
             textAlign: 'center',
@@ -94,8 +150,13 @@ export default function ReaderShelf() {
                 justifyContent: 'center',
                 flexShrink: 0,
                 border: `2px solid ${bookColors[num]}44`,
+                overflow: 'hidden',
               }}>
-                {bookCovers[num]}
+                {books.find(b => b.number === num)?.coverImage ? (
+                  <img src={books.find(b => b.number === num).coverImage} alt={bookTitles[num]} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                ) : (
+                  bookCovers[num]
+                )}
               </div>
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div style={{
@@ -111,11 +172,20 @@ export default function ReaderShelf() {
                   fontSize: '1.05rem',
                   fontWeight: 700,
                   color: 'var(--color-text)',
-                  margin: '0 0 8px',
+                  margin: '0 0 4px',
                   lineHeight: 1.3,
                 }}>
                   {bookTitles[num]}
                 </h3>
+                <div style={{
+                  fontSize: '0.75rem',
+                  color: 'var(--color-text-secondary)',
+                  marginBottom: '8px',
+                  fontStyle: 'italic',
+                  opacity: 0.7,
+                }}>
+                  {bookTitlesEn[num]}
+                </div>
                 <p style={{
                   fontSize: '0.82rem',
                   color: 'var(--color-text-secondary)',
@@ -128,15 +198,42 @@ export default function ReaderShelf() {
             </div>
             <div style={{
               marginTop: '14px',
-              padding: '8px 14px',
-              background: `${bookColors[num]}15`,
-              borderRadius: '8px',
-              textAlign: 'center',
-              fontSize: '0.82rem',
-              color: 'var(--color-gold)',
-              fontWeight: 500,
+              display: 'flex',
+              gap: '10px',
             }}>
-              📖 开始阅读
+              <div style={{
+                flex: 1,
+                padding: '8px 14px',
+                background: `${bookColors[num]}15`,
+                borderRadius: '8px',
+                textAlign: 'center',
+                fontSize: '0.82rem',
+                color: 'var(--color-gold)',
+                fontWeight: 500,
+              }}>
+                📖 {lang === 'cn' ? '开始中文阅读' : '开始英文阅读'}
+              </div>
+              <Link
+                to={`/books/${books.find(b => b.number === num)?.id || ''}`}
+                onClick={e => e.stopPropagation()}
+                style={{
+                  padding: '8px 14px',
+                  background: 'rgba(255,255,255,0.04)',
+                  borderRadius: '8px',
+                  textAlign: 'center',
+                  fontSize: '0.82rem',
+                  color: 'var(--color-text-secondary)',
+                  fontWeight: 500,
+                  textDecoration: 'none',
+                  border: '1px solid rgba(255,255,255,0.08)',
+                  transition: 'all 0.3s',
+                  flexShrink: 0,
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(212,175,55,0.3)'; e.currentTarget.style.color = 'var(--color-gold)' }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'var(--color-text-secondary)' }}
+              >
+                📚 百科
+              </Link>
             </div>
           </Link>
         ))}
@@ -164,7 +261,7 @@ export default function ReaderShelf() {
           <div>⌨️ 使用方向键 ← → 翻页</div>
           <div>🔤 支持字号 12-24px 调节</div>
           <div>📑 点击章节名打开目录</div>
-          <div>🇬🇧 全文为英文原版内容</div>
+          <div>🌐 支持中文/英文随时切换</div>
         </div>
       </div>
     </div>
