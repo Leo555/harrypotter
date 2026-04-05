@@ -45,37 +45,6 @@ export default function Books() {
         ))}
       </div>
 
-      {/* 时间线导航 */}
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        gap: '4px',
-        marginBottom: '32px',
-        flexWrap: 'wrap',
-      }}>
-        {books.map(book => (
-          <a
-            key={book.id}
-            href={`#book-${book.number}`}
-            style={{
-              padding: '6px 14px',
-              borderRadius: '20px',
-              background: `${book.color}22`,
-              color: book.color,
-              border: `1px solid ${book.color}44`,
-              fontSize: '0.8rem',
-              textDecoration: 'none',
-              fontWeight: '600',
-              transition: 'all 0.3s',
-            }}
-            onMouseEnter={e => { e.target.style.background = book.color; e.target.style.color = '#fff' }}
-            onMouseLeave={e => { e.target.style.background = `${book.color}22`; e.target.style.color = book.color }}
-          >
-            #{book.number} {book.year}
-          </a>
-        ))}
-      </div>
-
       {/* 书籍卡片 */}
       <div className="books-grid">
         {books.map(book => (

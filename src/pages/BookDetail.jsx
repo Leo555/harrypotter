@@ -241,7 +241,26 @@ export default function BookDetail() {
                     e.currentTarget.style.transform = 'translateY(0)'
                   }}
                 >
-                  <span style={{ fontSize: '2rem', marginBottom: '8px' }}>{char.avatar}</span>
+                  <div style={{
+                    width: '56px',
+                    height: '56px',
+                    borderRadius: '50%',
+                    marginBottom: '8px',
+                    overflow: 'hidden',
+                    border: '2px solid rgba(212,168,67,0.3)',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    background: 'rgba(212,175,55,0.08)',
+                    fontSize: '2rem',
+                  }}>
+                    {char.image ? (
+                      <img src={char.image} alt={char.name} style={{
+                        width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
+                      }} />
+                    ) : char.avatar}
+                  </div>
                   <span style={{ fontSize: '0.8rem', color: 'var(--color-gold)', fontWeight: '600', textAlign: 'center' }}>
                     {char.name}
                   </span>

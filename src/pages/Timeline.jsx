@@ -11,6 +11,7 @@ function getAllEvents() {
         event: item.event,
         character: char.name,
         avatar: char.avatar,
+        image: char.image,
         charId: char.id,
         source: 'character',
       })
@@ -70,7 +71,18 @@ export default function Timeline() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                 {items.map((item, i) => (
                   <div key={i} className="timeline-event-card">
-                    <span className="timeline-event-avatar">{item.avatar}</span>
+                    <span className="timeline-event-avatar" style={item.image ? {
+                      width: '36px', height: '36px', borderRadius: '50%', overflow: 'hidden',
+                      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                      border: '1.5px solid rgba(212,168,67,0.3)', boxShadow: '0 1px 4px rgba(0,0,0,0.3)',
+                      padding: 0, fontSize: 'inherit',
+                    } : {}}>
+                      {item.image ? (
+                        <img src={item.image} alt={item.character || ''} style={{
+                          width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
+                        }} />
+                      ) : item.avatar}
+                    </span>
                     <div>
                       {item.character && (
                         <div className="timeline-event-char">{item.character}</div>

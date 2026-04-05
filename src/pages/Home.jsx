@@ -135,7 +135,11 @@ export default function Home() {
           {books.map(book => (
             <Link to={`/books/${book.id}`} key={book.id} className="book-mini-card" style={{ borderColor: book.color }}>
               <div className="book-mini-number">第{book.number}部</div>
-              <div className="book-mini-cover" style={{ background: book.color }}>{book.cover}</div>
+              <div className="book-mini-cover" style={{ background: book.coverImage ? 'transparent' : book.color }}>
+                {book.coverImage ? (
+                  <img src={book.coverImage} alt={book.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                ) : book.cover}
+              </div>
               <div className="book-mini-title">{book.title}</div>
               <div className="book-mini-year">{book.year}年出版</div>
             </Link>
@@ -152,13 +156,19 @@ export default function Home() {
           </h2>
           <Link to="/movies" className="section-link">查看全部 →</Link>
         </div>
-        <div className="books-scroll">
+        <div className="movies-scroll">
           {movies.map(movie => (
-            <Link to={`/movies/${movie.id}`} key={movie.id} className="book-mini-card" style={{ borderColor: movie.color }}>
-              <div className="book-mini-number">#{movie.number}</div>
-              <div className="book-mini-cover" style={{ background: movie.color }}>🎬</div>
-              <div className="book-mini-title">{movie.title}</div>
-              <div className="book-mini-year">{movie.year} · {movie.director}</div>
+            <Link to={`/movies/${movie.id}`} key={movie.id} className="movie-mini-card">
+              <div className="movie-mini-poster">
+                <img src={movie.cover} alt={movie.title} />
+                <div className="movie-mini-overlay">
+                  <span className="movie-mini-number">#{movie.number}</span>
+                </div>
+              </div>
+              <div className="movie-mini-info">
+                <div className="movie-mini-title">{movie.title}</div>
+                <div className="movie-mini-year">{movie.year} · {movie.director}</div>
+              </div>
             </Link>
           ))}
         </div>
@@ -185,13 +195,22 @@ export default function Home() {
               textDecoration: 'none',
             }}>
               <div style={{
-                width: 56, height: 56,
+                width: 72, height: 72,
                 borderRadius: '50%',
                 background: houses[char.house]?.color || '#333',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontSize: '1.8rem', margin: '0 auto 10px',
+                overflow: 'hidden',
+                border: '2px solid rgba(212,168,67,0.3)',
+                boxShadow: '0 2px 12px rgba(0,0,0,0.3)',
               }}>
-                {char.avatar}
+                {char.image ? (
+                  <img src={char.image} alt={char.name} style={{
+                    width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
+                  }} />
+                ) : (
+                  char.avatar
+                )}
               </div>
               <h3 style={{ fontSize: '0.95rem', color: 'var(--color-parchment)', marginBottom: 4 }}>{char.name}</h3>
               <div style={{ fontSize: '0.75rem', color: 'var(--color-gold)', opacity: 0.8 }}>

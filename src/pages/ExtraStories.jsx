@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { extraStories, storyCollections, storyCategories } from '../data/extraStories'
+import { getEnglishText } from '../data/extraStoriesEn'
 import { characters } from '../data/characters'
 
 export default function ExtraStories() {
@@ -7,6 +8,7 @@ export default function ExtraStories() {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [expandedStory, setExpandedStory] = useState(null)
   const [expandedChapter, setExpandedChapter] = useState(null)
+  const [language, setLanguage] = useState('zh') // 'zh' 中文 | 'en' 英文
 
   // 筛选故事
   const filteredStories = extraStories.filter(story => {
@@ -27,7 +29,7 @@ export default function ExtraStories() {
       <h1 className="page-title">📖 The Hidden Tales</h1>
       <p className="page-subtitle">隐秘故事集 — J.K.罗琳笔下的番外传说</p>
 
-      {/* 统计栏 */}
+      {/* 统计栏 + 语言切换 */}
       <div className="stories-stats">
         <div className="stat-item">
           <span className="stat-number">{storyCollections.length}</span>
@@ -44,6 +46,16 @@ export default function ExtraStories() {
         <div className="stat-item">
           <span className="stat-number">2007-2016</span>
           <span className="stat-label">创作年份</span>
+        </div>
+        <div className="stat-item stat-lang-toggle">
+          <button
+            className={`lang-toggle-btn ${language === 'en' ? 'active' : ''}`}
+            onClick={() => setLanguage(language === 'zh' ? 'en' : 'zh')}
+          >
+            <span className="lang-toggle-icon">🌐</span>
+            <span className="lang-toggle-label">{language === 'zh' ? 'English' : '中文'}</span>
+          </button>
+          <span className="stat-label">{language === 'zh' ? '切换英文原文' : 'Switch to Chinese'}</span>
         </div>
       </div>
 
@@ -136,20 +148,41 @@ export default function ExtraStories() {
                               📎 来源：<a href={chapter.source} target="_blank" rel="noopener noreferrer">{chapter.source}</a>
                             </div>
                           )}
-                          <div className="chapter-fulltext">
-                            {(chapter.fullText || chapter.summary || '').split('\n').map((para, pIdx) => {
-                              const trimmed = para.trim()
-                              if (!trimmed) return <div key={pIdx} className="chapter-para-spacer" />
-                              // 【标题】样式
-                              if (/^【.+】$/.test(trimmed)) {
-                                return <h4 key={pIdx} className="chapter-section-title">{trimmed}</h4>
-                              }
-                              // ■ 列表项样式
-                              if (trimmed.startsWith('■') || trimmed.startsWith('·')) {
-                                return <p key={pIdx} className="chapter-list-item">{trimmed}</p>
-                              }
-                              return <p key={pIdx} className="chapter-paragraph">{trimmed}</p>
-                            })}
+                          {/* 语言提示 */}
+                          {language === 'en' && !getEnglishText(chapter.source) && (
+                            <div className="chapter-lang-notice">
+                              ⚠️ 该篇章暂无英文原文，显示中文翻译
+                            </div>
+                          )}
+                          <div className={`chapter-fulltext ${language === 'en' ? 'chapter-fulltext-en' : ''}`}>
+                            {(() => {
+                              const displayText = language === 'en'
+                                ? (getEnglishText(chapter.source) || chapter.fullText || chapter.summary || '')
+                                : (chapter.fullText || chapter.summary || '')
+                              const isEn = language === 'en' && !!getEnglishText(chapter.source)
+                              return displayText.split('\n').map((para, pIdx) => {
+                                const trimmed = para.trim()
+                                if (!trimmed) return <div key={pIdx} className="chapter-para-spacer" />
+                                // 中文 【标题】样式
+                                if (/^【.+】$/.test(trimmed)) {
+                                  return <h4 key={pIdx} className="chapter-section-title">{trimmed}</h4>
+                                }
+                                // 英文 ALL CAPS 段落标题（如 CHILDHOOD, AUTHOR'S NOTE 等）
+                                if (isEn && /^[A-Z][A-Z\s'''\-—:&,]+$/.test(trimmed) && trimmed.length > 2) {
+                                  return <h4 key={pIdx} className="chapter-section-title chapter-section-title-en">{trimmed}</h4>
+                                }
+                                // 英文 **粗体标题** (ministers-for-magic 等文章用)
+                                if (isEn && /^\*\*.+\*\*$/.test(trimmed)) {
+                                  const title = trimmed.replace(/^\*\*|\*\*$/g, '')
+                                  return <h4 key={pIdx} className="chapter-section-title chapter-section-title-en">{title}</h4>
+                                }
+                                // ■ · 列表项样式
+                                if (trimmed.startsWith('■') || trimmed.startsWith('·')) {
+                                  return <p key={pIdx} className="chapter-list-item">{trimmed}</p>
+                                }
+                                return <p key={pIdx} className={`chapter-paragraph ${isEn ? 'chapter-paragraph-en' : ''}`}>{trimmed}</p>
+                              })
+                            })()}
                           </div>
                           {chapter.characters && chapter.characters.length > 0 && (
                             <div className="chapter-characters">
@@ -157,8 +190,15 @@ export default function ExtraStories() {
                               {chapter.characters.map(charId => {
                                 const char = getCharacter(charId)
                                 return char ? (
-                                  <span key={charId} className="chapter-character-tag">
-                                    {char.avatar} {char.name}
+                                  <span key={charId} className="chapter-character-tag" style={{
+                                    display: 'inline-flex', alignItems: 'center', gap: '4px',
+                                  }}>
+                                    {char.image ? (
+                                      <img src={char.image} alt={char.name} style={{
+                                        width: '20px', height: '20px', borderRadius: '50%', objectFit: 'cover',
+                                        border: '1px solid rgba(212,168,67,0.3)',
+                                      }} />
+                                    ) : char.avatar} {char.name}
                                   </span>
                                 ) : null
                               })}

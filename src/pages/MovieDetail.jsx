@@ -95,6 +95,88 @@ export default function MovieDetail() {
                 )}
               </div>
             )}
+            {/* 观看原片按钮 */}
+            {movie.watchLinks && (
+              <div style={{
+                display: 'flex',
+                gap: '12px',
+                marginTop: '16px',
+                flexWrap: 'wrap',
+              }}>
+                {movie.watchLinks.tencent && (
+                  <a
+                    href={movie.watchLinks.tencent}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '10px 20px',
+                      background: 'linear-gradient(135deg, rgba(0,180,255,0.15), rgba(0,180,255,0.05))',
+                      borderRadius: '10px',
+                      border: '1px solid rgba(0,180,255,0.3)',
+                      color: '#00b4ff',
+                      textDecoration: 'none',
+                      fontSize: '0.9rem',
+                      fontWeight: '600',
+                      transition: 'all 0.3s',
+                      cursor: 'pointer',
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0,180,255,0.25), rgba(0,180,255,0.1))'
+                      e.currentTarget.style.borderColor = 'rgba(0,180,255,0.5)'
+                      e.currentTarget.style.transform = 'translateY(-2px)'
+                      e.currentTarget.style.boxShadow = '0 4px 15px rgba(0,180,255,0.2)'
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0,180,255,0.15), rgba(0,180,255,0.05))'
+                      e.currentTarget.style.borderColor = 'rgba(0,180,255,0.3)'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                      e.currentTarget.style.boxShadow = 'none'
+                    }}
+                  >
+                    ▶️ 腾讯视频观看
+                  </a>
+                )}
+                {movie.watchLinks.bilibili && (
+                  <a
+                    href={movie.watchLinks.bilibili}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '10px 20px',
+                      background: 'linear-gradient(135deg, rgba(251,114,153,0.15), rgba(251,114,153,0.05))',
+                      borderRadius: '10px',
+                      border: '1px solid rgba(251,114,153,0.3)',
+                      color: '#fb7299',
+                      textDecoration: 'none',
+                      fontSize: '0.9rem',
+                      fontWeight: '600',
+                      transition: 'all 0.3s',
+                      cursor: 'pointer',
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.background = 'linear-gradient(135deg, rgba(251,114,153,0.25), rgba(251,114,153,0.1))'
+                      e.currentTarget.style.borderColor = 'rgba(251,114,153,0.5)'
+                      e.currentTarget.style.transform = 'translateY(-2px)'
+                      e.currentTarget.style.boxShadow = '0 4px 15px rgba(251,114,153,0.2)'
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.background = 'linear-gradient(135deg, rgba(251,114,153,0.15), rgba(251,114,153,0.05))'
+                      e.currentTarget.style.borderColor = 'rgba(251,114,153,0.3)'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                      e.currentTarget.style.boxShadow = 'none'
+                    }}
+                  >
+                    ▶️ B站观看
+                  </a>
+                )}
+              </div>
+            )}
           </div>
         </div>
 
@@ -227,11 +309,25 @@ export default function MovieDetail() {
                     }}
                   >
                     <div style={{
-                      fontSize: '2rem',
+                      width: '56px',
+                      height: '56px',
+                      borderRadius: '50%',
                       marginBottom: '8px',
-                      textAlign: 'center',
+                      margin: '0 auto 8px',
+                      overflow: 'hidden',
+                      border: '2px solid rgba(212,168,67,0.3)',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      background: 'rgba(212,175,55,0.08)',
+                      fontSize: '2rem',
                     }}>
-                      {char.avatar}
+                      {char.image ? (
+                        <img src={char.image} alt={char.name} style={{
+                          width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
+                        }} />
+                      ) : char.avatar}
                     </div>
                     <div style={{
                       fontSize: '0.9rem',
