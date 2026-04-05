@@ -57,10 +57,10 @@ export default function MovieDetail() {
       <button className="back-btn" onClick={() => navigate('/movies')}>← 返回电影百科</button>
 
       <div className="book-detail">
-        {/* 头部 */}
-        <div className="book-detail-header" style={{ borderColor: movie.color }}>
-          <div className="book-detail-cover" style={{ background: `linear-gradient(135deg, ${movie.color}, ${movie.color}88)` }}>
-            <span style={{ fontSize: '4rem' }}>🎬</span>
+        {/* 头部 — 电影海报 + 信息 */}
+        <div className="movie-detail-header" style={{ borderColor: movie.color }}>
+          <div className="movie-detail-poster">
+            <img src={movie.cover} alt={movie.title} className="movie-detail-poster-img" />
           </div>
           <div className="book-detail-info">
             <div className="book-detail-number" style={{ color: movie.color }}>第{movie.number}部电影</div>
@@ -72,6 +72,29 @@ export default function MovieDetail() {
               <span className="meta-tag">⏱️ {movie.duration}</span>
               <span className="meta-tag">💰 {movie.boxOffice}</span>
             </div>
+            {/* 评分徽章 */}
+            {movie.score && (
+              <div className="movie-detail-scores">
+                {movie.score.douban && (
+                  <div className="movie-detail-score-item">
+                    <span className="movie-detail-score-label">豆瓣</span>
+                    <span className="movie-detail-score-value" style={{ color: '#2cb62c' }}>{movie.score.douban}</span>
+                  </div>
+                )}
+                {movie.score.imdb && (
+                  <div className="movie-detail-score-item">
+                    <span className="movie-detail-score-label">IMDb</span>
+                    <span className="movie-detail-score-value" style={{ color: '#f5c518' }}>{movie.score.imdb}</span>
+                  </div>
+                )}
+                {movie.score.rottenTomatoes && (
+                  <div className="movie-detail-score-item">
+                    <span className="movie-detail-score-label">烂番茄</span>
+                    <span className="movie-detail-score-value" style={{ color: '#fa3c3c' }}>{movie.score.rottenTomatoes}</span>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         </div>
 
@@ -88,61 +111,6 @@ export default function MovieDetail() {
             {movie.music && <div className="info-item"><span className="info-label">配乐</span><span className="info-value">{movie.music}</span></div>}
           </div>
         </div>
-
-        {/* 评分 */}
-        {movie.score && (
-          <div className="detail-section">
-            <h2 className="detail-section-title">⭐ 评分</h2>
-            <div style={{
-              display: 'flex',
-              gap: '16px',
-              flexWrap: 'wrap',
-            }}>
-              {movie.score.douban && (
-                <div style={{
-                  flex: '1',
-                  minWidth: '120px',
-                  padding: '20px',
-                  background: 'rgba(44,182,44,0.05)',
-                  borderRadius: '12px',
-                  border: '1px solid rgba(44,182,44,0.2)',
-                  textAlign: 'center',
-                }}>
-                  <div style={{ fontSize: '0.75rem', opacity: 0.6, marginBottom: '4px' }}>豆瓣</div>
-                  <div style={{ fontSize: '2rem', fontWeight: '700', color: '#2cb62c' }}>{movie.score.douban}</div>
-                </div>
-              )}
-              {movie.score.imdb && (
-                <div style={{
-                  flex: '1',
-                  minWidth: '120px',
-                  padding: '20px',
-                  background: 'rgba(245,197,24,0.05)',
-                  borderRadius: '12px',
-                  border: '1px solid rgba(245,197,24,0.2)',
-                  textAlign: 'center',
-                }}>
-                  <div style={{ fontSize: '0.75rem', opacity: 0.6, marginBottom: '4px' }}>IMDb</div>
-                  <div style={{ fontSize: '2rem', fontWeight: '700', color: '#f5c518' }}>{movie.score.imdb}</div>
-                </div>
-              )}
-              {movie.score.rottenTomatoes && (
-                <div style={{
-                  flex: '1',
-                  minWidth: '120px',
-                  padding: '20px',
-                  background: 'rgba(250,60,60,0.05)',
-                  borderRadius: '12px',
-                  border: '1px solid rgba(250,60,60,0.2)',
-                  textAlign: 'center',
-                }}>
-                  <div style={{ fontSize: '0.75rem', opacity: 0.6, marginBottom: '4px' }}>烂番茄</div>
-                  <div style={{ fontSize: '2rem', fontWeight: '700', color: '#fa3c3c' }}>{movie.score.rottenTomatoes}</div>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
 
         {/* 剧情简介 */}
         <div className="detail-section">

@@ -46,84 +46,42 @@ export default function Movies() {
         ))}
       </div>
 
-      {/* 导演时间线 */}
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        gap: '12px',
-        marginBottom: '32px',
-        flexWrap: 'wrap',
-      }}>
-        {[
-          { name: '克里斯·哥伦布', films: '1-2', color: '#740001' },
-          { name: '阿方索·卡隆', films: '3', color: '#0e1a40' },
-          { name: '迈克·纽维尔', films: '4', color: '#ecb939' },
-          { name: '大卫·叶茨', films: '5-8', color: '#5a2d82' },
-        ].map((d, i) => (
-          <div key={i} style={{
-            padding: '6px 14px',
-            borderRadius: '20px',
-            background: `${d.color}22`,
-            border: `1px solid ${d.color}44`,
-            fontSize: '0.75rem',
-          }}>
-            <span style={{ color: d.color, fontWeight: '700' }}>#{d.films}</span>
-            <span style={{ marginLeft: '6px', opacity: 0.8 }}>{d.name}</span>
-          </div>
-        ))}
-      </div>
 
       <div className="movies-grid">
         {movies.map(movie => (
           <Link to={`/movies/${movie.id}`} key={movie.id} className="movie-card">
-            <div className="movie-card-poster" style={{ background: `linear-gradient(135deg, ${movie.color}, ${movie.color}99)` }}>
-              <span className="movie-card-emoji">🎬</span>
-              <span className="movie-card-number">#{movie.number}</span>
+            <div className="movie-card-poster">
+              <img src={movie.cover} alt={movie.title} className="movie-card-cover" />
+              <div className="movie-card-overlay">
+                <span className="movie-card-number">#{movie.number}</span>
+                <div className="movie-card-overlay-bottom">
+                  <div className="movie-card-overlay-info">
+                    <span>🎬 {movie.director}</span>
+                    <span>⏱️ {movie.duration}</span>
+                  </div>
+                  {movie.score && (
+                    <div className="movie-card-scores">
+                      {movie.score.douban && (
+                        <span className="movie-score-badge movie-score-douban">
+                          豆瓣 {movie.score.douban}
+                        </span>
+                      )}
+                      {movie.score.imdb && (
+                        <span className="movie-score-badge movie-score-imdb">
+                          IMDb {movie.score.imdb}
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
             <div className="movie-card-body">
               <h3 className="movie-card-title">{movie.title}</h3>
               <div className="movie-card-meta">
-                <span>📅 {movie.year}</span>
-                <span>🎬 {movie.director}</span>
-                <span>⏱️ {movie.duration}</span>
+                <span>{movie.year}年</span>
+                <span className="movie-card-box-inline">💰 {movie.boxOffice}</span>
               </div>
-              <div className="movie-card-box">
-                💰 全球票房 {movie.boxOffice}
-              </div>
-              {/* 评分 */}
-              {movie.score && (
-                <div style={{
-                  display: 'flex',
-                  gap: '8px',
-                  marginTop: '8px',
-                  flexWrap: 'wrap',
-                }}>
-                  {movie.score.douban && (
-                    <span style={{
-                      padding: '2px 8px',
-                      borderRadius: '10px',
-                      background: 'rgba(44,182,44,0.1)',
-                      color: '#2cb62c',
-                      fontSize: '0.65rem',
-                      border: '1px solid rgba(44,182,44,0.3)',
-                    }}>
-                      豆瓣 {movie.score.douban}
-                    </span>
-                  )}
-                  {movie.score.imdb && (
-                    <span style={{
-                      padding: '2px 8px',
-                      borderRadius: '10px',
-                      background: 'rgba(245,197,24,0.1)',
-                      color: '#f5c518',
-                      fontSize: '0.65rem',
-                      border: '1px solid rgba(245,197,24,0.3)',
-                    }}>
-                      IMDb {movie.score.imdb}
-                    </span>
-                  )}
-                </div>
-              )}
             </div>
           </Link>
         ))}

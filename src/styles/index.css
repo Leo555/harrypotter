@@ -682,12 +682,20 @@ a:hover { color: var(--color-gold-light); }
   border-bottom: 1px solid rgba(255,255,255,0.04);
 }
 .character-avatar {
-  width: 52px; height: 52px;
+  width: 56px; height: 56px;
   border-radius: 50%;
   display: flex;
   align-items: center; justify-content: center;
   font-size: 1.6rem;
   flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+}
+.character-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .character-card-name { font-size: 1rem; color: var(--color-gold); font-weight: 600; }
 .character-card-name-en { font-size: 0.75rem; color: rgba(245,230,200,0.4); margin-top: 2px; }
@@ -715,6 +723,20 @@ a:hover { color: var(--color-gold-light); }
 .character-detail { max-width: 800px; margin: 0 auto; }
 .detail-header { text-align: center; padding: 32px 0; }
 .detail-avatar { font-size: 3.5rem; margin-bottom: 14px; display: block; }
+.detail-avatar-img-wrap {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 18px;
+  border: 3px solid rgba(212, 168, 67, 0.4);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4), 0 0 40px rgba(212, 168, 67, 0.08);
+}
+.detail-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .detail-name { font-family: 'Cinzel', serif; font-size: 2.2rem; color: var(--color-gold); }
 .detail-name-en { font-size: 1rem; color: rgba(245,230,200,0.45); margin-top: 4px; }
 
@@ -929,12 +951,12 @@ a:hover { color: var(--color-gold-light); }
 .book-nav-title { display: block; font-size: 0.9rem; color: var(--color-gold); }
 
 /* ============================
-   电影卡片
+   电影卡片 — 竖版海报设计
    ============================ */
 .movies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
 }
 .movie-card {
   background: rgba(255,255,255,0.02);
@@ -945,34 +967,165 @@ a:hover { color: var(--color-gold-light); }
   color: inherit;
   transition: all 0.4s ease;
 }
-.movie-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); color: inherit; }
-.movie-card-poster {
-  height: 120px;
-  display: flex;
-  align-items: center; justify-content: center;
-  position: relative;
+.movie-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+  color: inherit;
+  border-color: rgba(212,175,55,0.25);
 }
-.movie-card-emoji { font-size: 2.5rem; }
-.movie-card-number {
+/* 海报区域 — 保持 2:3 竖版比例 */
+.movie-card-poster {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: #1a1a2e;
+}
+.movie-card-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.6s ease;
+}
+.movie-card:hover .movie-card-cover {
+  transform: scale(1.06);
+}
+/* 海报上的叠加层 */
+.movie-card-overlay {
   position: absolute;
-  top: 10px; right: 10px;
-  background: rgba(0,0,0,0.4);
-  padding: 3px 10px;
-  border-radius: 10px;
-  font-size: 0.85rem;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  pointer-events: none;
+}
+.movie-card-number {
+  align-self: flex-end;
+  margin: 10px;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
   color: #fff;
   font-family: 'Cinzel', serif;
+  font-weight: 600;
 }
-.movie-card-body { padding: 18px; }
-.movie-card-title { font-size: 1rem; color: var(--color-gold); margin-bottom: 10px; font-weight: 600; }
-.movie-card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; font-size: 0.78rem; color: rgba(245,230,200,0.5); }
-.movie-card-box {
-  font-size: 0.82rem;
+.movie-card-overlay-bottom {
+  padding: 40px 12px 12px;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all 0.4s ease;
+}
+.movie-card:hover .movie-card-overlay-bottom {
+  opacity: 1;
+  transform: translateY(0);
+}
+.movie-card-overlay-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.85);
+}
+.movie-card-scores {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.movie-score-badge {
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+.movie-score-douban {
+  background: rgba(44,182,44,0.2);
+  color: #5ee35e;
+}
+.movie-score-imdb {
+  background: rgba(245,197,24,0.2);
+  color: #f5c518;
+}
+/* 卡片底部文字区 */
+.movie-card-body {
+  padding: 14px 14px 16px;
+}
+.movie-card-title {
+  font-size: 0.95rem;
   color: var(--color-gold);
-  background: rgba(212,168,67,0.08);
-  padding: 6px 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.movie-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: rgba(245,230,200,0.5);
+}
+.movie-card-box-inline {
+  color: var(--color-gold);
+  font-weight: 500;
+}
+
+/* ============================
+   电影详情页头部
+   ============================ */
+.movie-detail-header {
+  display: flex;
+  gap: 28px;
+  padding: 24px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius);
+  margin-bottom: 24px;
+  align-items: flex-start;
+  border-left: 4px solid;
+}
+.movie-detail-poster {
+  width: 180px;
+  flex-shrink: 0;
   border-radius: var(--radius-sm);
-  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+.movie-detail-poster-img {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius-sm);
+}
+.movie-detail-scores {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.movie-detail-score-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 18px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.06);
+  min-width: 72px;
+}
+.movie-detail-score-label {
+  font-size: 0.7rem;
+  opacity: 0.5;
+  margin-bottom: 2px;
+}
+.movie-detail-score-value {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* 演员网格 */
@@ -1123,15 +1276,23 @@ a:hover { color: var(--color-gold-light); }
 .relation-map { display: flex; flex-direction: column; align-items: center; gap: 24px; }
 .relation-center {
   text-align: center;
-  padding: 20px;
+  padding: 16px;
   background: rgba(212,168,67,0.06);
   border: 2px solid var(--color-gold);
   border-radius: 50%;
   width: 130px; height: 130px;
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
+  overflow: hidden;
 }
 .relation-center-emoji { font-size: 2.2rem; margin-bottom: 4px; }
+.relation-center-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 4px;
+}
 .relation-center-name { font-size: 0.82rem; color: var(--color-gold); font-weight: 600; }
 .relation-nodes { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
 .relation-node {
@@ -1148,6 +1309,15 @@ a:hover { color: var(--color-gold-light); }
 }
 .relation-node:hover { border-color: var(--color-gold); background: rgba(212,168,67,0.06); color: inherit; }
 .relation-node-emoji { font-size: 1.6rem; margin-bottom: 6px; display: block; }
+.relation-node-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 6px;
+  display: block;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+}
 .relation-node-name { font-size: 0.78rem; color: var(--color-parchment); }
 
 /* ============================
@@ -1427,7 +1597,7 @@ a:hover { color: var(--color-gold-light); }
   .feature-grid { grid-template-columns: 1fr; }
   .character-grid { grid-template-columns: 1fr; }
   .books-grid { grid-template-columns: 1fr; }
-  .movies-grid { grid-template-columns: 1fr; }
+  .movies-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .spells-grid { grid-template-columns: 1fr; }
   .news-grid-home { grid-template-columns: 1fr; }
   .news-card { flex-direction: column; }
@@ -1435,6 +1605,9 @@ a:hover { color: var(--color-gold-light); }
   .detail-name { font-size: 1.6rem; }
   .info-grid { grid-template-columns: 1fr; }
   .book-detail-header { flex-direction: column; text-align: center; }
+  .movie-detail-header { flex-direction: column; align-items: center; text-align: center; }
+  .movie-detail-poster { width: 160px; }
+  .movie-detail-scores { justify-content: center; }
   .book-nav { flex-direction: column; }
   .book-nav-btn { max-width: 100%; }
   .footer-inner { flex-direction: column; gap: 32px; }
