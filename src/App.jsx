@@ -10,6 +10,9 @@ import MovieDetail from './pages/MovieDetail'
 import Characters from './pages/Characters'
 import CharacterDetail from './pages/CharacterDetail'
 import Spells from './pages/Spells'
+import Creatures from './pages/Creatures'
+import MagicItems from './pages/MagicItems'
+import Places from './pages/Places'
 import News from './pages/News'
 import NewsDetail from './pages/NewsDetail'
 import SortingHat from './pages/SortingHat'
@@ -17,6 +20,7 @@ import Patronus from './pages/Patronus'
 import WandMatch from './pages/WandMatch'
 import Timeline from './pages/Timeline'
 import ExtraStories from './pages/ExtraStories'
+import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
@@ -25,24 +29,38 @@ export default function App() {
       <Header />
       <main className="main-content">
         <Routes>
+          {/* 首页 */}
           <Route path="/" element={<Home />} />
+
+          {/* 百科模块 */}
           <Route path="/books" element={<Books />} />
           <Route path="/books/:id" element={<BookDetail />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/movies/:id" element={<MovieDetail />} />
           <Route path="/characters" element={<Characters />} />
           <Route path="/characters/:id" element={<CharacterDetail />} />
+
+          {/* 魔法世界 */}
           <Route path="/world/spells" element={<Spells />} />
-          <Route path="/world/creatures" element={<Spells />} />
-          <Route path="/world/items" element={<Spells />} />
-          <Route path="/world/places" element={<Spells />} />
+          <Route path="/world/creatures" element={<Creatures />} />
+          <Route path="/world/items" element={<MagicItems />} />
+          <Route path="/world/places" element={<Places />} />
+
+          {/* 资讯 */}
           <Route path="/news" element={<News />} />
           <Route path="/news/:id" element={<NewsDetail />} />
+
+          {/* 互动专区 */}
           <Route path="/interactive/sorting" element={<SortingHat />} />
           <Route path="/interactive/patronus" element={<Patronus />} />
           <Route path="/interactive/wand" element={<WandMatch />} />
+
+          {/* 其他 */}
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/extra-stories" element={<ExtraStories />} />
+
+          {/* 404 */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

@@ -1,10 +1,17 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { characters, houses } from '../data/characters'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function CharacterDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
   const char = characters.find(c => c.id === id)
+
+  useDocumentHead({
+    title: char ? `${char.name}（${char.nameEn}）` : '未找到人物',
+    description: char ? `${char.name}的详细档案 — ${char.description.slice(0, 120)}` : '',
+    keywords: char ? `${char.name},${char.nameEn},哈利波特人物,${char.occupation}` : '',
+  })
 
   if (!char) {
     return (

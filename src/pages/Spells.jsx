@@ -1,7 +1,14 @@
 import { useState } from 'react'
 import { spells } from '../data/spells'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function Spells() {
+  useDocumentHead({
+    title: '✨ 咒语大全',
+    description: '魔法世界经典咒语大全 — 从除你武器到阿瓦达索命，收录所有咒语的名称、效果、分类与首次出现。',
+    keywords: '哈利波特咒语,魔法咒语,除你武器,呼神护卫,阿瓦达索命,不可饶恕咒',
+  })
+
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState('all')
 

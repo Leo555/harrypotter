@@ -1,10 +1,17 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import books from '../data/books'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function BookDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
   const book = books.find(b => b.id === id)
+
+  useDocumentHead({
+    title: book ? `${book.title}` : '未找到书籍',
+    description: book ? `${book.title}（${book.titleEn}）— ${book.summary.slice(0, 120)}` : '',
+    keywords: book ? `${book.title},${book.titleEn},哈利波特第${book.number}部` : '',
+  })
 
   if (!book) {
     return (

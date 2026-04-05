@@ -1,7 +1,14 @@
 import { useState } from 'react'
 import { sortingQuestions, houseResults } from '../data/sorting'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function SortingHat() {
+  useDocumentHead({
+    title: '🎩 分院帽测试',
+    description: '霍格沃茨分院帽测试 — 回答十道问题，发现你属于格兰芬多、斯莱特林、拉文克劳还是赫奇帕奇。',
+    keywords: '分院帽测试,霍格沃茨学院,格兰芬多,斯莱特林,拉文克劳,赫奇帕奇',
+  })
+
   const [currentQ, setCurrentQ] = useState(0)
   const [scores, setScores] = useState({ gryffindor: 0, ravenclaw: 0, hufflepuff: 0, slytherin: 0 })
   const [result, setResult] = useState(null)

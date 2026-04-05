@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom'
 import books from '../data/books'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function Books() {
+  useDocumentHead({
+    title: '📚 原著百科',
+    description: 'J.K.罗琳创作的七部哈利·波特小说完整百科 — 故事梗概、章节目录、经典名句、关键事件、魔法物品全收录。',
+    keywords: '哈利波特小说,原著百科,魔法石,密室,阿兹卡班,火焰杯,凤凰社,混血王子,死亡圣器',
+  })
   return (
     <div className="container fade-in">
       <h1 className="page-title">📚 原著百科</h1>

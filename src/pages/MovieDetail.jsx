@@ -1,10 +1,17 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import movies from '../data/movies'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function MovieDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
   const movie = movies.find(m => m.id === id)
+
+  useDocumentHead({
+    title: movie ? `🎬 ${movie.title}` : '未找到电影',
+    description: movie ? `${movie.title}（${movie.titleEn}）— ${movie.year}年 · ${movie.director} · ${movie.duration} · 全球票房${movie.boxOffice}` : '',
+    keywords: movie ? `${movie.title},${movie.titleEn},哈利波特电影第${movie.number}部` : '',
+  })
 
   if (!movie) {
     return (

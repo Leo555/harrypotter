@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom'
 import movies from '../data/movies'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function Movies() {
+  useDocumentHead({
+    title: '🎬 电影百科',
+    description: '哈利·波特八部电影详细资料 — 导演、演员表、票房数据、幕后花絮、经典台词一网打尽。',
+    keywords: '哈利波特电影,魔法石电影,密室电影,死亡圣器电影,丹尼尔·雷德克里夫',
+  })
   return (
     <div className="container fade-in">
       <h1 className="page-title">🎬 电影百科</h1>

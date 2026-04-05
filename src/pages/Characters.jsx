@@ -1,8 +1,15 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { characters, houses } from '../data/characters'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function Characters() {
+  useDocumentHead({
+    title: '🧙 人物百科',
+    description: '魔法世界50+核心人物详细档案 — 哈利·波特、赫敏·格兰杰、伏地魔等角色的身份背景、魔杖信息、人生轨迹与关系网络。',
+    keywords: '哈利波特人物,魔法师,霍格沃茨角色,邓布利多,斯内普,伏地魔',
+  })
+
   const [filter, setFilter] = useState('all')
   const [search, setSearch] = useState('')
 
