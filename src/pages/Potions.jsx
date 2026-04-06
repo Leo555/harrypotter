@@ -122,7 +122,7 @@ export default function Potions() {
         <p>⚗️ 共收录 <strong>{potions.length}</strong> 种经典魔药，包含配方、难度、酿制时间等详细信息</p>
       </div>
 
-      <WikiCrossLinks currentPath="/potions" />
+      <WikiCrossLinks currentPath="/world/potions" />
     </div>
   )
 }
