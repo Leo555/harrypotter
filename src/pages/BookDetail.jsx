@@ -282,7 +282,7 @@ export default function BookDetail() {
         <div className="book-detail-header" style={{ borderColor: book.color }}>
           <div className="book-detail-cover" style={{ background: book.coverImage ? 'transparent' : `linear-gradient(135deg, ${book.color}, ${book.color}88)` }}>
             {book.coverImage ? (
-              <img src={book.coverImage} alt={book.title} className="book-detail-cover-img" />
+              <img loading="lazy" src={book.coverImage} alt={book.title} className="book-detail-cover-img" />
             ) : (
               <span style={{ fontSize: '4rem' }}>{book.cover}</span>
             )}
@@ -398,7 +398,7 @@ export default function BookDetail() {
                 <Link to={`/characters/${char.id}`} key={char.id} className="book-char-card hover-lift-subtle">
                   <div className="book-char-avatar-wrap">
                     {char.image ? (
-                      <img src={char.image} alt={char.name} className="char-avatar-circle" />
+                      <img loading="lazy" src={char.image} alt={char.name} className="char-avatar-circle" />
                     ) : char.avatar}
                   </div>
                   <span className="book-char-name">{char.name}</span>

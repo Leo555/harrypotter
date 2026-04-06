@@ -6,18 +6,25 @@
  * 将其设为与 index.html 相同即可让 React Router 接管路由。
  */
 import { resolve } from 'path'
-import { copyFileSync } from 'fs'
+import { copyFileSync, existsSync } from 'fs'
 
 export default function spaFallback() {
   return {
     name: 'spa-fallback',
     closeBundle() {
       const outDir = resolve(process.cwd(), 'dist')
-      copyFileSync(
-        resolve(outDir, 'index.html'),
-        resolve(outDir, '404.html')
-      )
-      console.log('✅ 404.html created for GitHub Pages SPA routing')
+      const indexHtml = resolve(outDir, 'index.html')
+      const notFoundHtml = resolve(outDir, '404.html')
+      
+      // 确保 index.html 存在后再复制
+      if (existsSync(indexHtml)) {
+        try {
+          copyFileSync(indexHtml, notFoundHtml)
+          console.log('✅ 404.html created for GitHub Pages SPA routing')
+        } catch (err) {
+          console.warn('⚠️  Failed to create 404.html:', err.message)
+        }
+      }
     }
   }
 }

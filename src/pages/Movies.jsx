@@ -39,7 +39,7 @@ export default function Movies() {
           <div key={movie.id} className="movie-card">
             <Link to={`/movies/${movie.id}`} className="movie-card-link">
               <div className="movie-card-poster">
-                <img src={movie.cover} alt={movie.title} className="movie-card-cover" />
+                <img loading="lazy" src={movie.cover} alt={movie.title} className="movie-card-cover" />
                 <div className="movie-card-overlay">
                   <span className="movie-card-number">#{movie.number}</span>
                   <div className="movie-card-overlay-bottom">

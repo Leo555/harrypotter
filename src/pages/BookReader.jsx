@@ -205,7 +205,7 @@ export default function BookReader() {
         <div className="reader-chapters-hero">
           <div className="reader-chapters-cover">
             {bookInfo?.coverImage ? (
-              <img src={bookInfo.coverImage} alt={bookData.titleCn} className="reader-chapters-cover-img" />
+              <img loading="lazy" src={bookInfo.coverImage} alt={bookData.titleCn} className="reader-chapters-cover-img" />
             ) : (
               <span className="reader-chapters-cover-emoji">{bookCovers[bookNum]}</span>
             )}

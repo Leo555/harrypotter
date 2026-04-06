@@ -142,7 +142,7 @@ export default function Home() {
             <Link to={`/books/${book.id}`} key={book.id} className="showcase-card">
               <div className="showcase-poster" style={{ background: book.coverImage ? '#1a1a2e' : book.color }}>
                 {book.coverImage ? (
-                  <img src={book.coverImage} alt={book.title} className="showcase-poster-img" />
+                  <img loading="lazy" src={book.coverImage} alt={book.title} className="showcase-poster-img" />
                 ) : (
                   <span className="showcase-poster-emoji">{book.cover}</span>
                 )}
@@ -172,7 +172,7 @@ export default function Home() {
           {movies.map(movie => (
             <Link to={`/movies/${movie.id}`} key={movie.id} className="showcase-card">
               <div className="showcase-poster">
-                <img src={movie.cover} alt={movie.title} className="showcase-poster-img" />
+                <img loading="lazy" src={movie.cover} alt={movie.title} className="showcase-poster-img" />
                 <div className="showcase-poster-overlay">
                   <span className="showcase-badge">#{movie.number}</span>
                 </div>
@@ -209,7 +209,7 @@ export default function Home() {
                 boxShadow: '0 2px 12px rgba(0,0,0,0.3)',
               }}>
                 {char.image ? (
-                  <img src={char.image} alt={char.name} className="char-avatar-circle" />
+                  <img loading="lazy" src={char.image} alt={char.name} className="char-avatar-circle" />
                 ) : (
                   char.avatar
                 )}

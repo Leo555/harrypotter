@@ -85,7 +85,7 @@ export default function ReaderShelf() {
                 <div className="reader-book-spine" />
                 <div className="reader-book-cover">
                   {bookInfo?.coverImage ? (
-                    <img src={bookInfo.coverImage} alt={bookTitles[num]} className="reader-book-cover-img" />
+                    <img loading="lazy" src={bookInfo.coverImage} alt={bookTitles[num]} className="reader-book-cover-img" />
                   ) : (
                     <span className="reader-book-cover-emoji">{bookCovers[num]}</span>
                   )}

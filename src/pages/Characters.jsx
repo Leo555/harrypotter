@@ -79,7 +79,7 @@ export default function Characters() {
             <div className="character-card-header">
               <div className="character-avatar" style={{ background: houses[char.house]?.color || '#333' }}>
                 {char.image ? (
-                  <img src={char.image} alt={char.name} className="character-avatar-img" />
+                  <img loading="lazy" src={char.image} alt={char.name} className="character-avatar-img" />
                 ) : (
                   char.avatar
                 )}

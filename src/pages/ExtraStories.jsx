@@ -203,7 +203,7 @@ export default function ExtraStories() {
                                     display: 'inline-flex', alignItems: 'center', gap: '4px',
                                   }}>
                                     {char.image ? (
-                                      <img src={char.image} alt={char.name} style={{
+                                      <img loading="lazy" src={char.image} alt={char.name} style={{
                                         width: '20px', height: '20px', borderRadius: '50%', objectFit: 'cover',
                                         border: '1px solid rgba(212,168,67,0.3)',
                                       }} />

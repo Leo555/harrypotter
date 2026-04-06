@@ -52,7 +52,7 @@ export default function CharacterDetail() {
         <div className="detail-header">
           {char.image ? (
             <div className="detail-avatar-img-wrap">
-              <img src={char.image} alt={char.name} className="detail-avatar-img" />
+              <img loading="lazy" src={char.image} alt={char.name} className="detail-avatar-img" />
             </div>
           ) : (
             <span className="detail-avatar">{char.avatar}</span>
@@ -251,7 +251,7 @@ export default function CharacterDetail() {
             <div className="relation-map">
               <div className="relation-center" style={{ borderColor: house?.color }}>
                 {char.image ? (
-                  <img src={char.image} alt={char.name} className="relation-center-img" />
+                  <img loading="lazy" src={char.image} alt={char.name} className="relation-center-img" />
                 ) : (
                   <span className="relation-center-emoji">{char.avatar}</span>
                 )}
@@ -261,7 +261,7 @@ export default function CharacterDetail() {
                 {relatedChars.map(rc => (
                   <Link to={`/characters/${rc.id}`} key={rc.id} className="relation-node">
                     {rc.image ? (
-                      <img src={rc.image} alt={rc.name} className="relation-node-img" />
+                      <img loading="lazy" src={rc.image} alt={rc.name} className="relation-node-img" />
                     ) : (
                       <span className="relation-node-emoji">{rc.avatar}</span>
                     )}

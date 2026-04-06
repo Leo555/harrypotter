@@ -75,7 +75,7 @@ export default function MovieDetail() {
         {/* 头部 — 电影海报 + 信息 */}
         <div className="movie-detail-header" style={{ borderColor: movie.color }}>
           <div className="movie-detail-poster">
-            <img src={movie.cover} alt={movie.title} className="movie-detail-poster-img" />
+            <img loading="lazy" src={movie.cover} alt={movie.title} className="movie-detail-poster-img" />
           </div>
           <div className="book-detail-info">
             <div className="book-detail-number" style={{ color: movie.color }}>第{movie.number}部电影</div>
@@ -222,7 +222,7 @@ export default function MovieDetail() {
                   >
                     <div className="movie-char-avatar-wrap">
                       {char.image ? (
-                        <img src={char.image} alt={char.name} className="char-avatar-circle" />
+                        <img loading="lazy" src={char.image} alt={char.name} className="char-avatar-circle" />
                       ) : char.avatar}
                     </div>
                     <div className="movie-char-name">{char.name}</div>

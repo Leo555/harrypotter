@@ -88,7 +88,7 @@ export default function Timeline() {
                       padding: 0, fontSize: 'inherit',
                     } : {}}>
                       {item.image ? (
-                        <img src={item.image} alt={item.character || ''} style={{
+                        <img loading="lazy" src={item.image} alt={item.character || ''} style={{
                           width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%',
                         }} />
                       ) : item.avatar}

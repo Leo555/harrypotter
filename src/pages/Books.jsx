@@ -38,7 +38,7 @@ export default function Books() {
           <Link to={`/books/${book.id}`} key={book.id} id={`book-${book.number}`} className="book-card">
             <div className="book-card-cover" style={{ background: `linear-gradient(135deg, ${book.color}, ${book.color}88)` }}>
               {book.coverImage ? (
-                <img src={book.coverImage} alt={book.title} className="book-card-cover-img" />
+                <img loading="lazy" src={book.coverImage} alt={book.title} className="book-card-cover-img" />
               ) : (
                 <span className="book-card-emoji">{book.cover}</span>
               )}
