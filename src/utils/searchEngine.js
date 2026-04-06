@@ -6,6 +6,9 @@ import movies from '../data/movies'
 import { spells } from '../data/spells'
 import potions from '../data/potions'
 import { extraStories } from '../data/extraStories'
+import creatures from '../data/creatures'
+import magicItems from '../data/magicItems'
+import places from '../data/places'
 
 // 搜索分类定义
 const CATEGORIES = {
