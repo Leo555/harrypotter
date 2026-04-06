@@ -43,6 +43,8 @@ export default function Characters() {
         { label: '格兰芬多', value: `${houseCounts.gryffindor || 0} 位`, icon: '🦁' },
         { label: '斯莱特林', value: `${houseCounts.slytherin || 0} 位`, icon: '🐍' },
         { label: '拉文克劳', value: `${houseCounts.ravenclaw || 0} 位`, icon: '🦅' },
+        { label: '赫奇帕奇', value: `${houseCounts.hufflepuff || 0} 位`, icon: '🦡' },
+        { label: '其他', value: `${houseCounts.other || 0} 位`, icon: '🌟' },
       ]} />
 
       <div className="search-container">
