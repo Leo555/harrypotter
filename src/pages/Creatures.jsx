@@ -28,8 +28,11 @@ const creatures = [
 export default function Creatures() {
   useDocumentHead({
     title: '🐉 魔法生物',
+    titleEn: 'Magical Creatures — Fantastic Beasts Encyclopedia',
     description: '魔法世界生物图鉴 — 龙、凤凰、独角兽、摄魂怪等魔法生物的分级、习性与故事。',
+    descriptionEn: 'Encyclopedic guide to magical creatures — Dragons, Phoenixes, Unicorns, Dementors & more. Classifications, behaviors & stories from the Wizarding World.',
     keywords: '哈利波特生物,魔法生物,龙,凤凰,独角兽,摄魂怪,夜骐',
+    keywordsEn: 'magical creatures,Fantastic Beasts,Dragons,Phoenix,Unicorn,Dementor,Thestral,Harry Potter',
   })
 
   const [search, setSearch] = useState('')

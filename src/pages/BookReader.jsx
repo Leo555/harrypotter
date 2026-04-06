@@ -45,8 +45,13 @@ export default function BookReader() {
     title: chapterNum
       ? `📖 ${bookTitles[bookNum] || '原著阅读'} · ${lang === 'cn' ? '中文版' : '英文原版'}`
       : `📖 ${bookTitles[bookNum] || '原著阅读'} — 章节目录`,
+    titleEn: chapterNum
+      ? `Reading: Harry Potter Book ${bookNum} (${lang === 'cn' ? 'Chinese' : 'English'})`
+      : `Harry Potter Book ${bookNum} — Chapter List`,
     description: `在线阅读哈利波特原著《${bookTitles[bookNum] || ''}》${lang === 'cn' ? '中文版' : '英文原版'}，沉浸式阅读体验。`,
+    descriptionEn: `Read Harry Potter Book ${bookNum} online — ${lang === 'cn' ? 'Chinese translation' : 'English original'}. Immersive reading experience.`,
     keywords: `哈利波特在线阅读,${bookTitles[bookNum] || ''},原著,${lang === 'cn' ? '中文版' : '英文原版'}`,
+    keywordsEn: `read Harry Potter online,book ${bookNum},${lang === 'cn' ? 'Chinese' : 'English'}`,
   })
 
   useEffect(() => {

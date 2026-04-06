@@ -34,13 +34,28 @@ export default function MovieDetail() {
 
   useDocumentHead({
     title: movie ? `🎬 ${movie.title}` : '未找到电影',
+    titleEn: movie ? `${movie.titleEn} — Movie Details` : 'Movie Not Found',
     description: movie ? `${movie.title}（${movie.titleEn}）— ${movie.year}年 · ${movie.director} · ${movie.duration} · 全球票房${movie.boxOffice}` : '',
+    descriptionEn: movie ? `${movie.titleEn} (${movie.year}) — Directed by ${movie.director}. Runtime: ${movie.duration}. Box Office: ${movie.boxOffice}.` : '',
     keywords: movie ? `${movie.title},${movie.titleEn},哈利波特电影第${movie.number}部` : '',
+    keywordsEn: movie ? `${movie.titleEn},Harry Potter movie,${movie.director}` : '',
+    image: movie?.cover,
+    type: 'video.movie',
+    jsonLd: movie ? {
+      '@context': 'https://schema.org',
+      '@type': 'Movie',
+      name: movie.titleEn,
+      alternateName: movie.title,
+      datePublished: String(movie.year),
+      director: { '@type': 'Person', name: movie.director },
+      duration: movie.duration,
+      description: movie.titleEn,
+    } : null,
   })
 
   if (!movie) {
     return (
-      <div className="container fade-in" style={{ textAlign: 'center', padding: '80px 24px' }}>
+      <div className="container fade-in not-found-wrapper">
         <h2 style={{ color: 'var(--color-gold)' }}>🎬 未找到该电影</h2>
         <button className="back-btn" style={{ marginTop: 24 }} onClick={() => navigate('/movies')}>
           ← 返回电影百科
@@ -78,26 +93,26 @@ export default function MovieDetail() {
                 {movie.score.douban && (
                   <div className="movie-detail-score-item">
                     <span className="movie-detail-score-label">豆瓣</span>
-                    <span className="movie-detail-score-value" style={{ color: '#2cb62c' }}>{movie.score.douban}</span>
+                    <span className="movie-detail-score-value movie-score-douban">{movie.score.douban}</span>
                   </div>
                 )}
                 {movie.score.imdb && (
                   <div className="movie-detail-score-item">
                     <span className="movie-detail-score-label">IMDb</span>
-                    <span className="movie-detail-score-value" style={{ color: '#f5c518' }}>{movie.score.imdb}</span>
+                    <span className="movie-detail-score-value movie-score-imdb">{movie.score.imdb}</span>
                   </div>
                 )}
                 {movie.score.rottenTomatoes && (
                   <div className="movie-detail-score-item">
                     <span className="movie-detail-score-label">烂番茄</span>
-                    <span className="movie-detail-score-value" style={{ color: '#fa3c3c' }}>{movie.score.rottenTomatoes}</span>
+                    <span className="movie-detail-score-value movie-score-rotten">{movie.score.rottenTomatoes}</span>
                   </div>
                 )}
               </div>
             )}
             {/* 观看按钮 */}
             {movie.watchLinks && (
-              <div className="movie-card-watch" style={{ border: 'none', margin: 0, padding: 0, marginTop: '16px' }}>
+              <div className="movie-card-watch movie-card-watch-inline">
                 <div className="movie-card-watch-links">
                   {movie.watchLinks.tencent && (
                     <a
@@ -149,19 +164,7 @@ export default function MovieDetail() {
             <div style={{ marginTop: '16px' }}>
               <Link
                 to={`/books/${movie.relatedBook}`}
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  padding: '8px 16px',
-                  background: 'rgba(212,175,55,0.08)',
-                  borderRadius: '8px',
-                  border: '1px solid rgba(212,175,55,0.2)',
-                  color: 'var(--color-gold)',
-                  textDecoration: 'none',
-                  fontSize: '0.85rem',
-                  transition: 'all 0.3s',
-                }}
+                className="movie-related-book-link hover-tag-gold"
               >
                 📚 查看原著对照 →
               </Link>
@@ -178,12 +181,7 @@ export default function MovieDetail() {
               return (
                 <div key={i} className="cast-card">
                   {charId ? (
-                    <Link to={`/characters/${charId}`} style={{
-                      color: 'var(--color-gold)',
-                      textDecoration: 'none',
-                      fontWeight: '600',
-                      transition: 'opacity 0.3s',
-                    }}>
+                    <Link to={`/characters/${charId}`} className="movie-cast-role-link">
                       <div className="cast-role" style={{ color: 'var(--color-gold)' }}>
                         {c.role} →
                       </div>
@@ -195,11 +193,7 @@ export default function MovieDetail() {
                     href={`https://www.imdb.com/find/?q=${encodeURIComponent(c.actorEn)}&s=nm`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{
-                      color: 'var(--color-parchment)',
-                      textDecoration: 'none',
-                      transition: 'color 0.3s',
-                    }}
+                    className="movie-cast-actor-link"
                   >
                     <div className="cast-actor">{c.actor} 🔗</div>
                   </a>
@@ -342,16 +336,9 @@ export default function MovieDetail() {
         {movie.awards && movie.awards.length > 0 && (
           <div className="detail-section">
             <h2 className="detail-section-title">🏆 奖项与荣誉</h2>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            <div className="char-skill-wrap">
               {movie.awards.map((award, i) => (
-                <span key={i} style={{
-                  padding: '6px 16px',
-                  borderRadius: '20px',
-                  background: 'rgba(212,175,55,0.1)',
-                  color: 'var(--color-gold)',
-                  fontSize: '0.85rem',
-                  border: '1px solid rgba(212,175,55,0.3)',
-                }}>
+                <span key={i} className="movie-award-tag">
                   🏅 {award}
                 </span>
               ))}

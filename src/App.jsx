@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import ScrollToTopButton from './components/ScrollToTopButton'
+import { preloadNews } from './data/news'
 import Home from './pages/Home'
 import Books from './pages/Books'
 import BookDetail from './pages/BookDetail'
@@ -24,7 +25,11 @@ import Timeline from './pages/Timeline'
 import ExtraStories from './pages/ExtraStories'
 import ReaderShelf from './pages/ReaderShelf'
 import BookReader from './pages/BookReader'
+import SearchPage from './pages/SearchPage'
 import NotFound from './pages/NotFound'
+
+// 预加载新闻数据（越早越好，不阻塞渲染）
+preloadNews()
 
 /* 带 Header/Footer 的主布局 */
 function MainLayout() {
@@ -66,6 +71,7 @@ function MainLayout() {
           {/* 其他 */}
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/extra-stories" element={<ExtraStories />} />
+          <Route path="/search" element={<SearchPage />} />
 
           {/* 404 */}
           <Route path="*" element={<NotFound />} />

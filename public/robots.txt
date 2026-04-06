@@ -1,0 +1,12 @@
+# 哈利波特的魔法世界 | Harry Potter's Wizarding World
+# https://harrypotter.lz5z.com
+
+User-agent: *
+Allow: /
+Disallow: /reader/*/  
+
+# Sitemap
+Sitemap: https://harrypotter.lz5z.com/sitemap.xml
+
+# Crawl delay (optional, be kind to bots)
+Crawl-delay: 1

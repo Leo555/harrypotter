@@ -7,8 +7,11 @@ import StatsPanel from '../components/StatsPanel'
 export default function Potions() {
   useDocumentHead({
     title: '⚗️ 魔药百科',
+    titleEn: 'Potions Encyclopedia — Wizarding World Brews',
     description: '魔法世界魔药大全 — 复方汤剂、福灵剂、吐真剂、迷情剂等经典魔药的配方、效果与故事。',
+    descriptionEn: 'Complete potions encyclopedia — Polyjuice Potion, Felix Felicis, Veritaserum, Amortentia & more. Recipes, effects & stories.',
     keywords: '哈利波特魔药,复方汤剂,福灵剂,吐真剂,迷情剂,魔药学',
+    keywordsEn: 'Harry Potter potions,Polyjuice Potion,Felix Felicis,Veritaserum,Amortentia,potions class',
   })
 
   const [search, setSearch] = useState('')

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const navItems = [
   {
@@ -46,6 +46,7 @@ const navItems = [
 
 export default function Header() {
   const location = useLocation()
+  const navigate = useNavigate()
   const [mobileOpen, setMobileOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState(null)
   const [scrolled, setScrolled] = useState(false)
@@ -138,6 +139,15 @@ export default function Header() {
         </nav>
 
         <button
+          className="header-search-btn"
+          onClick={() => navigate('/search')}
+          aria-label="搜索"
+          title="全站搜索"
+        >
+          🔍
+        </button>
+
+        <button
           className="mobile-menu-btn"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="菜单"
@@ -172,6 +182,12 @@ export default function Header() {
               )}
             </div>
           ))}
+          <Link
+            to="/search"
+            className={`mobile-nav-item ${location.pathname === '/search' ? 'active' : ''}`}
+          >
+            🔍 全站搜索
+          </Link>
         </div>
       )}
     </header>

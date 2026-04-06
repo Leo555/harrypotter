@@ -12,13 +12,25 @@ export default function CharacterDetail() {
 
   useDocumentHead({
     title: char ? `${char.name}（${char.nameEn}）` : '未找到人物',
+    titleEn: char ? `${char.nameEn} — Character Profile` : 'Character Not Found',
     description: char ? `${char.name}的详细档案 — ${char.description.slice(0, 120)}` : '',
+    descriptionEn: char ? `${char.nameEn} character profile — biography, background, wand info & more from the Wizarding World.` : '',
     keywords: char ? `${char.name},${char.nameEn},哈利波特人物,${char.occupation}` : '',
+    keywordsEn: char ? `${char.nameEn},Harry Potter character,Wizarding World` : '',
+    type: 'profile',
+    jsonLd: char ? {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: char.nameEn,
+      alternateName: char.name,
+      description: char.description.slice(0, 200),
+      jobTitle: char.occupation,
+    } : null,
   })
 
   if (!char) {
     return (
-      <div className="container fade-in" style={{ textAlign: 'center', padding: '80px 24px' }}>
+      <div className="container fade-in not-found-wrapper">
         <h2 style={{ color: 'var(--color-gold)' }}>🔮 未找到该人物</h2>
         <button className="back-btn" style={{ marginTop: 24 }} onClick={() => navigate('/characters')}>
           ← 返回人物百科
@@ -48,51 +60,24 @@ export default function CharacterDetail() {
           <h1 className="detail-name">{char.name}</h1>
           <div className="detail-name-en">{char.nameEn}</div>
           <div style={{ marginTop: 12 }}>
-            <span className="meta-tag" style={{ background: `${house?.color}88`, padding: '5px 14px', fontSize: '0.85rem' }}>
+            <span className="meta-tag" style={{ background: `${house?.color}88` }}>
               {house?.emoji} {house?.name} — {house?.trait}
             </span>
           </div>
           {/* 演员信息 */}
           {char.actor && (
-            <div style={{
-              marginTop: '12px',
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '8px',
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}>
-              <div style={{
-                padding: '8px 16px',
-                background: 'rgba(255,255,255,0.05)',
-                borderRadius: '20px',
-                fontSize: '0.8rem',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px',
-              }}>
+            <div className="char-actor-row">
+              <div className="char-actor-badge">
                 <span>🎬</span>
                 <span>饰演者：{char.actor}</span>
-                {char.actorEn && <span style={{ opacity: 0.5 }}>（{char.actorEn}）</span>}
+                {char.actorEn && <span className="char-actor-en">（{char.actorEn}）</span>}
               </div>
               {char.actorEn && (
                 <a
                   href={`https://www.imdb.com/find/?q=${encodeURIComponent(char.actorEn)}&s=nm`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    padding: '6px 12px',
-                    borderRadius: '16px',
-                    background: 'rgba(245,197,24,0.1)',
-                    border: '1px solid rgba(245,197,24,0.3)',
-                    color: '#f5c518',
-                    fontSize: '0.72rem',
-                    textDecoration: 'none',
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    transition: 'all 0.3s',
-                  }}
+                  className="char-imdb-link"
                 >
                   🔗 IMDb
                 </a>
@@ -102,19 +87,7 @@ export default function CharacterDetail() {
                   href={`https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(char.actor)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    padding: '6px 12px',
-                    borderRadius: '16px',
-                    background: 'rgba(44,182,44,0.1)',
-                    border: '1px solid rgba(44,182,44,0.3)',
-                    color: '#2cb62c',
-                    fontSize: '0.72rem',
-                    textDecoration: 'none',
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    transition: 'all 0.3s',
-                  }}
+                  className="char-douban-link"
                 >
                   🔗 豆瓣
                 </a>
@@ -127,14 +100,7 @@ export default function CharacterDetail() {
         {char.appearance && (
           <div className="detail-section">
             <h2 className="detail-section-title">👤 外貌特征</h2>
-            <p style={{
-              padding: '16px 20px',
-              background: 'rgba(212,175,55,0.05)',
-              borderRadius: '12px',
-              border: '1px solid rgba(212,175,55,0.1)',
-              lineHeight: '1.8',
-              fontSize: '0.9rem',
-            }}>
+            <p className="char-appearance-box">
               {char.appearance}
             </p>
           </div>
@@ -157,14 +123,11 @@ export default function CharacterDetail() {
         {char.skills && char.skills.length > 0 && (
           <div className="detail-section">
             <h2 className="detail-section-title">⚡ 技能特长</h2>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            <div className="char-skill-wrap">
               {char.skills.map((skill, i) => (
-                <span key={i} style={{
-                  padding: '6px 16px',
-                  borderRadius: '20px',
+                <span key={i} className="char-skill-tag" style={{
                   background: `${house?.color || '#d4af37'}22`,
                   color: house?.light || 'var(--color-gold)',
-                  fontSize: '0.85rem',
                   border: `1px solid ${house?.color || '#d4af37'}44`,
                 }}>
                   ✦ {skill}
@@ -192,24 +155,15 @@ export default function CharacterDetail() {
                   <Link
                     key={m.id}
                     to={`/movies/${m.id}`}
-                    style={{
-                      padding: '12px 14px',
-                      borderRadius: '10px',
-                      background: 'rgba(212,175,55,0.05)',
-                      border: '1px solid rgba(212,175,55,0.12)',
-                      textDecoration: 'none',
-                      transition: 'all 0.3s ease',
-                      display: 'block',
-                    }}
-                    className="hover-lift-sm"
+                    className="char-movie-card hover-lift-sm"
                   >
-                    <div style={{ fontSize: '0.72rem', color: 'var(--color-gold)', marginBottom: '4px' }}>
+                    <div className="char-movie-num">
                       第{m.number}部 · {m.year}年
                     </div>
-                    <div style={{ fontSize: '0.82rem', color: 'var(--color-parchment)', fontWeight: '500' }}>
+                    <div className="char-movie-title">
                       {m.title}
                     </div>
-                    <div style={{ fontSize: '0.65rem', color: 'var(--color-text-secondary)', marginTop: '3px' }}>
+                    <div className="char-movie-actor">
                       {m.cast.find(c => c.role === char.name || 
                         (char.id === 'voldemort' && (c.role === '伏地魔' || c.role === '汤姆·里德尔')) ||
                         (char.id === 'dobby' && (c.role === '多比' || c.role === '多比（配音）'))
@@ -231,18 +185,10 @@ export default function CharacterDetail() {
         {char.biography && (
           <div className="detail-section">
             <h2 className="detail-section-title">📜 详细传记</h2>
-            <div style={{
-              padding: '24px',
-              background: 'rgba(255,255,255,0.02)',
-              borderRadius: '12px',
-              border: '1px solid rgba(212,175,55,0.1)',
-            }}>
+            <div className="char-bio-box">
               {char.biography.split('\n\n').map((para, i) => (
-                <p key={i} style={{
-                  lineHeight: '1.9',
-                  fontSize: '0.9rem',
+                <p key={i} className="char-bio-para" style={{
                   marginBottom: i < char.biography.split('\n\n').length - 1 ? '16px' : 0,
-                  textIndent: '2em',
                 }}>
                   {para}
                 </p>
@@ -255,7 +201,7 @@ export default function CharacterDetail() {
         {characterGallery[char.id]?.photos?.length > 0 && (
           <div className="detail-section">
             <h2 className="detail-section-title">📸 电影剧照 · 经典瞬间</h2>
-            <p style={{ fontSize: '0.8rem', opacity: 0.5, marginBottom: '16px' }}>
+            <p className="char-gallery-hint">
               点击查看大图 · 共 {characterGallery[char.id].photos.length} 张经典场景
             </p>
             <PhotoGallery
@@ -273,7 +219,7 @@ export default function CharacterDetail() {
               {char.quotes.map((q, i) => (
                 <blockquote key={i} className="book-quote" style={{ marginBottom: '12px' }}>
                   <p>"{q.text}"</p>
-                  <footer style={{ fontSize: '0.75rem', opacity: 0.6 }}>— {q.source}</footer>
+                  <footer className="char-quote-source">— {q.source}</footer>
                 </blockquote>
               ))}
             </div>

@@ -143,11 +143,11 @@
   - [x] TASK 25b：为阅读器工具栏（目录/语言/字号/关闭按钮）创建 CSS 类 ✅ 2025-04-06
   - [x] TASK 25c：将 BookDetail.jsx 中 renderReader() 的 ~450 行内联样式替换为 CSS 类 ✅ 2025-04-06
 
-- [ ] **TASK 26**：其余详情页内联样式提取
-  - [ ] TASK 26a：CharacterDetail.jsx（~150 行内联 → CSS 类：演员信息、外链按钮、技能标签、电影卡片、传记区）
-  - [ ] TASK 26b：MovieDetail.jsx（~100 行内联 → CSS 类：原著链接、角色卡片、奖项标签）
-  - [ ] TASK 26c：NewsDetail.jsx（~80 行内联 → CSS 类：相关链接区、来源信息）
-  - [ ] TASK 26d：NotFound.jsx（~35 行内联 → CSS 类）
+- [x] **TASK 26**：其余详情页内联样式提取 ✅ 2025-04-06
+  - [x] TASK 26a：CharacterDetail.jsx（~150 行内联 → CSS 类：演员信息、外链按钮、技能标签、电影卡片、传记区） ✅ 2025-04-06
+  - [x] TASK 26b：MovieDetail.jsx（~100 行内联 → CSS 类：原著链接、角色卡片、奖项标签） ✅ 2025-04-06
+  - [x] TASK 26c：NewsDetail.jsx（~80 行内联 → CSS 类：相关链接区、来源信息） ✅ 2025-04-06
+  - [x] TASK 26d：NotFound.jsx（~35 行内联 → CSS 类） ✅ 2025-04-06
 
 - [ ] **TASK 27**：CSS 设计令牌补全与统一
   - [ ] TASK 27a：补全缺失 CSS 变量（`--color-text`, `--color-text-secondary`, `--color-dark`）

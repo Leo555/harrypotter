@@ -28,8 +28,11 @@ const places = [
 export default function Places() {
   useDocumentHead({
     title: '🗺️ 地点百科',
+    titleEn: 'Places Encyclopedia — Wizarding World Locations',
     description: '魔法世界地点百科 — 霍格沃茨、对角巷、阿兹卡班、九又四分之三站台等经典地点详解。',
+    descriptionEn: 'Guide to Wizarding World locations — Hogwarts, Diagon Alley, Azkaban, Platform 9¾, Ministry of Magic & more iconic places.',
     keywords: '哈利波特地点,霍格沃茨,对角巷,阿兹卡班,九又四分之三站台,魔法部',
+    keywordsEn: 'Hogwarts,Diagon Alley,Azkaban,Platform 9 3/4,Ministry of Magic,Harry Potter locations',
   })
 
   const [search, setSearch] = useState('')

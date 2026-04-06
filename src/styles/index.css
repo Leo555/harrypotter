@@ -6140,6 +6140,9 @@ a:hover { color: var(--color-gold-light); }
 .char-movie-title { font-size: 0.82rem; color: var(--color-parchment); font-weight: 500; }
 .char-movie-actor { font-size: 0.65rem; color: var(--color-text-secondary); margin-top: 3px; }
 
+.char-actor-en { opacity: 0.5; }
+.char-skill-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+
 .char-bio-box {
   padding: 24px; background: rgba(255,255,255,0.02);
   border-radius: 12px; border: 1px solid rgba(var(--color-gold-rgb), 0.1);
@@ -6201,6 +6204,7 @@ a:hover { color: var(--color-gold-light); }
   background: rgba(var(--color-gold-rgb), 0.1); color: var(--color-gold);
   font-size: 0.85rem; border: 1px solid rgba(var(--color-gold-rgb), 0.3);
 }
+.movie-card-watch-inline { border: none; margin: 0; padding: 0; margin-top: 16px; }
 
 /* ============================
    TASK 25c — NewsDetail

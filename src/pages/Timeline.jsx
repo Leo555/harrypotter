@@ -49,6 +49,15 @@ function getAllEvents() {
 }
 
 export default function Timeline() {
+  useDocumentHead({
+    title: '⏳ 魔法时间线',
+    titleEn: 'Wizarding World Timeline (1881-2017)',
+    description: '魔法世界百年大事记 — 从邓布利多出生到哈利送儿子去霍格沃茨，1881-2017年间魔法世界的所有重大事件年表。',
+    descriptionEn: 'A comprehensive timeline of the Wizarding World from 1881 to 2017 — major events from Dumbledore\'s birth to Harry sending his son to Hogwarts.',
+    keywords: '魔法时间线,哈利波特年表,魔法世界大事记,霍格沃茨历史',
+    keywordsEn: 'Wizarding World timeline,Harry Potter chronology,magical history,Hogwarts events',
+  })
+
   const events = getAllEvents()
   const grouped = {}
   events.forEach(e => {

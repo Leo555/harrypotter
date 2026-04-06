@@ -2,8 +2,17 @@ import { useState } from 'react'
 import { extraStories, storyCollections, storyCategories } from '../data/extraStories'
 import { getEnglishText } from '../data/extraStoriesEn'
 import { characters } from '../data/characters'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function ExtraStories() {
+  useDocumentHead({
+    title: '📖 隐秘故事集 — The Hidden Tales',
+    titleEn: 'The Hidden Tales - Extra Stories by J.K. Rowling',
+    description: 'J.K.罗琳笔下的番外传说 — 人物背景故事、魔法世界设定、霍格沃茨创始人传奇，探索隐藏在原著之外的魔法秘辛。',
+    descriptionEn: "Hidden tales from J.K. Rowling — character backstories, Wizarding World lore, Hogwarts founders' legends and secrets beyond the original books.",
+    keywords: '隐秘故事集,J.K.罗琳番外,哈利波特设定,霍格沃茨历史,Pottermore',
+    keywordsEn: 'Hidden Tales,J.K. Rowling extras,Pottermore stories,Harry Potter lore,Hogwarts history',
+  })
   const [selectedCollection, setSelectedCollection] = useState('all')
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [expandedStory, setExpandedStory] = useState(null)

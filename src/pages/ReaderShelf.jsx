@@ -30,8 +30,11 @@ export default function ReaderShelf() {
 
   useDocumentHead({
     title: '📖 原著阅读器 — 书架',
+    titleEn: 'Online Reader — Harry Potter Book Shelf',
     description: '在线阅读哈利波特全系列七部原著，支持中文译本和英文原版，沉浸式阅读体验。',
+    descriptionEn: 'Read all 7 Harry Potter books online — Chinese translation & English original available. Immersive reading experience with chapter navigation.',
     keywords: '哈利波特在线阅读,原著阅读器,Harry Potter,英文原版,中文版',
+    keywordsEn: 'read Harry Potter online,Harry Potter books,English original,Chinese translation,online reader',
   })
 
   return (

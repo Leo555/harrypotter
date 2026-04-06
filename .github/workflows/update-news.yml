@@ -1,0 +1,44 @@
+# 🦉 预言家日报 — 自动新闻更新工作流
+# 每 3 小时从公开 RSS 源获取最新哈利波特新闻，生成静态 JSON 并自动提交
+
+name: 📰 Daily Prophet News Update
+
+on:
+  schedule:
+    # 每 3 小时运行一次 (UTC: 0:00, 3:00, 6:00, 9:00, 12:00, 15:00, 18:00, 21:00)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 🦉 Fetch latest Harry Potter news
+        run: node scripts/fetch-news.mjs
+
+      - name: 📝 Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet public/data/news.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: 🚀 Commit and push updates
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Daily Prophet Bot 🦉"
+          git config user.email "daily-prophet-bot@harrypotter.wiki"
+          git add public/data/news.json
+          git commit -m "📰 预言家日报更新 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

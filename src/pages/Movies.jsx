@@ -6,8 +6,11 @@ import StatsPanel from '../components/StatsPanel'
 export default function Movies() {
   useDocumentHead({
     title: '🎬 电影百科',
+    titleEn: 'Movies Encyclopedia — All 8 Harry Potter Films',
     description: '哈利·波特八部电影详细资料 — 导演、演员表、票房数据、幕后花絮、经典台词一网打尽。',
+    descriptionEn: 'Complete guide to all 8 Harry Potter films — directors, cast, box office data, behind-the-scenes trivia & iconic quotes.',
     keywords: '哈利波特电影,魔法石电影,密室电影,死亡圣器电影,丹尼尔·雷德克里夫',
+    keywordsEn: 'Harry Potter movies,Harry Potter films,Daniel Radcliffe,Warner Bros,box office',
   })
 
   // 计算票房数据

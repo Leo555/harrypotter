@@ -6,8 +6,11 @@ import StatsPanel from '../components/StatsPanel'
 export default function Books() {
   useDocumentHead({
     title: '📚 原著百科',
+    titleEn: 'Books Encyclopedia — All 7 Harry Potter Novels',
     description: 'J.K.罗琳创作的七部哈利·波特小说完整百科 — 故事梗概、章节目录、经典名句、关键事件、魔法物品全收录。',
+    descriptionEn: "Complete encyclopedia of all 7 Harry Potter novels by J.K. Rowling — plot summaries, chapter guides, famous quotes, key events & magical items.",
     keywords: '哈利波特小说,原著百科,魔法石,密室,阿兹卡班,火焰杯,凤凰社,混血王子,死亡圣器',
+    keywordsEn: "Harry Potter books,Philosopher's Stone,Chamber of Secrets,Prisoner of Azkaban,Goblet of Fire,Order of the Phoenix,Half-Blood Prince,Deathly Hallows",
   })
 
   const totalPages = books.reduce((sum, b) => sum + b.pages, 0)

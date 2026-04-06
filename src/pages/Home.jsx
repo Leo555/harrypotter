@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { characters, houses, news } from '../data/characters'
+import { characters, houses } from '../data/characters'
+import useNews from '../data/news'
 import books from '../data/books'
 import movies from '../data/movies'
 import { spells } from '../data/spells'
@@ -41,10 +42,14 @@ const interactiveItems = [
 export default function Home() {
   useDocumentHead({
     title: null,
+    titleEn: null,
     description: '中文互联网最全面的哈利波特百科全书网站 — 原著百科、电影百科、人物百科、咒语大全、魔法生物、互动测试，探索魔法世界的每一个角落。',
+    descriptionEn: "The most comprehensive Harry Potter encyclopedia — books, movies, characters, spells, creatures, potions, places & interactive quizzes. Explore every corner of the Wizarding World.",
     keywords: '哈利波特,Harry Potter,魔法世界,霍格沃茨,百科全书,人物百科,咒语大全,分院帽测试',
+    keywordsEn: 'Harry Potter,Wizarding World,Hogwarts,encyclopedia,characters,spells,sorting hat quiz',
   })
 
+  const { news } = useNews()
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
   const latestNews = news.slice(0, 3)
   const featuredCharacters = characters.slice(0, 10)

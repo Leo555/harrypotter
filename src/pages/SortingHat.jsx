@@ -5,8 +5,11 @@ import useDocumentHead from '../hooks/useDocumentHead'
 export default function SortingHat() {
   useDocumentHead({
     title: '🎩 分院帽测试',
+    titleEn: 'Sorting Hat Quiz — Which Hogwarts House Are You?',
     description: '霍格沃茨分院帽测试 — 回答十道问题，发现你属于格兰芬多、斯莱特林、拉文克劳还是赫奇帕奇。',
+    descriptionEn: 'Take the Hogwarts Sorting Hat Quiz — answer 10 questions to discover if you belong in Gryffindor, Slytherin, Ravenclaw, or Hufflepuff.',
     keywords: '分院帽测试,霍格沃茨学院,格兰芬多,斯莱特林,拉文克劳,赫奇帕奇',
+    keywordsEn: 'Sorting Hat quiz,Hogwarts houses,Gryffindor,Slytherin,Ravenclaw,Hufflepuff',
   })
 
   const [currentQ, setCurrentQ] = useState(0)

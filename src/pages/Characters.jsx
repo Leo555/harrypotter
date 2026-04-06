@@ -7,8 +7,11 @@ import StatsPanel from '../components/StatsPanel'
 export default function Characters() {
   useDocumentHead({
     title: '🧙 人物百科',
+    titleEn: 'Characters Encyclopedia — Wizarding World Profiles',
     description: '魔法世界核心人物详细档案 — 哈利·波特、赫敏·格兰杰、伏地魔等角色的身份背景、详细传记、人生轨迹与关系网络。',
+    descriptionEn: 'Detailed character profiles from the Wizarding World — Harry Potter, Hermione Granger, Voldemort & more. Backgrounds, biographies, life stories & relationship networks.',
     keywords: '哈利波特人物,魔法师,霍格沃茨角色,邓布利多,斯内普,伏地魔',
+    keywordsEn: 'Harry Potter characters,Wizarding World characters,Dumbledore,Snape,Voldemort,Hogwarts',
   })
 
   const [filter, setFilter] = useState('all')
