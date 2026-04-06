@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom'
 const SITE_NAME = '哈利波特的魔法世界'
 const SITE_NAME_EN = "Harry Potter's Wizarding World"
 const SITE_URL = 'https://harrypotter.lz5z.com'
-const DEFAULT_IMAGE = '/images/movies/philosophers-stone.jpg'
+const DEFAULT_IMAGE = `${import.meta.env.BASE_URL}images/movies/philosophers-stone.jpg`
 const DEFAULT_DESC = '中文互联网最全面的哈利波特百科全书网站 — 原著百科、电影百科、人物百科、咒语大全、魔法生物、互动测试，探索魔法世界的每一个角落。'
 const DEFAULT_DESC_EN = "The most comprehensive Harry Potter encyclopedia in Chinese — books, movies, characters, spells, creatures, interactive quizzes, and everything about the Wizarding World."
 

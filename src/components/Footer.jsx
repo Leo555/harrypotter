@@ -40,6 +40,7 @@ export default function Footer() {
             <Link to="/interactive/sorting">分院帽测试</Link>
             <Link to="/interactive/patronus">守护神测试</Link>
             <Link to="/interactive/wand">魔杖匹配</Link>
+            <a href="https://map.lz5z.com" target="_blank" rel="noopener noreferrer">活点地图</a>
             <Link to="/news">预言家日报</Link>
           </div>
         </div>

@@ -5289,3 +5289,8 @@ a:hover { color: var(--color-gold-light); }
   max-width: 500px; margin: 0 auto 32px; line-height: 1.8;
 }
 
+
+/* 通用 — 空状态/加载 */
+.detail-empty-state { text-align: center; padding: 80px 24px; }
+.detail-empty-title { color: var(--color-gold); }
+.detail-loading-text { color: var(--color-text-secondary); margin-top: 16px; }

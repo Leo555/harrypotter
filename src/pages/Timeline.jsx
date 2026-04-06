@@ -1,4 +1,5 @@
 import { characters } from '../data/characters'
+import useDocumentHead from '../hooks/useDocumentHead'
 
 function getAllEvents() {
   const events = []

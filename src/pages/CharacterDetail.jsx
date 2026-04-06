@@ -30,8 +30,8 @@ export default function CharacterDetail() {
 
   if (!char) {
     return (
-      <div className="container fade-in not-found-wrapper">
-        <h2 style={{ color: 'var(--color-gold)' }}>🔮 未找到该人物</h2>
+      <div className="container fade-in detail-empty-state">
+        <h2 className="detail-empty-title">🔮 未找到该人物</h2>
         <button className="back-btn" style={{ marginTop: 24 }} onClick={() => navigate('/characters')}>
           ← 返回人物百科
         </button>
@@ -60,7 +60,7 @@ export default function CharacterDetail() {
           <h1 className="detail-name">{char.name}</h1>
           <div className="detail-name-en">{char.nameEn}</div>
           <div style={{ marginTop: 12 }}>
-            <span className="meta-tag" style={{ background: `${house?.color}88` }}>
+            <span className="meta-tag" style={{ background: `${house?.color}88`, padding: '5px 14px', fontSize: '0.85rem' }}>
               {house?.emoji} {house?.name} — {house?.trait}
             </span>
           </div>
@@ -100,9 +100,7 @@ export default function CharacterDetail() {
         {char.appearance && (
           <div className="detail-section">
             <h2 className="detail-section-title">👤 外貌特征</h2>
-            <p className="char-appearance-box">
-              {char.appearance}
-            </p>
+            <p className="char-appearance-box">{char.appearance}</p>
           </div>
         )}
 
@@ -125,11 +123,15 @@ export default function CharacterDetail() {
             <h2 className="detail-section-title">⚡ 技能特长</h2>
             <div className="char-skill-wrap">
               {char.skills.map((skill, i) => (
-                <span key={i} className="char-skill-tag" style={{
-                  background: `${house?.color || '#d4af37'}22`,
-                  color: house?.light || 'var(--color-gold)',
-                  border: `1px solid ${house?.color || '#d4af37'}44`,
-                }}>
+                <span
+                  key={i}
+                  className="char-skill-tag"
+                  style={{
+                    background: `${house?.color || '#d4af37'}22`,
+                    color: house?.light || 'var(--color-gold)',
+                    border: `1px solid ${house?.color || '#d4af37'}44`,
+                  }}
+                >
                   ✦ {skill}
                 </span>
               ))}
@@ -157,12 +159,8 @@ export default function CharacterDetail() {
                     to={`/movies/${m.id}`}
                     className="char-movie-card hover-lift-sm"
                   >
-                    <div className="char-movie-num">
-                      第{m.number}部 · {m.year}年
-                    </div>
-                    <div className="char-movie-title">
-                      {m.title}
-                    </div>
+                    <div className="char-movie-num">第{m.number}部 · {m.year}年</div>
+                    <div className="char-movie-title">{m.title}</div>
                     <div className="char-movie-actor">
                       {m.cast.find(c => c.role === char.name || 
                         (char.id === 'voldemort' && (c.role === '伏地魔' || c.role === '汤姆·里德尔')) ||
@@ -187,9 +185,11 @@ export default function CharacterDetail() {
             <h2 className="detail-section-title">📜 详细传记</h2>
             <div className="char-bio-box">
               {char.biography.split('\n\n').map((para, i) => (
-                <p key={i} className="char-bio-para" style={{
-                  marginBottom: i < char.biography.split('\n\n').length - 1 ? '16px' : 0,
-                }}>
+                <p
+                  key={i}
+                  className="char-bio-para"
+                  style={{ marginBottom: i < char.biography.split('\n\n').length - 1 ? '16px' : 0 }}
+                >
                   {para}
                 </p>
               ))}

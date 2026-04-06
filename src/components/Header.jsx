@@ -40,6 +40,7 @@ const navItems = [
       { path: '/interactive/sorting', label: '🎩 分院帽测试' },
       { path: '/interactive/patronus', label: '🦌 守护神测试' },
       { path: '/interactive/wand', label: '🪄 魔杖匹配' },
+      { path: 'https://map.lz5z.com', label: '🗺️ 活点地图', external: true },
     ]
   },
 ]
@@ -124,13 +125,25 @@ export default function Header() {
               {item.children && activeDropdown === item.path && (
                 <div className="dropdown-menu">
                   {item.children.map(child => (
-                    <Link
-                      key={child.path}
-                      to={child.path}
-                      className={`dropdown-item ${location.pathname === child.path ? 'active' : ''}`}
-                    >
-                      {child.label}
-                    </Link>
+                    child.external ? (
+                      <a
+                        key={child.path}
+                        href={child.path}
+                        className="dropdown-item"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {child.label}
+                      </a>
+                    ) : (
+                      <Link
+                        key={child.path}
+                        to={child.path}
+                        className={`dropdown-item ${location.pathname === child.path ? 'active' : ''}`}
+                      >
+                        {child.label}
+                      </Link>
+                    )
                   ))}
                 </div>
               )}
@@ -170,13 +183,25 @@ export default function Header() {
               {item.children && (
                 <div className="mobile-nav-children">
                   {item.children.map(child => (
-                    <Link
-                      key={child.path}
-                      to={child.path}
-                      className={`mobile-nav-child ${location.pathname === child.path ? 'active' : ''}`}
-                    >
-                      {child.label}
-                    </Link>
+                    child.external ? (
+                      <a
+                        key={child.path}
+                        href={child.path}
+                        className="mobile-nav-child"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {child.label}
+                      </a>
+                    ) : (
+                      <Link
+                        key={child.path}
+                        to={child.path}
+                        className={`mobile-nav-child ${location.pathname === child.path ? 'active' : ''}`}
+                      >
+                        {child.label}
+                      </Link>
+                    )
                   ))}
                 </div>
               )}

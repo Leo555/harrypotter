@@ -1,3 +1,10 @@
+// 电影海报图片映射（文件位于 src/assets/movies/）
+const movieCoverImages = import.meta.glob('../assets/movies/*.{jpg,png,webp}', { eager: true })
+function getMovieCoverImage(id) {
+  const key = Object.keys(movieCoverImages).find(k => k.includes(`/${id}.`))
+  return key ? movieCoverImages[key].default : null
+}
+
 // 哈利波特八部电影数据
 const movies = [
   {
@@ -14,7 +21,7 @@ const movies = [
     rating: 'PG',
     score: { imdb: '7.6', douban: '9.2', rottenTomatoes: '81%' },
     music: '约翰·威廉姆斯',
-    cover: '/images/movies/philosophers-stone.jpg',
+    cover: getMovieCoverImage('philosophers-stone'),
     color: '#C62828',
     relatedBook: 'philosophers-stone',
     summary: '孤儿哈利·波特在11岁生日那天得知自己是一名巫师，被霍格沃茨魔法学校录取。在魔法世界，他结识了罗恩·韦斯莱和赫敏·格兰杰，并发现了一个关于魔法石的阴谋。',
@@ -60,7 +67,7 @@ const movies = [
     rating: 'PG',
     score: { imdb: '7.4', douban: '9.0', rottenTomatoes: '82%' },
     music: '约翰·威廉姆斯',
-    cover: '/images/movies/chamber-of-secrets.jpg',
+    cover: getMovieCoverImage('chamber-of-secrets'),
     color: '#2E7D32',
     relatedBook: 'chamber-of-secrets',
     summary: '哈利在霍格沃茨的第二年，一系列神秘的袭击事件接连发生，"泥巴种"学生被石化。哈利发现自己能听懂蛇的语言，并最终进入密室面对蛇怪和年少时代的伏地魔。',
@@ -104,7 +111,7 @@ const movies = [
     rating: 'PG',
     score: { imdb: '7.9', douban: '9.2', rottenTomatoes: '90%' },
     music: '约翰·威廉姆斯',
-    cover: '/images/movies/prisoner-of-azkaban.jpg',
+    cover: getMovieCoverImage('prisoner-of-azkaban'),
     color: '#1565C0',
     relatedBook: 'prisoner-of-azkaban',
     summary: '杀人犯小天狼星·布莱克从阿兹卡班越狱，摄魂怪包围霍格沃茨。哈利学会了守护神咒，并在冒险中发现了关于自己父母和小天狼星的真相。',
@@ -148,7 +155,7 @@ const movies = [
     rating: 'PG-13',
     score: { imdb: '7.7', douban: '9.1', rottenTomatoes: '88%' },
     music: '帕特里克·道尔',
-    cover: '/images/movies/goblet-of-fire.jpg',
+    cover: getMovieCoverImage('goblet-of-fire'),
     color: '#F9A825',
     relatedBook: 'goblet-of-fire',
     summary: '霍格沃茨举办三强争霸赛，哈利的名字意外地从火焰杯中飞出。经历三项致命的任务后，哈利目睹了伏地魔的复活，魔法世界即将陷入黑暗。',
@@ -192,7 +199,7 @@ const movies = [
     rating: 'PG-13',
     score: { imdb: '7.5', douban: '9.0', rottenTomatoes: '77%' },
     music: '尼古拉斯·霍珀',
-    cover: '/images/movies/order-of-the-phoenix.jpg',
+    cover: getMovieCoverImage('order-of-the-phoenix'),
     color: '#8E24AA',
     relatedBook: 'order-of-the-phoenix',
     summary: '魔法部否认伏地魔回归，哈利组建"邓布利多军"秘密训练同学。多洛雷斯·乌姆里奇成为霍格沃茨的噩梦。在神秘事务司之战中，哈利的教父小天狼星壮烈牺牲。',
@@ -237,7 +244,7 @@ const movies = [
     rating: 'PG',
     score: { imdb: '7.6', douban: '9.0', rottenTomatoes: '84%' },
     music: '尼古拉斯·霍珀',
-    cover: '/images/movies/half-blood-prince.jpg',
+    cover: getMovieCoverImage('half-blood-prince'),
     color: '#00897B',
     relatedBook: 'half-blood-prince',
     summary: '邓布利多带哈利探索伏地魔的过去和魂器的秘密。德拉科·马尔福执行伏地魔的秘密任务，食死徒入侵霍格沃茨。邓布利多在天文塔被斯内普杀死。',
@@ -280,7 +287,7 @@ const movies = [
     rating: 'PG-13',
     score: { imdb: '7.7', douban: '8.8', rottenTomatoes: '77%' },
     music: '亚历山大·德斯普拉',
-    cover: '/images/movies/deathly-hallows-1.jpg',
+    cover: getMovieCoverImage('deathly-hallows-1'),
     color: '#E65100',
     relatedBook: 'deathly-hallows',
     summary: '哈利、罗恩和赫敏离开霍格沃茨，踏上寻找和摧毁魂器的旅程。他们了解到死亡圣器的传说，在逃亡中面临友情的考验和未知的危险。',
@@ -323,7 +330,7 @@ const movies = [
     rating: 'PG-13',
     score: { imdb: '8.1', douban: '9.2', rottenTomatoes: '96%' },
     music: '亚历山大·德斯普拉',
-    cover: '/images/movies/deathly-hallows-2.jpg',
+    cover: getMovieCoverImage('deathly-hallows-2'),
     color: '#ae0001',
     relatedBook: 'deathly-hallows',
     summary: '最终之战来临。哈利和伙伴们返回霍格沃茨，摧毁最后的魂器。斯内普的真正忠诚最终揭晓——"Always"。哈利在禁林中赴死又归来，最终在决战中击败伏地魔。十九年后，他们的孩子踏上了前往霍格沃茨的旅程。',

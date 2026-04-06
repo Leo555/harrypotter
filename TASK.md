@@ -107,6 +107,11 @@
   - [x] TASK 27f：从 `characters.js` 移除硬编码新闻数据，解耦数据源 ✅ 2025-04-06
   - [x] TASK 27g：添加新闻加载动画（🦉 猫头鹰弹跳动画） ✅ 2025-04-06
 
+- [x] **TASK 28**：互动专区添加「活点地图」外链入口 ✅ 2025-04-06
+  - [x] TASK 28a：首页互动专区卡片新增活点地图（🗺️ 图标 + 外链支持） ✅ 2025-04-06
+  - [x] TASK 28b：Header 导航互动专区下拉菜单新增活点地图 ✅ 2025-04-06
+  - [x] TASK 28c：Footer 互动体验栏新增活点地图链接 ✅ 2025-04-06
+
 ---
 
 ## Phase 7：全站搜索引擎
@@ -153,6 +158,16 @@
   - [x] TASK 27a：补全缺失 CSS 变量（`--color-text`, `--color-text-secondary`, `--color-dark`） ✅ 2025-04-06
   - [x] TASK 27b：统一金色 RGB 值（`rgb(212,168,67)` vs `rgb(212,175,55)` → 统一为 CSS 变量引用） ✅ 2025-04-06
   - [x] TASK 27c：将所有 `@keyframes`（pulse / wandForge / fadeIn）统一定义在 index.css ✅ 2025-04-06
+
+---
+
+## Phase 9：GitHub Pages 部署
+
+- [x] **TASK 29**：GitHub Pages 自动部署 + 定时构建 ✅ 2025-04-06
+  - [x] TASK 29a：创建 `.github/workflows/deploy-pages.yml` 部署工作流（push 触发 + 新闻更新联动 + 每日定时构建 + 手动触发） ✅ 2025-04-06
+  - [x] TASK 29b：配置 `vite.config.js` 的 `base: '/harrypotter/'` 适配 GitHub Pages 子路径 ✅ 2025-04-06
+  - [x] TASK 29c：`BrowserRouter` 添加 `basename` 支持子路径路由 ✅ 2025-04-06
+  - [x] TASK 29d：创建 `plugins/spa-fallback.js` 插件，构建时自动生成 `404.html` 解决 SPA 路由刷新问题 ✅ 2025-04-06
 
 ---
 

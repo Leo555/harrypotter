@@ -20,17 +20,17 @@ export default function NewsDetail() {
 
   if (loading) {
     return (
-      <div className="container fade-in not-found-wrapper">
+      <div className="container fade-in detail-empty-state">
         <span className="news-loading-icon">🦉</span>
-        <p style={{ color: 'var(--color-text-secondary)', marginTop: 16 }}>猫头鹰正在送来最新消息...</p>
+        <p className="detail-loading-text">猫头鹰正在送来最新消息...</p>
       </div>
     )
   }
 
   if (!item) {
     return (
-      <div className="container fade-in not-found-wrapper">
-        <h2 style={{ color: 'var(--color-gold)' }}>📰 未找到该新闻</h2>
+      <div className="container fade-in detail-empty-state">
+        <h2 className="detail-empty-title">📰 未找到该新闻</h2>
         <button className="back-btn" style={{ marginTop: 24 }} onClick={() => navigate('/news')}>
           ← 返回预言家日报
         </button>
@@ -55,9 +55,7 @@ export default function NewsDetail() {
         {/* 相关链接区域 */}
         {item.relatedLinks && item.relatedLinks.length > 0 && (
           <div className="news-related-box">
-            <h3 className="news-related-title">
-              🔗 相关内容
-            </h3>
+            <h3 className="news-related-title">🔗 相关内容</h3>
             <div className="news-related-tags">
               {item.relatedLinks.map((link, i) => (
                 <Link

@@ -85,7 +85,7 @@ function MainLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       <ScrollToTop />
       <Routes>
         {/* 独立全屏阅读页面 — 无 Header/Footer */}

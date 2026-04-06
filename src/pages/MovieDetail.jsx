@@ -55,8 +55,8 @@ export default function MovieDetail() {
 
   if (!movie) {
     return (
-      <div className="container fade-in not-found-wrapper">
-        <h2 style={{ color: 'var(--color-gold)' }}>🎬 未找到该电影</h2>
+      <div className="container fade-in detail-empty-state">
+        <h2 className="detail-empty-title">🎬 未找到该电影</h2>
         <button className="back-btn" style={{ marginTop: 24 }} onClick={() => navigate('/movies')}>
           ← 返回电影百科
         </button>
@@ -162,10 +162,7 @@ export default function MovieDetail() {
           <p className="detail-description">{movie.detailedSummary || movie.summary}</p>
           {movie.relatedBook && (
             <div style={{ marginTop: '16px' }}>
-              <Link
-                to={`/books/${movie.relatedBook}`}
-                className="movie-related-book-link hover-tag-gold"
-              >
+              <Link to={`/books/${movie.relatedBook}`} className="movie-related-book-link">
                 📚 查看原著对照 →
               </Link>
             </div>
@@ -215,88 +212,25 @@ export default function MovieDetail() {
           return relatedCharacters.length > 0 ? (
             <div className="detail-section">
               <h2 className="detail-section-title">🧙 相关人物百科</h2>
-              <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginBottom: '16px' }}>
-                点击卡片查看详细人物档案
-              </p>
+              <p className="movie-char-hint">点击卡片查看详细人物档案</p>
               <div className="grid-auto-200">
                 {relatedCharacters.map(char => (
                   <Link
                     key={char.id}
                     to={`/characters/${char.id}`}
-                    style={{
-                      textDecoration: 'none',
-                      padding: '16px',
-                      borderRadius: '12px',
-                      background: 'rgba(212,175,55,0.04)',
-                      border: '1px solid rgba(212,175,55,0.12)',
-                      transition: 'all 0.3s ease',
-                      display: 'block',
-                    }}
-                    className="hover-card-gold"
+                    className="movie-char-card hover-card-gold"
                   >
-                    <div style={{
-                      width: '56px',
-                      height: '56px',
-                      borderRadius: '50%',
-                      marginBottom: '8px',
-                      margin: '0 auto 8px',
-                      overflow: 'hidden',
-                      border: '2px solid rgba(212,168,67,0.3)',
-                      boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      background: 'rgba(212,175,55,0.08)',
-                      fontSize: '2rem',
-                    }}>
+                    <div className="movie-char-avatar-wrap">
                       {char.image ? (
                         <img src={char.image} alt={char.name} className="char-avatar-circle" />
                       ) : char.avatar}
                     </div>
-                    <div style={{
-                      fontSize: '0.9rem',
-                      fontWeight: '600',
-                      color: 'var(--color-parchment)',
-                      textAlign: 'center',
-                      marginBottom: '4px',
-                    }}>
-                      {char.name}
-                    </div>
-                    <div style={{
-                      fontSize: '0.72rem',
-                      color: 'var(--color-text-secondary)',
-                      textAlign: 'center',
-                      marginBottom: '8px',
-                    }}>
-                      {char.nameEn}
-                    </div>
+                    <div className="movie-char-name">{char.name}</div>
+                    <div className="movie-char-name-en">{char.nameEn}</div>
                     {char.house && (
-                      <div style={{
-                        fontSize: '0.7rem',
-                        textAlign: 'center',
-                        padding: '3px 8px',
-                        borderRadius: '10px',
-                        background: 'rgba(212,175,55,0.08)',
-                        color: 'var(--color-gold)',
-                        display: 'inline-block',
-                        width: '100%',
-                      }}>
-                        {char.house}
-                      </div>
+                      <div className="movie-char-house-tag">{char.house}</div>
                     )}
-                    <div style={{
-                      fontSize: '0.72rem',
-                      color: 'var(--color-text-secondary)',
-                      textAlign: 'center',
-                      marginTop: '6px',
-                      lineHeight: '1.3',
-                      display: '-webkit-box',
-                      WebkitLineClamp: 2,
-                      WebkitBoxOrient: 'vertical',
-                      overflow: 'hidden',
-                    }}>
-                      {char.occupation}
-                    </div>
+                    <div className="movie-char-occupation">{char.occupation}</div>
                   </Link>
                 ))}
               </div>
@@ -336,11 +270,9 @@ export default function MovieDetail() {
         {movie.awards && movie.awards.length > 0 && (
           <div className="detail-section">
             <h2 className="detail-section-title">🏆 奖项与荣誉</h2>
-            <div className="char-skill-wrap">
+            <div className="movie-award-tags">
               {movie.awards.map((award, i) => (
-                <span key={i} className="movie-award-tag">
-                  🏅 {award}
-                </span>
+                <span key={i} className="movie-award-tag">🏅 {award}</span>
               ))}
             </div>
           </div>

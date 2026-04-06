@@ -36,6 +36,7 @@ const interactiveItems = [
   { path: '/interactive/sorting', icon: '🎩', title: '分院帽测试', desc: '回答十道问题，发现你属于哪个学院', status: 'active' },
   { path: '/interactive/patronus', icon: '🦌', title: '守护神测试', desc: '呼神护卫——发现属于你的守护神', status: 'active' },
   { path: '/interactive/wand', icon: '🪄', title: '魔杖匹配', desc: '魔杖选择巫师——找到你的命定之杖', status: 'active' },
+  { path: 'https://map.lz5z.com', icon: '🗺️', title: '活点地图', desc: '实时追踪每一个人的踪迹，霍格沃茨尽在掌握', status: 'active', external: true },
   { path: '/reader', icon: '📖', title: '原著阅读', desc: '在线阅读七部原著，百科详情页内直接开读', status: 'active' },
 ]
 
@@ -232,35 +233,50 @@ export default function Home() {
           互动专区
         </h2>
         <div className="grid-auto-280">
-          {interactiveItems.map((item, i) => (
-            <Link to={item.path} key={i} className="feature-card" style={{
-              textDecoration: 'none',
-              position: 'relative',
-              overflow: 'hidden',
-            }}>
-              <span className="feature-icon">{item.icon}</span>
-              <h3 className="feature-title">{item.title}</h3>
-              <p className="feature-desc">{item.desc}</p>
-              {item.status === 'coming' && (
-                <span style={{
-                  position: 'absolute',
-                  top: 12,
-                  right: 12,
-                  background: 'rgba(212,168,67,0.15)',
-                  color: 'var(--color-gold)',
-                  fontSize: '0.7rem',
-                  padding: '3px 10px',
-                  borderRadius: '12px',
-                  border: '1px solid rgba(212,168,67,0.3)',
-                }}>
-                  即将上线
-                </span>
-              )}
-              {item.status === 'active' && (
-                <span className="feature-arrow">→</span>
-              )}
-            </Link>
-          ))}
+          {interactiveItems.map((item, i) => {
+            const cardContent = (
+              <>
+                <span className="feature-icon">{item.icon}</span>
+                <h3 className="feature-title">{item.title}</h3>
+                <p className="feature-desc">{item.desc}</p>
+                {item.status === 'coming' && (
+                  <span style={{
+                    position: 'absolute',
+                    top: 12,
+                    right: 12,
+                    background: 'rgba(212,168,67,0.15)',
+                    color: 'var(--color-gold)',
+                    fontSize: '0.7rem',
+                    padding: '3px 10px',
+                    borderRadius: '12px',
+                    border: '1px solid rgba(212,168,67,0.3)',
+                  }}>
+                    即将上线
+                  </span>
+                )}
+                {item.status === 'active' && (
+                  <span className="feature-arrow">→</span>
+                )}
+              </>
+            )
+            return item.external ? (
+              <a href={item.path} key={i} className="feature-card" target="_blank" rel="noopener noreferrer" style={{
+                textDecoration: 'none',
+                position: 'relative',
+                overflow: 'hidden',
+              }}>
+                {cardContent}
+              </a>
+            ) : (
+              <Link to={item.path} key={i} className="feature-card" style={{
+                textDecoration: 'none',
+                position: 'relative',
+                overflow: 'hidden',
+              }}>
+                {cardContent}
+              </Link>
+            )
+          })}
         </div>
       </section>
 
