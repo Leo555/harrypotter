@@ -23,13 +23,13 @@ import WandMatch from './pages/WandMatch'
 import Timeline from './pages/Timeline'
 import ExtraStories from './pages/ExtraStories'
 import ReaderShelf from './pages/ReaderShelf'
-import ReaderRedirect from './pages/ReaderRedirect'
+import BookReader from './pages/BookReader'
 import NotFound from './pages/NotFound'
 
-export default function App() {
+/* 带 Header/Footer 的主布局 */
+function MainLayout() {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
+    <>
       <Header />
       <main className="main-content">
         <Routes>
@@ -60,10 +60,8 @@ export default function App() {
           <Route path="/interactive/patronus" element={<Patronus />} />
           <Route path="/interactive/wand" element={<WandMatch />} />
 
-          {/* 原著阅读器 */}
+          {/* 原著书架 */}
           <Route path="/reader" element={<ReaderShelf />} />
-          <Route path="/reader/:bookId" element={<ReaderRedirect />} />
-          <Route path="/reader/:bookId/:chapterId" element={<ReaderRedirect />} />
 
           {/* 其他 */}
           <Route path="/timeline" element={<Timeline />} />
@@ -75,6 +73,22 @@ export default function App() {
       </main>
       <Footer />
       <ScrollToTopButton />
+    </>
+  )
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        {/* 独立全屏阅读页面 — 无 Header/Footer */}
+        <Route path="/reader/:bookId" element={<BookReader />} />
+        <Route path="/reader/:bookId/:chapterId" element={<BookReader />} />
+
+        {/* 所有其他页面走主布局 */}
+        <Route path="/*" element={<MainLayout />} />
+      </Routes>
     </BrowserRouter>
   )
 }

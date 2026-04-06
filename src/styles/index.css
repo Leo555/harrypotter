@@ -2502,3 +2502,2246 @@ a:hover { color: var(--color-gold-light); }
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 20px;
 }
+
+/* ============================
+   原著阅读器 — 书架页面
+   ============================ */
+
+/* 书架页头部 */
+.reader-shelf-hero {
+  text-align: center;
+  padding: 20px 0 32px;
+}
+
+.reader-shelf-hero-icon {
+  font-size: 3.5rem;
+  margin-bottom: 12px;
+  filter: drop-shadow(0 4px 12px rgba(212, 168, 67, 0.3));
+}
+
+.reader-shelf-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.2rem;
+  color: var(--color-gold);
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.reader-shelf-subtitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 24px;
+}
+
+/* 语言切换器 */
+.reader-lang-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.reader-lang-btn {
+  padding: 10px 28px;
+  border-radius: 24px;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  background: rgba(30, 30, 60, 0.5);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 700;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reader-lang-btn:hover {
+  border-color: rgba(212, 168, 67, 0.5);
+  background: rgba(212, 168, 67, 0.08);
+}
+
+.reader-lang-btn.active {
+  border: 2px solid var(--color-gold);
+  background: rgba(212, 168, 67, 0.15);
+  color: var(--color-gold);
+}
+
+/* 书架网格 */
+.reader-shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  margin-top: 8px;
+}
+
+/* 书籍卡片 */
+.reader-book-card {
+  background: linear-gradient(135deg, rgba(30, 30, 60, 0.6), rgba(20, 20, 50, 0.8));
+  border-radius: 16px;
+  border: 1px solid rgba(212, 168, 67, 0.1);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+}
+
+.reader-book-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--book-color, rgba(212,168,67,0.1)) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+  border-radius: 16px;
+}
+
+.reader-book-card:hover {
+  border-color: color-mix(in srgb, var(--book-color) 50%, transparent);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px color-mix(in srgb, var(--book-color) 15%, transparent);
+}
+
+.reader-book-card:hover::before {
+  opacity: 0.06;
+}
+
+/* 封面区域 */
+.reader-book-cover-section {
+  display: flex;
+  align-items: stretch;
+  padding: 20px 20px 0;
+  gap: 16px;
+}
+
+.reader-book-spine {
+  width: 4px;
+  border-radius: 2px;
+  background: var(--book-color);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.reader-book-cover {
+  width: 72px;
+  height: 96px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--book-color) 15%, transparent);
+  border: 2px solid color-mix(in srgb, var(--book-color) 30%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.reader-book-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reader-book-cover-emoji {
+  font-size: 2.8rem;
+}
+
+.reader-book-number {
+  font-size: 0.72rem;
+  color: var(--book-color);
+  font-weight: 700;
+  opacity: 0.7;
+  writing-mode: vertical-rl;
+  letter-spacing: 2px;
+}
+
+/* 书籍信息 */
+.reader-book-info {
+  padding: 16px 20px 20px;
+}
+
+.reader-book-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.reader-book-title-en {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+.reader-book-desc {
+  font-size: 0.84rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.reader-book-meta {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+}
+
+.reader-book-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 操作按钮 */
+.reader-book-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.reader-book-read-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--book-color) 20%, transparent), color-mix(in srgb, var(--book-color) 10%, transparent));
+  border: 1px solid color-mix(in srgb, var(--book-color) 30%, transparent);
+  border-radius: 10px;
+  color: var(--color-gold);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.reader-book-read-btn:hover {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--book-color) 30%, transparent), color-mix(in srgb, var(--book-color) 18%, transparent));
+  color: var(--color-gold-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--book-color) 20%, transparent);
+}
+
+.reader-book-read-btn-icon {
+  font-size: 1rem;
+}
+
+.reader-book-read-arrow {
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: all 0.3s;
+}
+
+.reader-book-read-btn:hover .reader-book-read-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reader-book-wiki-btn {
+  padding: 11px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  font-size: 0.84rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-book-wiki-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(212, 168, 67, 0.3);
+  color: var(--color-gold);
+}
+
+/* 阅读提示 */
+.reader-tips-card {
+  margin-top: 40px;
+  padding: 24px;
+  background: rgba(212, 168, 67, 0.04);
+  border-radius: 14px;
+  border: 1px solid rgba(212, 168, 67, 0.1);
+}
+
+.reader-tips-title {
+  font-size: 0.92rem;
+  color: var(--color-gold);
+  margin-bottom: 14px;
+}
+
+.reader-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.reader-tip-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.84rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.reader-tip-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* ============================
+   原著阅读器 — 独立全屏页面
+   ============================ */
+
+.reader-standalone {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  position: relative;
+}
+
+/* 通用顶部导航条 */
+.reader-standalone-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 24px;
+  background: rgba(10, 10, 25, 0.97);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(212, 168, 67, 0.08);
+}
+
+.reader-standalone-back {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: color 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-standalone-back:hover {
+  color: var(--color-gold);
+}
+
+.reader-standalone-topbar-center {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-standalone-topbar-right {
+  flex-shrink: 0;
+}
+
+.reader-standalone-lang-btn {
+  padding: 6px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  background: rgba(212, 168, 67, 0.06);
+  color: var(--color-gold);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.reader-standalone-lang-btn:hover {
+  background: rgba(212, 168, 67, 0.15);
+  border-color: rgba(212, 168, 67, 0.4);
+}
+
+/* 章节选择页 */
+.reader-chapters-hero {
+  text-align: center;
+  padding: 48px 24px 36px;
+}
+
+.reader-chapters-cover {
+  width: 120px;
+  height: 168px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--book-color) 15%, transparent);
+  border: 2px solid color-mix(in srgb, var(--book-color) 30%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  overflow: hidden;
+  box-shadow: 8px 8px 28px rgba(0, 0, 0, 0.5);
+}
+
+.reader-chapters-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reader-chapters-cover-emoji {
+  font-size: 4rem;
+}
+
+.reader-chapters-title {
+  font-family: 'Cinzel', 'Noto Serif SC', serif;
+  font-size: 2rem;
+  color: var(--color-text);
+  margin-bottom: 6px;
+}
+
+.reader-chapters-en {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+
+.reader-chapters-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 24px;
+}
+
+.reader-chapters-meta-dot {
+  opacity: 0.4;
+}
+
+.reader-chapters-start-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 36px;
+  background: linear-gradient(135deg, rgba(212, 168, 67, 0.2), rgba(212, 168, 67, 0.1));
+  border: 1px solid rgba(212, 168, 67, 0.35);
+  border-radius: 28px;
+  color: var(--color-gold);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.reader-chapters-start-btn:hover {
+  background: linear-gradient(135deg, rgba(212, 168, 67, 0.3), rgba(212, 168, 67, 0.15));
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(212, 168, 67, 0.15);
+}
+
+.reader-chapters-body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+.reader-chapters-section-title {
+  font-size: 1.05rem;
+  color: var(--color-gold);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.reader-chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 10px;
+}
+
+.reader-chapters-footer {
+  text-align: center;
+  padding: 32px 24px 48px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.reader-chapters-footer .btn {
+  text-decoration: none;
+}
+
+/* 阅读进度条 */
+.reader-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(212, 168, 67, 0.06);
+  z-index: 300;
+}
+
+.reader-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light));
+  transition: width 0.15s ease-out;
+  border-radius: 0 2px 2px 0;
+  box-shadow: 0 0 8px rgba(212, 168, 67, 0.4);
+}
+
+/* 侧边栏目录 */
+.reader-sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 400;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.reader-sidebar-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.reader-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 85vw;
+  background: rgba(10, 10, 28, 0.99);
+  border-right: 1px solid rgba(212, 168, 67, 0.1);
+  z-index: 500;
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-sidebar.open {
+  transform: translateX(0);
+}
+
+.reader-sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(212, 168, 67, 0.1);
+  background: rgba(212, 168, 67, 0.03);
+  flex-shrink: 0;
+}
+
+.reader-sidebar-book-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.reader-sidebar-cover {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-book-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-sidebar-book-meta {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.reader-sidebar-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-text);
+}
+
+.reader-sidebar-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.reader-sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.reader-sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.reader-sidebar-item.active {
+  background: rgba(212, 168, 67, 0.12);
+  color: var(--color-gold);
+}
+
+.reader-sidebar-item-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(212, 168, 67, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  flex-shrink: 0;
+}
+
+.reader-sidebar-item.active .reader-sidebar-item-num {
+  background: rgba(212, 168, 67, 0.22);
+}
+
+.reader-sidebar-item-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-sidebar-item-current {
+  color: var(--color-gold);
+  font-size: 0.65rem;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-footer {
+  padding: 12px 16px;
+  border-top: 1px solid rgba(212, 168, 67, 0.1);
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-footer-link {
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.reader-sidebar-footer-link:hover {
+  color: var(--color-gold);
+}
+
+/* 阅读模式工具栏 */
+.reader-topbar-reading {
+  padding: 0;
+}
+
+.reader-topbar-inner {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.reader-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+
+.reader-topbar-menu-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  background: rgba(212, 168, 67, 0.06);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-topbar-menu-btn:hover {
+  background: rgba(212, 168, 67, 0.12);
+  color: var(--color-gold);
+  border-color: rgba(212, 168, 67, 0.3);
+}
+
+.reader-topbar-book-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: color 0.3s;
+  min-width: 0;
+}
+
+.reader-topbar-book-link:hover {
+  color: var(--color-gold);
+}
+
+.reader-topbar-book-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-topbar-chapter-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.reader-topbar-chapter-name {
+  font-size: 0.84rem;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-topbar-chapter-progress {
+  font-size: 0.75rem;
+  color: var(--color-gold);
+  background: rgba(212, 168, 67, 0.1);
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.reader-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.reader-topbar-lang-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  background: rgba(212, 168, 67, 0.06);
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.reader-topbar-lang-btn:hover {
+  background: rgba(212, 168, 67, 0.12);
+  border-color: rgba(212, 168, 67, 0.3);
+}
+
+.reader-topbar-exit-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.reader-topbar-exit-btn:hover {
+  background: rgba(255, 80, 80, 0.12);
+  border-color: rgba(255, 80, 80, 0.3);
+  color: #ff6b6b;
+}
+
+/* 字号控制 */
+.reader-font-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reader-font-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(212, 168, 67, 0.15);
+  border-radius: 8px;
+  background: rgba(212, 168, 67, 0.06);
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.reader-font-btn:hover {
+  background: rgba(212, 168, 67, 0.15);
+  border-color: rgba(212, 168, 67, 0.3);
+}
+
+.reader-font-size {
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  min-width: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* 正文阅读内容 */
+.reader-reading-content {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 48px 28px 72px;
+}
+
+/* 章节标题区 */
+.reader-chapter-header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.reader-chapter-label {
+  font-size: 0.82rem;
+  color: var(--color-gold);
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.reader-chapter-title {
+  font-family: 'Noto Serif SC', 'SimSun', serif;
+  font-size: 1.8rem;
+  color: var(--color-text);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.reader-chapter-title-en {
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+}
+
+.reader-chapter-title-sub {
+  font-size: 0.92rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.reader-chapter-divider {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  margin: 24px auto 0;
+  opacity: 0.5;
+}
+
+/* 正文文本 */
+.reader-text {
+  color: rgba(220, 220, 230, 0.92);
+}
+
+.reader-text-cn {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', 'STSong', serif;
+  line-height: 2.15;
+}
+
+.reader-text-en {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 2;
+}
+
+.reader-paragraph {
+  margin-bottom: 1.2em;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+/* 底部导航 */
+.reader-nav-footer {
+  margin-top: 64px;
+  padding: 28px 0;
+  border-top: 1px solid rgba(212, 168, 67, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.reader-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: rgba(30, 30, 60, 0.5);
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--color-text);
+  transition: all 0.3s;
+  max-width: 48%;
+}
+
+.reader-nav-btn:hover {
+  border-color: rgba(212, 168, 67, 0.3);
+  background: rgba(212, 168, 67, 0.08);
+  transform: translateY(-2px);
+}
+
+.reader-nav-prev {
+  text-align: left;
+}
+
+.reader-nav-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.reader-nav-btn-arrow {
+  font-size: 1.2rem;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.reader-nav-btn-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.reader-nav-btn-label {
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.reader-nav-btn-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 完读提示 */
+.reader-finish {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.reader-finish-icon {
+  font-size: 2.8rem;
+  margin-bottom: 14px;
+}
+
+.reader-finish-text {
+  font-size: 1rem;
+  color: var(--color-gold);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.reader-finish-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reader-finish-actions .btn {
+  text-decoration: none;
+}
+
+/* 加载状态 */
+.reader-loading {
+  text-align: center;
+  padding: 80px 24px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reader-loading-icon {
+  font-size: 4.5rem;
+  margin-bottom: 24px;
+  animation: readerLoadPulse 2s ease-in-out infinite;
+}
+
+@keyframes readerLoadPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+.reader-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(212, 168, 67, 0.15);
+  border-top-color: var(--color-gold);
+  border-radius: 50%;
+  animation: readerSpin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes readerSpin {
+  to { transform: rotate(360deg); }
+}
+
+.reader-loading-title {
+  color: var(--color-gold);
+  font-family: 'Cinzel', serif;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.reader-loading-hint {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+/* 错误状态 */
+.reader-error {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.reader-error-icon {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+}
+
+.reader-error-title {
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.reader-error-msg {
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+}
+
+.reader-error-btn {
+  text-decoration: none;
+}
+
+/* 章节列表项（通用） */
+.reader-chapter-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, rgba(30, 30, 60, 0.5), rgba(20, 20, 50, 0.7));
+  border-radius: 10px;
+  border: 1px solid rgba(212, 168, 67, 0.08);
+  cursor: pointer;
+  text-align: left;
+  color: var(--color-text);
+  transition: all 0.3s;
+}
+
+.reader-chapter-item:hover {
+  border-color: rgba(212, 168, 67, 0.3);
+  background: rgba(212, 168, 67, 0.06);
+  transform: translateX(4px);
+}
+
+.reader-chapter-num {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--book-color) 25%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+
+.reader-chapter-item:hover .reader-chapter-num {
+  background: color-mix(in srgb, var(--book-color) 40%, transparent);
+}
+
+.reader-chapter-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-chapter-name {
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.reader-chapter-name-en {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.reader-chapter-arrow {
+  color: var(--color-gold);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-chapter-item:hover .reader-chapter-arrow {
+  opacity: 0.7;
+  transform: translateX(0);
+}
+
+/* ============================
+   阅读器响应式
+   ============================ */
+@media (max-width: 768px) {
+  .reader-shelf-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-shelf-title {
+    font-size: 1.6rem;
+  }
+
+  .reader-lang-switcher {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reader-lang-btn {
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+  }
+
+  .reader-standalone-topbar {
+    padding: 10px 16px;
+  }
+
+  .reader-topbar-inner {
+    padding: 10px 16px;
+  }
+
+  .reader-topbar-book-name {
+    display: none;
+  }
+
+  .reader-topbar-chapter-name {
+    font-size: 0.78rem;
+  }
+
+  .reader-sidebar {
+    width: 280px;
+  }
+
+  .reader-reading-content {
+    padding: 32px 18px 56px;
+  }
+
+  .reader-chapter-title {
+    font-size: 1.35rem;
+  }
+
+  .reader-nav-btn {
+    padding: 10px 14px;
+  }
+
+  .reader-nav-btn-title {
+    font-size: 0.78rem;
+  }
+
+  .reader-chapters-hero {
+    padding: 32px 16px 24px;
+  }
+
+  .reader-chapters-title {
+    font-size: 1.5rem;
+  }
+
+  .reader-chapters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-chapters-body {
+    padding: 0 16px 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reader-font-controls {
+    display: none;
+  }
+
+  .reader-book-cover-section {
+    padding: 16px 16px 0;
+  }
+
+  .reader-book-info {
+    padding: 12px 16px 16px;
+  }
+
+  .reader-book-actions {
+    flex-direction: column;
+  }
+
+  .reader-topbar-chapter-info {
+    display: none;
+  }
+
+  .reader-sidebar {
+    width: 260px;
+  }
+
+  .reader-reading-content {
+    padding: 24px 14px 48px;
+  }
+}
+
+/* ============================
+   原著阅读器 — 独立全屏页面
+   ============================ */
+
+/* 独立页面容器（脱离主布局，全屏占据） */
+.reader-standalone {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  position: relative;
+}
+
+/* 通用顶部导航条 */
+.reader-standalone-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 24px;
+  background: rgba(10, 10, 25, 0.97);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(212, 168, 67, 0.08);
+}
+
+.reader-standalone-back {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: color 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-standalone-back:hover {
+  color: var(--color-gold);
+}
+
+.reader-standalone-topbar-center {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-standalone-topbar-right {
+  flex-shrink: 0;
+}
+
+.reader-standalone-lang-btn {
+  padding: 6px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  background: rgba(212, 168, 67, 0.06);
+  color: var(--color-gold);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.reader-standalone-lang-btn:hover {
+  background: rgba(212, 168, 67, 0.15);
+  border-color: rgba(212, 168, 67, 0.4);
+}
+
+/* ---- 章节选择页 ---- */
+.reader-chapters-hero {
+  text-align: center;
+  padding: 48px 24px 36px;
+}
+
+.reader-chapters-cover {
+  width: 120px;
+  height: 168px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--book-color) 15%, transparent);
+  border: 2px solid color-mix(in srgb, var(--book-color) 30%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  overflow: hidden;
+  box-shadow: 8px 8px 28px rgba(0, 0, 0, 0.5);
+}
+
+.reader-chapters-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reader-chapters-cover-emoji {
+  font-size: 4rem;
+}
+
+.reader-chapters-title {
+  font-family: 'Cinzel', 'Noto Serif SC', serif;
+  font-size: 2rem;
+  color: var(--color-text);
+  margin-bottom: 6px;
+}
+
+.reader-chapters-en {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+
+.reader-chapters-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 24px;
+}
+
+.reader-chapters-meta-dot {
+  opacity: 0.4;
+}
+
+.reader-chapters-start-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 36px;
+  background: linear-gradient(135deg, rgba(212, 168, 67, 0.2), rgba(212, 168, 67, 0.1));
+  border: 1px solid rgba(212, 168, 67, 0.35);
+  border-radius: 28px;
+  color: var(--color-gold);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.reader-chapters-start-btn:hover {
+  background: linear-gradient(135deg, rgba(212, 168, 67, 0.3), rgba(212, 168, 67, 0.15));
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(212, 168, 67, 0.15);
+}
+
+.reader-chapters-body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+.reader-chapters-section-title {
+  font-size: 1.05rem;
+  color: var(--color-gold);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.reader-chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 10px;
+}
+
+.reader-chapters-footer {
+  text-align: center;
+  padding: 32px 24px 48px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.reader-chapters-footer .btn {
+  text-decoration: none;
+}
+
+/* ---- 阅读进度条 ---- */
+.reader-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(212, 168, 67, 0.06);
+  z-index: 300;
+}
+
+.reader-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light));
+  transition: width 0.15s ease-out;
+  border-radius: 0 2px 2px 0;
+  box-shadow: 0 0 8px rgba(212, 168, 67, 0.4);
+}
+
+/* ---- 侧边栏目录 ---- */
+.reader-sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 400;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.reader-sidebar-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.reader-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 85vw;
+  background: rgba(10, 10, 28, 0.99);
+  border-right: 1px solid rgba(212, 168, 67, 0.1);
+  z-index: 500;
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-sidebar.open {
+  transform: translateX(0);
+}
+
+.reader-sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(212, 168, 67, 0.1);
+  background: rgba(212, 168, 67, 0.03);
+  flex-shrink: 0;
+}
+
+.reader-sidebar-book-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.reader-sidebar-cover {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-book-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-sidebar-book-meta {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.reader-sidebar-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-text);
+}
+
+.reader-sidebar-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.reader-sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.reader-sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.reader-sidebar-item.active {
+  background: rgba(212, 168, 67, 0.12);
+  color: var(--color-gold);
+}
+
+.reader-sidebar-item-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(212, 168, 67, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  flex-shrink: 0;
+}
+
+.reader-sidebar-item.active .reader-sidebar-item-num {
+  background: rgba(212, 168, 67, 0.22);
+}
+
+.reader-sidebar-item-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-sidebar-item-current {
+  color: var(--color-gold);
+  font-size: 0.65rem;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-footer {
+  padding: 12px 16px;
+  border-top: 1px solid rgba(212, 168, 67, 0.1);
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.reader-sidebar-footer-link {
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.reader-sidebar-footer-link:hover {
+  color: var(--color-gold);
+}
+
+/* ---- 阅读模式工具栏 ---- */
+.reader-topbar-reading {
+  padding: 0;
+}
+
+.reader-topbar-inner {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.reader-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+
+.reader-topbar-menu-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  background: rgba(212, 168, 67, 0.06);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-topbar-menu-btn:hover {
+  background: rgba(212, 168, 67, 0.12);
+  color: var(--color-gold);
+  border-color: rgba(212, 168, 67, 0.3);
+}
+
+.reader-topbar-book-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: color 0.3s;
+  min-width: 0;
+}
+
+.reader-topbar-book-link:hover {
+  color: var(--color-gold);
+}
+
+.reader-topbar-book-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-topbar-chapter-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.reader-topbar-chapter-name {
+  font-size: 0.84rem;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-topbar-chapter-progress {
+  font-size: 0.75rem;
+  color: var(--color-gold);
+  background: rgba(212, 168, 67, 0.1);
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.reader-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.reader-topbar-lang-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  background: rgba(212, 168, 67, 0.06);
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.reader-topbar-lang-btn:hover {
+  background: rgba(212, 168, 67, 0.12);
+  border-color: rgba(212, 168, 67, 0.3);
+}
+
+.reader-topbar-exit-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.reader-topbar-exit-btn:hover {
+  background: rgba(255, 80, 80, 0.12);
+  border-color: rgba(255, 80, 80, 0.3);
+  color: #ff6b6b;
+}
+
+/* 字号控制 */
+.reader-font-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reader-font-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(212, 168, 67, 0.15);
+  border-radius: 8px;
+  background: rgba(212, 168, 67, 0.06);
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.reader-font-btn:hover {
+  background: rgba(212, 168, 67, 0.15);
+  border-color: rgba(212, 168, 67, 0.3);
+}
+
+.reader-font-size {
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  min-width: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ---- 正文阅读内容 ---- */
+.reader-reading-content {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 48px 28px 72px;
+}
+
+/* 章节标题区 */
+.reader-chapter-header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.reader-chapter-label {
+  font-size: 0.82rem;
+  color: var(--color-gold);
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.reader-chapter-title {
+  font-family: 'Noto Serif SC', 'SimSun', serif;
+  font-size: 1.8rem;
+  color: var(--color-text);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.reader-chapter-title-en {
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+}
+
+.reader-chapter-title-sub {
+  font-size: 0.92rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.reader-chapter-divider {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  margin: 24px auto 0;
+  opacity: 0.5;
+}
+
+/* 正文文本 */
+.reader-text {
+  color: rgba(220, 220, 230, 0.92);
+}
+
+.reader-text-cn {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', 'STSong', serif;
+  line-height: 2.15;
+}
+
+.reader-text-en {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 2;
+}
+
+.reader-paragraph {
+  margin-bottom: 1.2em;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+/* 底部导航 */
+.reader-nav-footer {
+  margin-top: 64px;
+  padding: 28px 0;
+  border-top: 1px solid rgba(212, 168, 67, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.reader-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: rgba(30, 30, 60, 0.5);
+  border: 1px solid rgba(212, 168, 67, 0.12);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--color-text);
+  transition: all 0.3s;
+  max-width: 48%;
+}
+
+.reader-nav-btn:hover {
+  border-color: rgba(212, 168, 67, 0.3);
+  background: rgba(212, 168, 67, 0.08);
+  transform: translateY(-2px);
+}
+
+.reader-nav-prev {
+  text-align: left;
+}
+
+.reader-nav-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.reader-nav-btn-arrow {
+  font-size: 1.2rem;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.reader-nav-btn-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.reader-nav-btn-label {
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.reader-nav-btn-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 完读提示 */
+.reader-finish {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.reader-finish-icon {
+  font-size: 2.8rem;
+  margin-bottom: 14px;
+}
+
+.reader-finish-text {
+  font-size: 1rem;
+  color: var(--color-gold);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.reader-finish-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reader-finish-actions .btn {
+  text-decoration: none;
+}
+
+/* 加载状态 */
+.reader-loading {
+  text-align: center;
+  padding: 80px 24px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reader-loading-icon {
+  font-size: 4.5rem;
+  margin-bottom: 24px;
+  animation: readerLoadPulse 2s ease-in-out infinite;
+}
+
+@keyframes readerLoadPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+.reader-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(212, 168, 67, 0.15);
+  border-top-color: var(--color-gold);
+  border-radius: 50%;
+  animation: readerSpin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes readerSpin {
+  to { transform: rotate(360deg); }
+}
+
+.reader-loading-title {
+  color: var(--color-gold);
+  font-family: 'Cinzel', serif;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.reader-loading-hint {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+/* 错误状态 */
+.reader-error {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.reader-error-icon {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+}
+
+.reader-error-title {
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.reader-error-msg {
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+}
+
+.reader-error-btn {
+  text-decoration: none;
+}
+
+/* 章节列表项（通用） */
+.reader-chapter-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, rgba(30, 30, 60, 0.5), rgba(20, 20, 50, 0.7));
+  border-radius: 10px;
+  border: 1px solid rgba(212, 168, 67, 0.08);
+  cursor: pointer;
+  text-align: left;
+  color: var(--color-text);
+  transition: all 0.3s;
+}
+
+.reader-chapter-item:hover {
+  border-color: rgba(212, 168, 67, 0.3);
+  background: rgba(212, 168, 67, 0.06);
+  transform: translateX(4px);
+}
+
+.reader-chapter-num {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--book-color) 25%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+
+.reader-chapter-item:hover .reader-chapter-num {
+  background: color-mix(in srgb, var(--book-color) 40%, transparent);
+}
+
+.reader-chapter-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-chapter-name {
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.reader-chapter-name-en {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.reader-chapter-arrow {
+  color: var(--color-gold);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.reader-chapter-item:hover .reader-chapter-arrow {
+  opacity: 0.7;
+  transform: translateX(0);
+}
+
+/* ============================
+   阅读器响应式
+   ============================ */
+@media (max-width: 768px) {
+  .reader-shelf-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-shelf-title {
+    font-size: 1.6rem;
+  }
+
+  .reader-lang-switcher {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reader-lang-btn {
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+  }
+
+  /* 独立页面响应式 */
+  .reader-standalone-topbar {
+    padding: 10px 16px;
+  }
+
+  .reader-topbar-inner {
+    padding: 10px 16px;
+  }
+
+  .reader-topbar-book-name {
+    display: none;
+  }
+
+  .reader-topbar-chapter-name {
+    font-size: 0.78rem;
+  }
+
+  .reader-sidebar {
+    width: 280px;
+  }
+
+  .reader-reading-content {
+    padding: 32px 18px 56px;
+  }
+
+  .reader-chapter-title {
+    font-size: 1.35rem;
+  }
+
+  .reader-nav-btn {
+    padding: 10px 14px;
+  }
+
+  .reader-nav-btn-title {
+    font-size: 0.78rem;
+  }
+
+  .reader-chapters-hero {
+    padding: 32px 16px 24px;
+  }
+
+  .reader-chapters-title {
+    font-size: 1.5rem;
+  }
+
+  .reader-chapters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-chapters-body {
+    padding: 0 16px 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reader-font-controls {
+    display: none;
+  }
+
+  .reader-book-cover-section {
+    padding: 16px 16px 0;
+  }
+
+  .reader-book-info {
+    padding: 12px 16px 16px;
+  }
+
+  .reader-book-actions {
+    flex-direction: column;
+  }
+
+  .reader-topbar-chapter-info {
+    display: none;
+  }
+
+  .reader-sidebar {
+    width: 260px;
+  }
+
+  .reader-reading-content {
+    padding: 24px 14px 48px;
+  }
+}
