@@ -6058,6 +6058,8 @@ a:hover { color: var(--color-gold-light); }
   background: rgba(var(--color-gold-rgb), 0.05); border-radius: 8px; font-size: 0.85rem;
 }
 
+.book-movie-links-list { display: flex; flex-direction: column; gap: 10px; }
+
 .book-movie-link {
   display: flex; align-items: center; gap: 16px;
   padding: 14px 18px; border-radius: 12px;
