@@ -149,10 +149,10 @@
   - [x] TASK 26c：NewsDetail.jsx（~80 行内联 → CSS 类：相关链接区、来源信息） ✅ 2025-04-06
   - [x] TASK 26d：NotFound.jsx（~35 行内联 → CSS 类） ✅ 2025-04-06
 
-- [ ] **TASK 27**：CSS 设计令牌补全与统一
-  - [ ] TASK 27a：补全缺失 CSS 变量（`--color-text`, `--color-text-secondary`, `--color-dark`）
-  - [ ] TASK 27b：统一金色 RGB 值（`rgb(212,168,67)` vs `rgb(212,175,55)` → 统一为 CSS 变量引用）
-  - [ ] TASK 27c：将所有 `@keyframes`（pulse / wandForge / fadeIn）统一定义在 index.css
+- [x] **TASK 27**：CSS 设计令牌补全与统一 ✅ 2025-04-06
+  - [x] TASK 27a：补全缺失 CSS 变量（`--color-text`, `--color-text-secondary`, `--color-dark`） ✅ 2025-04-06
+  - [x] TASK 27b：统一金色 RGB 值（`rgb(212,168,67)` vs `rgb(212,175,55)` → 统一为 CSS 变量引用） ✅ 2025-04-06
+  - [x] TASK 27c：将所有 `@keyframes`（pulse / wandForge / fadeIn）统一定义在 index.css ✅ 2025-04-06
 
 ---
 
