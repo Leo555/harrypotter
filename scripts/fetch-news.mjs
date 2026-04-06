@@ -182,7 +182,7 @@ function transformToNews(items, startId = 1) {
       ? new Date(item.pubDate).toISOString().slice(0, 10)
       : new Date().toISOString().slice(0, 10)
 
-    // 清理 HTML 标签
+    // 清理 HTML 标签和特殊字符
     const cleanDescription = item.description
       .replace(/<[^>]+>/g, '')
       .replace(/&amp;/g, '&')
@@ -190,6 +190,9 @@ function transformToNews(items, startId = 1) {
       .replace(/&gt;/g, '>')
       .replace(/&quot;/g, '"')
       .replace(/&#39;/g, "'")
+      // 将中文双引号替换为方括号，避免 JSON 解析冲突
+      .replace(/"/g, '「')
+      .replace(/"/g, '」')
       .trim()
 
     // 生成摘要（最多120字）
@@ -199,7 +202,11 @@ function transformToNews(items, startId = 1) {
 
     return {
       id: startId + index,
-      title: item.title.replace(/<[^>]+>/g, '').trim(),
+      title: item.title
+        .replace(/<[^>]+>/g, '')
+        .replace(/"/g, '「')
+        .replace(/"/g, '」')
+        .trim(),
       date,
       category,
       summary: summary || item.title,
