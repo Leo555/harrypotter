@@ -1,13 +1,16 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import useDocumentHead from '../hooks/useDocumentHead'
 import { loadBook, bookTitles, bookTitlesEn, bookCovers, bookColors, chapterNames } from '../data/bookLoader'
 import books from '../data/books'
 
 export default function BookReader() {
-  const { bookId, chapterId } = useParams()
+  const { id, chapterId } = useParams()
   const navigate = useNavigate()
-  const bookNum = parseInt(bookId) || 1
+
+  // 通过书籍 id 找到对应的书籍信息
+  const bookInfo = useMemo(() => books.find(b => b.id === id), [id])
+  const bookNum = bookInfo?.number || 1
   const chapterNum = parseInt(chapterId) || 0 // 0 means chapter selection view
 
   const [bookData, setBookData] = useState(null)
@@ -113,9 +116,9 @@ export default function BookReader() {
   }, [])
 
   const goToChapter = useCallback((num) => {
-    navigate(`/reader/${bookNum}/${num}`)
+    navigate(`/books/${id}/read/${num}`)
     setSidebarOpen(false)
-  }, [bookNum, navigate])
+  }, [id, navigate])
 
   const chapter = bookData?.chapters?.[chapterNum - 1]
   const totalChapters = bookData?.chapters?.length || 0
@@ -134,6 +137,9 @@ export default function BookReader() {
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [chapterNum, totalChapters, goToChapter])
 
+  // 获取下一本书的信息
+  const nextBook = books.find(b => b.number === bookNum + 1)
+
   // ========================
   // 加载中
   // ========================
@@ -144,10 +150,10 @@ export default function BookReader() {
           <div className="reader-loading-icon">{bookCovers[bookNum] || '📖'}</div>
           <div className="reader-loading-spinner" />
           <h2 className="reader-loading-title">
-            正在打开 {bookTitles[bookNum] || '书籍'}...
+            {lang === 'cn' ? `正在打开 ${bookTitles[bookNum] || '书籍'}...` : `Opening ${bookTitlesEn[bookNum] || 'Book'}...`}
           </h2>
           <p className="reader-loading-hint">
-            {lang === 'cn' ? '翻开羊皮纸，中文译本正在浮现' : '翻开羊皮纸，魔法文字正在浮现'}
+            {lang === 'cn' ? '翻开羊皮纸，中文译本正在浮现' : 'Opening the parchment, magic words are appearing...'}
           </p>
         </div>
       </div>
@@ -163,15 +169,15 @@ export default function BookReader() {
         <div className="reader-standalone-topbar">
           <Link to="/reader" className="reader-standalone-back">
             <span>←</span>
-            <span>返回书架</span>
+            <span>{lang === 'cn' ? '返回书架' : 'Back to Shelf'}</span>
           </Link>
         </div>
         <div className="reader-error">
           <div className="reader-error-icon">😔</div>
-          <h2 className="reader-error-title">无法加载书籍</h2>
-          <p className="reader-error-msg">{error || '未知错误'}</p>
+          <h2 className="reader-error-title">{lang === 'cn' ? '无法加载书籍' : 'Failed to Load Book'}</h2>
+          <p className="reader-error-msg">{error || (lang === 'cn' ? '未知错误' : 'Unknown error')}</p>
           <Link to="/reader" className="btn btn-primary reader-error-btn">
-            返回书架
+            {lang === 'cn' ? '返回书架' : 'Back to Shelf'}
           </Link>
         </div>
       </div>
@@ -182,17 +188,16 @@ export default function BookReader() {
   // 章节选择页面（无 chapterId 时）
   // ========================
   if (!chapterId) {
-    const bookInfo = books.find(b => b.number === bookNum)
     return (
       <div className="reader-standalone" style={{ '--book-color': bookColor }}>
         {/* 顶部导航条 */}
         <div className="reader-standalone-topbar">
           <Link to="/reader" className="reader-standalone-back">
             <span>←</span>
-            <span>返回书架</span>
+            <span>{lang === 'cn' ? '返回书架' : 'Back to Shelf'}</span>
           </Link>
           <div className="reader-standalone-topbar-center">
-            {bookCovers[bookNum]} {bookData.titleCn}
+            {bookCovers[bookNum]} {lang === 'en' ? bookData.titleEn : bookData.titleCn}
           </div>
           <div className="reader-standalone-topbar-right">
             <button onClick={toggleLang} className="reader-standalone-lang-btn">
@@ -210,10 +215,10 @@ export default function BookReader() {
               <span className="reader-chapters-cover-emoji">{bookCovers[bookNum]}</span>
             )}
           </div>
-          <h1 className="reader-chapters-title">{bookData.titleCn}</h1>
-          <div className="reader-chapters-en">{bookData.titleEn}</div>
+          <h1 className="reader-chapters-title">{lang === 'en' ? bookData.titleEn : bookData.titleCn}</h1>
+          <div className="reader-chapters-en">{lang === 'en' ? bookData.titleCn : bookData.titleEn}</div>
           <div className="reader-chapters-meta">
-            <span>📑 {totalChapters} 章</span>
+            <span>📑 {totalChapters} {lang === 'cn' ? '章' : 'Chapters'}</span>
             <span className="reader-chapters-meta-dot">·</span>
             <span>{lang === 'cn' ? '🇨🇳 中文译本' : '🇬🇧 英文原版'}</span>
           </div>
@@ -221,13 +226,13 @@ export default function BookReader() {
             onClick={() => goToChapter(1)}
             className="reader-chapters-start-btn"
           >
-            📖 从第一章开始阅读
+            📖 {lang === 'cn' ? '从第一章开始阅读' : 'Start Reading from Chapter 1'}
           </button>
         </div>
 
         {/* 章节列表 */}
         <div className="reader-chapters-body">
-          <h2 className="reader-chapters-section-title">📑 章节目录</h2>
+          <h2 className="reader-chapters-section-title">📑 {lang === 'cn' ? '章节目录' : 'Chapters'}</h2>
           <div className="reader-chapters-grid">
             {bookData.chapters.map((ch) => (
               <button
@@ -238,8 +243,11 @@ export default function BookReader() {
               >
                 <span className="reader-chapter-num">{ch.number}</span>
                 <div className="reader-chapter-text">
-                  <div className="reader-chapter-name">{ch.titleCn}</div>
+                  <div className="reader-chapter-name">{lang === 'en' ? ch.title : ch.titleCn}</div>
                   {lang === 'en' && ch.title !== ch.titleCn && (
+                    <div className="reader-chapter-name-en">{ch.titleCn}</div>
+                  )}
+                  {lang === 'cn' && ch.title !== ch.titleCn && (
                     <div className="reader-chapter-name-en">{ch.title}</div>
                   )}
                 </div>
@@ -251,11 +259,11 @@ export default function BookReader() {
 
         {/* 底部导航 */}
         <div className="reader-chapters-footer">
-          <Link to="/reader" className="btn btn-outline">← 返回书架</Link>
-          <Link to={`/books/${bookInfo?.id || ''}`} className="btn btn-outline">📚 查看本书百科</Link>
-          {bookNum < 7 && (
-            <Link to={`/reader/${bookNum + 1}`} className="btn btn-outline">
-              下一部：{bookTitles[bookNum + 1]} →
+          <Link to="/reader" className="btn btn-outline">← {lang === 'cn' ? '返回书架' : 'Back to Shelf'}</Link>
+          <Link to={`/books/${id}`} className="btn btn-outline">📚 {lang === 'cn' ? '查看本书百科' : 'View Wiki'}</Link>
+          {nextBook && (
+            <Link to={`/books/${nextBook.id}/read`} className="btn btn-outline">
+              {lang === 'cn' ? `下一部：${bookTitles[bookNum + 1]}` : `Next: ${bookTitlesEn[bookNum + 1]}`} →
             </Link>
           )}
         </div>
@@ -270,14 +278,14 @@ export default function BookReader() {
     return (
       <div className="reader-standalone">
         <div className="reader-standalone-topbar">
-          <Link to={`/reader/${bookNum}`} className="reader-standalone-back">
+          <Link to={`/books/${id}/read`} className="reader-standalone-back">
             <span>←</span>
-            <span>返回目录</span>
+            <span>{lang === 'cn' ? '返回目录' : 'Back to Contents'}</span>
           </Link>
         </div>
         <div className="reader-error">
-          <p className="reader-error-msg">章节不存在</p>
-          <button className="btn btn-primary" onClick={() => goToChapter(1)}>回到第一章</button>
+          <p className="reader-error-msg">{lang === 'cn' ? '章节不存在' : 'Chapter not found'}</p>
+          <button className="btn btn-primary" onClick={() => goToChapter(1)}>{lang === 'cn' ? '回到第一章' : 'Go to Chapter 1'}</button>
         </div>
       </div>
     )
@@ -303,8 +311,8 @@ export default function BookReader() {
           <div className="reader-sidebar-book-info">
             <span className="reader-sidebar-cover">{bookCovers[bookNum]}</span>
             <div>
-              <div className="reader-sidebar-book-title">{bookData.titleCn}</div>
-              <div className="reader-sidebar-book-meta">{totalChapters} 章 · {lang === 'cn' ? '中文' : 'EN'}</div>
+              <div className="reader-sidebar-book-title">{lang === 'en' ? bookData.titleEn : bookData.titleCn}</div>
+              <div className="reader-sidebar-book-meta">{totalChapters} {lang === 'cn' ? '章' : 'Chapters'} · {lang === 'cn' ? '中文' : 'EN'}</div>
             </div>
           </div>
           <button onClick={() => setSidebarOpen(false)} className="reader-sidebar-close">✕</button>
@@ -317,14 +325,14 @@ export default function BookReader() {
               className={`reader-sidebar-item ${ch.number === chapterNum ? 'active' : ''}`}
             >
               <span className="reader-sidebar-item-num">{ch.number}</span>
-              <span className="reader-sidebar-item-name">{ch.titleCn}</span>
+              <span className="reader-sidebar-item-name">{lang === 'en' ? ch.title : ch.titleCn}</span>
               {ch.number === chapterNum && <span className="reader-sidebar-item-current">●</span>}
             </button>
           ))}
         </div>
         <div className="reader-sidebar-footer">
-          <Link to={`/reader/${bookNum}`} className="reader-sidebar-footer-link">📑 章节概览</Link>
-          <Link to="/reader" className="reader-sidebar-footer-link">📚 返回书架</Link>
+          <Link to={`/books/${id}/read`} className="reader-sidebar-footer-link">📑 {lang === 'cn' ? '章节概览' : 'Contents'}</Link>
+          <Link to="/reader" className="reader-sidebar-footer-link">📚 {lang === 'cn' ? '返回书架' : 'Back to Shelf'}</Link>
         </div>
       </aside>
 
@@ -333,23 +341,41 @@ export default function BookReader() {
         <div className="reader-topbar-inner">
           {/* 左：目录按钮 + 书名 */}
           <div className="reader-topbar-left">
-            <button onClick={() => setSidebarOpen(true)} className="reader-topbar-menu-btn" title="打开目录">
+            <button onClick={() => setSidebarOpen(true)} className="reader-topbar-menu-btn" title={lang === 'cn' ? '打开目录' : 'Open Contents'}>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <rect y="3" width="20" height="2" rx="1" fill="currentColor"/>
                 <rect y="9" width="20" height="2" rx="1" fill="currentColor"/>
                 <rect y="15" width="20" height="2" rx="1" fill="currentColor"/>
               </svg>
             </button>
-            <Link to={`/reader/${bookNum}`} className="reader-topbar-book-link" title="返回章节目录">
+            <Link to={`/books/${id}/read`} className="reader-topbar-book-link" title={lang === 'cn' ? '返回章节目录' : 'Back to Contents'}>
               <span>{bookCovers[bookNum]}</span>
-              <span className="reader-topbar-book-name">{bookData.titleCn}</span>
+              <span className="reader-topbar-book-name">{lang === 'en' ? bookData.titleEn : bookData.titleCn}</span>
             </Link>
           </div>
 
-          {/* 中：章节名 */}
-          <div className="reader-topbar-chapter-info">
-            <span className="reader-topbar-chapter-name">{chapter.titleCn}</span>
-            <span className="reader-topbar-chapter-progress">{chapterNum}/{totalChapters}</span>
+          {/* 中：章节导航 */}
+          <div className="reader-topbar-chapter-nav">
+            <button
+              onClick={() => goToChapter(chapterNum - 1)}
+              className="reader-topbar-nav-btn reader-topbar-nav-prev"
+              disabled={chapterNum <= 1}
+              title={chapterNum > 1 ? `${lang === 'cn' ? '上一章' : 'Previous'}: ${lang === 'en' ? bookData.chapters[chapterNum - 2]?.title : bookData.chapters[chapterNum - 2]?.titleCn}` : (lang === 'cn' ? '已是第一章' : 'First Chapter')}
+            >
+              ←
+            </button>
+            <div className="reader-topbar-chapter-info">
+              <span className="reader-topbar-chapter-name">{lang === 'en' ? chapter.title : chapter.titleCn}</span>
+              <span className="reader-topbar-chapter-progress">{chapterNum}/{totalChapters}</span>
+            </div>
+            <button
+              onClick={() => goToChapter(chapterNum + 1)}
+              className="reader-topbar-nav-btn reader-topbar-nav-next"
+              disabled={chapterNum >= totalChapters}
+              title={chapterNum < totalChapters ? `${lang === 'cn' ? '下一章' : 'Next'}: ${lang === 'en' ? bookData.chapters[chapterNum]?.title : bookData.chapters[chapterNum]?.titleCn}` : (lang === 'cn' ? '已是最后一章' : 'Last Chapter')}
+            >
+              →
+            </button>
           </div>
 
           {/* 右侧控制 */}
@@ -359,12 +385,12 @@ export default function BookReader() {
             </button>
 
             <div className="reader-font-controls">
-              <button onClick={() => changeFontSize(-1)} className="reader-font-btn" title="缩小字体">A-</button>
+              <button onClick={() => changeFontSize(-1)} className="reader-font-btn" title={lang === 'cn' ? '缩小字体' : 'Decrease Font'}>A-</button>
               <span className="reader-font-size">{fontSize}</span>
-              <button onClick={() => changeFontSize(1)} className="reader-font-btn" title="增大字体">A+</button>
+              <button onClick={() => changeFontSize(1)} className="reader-font-btn" title={lang === 'cn' ? '增大字体' : 'Increase Font'}>A+</button>
             </div>
 
-            <Link to="/reader" className="reader-topbar-exit-btn" title="返回书架">
+            <Link to="/reader" className="reader-topbar-exit-btn" title={lang === 'cn' ? '返回书架' : 'Back to Shelf'}>
               ✕
             </Link>
           </div>
@@ -379,9 +405,9 @@ export default function BookReader() {
             {lang === 'cn' ? `第 ${chapterNum} 章` : `Chapter ${chapterNum}`}
           </div>
           <h1 className={`reader-chapter-title ${lang === 'en' ? 'reader-chapter-title-en' : ''}`}>
-            {chapter.titleCn}
+            {lang === 'en' ? chapter.title : chapter.titleCn}
           </h1>
-          {lang === 'en' && chapter.title !== `Chapter ${chapterNum}` && chapter.title !== chapter.titleCn && (
+          {lang === 'cn' && chapter.title !== chapter.titleCn && chapter.title !== `Chapter ${chapterNum}` && (
             <div className="reader-chapter-title-sub">{chapter.title}</div>
           )}
           <div className="reader-chapter-divider" />
@@ -403,8 +429,8 @@ export default function BookReader() {
             <button onClick={() => goToChapter(chapterNum - 1)} className="reader-nav-btn reader-nav-prev">
               <span className="reader-nav-btn-arrow">←</span>
               <div className="reader-nav-btn-info">
-                <span className="reader-nav-btn-label">上一章</span>
-                <span className="reader-nav-btn-title">{bookData.chapters[chapterNum - 2]?.titleCn}</span>
+                <span className="reader-nav-btn-label">{lang === 'cn' ? '上一章' : 'Previous'}</span>
+                <span className="reader-nav-btn-title">{lang === 'en' ? bookData.chapters[chapterNum - 2]?.title : bookData.chapters[chapterNum - 2]?.titleCn}</span>
               </div>
             </button>
           ) : (
@@ -413,8 +439,8 @@ export default function BookReader() {
           {chapterNum < totalChapters ? (
             <button onClick={() => goToChapter(chapterNum + 1)} className="reader-nav-btn reader-nav-next">
               <div className="reader-nav-btn-info">
-                <span className="reader-nav-btn-label">下一章</span>
-                <span className="reader-nav-btn-title">{bookData.chapters[chapterNum]?.titleCn}</span>
+                <span className="reader-nav-btn-label">{lang === 'cn' ? '下一章' : 'Next'}</span>
+                <span className="reader-nav-btn-title">{lang === 'en' ? bookData.chapters[chapterNum]?.title : bookData.chapters[chapterNum]?.titleCn}</span>
               </div>
               <span className="reader-nav-btn-arrow">→</span>
             </button>
@@ -422,20 +448,20 @@ export default function BookReader() {
             <div className="reader-finish">
               <div className="reader-finish-icon">✨</div>
               <div className="reader-finish-text">
-                恭喜你读完了《{bookData.titleCn || bookData.title}》！
+                {lang === 'cn' ? `恭喜你读完了《${bookData.titleCn || bookData.title}》！` : `Congratulations! You've finished "${bookData.titleEn || bookData.title}"!`}
               </div>
               <div className="reader-finish-actions">
-                {bookNum < 7 ? (
-                  <Link to={`/reader/${bookNum + 1}`} className="btn btn-primary">
-                    开始阅读《{bookTitles[bookNum + 1]}》 →
+                {nextBook ? (
+                  <Link to={`/books/${nextBook.id}/read`} className="btn btn-primary">
+                    {lang === 'cn' ? `开始阅读《${bookTitles[bookNum + 1]}》` : `Start reading "${bookTitlesEn[bookNum + 1]}"`} →
                   </Link>
                 ) : (
                   <Link to="/reader" className="btn btn-primary">
-                    🏠 返回书架
+                    🏠 {lang === 'cn' ? '返回书架' : 'Back to Shelf'}
                   </Link>
                 )}
-                <Link to={`/reader/${bookNum}`} className="btn btn-outline">
-                  📑 回到目录
+                <Link to={`/books/${id}/read`} className="btn btn-outline">
+                  📑 {lang === 'cn' ? '回到目录' : 'Back to Contents'}
                 </Link>
               </div>
             </div>
