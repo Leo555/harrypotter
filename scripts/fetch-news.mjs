@@ -183,17 +183,34 @@ function transformToNews(items, startId = 1) {
       : new Date().toISOString().slice(0, 10)
 
     // 清理 HTML 标签和特殊字符
-    const cleanDescription = item.description
-      .replace(/<[^>]+>/g, '')
+    let cleanDescription = item.description
+      // 先解码 HTML 实体
       .replace(/&amp;/g, '&')
       .replace(/&lt;/g, '<')
       .replace(/&gt;/g, '>')
       .replace(/&quot;/g, '"')
       .replace(/&#39;/g, "'")
-      // 将中文双引号替换为方括号，避免 JSON 解析冲突
-      .replace(/"/g, '「')
-      .replace(/"/g, '」')
+      .replace(/&nbsp;/g, ' ')
+      // 然后删除所有 HTML 标签
+      .replace(/<[^>]+>/g, '')
+      // 清理多余的空白
+      .replace(/\s+/g, ' ')
       .trim()
+
+    // 如果 description 只是 "标题 来源" 的格式（Google News 常见格式）
+    // 则从标题中提取更有意义的内容
+    const titleWithoutSource = item.title.split(/\s+-\s+/)[0]
+    const descriptionWithoutSource = cleanDescription.split(/\s{2,}|\s+-\s+/)[0]
+
+    // 如果清理后的description基本等同于标题，使用标题（去掉来源）
+    if (cleanDescription.length < 30 ||
+        cleanDescription === item.title ||
+        cleanDescription.includes(item.title.split(' - ')[0])) {
+      cleanDescription = titleWithoutSource
+    } else {
+      // 否则使用description，但也去掉可能的来源标记
+      cleanDescription = descriptionWithoutSource
+    }
 
     // 生成摘要（最多120字）
     const summary = cleanDescription.length > 120
@@ -204,8 +221,6 @@ function transformToNews(items, startId = 1) {
       id: startId + index,
       title: item.title
         .replace(/<[^>]+>/g, '')
-        .replace(/"/g, '「')
-        .replace(/"/g, '」')
         .trim(),
       date,
       category,

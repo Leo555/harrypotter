@@ -1,89 +1,19 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import books from '../data/books'
 import { characters } from '../data/characters'
 import movies from '../data/movies'
 import useDocumentHead from '../hooks/useDocumentHead'
-import { loadBook, bookTitles, bookCovers, bookColors } from '../data/bookLoader'
 
 export default function BookDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
   const book = books.find(b => b.id === id)
 
-  // 阅读器状态
-  const [readerOpen, setReaderOpen] = useState(false)
-  const [readerChapter, setReaderChapter] = useState(null)
-  const [bookData, setBookData] = useState(null)
-  const [readerLoading, setReaderLoading] = useState(false)
-  const [readerError, setReaderError] = useState(null)
-  const [fontSize, setFontSize] = useState(16)
-  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'en')
-  const [showToc, setShowToc] = useState(false)
-  const readerRef = useRef(null)
-  const tocRef = useRef(null)
-
   useDocumentHead({
-    title: book ? (readerOpen && readerChapter ? `📖 阅读 ${book.title} 第${readerChapter}章` : `${book.title}`) : '未找到书籍',
+    title: book ? `${book.title}` : '未找到书籍',
     description: book ? `${book.title}（${book.titleEn}）— ${book.summary.slice(0, 120)}` : '',
     keywords: book ? `${book.title},${book.titleEn},哈利波特第${book.number}部,在线阅读` : '',
   })
-
-  useEffect(() => {
-    if (!readerOpen || !book) return
-    let cancelled = false
-    setReaderLoading(true)
-    setReaderError(null)
-    loadBook(book.number, lang)
-      .then(data => {
-        if (!cancelled) { setBookData(data); setReaderLoading(false) }
-      })
-      .catch(err => {
-        if (!cancelled) { setReaderError(err.message); setReaderLoading(false) }
-      })
-    return () => { cancelled = true }
-  }, [readerOpen, book?.number, lang])
-
-  useEffect(() => {
-    if (readerOpen && readerRef.current) {
-      readerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }, [readerOpen, readerChapter])
-
-  useEffect(() => {
-    const handleClick = (e) => {
-      if (showToc && tocRef.current && !tocRef.current.contains(e.target)) setShowToc(false)
-    }
-    document.addEventListener('mousedown', handleClick)
-    return () => document.removeEventListener('mousedown', handleClick)
-  }, [showToc])
-
-  const toggleLang = () => {
-    setLang(prev => {
-      const next = prev === 'en' ? 'cn' : 'en'
-      localStorage.setItem('hp-reader-lang', next)
-      return next
-    })
-  }
-
-  const goToChapter = useCallback((num) => {
-    setReaderChapter(num)
-    setShowToc(false)
-  }, [])
-
-  useEffect(() => {
-    if (!readerOpen || !readerChapter || !bookData) return
-    const totalChapters = bookData.chapters.length
-    const handleKeyDown = (e) => {
-      if (e.key === 'ArrowLeft' && readerChapter > 1) goToChapter(readerChapter - 1)
-      else if (e.key === 'ArrowRight' && readerChapter < totalChapters) goToChapter(readerChapter + 1)
-    }
-    window.addEventListener('keydown', handleKeyDown)
-    return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [readerOpen, readerChapter, bookData, goToChapter])
-
-  const openReader = (chapterNum = null) => { setReaderOpen(true); setReaderChapter(chapterNum) }
-  const closeReader = () => { setReaderOpen(false); setReaderChapter(null); setShowToc(false) }
 
   if (!book) {
     return (
@@ -99,179 +29,6 @@ export default function BookDetail() {
   const prevBook = books.find(b => b.number === book.number - 1)
   const nextBook = books.find(b => b.number === book.number + 1)
   const keyChars = (book.keyCharacters || []).map(cid => characters.find(c => c.id === cid)).filter(Boolean)
-  const chapter = bookData?.chapters?.[readerChapter - 1]
-  const totalChapters = bookData?.chapters?.length || 0
-
-  // 渲染内嵌阅读器
-  const renderReader = () => {
-    if (!readerOpen) return null
-
-    if (readerLoading) {
-      return (
-        <div ref={readerRef} className="embed-reader-panel embed-reader-loading">
-          <div className="embed-reader-loading-icon">{bookCovers[book.number] || '📖'}</div>
-          <h3 className="embed-reader-loading-title">正在打开 {bookTitles[book.number]}...</h3>
-          <p className="embed-reader-loading-desc">
-            {lang === 'cn' ? '翻开羊皮纸，中文译本正在浮现' : '翻开羊皮纸，魔法文字正在浮现'}
-          </p>
-        </div>
-      )
-    }
-
-    if (readerError || !bookData) {
-      return (
-        <div ref={readerRef} className="embed-reader-panel embed-reader-error">
-          <div className="embed-reader-error-icon">😔</div>
-          <p className="embed-reader-error-msg">{readerError || '无法加载'}</p>
-          <button className="btn btn-outline" onClick={closeReader} style={{ marginTop: '12px' }}>关闭阅读器</button>
-        </div>
-      )
-    }
-
-    if (!readerChapter) {
-      return (
-        <div ref={readerRef} className="embed-reader-panel embed-reader-chapters">
-          <div className="embed-reader-chapters-header">
-            <h3 className="embed-reader-chapters-title">📖 选择章节开始阅读</h3>
-            <div className="embed-reader-header-actions">
-              <button onClick={toggleLang} className="embed-reader-btn-lang">
-                {lang === 'cn' ? '🇬🇧 切换英文' : '🇨🇳 切换中文'}
-              </button>
-              <button onClick={closeReader} className="embed-reader-btn-close">✕ 关闭</button>
-            </div>
-          </div>
-          <div className="embed-reader-chapter-grid">
-            {bookData.chapters.map((ch) => (
-              <button
-                key={ch.number}
-                onClick={() => goToChapter(ch.number)}
-                className="embed-reader-chapter-btn hover-border-gold"
-              >
-                <span className="embed-reader-chapter-num" style={{ background: `${book.color}44` }}>
-                  {ch.number}
-                </span>
-                <div>
-                  <div className="embed-reader-chapter-title">{ch.titleCn}</div>
-                  {lang === 'en' && ch.title !== ch.titleCn && (
-                    <div className="embed-reader-chapter-title-en">{ch.title}</div>
-                  )}
-                </div>
-              </button>
-            ))}
-          </div>
-        </div>
-      )
-    }
-
-    if (!chapter) {
-      return (
-        <div ref={readerRef} className="embed-reader-missing">
-          <p className="embed-reader-error-msg">章节不存在</p>
-          <button className="btn btn-primary" onClick={() => goToChapter(1)}>回到第一章</button>
-        </div>
-      )
-    }
-
-    const paragraphs = chapter.content.split(/\n+/).map(p => p.trim()).filter(p => p.length > 0)
-
-    return (
-      <div ref={readerRef} className="embed-reader-panel embed-reader-reading">
-        {/* 工具栏 */}
-        <div className="embed-reader-toolbar">
-          <div className="embed-reader-toolbar-inner">
-            <div className="embed-reader-toolbar-left">
-              <button onClick={() => setReaderChapter(null)} className="embed-reader-btn-toc">📑 目录</button>
-              <div style={{ position: 'relative' }} ref={tocRef}>
-                <button onClick={() => setShowToc(!showToc)} className="embed-reader-toc-trigger">
-                  {chapter.titleCn}
-                </button>
-                {showToc && (
-                  <div className="embed-reader-toc-dropdown">
-                    {bookData.chapters.map(ch => (
-                      <button
-                        key={ch.number}
-                        onClick={() => goToChapter(ch.number)}
-                        className={`embed-reader-toc-item ${ch.number === readerChapter ? 'embed-reader-toc-item-active' : 'embed-reader-toc-item-inactive'}`}
-                      >
-                        <span className="embed-reader-toc-num">{ch.number}</span>
-                        {ch.titleCn}
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </div>
-
-            <div className="embed-reader-progress">{readerChapter} / {totalChapters}</div>
-
-            <button onClick={toggleLang} className="embed-reader-toolbar-lang">
-              {lang === 'cn' ? '🇨🇳 中文' : '🇬🇧 EN'}
-            </button>
-
-            <div className="embed-reader-font-controls">
-              <button onClick={() => setFontSize(f => Math.max(12, f - 1))} className="embed-reader-font-btn">A-</button>
-              <span className="embed-reader-font-size">{fontSize}</span>
-              <button onClick={() => setFontSize(f => Math.min(24, f + 1))} className="embed-reader-font-btn">A+</button>
-            </div>
-
-            <button onClick={closeReader} className="embed-reader-toolbar-close">✕ 关闭</button>
-          </div>
-        </div>
-
-        {/* 正文 */}
-        <div className="embed-reader-body">
-          <div className="embed-reader-chapter-heading">
-            <div className="embed-reader-chapter-label" style={{ textTransform: lang === 'en' ? 'uppercase' : 'none' }}>
-              {lang === 'cn' ? `第 ${readerChapter} 章` : `Chapter ${readerChapter}`}
-            </div>
-            <h2 className={`embed-reader-chapter-h2 ${lang === 'cn' ? 'embed-reader-chapter-h2-cn' : 'embed-reader-chapter-h2-en'}`}>
-              {chapter.titleCn}
-            </h2>
-            {lang === 'en' && chapter.title !== `Chapter ${readerChapter}` && chapter.title !== chapter.titleCn && (
-              <div className="embed-reader-chapter-subtitle">{chapter.title}</div>
-            )}
-            <div className="embed-reader-chapter-divider" />
-          </div>
-
-          <div
-            className={`embed-reader-prose ${lang === 'cn' ? 'embed-reader-prose-cn' : 'embed-reader-prose-en'}`}
-            style={{ fontSize: `${fontSize}px` }}
-          >
-            {paragraphs.map((p, i) => (<p key={i}>{p}</p>))}
-          </div>
-
-          <div className="embed-reader-nav">
-            {readerChapter > 1 ? (
-              <button onClick={() => goToChapter(readerChapter - 1)} className="btn btn-outline" style={{ fontSize: '0.82rem' }}>
-                ← {bookData.chapters[readerChapter - 2]?.titleCn || '上一章'}
-              </button>
-            ) : <div />}
-            {readerChapter < totalChapters ? (
-              <button onClick={() => goToChapter(readerChapter + 1)} className="btn btn-primary" style={{ fontSize: '0.82rem' }}>
-                {bookData.chapters[readerChapter]?.titleCn || '下一章'} →
-              </button>
-            ) : (
-              <div className="embed-reader-finish">
-                <div className="embed-reader-finish-msg">✨ 恭喜你读完了《{bookData.titleCn || bookData.title}》！</div>
-                {book.number < 7 ? (
-                  <Link
-                    to={`/books/${books.find(b => b.number === book.number + 1)?.id}`}
-                    className="btn btn-primary"
-                    style={{ textDecoration: 'none', fontSize: '0.82rem' }}
-                    onClick={closeReader}
-                  >
-                    开始阅读下一部 →
-                  </Link>
-                ) : (
-                  <button className="btn btn-outline" onClick={closeReader} style={{ fontSize: '0.82rem' }}>返回百科</button>
-                )}
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    )
-  }
 
   return (
     <div className="container fade-in">
@@ -299,21 +56,14 @@ export default function BookDetail() {
             {book.hogwartsYear && (
               <div className="book-detail-hogwarts-year">🏰 {book.hogwartsYear}</div>
             )}
-            <button
-              onClick={() => openReader()}
-              className="book-detail-read-btn hover-border-gold"
-              style={{
-                background: readerOpen ? book.color : `${book.color}22`,
-                color: readerOpen ? '#fff' : book.color,
-                border: `1px solid ${book.color}44`,
-              }}
+            <Link
+              to={`/books/${book.id}/read`}
+              className="book-detail-read-btn"
             >
-              📖 {readerOpen ? '阅读中...' : '开始阅读原著'}
-            </button>
+              📖 开始阅读原著
+            </Link>
           </div>
         </div>
-
-        {renderReader()}
 
         {/* 出版信息 */}
         <div className="detail-section">
@@ -414,15 +164,15 @@ export default function BookDetail() {
           <h2 className="detail-section-title">📑 章节目录</h2>
           <div className="chapters-grid">
             {book.chapters.map((chapterName, i) => (
-              <button
+              <Link
                 key={i}
-                onClick={() => openReader(i + 1)}
+                to={`/books/${book.id}/read/${i + 1}`}
                 className="chapter-item chapter-item-link book-chapter-btn"
               >
                 <span className="chapter-number">第{i + 1}章</span>
                 <span className="chapter-name">{chapterName}</span>
                 <span className="chapter-read-icon">📖</span>
-              </button>
+              </Link>
             ))}
           </div>
         </div>

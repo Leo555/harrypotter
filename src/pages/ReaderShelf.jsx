@@ -110,14 +110,14 @@ export default function ReaderShelf() {
 
                 {/* 操作按钮 */}
                 <div className="reader-book-actions">
-                  <Link
-                    to={`/reader/${num}`}
-                    className="reader-book-read-btn"
-                  >
-                    <span className="reader-book-read-btn-icon">📖</span>
-                    {lang === 'cn' ? '开始中文阅读' : '开始英文阅读'}
-                    <span className="reader-book-read-arrow">→</span>
-                  </Link>
+                <Link
+                  to={`/books/${bookInfo?.id}/read`}
+                  className="reader-book-read-btn"
+                >
+                  <span className="reader-book-read-btn-icon">📖</span>
+                  {lang === 'cn' ? '开始中文阅读' : '开始英文阅读'}
+                  <span className="reader-book-read-arrow">→</span>
+                </Link>
                   <Link
                     to={`/books/${bookInfo?.id || ''}`}
                     className="reader-book-wiki-btn"

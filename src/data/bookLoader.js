@@ -173,14 +173,22 @@ export async function loadBook(bookNum, lang = 'en') {
     }
   } else {
     // 英文版：按 "CHAPTER X" / "Chapter X" 分割
-    const chapterRegex = /(?:^|\n)\s*(CHAPTER|Chapter)\s+([A-Za-z-]+(?:\s+[A-Za-z-]+)*)\s*\n/g
+    // 支持两种格式：
+    // 1. CHAPTER X\nTITLE (分行)
+    // 2. CHAPTER X TITLE (同行)
+    // 注意：使用 [ \t] 而不是 \s，避免跨行匹配
+    const chapterRegex = /(?:^|\n)[ \t]*(CHAPTER|Chapter)[ \t]+([A-Za-z-]+)[ \t]*([^\r\n]*)\r?\n/g
     const splits = []
     let match
 
     while ((match = chapterRegex.exec(text)) !== null) {
+      // match[2] 是章节号（如 ONE, SEVEN）
+      // match[3] 是同行标题（如果有，如 THE SORTING HAT）
+      const sameLineTitle = match[3] ? match[3].trim() : ''
       splits.push({
         index: match.index,
         raw: match[0],
+        sameLineTitle: sameLineTitle.length > 0 && sameLineTitle.length < 80 ? sameLineTitle : '',
       })
     }
 
@@ -189,15 +197,19 @@ export async function loadBook(bookNum, lang = 'en') {
       const end = i + 1 < splits.length ? splits[i + 1].index : text.length
       let content = text.slice(start, end).trim()
 
-      // 尝试提取英文章节标题（紧接在 CHAPTER X 后面的下一行）
-      let engTitle = ''
-      const firstNewline = content.indexOf('\n')
-      if (firstNewline > 0 && firstNewline < 80) {
-        const possibleTitle = content.slice(0, firstNewline).trim()
-        if (possibleTitle.length < 80 && possibleTitle.length > 0 &&
-            (possibleTitle === possibleTitle.toUpperCase() || /^[A-Z]/.test(possibleTitle))) {
-          engTitle = possibleTitle
-          content = content.slice(firstNewline).trim()
+      // 如果同行有标题，直接使用
+      let engTitle = splits[i].sameLineTitle || ''
+
+      // 如果同行没有标题，尝试从下一行提取
+      if (!engTitle) {
+        const firstNewline = content.indexOf('\n')
+        if (firstNewline > 0 && firstNewline < 80) {
+          const possibleTitle = content.slice(0, firstNewline).trim()
+          if (possibleTitle.length < 80 && possibleTitle.length > 0 &&
+              (possibleTitle === possibleTitle.toUpperCase() || /^[A-Z]/.test(possibleTitle))) {
+            engTitle = possibleTitle
+            content = content.slice(firstNewline).trim()
+          }
         }
       }
 

@@ -105,8 +105,8 @@ export default function App() {
       <Suspense fallback={<PageLoader />}>
         <Routes>
           {/* 独立全屏阅读页面 — 无 Header/Footer */}
-          <Route path="/reader/:bookId" element={<BookReader />} />
-          <Route path="/reader/:bookId/:chapterId" element={<BookReader />} />
+          <Route path="/books/:id/read" element={<BookReader />} />
+          <Route path="/books/:id/read/:chapterId" element={<BookReader />} />
 
           {/* 所有其他页面走主布局 */}
           <Route path="/*" element={<MainLayout />} />
