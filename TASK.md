@@ -296,6 +296,20 @@
 
 ---
 
+## Phase 11：运维与修复
+
+- [x] **TASK 41**：修复 searchEngine.js 缺失数据导入 ✅ 2025-04-06
+  - [x] 添加 `creatures`、`magicItems`、`places` 三个数据源的 import 语句
+  - [x] 修复全站搜索页 `Uncaught ReferenceError: creatures is not defined` 运行时错误
+
+- [x] **TASK 42**：修复 GitHub Pages 部署工作流报错 ✅ 2025-04-10
+  - [x] 问题：`actions/configure-pages@v5` 报 `HttpError: Not Found`（GitHub Actions Run #39）
+  - [x] 原因：仓库 Pages 未启用或未配置为 GitHub Actions 构建模式
+  - [x] 修复：`deploy-pages.yml` 的 `configure-pages` 步骤添加 `enablement: true` 参数，自动启用 Pages 站点
+  - [ ] **⚠️ 手动操作**：需前往仓库 Settings → Pages → Source 选择 **GitHub Actions**
+
+---
+
 > 完成规则：每完成一个 TASK，将 `[ ]` 改为 `[x]` 并标注完成日期。
 >
 > *"在霍格沃茨，只要有人寻求帮助，帮助就会来到。" — 阿不思·邓布利多*
