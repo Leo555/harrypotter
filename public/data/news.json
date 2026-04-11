@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T21:26:42.587Z",
+  "lastUpdated": "2026-04-11T01:14:07.540Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -44,7 +44,27 @@
     },
     {
       "id": 3,
-      "title": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中 - news.17173.com",
+      "title": "《哈利波特：魁地奇冠军》主演拉尔夫·费因斯称蒂尔达·斯文顿演伏地魔会“非常棒”，并坦言曾被邀回归，但如今认为“时机已过” - 17173",
+      "date": "2026-04-10",
+      "category": "游戏资讯",
+      "summary": "《哈利波特：魁地奇冠军》主演拉尔夫·费因斯称蒂尔达·斯文顿演伏地魔会“非常棒”，并坦言曾被邀回归，但如今认为“时机已过”",
+      "content": "《哈利波特：魁地奇冠军》主演拉尔夫·费因斯称蒂尔达·斯文顿演伏地魔会“非常棒”，并坦言曾被邀回归，但如今认为“时机已过”",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12ZTl5SmF0QTBDSWlmSzVUVkpOR2hpdnQxSGVXaXN0dHJHYnRrOElyR0s3VzNJdC1ubjd4RzFmaU55WUMwZmtLOE91LV9FNWxvTFRERmhTMFFENDM0a0NFcldTZU4?oc=5"
+    },
+    {
+      "id": 4,
+      "title": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中 - 17173",
       "date": "2026-04-10",
       "category": "影视动态",
       "summary": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中",
@@ -60,10 +80,10 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZWEdSNzFJR3FmM01lVjAtZU1wRHc2R1MzSDNRNXRUUmZYUkZUWnB3cEVoQ04yR0l4ZTM5UUZvYnF0VFRxNkkwUkJ0bEQ5bkV1RlQyb1BLb3g1ZHgzenVLdHVuX3hWQQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52ODdwMFMySlZFbUo0ZEVXeU1aUmlwVE5IYlBGMEo3N0VzaExma25WT0RLUVN1cHhGbXpIeEVwSlAyV0lsNzIzbWJ3bkg0TGhCaW5mZEgzaF9CRS1NTkZGb3dpd08?oc=5"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "口碑暴死？《哈利波特》新预告片被暴踩：黑人脏辫太出戏 - 直播吧",
       "date": "2026-04-10",
       "category": "影视动态",
@@ -83,7 +103,7 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiSmVGdTFJUmxISVphOUlITFFMRXR5anEwbGd2bGV1cHhEdWd2RFNBWWhBVU16Y01WTnVfcGYzWm1ubS1QRXBQYmVjb3JKZVZ5LVl0eGFsMGlvMmNmY3c4M3hRcFY3QldKVVZabnhBS0c?oc=5"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中 - news.17173.com",
       "date": "2026-04-10",
       "category": "影视动态",
@@ -103,32 +123,12 @@
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZWEdSNzFJR3FmM01lVjAtZU1wRHc2R1MzSDNRNXRUUmZYUkZUWnB3cEVoQ04yR0l4ZTM5UUZvYnF0VFRxNkkwUkJ0bEQ5bkV1RlQyb1BLb3g1ZHgzenVLdHVuX3hWQQ?oc=5"
     },
     {
-      "id": 6,
-      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
-      "date": "2026-04-09",
-      "category": "影视动态",
-      "summary": "哈利波特 26-04-09 10:00",
-      "content": "哈利波特 26-04-09 10:00",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
-    },
-    {
       "id": 7,
-      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
-      "date": "2026-04-09",
+      "title": "口碑暴死？《哈利波特》新预告片被暴踩：黑人脏辫太出戏 - 直播吧",
+      "date": "2026-04-10",
       "category": "影视动态",
-      "summary": "哈利波特 26-04-09 10:00",
-      "content": "哈利波特 26-04-09 10:00",
+      "summary": "口碑暴死？《哈利波特》新预告片被暴踩：黑人脏辫太出戏",
+      "content": "口碑暴死？《哈利波特》新预告片被暴踩：黑人脏辫太出戏",
       "image": "📺",
       "relatedLinks": [
         {
@@ -140,15 +140,15 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiSmVGdTFJUmxISVphOUlITFFMRXR5anEwbGd2bGV1cHhEdWd2RFNBWWhBVU16Y01WTnVfcGYzWm1ubS1QRXBQYmVjb3JKZVZ5LVl0eGFsMGlvMmNmY3c4M3hRcFY3QldKVVZabnhBS0c?oc=5"
     },
     {
       "id": 8,
-      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
-      "date": "2026-04-09",
+      "title": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中 - news.17173.com",
+      "date": "2026-04-10",
       "category": "影视动态",
-      "summary": "哈利波特 26-04-09 10:00",
-      "content": "哈利波特 26-04-09 10:00",
+      "summary": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中",
+      "content": "我们正在搭建巨大的多套件LEGO Harry Potter Hogwarts Castle，目前进行中",
       "image": "📺",
       "relatedLinks": [
         {
@@ -160,7 +160,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZWEdSNzFJR3FmM01lVjAtZU1wRHc2R1MzSDNRNXRUUmZYUkZUWnB3cEVoQ04yR0l4ZTM5UUZvYnF0VFRxNkkwUkJ0bEQ5bkV1RlQyb1BLb3g1ZHgzenVLdHVuX3hWQQ?oc=5"
     },
     {
       "id": 9,
@@ -204,12 +204,12 @@
     },
     {
       "id": 11,
-      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
-      "date": "2026-04-08",
-      "category": "综合资讯",
-      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "image": "📰",
+      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
+      "date": "2026-04-09",
+      "category": "影视动态",
+      "summary": "哈利波特 26-04-09 10:00",
+      "content": "哈利波特 26-04-09 10:00",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -220,16 +220,16 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
     },
     {
       "id": 12,
-      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
-      "date": "2026-04-08",
-      "category": "综合资讯",
-      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "image": "📰",
+      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
+      "date": "2026-04-09",
+      "category": "影视动态",
+      "summary": "哈利波特 26-04-09 10:00",
+      "content": "哈利波特 26-04-09 10:00",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -240,16 +240,16 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
     },
     {
       "id": 13,
-      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
-      "date": "2026-04-08",
-      "category": "综合资讯",
-      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "image": "📰",
+      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
+      "date": "2026-04-09",
+      "category": "影视动态",
+      "summary": "哈利波特 26-04-09 10:00",
+      "content": "哈利波特 26-04-09 10:00",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -260,16 +260,16 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
     },
     {
       "id": 14,
-      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
-      "date": "2026-04-08",
-      "category": "综合资讯",
-      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
-      "image": "📰",
+      "title": "哈利波特 26-04-09 10:00 - 手机新浪网",
+      "date": "2026-04-09",
+      "category": "影视动态",
+      "summary": "哈利波特 26-04-09 10:00",
+      "content": "哈利波特 26-04-09 10:00",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -280,7 +280,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
     },
     {
       "id": 15,
@@ -344,31 +344,11 @@
     },
     {
       "id": 18,
-      "title": "《哈利波特：霍格沃茨之谜》下载量破1.6亿 - games.gg",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "content": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
-    },
-    {
-      "id": 19,
-      "title": "哈利波特剧版剧照曝光_新浪新闻 - 手机新浪网",
-      "date": "2026-04-07",
+      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
+      "date": "2026-04-08",
       "category": "综合资讯",
-      "summary": "哈利波特剧版剧照曝光_新浪新闻",
-      "content": "哈利波特剧版剧照曝光_新浪新闻",
+      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
+      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
       "image": "📰",
       "relatedLinks": [
         {
@@ -380,16 +360,16 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOX1E4c19rQkZSRDVxT3lfSjdpUUVWdXZiYnozTkhBaXhBY0tzXzZlSnc4YjNUWHZlNlhuY2J4TGpFZ1JFOVA1ZjMzemIyTHdRTXFrek1aNm4wczRNTW0zTjhaQQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
     },
     {
-      "id": 20,
-      "title": "《哈利波特：霍格沃茨之谜》下载量破1.6亿 - games.gg",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "content": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "image": "📺",
+      "id": 19,
+      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
+      "date": "2026-04-08",
+      "category": "综合资讯",
+      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
+      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -400,7 +380,27 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
+    },
+    {
+      "id": 20,
+      "title": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​ - 手机新浪网",
+      "date": "2026-04-08",
+      "category": "综合资讯",
+      "summary": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
+      "content": "哈利·波特影版和剧版logo对比。你喜欢哪个设计？ ​",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
     }
   ]
 }
