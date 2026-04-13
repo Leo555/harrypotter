@@ -155,18 +155,24 @@ async function fetchGoogleNewsRSS() {
 }
 
 /**
+ * 生成去重 key：去掉来源后缀、标点、空格，转小写，取前 40 字符
+ */
+function dedupeKey(title) {
+  return title
+    .replace(/\s*[-—|·]\s*[^\s\-—|·]+$/, '')   // 去掉 "- 来源" 后缀
+    .replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '')  // 只留中英文和数字
+    .toLowerCase()
+    .slice(0, 40)
+}
+
+/**
  * 对新闻列表去重（按标题相似度）
  */
 function deduplicateNews(items) {
   const seen = new Set()
   return items.filter(item => {
-    // 提取核心关键词用于去重
-    const key = item.title
-      .replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '')
-      .toLowerCase()
-      .slice(0, 30)
-
-    if (seen.has(key)) return false
+    const key = dedupeKey(item.title)
+    if (!key || seen.has(key)) return false
     seen.add(key)
     return true
   })
@@ -270,10 +276,18 @@ async function main() {
   const maxExistingId = existingData.news.reduce((max, n) => Math.max(max, n.id), 0)
   const newNews = transformToNews(uniqueItems, maxExistingId + 1)
 
-  // 5. 合并：新新闻在前，旧新闻在后（按日期排序）
-  const mergedNews = [...newNews, ...existingData.news]
+  // 5. 合并：新新闻在前，旧新闻在后（按日期排序），并对合并结果二次去重
+  const allNews = [...newNews, ...existingData.news]
     .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, MAX_NEWS_COUNT)
+
+  // 合并后再去重：同标题的只保留最新的一条
+  const seenKeys = new Set()
+  const mergedNews = allNews.filter(item => {
+    const key = dedupeKey(item.title)
+    if (!key || seenKeys.has(key)) return false
+    seenKeys.add(key)
+    return true
+  }).slice(0, MAX_NEWS_COUNT)
 
   // 6. 重新编号（确保 ID 从 1 开始连续）
   mergedNews.forEach((item, i) => {
