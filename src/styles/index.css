@@ -1905,7 +1905,8 @@ a:hover { color: var(--color-gold-light); }
 @media (max-width: 480px) {
   .hero-title { font-size: 1.6rem; letter-spacing: 1px; }
   .hero-subtitle { font-size: 0.85rem; }
-  .hero-stats { flex-direction: column; gap: 12px; }
+  .hero-stats { flex-wrap: wrap; gap: 8px 24px; }
+  .hero-stat { flex: 0 0 calc(50% - 12px); }
   .home-characters-grid { grid-template-columns: repeat(2, 1fr); }
   .page-title { font-size: 1.3rem; }
   .page-subtitle { font-size: 0.82rem; }

@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/',
   server: {
     host: '0.0.0.0',
-    port: 3000
+    port: 3010
   },
   build: {
     // 提高 chunk 大小警告阈值到 1000 kB
