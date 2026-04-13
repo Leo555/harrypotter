@@ -6,7 +6,7 @@ export default function NewsDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
   const { news, loading } = useNews()
-  const item = news.find(n => n.id === Number(id))
+  const item = news.find(n => String(n.id) === id)
 
   useDocumentHead({
     title: item ? `📰 ${item.title}` : '未找到新闻',
@@ -38,6 +38,11 @@ export default function NewsDetail() {
     )
   }
 
+  // 提取来源域名
+  const sourceDomain = item.source ? (() => {
+    try { return new URL(item.source).hostname.replace('www.', '') } catch { return '' }
+  })() : ''
+
   return (
     <div className="container fade-in">
       <button className="back-btn" onClick={() => navigate('/news')}>← 返回预言家日报</button>
@@ -46,11 +51,36 @@ export default function NewsDetail() {
         <div className="news-detail-header">
           <span className="news-detail-icon">{item.image}</span>
           <h1 className="page-title" style={{ marginTop: 16, marginBottom: 8 }}>{item.title}</h1>
-          <span className="news-category" style={{ fontSize: '0.85rem' }}>{item.category}</span>
-          <div className="news-date" style={{ marginTop: 12 }}>🕐 {item.date}</div>
+          <div className="news-detail-meta">
+            <span className="news-category">{item.category}</span>
+            <span className="news-date">🕐 {item.date}</span>
+          </div>
         </div>
 
-        <div className="news-detail-content">{item.content}</div>
+        {/* 摘要 */}
+        <div className="news-detail-summary">
+          <p>{item.summary}</p>
+        </div>
+
+        {/* 正文内容 */}
+        {item.content && item.content !== item.summary && (
+          <div className="news-detail-content">{item.content}</div>
+        )}
+
+        {/* 来源信息 */}
+        {item.source && (
+          <div className="news-source-box">
+            <span className="news-source-label">📎 来源：</span>
+            <a
+              href={item.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="news-source-link hover-link-underline"
+            >
+              {sourceDomain || '查看原文'} ↗
+            </a>
+          </div>
+        )}
 
         {/* 相关链接区域 */}
         {item.relatedLinks && item.relatedLinks.length > 0 && (
@@ -67,21 +97,6 @@ export default function NewsDetail() {
                 </Link>
               ))}
             </div>
-          </div>
-        )}
-
-        {/* 来源信息 */}
-        {item.source && (
-          <div className="news-source-box">
-            <span className="news-source-label">📎 来源：</span>
-            <a
-              href={item.source}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="news-source-link hover-link-underline"
-            >
-              {item.source} ↗
-            </a>
           </div>
         )}
       </div>

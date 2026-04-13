@@ -13,10 +13,18 @@
 import { writeFileSync, readFileSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
+import { createHash } from 'crypto'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const NEWS_JSON_PATH = resolve(__dirname, '../public/data/news.json')
 const MAX_NEWS_COUNT = 20 // 保留最多 20 条新闻
+
+/**
+ * 根据标题生成稳定的短 hash ID（8 位十六进制）
+ */
+function generateId(title) {
+  return createHash('md5').update(title.trim()).digest('hex').slice(0, 8)
+}
 
 // ======== 新闻分类映射 ========
 const CATEGORY_KEYWORDS = {
@@ -188,6 +196,9 @@ function transformToNews(items, startId = 1) {
       ? new Date(item.pubDate).toISOString().slice(0, 10)
       : new Date().toISOString().slice(0, 10)
 
+    const cleanTitle = item.title.replace(/<[^>]+>/g, '').trim()
+    const id = generateId(cleanTitle)
+
     // 清理 HTML 标签和特殊字符
     let cleanDescription = item.description
       // 先解码 HTML 实体
@@ -224,10 +235,8 @@ function transformToNews(items, startId = 1) {
       : cleanDescription
 
     return {
-      id: startId + index,
-      title: item.title
-        .replace(/<[^>]+>/g, '')
-        .trim(),
+      id,
+      title: cleanTitle,
       date,
       category,
       summary: summary || item.title,
@@ -273,8 +282,7 @@ async function main() {
   console.log(`🔍 去重后 ${uniqueItems.length} 条`)
 
   // 4. 转换格式
-  const maxExistingId = existingData.news.reduce((max, n) => Math.max(max, n.id), 0)
-  const newNews = transformToNews(uniqueItems, maxExistingId + 1)
+  const newNews = transformToNews(uniqueItems)
 
   // 5. 合并：新新闻在前，旧新闻在后（按日期排序），并对合并结果二次去重
   const allNews = [...newNews, ...existingData.news]
@@ -289,9 +297,11 @@ async function main() {
     return true
   }).slice(0, MAX_NEWS_COUNT)
 
-  // 6. 重新编号（确保 ID 从 1 开始连续）
-  mergedNews.forEach((item, i) => {
-    item.id = i + 1
+  // 6. 确保所有条目都有 hash ID
+  mergedNews.forEach(item => {
+    if (typeof item.id === 'number') {
+      item.id = generateId(item.title)
+    }
   })
 
   // 7. 写入文件

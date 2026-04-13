@@ -10,7 +10,7 @@ import { useState, useEffect } from 'react'
 // 备用静态数据（当 JSON 加载失败时使用）
 const FALLBACK_NEWS = [
   {
-    id: 1,
+    id: '01bf0509',
     title: '《哈利·波特》系列电视剧正式宣布开拍',
     date: '2025-04-01',
     category: '影视动态',
@@ -24,7 +24,7 @@ const FALLBACK_NEWS = [
     source: 'https://www.hbo.com/harry-potter',
   },
   {
-    id: 2,
+    id: 'f45a2cbe',
     title: '哈利波特主题乐园东京园区盛大开业',
     date: '2025-03-15',
     category: '主题乐园',
@@ -37,7 +37,7 @@ const FALLBACK_NEWS = [
     ],
   },
   {
-    id: 3,
+    id: '22feff1b',
     title: '《神奇动物在哪里》第四部剧本完成',
     date: '2025-02-28',
     category: '影视动态',
