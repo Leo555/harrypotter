@@ -1,14 +1,34 @@
 {
-  "lastUpdated": "2026-04-14T01:23:36.808Z",
+  "lastUpdated": "2026-04-14T05:14:32.449Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "87142cc8",
-      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - 17173",
-      "date": "2026-04-13",
+      "id": "bc4eb238",
+      "title": "外媒曝剧版《哈利波特》惊人内幕：选黑人斯内普是为了DEI指标 - 3DM",
+      "date": "2026-04-14",
+      "category": "综合资讯",
+      "summary": "外媒曝剧版《哈利波特》惊人内幕：选黑人斯内普是为了DEI指标",
+      "content": "外媒曝剧版《哈利波特》惊人内幕：选黑人斯内普是为了DEI指标",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DTngxS2dDNDJzMWoycmRzQTZFR1AyR3hjTTdTR1ZiTGN6cUVkZG85bk5mMnZTMGRPelN6Z2dYZU80OGpoeV8tWmlzS01CV05Ic3VBOW9nMWFZQmZm?oc=5"
+    },
+    {
+      "id": "77346b49",
+      "title": "网民实测入住牛津大学《哈利波特》取景地 住宿优缺点+房价一览 - 香港01",
+      "date": "2026-04-14",
       "category": "影视动态",
-      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "summary": "网民实测入住牛津大学《哈利波特》取景地 住宿优缺点+房价一览",
+      "content": "网民实测入住牛津大学《哈利波特》取景地 住宿优缺点+房价一览",
       "image": "📺",
       "relatedLinks": [
         {
@@ -20,7 +40,27 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LRktIR0JUdVNac25obzZvMHJpVjNlNkdyc1A4WWJ3NVctUGh0aFdJcDdUbHMwUEE1RXJsWHZBQ3JPazhnMXotVVVkWG05LVRLYlRLQ2V0SzhDc2VQXzg0WmZ0X2NsZw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNQWpabzJpVVdZVnZvRUVzTVNNSWxDSng2c2Y1dDRialN6ZmNnQU5sVmlHb0EtVHVaLXB1MXdvVGd3TGVnNUhFblpzSmhDVFZOdE13X0tETEd1MWk1WTVYLVFqZkFwUXljd1VLNEtiRUM1cU9NRmJVR0piN2VSblJxX1RlTWdNNDZUc250NjRGTkZTTlFRdjV6bXAyRkQ1Q2hhV0xpM3RXWW10RjhEeWVJZ3ktcVg5c0I1OVUwRjlEMDFUc1NNOEFHbHV1czRES1dRZlJDYmF2WmcwLWtjTmdnV0ExUFlHdHBUTmk4Q1dKeHB1aVJYMUtmcXVNa1pvaHA4WGxzQ0RPVFl5M1dIZVJ0NlZWbXI4QklhamM5N2ZNUjNnN1BhMmNYc1BRdUhLU0NUc2JibTR2bmdNR1V2Q2RkU1h3QUNzbURzR1B3ck1vWVdyaWtid3ZhcWF3TlF2T0lLdFdheDBiWHlaOXdTRjdHREN5VUZYa1A4Qkg0WEhWVU9lUlZtY2w0NW9YNUFLaHVlUkUzNHEwTTNpT0lFZ1Fn?oc=5"
+    },
+    {
+      "id": "87142cc8",
+      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - 17173",
+      "date": "2026-04-13",
+      "category": "社区活动",
+      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
     },
     {
       "id": "9b6e065f",
@@ -283,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOX1E4c19rQkZSRDVxT3lfSjdpUUVWdXZiYnozTkhBaXhBY0tzXzZlSnc4YjNUWHZlNlhuY2J4TGpFZ1JFOVA1ZjMzemIyTHdRTXFrek1aNm4wczRNTW0zTjhaQQ?oc=5"
     },
     {
-      "id": "e59422bf",
-      "title": "《哈利波特：霍格沃茨之谜》下载量破1.6亿 - games.gg",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "content": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
-    },
-    {
       "id": "26a77ccf",
       "title": "腾讯新闻 - 腾讯新闻",
       "date": "2026-04-07",
@@ -323,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
     },
     {
+      "id": "e59422bf",
+      "title": "《哈利波特：霍格沃茨之谜》下载量破1.6亿 - games.gg",
+      "date": "2026-04-07",
+      "category": "影视动态",
+      "summary": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
+      "content": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
+    },
+    {
       "id": "7a08458f",
       "title": "HBO剧版哈利波特全新对角巷实景首曝 - 新浪新闻_手机新浪网",
       "date": "2026-04-06",
@@ -341,46 +381,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44b28zbk1oOVUzWmkybGFHcC00M0dKb1J1cEVmTUdTeC1pdU9KRTUteGlOTTBIamdaeWJpQjhpLXJlZWpxSjR3YkRJSHFwU0FIT2U5dGd5enFNMWFyQkJYLTVPUFBRdC1SUWZPaTlrX29NM2VGVndhd2FKdkQycUU?oc=5"
-    },
-    {
-      "id": "effa29ac",
-      "title": "剧版《哈利·波特》幕后花絮，斯内普教授更多镜头曝光。 ​ - 手机新浪网",
-      "date": "2026-04-06",
-      "category": "影视动态",
-      "summary": "剧版《哈利·波特》幕后花絮，斯内普教授更多镜头曝光。 ​",
-      "content": "剧版《哈利·波特》幕后花絮，斯内普教授更多镜头曝光。 ​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12d2RiQzVqRWN4YTlwTFprMGYxTmxSbWdFVFVlRldvTW5WQTNuUnhQc04zZTNjZFNjT21VLUllSm15S2lTVUVqc29iX25ET3M5VXU0T2t0S0pWN1FmbmlPM1B6TQ?oc=5"
-    },
-    {
-      "id": "a36534c4",
-      "title": "剧版《哈利·波特》幕后片推出_新浪新闻 - 手机新浪网",
-      "date": "2026-04-06",
-      "category": "综合资讯",
-      "summary": "剧版《哈利·波特》幕后片推出_新浪新闻",
-      "content": "剧版《哈利·波特》幕后片推出_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44VTE4a0VqczJuQUpHcHFSbUszMXdKRHRiYUdVdHoxRDdGZ3p5SDdlTzRXVTl4bXhYLU5mcmFSQjAyVTNLSmZGd1JHUmVzUXZ6MkxQdWlEMV9vQnVaVnNuOUs4UQ?oc=5"
     },
     {
       "id": "fabcec2a",
