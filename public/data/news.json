@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T21:38:22.815Z",
+  "lastUpdated": "2026-04-14T01:23:36.808Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -283,26 +283,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOX1E4c19rQkZSRDVxT3lfSjdpUUVWdXZiYnozTkhBaXhBY0tzXzZlSnc4YjNUWHZlNlhuY2J4TGpFZ1JFOVA1ZjMzemIyTHdRTXFrek1aNm4wczRNTW0zTjhaQQ?oc=5"
     },
     {
-      "id": "26a77ccf",
-      "title": "腾讯新闻 - 腾讯新闻",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "腾讯新闻",
-      "content": "腾讯新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
-    },
-    {
       "id": "e59422bf",
       "title": "《哈利波特：霍格沃茨之谜》下载量破1.6亿 - games.gg",
       "date": "2026-04-07",
@@ -321,6 +301,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
+    },
+    {
+      "id": "26a77ccf",
+      "title": "腾讯新闻 - 腾讯新闻",
+      "date": "2026-04-07",
+      "category": "影视动态",
+      "summary": "腾讯新闻",
+      "content": "腾讯新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
     },
     {
       "id": "7a08458f",
