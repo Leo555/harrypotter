@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T05:14:32.449Z",
+  "lastUpdated": "2026-04-14T07:16:31.117Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -81,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNVXM4X0p1ZFFoaWc1WmpFb3ZBdVk5ZGFmOHRUUUczX0hKeGtGN1VqZ0dUZVI0eXlOREV4dkM0UkMybl9EVl9UTW52TzEyNHNrclV5Y0dYUDBjTDNmN0t0Yw?oc=5"
+    },
+    {
+      "id": "8c8ee663",
+      "title": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法 - 17173",
+      "date": "2026-04-13",
+      "category": "影视动态",
+      "summary": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法",
+      "content": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lVmYtWDJSTWx5eE1lT1VnS0U0ckMyTE1yX3ktWjlPb2xrdENrVVR1S2JnS1F3b0czZkNfZEFOanM0RWxXNWwzU2NoSkZMc0pyQmZuOGRydi05RVB0V25yM2pKRHQ?oc=5"
     },
     {
       "id": "fd2fc2a9",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44b28zbk1oOVUzWmkybGFHcC00M0dKb1J1cEVmTUdTeC1pdU9KRTUteGlOTTBIamdaeWJpQjhpLXJlZWpxSjR3YkRJSHFwU0FIT2U5dGd5enFNMWFyQkJYLTVPUFBRdC1SUWZPaTlrX29NM2VGVndhd2FKdkQycUU?oc=5"
-    },
-    {
-      "id": "fabcec2a",
-      "title": "剧版哈利波特剧照曝光_新浪新闻 - 手机新浪网",
-      "date": "2026-04-06",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特剧照曝光_新浪新闻",
-      "content": "剧版哈利波特剧照曝光_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zVmxENEtLdWsta243QXVfMGl2WlVObkpwX2M3S29GUS1KdTRSRE5OSFpUaWZ2LVRpSTBVc2tXTkV2RFBqVUtYb3d1UGhTQkZLaXBqbmxqR2VXWFlQM1ZIaUhuYw?oc=5"
     }
   ]
 }
