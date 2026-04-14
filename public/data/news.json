@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T18:57:35.592Z",
+  "lastUpdated": "2026-04-14T21:41:21.134Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -343,13 +343,13 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
     },
     {
-      "id": "26a77ccf",
-      "title": "腾讯新闻 - 腾讯新闻",
+      "id": "eda1f820",
+      "title": "哈利波特剧版剧照曝光_新浪新闻 - 手机新浪网",
       "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "腾讯新闻",
-      "content": "腾讯新闻",
-      "image": "📺",
+      "category": "综合资讯",
+      "summary": "哈利波特剧版剧照曝光_新浪新闻",
+      "content": "哈利波特剧版剧照曝光_新浪新闻",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -360,27 +360,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
-    },
-    {
-      "id": "48528728",
-      "title": "腾讯新闻 - QQ News",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "腾讯新闻",
-      "content": "腾讯新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOX1E4c19rQkZSRDVxT3lfSjdpUUVWdXZiYnozTkhBaXhBY0tzXzZlSnc4YjNUWHZlNlhuY2J4TGpFZ1JFOVA1ZjMzemIyTHdRTXFrek1aNm4wczRNTW0zTjhaQQ?oc=5"
     },
     {
       "id": "e59422bf",
@@ -401,6 +381,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
+    },
+    {
+      "id": "26a77ccf",
+      "title": "腾讯新闻 - 腾讯新闻",
+      "date": "2026-04-07",
+      "category": "影视动态",
+      "summary": "腾讯新闻",
+      "content": "腾讯新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
     }
   ]
 }
