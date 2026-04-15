@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T10:06:53.701Z",
+  "lastUpdated": "2026-04-15T12:57:35.211Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -63,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DTngxS2dDNDJzMWoycmRzQTZFR1AyR3hjTTdTR1ZiTGN6cUVkZG85bk5mMnZTMGRPelN6Z2dYZU80OGpoeV8tWmlzS01CV05Ic3VBOW9nMWFZQmZm?oc=5"
     },
     {
+      "id": "2692d238",
+      "title": "Nouveau Parc d'Attractions Universal : Mario, Harry Potter et Plus - ekhbary.com",
+      "date": "2026-04-14",
+      "category": "主题乐园",
+      "summary": "Nouveau Parc d'Attractions Universal : Mario, Harry Potter et Plus",
+      "content": "Nouveau Parc d'Attractions Universal : Mario, Harry Potter et Plus",
+      "image": "🏰",
+      "relatedLinks": [
+        {
+          "label": "🗺️ 地点百科",
+          "path": "/world/places"
+        },
+        {
+          "label": "🎬 电影百科",
+          "path": "/movies"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00RVVudVVIYmxrbHBvX3Y5WFg2RUVmdFB2OHhJTF9pU2JiM0VRWXcxNG1DUXJUWnVGRHVVTU5lc2F3MTdCa0QtZW8wMlVLUUt6U0RCcVdHVXlObkt0Z291WG41b1Y5bXdyNEE?oc=5"
+    },
+    {
       "id": "77346b49",
       "title": "网民实测入住牛津大学《哈利波特》取景地 住宿优缺点+房价一览 - 香港01",
       "date": "2026-04-14",
@@ -103,26 +123,6 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNVXM4X0p1ZFFoaWc1WmpFb3ZBdVk5ZGFmOHRUUUczX0hKeGtGN1VqZ0dUZVI0eXlOREV4dkM0UkMybl9EVl9UTW52TzEyNHNrclV5Y0dYUDBjTDNmN0t0Yw?oc=5"
     },
     {
-      "id": "71cfe2d9",
-      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - news.17173.com",
-      "date": "2026-04-13",
-      "category": "社区活动",
-      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "image": "🎉",
-      "relatedLinks": [
-        {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
-        },
-        {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
-    },
-    {
       "id": "44ac0e43",
       "title": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法 - news.17173.com",
       "date": "2026-04-13",
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lVmYtWDJSTWx5eE1lT1VnS0U0ckMyTE1yX3ktWjlPb2xrdENrVVR1S2JnS1F3b0czZkNfZEFOanM0RWxXNWwzU2NoSkZMc0pyQmZuOGRydi05RVB0V25yM2pKRHQ?oc=5"
+    },
+    {
+      "id": "71cfe2d9",
+      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - news.17173.com",
+      "date": "2026-04-13",
+      "category": "社区活动",
+      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
     },
     {
       "id": "fd2fc2a9",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
-    },
-    {
-      "id": "bf4940d1",
-      "title": "#哈利波特魔法觉醒黑市[超话]# 华渠蹲幻林迷途全奖励+全成就 - 手机新浪网",
-      "date": "2026-04-09",
-      "category": "影视动态",
-      "summary": "#哈利波特魔法觉醒黑市[超话]# 华渠蹲幻林迷途全奖励+全成就",
-      "content": "#哈利波特魔法觉醒黑市[超话]# 华渠蹲幻林迷途全奖励+全成就",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GaDFER2JvWmcydDRucE1hQXgtOFRwMGlCUXRJNWZxTkpPQW93eWg5UEd3eUZVekFHU1BuaVlNdUhKMmYyLVRtbDlQZHByTVEzbnBNaWdTcFZTYXZ4RDJTSnNBTQ?oc=5"
     }
   ]
 }
