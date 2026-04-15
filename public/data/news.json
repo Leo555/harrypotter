@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-15T01:20:31.428Z",
+  "lastUpdated": "2026-04-15T05:15:11.759Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "b2dbaf76",
+      "title": "为了DEI指标!《哈利波特》剧集斯内普\"换黑\"原因揭秘 - news.17173.com",
+      "date": "2026-04-15",
+      "category": "影视动态",
+      "summary": "为了DEI指标!《哈利波特》剧集斯内普\"换黑\"原因揭秘",
+      "content": "为了DEI指标!《哈利波特》剧集斯内普\"换黑\"原因揭秘",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwWmZwY0dMOHBGZ1FFM2V1R09sTHF4SndsdHpjYV9pTmtSZDVUMFV5UkxuVGRkUFJNSE02S1hPSk9sb0dWZGtmY2JOX3U4Nzgwa2EzZFVNbk9MRzBPd3ZpaEZjNDI?oc=5"
+    },
     {
       "id": "bc4eb238",
       "title": "外媒曝剧版《哈利波特》惊人内幕：选黑人斯内普是为了DEI指标 - 3DM",
@@ -43,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNQWpabzJpVVdZVnZvRUVzTVNNSWxDSng2c2Y1dDRialN6ZmNnQU5sVmlHb0EtVHVaLXB1MXdvVGd3TGVnNUhFblpzSmhDVFZOdE13X0tETEd1MWk1WTVYLVFqZkFwUXljd1VLNEtiRUM1cU9NRmJVR0piN2VSblJxX1RlTWdNNDZUc250NjRGTkZTTlFRdjV6bXAyRkQ1Q2hhV0xpM3RXWW10RjhEeWVJZ3ktcVg5c0I1OVUwRjlEMDFUc1NNOEFHbHV1czRES1dRZlJDYmF2WmcwLWtjTmdnV0ExUFlHdHBUTmk4Q1dKeHB1aVJYMUtmcXVNa1pvaHA4WGxzQ0RPVFl5M1dIZVJ0NlZWbXI4QklhamM5N2ZNUjNnN1BhMmNYc1BRdUhLU0NUc2JibTR2bmdNR1V2Q2RkU1h3QUNzbURzR1B3ck1vWVdyaWtid3ZhcWF3TlF2T0lLdFdheDBiWHlaOXdTRjdHREN5VUZYa1A4Qkg0WEhWVU9lUlZtY2w0NW9YNUFLaHVlUkUzNHEwTTNpT0lFZ1Fn?oc=5"
     },
     {
-      "id": "71cfe2d9",
-      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - news.17173.com",
-      "date": "2026-04-13",
-      "category": "社区活动",
-      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "image": "🎉",
-      "relatedLinks": [
-        {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
-        },
-        {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
-    },
-    {
       "id": "9b6e065f",
       "title": "伏地魔可能在 HBO 的《哈利-波特》系列中由女性扮演 - notebookcheck-cn.com",
       "date": "2026-04-13",
@@ -81,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNVXM4X0p1ZFFoaWc1WmpFb3ZBdVk5ZGFmOHRUUUczX0hKeGtGN1VqZ0dUZVI0eXlOREV4dkM0UkMybl9EVl9UTW52TzEyNHNrclV5Y0dYUDBjTDNmN0t0Yw?oc=5"
+    },
+    {
+      "id": "71cfe2d9",
+      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - news.17173.com",
+      "date": "2026-04-13",
+      "category": "社区活动",
+      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
     },
     {
       "id": "44ac0e43",
@@ -223,6 +243,26 @@
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pSnAyUDRTTWg4bUhCZTdScGo4UnRRLXJfUVM0bnlXS283TXpoUmhlVkhrbmEtZnRIVlZtZElLcENWRy04aHpkMUc4d1ZqbzB2R1lHM2ZqUk04cUs3?oc=5"
     },
     {
+      "id": "3d2956c3",
+      "title": "腾讯新闻 - qq.com",
+      "date": "2026-04-10",
+      "category": "综合资讯",
+      "summary": "腾讯新闻",
+      "content": "腾讯新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VN09NWVIwd0JjZjQ2NUU1QkMzWHpmUVhONUdKNFprY1V0RWw1X2JzUHlUZ3pEQ2luQzR4UTZYLUNHYlg1ei1IaHFZZkFqUmlaUGoxMUtR?oc=5"
+    },
+    {
       "id": "8466cf2e",
       "title": "哈利波特魔法觉醒黑市物品交易_新浪新闻 - 手机新浪网",
       "date": "2026-04-10",
@@ -303,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fM0ZlYzgwY3ZObXp6Q2YyQjNmRTlBME14dTdXcVpCYmtVaW1KNjlWUllVczZISWUxakE3c1lDZFIwR0U0WFVyb2k2cFNHRTE1UkdMRVpwMEhycWRTM0h1TUd4UQ?oc=5"
     },
     {
+      "id": "bf4940d1",
+      "title": "#哈利波特魔法觉醒黑市[超话]# 华渠蹲幻林迷途全奖励+全成就 - 手机新浪网",
+      "date": "2026-04-09",
+      "category": "影视动态",
+      "summary": "#哈利波特魔法觉醒黑市[超话]# 华渠蹲幻林迷途全奖励+全成就",
+      "content": "#哈利波特魔法觉醒黑市[超话]# 华渠蹲幻林迷途全奖励+全成就",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GaDFER2JvWmcydDRucE1hQXgtOFRwMGlCUXRJNWZxTkpPQW93eWg5UEd3eUZVekFHU1BuaVlNdUhKMmYyLVRtbDlQZHByTVEzbnBNaWdTcFZTYXZ4RDJTSnNBTQ?oc=5"
+    },
+    {
       "id": "568e66f3",
       "title": "哈利波特魔法觉醒： - 手机新浪网",
       "date": "2026-04-09",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SNlFNaUp5NXNkZ2JYcGZmOUpEYTIxNDlsNEF4R1QyUzgyZGFGZjh1dUpjME1IdEVRZ1U2eVZXWlhaVkNGWU0wd01VRW1lcWVMT0t4YWZuMFRDOVNwVXFVX0dfSQ?oc=5"
-    },
-    {
-      "id": "26a77ccf",
-      "title": "腾讯新闻 - 腾讯新闻",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "腾讯新闻",
-      "content": "腾讯新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOU0xNVJJb2NFU1J0VW4wLWNSUTNYSUljY0JEN1YyWGZTYjQ3cGVSMmJ2TEQwTlYzRnhJeGEtV0FKdVhHd2Vnb0JRRlFVeVBValE0czZ3?oc=5"
-    },
-    {
-      "id": "eda1f820",
-      "title": "哈利波特剧版剧照曝光_新浪新闻 - 手机新浪网",
-      "date": "2026-04-07",
-      "category": "综合资讯",
-      "summary": "哈利波特剧版剧照曝光_新浪新闻",
-      "content": "哈利波特剧版剧照曝光_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOX1E4c19rQkZSRDVxT3lfSjdpUUVWdXZiYnozTkhBaXhBY0tzXzZlSnc4YjNUWHZlNlhuY2J4TGpFZ1JFOVA1ZjMzemIyTHdRTXFrek1aNm4wczRNTW0zTjhaQQ?oc=5"
-    },
-    {
-      "id": "e59422bf",
-      "title": "《哈利波特：霍格沃茨之谜》下载量破1.6亿 - games.gg",
-      "date": "2026-04-07",
-      "category": "影视动态",
-      "summary": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "content": "《哈利波特：霍格沃茨之谜》下载量破1.6亿",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
     }
   ]
 }
