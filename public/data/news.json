@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T05:22:26.947Z",
+  "lastUpdated": "2026-04-16T07:17:51.770Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -143,6 +143,26 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
     },
     {
+      "id": "8c8ee663",
+      "title": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法 - 17173",
+      "date": "2026-04-13",
+      "category": "影视动态",
+      "summary": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法",
+      "content": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lVmYtWDJSTWx5eE1lT1VnS0U0ckMyTE1yX3ktWjlPb2xrdENrVVR1S2JnS1F3b0czZkNfZEFOanM0RWxXNWwzU2NoSkZMc0pyQmZuOGRydi05RVB0V25yM2pKRHQ?oc=5"
+    },
+    {
       "id": "9b6e065f",
       "title": "伏地魔可能在 HBO 的《哈利-波特》系列中由女性扮演 - notebookcheck-cn.com",
       "date": "2026-04-13",
@@ -161,26 +181,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNVXM4X0p1ZFFoaWc1WmpFb3ZBdVk5ZGFmOHRUUUczX0hKeGtGN1VqZ0dUZVI0eXlOREV4dkM0UkMybl9EVl9UTW52TzEyNHNrclV5Y0dYUDBjTDNmN0t0Yw?oc=5"
-    },
-    {
-      "id": "44ac0e43",
-      "title": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法 - news.17173.com",
-      "date": "2026-04-13",
-      "category": "影视动态",
-      "summary": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法",
-      "content": "哈利波特主演丹尼尔·雷德克里夫表示看早期电影不再尴尬— 但不同意安德鲁·加菲尔德称赞他演得很好的说法",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lVmYtWDJSTWx5eE1lT1VnS0U0ckMyTE1yX3ktWjlPb2xrdENrVVR1S2JnS1F3b0czZkNfZEFOanM0RWxXNWwzU2NoSkZMc0pyQmZuOGRydi05RVB0V25yM2pKRHQ?oc=5"
     },
     {
       "id": "fd2fc2a9",
