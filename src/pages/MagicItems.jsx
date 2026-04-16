@@ -17,7 +17,7 @@ export default function MagicItems() {
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState('all')
 
-  const types = ['all', '魂器', '死亡圣器', '魔法道具', '传奇物品', '魂器/圣器', '黑暗物品']
+  const types = ['all', '魂器', '死亡圣器', '魔法道具', '传奇物品', '魂器/圣器', '黑暗物品', '魔药']
 
   const filtered = magicItems.filter(item => {
     const matchesSearch = search === '' ||
@@ -58,7 +58,7 @@ export default function MagicItems() {
             className={`filter-btn ${filter === t ? 'active' : ''}`}
             onClick={() => setFilter(t)}
           >
-            {t === 'all' ? '✨ 全部' : t === '魂器' ? '💀 魂器' : t === '死亡圣器' ? '△ 死亡圣器' : t === '魔法道具' ? '🔧 魔法道具' : t === '传奇物品' ? '⭐ 传奇物品' : t === '魂器/圣器' ? '💍 魂器/圣器' : '🧿 黑暗物品'}
+            {t === 'all' ? '✨ 全部' : t === '魂器' ? '💀 魂器' : t === '死亡圣器' ? '△ 死亡圣器' : t === '魔法道具' ? '🔧 魔法道具' : t === '传奇物品' ? '⭐ 传奇物品' : t === '魂器/圣器' ? '💍 魂器/圣器' : t === '黑暗物品' ? '🧿 黑暗物品' : '🧪 魔药'}
           </button>
         ))}
       </div>
@@ -79,15 +79,18 @@ export default function MagicItems() {
                   background: item.type === '魂器' ? 'rgba(231,76,60,0.15)' :
                     item.type === '死亡圣器' ? 'rgba(155,89,182,0.15)' :
                     item.type === '魂器/圣器' ? 'rgba(243,156,18,0.15)' :
-                    item.type === '黑暗物品' ? 'rgba(45,52,54,0.15)' : 'rgba(52,152,219,0.15)',
+                    item.type === '黑暗物品' ? 'rgba(45,52,54,0.15)' :
+                    item.type === '魔药' ? 'rgba(39,174,96,0.15)' : 'rgba(52,152,219,0.15)',
                   color: item.type === '魂器' ? '#e74c3c' :
                     item.type === '死亡圣器' ? '#9b59b6' :
                     item.type === '魂器/圣器' ? '#f39c12' :
-                    item.type === '黑暗物品' ? '#636e72' : '#3498db',
+                    item.type === '黑暗物品' ? '#636e72' :
+                    item.type === '魔药' ? '#27ae60' : '#3498db',
                   borderColor: item.type === '魂器' ? 'rgba(231,76,60,0.3)' :
                     item.type === '死亡圣器' ? 'rgba(155,89,182,0.3)' :
                     item.type === '魂器/圣器' ? 'rgba(243,156,18,0.3)' :
-                    item.type === '黑暗物品' ? 'rgba(45,52,54,0.3)' : 'rgba(52,152,219,0.3)',
+                    item.type === '黑暗物品' ? 'rgba(45,52,54,0.3)' :
+                    item.type === '魔药' ? 'rgba(39,174,96,0.3)' : 'rgba(52,152,219,0.3)',
                 }}>
                   {item.type}
                 </span>
