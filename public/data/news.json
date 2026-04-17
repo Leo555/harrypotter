@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T18:41:49.700Z",
+  "lastUpdated": "2026-04-17T21:32:13.282Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,8 +23,8 @@
       "source": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yZWRrWkZ6ckhXRVRBUlhlNEZ3Xy1SYk1IV1h5RlV2VnF0cnlJVTFVdS1VT0tVd0hVWk5rQkIzM245aTZBc3FUNUJqb2l1M3RCV0Z3MlFsVm9UQnhIQTNz?oc=5"
     },
     {
-      "id": "fe197868",
-      "title": "2026北京书市明日开幕，莎士比亚、海子、哈利·波特一起“等”你来 - 搜狐网",
+      "id": "f9469d2f",
+      "title": "2026北京书市明日开幕，莎士比亚、海子、哈利·波特一起“等”你来 - 京报网",
       "date": "2026-04-17",
       "category": "出版物",
       "summary": "2026北京书市明日开幕，莎士比亚、海子、哈利·波特一起“等”你来",
@@ -40,7 +40,7 @@
           "path": "/reader"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOGRnb09ndEJMSHZ1ajdGSW5GM3FQUllqWkRmbVE1ZENhc1BBbkppQXh6T3AtTTBHbnhraXp1dzA5X0c2bktJSWpmQjhoVXp6bVdWRnlJNDF2a3pxcUREemFDckhMcVM0QXRTTTF0ZHRfZk9rSkRmUXpIRWh2WmxlQ2tDcjRWVFJY?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DWWRnaGRjck1wLVEwQVlVUEdvZVpwVC1NOEVOVXZyZHNmNnJWUll4VFRrUldiUC1COXVGZFFYbzVtT1R1XzNyc053RENabzRIUm5rUmxWcUduZXcyb2c?oc=5"
     },
     {
       "id": "269d2818",
@@ -83,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrRDgxMkI3UVQwN2YxQWtNSVlJemY2MVpiM3Zzb1FjUFZPaWJNbDladDlrbWFSRHZDWlltSGVUUk1YWF9aRGZvRC04RTJyelpDUkpnajJCYjFTNk5QNDBGQ1NKRWhvRlFQcUROYzIzY21rM1E?oc=5"
     },
     {
-      "id": "509cf5a9",
-      "title": "泰英混血演员Laila Barwick 演出HBO《哈利波特》影集饰演马份好友！ - Vision Thai 看見泰國",
-      "date": "2026-04-15",
-      "category": "影视动态",
-      "summary": "泰英混血演员Laila Barwick 演出HBO《哈利波特》影集饰演马份好友！",
-      "content": "泰英混血演员Laila Barwick 演出HBO《哈利波特》影集饰演马份好友！",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdXlQRVJMaEMyeUR4WU1sUm8zaWdFallPbW9uV2wxc0pXVnZFWWprXzJtQ1NrekcwcDBQbnd3WmoyYktJWW5HVVlpeVh6OHhaV21NOERFM2duMktyRDRQcDQ4WThkc2J1ZVNLZ2JHbmtrODZsRU1tak0zR2Fad20zTDJiZDlkeHBPRTdGN25mZw?oc=5"
-    },
-    {
       "id": "c22f7f01",
       "title": "为了DEI指标!《哈利波特》剧集斯内普\"换黑\"原因揭秘 - 17173",
       "date": "2026-04-15",
@@ -121,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwWmZwY0dMOHBGZ1FFM2V1R09sTHF4SndsdHpjYV9pTmtSZDVUMFV5UkxuVGRkUFJNSE02S1hPSk9sb0dWZGtmY2JOX3U4Nzgwa2EzZFVNbk9MRzBPd3ZpaEZjNDI?oc=5"
+    },
+    {
+      "id": "509cf5a9",
+      "title": "泰英混血演员Laila Barwick 演出HBO《哈利波特》影集饰演马份好友！ - Vision Thai 看見泰國",
+      "date": "2026-04-15",
+      "category": "影视动态",
+      "summary": "泰英混血演员Laila Barwick 演出HBO《哈利波特》影集饰演马份好友！",
+      "content": "泰英混血演员Laila Barwick 演出HBO《哈利波特》影集饰演马份好友！",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdXlQRVJMaEMyeUR4WU1sUm8zaWdFallPbW9uV2wxc0pXVnZFWWprXzJtQ1NrekcwcDBQbnd3WmoyYktJWW5HVVlpeVh6OHhaV21NOERFM2duMktyRDRQcDQ4WThkc2J1ZVNLZ2JHbmtrODZsRU1tak0zR2Fad20zTDJiZDlkeHBPRTdGN25mZw?oc=5"
     },
     {
       "id": "bc4eb238",
@@ -221,6 +221,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
+    },
+    {
+      "id": "e5663494",
+      "title": "NBT稿发布_新浪新闻 - 手机新浪网",
+      "date": "2026-04-13",
+      "category": "综合资讯",
+      "summary": "NBT稿发布_新浪新闻",
+      "content": "NBT稿发布_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vNm9oemhVYjhnMGtuZnR1RlhFQlhCSlJiSjRKM0Y2VExsRzRhVDVhZGttTWVEOHhLcFp3dWJxbkI1LXRBaURmMXp2MDdLS204aDJNUlV6cENaOWt5VFFURUFzVQ?oc=5"
     },
     {
       "id": "9b6e065f",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52ODdwMFMySlZFbUo0ZEVXeU1aUmlwVE5IYlBGMEo3N0VzaExma25WT0RLUVN1cHhGbXpIeEVwSlAyV0lsNzIzbWJ3bkg0TGhCaW5mZEgzaF9CRS1NTkZGb3dpd08?oc=5"
-    },
-    {
-      "id": "9558e41c",
-      "title": "《哈利波特》剧集预告发布两周：点踩数反超点赞数！ - 3DM",
-      "date": "2026-04-10",
-      "category": "影视动态",
-      "summary": "《哈利波特》剧集预告发布两周：点踩数反超点赞数！",
-      "content": "《哈利波特》剧集预告发布两周：点踩数反超点赞数！",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pSnAyUDRTTWg4bUhCZTdScGo4UnRRLXJfUVM0bnlXS283TXpoUmhlVkhrbmEtZnRIVlZtZElLcENWRy04aHpkMUc4d1ZqbzB2R1lHM2ZqUk04cUs3?oc=5"
     }
   ]
 }
