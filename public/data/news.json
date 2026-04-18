@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-18T15:28:23.826Z",
+  "lastUpdated": "2026-04-18T18:31:52.072Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "1a7928cb",
+      "title": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​ - 手机新浪网",
+      "date": "2026-04-18",
+      "category": "出版物",
+      "summary": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​",
+      "content": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tN1RsYkZfbTh3b3ZGcU9TLWVMRWtIVnNWQ25sV1BtNS1qWU5WeFFwM29YZGNqR2lRSi1zX1F6U0RQYm1sMkk2QXRZbVNMRUJxWXQ5N1Y2bkhRNUkxR29pUzNQZw?oc=5"
+    },
     {
       "id": "d96c3141",
       "title": "2026北京书市今日开幕，莎士比亚、海子、哈利·波特一起“等”你来！ - 新浪财经",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45RjlZUEhxbExJYmhCY1VfdnM0YjJMQ2FtT2cxWUh1cDdlMXZoVHJYU01jLUNzdTRYSVlkeDBka3dFd2RwMDNvNEc0b2RfODA4Zy1HSUM1aTV2YlM0?oc=5"
-    },
-    {
-      "id": "7f8e955d",
-      "title": "帕帕厄希度凭《吾子吾弟》获奥利弗奖最佳男配角 - 新浪网",
-      "date": "2026-04-12",
-      "category": "影视动态",
-      "summary": "帕帕厄希度凭《吾子吾弟》获奥利弗奖最佳男配角",
-      "content": "帕帕厄希度凭《吾子吾弟》获奥利弗奖最佳男配角",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigAdBVV95cUxPLUx3Q0Jya3JWU1Y5QTVFMGRJVFFpRDYxeDgxUHRhaE4yRm8tTlgweEZBR0FDaVM4MGtRd2Q5ZDNhTHI4MldMemZSTUhacTVMcGJwOHZhU0RRZmlZWU1nZ05jNG1zNEp2M3FCR3pxTnFUNC1WeTYwMjRZNzZRZ3gzcDhKbkZoY2p0bGlsblptOWxxTzh5VWlXYWRzYWdGWEZudnNER2hpSW1pcFpSTG03WDlZa3hVaHpETTR0YmtlMHRPNGJ6VUJqRXJtald2VTNVY1Y0OVo5bUctaF9kUDhJenZhNFR6MHJoTVVLVGxyM3BPUTJpN1poamdNWVdwVWNRXzVTbnYzYkluaEw0Nm16ODJJWWFaTExGQUlndzYyVkpWbE5fY2dqdkYtdnZXX1pDZVpyVEJSQnNQZHRJMFJzMTJrNGNSek5ZQ2FsRmg0ZFBPQUxVN3ZRaHhtVDhwNlZxcF9ZbEhGQmxqZ1BROTd3dkFmVUQ4eEcyM1ZMS3JKc1d3bU96XzkzWk1EVjRpaEpSeTJpbEpIbkdDY1lUbTdvbkw2d0ZsU25KRnVnSkJnbEpjOHVDZjkwUkFCTzlQU29JNkVNem4tQ2VlSGw0aEg1Qm1zTmVPVV9TS2c1ZF9FcTFfODJ3QnpuTGFWRU5ONXFuSURiZVNBWjFBMkFrVmxsRlo5d0FydXJxTkRNMFFxRW5USnhwUnRCNU1XdkUzZlphY1lpMG9Pa2FfdEZqbWktOTYyTE5CcEgwZnE4OTJ4dnNrU2JSamljSnljTVJDcUFkc2VYOE1LVm84ZFlDOEtwOFllTE0ydk5OMWJncWlTN0FqWXRwV2tydzlocEZzbERCbGdnUE1EVTJmR1FidTFTZFRJeGJpejRsZlN4dGlINE1LTERrbDBZQ2NfdkF3Y243ZmlsNThqYUFoYjUwcUh5UmhKZVlpeEhjX3lJc3pHalVjcV9wUG1tYWwwcHJRZjhvcE5mOXJxNEgtaDRmUFRaZ0NNbDBxWjFLZDNxZW4xWVhkV25kN3JpVmhzZTVnR3VXT3VBM3NSMGoxZl9VV0E3TVpxU2k0eWhhODZqZVlIaFloYVFDa0FwQWE3cHFEamw5dTdEczdoV0JiejFyY2FFbGNtUVk3S0g1QXJzMkJEUG85VGw0ZGtUODl1R0IxM1EwbTlZUEYwUzlNNUoyV2l1Qg?oc=5"
     }
   ]
 }
