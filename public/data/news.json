@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-20T10:26:15.342Z",
+  "lastUpdated": "2026-04-20T13:03:16.567Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "1d7acc1b",
+      "title": "杨迪回应哈利波特中国版_新浪新闻 - 新浪网",
+      "date": "2026-04-19",
+      "category": "综合资讯",
+      "summary": "杨迪回应哈利波特中国版_新浪新闻",
+      "content": "杨迪回应哈利波特中国版_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bjFGbzljam9DZmhIQXY5ai1rX25qUmdrV2lzZ1pTTHVfOTY0VWpQOXJJdnYtM3pXZWR5MnREOUctTXIxWVZBalpRcjltY3ZLOXgxVVBtbE9PZWtOaDc5c3RwMA?oc=5"
+    },
     {
       "id": "7fbd610b",
       "title": "2026北京书市开幕，莎士比亚、海子、哈利·波特一起“等”你来 - 新浪新闻_手机新浪网",
@@ -363,8 +383,8 @@
       "source": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNQWpabzJpVVdZVnZvRUVzTVNNSWxDSng2c2Y1dDRialN6ZmNnQU5sVmlHb0EtVHVaLXB1MXdvVGd3TGVnNUhFblpzSmhDVFZOdE13X0tETEd1MWk1WTVYLVFqZkFwUXljd1VLNEtiRUM1cU9NRmJVR0piN2VSblJxX1RlTWdNNDZUc250NjRGTkZTTlFRdjV6bXAyRkQ1Q2hhV0xpM3RXWW10RjhEeWVJZ3ktcVg5c0I1OVUwRjlEMDFUc1NNOEFHbHV1czRES1dRZlJDYmF2WmcwLWtjTmdnV0ExUFlHdHBUTmk4Q1dKeHB1aVJYMUtmcXVNa1pvaHA4WGxzQ0RPVFl5M1dIZVJ0NlZWbXI4QklhamM5N2ZNUjNnN1BhMmNYc1BRdUhLU0NUc2JibTR2bmdNR1V2Q2RkU1h3QUNzbURzR1B3ck1vWVdyaWtid3ZhcWF3TlF2T0lLdFdheDBiWHlaOXdTRjdHREN5VUZYa1A4Qkg0WEhWVU9lUlZtY2w0NW9YNUFLaHVlUkUzNHEwTTNpT0lFZ1Fn?oc=5"
     },
     {
-      "id": "cf5da104",
-      "title": "原版伏地魔拒绝回归剧版哈利波特，力荐蒂尔达接班：我的时代已过去，但她很合适-腾讯新闻 - news.qq.com",
+      "id": "eab5ac80",
+      "title": "原版伏地魔拒绝回归剧版哈利波特，力荐蒂尔达接班：我的时代已过去，但她很合适-腾讯新闻 - 腾讯新闻",
       "date": "2026-04-13",
       "category": "综合资讯",
       "summary": "原版伏地魔拒绝回归剧版哈利波特，力荐蒂尔达接班：我的时代已过去，但她很合适-腾讯新闻",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fZE5XQmFnX0JCRG1CaVJTU0JxN21POE1CZFFjUDNKckdGakxuRHA4QndGQjZwUnFzME0wcWF4Q3pEaGx5bUxISkY4b28yMWpEU09xa3FR?oc=5"
-    },
-    {
-      "id": "87142cc8",
-      "title": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装 - 17173",
-      "date": "2026-04-13",
-      "category": "社区活动",
-      "summary": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "content": "最适合《乐高哈利波特》系列粉丝的最佳乐高套装",
-      "image": "🎉",
-      "relatedLinks": [
-        {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
-        },
-        {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOUFyXzhsbWdocUJjZjR5cm5JVTMzd2pVdmNsMVpOOFJmRTFoRm4tc241NkxOWHBRT2V2TnpkMERqRmU1bmI1SVJDWGpLTzZnQVlaVzRCUTU1UmR0SmE3NDg3c2I?oc=5"
     }
   ]
 }
