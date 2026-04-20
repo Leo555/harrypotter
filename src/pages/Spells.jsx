@@ -17,7 +17,7 @@ export default function Spells() {
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState('all')
 
-  const categories = ['all', '防御', '黑魔法', '实用', '特殊']
+  const categories = ['all', '防御', '攻击', '黑魔法', '治疗', '实用', '特殊']
 
   const filtered = spells.filter(s => {
     const matchesSearch = search === '' ||

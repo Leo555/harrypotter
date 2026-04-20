@@ -16,7 +16,7 @@ export default function Potions() {
 
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState('all')
-  const difficulties = ['all', '中级', '高级', '极高级']
+  const difficulties = ['all', '初级', '中级', '高级', '极高级', '传说级']
 
   const filtered = potions.filter(p => {
     const matchesSearch = search === '' ||
