@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T05:31:30.402Z",
+  "lastUpdated": "2026-04-20T07:49:28.860Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lbk0wN3dhd3FTTnoteUVVRVJPbU5qTWNEMklkRmd1ejJJajBhNjRZemM2c2l2SHVmeWRLa0lSS2lwSlRWb1V2dHNNTFBrbWFuX04tZVpacHRWM3BwS0oyN2ZlXzFGVDFIOWxYcDdEQ1hiWFZtYmc?oc=5"
+    },
+    {
+      "id": "607efe26",
+      "title": "哈利波特二十年时光变迁_新浪新闻 - 手机新浪网",
+      "date": "2026-04-18",
+      "category": "综合资讯",
+      "summary": "哈利波特二十年时光变迁_新浪新闻",
+      "content": "哈利波特二十年时光变迁_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoUkdicXhsYTFNclN1SkNRb1ZEbktYb1BiZi16dFNIYmZZOTlkRUpvVzlLVEEtRWt3YjZ2cURQWW1BYnJ6SVFPZzFIMXFGU2V3cmw1eDBDcFVCT3UxNm1HMnlqYw?oc=5"
     },
     {
       "id": "d96c3141",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qZkhadUowNkhpc0ctTkxVS0RxNmtnMnlVTzkwMUNDVkg5anRZN25nZTJQanJMbDhNcm1RbmZ1cGVnV1VwRGFTWTVobEtrMm0wMUZZYm1DQ255ZG1IVTdMTk9lUQ?oc=5"
-    },
-    {
-      "id": "50d5e41f",
-      "title": "#哈利波特魔法觉醒黑市[超话]# 两个成就+刷满幻林官服 - 手机新浪网",
-      "date": "2026-04-13",
-      "category": "综合资讯",
-      "summary": "#哈利波特魔法觉醒黑市[超话]# 两个成就+刷满幻林官服",
-      "content": "#哈利波特魔法觉醒黑市[超话]# 两个成就+刷满幻林官服",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WdXdKS05qWnpLVXJFQzQxWjQtQjBrWnhxcEgtbnQzOHgxSFhod25Gb0d3amNBOEJwUHNIMFVkRjVjTzhIcmhibHc2UDByTUlPMFRwYmdNNUNJSURnQndRMS1ZOA?oc=5"
     }
   ]
 }
