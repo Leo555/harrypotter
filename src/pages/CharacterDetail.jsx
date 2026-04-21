@@ -206,6 +206,7 @@ export default function CharacterDetail() {
             </p>
             <PhotoGallery
               photos={characterGallery[char.id].photos}
+              characterName={char.name}
             />
           </div>
         )}

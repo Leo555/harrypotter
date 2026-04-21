@@ -1,3 +1,6 @@
+import { useState, useEffect } from 'react'
+import { createPortal } from 'react-dom'
+
 // 根据场景关键词匹配装饰emoji
 function getSceneEmoji(scene, mood) {
   const keywords = [
@@ -42,36 +45,76 @@ function getSceneEmoji(scene, mood) {
   return moodMap[mood] || '🎬'
 }
 
-export default function PhotoGallery({ photos }) {
+export default function PhotoGallery({ photos, characterName }) {
+  const [selected, setSelected] = useState(null)
+
+  useEffect(() => {
+    if (selected) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [selected])
+
   if (!photos || photos.length === 0) return null
 
   return (
-    <div className="gallery-grid">
-      {photos.map((photo, i) => (
-        <div
-          key={photo.id || i}
-          className="gallery-card hover-lift"
-          style={{
-            background: `linear-gradient(135deg, ${photo.colors?.[0] || '#2d3436'}, ${photo.colors?.[1] || '#636e72'})`,
-          }}
-        >
-          <div className="gallery-card-light" />
-          <div className="gallery-scene-emoji">
-            {getSceneEmoji(photo.scene, photo.mood)}
-          </div>
-          <div className="gallery-filmstrip-top" />
-          <div className="gallery-filmstrip-bottom" />
-          <div className="gallery-scene-info">
-            <div className="gallery-scene-movie">
-              🎬 《{photo.movie}》{photo.year && ` · ${photo.year}`}
+    <>
+      <div className="gallery-grid">
+        {photos.map((photo, i) => (
+          <div
+            key={photo.id || i}
+            className="gallery-card hover-lift"
+            onClick={() => setSelected(photo)}
+            style={{
+              background: `linear-gradient(135deg, ${photo.colors?.[0] || '#2d3436'}, ${photo.colors?.[1] || '#636e72'})`,
+            }}
+          >
+            <div className="gallery-card-light" />
+            <div className="gallery-scene-emoji">
+              {getSceneEmoji(photo.scene, photo.mood)}
             </div>
-            <div className="gallery-scene-title">{photo.scene}</div>
+            <div className="gallery-filmstrip-top" />
+            <div className="gallery-filmstrip-bottom" />
+            <div className="gallery-scene-info">
+              <div className="gallery-scene-movie">
+                🎬 《{photo.movie}》{photo.year && ` · ${photo.year}`}
+              </div>
+              <div className="gallery-scene-title">{photo.scene}</div>
+            </div>
+            {photo.mood && (
+              <div className="gallery-mood-tag">{photo.mood}</div>
+            )}
           </div>
-          {photo.mood && (
-            <div className="gallery-mood-tag">{photo.mood}</div>
-          )}
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+
+      {/* 点击放大遮罩 - portal 到 body */}
+      {selected && createPortal(
+        <div className="gallery-overlay" onClick={() => setSelected(null)}>
+          <div
+            className="gallery-overlay-card"
+            style={{
+              background: `linear-gradient(135deg, ${selected.colors?.[0] || '#2d3436'}, ${selected.colors?.[1] || '#636e72'})`,
+            }}
+          >
+            <div className="gallery-card-light" />
+            <div className="gallery-overlay-emoji">
+              {getSceneEmoji(selected.scene, selected.mood)}
+            </div>
+            <div className="gallery-overlay-info">
+              {selected.mood && <span className="gallery-mood-tag">{selected.mood}</span>}
+              <div className="gallery-overlay-movie">
+                🎬 {characterName && `${characterName} · `}《{selected.movie}》· {selected.year}
+              </div>
+              <div className="gallery-overlay-scene">{selected.scene}</div>
+            </div>
+          </div>
+          <div className="gallery-overlay-hint">点击任意处关闭</div>
+        </div>,
+        document.body
+      )}
+    </>
   )
 }

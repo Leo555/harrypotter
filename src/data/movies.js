@@ -5,6 +5,52 @@ function getMovieCoverImage(id) {
   return key ? movieCoverImages[key].default : null
 }
 
+// 电影剧照图片映射（文件位于 src/assets/movie-stills/）
+const movieStillImages = import.meta.glob('../assets/movie-stills/*.webp', { eager: true })
+function getStillImage(id) {
+  const key = Object.keys(movieStillImages).find(k => k.includes(`/${id}.webp`))
+  return key ? movieStillImages[key].default : null
+}
+
+// 每部电影的经典场景剧照
+const movieStills = {
+  'philosophers-stone': [
+    { id: 'ps-mirror', caption: '厄里斯魔镜 — 哈利第一次见到父母' },
+    { id: 'ps-quidditch', caption: '第一场魁地奇比赛' },
+  ],
+  'chamber-of-secrets': [
+    { id: 'cos-basilisk', caption: '密室中的蛇怪' },
+    { id: 'cos-dobby', caption: '家养小精灵多比' },
+    { id: 'cos-flying-car', caption: '韦斯莱飞行汽车' },
+  ],
+  'prisoner-of-azkaban': [
+    { id: 'poa-patronus', caption: '守护神咒 — 呼神护卫' },
+    { id: 'poa-buckbeak', caption: '鹰头马身有翼兽巴克比克' },
+    { id: 'poa-dementor', caption: '摄魂怪来袭' },
+  ],
+  'goblet-of-fire': [
+    { id: 'gof-dragon', caption: '第一项任务 — 匈牙利树蜂龙' },
+    { id: 'gof-graveyard', caption: '小汉格顿墓地 — 伏地魔复活' },
+    { id: 'gof-yule-ball', caption: '圣诞舞会' },
+  ],
+  'order-of-the-phoenix': [
+    { id: 'ootp-umbridge', caption: '多洛雷斯·乌姆里奇' },
+    { id: 'ootp-ministry', caption: '神秘事务司之战' },
+  ],
+  'half-blood-prince': [
+    { id: 'hbp-cave', caption: '魂器洞穴 — 邓布利多与哈利' },
+    { id: 'hbp-astronomy-tower', caption: '天文塔事件' },
+  ],
+  'deathly-hallows-1': [
+    { id: 'dh1-seven-potters', caption: '七个波特行动' },
+    { id: 'dh1-malfoy-manor', caption: '马尔福庄园' },
+  ],
+  'deathly-hallows-2': [
+    { id: 'dh2-gringotts', caption: '闯入古灵阁' },
+    { id: 'dh2-battle', caption: '霍格沃茨大战' },
+  ],
+}
+
 // 哈利波特八部电影数据
 const movies = [
   {
@@ -366,3 +412,4 @@ const movies = [
 ]
 
 export default movies
+export { movieStills, getStillImage }

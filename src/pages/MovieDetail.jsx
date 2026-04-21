@@ -1,5 +1,5 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import movies from '../data/movies'
+import movies, { movieStills, getStillImage } from '../data/movies'
 import { characters } from '../data/characters'
 import useDocumentHead from '../hooks/useDocumentHead'
 
@@ -168,6 +168,24 @@ export default function MovieDetail() {
             </div>
           )}
         </div>
+
+        {/* 经典场景剧照 */}
+        {movieStills[movie.id] && movieStills[movie.id].length > 0 && (
+          <div className="detail-section">
+            <h2 className="detail-section-title">📸 经典场景</h2>
+            <div className="movie-stills-grid">
+              {movieStills[movie.id].map(still => {
+                const img = getStillImage(still.id)
+                return img ? (
+                  <div key={still.id} className="movie-still-card">
+                    <img loading="lazy" src={img} alt={still.caption} className="movie-still-img" />
+                    <div className="movie-still-caption">{still.caption}</div>
+                  </div>
+                ) : null
+              })}
+            </div>
+          </div>
+        )}
 
         {/* 演员表 */}
         <div className="detail-section">
