@@ -1,32 +1,33 @@
 // 人物剧照画廊数据
-// 使用 TMDB 电影剧照作为场景配图
+// 使用 TMDB 电影剧照作为场景配图，每个场景分配唯一图片
 const galleryImages = import.meta.glob('../assets/gallery/*.webp', { eager: true })
 function getGalleryImage(id) {
   const key = Object.keys(galleryImages).find(k => k.includes(`/${id}.webp`))
   return key ? galleryImages[key].default : null
 }
 
-// 电影名 → 已下载的剧照文件ID列表
-const movieToStills = {
-  '魔法石': ['philosophers-stone-1', 'philosophers-stone-2', 'philosophers-stone-3', 'philosophers-stone-4'],
-  '密室': ['chamber-of-secrets-1', 'chamber-of-secrets-2', 'chamber-of-secrets-3', 'chamber-of-secrets-4'],
-  '阿兹卡班囚徒': ['prisoner-of-azkaban-1', 'prisoner-of-azkaban-2', 'prisoner-of-azkaban-3', 'prisoner-of-azkaban-4'],
-  '火焰杯': ['goblet-of-fire-1', 'goblet-of-fire-2', 'goblet-of-fire-3', 'goblet-of-fire-4'],
-  '凤凰社': ['order-of-the-phoenix-1', 'order-of-the-phoenix-2', 'order-of-the-phoenix-3', 'order-of-the-phoenix-4'],
-  '混血王子': ['half-blood-prince-1', 'half-blood-prince-2', 'half-blood-prince-3', 'half-blood-prince-4'],
-  '死亡圣器(上)': ['deathly-hallows-1-1', 'deathly-hallows-1-2', 'deathly-hallows-1-3', 'deathly-hallows-1-4'],
-  '死亡圣器(下)': ['deathly-hallows-2-1', 'deathly-hallows-2-2', 'deathly-hallows-2-3', 'deathly-hallows-2-4'],
+// 电影名 → 图片文件缩写前缀 + 可用数量
+const movieStillsPool = {
+  '魔法石': { prefix: 'ps', count: 17 },
+  '密室': { prefix: 'cos', count: 4 },
+  '阿兹卡班囚徒': { prefix: 'poa', count: 7 },
+  '火焰杯': { prefix: 'gof', count: 7 },
+  '凤凰社': { prefix: 'oop', count: 14 },
+  '混血王子': { prefix: 'hbp', count: 11 },
+  '死亡圣器(上)': { prefix: 'dh1', count: 8 },
+  '死亡圣器(下)': { prefix: 'dh2', count: 13 },
 }
 
-// 为每个场景分配一张对应电影的剧照（同一部电影的不同场景轮流使用不同剧照）
-const movieUsageCounter = {}
-function assignStillImage(movie) {
-  const stills = movieToStills[movie]
-  if (!stills || stills.length === 0) return null
-  const count = movieUsageCounter[movie] || 0
-  movieUsageCounter[movie] = count + 1
-  const stillId = stills[count % stills.length]
-  return getGalleryImage(stillId)
+// 全局计数器：确保同一部电影的不同场景分配不同的图片
+const usedIndex = {}
+function assignUniqueStill(movie) {
+  const pool = movieStillsPool[movie]
+  if (!pool) return null
+  const idx = (usedIndex[movie] || 0)
+  usedIndex[movie] = idx + 1
+  // 如果超出可用数量，返回 null（降级为渐变色）
+  if (idx >= pool.count) return null
+  return getGalleryImage(`${pool.prefix}-${idx + 1}`)
 }
 
 const characterGallery = {
@@ -186,11 +187,11 @@ const characterGallery = {
   },
 }
 
-// 自动为每个角色的场景分配电影剧照
+// 自动为每个角色的场景分配唯一的电影剧照（不重复）
 Object.values(characterGallery).forEach(charData => {
   charData.photos.forEach(photo => {
     if (!photo.image) {
-      photo.image = assignStillImage(photo.movie)
+      photo.image = assignUniqueStill(photo.movie)
     }
   })
 })
