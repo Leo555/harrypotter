@@ -72,7 +72,15 @@ export default function PhotoGallery({ photos, characterName }) {
             }}
           >
             {photo.image ? (
-              <img loading="lazy" src={photo.image} alt={photo.scene} className="gallery-card-real-img" />
+              <>
+                <img loading="lazy" src={photo.image} alt={photo.scene} className="gallery-card-real-img" />
+                <div className="gallery-card-overlay" style={{
+                  background: `linear-gradient(135deg, ${photo.colors?.[0] || '#2d3436'}cc, ${photo.colors?.[1] || '#636e72'}99)`,
+                }} />
+                <div className="gallery-scene-emoji">
+                  {getSceneEmoji(photo.scene, photo.mood)}
+                </div>
+              </>
             ) : (
               <>
                 <div className="gallery-card-light" />
@@ -106,7 +114,16 @@ export default function PhotoGallery({ photos, characterName }) {
             }}
           >
             {selected.image ? (
-              <img src={selected.image} alt={selected.scene} className="gallery-overlay-real-img" />
+              <>
+                <img src={selected.image} alt={selected.scene} className="gallery-overlay-real-img" />
+                <div className="gallery-card-overlay" style={{
+                  background: `linear-gradient(135deg, ${selected.colors?.[0] || '#2d3436'}bb, ${selected.colors?.[1] || '#636e72'}88)`,
+                  borderRadius: '16px',
+                }} />
+                <div className="gallery-overlay-emoji">
+                  {getSceneEmoji(selected.scene, selected.mood)}
+                </div>
+              </>
             ) : (
               <>
                 <div className="gallery-card-light" />
