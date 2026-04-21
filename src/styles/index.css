@@ -1386,6 +1386,15 @@ a:hover { color: var(--color-gold-light); }
   padding: 18px 20px 0;
 }
 .spell-icon { font-size: 2rem; }
+.spell-icon-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1.5px solid rgba(var(--color-gold-rgb), 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
 .spell-name { font-size: 1.05rem; color: var(--color-gold); font-weight: 600; }
 .spell-name-en { font-size: 0.8rem; color: rgba(245,230,200,0.4); font-style: italic; }
 .spell-card-body { padding: 14px 20px 20px; }
@@ -4843,6 +4852,23 @@ a:hover { color: var(--color-gold-light); }
   pointer-events: none;
 }
 
+.gallery-scene-emoji {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  font-size: 3rem;
+  opacity: 0.35;
+  filter: grayscale(20%);
+  transition: all 0.4s ease;
+  pointer-events: none;
+}
+.gallery-card:hover .gallery-scene-emoji {
+  opacity: 0.6;
+  transform: translate(-50%, -65%) scale(1.15);
+  filter: grayscale(0%);
+}
+
 .gallery-filmstrip-top,
 .gallery-filmstrip-bottom {
   position: absolute;
@@ -4883,108 +4909,6 @@ a:hover { color: var(--color-gold-light); }
   color: var(--color-gold);
   border: 1px solid rgba(var(--color-gold-rgb), 0.3);
 }
-
-.gallery-lightbox {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.9);
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  animation: fadeIn 0.3s ease;
-}
-
-.gallery-lightbox-panel {
-  max-width: 800px;
-  width: 90%;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 2px solid rgba(var(--color-gold-rgb), 0.3);
-}
-
-.gallery-lightbox-hero {
-  aspect-ratio: 16/9;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery-lightbox-light {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(ellipse at 30% 40%, rgba(255,255,255,0.1) 0%, transparent 60%);
-}
-
-.gallery-lightbox-center { text-align: center; padding: 40px; z-index: 1; }
-.gallery-lightbox-emoji { font-size: 3rem; margin-bottom: 16px; }
-
-.gallery-lightbox-scene {
-  font-size: 1.3rem;
-  color: #fff;
-  font-weight: 600;
-  line-height: 1.5;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
-}
-
-.gallery-lightbox-bar {
-  padding: 16px 20px;
-  background: var(--color-dark);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.gallery-lightbox-char { font-size: 0.9rem; color: var(--color-parchment); font-weight: 600; }
-.gallery-lightbox-movie { font-size: 0.8rem; color: var(--color-gold); margin-top: 2px; }
-
-.gallery-lightbox-mood {
-  padding: 4px 12px;
-  border-radius: 12px;
-  background: rgba(var(--color-gold-rgb), 0.15);
-  color: var(--color-gold);
-  font-size: 0.8rem;
-  border: 1px solid rgba(var(--color-gold-rgb), 0.3);
-}
-
-.gallery-close-btn {
-  position: absolute;
-  top: 20px; right: 20px;
-  width: 40px; height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(var(--color-gold-rgb), 0.3);
-  background: rgba(0,0,0,0.5);
-  color: var(--color-gold);
-  font-size: 1.2rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s;
-}
-
-.gallery-nav-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 44px; height: 44px;
-  border-radius: 50%;
-  border: 1px solid rgba(var(--color-gold-rgb), 0.3);
-  background: rgba(0,0,0,0.5);
-  color: var(--color-gold);
-  font-size: 1.2rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery-nav-prev { left: 20px; }
-.gallery-nav-next { right: 20px; }
 
 /* ============================
    TASK 24 — 书籍详情嵌入阅读器（BookDetail）

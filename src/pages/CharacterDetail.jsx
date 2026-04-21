@@ -202,11 +202,10 @@ export default function CharacterDetail() {
           <div className="detail-section">
             <h2 className="detail-section-title">📸 电影剧照 · 经典瞬间</h2>
             <p className="char-gallery-hint">
-              点击查看大图 · 共 {characterGallery[char.id].photos.length} 张经典场景
+              共 {characterGallery[char.id].photos.length} 张经典场景
             </p>
             <PhotoGallery
               photos={characterGallery[char.id].photos}
-              characterName={char.name}
             />
           </div>
         )}

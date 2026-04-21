@@ -67,7 +67,11 @@ export default function Creatures() {
         {filtered.map((creature, i) => (
           <div key={i} className="creature-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
-              <span className="spell-icon">{creature.emoji}</span>
+              {creature.image ? (
+                <img loading="lazy" src={creature.image} alt={creature.name} className="spell-icon-img" />
+              ) : (
+                <span className="spell-icon">{creature.emoji}</span>
+              )}
               <div>
                 <h3 className="spell-name">{creature.name}</h3>
                 <div className="spell-name-en">{creature.nameEn}</div>

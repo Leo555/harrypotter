@@ -1,112 +1,77 @@
-import { useState } from 'react'
+// 根据场景关键词匹配装饰emoji
+function getSceneEmoji(scene, mood) {
+  const keywords = [
+    [/飞行|扫帚|魁地奇|飞贼|火弩箭/, '🧹'],
+    [/决斗|战斗|战争|对决|大战|攻击/, '⚔️'],
+    [/魔杖|施咒|咒语|守护神/, '🪄'],
+    [/死|牺牲|坠落|永别|告别|墓|帷幕/, '🕯️'],
+    [/龙|诺伯特/, '🐉'],
+    [/蛇|密室|蛇怪/, '🐍'],
+    [/变身|狼人|阿尼马格斯/, '🐺'],
+    [/舞会|美丽|惊艳/, '💃'],
+    [/列车|火车|特快/, '🚂'],
+    [/水下|湖|人鱼/, '🌊'],
+    [/禁林|森林/, '🌲'],
+    [/记忆|冥想盆/, '💭'],
+    [/药水|药剂|魔药|毒液/, '🧪'],
+    [/书|课堂|教|学/, '📖'],
+    [/剑|格兰芬多之剑/, '🗡️'],
+    [/棋/, '♟️'],
+    [/自由|逃|飞出|越狱/, '🕊️'],
+    [/烟花|恶作剧|把戏/, '🎆'],
+    [/送|礼物|蛋糕/, '🎁'],
+    [/吻|爱|甜蜜/, '💕'],
+    [/眼镜|修好/, '👓'],
+    [/摄魂怪/, '👤'],
+    [/古灵阁|金库/, '🏦'],
+    [/魔法石|石头/, '💎'],
+    [/审讯|拷问/, '⛓️'],
+    [/袜子/, '🧦'],
+  ]
+  for (const [re, emoji] of keywords) {
+    if (re.test(scene)) return emoji
+  }
+  const moodMap = {
+    '勇气': '⚡', '勇敢': '⚡', '英雄': '⚡',
+    '悲痛': '💧', '悲壮': '💧', '心碎': '💧',
+    '温暖': '✨', '快乐': '✨', '欢乐': '✨',
+    '恐怖': '💀', '邪恶': '💀', '疯狂': '💀',
+    '智慧': '🌟', '深邃': '🌟', '超脱': '🌟',
+    '搞笑': '😄', '尴尬': '😅',
+  }
+  return moodMap[mood] || '🎬'
+}
 
-export default function PhotoGallery({ photos, characterName }) {
-  const [selectedPhoto, setSelectedPhoto] = useState(null)
-
+export default function PhotoGallery({ photos }) {
   if (!photos || photos.length === 0) return null
 
   return (
-    <>
-      <div className="gallery-grid">
-        {photos.map((photo, i) => (
-          <div
-            key={photo.id || i}
-            onClick={() => setSelectedPhoto(photo)}
-            className="gallery-card hover-lift"
-            style={{
-              background: `linear-gradient(135deg, ${photo.colors?.[0] || '#2d3436'}, ${photo.colors?.[1] || '#636e72'})`,
-            }}
-          >
-            {/* 场景装饰 */}
-            <div className="gallery-card-light" />
-
-            {/* 电影胶片边框效果 */}
-            <div className="gallery-filmstrip-top" />
-            <div className="gallery-filmstrip-bottom" />
-
-            {/* 场景信息 */}
-            <div className="gallery-scene-info">
-              <div className="gallery-scene-movie">
-                🎬 《{photo.movie}》{photo.year && ` · ${photo.year}`}
-              </div>
-              <div className="gallery-scene-title">{photo.scene}</div>
-            </div>
-
-            {/* 氛围标签 */}
-            {photo.mood && (
-              <div className="gallery-mood-tag">{photo.mood}</div>
-            )}
+    <div className="gallery-grid">
+      {photos.map((photo, i) => (
+        <div
+          key={photo.id || i}
+          className="gallery-card hover-lift"
+          style={{
+            background: `linear-gradient(135deg, ${photo.colors?.[0] || '#2d3436'}, ${photo.colors?.[1] || '#636e72'})`,
+          }}
+        >
+          <div className="gallery-card-light" />
+          <div className="gallery-scene-emoji">
+            {getSceneEmoji(photo.scene, photo.mood)}
           </div>
-        ))}
-      </div>
-
-      {/* 灯箱 */}
-      {selectedPhoto && (
-        <div className="gallery-lightbox" onClick={() => setSelectedPhoto(null)}>
-          <div className="gallery-lightbox-panel" onClick={e => e.stopPropagation()}>
-            {/* 大图展示 */}
-            <div
-              className="gallery-lightbox-hero"
-              style={{
-                background: `linear-gradient(135deg, ${selectedPhoto.colors?.[0] || '#2d3436'}, ${selectedPhoto.colors?.[1] || '#636e72'})`,
-              }}
-            >
-              <div className="gallery-lightbox-light" />
-              <div className="gallery-lightbox-center">
-                <div className="gallery-lightbox-emoji">🎬</div>
-                <div className="gallery-lightbox-scene">{selectedPhoto.scene}</div>
-              </div>
+          <div className="gallery-filmstrip-top" />
+          <div className="gallery-filmstrip-bottom" />
+          <div className="gallery-scene-info">
+            <div className="gallery-scene-movie">
+              🎬 《{photo.movie}》{photo.year && ` · ${photo.year}`}
             </div>
-
-            {/* 详情栏 */}
-            <div className="gallery-lightbox-bar">
-              <div>
-                <div className="gallery-lightbox-char">{characterName}</div>
-                <div className="gallery-lightbox-movie">
-                  《哈利·波特与{selectedPhoto.movie}》· {selectedPhoto.year}
-                </div>
-              </div>
-              {selectedPhoto.mood && (
-                <span className="gallery-lightbox-mood">{selectedPhoto.mood}</span>
-              )}
-            </div>
+            <div className="gallery-scene-title">{photo.scene}</div>
           </div>
-
-          {/* 关闭按钮 */}
-          <button
-            onClick={() => setSelectedPhoto(null)}
-            className="gallery-close-btn"
-          >
-            ✕
-          </button>
-
-          {/* 导航按钮 */}
-          {photos.length > 1 && (
-            <>
-              <button
-                onClick={e => {
-                  e.stopPropagation()
-                  const idx = photos.findIndex(p => p.id === selectedPhoto.id)
-                  setSelectedPhoto(photos[(idx - 1 + photos.length) % photos.length])
-                }}
-                className="gallery-nav-btn gallery-nav-prev"
-              >
-                ←
-              </button>
-              <button
-                onClick={e => {
-                  e.stopPropagation()
-                  const idx = photos.findIndex(p => p.id === selectedPhoto.id)
-                  setSelectedPhoto(photos[(idx + 1) % photos.length])
-                }}
-                className="gallery-nav-btn gallery-nav-next"
-              >
-                →
-              </button>
-            </>
+          {photo.mood && (
+            <div className="gallery-mood-tag">{photo.mood}</div>
           )}
         </div>
-      )}
-    </>
+      ))}
+    </div>
   )
 }
