@@ -61,13 +61,25 @@ export default function SortingHat() {
           <p className="page-subtitle">回答十道问题，让分院帽为你选择最适合的学院</p>
 
           <div className="sorting-houses-preview">
-            {Object.entries(houseResults).map(([key, house]) => (
-              <div key={key} className="house-preview" style={{ borderColor: `${house.color}66` }}>
-                <span className="house-preview-emoji">{house.emoji}</span>
-                <span className="house-preview-name">{house.name}</span>
-                <span className="house-preview-trait">{house.trait}</span>
-              </div>
-            ))}
+            {Object.entries(houseResults).map(([key, house]) => {
+              // 每个学院使用更亮的专属色
+              const houseTheme = {
+                gryffindor: { border: '#ae0001', bg: 'rgba(174,0,1,0.08)' },
+                ravenclaw:  { border: '#5b7fc7', bg: 'rgba(91,127,199,0.08)' },
+                hufflepuff: { border: '#c4972a', bg: 'rgba(196,151,42,0.08)' },
+                slytherin:  { border: '#3d8c5c', bg: 'rgba(61,140,92,0.08)' },
+              }[key] || { border: '#666', bg: 'transparent' }
+              return (
+                <div key={key} className="house-preview" style={{
+                  borderColor: houseTheme.border,
+                  background: houseTheme.bg,
+                }}>
+                  <span className="house-preview-emoji">{house.emoji}</span>
+                  <span className="house-preview-name" style={{ color: houseTheme.border }}>{house.name}</span>
+                  <span className="house-preview-trait">{house.trait}</span>
+                </div>
+              )
+            })}
           </div>
 
           <button className="btn btn-primary btn-large" onClick={handleStart}>

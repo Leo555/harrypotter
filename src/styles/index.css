@@ -1611,9 +1611,13 @@ a:hover { color: var(--color-gold-light); }
 .house-preview {
   text-align: center;
   padding: 20px;
-  background: rgba(255,255,255,0.02);
-  border: 1px solid;
+  border: 1.5px solid;
   border-radius: var(--radius);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.house-preview:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 .house-preview-emoji { font-size: 2rem; display: block; margin-bottom: 8px; }
 .house-preview-name { display: block; color: var(--color-gold); font-weight: 600; margin-bottom: 4px; }
@@ -4843,6 +4847,69 @@ a:hover { color: var(--color-gold-light); }
   aspect-ratio: 16/10;
   border: 1px solid rgba(var(--color-gold-rgb), 0.15);
   transition: all 0.3s ease;
+}
+
+/* 点击放大遮罩 */
+.gallery-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  animation: fadeIn 0.25s ease;
+  padding: 20px;
+}
+.gallery-overlay-card {
+  position: relative;
+  width: min(90vw, 640px);
+  aspect-ratio: 16/10;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid rgba(var(--color-gold-rgb), 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-overlay-emoji {
+  font-size: 5rem;
+  opacity: 0.5;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.gallery-overlay-info {
+  position: absolute;
+  bottom: 0;
+  left: 0; right: 0;
+  padding: 20px 24px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  z-index: 1;
+}
+.gallery-overlay-movie {
+  font-size: 0.85rem;
+  color: var(--color-gold);
+  margin-top: 8px;
+}
+.gallery-overlay-scene {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+.gallery-overlay-hint {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.4);
 }
 
 .gallery-card-light {
