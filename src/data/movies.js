@@ -5,49 +5,62 @@ function getMovieCoverImage(id) {
   return key ? movieCoverImages[key].default : null
 }
 
-// 电影剧照图片映射（文件位于 src/assets/movie-stills/）
-const movieStillImages = import.meta.glob('../assets/movie-stills/*.webp', { eager: true })
+// 电影剧照图片映射（文件位于 src/assets/gallery/）
+const movieStillImages = import.meta.glob('../assets/gallery/*.webp', { eager: true })
 function getStillImage(id) {
   const key = Object.keys(movieStillImages).find(k => k.includes(`/${id}.webp`))
   return key ? movieStillImages[key].default : null
 }
 
-// 每部电影的经典场景剧照
+// 每部电影的经典场景剧照（来自 TMDB 真实电影截图）
 const movieStills = {
   'philosophers-stone': [
-    { id: 'ps-mirror', caption: '厄里斯魔镜 — 哈利第一次见到父母' },
-    { id: 'ps-quidditch', caption: '第一场魁地奇比赛' },
+    { id: 'philosophers-stone-1', caption: '霍格沃茨城堡初见' },
+    { id: 'philosophers-stone-2', caption: '霍格沃茨的魔法世界' },
+    { id: 'philosophers-stone-3', caption: '魔法石的冒险' },
+    { id: 'philosophers-stone-4', caption: '哈利的第一年' },
   ],
   'chamber-of-secrets': [
-    { id: 'cos-basilisk', caption: '密室中的蛇怪' },
-    { id: 'cos-dobby', caption: '家养小精灵多比' },
-    { id: 'cos-flying-car', caption: '韦斯莱飞行汽车' },
+    { id: 'chamber-of-secrets-1', caption: '密室的秘密' },
+    { id: 'chamber-of-secrets-2', caption: '霍格沃茨的危机' },
+    { id: 'chamber-of-secrets-3', caption: '蛇怪的阴影' },
+    { id: 'chamber-of-secrets-4', caption: '勇闯密室' },
   ],
   'prisoner-of-azkaban': [
-    { id: 'poa-patronus', caption: '守护神咒 — 呼神护卫' },
-    { id: 'poa-buckbeak', caption: '鹰头马身有翼兽巴克比克' },
-    { id: 'poa-dementor', caption: '摄魂怪来袭' },
+    { id: 'prisoner-of-azkaban-1', caption: '阿兹卡班的囚徒' },
+    { id: 'prisoner-of-azkaban-2', caption: '时间转换器' },
+    { id: 'prisoner-of-azkaban-3', caption: '守护神咒' },
+    { id: 'prisoner-of-azkaban-4', caption: '真相大白' },
   ],
   'goblet-of-fire': [
-    { id: 'gof-dragon', caption: '第一项任务 — 匈牙利树蜂龙' },
-    { id: 'gof-graveyard', caption: '小汉格顿墓地 — 伏地魔复活' },
-    { id: 'gof-yule-ball', caption: '圣诞舞会' },
+    { id: 'goblet-of-fire-1', caption: '三强争霸赛' },
+    { id: 'goblet-of-fire-2', caption: '火焰杯的考验' },
+    { id: 'goblet-of-fire-3', caption: '黑暗降临' },
+    { id: 'goblet-of-fire-4', caption: '墓地对决' },
   ],
   'order-of-the-phoenix': [
-    { id: 'ootp-umbridge', caption: '多洛雷斯·乌姆里奇' },
-    { id: 'ootp-ministry', caption: '神秘事务司之战' },
+    { id: 'order-of-the-phoenix-1', caption: '凤凰社集结' },
+    { id: 'order-of-the-phoenix-2', caption: '邓布利多军' },
+    { id: 'order-of-the-phoenix-3', caption: '反抗乌姆里奇' },
+    { id: 'order-of-the-phoenix-4', caption: '神秘事务司之战' },
   ],
   'half-blood-prince': [
-    { id: 'hbp-cave', caption: '魂器洞穴 — 邓布利多与哈利' },
-    { id: 'hbp-astronomy-tower', caption: '天文塔事件' },
+    { id: 'half-blood-prince-1', caption: '混血王子的秘密' },
+    { id: 'half-blood-prince-2', caption: '追寻魂器' },
+    { id: 'half-blood-prince-3', caption: '黑暗笼罩霍格沃茨' },
+    { id: 'half-blood-prince-4', caption: '天文塔的悲剧' },
   ],
   'deathly-hallows-1': [
-    { id: 'dh1-seven-potters', caption: '七个波特行动' },
-    { id: 'dh1-malfoy-manor', caption: '马尔福庄园' },
+    { id: 'deathly-hallows-1-1', caption: '逃亡之路' },
+    { id: 'deathly-hallows-1-2', caption: '寻找魂器' },
+    { id: 'deathly-hallows-1-3', caption: '黑暗时代' },
+    { id: 'deathly-hallows-1-4', caption: '三兄弟的故事' },
   ],
   'deathly-hallows-2': [
-    { id: 'dh2-gringotts', caption: '闯入古灵阁' },
-    { id: 'dh2-battle', caption: '霍格沃茨大战' },
+    { id: 'deathly-hallows-2-1', caption: '最终之战' },
+    { id: 'deathly-hallows-2-2', caption: '霍格沃茨保卫战' },
+    { id: 'deathly-hallows-2-3', caption: '斯内普的真相' },
+    { id: 'deathly-hallows-2-4', caption: '终极对决' },
   ],
 }
 
