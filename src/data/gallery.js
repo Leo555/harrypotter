@@ -1,6 +1,33 @@
 // 人物剧照画廊数据
-// 由于版权原因，使用渐变色+人物场景描述作为视觉化替代方案
-// 每张「剧照」包含场景描述、出处电影、角色造型等关键信息
+// 使用 TMDB 电影剧照作为场景配图
+const galleryImages = import.meta.glob('../assets/gallery/*.webp', { eager: true })
+function getGalleryImage(id) {
+  const key = Object.keys(galleryImages).find(k => k.includes(`/${id}.webp`))
+  return key ? galleryImages[key].default : null
+}
+
+// 电影名 → 已下载的剧照文件ID列表
+const movieToStills = {
+  '魔法石': ['philosophers-stone-1', 'philosophers-stone-2', 'philosophers-stone-3', 'philosophers-stone-4'],
+  '密室': ['chamber-of-secrets-1', 'chamber-of-secrets-2', 'chamber-of-secrets-3', 'chamber-of-secrets-4'],
+  '阿兹卡班囚徒': ['prisoner-of-azkaban-1', 'prisoner-of-azkaban-2', 'prisoner-of-azkaban-3', 'prisoner-of-azkaban-4'],
+  '火焰杯': ['goblet-of-fire-1', 'goblet-of-fire-2', 'goblet-of-fire-3', 'goblet-of-fire-4'],
+  '凤凰社': ['order-of-the-phoenix-1', 'order-of-the-phoenix-2', 'order-of-the-phoenix-3', 'order-of-the-phoenix-4'],
+  '混血王子': ['half-blood-prince-1', 'half-blood-prince-2', 'half-blood-prince-3', 'half-blood-prince-4'],
+  '死亡圣器(上)': ['deathly-hallows-1-1', 'deathly-hallows-1-2', 'deathly-hallows-1-3', 'deathly-hallows-1-4'],
+  '死亡圣器(下)': ['deathly-hallows-2-1', 'deathly-hallows-2-2', 'deathly-hallows-2-3', 'deathly-hallows-2-4'],
+}
+
+// 为每个场景分配一张对应电影的剧照（同一部电影的不同场景轮流使用不同剧照）
+const movieUsageCounter = {}
+function assignStillImage(movie) {
+  const stills = movieToStills[movie]
+  if (!stills || stills.length === 0) return null
+  const count = movieUsageCounter[movie] || 0
+  movieUsageCounter[movie] = count + 1
+  const stillId = stills[count % stills.length]
+  return getGalleryImage(stillId)
+}
 
 const characterGallery = {
   'harry-potter': {
@@ -158,5 +185,14 @@ const characterGallery = {
     ]
   },
 }
+
+// 自动为每个角色的场景分配电影剧照
+Object.values(characterGallery).forEach(charData => {
+  charData.photos.forEach(photo => {
+    if (!photo.image) {
+      photo.image = assignStillImage(photo.movie)
+    }
+  })
+})
 
 export default characterGallery

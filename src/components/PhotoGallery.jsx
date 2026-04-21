@@ -65,18 +65,24 @@ export default function PhotoGallery({ photos, characterName }) {
         {photos.map((photo, i) => (
           <div
             key={photo.id || i}
-            className="gallery-card hover-lift"
+            className={`gallery-card hover-lift ${photo.image ? 'gallery-card--has-img' : ''}`}
             onClick={() => setSelected(photo)}
-            style={{
+            style={photo.image ? {} : {
               background: `linear-gradient(135deg, ${photo.colors?.[0] || '#2d3436'}, ${photo.colors?.[1] || '#636e72'})`,
             }}
           >
-            <div className="gallery-card-light" />
-            <div className="gallery-scene-emoji">
-              {getSceneEmoji(photo.scene, photo.mood)}
-            </div>
-            <div className="gallery-filmstrip-top" />
-            <div className="gallery-filmstrip-bottom" />
+            {photo.image ? (
+              <img loading="lazy" src={photo.image} alt={photo.scene} className="gallery-card-real-img" />
+            ) : (
+              <>
+                <div className="gallery-card-light" />
+                <div className="gallery-scene-emoji">
+                  {getSceneEmoji(photo.scene, photo.mood)}
+                </div>
+                <div className="gallery-filmstrip-top" />
+                <div className="gallery-filmstrip-bottom" />
+              </>
+            )}
             <div className="gallery-scene-info">
               <div className="gallery-scene-movie">
                 🎬 《{photo.movie}》{photo.year && ` · ${photo.year}`}
@@ -95,14 +101,20 @@ export default function PhotoGallery({ photos, characterName }) {
         <div className="gallery-overlay" onClick={() => setSelected(null)}>
           <div
             className="gallery-overlay-card"
-            style={{
+            style={selected.image ? {} : {
               background: `linear-gradient(135deg, ${selected.colors?.[0] || '#2d3436'}, ${selected.colors?.[1] || '#636e72'})`,
             }}
           >
-            <div className="gallery-card-light" />
-            <div className="gallery-overlay-emoji">
-              {getSceneEmoji(selected.scene, selected.mood)}
-            </div>
+            {selected.image ? (
+              <img src={selected.image} alt={selected.scene} className="gallery-overlay-real-img" />
+            ) : (
+              <>
+                <div className="gallery-card-light" />
+                <div className="gallery-overlay-emoji">
+                  {getSceneEmoji(selected.scene, selected.mood)}
+                </div>
+              </>
+            )}
             <div className="gallery-overlay-info">
               {selected.mood && <span className="gallery-mood-tag">{selected.mood}</span>}
               <div className="gallery-overlay-movie">
