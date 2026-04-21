@@ -58,7 +58,7 @@ export default function Spells() {
             className={`filter-btn ${filter === cat ? 'active' : ''}`}
             onClick={() => setFilter(cat)}
           >
-            {cat === 'all' ? '✨ 全部' : cat === '防御' ? '🛡️ 防御' : cat === '黑魔法' ? '💀 黑魔法' : cat === '实用' ? '🔧 实用' : '🌟 特殊'}
+            {cat === 'all' ? '✨ 全部' : cat === '防御' ? '🛡️ 防御' : cat === '攻击' ? '⚔️ 攻击' : cat === '黑魔法' ? '💀 黑魔法' : cat === '治疗' ? '💚 治疗' : cat === '实用' ? '🔧 实用' : '🌟 特殊'}
           </button>
         ))}
       </div>
