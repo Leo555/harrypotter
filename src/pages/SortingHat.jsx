@@ -62,7 +62,7 @@ export default function SortingHat() {
 
           <div className="sorting-houses-preview">
             {Object.entries(houseResults).map(([key, house]) => (
-              <div key={key} className="house-preview" style={{ borderColor: house.color }}>
+              <div key={key} className="house-preview" style={{ borderColor: `${house.color}66` }}>
                 <span className="house-preview-emoji">{house.emoji}</span>
                 <span className="house-preview-name">{house.name}</span>
                 <span className="house-preview-trait">{house.trait}</span>
