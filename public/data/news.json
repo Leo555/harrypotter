@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-22T01:21:57.304Z",
+  "lastUpdated": "2026-04-22T05:16:28.456Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "2640f505",
-      "title": "哈利波特全球无人机表演启动_新浪新闻 - 新浪网",
+      "id": "9b07af06",
+      "title": "哈利波特全球无人机表演启动_新浪新闻 - 手机新浪网",
       "date": "2026-04-22",
       "category": "综合资讯",
       "summary": "哈利波特全球无人机表演启动_新浪新闻",
@@ -43,8 +43,28 @@
       "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYzdiMzR4bWJ0NkpsSk5VeFhucHlsZUtGMjBUWktmUVp6d3l3RUJlRm1qRXlfMV9TTzZDU3hYaEU0SmswbmY2THhfRXdUcmgyTWhVWjh6MEl0bWVkekZydWh0bTB3WEZQcGFOdmtqSlNDaTBUT0phbFFTSHM0cTJBbUQxVUdENV93SGIxN3R4T0ctMzNuYXN2T0Z2SkdTTUFjOWc?oc=5"
     },
     {
-      "id": "611df415",
-      "title": "哈利波特使用福灵剂_新浪新闻 - 新浪网",
+      "id": "4b395fb1",
+      "title": "HBO 的《哈利-波特》系列可能更贴近原著--但有一个细节令影迷困扰 - Notebookcheck CN",
+      "date": "2026-04-21",
+      "category": "影视动态",
+      "summary": "HBO 的《哈利-波特》系列可能更贴近原著--但有一个细节令影迷困扰",
+      "content": "HBO 的《哈利-波特》系列可能更贴近原著--但有一个细节令影迷困扰",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oMDhYeVBUd2dEQWF6NDczZnNWSUh5c2N2dzdOZHU4ZFdTc3dpaTRla3VxNHIyNFNnYWFyenpHQWxCOEZwTWx3UTl6THhQZ2NaMGxFb2c1R2FTYnhab0hDNw?oc=5"
+    },
+    {
+      "id": "9c5a802c",
+      "title": "哈利波特使用福灵剂_新浪新闻 - 手机新浪网",
       "date": "2026-04-21",
       "category": "影视动态",
       "summary": "哈利波特使用福灵剂_新浪新闻",
@@ -183,8 +203,8 @@
       "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lbk0wN3dhd3FTTnoteUVVRVJPbU5qTWNEMklkRmd1ejJJajBhNjRZemM2c2l2SHVmeWRLa0lSS2lwSlRWb1V2dHNNTFBrbWFuX04tZVpacHRWM3BwS0oyN2ZlXzFGVDFIOWxYcDdEQ1hiWFZtYmc?oc=5"
     },
     {
-      "id": "1d7acc1b",
-      "title": "杨迪回应哈利波特中国版_新浪新闻 - 新浪网",
+      "id": "729adb6e",
+      "title": "杨迪回应哈利波特中国版_新浪新闻 - 手机新浪网",
       "date": "2026-04-19",
       "category": "综合资讯",
       "summary": "杨迪回应哈利波特中国版_新浪新闻",
@@ -243,6 +263,26 @@
       "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMktXVGNodXc2dExMeWxMRUtqQjc3aFNDQmpaVTV3YzRHV2pkcHYzb3BlWTVZZ29SeXp5TGU0dzV4MC1TSy1Yc0hJa0JjUVZhS3Z0Q3lSSS1NS051emE4bnVNYUFCQTlMVVNpRVhpXzFSa0dPVGtHd29XZVNhRm5NN09uTTc?oc=5"
     },
     {
+      "id": "feff7d7a",
+      "title": "哈利波特主题装扮_新浪新闻 - 手机新浪网",
+      "date": "2026-04-18",
+      "category": "影视动态",
+      "summary": "哈利波特主题装扮_新浪新闻",
+      "content": "哈利波特主题装扮_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qSlM4QmxDdW9MMmNKa0xCQzVQSVpnZEwzTzBrSkl5aEpqd0N0cXBiczdYc1AxY2lsVW9xSmJmUTVZZ3RPMFg1a0lHZ2Y4OFNLZ2pORTk2M21Ja3ZLWXB4R21vZw?oc=5"
+    },
+    {
       "id": "5e387205",
       "title": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​ - 新浪网",
       "date": "2026-04-18",
@@ -281,26 +321,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoUkdicXhsYTFNclN1SkNRb1ZEbktYb1BiZi16dFNIYmZZOTlkRUpvVzlLVEEtRWt3YjZ2cURQWW1BYnJ6SVFPZzFIMXFGU2V3cmw1eDBDcFVCT3UxNm1HMnlqYw?oc=5"
-    },
-    {
-      "id": "cb1b15cc",
-      "title": "哈利波特主题装扮_新浪新闻 - 新浪网",
-      "date": "2026-04-18",
-      "category": "影视动态",
-      "summary": "哈利波特主题装扮_新浪新闻",
-      "content": "哈利波特主题装扮_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qSlM4QmxDdW9MMmNKa0xCQzVQSVpnZEwzTzBrSkl5aEpqd0N0cXBiczdYc1AxY2lsVW9xSmJmUTVZZ3RPMFg1a0lHZ2Y4OFNLZ2pORTk2M21Ja3ZLWXB4R21vZw?oc=5"
     },
     {
       "id": "d96c3141",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BSTFTZ3BSekZHSGtsLTEyQVpjRk82SHBzSy1Bdm81WWc4ZW5aNjYtRE1fQjRnZnhGdTB1blMtRHpRNjdpMWZwRHI2NU9JdmxiQVRvZHBteldmQ2c1c0tFMXJHcw?oc=5"
-    },
-    {
-      "id": "f9469d2f",
-      "title": "2026北京书市明日开幕，莎士比亚、海子、哈利·波特一起“等”你来 - 京报网",
-      "date": "2026-04-17",
-      "category": "出版物",
-      "summary": "2026北京书市明日开幕，莎士比亚、海子、哈利·波特一起“等”你来",
-      "content": "2026北京书市明日开幕，莎士比亚、海子、哈利·波特一起“等”你来",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DWWRnaGRjck1wLVEwQVlVUEdvZVpwVC1NOEVOVXZyZHNmNnJWUll4VFRrUldiUC1COXVGZFFYbzVtT1R1XzNyc053RENabzRIUm5rUmxWcUduZXcyb2c?oc=5"
     }
   ]
 }
