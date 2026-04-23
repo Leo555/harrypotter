@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-04-22T21:41:07.131Z",
+  "lastUpdated": "2026-04-23T01:27:09.167Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "9b07af06",
-      "title": "哈利波特全球无人机表演启动_新浪新闻 - 手机新浪网",
+      "id": "e8d76178",
+      "title": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料|光学|报纸|魔法|成果|幻想_手机新浪网 - 新浪财经",
       "date": "2026-04-22",
       "category": "综合资讯",
-      "summary": "哈利波特全球无人机表演启动_新浪新闻",
-      "content": "哈利波特全球无人机表演启动_新浪新闻",
+      "summary": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料|光学|报纸|魔法|成果|幻想_手机新浪网",
+      "content": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料|光学|报纸|魔法|成果|幻想_手机新浪网",
       "image": "📰",
       "relatedLinks": [
         {
@@ -20,11 +20,31 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ucXo2TTBqbjlUdU05VW50ZW1NelJVVms0S0cySmxZVGJPcVNiX2lBT0RkZzFuXzlsYTFpeWRmYkZDSkJmbzlBR05TNnh5N0pVdWFlSjItd3VHRXBQRjFGZzVEdw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVjdDS0RyR2lzWG0wblVxU1dKRWUxNjZHU0NQbDZybHdMYjF2a0lXU1lSV3cxejkyZGN2bjFLbk5sN3hEUUh6X1FEaHpTZjltOXlkckdWb2MxaFRDdnU0WndvYWtpdTJiRnoyUHdkbTA0c1M0V1c5RDdSWk82WWdwZlA0ZEFtaHR2N2RXZktoS0xmcXhKSVdLRnNKOHk5V2FsTGRQcHlBbw?oc=5"
     },
     {
-      "id": "3ec54e8b",
-      "title": "哈利波特与魔戒之护戒小队加十分 - 手机新浪网",
+      "id": "df019529",
+      "title": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料 - 搜狐网",
+      "date": "2026-04-22",
+      "category": "综合资讯",
+      "summary": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
+      "content": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQWMxU1dQazh2OGtuOVBScGhnQUpDZHZKWXVvOS1jNU9FNlp2LXd0eEFKaE1vM0xDa1FXVTd5NUN0MUxmSG1YVjZQZG5zYmFGaEJuOEFsRXpCVE14cllmZ2NONlRFenUzM2ozVnVKU19XRzhsSm5WMDNuR1FFUmVjejNZN3FLaDVMNUNkTg?oc=5"
+    },
+    {
+      "id": "03373721",
+      "title": "哈利波特与魔戒之护戒小队加十分 - 新浪网",
       "date": "2026-04-22",
       "category": "综合资讯",
       "summary": "哈利波特与魔戒之护戒小队加十分",
@@ -61,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UVTE0SjFRenpIUWJnbnFreXB3b2R5S0tiWVhTSjBVN1k3dnlheXlmQnNZaFRkczBWQUFLT29YbGkwamJULXVNbkl2YkI?oc=5"
+    },
+    {
+      "id": "9b07af06",
+      "title": "哈利波特全球无人机表演启动_新浪新闻 - 手机新浪网",
+      "date": "2026-04-22",
+      "category": "综合资讯",
+      "summary": "哈利波特全球无人机表演启动_新浪新闻",
+      "content": "哈利波特全球无人机表演启动_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ucXo2TTBqbjlUdU05VW50ZW1NelJVVms0S0cySmxZVGJPcVNiX2lBT0RkZzFuXzlsYTFpeWRmYkZDSkJmbzlBR05TNnh5N0pVdWFlSjItd3VHRXBQRjFGZzVEdw?oc=5"
     },
     {
       "id": "fd24893d",
@@ -103,8 +143,28 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oMDhYeVBUd2dEQWF6NDczZnNWSUh5c2N2dzdOZHU4ZFdTc3dpaTRla3VxNHIyNFNnYWFyenpHQWxCOEZwTWx3UTl6THhQZ2NaMGxFb2c1R2FTYnhab0hDNw?oc=5"
     },
     {
-      "id": "9c5a802c",
-      "title": "哈利波特使用福灵剂_新浪新闻 - 手机新浪网",
+      "id": "e0725021",
+      "title": "大乱斗禁止挂机_新浪新闻 - 新浪网",
+      "date": "2026-04-21",
+      "category": "影视动态",
+      "summary": "大乱斗禁止挂机_新浪新闻",
+      "content": "大乱斗禁止挂机_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNRGFCOE5QSFNZQVIwSzVhOGIyaU5BWHJra1FkQi1adzBHbWZDU2hlTWVtVXVpSC0wUVBlZ1luT0dKNVBkOFg1ZDFibGcwcTY5R0V5T2JISU9vM3Rkc0FuejgwMA?oc=5"
+    },
+    {
+      "id": "611df415",
+      "title": "哈利波特使用福灵剂_新浪新闻 - 新浪网",
       "date": "2026-04-21",
       "category": "影视动态",
       "summary": "哈利波特使用福灵剂_新浪新闻",
@@ -163,6 +223,26 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Nam01NEJJQnY0Q1JVYVljS1UzZktYMG1RejN3UWlZekMxckpzR0tjeWJvZnByQlV3ZzFwQkhJbVBxaVRZdjJqM014Yk1DQ2pqc1EzMks2R1VaUGdfbWZLX0UyQzc?oc=5"
     },
     {
+      "id": "dcd27189",
+      "title": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合 - Mix Vale",
+      "date": "2026-04-20",
+      "category": "影视动态",
+      "summary": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合",
+      "content": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNUjFQUG5QSzJod1pLZTFicUcwdVIxS2NMeHYzNlNOMXNUdklvT1JqZDJPQi1JTkQyVFhybm9VWjBiSUF5d3EtLUhuUHYzQWEyTTZEb0NBd3V4OEVoUlBXQmtQVzFLbmJNb1pYY0phT0RpcDctRXJ2UFJxLUpvaF9McjF4bnNXUXNUcWNIZlFmVE8zN1lZTVowOEl5RFdiNWg5RnpsY2FtWUpnVUZ5amd4RndzcVBTR0FYOVUtVUNlWElLdDE5YnJEanVqRVFmYlhDOGlXU2ZDTXNHTjJ6SXJ1UklyNmFpSmJTd1BILVZfdHhEdjI3U1pmS2k5ZDNqR2lSdVBwYmRUMEs1RnRabXlLd0Y1cElkXzkyQjRwNTZvOHlCcDRxenpPU3k2OXRFOWpjZnhQeHo3QzI3ODQ4c0d3TXJvOGFlcXV5NlRORVZ5RFY5Qm5NMEpIWDZfSWI1QzDSAd8CQVVfeXFMTVIxUFBuUEsyaHdaS2UxYnFHMHVSMUtjTHh2MzZTTjFzVHZJb09SamQyT0ItSU5EMlRYcm5vVVowYklBeXdxLS1IblB2M0FhMk02RG9DQXd1eDhFaFJQV0JrUFcxS25iTW9aWGNKYU9EaXA3LUVydlBScS1Kb2hfTHIxeG5zV1FzVHFjSGZRZlRPMzdZWU1aMDhJeURXYjVoOUZ6bGNhbVlKZ1VGeWpneEZ3c3FQU0dBWDlVLVVDZVhJS3QxOWJyRGp1akVRZmJYQzhpV1NmQ01zR04yeklydVJJcjZhaUpiU3dQSC1WX3R4RHYyN1NaZktpOWQzakdpUnVQcGJkVDBLNUZ0Wm15S3dGNXBJZF85MkI0cDU2bzh5QnA0cXp6T1N5Njl0RTlqY2Z4UHh6N0MyNzg0OHNHd01ybzhhZXF1eTZUTkVWeURWOUJuTTBKSFg2X0liNUMw?oc=5"
+    },
+    {
       "id": "2a529322",
       "title": "打败《哈利波特》荣获卡内基文学首奖，小说《小河男孩》描绘生命的重量与意义｜诚品选书 - meet eslite",
       "date": "2026-04-20",
@@ -201,26 +281,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HbnpUNjRFUzU5ZGtDOWg4dHpnOWd4U0tOMHhPU1NDdmx3NDZ6OVlrQkpIYnA3M2N4TG9YeFJyenkwMkxCV2lTSGxrd0tsSEdudGcwNlNR?oc=5"
-    },
-    {
-      "id": "dcd27189",
-      "title": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合 - Mix Vale",
-      "date": "2026-04-20",
-      "category": "影视动态",
-      "summary": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合",
-      "content": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNUjFQUG5QSzJod1pLZTFicUcwdVIxS2NMeHYzNlNOMXNUdklvT1JqZDJPQi1JTkQyVFhybm9VWjBiSUF5d3EtLUhuUHYzQWEyTTZEb0NBd3V4OEVoUlBXQmtQVzFLbmJNb1pYY0phT0RpcDctRXJ2UFJxLUpvaF9McjF4bnNXUXNUcWNIZlFmVE8zN1lZTVowOEl5RFdiNWg5RnpsY2FtWUpnVUZ5amd4RndzcVBTR0FYOVUtVUNlWElLdDE5YnJEanVqRVFmYlhDOGlXU2ZDTXNHTjJ6SXJ1UklyNmFpSmJTd1BILVZfdHhEdjI3U1pmS2k5ZDNqR2lSdVBwYmRUMEs1RnRabXlLd0Y1cElkXzkyQjRwNTZvOHlCcDRxenpPU3k2OXRFOWpjZnhQeHo3QzI3ODQ4c0d3TXJvOGFlcXV5NlRORVZ5RFY5Qm5NMEpIWDZfSWI1QzDSAd8CQVVfeXFMTVIxUFBuUEsyaHdaS2UxYnFHMHVSMUtjTHh2MzZTTjFzVHZJb09SamQyT0ItSU5EMlRYcm5vVVowYklBeXdxLS1IblB2M0FhMk02RG9DQXd1eDhFaFJQV0JrUFcxS25iTW9aWGNKYU9EaXA3LUVydlBScS1Kb2hfTHIxeG5zV1FzVHFjSGZRZlRPMzdZWU1aMDhJeURXYjVoOUZ6bGNhbVlKZ1VGeWpneEZ3c3FQU0dBWDlVLVVDZVhJS3QxOWJyRGp1akVRZmJYQzhpV1NmQ01zR04yeklydVJJcjZhaUpiU3dQSC1WX3R4RHYyN1NaZktpOWQzakdpUnVQcGJkVDBLNUZ0Wm15S3dGNXBJZF85MkI0cDU2bzh5QnA0cXp6T1N5Njl0RTlqY2Z4UHh6N0MyNzg0OHNHd01ybzhhZXF1eTZUTkVWeURWOUJuTTBKSFg2X0liNUMw?oc=5"
     },
     {
       "id": "b248df82",
@@ -263,8 +323,8 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aNFlyMEY1MlVCUE5SSk1SV3VLbndsV0RJMjRvVENUQWRZUXFaWVo1UFcwUTkwV2w2V3BTaDR6QThHX1laVWZEdjJFdUIzbmdvc21RUmEyLS1SZFpIcVZRWHhYYw?oc=5"
     },
     {
-      "id": "729adb6e",
-      "title": "杨迪回应哈利波特中国版_新浪新闻 - 手机新浪网",
+      "id": "1d7acc1b",
+      "title": "杨迪回应哈利波特中国版_新浪新闻 - 新浪网",
       "date": "2026-04-19",
       "category": "综合资讯",
       "summary": "杨迪回应哈利波特中国版_新浪新闻",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMktXVGNodXc2dExMeWxMRUtqQjc3aFNDQmpaVTV3YzRHV2pkcHYzb3BlWTVZZ29SeXp5TGU0dzV4MC1TSy1Yc0hJa0JjUVZhS3Z0Q3lSSS1NS051emE4bnVNYUFCQTlMVVNpRVhpXzFSa0dPVGtHd29XZVNhRm5NN09uTTc?oc=5"
-    },
-    {
-      "id": "daa04a2d",
-      "title": "玛丽·格兰德普雷未公开哈利·波特插画曝光 - 新浪财经",
-      "date": "2026-04-18",
-      "category": "出版物",
-      "summary": "玛丽·格兰德普雷未公开哈利·波特插画曝光",
-      "content": "玛丽·格兰德普雷未公开哈利·波特插画曝光",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSlR5cjNfbmk2Z2NvWXd0VV9rUHNTdTU1c1JTejJaUGRfLXdMNjA2a3pRMDk3WjVKaEFyck9nXzdsYUFvNUxNVGY3Z0tRWWdXcGk0d3laSFZlX1N5cmEyZ09YVjBzWk04Z1JRUDR1dWplUGVUMU5WZllJWGcwVzFXZWJCdGs?oc=5"
-    },
-    {
-      "id": "1a7928cb",
-      "title": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​ - 手机新浪网",
-      "date": "2026-04-18",
-      "category": "出版物",
-      "summary": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​",
-      "content": "玛丽·格兰德普雷未公开的《哈利·波特》插画 📚 ​",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tN1RsYkZfbTh3b3ZGcU9TLWVMRWtIVnNWQ25sV1BtNS1qWU5WeFFwM29YZGNqR2lRSi1zX1F6U0RQYm1sMkk2QXRZbVNMRUJxWXQ5N1Y2bkhRNUkxR29pUzNQZw?oc=5"
-    },
-    {
-      "id": "55d35a98",
-      "title": "游戏装饰交易信息发布_新浪新闻 - 手机新浪网",
-      "date": "2026-04-18",
-      "category": "影视动态",
-      "summary": "游戏装饰交易信息发布_新浪新闻",
-      "content": "游戏装饰交易信息发布_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHTTc1MW51ZnVwQ2tnM2tCSkZOVDAtdF9RclUtZGdPSUZySGczS0JkRUtmX1BPTXJZSmdsZ0xYcFF6TVpJWU9fVzc5Y0lETEItWmhqVWV6alpIdWU3a0gybGFUSQ?oc=5"
     }
   ]
 }
