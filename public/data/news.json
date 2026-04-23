@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-23T12:58:05.661Z",
+  "lastUpdated": "2026-04-23T16:24:24.871Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "e4adf2e1",
+      "title": "《万智牌：旅法师对决》如何打造出对标《哈利波特：魁地奇冠军》的 Strixhaven - news.17173.com",
+      "date": "2026-04-23",
+      "category": "游戏资讯",
+      "summary": "《万智牌：旅法师对决》如何打造出对标《哈利波特：魁地奇冠军》的 Strixhaven",
+      "content": "《万智牌：旅法师对决》如何打造出对标《哈利波特：魁地奇冠军》的 Strixhaven",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vLUhHc2RuVXRpTkFwSURBVFVUMDN4Z25rd0hXSVhCUGxWZ3pTNjZLZTF0ak1aY29DX2hXREsySFVkMkF3WVVBMjhfeklVd0JteWYtbzhGcnhqSVRfV2o0R284SW9UQQ?oc=5"
+    },
     {
       "id": "e8d76178",
       "title": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料|光学|报纸|魔法|成果|幻想_手机新浪网 - 新浪财经",
@@ -143,6 +163,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oMDhYeVBUd2dEQWF6NDczZnNWSUh5c2N2dzdOZHU4ZFdTc3dpaTRla3VxNHIyNFNnYWFyenpHQWxCOEZwTWx3UTl6THhQZ2NaMGxFb2c1R2FTYnhab0hDNw?oc=5"
     },
     {
+      "id": "6175fc7e",
+      "title": "哈利取得魂器回忆_新浪新闻 - 手机新浪网",
+      "date": "2026-04-21",
+      "category": "综合资讯",
+      "summary": "哈利取得魂器回忆_新浪新闻",
+      "content": "哈利取得魂器回忆_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56SU1jaUNQZ0U0RFNOYXNEWUdxRUZHSmRKRjhLSi10SDVENFYwaHZmM3FWdXR1aFdfS3FjbHB1SWlwM0t4aXdUX2V2cUQ5ak01NWxBaU5FMGI0SmxyQ1R0OEg0OA?oc=5"
+    },
+    {
       "id": "9c5a802c",
       "title": "哈利波特使用福灵剂_新浪新闻 - 手机新浪网",
       "date": "2026-04-21",
@@ -223,6 +263,46 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Nam01NEJJQnY0Q1JVYVljS1UzZktYMG1RejN3UWlZekMxckpzR0tjeWJvZnByQlV3ZzFwQkhJbVBxaVRZdjJqM014Yk1DQ2pqc1EzMks2R1VaUGdfbWZLX0UyQzc?oc=5"
     },
     {
+      "id": "b248df82",
+      "title": "丹尼尔-雷德克里夫为《哈利-波特》系列电影排序--本片意外荣登榜首 - Notebookcheck CN",
+      "date": "2026-04-20",
+      "category": "影视动态",
+      "summary": "丹尼尔-雷德克里夫为《哈利-波特》系列电影排序--本片意外荣登榜首",
+      "content": "丹尼尔-雷德克里夫为《哈利-波特》系列电影排序--本片意外荣登榜首",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QREJfbEpHRVo2bllOYlk5cXZCVzlCVURMX2NpSDZTYkFnVUFIZXdSbHdTQ3lPaHhyYnFCdlRmNXFNUlN6aFlMSTNFc1JaX3Z0NmxMNXdhazNFWXM?oc=5"
+    },
+    {
+      "id": "4c81033d",
+      "title": "费金疑案赛季预告_新浪新闻 - 手机新浪网",
+      "date": "2026-04-20",
+      "category": "影视动态",
+      "summary": "费金疑案赛季预告_新浪新闻",
+      "content": "费金疑案赛季预告_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aNFlyMEY1MlVCUE5SSk1SV3VLbndsV0RJMjRvVENUQWRZUXFaWVo1UFcwUTkwV2w2V3BTaDR6QThHX1laVWZEdjJFdUIzbmdvc21RUmEyLS1SZFpIcVZRWHhYYw?oc=5"
+    },
+    {
       "id": "dcd27189",
       "title": "《霍格沃茨遗产 2》将于 2026 年与 HBO 的新哈利波特系列直接整合 - Mix Vale",
       "date": "2026-04-20",
@@ -283,46 +363,6 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HbnpUNjRFUzU5ZGtDOWg4dHpnOWd4U0tOMHhPU1NDdmx3NDZ6OVlrQkpIYnA3M2N4TG9YeFJyenkwMkxCV2lTSGxrd0tsSEdudGcwNlNR?oc=5"
     },
     {
-      "id": "b248df82",
-      "title": "丹尼尔-雷德克里夫为《哈利-波特》系列电影排序--本片意外荣登榜首 - Notebookcheck CN",
-      "date": "2026-04-20",
-      "category": "影视动态",
-      "summary": "丹尼尔-雷德克里夫为《哈利-波特》系列电影排序--本片意外荣登榜首",
-      "content": "丹尼尔-雷德克里夫为《哈利-波特》系列电影排序--本片意外荣登榜首",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QREJfbEpHRVo2bllOYlk5cXZCVzlCVURMX2NpSDZTYkFnVUFIZXdSbHdTQ3lPaHhyYnFCdlRmNXFNUlN6aFlMSTNFc1JaX3Z0NmxMNXdhazNFWXM?oc=5"
-    },
-    {
-      "id": "7fb3ee51",
-      "title": "费金疑案赛季预告_新浪新闻 - 新浪网",
-      "date": "2026-04-20",
-      "category": "影视动态",
-      "summary": "费金疑案赛季预告_新浪新闻",
-      "content": "费金疑案赛季预告_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aNFlyMEY1MlVCUE5SSk1SV3VLbndsV0RJMjRvVENUQWRZUXFaWVo1UFcwUTkwV2w2V3BTaDR6QThHX1laVWZEdjJFdUIzbmdvc21RUmEyLS1SZFpIcVZRWHhYYw?oc=5"
-    },
-    {
       "id": "729adb6e",
       "title": "杨迪回应哈利波特中国版_新浪新闻 - 手机新浪网",
       "date": "2026-04-19",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uTXZqN0loN0NZY2ZNaDVqODdTbDBUcHVqczNGaFRPdU15aE9OZElYUzdqTGd3cWhOZkRnNkV6VWp3Skc1WWZIN1VvUVJtdU53MFRlQktFckt1LTRlZDl4SnV6dw?oc=5"
-    },
-    {
-      "id": "7fbd610b",
-      "title": "2026北京书市开幕，莎士比亚、海子、哈利·波特一起“等”你来 - 新浪新闻_手机新浪网",
-      "date": "2026-04-19",
-      "category": "出版物",
-      "summary": "2026北京书市开幕，莎士比亚、海子、哈利·波特一起“等”你来",
-      "content": "2026北京书市开幕，莎士比亚、海子、哈利·波特一起“等”你来",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lbk0wN3dhd3FTTnoteUVVRVJPbU5qTWNEMklkRmd1ejJJajBhNjRZemM2c2l2SHVmeWRLa0lSS2lwSlRWb1V2dHNNTFBrbWFuX04tZVpacHRWM3BwS0oyN2ZlXzFGVDFIOWxYcDdEQ1hiWFZtYmc?oc=5"
-    },
-    {
-      "id": "03d1c21e",
-      "title": "麻瓜来到魔法世界#日常碎片plog# ​ - 手机新浪网",
-      "date": "2026-04-19",
-      "category": "影视动态",
-      "summary": "麻瓜来到魔法世界#日常碎片plog# ​",
-      "content": "麻瓜来到魔法世界#日常碎片plog# ​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JZmU3cjVXMEkzRjI1SmY1amdGZXdLRTdZVzl5cWp0NXQtX1FncjlTVEdFZ2NNbFZNb3FvXzFtU3N6UVM2OG1MdWVBZXZfXzgyV1JBeTl5OUxWVXpXQ1doaklLNA?oc=5"
     }
   ]
 }
