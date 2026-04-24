@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-24T15:57:30.418Z",
+  "lastUpdated": "2026-04-24T18:35:45.263Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "34acc706",
+      "title": "哈利波特 26-04-23 12:00 - 手机新浪网",
+      "date": "2026-04-23",
+      "category": "影视动态",
+      "summary": "哈利波特 26-04-23 12:00",
+      "content": "哈利波特 26-04-23 12:00",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PeGVwLWdwX0VSWktGVmhSc2NTTGo5SVNNeWlYYXNnc0xxVjZVMGMxejJFVWVZMTUyRjB4VVNTbVR6bG53UzJtLThhR2FvZHYxb0s1LTVETWpzZTkzdGRRaDBCNA?oc=5"
+    },
     {
       "id": "ad94419d",
       "title": "《万智牌：旅法师对决》如何打造出对标《哈利波特：魁地奇冠军》的 Strixhaven - 17173",
@@ -43,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVjdDS0RyR2lzWG0wblVxU1dKRWUxNjZHU0NQbDZybHdMYjF2a0lXU1lSV3cxejkyZGN2bjFLbk5sN3hEUUh6X1FEaHpTZjltOXlkckdWb2MxaFRDdnU0WndvYWtpdTJiRnoyUHdkbTA0c1M0V1c5RDdSWk82WWdwZlA0ZEFtaHR2N2RXZktoS0xmcXhKSVdLRnNKOHk5V2FsTGRQcHlBbw?oc=5"
     },
     {
+      "id": "88b5280e",
+      "title": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料 - jfdaily.com",
+      "date": "2026-04-22",
+      "category": "综合资讯",
+      "summary": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
+      "content": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JR0MtUWl3RDIxZ2pXbElha0JPbnpIUkRucHJDQzRHZVdXanFFUDJNYUU5NWVGRGg4a3YwT1F0NEVZeHRCcEJuUlBwMkYwVGVDa1FOX1FpN2JNQQ?oc=5"
+    },
+    {
       "id": "5de0323b",
       "title": "[🎥] #SULLChive# 伦敦日记💂🇬🇧 ​ - 手机新浪网",
       "date": "2026-04-22",
@@ -81,26 +121,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YT1N1N3ZSSEhoUzZ6anVzRXVTdTNkV1RiU2ltRDRFMmRZYnNhT2ZGQlU5bzF4QWlLbXZjUmdkT2YxaEZQSzRKRDhDbmZOLUN0R2JQdzQ4Rk9QSDBxb25nOVFINA?oc=5"
-    },
-    {
-      "id": "88b5280e",
-      "title": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料 - jfdaily.com",
-      "date": "2026-04-22",
-      "category": "综合资讯",
-      "summary": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
-      "content": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JR0MtUWl3RDIxZ2pXbElha0JPbnpIUkRucHJDQzRHZVdXanFFUDJNYUU5NWVGRGg4a3YwT1F0NEVZeHRCcEJuUlBwMkYwVGVDa1FOX1FpN2JNQQ?oc=5"
     },
     {
       "id": "9b3239dc",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pbWZaWTRMZEJRcFd0LTVNbWt4N2J1X1ZmVE5XN0NkcEFiaV9LZmM2TmxQRllxTXRjcnNXOG5JdG10Y0otMXU5bUtsUzZYMTRPWG91MVJITC1SQS1oZlFV?oc=5"
-    },
-    {
-      "id": "4ce62ca7",
-      "title": "《哈利·波特》魔法回归......Coupang Play独家上线 - 매일경제",
-      "date": "2026-04-20",
-      "category": "综合资讯",
-      "summary": "《哈利·波特》魔法回归......Coupang Play独家上线",
-      "content": "《哈利·波特》魔法回归......Coupang Play独家上线",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HbnpUNjRFUzU5ZGtDOWg4dHpnOWd4U0tOMHhPU1NDdmx3NDZ6OVlrQkpIYnA3M2N4TG9YeFJyenkwMkxCV2lTSGxrd0tsSEdudGcwNlNR?oc=5"
     }
   ]
 }
