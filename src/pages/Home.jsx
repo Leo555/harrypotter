@@ -14,6 +14,7 @@ const features = [
   { path: '/world/creatures', icon: '🐉', title: '魔法生物', desc: '从龙到凤凰，探索魔法世界中最神奇的生物图鉴' },
   { path: '/world/items', icon: '⚗️', title: '魔法物品', desc: '死亡圣器、魂器、活点地图......传奇物品全收录' },
   { path: '/world/places', icon: '🗺️', title: '地点百科', desc: '霍格沃茨、对角巷、阿兹卡班......走遍魔法世界每个角落' },
+  { path: '/world/potions', icon: '🧪', title: '魔药百科', desc: '从复方汤剂到福灵剂，探索魔药学的奥秘与配方' },
   { path: '/news', icon: '📰', title: '预言家日报', desc: '哈利波特最新新闻动态，影视、游戏、活动资讯实时更新' },
   { path: '/extra-stories', icon: '📖', title: '隐秘故事集', desc: 'J.K.罗琳的番外传说，人物背景故事与魔法世界设定' },
   { path: '/timeline', icon: '⏳', title: '魔法时间线', desc: '1926-2017 百年大事记，魔法世界的历史长河' },

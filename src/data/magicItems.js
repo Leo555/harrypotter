@@ -10,6 +10,7 @@ const magicItems = [
   { 
     emoji: '📔', 
     name: '汤姆·里德尔的日记', 
+    id: 'tom-riddle',
     nameEn: "Tom Riddle's Diary", 
     image: getItemImage('tom-riddles-diary'),
     type: '魂器', 
@@ -19,6 +20,7 @@ const magicItems = [
   { 
     emoji: '💍', 
     name: '马沃罗·冈特的戒指', 
+    id: 'marvolo-gaunt',
     nameEn: "Marvolo Gaunt's Ring", 
     image: getItemImage('gaunts-ring'),
     type: '魂器/圣器', 
@@ -28,6 +30,7 @@ const magicItems = [
   { 
     emoji: '🏆', 
     name: '赫奇帕奇的金杯', 
+    id: 'hufflepuff',
     nameEn: "Hufflepuff's Cup", 
     image: getItemImage('hufflepuffs-cup'),
     type: '魂器', 
@@ -37,6 +40,7 @@ const magicItems = [
   { 
     emoji: '👑', 
     name: '拉文克劳的冠冕', 
+    id: 'ravenclaw',
     nameEn: "Ravenclaw's Diadem", 
     image: getItemImage('ravenclaws-diadem'),
     type: '魂器', 
@@ -46,6 +50,7 @@ const magicItems = [
   { 
     emoji: '🐍', 
     name: '斯莱特林的挂坠盒', 
+    id: 'slytherin',
     nameEn: "Slytherin's Locket", 
     image: getItemImage('slytherins-locket'),
     type: '魂器', 
@@ -55,6 +60,7 @@ const magicItems = [
   { 
     emoji: '⚡', 
     name: '哈利·波特（活魂器）', 
+    id: 'harry-potter-living-horcrux',
     nameEn: 'Harry Potter (Living Horcrux)', 
     image: getItemImage('harry-living-horcrux'),
     type: '魂器', 
@@ -64,6 +70,7 @@ const magicItems = [
   { 
     emoji: '🐍', 
     name: '娜吉尼', 
+    id: 'nagini',
     nameEn: 'Nagini', 
     image: getItemImage('nagini'),
     type: '魂器', 
@@ -73,6 +80,7 @@ const magicItems = [
   { 
     emoji: '🪄', 
     name: '老魔杖（接骨木魔杖）', 
+    id: 'the-elder-wand',
     nameEn: 'The Elder Wand', 
     image: getItemImage('elder-wand'),
     type: '死亡圣器', 
@@ -82,6 +90,7 @@ const magicItems = [
   { 
     emoji: '🧥', 
     name: '隐形衣', 
+    id: 'cloak-of-invisibility',
     nameEn: 'Cloak of Invisibility', 
     image: getItemImage('invisibility-cloak'),
     type: '死亡圣器', 
@@ -91,6 +100,7 @@ const magicItems = [
   { 
     emoji: '💎', 
     name: '复活石', 
+    id: 'resurrection-stone',
     nameEn: 'Resurrection Stone', 
     image: getItemImage('resurrection-stone'),
     type: '死亡圣器', 
@@ -100,6 +110,7 @@ const magicItems = [
   { 
     emoji: '🗺️', 
     name: '活点地图', 
+    id: 'marauder',
     nameEn: "Marauder's Map", 
     image: getItemImage('marauders-map'),
     type: '魔法道具', 
@@ -109,6 +120,7 @@ const magicItems = [
   { 
     emoji: '⏰', 
     name: '时间转换器', 
+    id: 'time-turner',
     nameEn: 'Time-Turner', 
     image: getItemImage('time-turner'),
     type: '魔法道具', 
@@ -118,6 +130,7 @@ const magicItems = [
   { 
     emoji: '🪞', 
     name: '厄里斯魔镜', 
+    id: 'mirror-of-erised',
     nameEn: 'Mirror of Erised', 
     image: getItemImage('mirror-of-erised'),
     type: '魔法道具', 
@@ -127,6 +140,7 @@ const magicItems = [
   { 
     emoji: '🗡️', 
     name: '格兰芬多之剑', 
+    id: 'sword-of-gryffindor',
     nameEn: 'Sword of Gryffindor', 
     image: getItemImage('sword-of-gryffindor'),
     type: '传奇物品', 
@@ -136,6 +150,7 @@ const magicItems = [
   { 
     emoji: '🧹', 
     name: '火弩箭', 
+    id: 'firebolt',
     nameEn: 'Firebolt', 
     image: getItemImage('firebolt'),
     type: '魔法道具', 
@@ -145,6 +160,7 @@ const magicItems = [
   { 
     emoji: '📻', 
     name: '波特守望', 
+    id: 'potterwatch',
     nameEn: 'Potterwatch', 
     image: getItemImage('potterwatch'),
     type: '魔法道具', 
@@ -154,6 +170,7 @@ const magicItems = [
   { 
     emoji: '🔮', 
     name: '预言球', 
+    id: 'prophecy-orb',
     nameEn: 'Prophecy Orb', 
     image: getItemImage('prophecy-orb'),
     type: '魔法道具', 
@@ -163,6 +180,7 @@ const magicItems = [
   { 
     emoji: '📜', 
     name: '韦斯莱魔法把戏坊发明', 
+    id: 'weasleys',
     nameEn: "Weasleys' Wizard Wheezes Products", 
     image: getItemImage('weasleys-products'),
     type: '魔法道具', 
@@ -172,6 +190,7 @@ const magicItems = [
   { 
     emoji: '🪙', 
     name: 'DA联络金币', 
+    id: 'dumbledore',
     nameEn: "Dumbledore's Army Coins", 
     image: getItemImage('da-coins'),
     type: '魔法道具', 
@@ -181,6 +200,7 @@ const magicItems = [
   { 
     emoji: '🏆', 
     name: '三强争霸赛杯', 
+    id: 'triwizard-cup',
     nameEn: 'Triwizard Cup', 
     image: getItemImage('triwizard-cup'),
     type: '魔法道具', 
@@ -190,6 +210,7 @@ const magicItems = [
   { 
     emoji: '💌', 
     name: '吼叫信', 
+    id: 'howler',
     nameEn: 'Howler', 
     image: getItemImage('howler'),
     type: '魔法道具', 
@@ -199,6 +220,7 @@ const magicItems = [
   { 
     emoji: '🫙', 
     name: '冥想盆', 
+    id: 'pensieve',
     nameEn: 'Pensieve', 
     image: getItemImage('pensieve'),
     type: '魔法道具', 
@@ -208,6 +230,7 @@ const magicItems = [
   { 
     emoji: '🔥', 
     name: '飞路粉', 
+    id: 'floo-powder',
     nameEn: 'Floo Powder', 
     image: getItemImage('floo-powder'),
     type: '魔法道具', 
@@ -217,6 +240,7 @@ const magicItems = [
   { 
     emoji: '🕰️', 
     name: '韦斯莱家的魔法钟', 
+    id: 'weasley-clock',
     nameEn: 'Weasley Clock', 
     image: getItemImage('weasley-clock'),
     type: '魔法道具', 
@@ -226,6 +250,7 @@ const magicItems = [
   { 
     emoji: '📗', 
     name: '怪兽之书', 
+    id: 'the-monster-book-of-monsters',
     nameEn: 'The Monster Book of Monsters', 
     image: getItemImage('monster-book'),
     type: '魔法道具', 
@@ -235,6 +260,7 @@ const magicItems = [
   { 
     emoji: '🔴', 
     name: '记忆球', 
+    id: 'remembrall',
     nameEn: 'Remembrall', 
     image: getItemImage('remembrall'),
     type: '魔法道具', 
@@ -244,6 +270,7 @@ const magicItems = [
   { 
     emoji: '🪙', 
     name: '妖精银', 
+    id: 'goblin-silver',
     nameEn: 'Goblin Silver', 
     image: getItemImage('goblin-silver'),
     type: '传奇物品', 
@@ -253,6 +280,7 @@ const magicItems = [
   { 
     emoji: '👜', 
     name: '赫敏的串珠手包', 
+    id: 'hermione',
     nameEn: "Hermione's Beaded Bag", 
     image: getItemImage('hermiones-bag'),
     type: '魔法道具', 
@@ -262,6 +290,7 @@ const magicItems = [
   { 
     emoji: '🧹', 
     name: '光轮2000', 
+    id: 'nimbus-2000',
     nameEn: 'Nimbus 2000', 
     image: getItemImage('nimbus-2000'),
     type: '魔法道具', 
@@ -271,6 +300,7 @@ const magicItems = [
   { 
     emoji: '🚗', 
     name: '韦斯莱飞行汽车', 
+    id: 'weasley-flying-car',
     nameEn: 'Weasley Flying Car', 
     image: getItemImage('flying-car'),
     type: '魔法道具', 
@@ -280,6 +310,7 @@ const magicItems = [
   { 
     emoji: '🔮', 
     name: '魔法部电话亭入口', 
+    id: 'ministry-of-magic-visitor-entrance',
     nameEn: 'Ministry of Magic Visitor Entrance', 
     image: getItemImage('ministry-entrance'),
     type: '魔法道具', 
@@ -289,6 +320,7 @@ const magicItems = [
   { 
     emoji: '🌌', 
     name: '黑魔法探测器', 
+    id: 'dark-detectors',
     nameEn: 'Dark Detectors', 
     image: getItemImage('dark-detectors'),
     type: '魔法道具', 
@@ -298,6 +330,7 @@ const magicItems = [
   { 
     emoji: '🧿', 
     name: '黑魔标记', 
+    id: 'dark-mark',
     nameEn: 'Dark Mark', 
     image: getItemImage('dark-mark'),
     type: '黑暗物品', 
@@ -307,6 +340,7 @@ const magicItems = [
   { 
     emoji: '🪞', 
     name: '双面镜', 
+    id: 'two-way-mirror',
     nameEn: 'Two-Way Mirror', 
     image: getItemImage('two-way-mirror'),
     type: '魔法道具', 
@@ -316,6 +350,7 @@ const magicItems = [
   { 
     emoji: '👂', 
     name: '伸缩耳', 
+    id: 'extendable-ears',
     nameEn: 'Extendable Ears', 
     image: getItemImage('extendable-ears'),
     type: '魔法道具', 
@@ -325,6 +360,7 @@ const magicItems = [
   { 
     emoji: '🤧', 
     name: '速效翘课糖', 
+    id: 'skiving-snackboxes',
     nameEn: 'Skiving Snackboxes', 
     image: getItemImage('skiving-snackboxes'),
     type: '魔法道具', 
@@ -334,6 +370,7 @@ const magicItems = [
   { 
     emoji: '🔦', 
     name: '熄灯器', 
+    id: 'deluminator',
     nameEn: 'Deluminator', 
     image: getItemImage('deluminator'),
     type: '传奇物品', 
@@ -343,6 +380,7 @@ const magicItems = [
   { 
     emoji: '🏍️', 
     name: '小天狼星的飞行摩托车', 
+    id: 'sirius-black',
     nameEn: "Sirius Black's Flying Motorcycle", 
     image: getItemImage('sirius-motorcycle'),
     type: '魔法道具', 
@@ -352,6 +390,7 @@ const magicItems = [
   { 
     emoji: '🎩', 
     name: '分院帽', 
+    id: 'sorting-hat',
     nameEn: 'Sorting Hat', 
     image: getItemImage('sorting-hat'),
     type: '传奇物品', 
@@ -361,6 +400,7 @@ const magicItems = [
   { 
     emoji: '🚂', 
     name: '霍格沃茨特快列车', 
+    id: 'hogwarts-express',
     nameEn: 'Hogwarts Express', 
     image: getItemImage('hogwarts-express'),
     type: '传奇物品', 
@@ -370,6 +410,7 @@ const magicItems = [
   { 
     emoji: '🌫️', 
     name: '神秘事务司帷幕', 
+    id: 'the-veil',
     nameEn: 'The Veil', 
     image: getItemImage('the-veil'),
     type: '传奇物品', 
@@ -379,6 +420,7 @@ const magicItems = [
   { 
     emoji: '🧦', 
     name: '自由的衣物', 
+    id: 'clothes-for-freedom',
     nameEn: 'Clothes for Freedom', 
     image: getItemImage('clothes-freedom'),
     type: '魔法道具', 
@@ -389,6 +431,7 @@ const magicItems = [
   {
     emoji: '📸',
     name: '科林·克里维的相机',
+    id: 'colin-creevey',
     nameEn: "Colin Creevey's Camera",
     image: getItemImage('colin-camera'),
     type: '魔法道具',
@@ -398,6 +441,7 @@ const magicItems = [
   {
     emoji: '🪨',
     name: '魔法石（贤者之石）',
+    id: 'philosopher\',
     nameEn: 'Philosopher\'s Stone',
     image: getItemImage('philosophers-stone'),
     type: '传奇物品',
@@ -407,6 +451,7 @@ const magicItems = [
   {
     emoji: '💎',
     name: '记忆瓶',
+    id: 'memory-vials',
     nameEn: 'Memory Vials',
     image: getItemImage('memory-vials'),
     type: '魔法道具',
@@ -416,6 +461,7 @@ const magicItems = [
   {
     emoji: '🎭',
     name: '消失柜',
+    id: 'vanishing-cabinet',
     nameEn: 'Vanishing Cabinet',
     image: getItemImage('vanishing-cabinet'),
     type: '魔法道具',
@@ -425,6 +471,7 @@ const magicItems = [
   {
     emoji: '🧲',
     name: '门钥匙',
+    id: 'portkey',
     nameEn: 'Portkey',
     image: getItemImage('portkey'),
     type: '魔法道具',
@@ -434,6 +481,7 @@ const magicItems = [
   {
     emoji: '🗝️',
     name: '假挂坠盒',
+    id: 'fake-locket',
     nameEn: 'Fake Locket',
     image: getItemImage('fake-locket'),
     type: '魔法道具',
@@ -446,6 +494,7 @@ const magicItems = [
   {
     emoji: '🔥',
     name: '火焰杯',
+    id: 'goblet-of-fire',
     nameEn: 'Goblet of Fire',
     image: getItemImage('goblet-of-fire'),
     type: '传奇物品',
@@ -455,6 +504,7 @@ const magicItems = [
   {
     emoji: '🪶',
     name: '血羽毛笔',
+    id: 'black-quill-blood-quill',
     nameEn: 'Black Quill (Blood Quill)',
     image: getItemImage('blood-quill'),
     type: '黑暗物品',
@@ -464,6 +514,7 @@ const magicItems = [
   {
     emoji: '📰',
     name: '预言家日报',
+    id: 'the-daily-prophet',
     nameEn: 'The Daily Prophet',
     image: getItemImage('daily-prophet'),
     type: '魔法道具',
@@ -473,6 +524,7 @@ const magicItems = [
   {
     emoji: '🪶',
     name: '自动速记羽毛笔',
+    id: 'quick-quotes-quill',
     nameEn: 'Quick-Quotes Quill',
     image: getItemImage('quick-quotes-quill'),
     type: '魔法道具',
@@ -482,6 +534,7 @@ const magicItems = [
   {
     emoji: '🐛',
     name: '阿尼马格斯形态',
+    id: 'animagus-transformation',
     nameEn: 'Animagus Transformation',
     image: getItemImage('animagus'),
     type: '传奇物品',
@@ -491,6 +544,7 @@ const magicItems = [
   {
     emoji: '🫗',
     name: '储思盆中的记忆',
+    id: 'dumbledore\',
     nameEn: 'Dumbledore\'s Collected Memories',
     type: '魔法道具',
     desc: '邓布利多花费多年收集的关于伏地魔过去的关键记忆合集。其中最重要的包括：鲍勃·欧格登拜访冈特家的记忆（揭示伏地魔的血统）、少年里德尔在孤儿院的记忆（展示他天生的黑暗面）、赫普兹巴·史密斯向里德尔展示金杯和挂坠盒的记忆（魂器线索）、以及被篡改的斯拉格霍恩记忆——真实版本揭示了里德尔询问七个魂器的可能性。这些记忆是理解和最终打败伏地魔的关键拼图。',
@@ -499,6 +553,7 @@ const magicItems = [
   {
     emoji: '📓',
     name: '半血王子的高级魔药学课本',
+    id: 'advanced-potion-making-half-blood-prince\',
     nameEn: 'Advanced Potion-Making (Half-Blood Prince\'s Copy)',
     image: getItemImage('half-blood-princes-book'),
     type: '魔法道具',
@@ -508,6 +563,7 @@ const magicItems = [
   {
     emoji: '🪄',
     name: '哈利的魔杖',
+    id: 'harry\',
     nameEn: 'Harry\'s Wand',
     image: getItemImage('harrys-wand'),
     type: '魔法道具',
@@ -517,6 +573,7 @@ const magicItems = [
   {
     emoji: '🪄',
     name: '伏地魔的魔杖',
+    id: 'voldemort\',
     nameEn: 'Voldemort\'s Wand',
     image: getItemImage('voldemorts-wand'),
     type: '黑暗物品',
@@ -526,6 +583,7 @@ const magicItems = [
   {
     emoji: '🗞️',
     name: '唱唱反调',
+    id: 'the-quibbler',
     nameEn: 'The Quibbler',
     image: getItemImage('the-quibbler'),
     type: '魔法道具',
@@ -535,6 +593,7 @@ const magicItems = [
   {
     emoji: '📿',
     name: '蛋白石项链',
+    id: 'opal-necklace',
     nameEn: 'Opal Necklace',
     image: getItemImage('opal-necklace'),
     type: '黑暗物品',
@@ -544,6 +603,7 @@ const magicItems = [
   {
     emoji: '🍷',
     name: '有毒的蜂蜜酒',
+    id: 'poisoned-mead',
     nameEn: 'Poisoned Mead',
     image: getItemImage('poisoned-mead'),
     type: '黑暗物品',
@@ -553,6 +613,7 @@ const magicItems = [
   {
     emoji: '🔔',
     name: '窥镜',
+    id: 'sneakoscope',
     nameEn: 'Sneakoscope',
     image: getItemImage('sneakoscope'),
     type: '魔法道具',
@@ -562,6 +623,7 @@ const magicItems = [
   {
     emoji: '🌌',
     name: '隐敌镜',
+    id: 'foe-glass',
     nameEn: 'Foe-Glass',
     image: getItemImage('foe-glass'),
     type: '魔法道具',
@@ -571,6 +633,7 @@ const magicItems = [
   {
     emoji: '🪺',
     name: '金蛋',
+    id: 'golden-egg',
     nameEn: 'Golden Egg',
     image: getItemImage('golden-egg'),
     type: '魔法道具',
@@ -580,6 +643,7 @@ const magicItems = [
   {
     emoji: '🏠',
     name: '有求必应室',
+    id: 'room-of-requirement',
     nameEn: 'Room of Requirement',
     image: getItemImage('room-of-requirement'),
     type: '传奇物品',
@@ -589,6 +653,7 @@ const magicItems = [
   {
     emoji: '🦴',
     name: '伏地魔重生仪式',
+    id: 'voldemort\',
     nameEn: 'Voldemort\'s Rebirth Ritual',
     type: '黑暗物品',
     desc: '伏地魔在小汉格顿墓地使用的黑暗复活仪式，需要三种关键材料："父亲的骨——无意奉献"（老汤姆·里德尔的骸骨）、"仆人的肉——自愿牺牲"（虫尾巴切下自己的右手）、"敌人的血——强行夺取"（哈利的血）。大锅中翻腾的药剂和这三种成分结合后，伏地魔重获肉体。用哈利的血重生这一决定后来成为他自己的败因——莉莉的牺牲保护也被植入了伏地魔体内。',
@@ -597,6 +662,7 @@ const magicItems = [
   {
     emoji: '🪬',
     name: '护身符和防护装置',
+    id: 'protective-enchantments',
     nameEn: 'Protective Enchantments',
     image: getItemImage('protective-enchantments'),
     type: '魔法道具',
@@ -606,6 +672,7 @@ const magicItems = [
   {
     emoji: '🧤',
     name: '虫尾巴的银手',
+    id: 'wormtail\',
     nameEn: 'Wormtail\'s Silver Hand',
     type: '黑暗物品',
     desc: '伏地魔赐给彼得·佩迪鲁（虫尾巴）的一只银色魔法手——替代他在复活仪式中自愿献出的右手。这只银手力大无穷，但暗藏杀机：当虫尾巴在马尔福庄园地牢中对哈利产生了一丝犹豫和同情时，银手立刻反过来掐住了虫尾巴自己的喉咙并将其勒死。这是伏地魔的保险措施——他对背叛零容忍。邓布利多早已预见到这只手终将杀死虫尾巴。',
@@ -614,6 +681,7 @@ const magicItems = [
   {
     emoji: '🦅',
     name: '福克斯',
+    id: 'fawkes',
     nameEn: 'Fawkes',
     image: getItemImage('fawkes'),
     type: '传奇物品',
@@ -623,6 +691,7 @@ const magicItems = [
   {
     emoji: '🏰',
     name: '霍格沃茨石像守卫',
+    id: 'hogwarts-suits-of-armour-&-statues',
     nameEn: 'Hogwarts Suits of Armour & Statues',
     image: getItemImage('hogwarts-statues'),
     type: '魔法道具',
@@ -632,6 +701,7 @@ const magicItems = [
   {
     emoji: '🧩',
     name: '三头犬路威',
+    id: 'fluffy',
     nameEn: 'Fluffy',
     image: getItemImage('fluffy'),
     type: '魔法道具',

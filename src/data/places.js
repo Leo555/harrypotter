@@ -1,9 +1,18 @@
 // 魔法地点百科数据
+// 地点图片映射（文件位于 src/assets/places/）
+const placeImages = import.meta.glob('../assets/places/*.webp', { eager: true })
+function getPlaceImage(id) {
+  const key = Object.keys(placeImages).find(k => k.includes(`/${id}.webp`))
+  return key ? placeImages[key].default : null
+}
+
 const places = [
   { 
     emoji: '🏰', 
     name: '霍格沃茨魔法学校', 
+    id: 'hogwarts',
     nameEn: 'Hogwarts School', 
+    image: getPlaceImage('hogwarts'),
     location: '苏格兰高地', 
     type: '学校', 
     desc: '全世界最著名的魔法学校，约于公元990年由戈德里克·格兰芬多、赫尔加·赫奇帕奇、罗伊纳·拉文克劳和萨拉查·斯莱特林四人共同创建。城堡拥有142道楼梯（其中有些会移动）、无数密室和秘道。对麻瓜来说，它看起来只是一片危险的废墟和"禁止入内"的标志。七楼的有求必应室会根据需求变化形态。' 
@@ -11,7 +20,9 @@ const places = [
   { 
     emoji: '🏘️', 
     name: '对角巷', 
+    id: 'diagon-alley',
     nameEn: 'Diagon Alley', 
+    image: getPlaceImage('diagon-alley'),
     location: '伦敦', 
     type: '商业区', 
     desc: '英国巫师界的商业中心，隐藏在破釜酒吧后面的砖墙之后。用魔杖按特定顺序敲击砖块即可进入。这里有奥利凡德魔杖店（创立于公元前382年）、古灵阁巫师银行、丽痕书店、韦斯莱魔法把戏坊、品质魁地奇用品商店、摩金夫人长袍专卖店等。' 
@@ -19,7 +30,9 @@ const places = [
   { 
     emoji: '🏦', 
     name: '古灵阁巫师银行', 
+    id: 'gringotts',
     nameEn: 'Gringotts', 
+    image: getPlaceImage('gringotts'),
     location: '对角巷', 
     type: '银行', 
     desc: '由妖精经营的巫师银行，白色大理石建筑矗立在对角巷最高处。入口处刻有警告诗："来此寻宝者，请你三思而后行。贪得无厌的人，将得到应有的报应。"地下金库由地下矿车连接，高安全等级金库有龙看守。哈利一行曾骑龙逃离古灵阁。' 
@@ -27,7 +40,9 @@ const places = [
   { 
     emoji: '🏚️', 
     name: '翻倒巷', 
+    id: 'knockturn-alley',
     nameEn: 'Knockturn Alley', 
+    image: getPlaceImage('knockturn-alley'),
     location: '伦敦', 
     type: '商业区', 
     desc: '对角巷旁的一条阴暗小巷，专售黑魔法物品和可疑商品。博金-博克商店是这里最著名的店铺，年轻时代的伏地魔曾在此工作。消失柜的另一半就在博金-博克店中，德拉科利用它让食死徒入侵霍格沃茨。' 
@@ -35,7 +50,9 @@ const places = [
   { 
     emoji: '🚂', 
     name: '九又四分之三站台', 
+    id: 'platform-9-3-4',
     nameEn: 'Platform 9¾', 
+    image: getPlaceImage('platform-9-3-4'),
     location: '伦敦国王十字车站', 
     type: '交通枢纽', 
     desc: '隐藏在9号和10号站台之间的魔法站台，是霍格沃茨特快列车的始发站。巫师需要直接穿过两站台之间的隔墙才能到达（最好跑着穿过去）。红色的霍格沃茨特快列车每年9月1日上午11点准时发车。多比曾封锁了入口阻止哈利和罗恩。' 
@@ -43,7 +60,9 @@ const places = [
   { 
     emoji: '🏠', 
     name: '陋居', 
+    id: 'the-burrow',
     nameEn: 'The Burrow', 
+    image: getPlaceImage('the-burrow'),
     location: '英格兰德文郡奥特里圣卡奇波尔', 
     type: '住宅', 
     desc: '韦斯莱家族的住所，一栋由魔法支撑的歪歪斜斜的多层建筑。每层好像都是后来加建的，充满了温暖和混乱。厨房有一个神奇的时钟，指针指向家庭成员而非数字。这里的花园里有地精出没。对哈利来说，这是他第一个真正有家的感觉的地方。' 
@@ -51,7 +70,9 @@ const places = [
   { 
     emoji: '🏢', 
     name: '魔法部', 
+    id: 'ministry-of-magic',
     nameEn: 'Ministry of Magic', 
+    image: getPlaceImage('ministry-of-magic'),
     location: '伦敦地下', 
     type: '政府机构', 
     desc: '英国魔法界的政府机关，位于伦敦地下。访客入口是一个旧电话亭，拨打62442（MAGIC）即可进入。大厅中央有一座"魔法即是力量"的喷泉（后被重建）。内部设有魔法法律执行司、神秘事务司（预言厅所在地）、魔法游戏和运动司等部门。' 
@@ -59,7 +80,9 @@ const places = [
   { 
     emoji: '⛓️', 
     name: '阿兹卡班', 
+    id: 'azkaban',
     nameEn: 'Azkaban', 
+    image: getPlaceImage('azkaban'),
     location: '北海小岛', 
     type: '监狱', 
     desc: '巫师世界最恐怖的监狱，位于北海中一座冰冷荒凉的小岛上。原由摄魂怪看守，囚犯在其中会丧失一切快乐的记忆，许多人因此发疯。小天狼星是已知第一个越狱成功者（靠阿尼马格斯形态）。伏地魔掌权后释放了大量食死徒囚犯。' 
@@ -67,7 +90,9 @@ const places = [
   { 
     emoji: '🏡', 
     name: '格里莫广场12号', 
+    id: 'grimmauld-place',
     nameEn: '12 Grimmauld Place', 
+    image: getPlaceImage('grimmauld-place'),
     location: '伦敦', 
     type: '住宅/总部', 
     desc: '布莱克家族的祖宅，被忠诚赤胆咒保护，只有知道具体地址的人才能看到这栋房子（它会在11号和13号之间挤出来）。后成为凤凰社总部。房内有布莱克夫人永远尖叫的画像、家养小精灵克利切、以及一棵记录血统的家族树挂毯。' 
@@ -75,7 +100,9 @@ const places = [
   { 
     emoji: '🌳', 
     name: '禁林', 
+    id: 'forbidden-forest',
     nameEn: 'Forbidden Forest', 
+    image: getPlaceImage('forbidden-forest'),
     location: '霍格沃茨校园', 
     type: '森林', 
     desc: '霍格沃茨校园边的广袤危险森林，栖息着独角兽、半人马（弗伦泽和群落）、八眼蜘蛛（阿拉戈克的后代）、夜骐等神奇生物。学生被严禁进入，但哈利几乎每年都会踏足。这里也是哈利最后走向"赴死"的地方。' 
@@ -83,7 +110,9 @@ const places = [
   { 
     emoji: '🏘️', 
     name: '霍格莫德村', 
+    id: 'hogsmeade',
     nameEn: 'Hogsmeade', 
+    image: getPlaceImage('hogsmeade'),
     location: '苏格兰', 
     type: '村庄', 
     desc: '英国唯一一个纯巫师居住的村庄，三年级以上学生在周末可以凭许可证前往。著名地点包括三把扫帚酒吧（罗斯默塔夫人经营）、猪头酒吧（邓布利多的弟弟阿不福思经营）、蜂蜜公爵糖果店、佐科恶作剧商店和尖叫棚屋。' 
@@ -91,7 +120,9 @@ const places = [
   { 
     emoji: '🌿', 
     name: '戈德里克山谷', 
+    id: 'godrics-hollow',
     nameEn: "Godric's Hollow", 
+    image: getPlaceImage('godrics-hollow'),
     location: '英格兰西部', 
     type: '村庄', 
     desc: '格兰芬多和邓布利多家族的故乡，也是波特一家最后的住所。1981年万圣节之夜，伏地魔在此杀害了詹姆和莉莉·波特。波特家的废墟被保留为纪念碑，村中广场有波特一家三口的雕像。教堂墓地中有肯德拉和阿利安娜·邓布利多的墓碑。' 
@@ -99,7 +130,9 @@ const places = [
   { 
     emoji: '🏥', 
     name: '圣芒戈魔法伤病医院', 
+    id: 'st-mungos',
     nameEn: "St Mungo's Hospital", 
+    image: getPlaceImage('st-mungos'),
     location: '伦敦', 
     type: '医疗机构', 
     desc: '英国魔法世界的主要医院，隐藏在伦敦一家废弃的百货公司——珀斯和道恩精品百货——后面。访客需要对着橱窗里的人体模型说明来意才能进入。医院分为多个科室：魔咒损伤科、魔法生物伤害科、魔药和植物中毒科等。纳威的父母弗兰克和爱丽丝·隆巴顿就长期住在这里的永久损伤科。' 
@@ -107,7 +140,9 @@ const places = [
   { 
     emoji: '🗼', 
     name: '布斯巴顿魔法学院', 
+    id: 'beauxbatons',
     nameEn: 'Beauxbatons Academy', 
+    image: getPlaceImage('beauxbatons'),
     location: '法国（比利牛斯山脉）', 
     type: '学校', 
     desc: '法国顶级魔法学校，位于比利牛斯山脉中一座华丽的宫殿里。布斯巴顿以其优雅精致著称，学生乘坐由阿布拉克萨斯飞马拉的巨大马车来往。芙蓉·德拉库尔就来自这所学校。校长是女巨人血统的奥林佩·马克西姆夫人，身材几乎和海格一样高大。' 
@@ -115,7 +150,9 @@ const places = [
   { 
     emoji: '⛵', 
     name: '德姆斯特朗学院', 
+    id: 'durmstrang',
     nameEn: 'Durmstrang Institute', 
+    image: getPlaceImage('durmstrang'),
     location: '北欧（具体位置保密）', 
     type: '学校', 
     desc: '北欧著名魔法学校，以教授黑魔法（而非仅仅防御黑魔法）而闻名。学校的位置是严格保密的——学生被禁止告诉任何人学校在哪里。维克多·克鲁姆是德姆斯特朗最著名的学生，前校长卡卡洛夫曾是食死徒。格林德沃也曾在这里就读。' 
@@ -123,7 +160,9 @@ const places = [
   { 
     emoji: '🏖️', 
     name: '贝壳小屋', 
+    id: 'shell-cottage',
     nameEn: 'Shell Cottage', 
+    image: getPlaceImage('shell-cottage'),
     location: '康沃尔海岸', 
     type: '住宅', 
     desc: '比尔·韦斯莱和芙蓉·德拉库尔的海边小屋，成为了三人组在逃亡途中最重要的避难所。多比在从马尔福庄园营救哈利等人后就死在了这里的花园中。哈利在这里亲手为多比挖掘了坟墓——"这里安葬着多比，一个自由的精灵。"贝壳小屋也是他们策划闯入古灵阁的据点。' 
@@ -131,7 +170,9 @@ const places = [
   { 
     emoji: '🏚️', 
     name: '尖叫棚屋', 
+    id: 'shrieking-shack',
     nameEn: 'Shrieking Shack', 
+    image: getPlaceImage('shrieking-shack'),
     location: '霍格莫德', 
     type: '建筑', 
     desc: '被认为是全英国闹鬼最凶的建筑，实际上是邓布利多为卢平建造的变身安全屋。每月满月时卢平穿过打人柳下的秘密通道来到这里变身，痛苦的嚎叫声让居民们以为这里有凶恶的幽灵。这里是哈利第一次见到小天狼星和真相大白的地方，也是斯内普最后被蛇妖娜吉尼杀害的地点。' 
@@ -139,7 +180,9 @@ const places = [
   { 
     emoji: '🕸️', 
     name: '马尔福庄园', 
+    id: 'malfoy-manor',
     nameEn: 'Malfoy Manor', 
+    image: getPlaceImage('malfoy-manor'),
     location: '英格兰威尔特郡', 
     type: '住宅', 
     desc: '马尔福家族的豪华庄园，在第二次巫师战争中被伏地魔征用为食死徒总部。地下室关押过奥利凡德先生、卢娜·洛夫古德和拉环等人。赫敏在这里被贝拉特里克斯严刑拷打，多比在营救行动中从这里带走了所有人，但自己被贝拉特里克斯的银刀击中身亡。' 
@@ -147,7 +190,9 @@ const places = [
   { 
     emoji: '🌑', 
     name: '洞穴（魂器藏匿处）', 
+    id: 'the-cave',
     nameEn: 'The Cave', 
+    image: getPlaceImage('the-cave'),
     location: '英格兰海岸', 
     type: '秘密地点', 
     desc: '伏地魔在童年时发现的海边洞穴，后来被他用来藏匿斯莱特林的挂坠盒魂器。洞穴入口需要用血才能打开，里面是一个巨大的地下湖，中央小岛上有一个石盆盛满了致命的翠绿色药水。邓布利多必须喝下所有药水才能取出（假的）魂器——这些药水让他重历了最痛苦的记忆，极度虚弱。'
@@ -155,7 +200,9 @@ const places = [
   {
     emoji: '🏔️',
     name: '小汉格顿墓地',
+    id: 'little-hangleton',
     nameEn: 'Little Hangleton Graveyard',
+    image: getPlaceImage('little-hangleton'),
     location: '英格兰',
     type: '墓地',
     desc: '里德尔家族的故乡和小汉格顿村附近的墓地。1995年，彼得·佩鲁姆将哈利和塞德里克·迪戈里传送至此，伏地魔在这里利用哈利的血液、父亲的骨灰和仆人的肉体重生。塞德里克在这里被虫尾巴杀害。墓地中还埋葬着伏地魔的父亲汤姆·里德尔及其祖父母——伏地魔曾在这里杀害了自己的父系家族。'
@@ -163,7 +210,9 @@ const places = [
   {
     emoji: '🏚️',
     name: '里德尔府',
+    id: 'riddle-house',
     nameEn: 'Riddle House',
+    image: getPlaceImage('riddle-house'),
     location: '小汉格顿',
     type: '住宅',
     desc: '里德尔家族的豪宅，伏地魔的父亲汤姆·里德尔一家曾居住于此。1943年，年轻的伏地魔在这里杀害了自己的父亲和祖父母，嫁祸给舅舅莫芬·冈特。在伏地魔重生后的第二年，他在此处审讯并杀害了伯莎·乔金斯，也在此处策划了三强争霸赛的阴谋。这座房子最终被废弃，成为当地传说的来源。'
@@ -171,7 +220,9 @@ const places = [
   {
     emoji: '🏟️',
     name: '魁地奇世界杯体育场',
+    id: 'quidditch-world-cup',
     nameEn: 'Quidditch World Cup Stadium',
+    image: getPlaceImage('quidditch-world-cup'),
     location: '英格兰乡村',
     type: '体育场',
     desc: '为1994年魁地奇世界杯临时建造的巨型魔法体育场，可容纳十万观众。体育场被施了麻瓜排斥咒，从外面看只是一片荒地。这里举办了爱尔兰对保加利亚的决赛，哈利亲眼见证了克鲁姆提前抓住金色飞贼的战术。比赛后的混乱中，食死徒释放了黑魔标记，标志着黑暗时代的开始。'
@@ -179,7 +230,9 @@ const places = [
   {
     emoji: '🏢',
     name: '圣奥斯瓦尔德魔法老人之家',
+    id: 'st-oswalds',
     nameEn: "St. Oswald's Home for Old Witches and Wizards",
+    image: getPlaceImage('st-oswalds'),
     location: '未知',
     type: '医疗机构',
     desc: '为年迈巫师提供的疗养院，吉德罗·洛哈特在失去记忆后长期居住于此。在这里，他依然享受签名和粉丝的关注，虽然他已不记得自己是谁。哈利、罗恩和赫敏曾在此探望他，并遇到了洛哈特的治疗师——也是后来三强争霸赛的裁判之一。'
@@ -187,7 +240,9 @@ const places = [
   {
     emoji: '🏚️',
     name: '蜘蛛尾巷',
+    id: 'spinners-end',
     nameEn: "Spinner's End",
+    image: getPlaceImage('spinners-end'),
     location: '英格兰北部工业城镇',
     type: '住宅',
     desc: '西弗勒斯·斯内普童年的家，位于一个破败的麻瓜工业城镇。这栋房子见证了斯内普悲惨的童年——父亲是麻瓜，经常虐待母亲。斯内普在这里长大，对麻瓜产生了复杂的情感。在第二次巫师战争期间，斯内普在这里接待了贝拉特里克斯和纳吉尼，向她们展示自己对伏地魔的"忠诚"。这里也是斯内普与莉莉童年友谊的起点。'
@@ -195,7 +250,9 @@ const places = [
   {
     emoji: '🏛️',
     name: '魔法部法庭',
+    id: 'ministry-courtrooms',
     nameEn: 'Ministry Courtrooms',
+    image: getPlaceImage('ministry-courtrooms'),
     location: '魔法部地下',
     type: '政府机构',
     desc: '魔法部的审判法庭，位于地下深处。最大的法庭（第十审判庭）曾是审讯食死徒的场所，有数十把用铁链锁住的椅子环绕中央被告席。哈利在这里接受了使用未成年魔法的听证会，邓布利多为他辩护。这个法庭象征着魔法法律体系的威严与冷酷。'
@@ -203,7 +260,9 @@ const places = [
   {
     emoji: '🏜️',
     name: '阿尔巴尼亚森林',
+    id: 'albanian-forests',
     nameEn: 'Albanian Forests',
+    image: getPlaceImage('albanian-forests'),
     location: '阿尔巴尼亚',
     type: '森林',
     desc: '伏地魔在失去肉体后藏身的森林，他依附在动物身上（特别是蛇）苟延残喘了十多年。奎里纳斯·奇洛就是在这里遇到了伏地魔并被附身。这片森林是黑魔王的避难所，也是他东山再起的起点。'
@@ -211,7 +270,9 @@ const places = [
   {
     emoji: '🏨',
     name: '破釜酒吧',
+    id: 'leaky-cauldron',
     nameEn: 'The Leaky Cauldron',
+    image: getPlaceImage('leaky-cauldron'),
     location: '伦敦',
     type: '酒吧',
     desc: '通往对角巷的入口，一间破旧但温馨的巫师酒吧。这里对麻瓜来说似乎只是普通的建筑，但巫师可以看到并进入。海格第一次带哈利来到这里，从此开启了哈利的魔法世界之旅。酒吧提供住宿，哈利曾在三年级开学前在这里住过几周。汤姆是酒吧的老板，总是热情招待客人。'
@@ -219,7 +280,9 @@ const places = [
   {
     emoji: '🏠',
     name: '女贞路4号',
+    id: 'privet-drive',
     nameEn: '4 Privet Drive',
+    image: getPlaceImage('privet-drive'),
     location: '英格兰萨里郡小惠金区',
     type: '住宅',
     desc: '德思礼一家的住所，哈利在这里度过了十年悲惨的童年。他最初住在楼梯间的碗柜下面，后来搬到了达力的第二间卧室。尽管这里对哈利来说充满了痛苦回忆，但邓布利多在此设下的血缘保护魔法——基于佩妮姨妈与莉莉的血缘关系——确保了哈利在成年之前的安全。每年夏天哈利都必须回到这里至少待一段时间以维持保护魔法。'
@@ -227,7 +290,9 @@ const places = [
   {
     emoji: '🎪',
     name: '韦斯莱魔法把戏坊',
+    id: 'weasleys-shop',
     nameEn: "Weasleys' Wizard Wheezes",
+    image: getPlaceImage('weasleys-shop'),
     location: '对角巷93号',
     type: '商业场所',
     desc: '弗雷德和乔治·韦斯莱在对角巷开设的恶作剧道具店，是整条街上最明亮、最热闹的店铺——在战争阴云笼罩的黑暗时期尤为显眼。店里出售速效翘课糖、伸缩耳、便携沼泽、爱情魔药、魔法帽等各种产品。三层楼高的店面外墙是鲜艳的橙色，入口处有一个会向顾客脱帽致意的巨大弗雷德和乔治人偶。哈利用三强争霸赛的奖金资助了他们的创业。'
@@ -235,7 +300,9 @@ const places = [
   {
     emoji: '🪄',
     name: '奥利凡德魔杖店',
+    id: 'ollivanders',
     nameEn: "Ollivanders Wand Shop",
+    image: getPlaceImage('ollivanders'),
     location: '对角巷',
     type: '商业场所',
     desc: '创立于公元前382年的魔杖专卖店，由奥利凡德家族世代经营。店铺狭小而积满灰尘，数千个窄长的盒子从地板堆到天花板。老奥利凡德先生记得他卖出的每一根魔杖——"是魔杖选择巫师，而不是巫师选择魔杖"。他在第二次巫师战争中被伏地魔绑架关押在马尔福庄园，被迫研究老魔杖的秘密。'
@@ -243,7 +310,9 @@ const places = [
   {
     emoji: '🏔️',
     name: '纽蒙迦德监狱',
+    id: 'nurmengard',
     nameEn: 'Nurmengard',
+    image: getPlaceImage('nurmengard'),
     location: '欧洲（具体位置不详）',
     type: '监狱',
     desc: '格林德沃在权力巅峰时期建造的监狱，入口处刻着他的座右铭"为了更大的利益"。讽刺的是，在1945年被邓布利多击败后，格林德沃本人被关入了自己建造的这座监狱。1998年伏地魔前来寻找老魔杖的下落，格林德沃拒绝透露，被伏地魔杀害于此。'
@@ -251,7 +320,9 @@ const places = [
   {
     emoji: '🏠',
     name: '冈特旧宅',
+    id: 'gaunt-shack',
     nameEn: 'Gaunt Shack',
+    image: getPlaceImage('gaunt-shack'),
     location: '小汉格顿附近',
     type: '住宅',
     desc: '斯莱特林最后的后裔——冈特家族的住所，一间破败不堪的小屋。莫芬·冈特和他的父亲马沃罗曾住在这里，周围是垃圾和臭气。伏地魔的母亲梅洛普在这里长大，饱受父亲和哥哥的虐待。伏地魔找到这里后杀害了舅舅莫芬，将冈特的戒指（内含复活石）变成了魂器并藏于此处。邓布利多在此找到戒指时触发了致命诅咒。'
@@ -259,7 +330,9 @@ const places = [
   {
     emoji: '🎄',
     name: '蜂蜜公爵糖果店',
+    id: 'honeydukes',
     nameEn: 'Honeydukes',
+    image: getPlaceImage('honeydukes'),
     location: '霍格莫德',
     type: '商业场所',
     desc: '霍格莫德最受学生欢迎的商店，出售各种魔法糖果：比比多味豆（包括鼻屎味和呕吐味）、巧克力蛙（附赠著名巫师卡片）、嘶嘶蜥蜴糖、吹宝超级泡泡糖、冰鼠等。地窖有一条秘密通道直通霍格沃茨（哈利通过活点地图发现了它），成为他在没有霍格莫德许可证时偷溜出城堡的捷径。'
@@ -267,7 +340,9 @@ const places = [
   {
     emoji: '🏰',
     name: '有求必应室',
+    id: 'room-of-requirement',
     nameEn: 'Room of Requirement',
+    image: getPlaceImage('room-of-requirement'),
     location: '霍格沃茨七楼',
     type: '秘密场所',
     desc: '霍格沃茨最神奇的房间之一，也被称为"来来去去的房间"。在七楼左走廊巨怪舞蹈师壁毯对面的墙壁前来回走三次并集中精力想着你需要什么，房间就会出现并变成你需要的样子。邓布利多军用它作为秘密训练基地，纳威在七年级用它藏匿抵抗运动的成员。伏地魔的拉文克劳冠冕魂器也藏在这里（以"藏东西的房间"形态），最终被克拉布意外释放的厉火摧毁。'
@@ -275,7 +350,9 @@ const places = [
   {
     emoji: '🐍',
     name: '密室',
+    id: 'chamber-of-secrets',
     nameEn: 'Chamber of Secrets',
+    image: getPlaceImage('chamber-of-secrets'),
     location: '霍格沃茨地下深处',
     type: '秘密场所',
     desc: '由萨拉查·斯莱特林在霍格沃茨建造的秘密地下室，入口隐藏在二楼女生盥洗室（哭泣的桃金娘的卫生间）的水龙头上——只有蛇佬腔才能打开。密室深处有一个巨大的蛇怪——斯莱特林留下来"清洗"霍格沃茨中"不配学习魔法的人"。汤姆·里德尔在1943年和1993年两次打开密室。哈利在密室中用格兰芬多之剑刺杀了蛇怪，蛇怪的毒牙后来被用于摧毁多个魂器。'

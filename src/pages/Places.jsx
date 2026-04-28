@@ -73,7 +73,11 @@ export default function Places() {
         {filtered.map((place, i) => (
           <div key={i} className="place-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
-              <span className="spell-icon">{place.emoji}</span>
+              {place.image ? (
+                <img loading="lazy" src={place.image} alt={place.name} className="spell-icon-img" />
+              ) : (
+                <span className="spell-icon">{place.emoji}</span>
+              )}
               <div>
                 <h3 className="spell-name">{place.name}</h3>
                 <div className="spell-name-en">{place.nameEn}</div>

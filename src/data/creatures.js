@@ -10,6 +10,7 @@ const creatures = [
   { 
     emoji: '🐉', 
     name: '龙', 
+    id: 'dragon',
     nameEn: 'Dragon', 
     image: getCreatureImage('dragon'),
     desc: '最壮观的魔法生物之一，已知有十个品种，包括匈牙利树蜂龙、瑞典短鼻龙等。龙的心弦是三种魔杖芯之一，龙血有十二种已知用途（由邓布利多发现）。在三强争霸赛中，参赛者需要绕过龙来获取金蛋。', 
@@ -20,6 +21,7 @@ const creatures = [
   { 
     emoji: '🦅', 
     name: '鹰头马身有翼兽', 
+    id: 'hippogriff',
     nameEn: 'Hippogriff', 
     image: getCreatureImage('hippogriff'),
     desc: '马身鹰头的骄傲生物，接近时必须鞠躬表示尊重。巴克比克是最著名的鹰头马身有翼兽，曾被冤判死刑后被哈利和赫敏用时间转换器救出，此后成为小天狼星的坐骑。', 
@@ -30,6 +32,7 @@ const creatures = [
   { 
     emoji: '🐦', 
     name: '凤凰', 
+    id: 'phoenix',
     nameEn: 'Phoenix', 
     image: getCreatureImage('phoenix'),
     desc: '能够在火焰中重生的不朽之鸟。凤凰泪有强大的治愈能力，邓布利多的福克斯是最著名的凤凰。福克斯的两根尾羽分别成为哈利和伏地魔魔杖的芯，导致两根魔杖无法正面对决（闪回咒）。', 
@@ -40,6 +43,7 @@ const creatures = [
   { 
     emoji: '🦄', 
     name: '独角兽', 
+    id: 'unicorn',
     nameEn: 'Unicorn', 
     image: getCreatureImage('unicorn'),
     desc: '纯洁而美丽的生物，银色血液有延续生命的力量，但饮用者将从此被诅咒过着半死不活的生活。幼年独角兽是金色的，两岁时变为银色，四岁时变为纯白色。独角兽更亲近女性。', 
@@ -50,6 +54,7 @@ const creatures = [
   { 
     emoji: '🕷️', 
     name: '八眼蜘蛛', 
+    id: 'acromantula',
     nameEn: 'Acromantula', 
     image: getCreatureImage('acromantula'),
     desc: '能说人话的巨型蜘蛛，体长可达15英尺。海格的宠物阿拉戈克就是一只八眼蜘蛛，在禁林深处建立了庞大的蛛群。它们极度惧怕蛇怪，这是它们唯一的天敌。', 
@@ -60,6 +65,7 @@ const creatures = [
   { 
     emoji: '👻', 
     name: '摄魂怪', 
+    id: 'dementor',
     nameEn: 'Dementor', 
     image: getCreatureImage('dementor'),
     desc: '阿兹卡班的守卫，能吸取人类的快乐和希望。它们在靠近时会使周围变得冰冷、绝望。最可怕的攻击是"摄魂怪之吻"——直接吸取受害者的灵魂。唯一已知的防御方法是守护神咒。', 
@@ -70,6 +76,7 @@ const creatures = [
   { 
     emoji: '🧝', 
     name: '家养小精灵', 
+    id: 'house-elf',
     nameEn: 'House-elf', 
     image: getCreatureImage('house-elf'),
     desc: '服务于巫师家族的忠诚生物，拥有强大的魔法但受到奴役契约束缚。只有收到主人赠予的衣物才能获得自由。多比是最著名的家养小精灵，被哈利解放后成为自由精灵。赫敏创建了S.P.E.W（家养小精灵权益促进会）。', 
@@ -80,6 +87,7 @@ const creatures = [
   { 
     emoji: '🐍', 
     name: '蛇怪', 
+    id: 'basilisk',
     nameEn: 'Basilisk', 
     image: getCreatureImage('basilisk'),
     desc: '蛇之王，由蛇佬腔使用者将蟾蜍蛋放在母鸡下面孵化而成。直视其眼睛会立即死亡，间接看到（如通过镜子或水面）则只会被石化。公鸡的啼鸣是它的致命弱点。密室中的蛇怪已存活近千年。', 
@@ -90,6 +98,7 @@ const creatures = [
   { 
     emoji: '🐎', 
     name: '夜骐', 
+    id: 'thestral',
     nameEn: 'Thestral', 
     image: getCreatureImage('thestral'),
     desc: '只有见证过死亡的人才能看到的骨瘦如柴的飞马。外表虽然可怕——黑色皮包骨，蝙蝠翅膀，白色无瞳眼睛——但性情温顺且极其聪明。霍格沃茨的马车就是由夜骐牵引的。哈利直到五年级才能看到它们。', 
@@ -100,6 +109,7 @@ const creatures = [
   { 
     emoji: '🧚', 
     name: '康沃尔小仙子', 
+    id: 'cornish-pixie',
     nameEn: 'Cornish Pixie', 
     image: getCreatureImage('cornish-pixie'),
     desc: '蓝色的小型捣蛋精灵，身高约8英寸，非常吵闹且喜欢制造混乱。洛哈特在第一堂黑魔法防御术课上释放了一箱小仙子，结果完全无法控制。赫敏用冻结咒将它们制服。', 
@@ -110,6 +120,7 @@ const creatures = [
   { 
     emoji: '🐺', 
     name: '狼人', 
+    id: 'werewolf',
     nameEn: 'Werewolf', 
     image: getCreatureImage('werewolf'),
     desc: '被狼人咬伤后受诅咒的巫师，在满月时会不受控制地变身为狼。芬里尔·格雷伯克是最臭名昭著的狼人，卢平教授是最著名的善良狼人。狼毒药剂可以让狼人在变身时保持理智。', 
@@ -120,6 +131,7 @@ const creatures = [
   { 
     emoji: '🔥', 
     name: '三头犬', 
+    id: 'fluffy-three-headed-dog',
     nameEn: 'Fluffy (Three-Headed Dog)', 
     desc: '海格的宠物三头犬路威，负责看守通往魔法石的活板门。它唯一的弱点是音乐——听到音乐就会沉沉睡去。海格从一个希腊人手里买下了它。', 
     danger: '极危险', 
@@ -129,6 +141,7 @@ const creatures = [
   { 
     emoji: '🦎', 
     name: '火螃蟹', 
+    id: 'fire-crab',
     nameEn: 'Fire Crab', 
     image: getCreatureImage('fire-crab'),
     desc: '外形像一只巨大的乌龟，背壳镶满宝石。当受到威胁时，火螃蟹会从身体后部喷射火焰进行防御。它的壳常被非法用来制作坩埚，在黑市上价值不菲。海格在奇兽饲育学课上曾展示过这种生物。', 
@@ -139,6 +152,7 @@ const creatures = [
   { 
     emoji: '🐸', 
     name: '曼德拉草', 
+    id: 'mandrake',
     nameEn: 'Mandrake', 
     image: getCreatureImage('mandrake'),
     desc: '外形像一个丑陋的婴儿与植物的混合体。成年曼德拉草的叫声可以杀死听到的人，幼年的叫声只会使人昏迷。曼德拉草是恢复被石化者的关键药材。二年级时斯普劳特教授让学生们种植和照料曼德拉草——纳威听到它的尖叫后直接昏倒了。', 
@@ -149,6 +163,7 @@ const creatures = [
   { 
     emoji: '🌊', 
     name: '人鱼', 
+    id: 'merpeople',
     nameEn: 'Merpeople', 
     image: getCreatureImage('merpeople'),
     desc: '居住在霍格沃茨湖底的水生智慧种族，拥有自己的语言和社会结构。他们的歌声在水中优美动听，但在空气中听起来像刺耳的尖叫。在三强争霸赛的第二项任务中，选手需要潜入湖底从人鱼手中解救人质。人鱼以长矛和石器为武器，不受魔法部管辖。', 
@@ -159,6 +174,7 @@ const creatures = [
   { 
     emoji: '🔮', 
     name: '半人马', 
+    id: 'centaur',
     nameEn: 'Centaur', 
     image: getCreatureImage('centaur'),
     desc: '上半身为人、下半身为马的智慧生物，精通星象学和占卜术。霍格沃茨禁林中生活着一群半人马——弗伦泽因为背人类（哈利）而被族群放逐，后在霍格沃茨担任占卜课教授。半人马非常骄傲，不愿被归类为"生物"，自认为是"存在"。', 
@@ -169,6 +185,7 @@ const creatures = [
   { 
     emoji: '🪲', 
     name: '嗅嗅', 
+    id: 'niffler',
     nameEn: 'Niffler', 
     image: getCreatureImage('niffler'),
     desc: '外形像鸭嘴兽的小型生物，长着黑色绒毛和扁平的嘴巴，对一切闪亮的东西有着不可抗拒的执念。它们的肚子上有一个神奇的袋子（像无底洞一样），能装下远超体型的财宝。在《神奇动物在哪里》中，纽特·斯卡曼德的嗅嗅多次因偷闪亮物品惹麻烦。', 
@@ -179,6 +196,7 @@ const creatures = [
   { 
     emoji: '🐦‍🔥', 
     name: '雷鸟', 
+    id: 'thunderbird',
     nameEn: 'Thunderbird', 
     image: getCreatureImage('thunderbird'),
     desc: '北美洲的巨型魔法鸟类，能在飞行时制造风暴。雷鸟的尾羽是极为强力的魔杖核心材料，伊尔弗莫尼魔法学校的四大学院之一就以雷鸟命名。弗兰克是纽特·斯卡曼德营救过的一只雷鸟，最终被放归亚利桑那沙漠。', 
@@ -189,6 +207,7 @@ const creatures = [
   { 
     emoji: '🐉', 
     name: '匈牙利树蜂龙', 
+    id: 'hungarian-horntail',
     nameEn: 'Hungarian Horntail', 
     image: getCreatureImage('hungarian-horntail'),
     desc: '最危险的龙种之一，也是已知所有龙中最凶猛的。匈牙利树蜂龙拥有铜色的角、蝙蝠般的翅膀和带刺的尾巴，能喷出50英尺远的火焰。哈利在三强争霸赛第一项任务中面对的就是一头匈牙利树蜂龙——他用飞行技巧和召唤来的火弩箭与其周旋。', 
@@ -199,6 +218,7 @@ const creatures = [
   {
     emoji: '🦎',
     name: '隐形兽',
+    id: 'demiguise',
     nameEn: 'Demiguise',
     image: getCreatureImage('demiguise'),
     desc: '能够隐身和预知未来的灵长类魔法生物，外表像一只长着大眼睛的银色猿猴。隐形兽的毛皮是制作隐形衣的上等材料（但不及死亡圣器的隐形衣）。纽特·斯卡曼德有一只名叫道格拉斯的隐形兽，在纽约逃脱后引发了一系列混乱。',
@@ -209,6 +229,7 @@ const creatures = [
   {
     emoji: '🐍',
     name: '鸟蛇',
+    id: 'occamy',
     nameEn: 'Occamy',
     image: getCreatureImage('occamy'),
     desc: '有翼的两足蛇形生物，既像鸟又像蛇。鸟蛇具有变形能力——可以自动膨胀或缩小来填满任何容器。它们极具攻击性，特别保护自己的蛋（蛋壳是纯银的，价值连城）。纽特·斯卡曼德在纽约照顾过几只鸟蛇。',
@@ -219,6 +240,7 @@ const creatures = [
   {
     emoji: '🐆',
     name: '囊毒豹',
+    id: 'nundu',
     nameEn: 'Nundu',
     image: getCreatureImage('nundu'),
     desc: '被认为是世界上最危险的魔法生物之一——一种巨型豹子，能够从嘴里呼出引发瘟疫的毒气。囊毒豹需要超过一百名技术娴熟的巫师联手才能制服。纽特·斯卡曼德在《神奇动物在哪里》结尾时展示了驯服囊毒豹的惊人能力。',
@@ -229,6 +251,7 @@ const creatures = [
   {
     emoji: '🦑',
     name: '格林迪洛',
+    id: 'grindylow',
     nameEn: 'Grindylow',
     image: getCreatureImage('grindylow'),
     desc: '水生魔法生物，有着绿色的皮肤、锋利的角和长长的手指，生活在英国湖泊的深水中。它们用长长的手指抓住溺水者将其拖入水中。卢平教授在三年级黑魔法防御课上展示了格林迪洛，三强争霸赛第二项任务中哈利也在湖中遇到了它们。',
@@ -239,6 +262,7 @@ const creatures = [
   {
     emoji: '🐴',
     name: '马形水怪',
+    id: 'kelpie',
     nameEn: 'Kelpie',
     image: getCreatureImage('kelpie'),
     desc: '英国和爱尔兰水域中变形水妖，通常以马形出现，但也可以变成其他形态。它会诱骗人类骑上它的背，然后跳水将骑乘者溺死。唯一已知的驯服方法是在它身上套上束缚咒。传说中尼斯湖水怪就是一只巨大的马形水怪。',
@@ -249,6 +273,7 @@ const creatures = [
   {
     emoji: '🧌',
     name: '恶婆鸟',
+    id: 'erumpent',
     nameEn: 'Erumpent',
     desc: '大型非洲魔法兽，外形像犀牛，皮肤厚重可以抵御大多数咒语。最显著特征是额头上的一只长角，内含致命的爆炸液体。一旦刺中目标，目标会立即爆炸。恶婆角的角、尾巴和爆炸液都是珍贵的魔药材料。纽特·斯卡曼德有一只恶婆鸟在纽约动物园引发了一场追逐戏。',
     danger: '极危险',
@@ -258,6 +283,7 @@ const creatures = [
   {
     emoji: '🐱',
     name: '猫狸子',
+    id: 'kneazle',
     nameEn: 'Kneazle',
     image: getCreatureImage('kneazle'),
     desc: '聪明的小型猫科魔法生物，拥有狮子般的尾巴、大耳朵和敏锐的判断力。猫狸子可以识别可疑的人和不诚实的人，是不忠诚伴侣的完美侦测者。克鲁克山（赫敏的宠物）就是一只猫狸子和猫的混血。猫狸子需要许可证才能饲养。',
@@ -268,6 +294,7 @@ const creatures = [
   {
     emoji: '🐸',
     name: '地精',
+    id: 'gnome',
     nameEn: 'Gnome',
     image: getCreatureImage('gnome'),
     desc: '小型土栖生物，外表像长着土豆脑袋的小人，身高约一英尺。它们在花园中挖洞，啃咬植物根部，被认为是害虫。韦斯莱家的花园里到处是地精，韦斯莱夫人们经常要"地精扔掷"——抓住地精的脚旋转后扔出花园——来控制它们的数量。',
@@ -278,6 +305,7 @@ const creatures = [
   {
     emoji: '👻',
     name: '食尸鬼',
+    id: 'ghoul',
     nameEn: 'Ghoul',
     image: getCreatureImage('ghoul'),
     desc: '长相丑陋但基本无害的生物，通常生活在巫师家庭的阁楼或地窖中，发出咕噜声并抛掷物品。虽然外表可怕，但实际上很温顺，有时甚至被当作宠物。韦斯莱家阁楼里住着一只食尸鬼，罗恩在七年级将其伪装成患了传染病的自己来掩盖不在家的事实。',
@@ -288,6 +316,7 @@ const creatures = [
   {
     emoji: '🐙',
     name: '巨乌贼',
+    id: 'giant-squid',
     nameEn: 'Giant Squid',
     image: getCreatureImage('giant-squid'),
     desc: '霍格沃茨湖中生活的一只巨大乌贼，体长可达数百英尺。与普通乌贼不同，这只巨乌贼性情温和，甚至接受学生喂食（如吐司）。它在三强争霸赛第二项任务中帮助了一些参赛者，展现了友好的天性。',
@@ -298,6 +327,7 @@ const creatures = [
   {
     emoji: '🐛',
     name: '比利威格虫',
+    id: 'billywig',
     nameEn: 'Billywig',
     image: getCreatureImage('billywig'),
     desc: '澳大利亚本土的昆虫，鲜蓝色的身体长约半英寸，翅膀长在头部两侧旋转使其飞行。被比利威格虫蛰刺会使人漂浮起来，有些人会故意招惹它们来享受漂浮感。比利威格虫的刺针是魔药成分，用于制造多种药剂。',
@@ -308,6 +338,7 @@ const creatures = [
   {
     emoji: '🌙',
     name: '月痴兽',
+    id: 'mooncalf',
     nameEn: 'Mooncalf',
     image: getCreatureImage('mooncalf'),
     desc: '害羞的魔法生物，仅在满月之夜从洞穴中出来。它们身体圆胖，四肢细长，有一双巨大而悲伤的眼睛。月痴兽会在月光下进行复杂的舞蹈，留下复杂的几何图案。它们的粪便如果日出前收集，可以用来促进魔法植物生长。',
@@ -318,6 +349,7 @@ const creatures = [
   {
     emoji: '🐀',
     name: '莫特拉鼠',
+    id: 'murtlap',
     nameEn: 'Murtlap',
     image: getCreatureImage('murtlap'),
     desc: '外貌像老鼠的生物，背上长着海葵状的触手。莫特拉鼠生活在海岸线上，以甲壳类动物为食。它的触手分泌物可以制成莫特拉鼠汁，用来治疗割伤和淤青，甚至可以抵抗轻度诅咒（虽然过量食用会导致耳朵长出触手）。',
@@ -328,6 +360,7 @@ const creatures = [
   {
     emoji: '🐡',
     name: '泡泡怪',
+    id: 'bubblegill',
     nameEn: 'Bubblegill',
     desc: '小型水生生物，能够从水中提取空气形成气泡供自己呼吸。泡泡怪的外表像鱼但更圆润，有着鲜艳的色彩。它们的气泡可以收集使用，是一种有趣的观赏性魔法生物。',
     danger: '无害',
@@ -337,6 +370,7 @@ const creatures = [
   {
     emoji: '👤',
     name: '博格特',
+    id: 'boggart',
     nameEn: 'Boggart',
     image: getCreatureImage('boggart'),
     desc: '一种变形怪，能感知观察者内心最深处的恐惧并变成那个形态。博格特喜欢藏在黑暗狭小的空间里——衣柜、桌子抽屉、床底等。对付博格特的方法是"滑稽滑稽"咒，将恐惧的形象变得可笑。卢平教授在三年级用博格特教学生面对恐惧——纳威的博格特是斯内普（穿着他祖母的衣服后变得滑稽），而卢平自己的博格特是满月。没有人知道博格特的真正形态是什么。',
@@ -347,6 +381,7 @@ const creatures = [
   {
     emoji: '🏦',
     name: '妖精',
+    id: 'goblin',
     nameEn: 'Goblin',
     image: getCreatureImage('goblin'),
     desc: '高度智慧的矮小生物，以精湛的金属加工技艺和对财富的精明管理闻名。妖精经营着古灵阁巫师银行，对金融有着超凡的把控力。他们与巫师之间有着数世纪的紧张关系——妖精认为金属制品永远属于制造者而非购买者，这与巫师的观念截然不同。拉环就是一位帮助哈利闯入古灵阁的妖精。',
@@ -357,6 +392,7 @@ const creatures = [
   {
     emoji: '🎪',
     name: '骚灵（皮皮鬼）',
+    id: 'poltergeist-peeves',
     nameEn: 'Poltergeist (Peeves)',
     desc: '骚灵不是幽灵，而是一种与建筑物绑定的混乱精灵实体。霍格沃茨的皮皮鬼是最著名的骚灵——他以恶作剧和制造混乱为乐，对学生投掷粉笔、拧松吊灯螺丝、在走廊上倒洒墨水。唯一能控制他的人是血腥男爵（斯莱特林幽灵）和邓布利多。当弗雷德和乔治离开霍格沃茨时，皮皮鬼向他们敬了军礼——这是他对任何人表示过的最高敬意。',
     danger: '烦人',
@@ -366,6 +402,7 @@ const creatures = [
   {
     emoji: '🌿',
     name: '护树罗锅',
+    id: 'bowtruckle',
     nameEn: 'Bowtruckle',
     image: getCreatureImage('bowtruckle'),
     desc: '外形像树枝的微小生物，身高约8英寸，以昆虫为食。护树罗锅是魔杖木材树木的守护者，性情害羞但在树木受到威胁时会变得非常凶猛，用锋利的手指攻击。纽特·斯卡曼德有一只名叫皮克特的护树罗锅，它对纽特有着特别的依恋。护树罗锅还可以用来撬锁——这在《神奇动物在哪里》中多次被利用。',
