@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-28T13:25:37.152Z",
+  "lastUpdated": "2026-04-28T16:31:14.528Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "06d2bebf",
+      "title": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景 - Notebookcheck CN",
+      "date": "2026-04-28",
+      "category": "影视动态",
+      "summary": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景",
+      "content": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fWm05SzVheWtxQlhTdHBxQlNxdUVKcXdhQ29vTFpBS1puNDJ0NUhyMmVJckFYZF9xMVlXWFJWdF9xMzVieEYtaUplLVZfdjlabzhxQ2d5OVR1OTZWZTU0dg?oc=5"
+    },
     {
       "id": "dbe10359",
       "title": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅 - 新浪网",
@@ -141,6 +161,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5aXFSeFE2MVpSVkVmMkRVYkQ3WUY2V1o2bmoyZ1luNFlNa1dJc1UydzBUbTFkaWxjY0pIRDlGeGQ4YTJCLV8zX2todTQ5WHBzeE0wdWJ4dS10VnVDYW1lajFKOA?oc=5"
+    },
+    {
+      "id": "091479c7",
+      "title": "哈利波特魔法觉醒AI质疑_新浪新闻 - 手机新浪网",
+      "date": "2026-04-25",
+      "category": "综合资讯",
+      "summary": "哈利波特魔法觉醒AI质疑_新浪新闻",
+      "content": "哈利波特魔法觉醒AI质疑_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zYUtXS0VuOGQxZXlNVC1sLXZyMGpHNGVmak1xWDFEdE1GMEdoQ1oxMWNKTGlJQlRsTHRHY2lwVmZuZkg0LTZDdzV2U3NrSlRKSXRtcERqUElGc3c5WlVmUkNMcw?oc=5"
     },
     {
       "id": "4bb7b47f",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qWW5mZzFmZlVhYkdyOWxhWEhkMDZXX0NFaTNyUkRaakZjSnJ4SnZfNWR2d0ZCT2hBY2s5UlQ5NkpIRVF6U3VtYVJFOGlCc2RDYVFPZUhUUF9FT3ZaZk5pLUNuOA?oc=5"
-    },
-    {
-      "id": "88b5280e",
-      "title": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料 - jfdaily.com",
-      "date": "2026-04-22",
-      "category": "综合资讯",
-      "summary": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
-      "content": "哈利·波特的隐身斗篷来了！中国科学家造出可批量“印刷”的超级材料",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JR0MtUWl3RDIxZ2pXbElha0JPbnpIUkRucHJDQzRHZVdXanFFUDJNYUU5NWVGRGg4a3YwT1F0NEVZeHRCcEJuUlBwMkYwVGVDa1FOX1FpN2JNQQ?oc=5"
-    },
-    {
-      "id": "9b3239dc",
-      "title": "哈利波特新作《霍格沃滋遗产》已确认登陆switch！ - 加拿大省钱快报",
-      "date": "2026-04-22",
-      "category": "综合资讯",
-      "summary": "哈利波特新作《霍格沃滋遗产》已确认登陆switch！",
-      "content": "哈利波特新作《霍格沃滋遗产》已确认登陆switch！",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UVTE0SjFRenpIUWJnbnFreXB3b2R5S0tiWVhTSjBVN1k3dnlheXlmQnNZaFRkczBWQUFLT29YbGkwamJULXVNbkl2YkI?oc=5"
     }
   ]
 }
