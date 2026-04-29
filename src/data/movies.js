@@ -1,15 +1,11 @@
-// 电影海报图片映射（文件位于 src/assets/movies/）
-const movieCoverImages = import.meta.glob('../assets/movies/*.{jpg,png,webp}', { eager: true })
+// 电影海报图片映射（从 public/images/movies/ 加载）
 function getMovieCoverImage(id) {
-  const key = Object.keys(movieCoverImages).find(k => k.includes(`/${id}.`))
-  return key ? movieCoverImages[key].default : null
+  return id ? `/images/movies/${id}.jpg` : null
 }
 
-// 电影剧照图片映射（文件位于 src/assets/gallery/）
-const movieStillImages = import.meta.glob('../assets/gallery/*.webp', { eager: true })
+// 电影剧照图片映射（从 public/images/gallery/ 加载）
 function getStillImage(id) {
-  const key = Object.keys(movieStillImages).find(k => k.includes(`/${id}.webp`))
-  return key ? movieStillImages[key].default : null
+  return id ? `/images/gallery/${id}.webp` : null
 }
 
 // 每部电影的经典场景剧照（来自 TMDB 真实电影截图）

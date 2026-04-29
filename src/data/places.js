@@ -1,9 +1,7 @@
 // 魔法地点百科数据
 // 地点图片映射（文件位于 src/assets/places/）
-const placeImages = import.meta.glob('../assets/places/*.webp', { eager: true })
 function getPlaceImage(id) {
-  const key = Object.keys(placeImages).find(k => k.includes(`/${id}.webp`))
-  return key ? placeImages[key].default : null
+  return id ? `/images/places/${id}.webp` : null
 }
 
 const places = [

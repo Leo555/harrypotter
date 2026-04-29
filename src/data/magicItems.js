@@ -1,9 +1,7 @@
 // 魔法物品百科数据
 // 物品图片映射（文件位于 src/assets/magic-items/）
-const itemImages = import.meta.glob('../assets/magic-items/*.webp', { eager: true })
 function getItemImage(id) {
-  const key = Object.keys(itemImages).find(k => k.includes(`/${id}.webp`))
-  return key ? itemImages[key].default : null
+  return id ? `/images/magic-items/${id}.webp` : null
 }
 
 const magicItems = [
@@ -441,7 +439,7 @@ const magicItems = [
   {
     emoji: '🪨',
     name: '魔法石（贤者之石）',
-    id: 'philosopher\',
+    id: 'philosopher',
     nameEn: 'Philosopher\'s Stone',
     image: getItemImage('philosophers-stone'),
     type: '传奇物品',
@@ -544,7 +542,7 @@ const magicItems = [
   {
     emoji: '🫗',
     name: '储思盆中的记忆',
-    id: 'dumbledore\',
+    id: 'dumbledore',
     nameEn: 'Dumbledore\'s Collected Memories',
     type: '魔法道具',
     desc: '邓布利多花费多年收集的关于伏地魔过去的关键记忆合集。其中最重要的包括：鲍勃·欧格登拜访冈特家的记忆（揭示伏地魔的血统）、少年里德尔在孤儿院的记忆（展示他天生的黑暗面）、赫普兹巴·史密斯向里德尔展示金杯和挂坠盒的记忆（魂器线索）、以及被篡改的斯拉格霍恩记忆——真实版本揭示了里德尔询问七个魂器的可能性。这些记忆是理解和最终打败伏地魔的关键拼图。',
@@ -553,7 +551,7 @@ const magicItems = [
   {
     emoji: '📓',
     name: '半血王子的高级魔药学课本',
-    id: 'advanced-potion-making-half-blood-prince\',
+    id: 'advanced-potion-making-half-blood-prince',
     nameEn: 'Advanced Potion-Making (Half-Blood Prince\'s Copy)',
     image: getItemImage('half-blood-princes-book'),
     type: '魔法道具',
@@ -563,7 +561,7 @@ const magicItems = [
   {
     emoji: '🪄',
     name: '哈利的魔杖',
-    id: 'harry\',
+    id: 'harry',
     nameEn: 'Harry\'s Wand',
     image: getItemImage('harrys-wand'),
     type: '魔法道具',
@@ -573,7 +571,7 @@ const magicItems = [
   {
     emoji: '🪄',
     name: '伏地魔的魔杖',
-    id: 'voldemort\',
+    id: 'voldemort',
     nameEn: 'Voldemort\'s Wand',
     image: getItemImage('voldemorts-wand'),
     type: '黑暗物品',
@@ -653,7 +651,7 @@ const magicItems = [
   {
     emoji: '🦴',
     name: '伏地魔重生仪式',
-    id: 'voldemort\',
+    id: 'voldemort',
     nameEn: 'Voldemort\'s Rebirth Ritual',
     type: '黑暗物品',
     desc: '伏地魔在小汉格顿墓地使用的黑暗复活仪式，需要三种关键材料："父亲的骨——无意奉献"（老汤姆·里德尔的骸骨）、"仆人的肉——自愿牺牲"（虫尾巴切下自己的右手）、"敌人的血——强行夺取"（哈利的血）。大锅中翻腾的药剂和这三种成分结合后，伏地魔重获肉体。用哈利的血重生这一决定后来成为他自己的败因——莉莉的牺牲保护也被植入了伏地魔体内。',
@@ -672,7 +670,7 @@ const magicItems = [
   {
     emoji: '🧤',
     name: '虫尾巴的银手',
-    id: 'wormtail\',
+    id: 'wormtail',
     nameEn: 'Wormtail\'s Silver Hand',
     type: '黑暗物品',
     desc: '伏地魔赐给彼得·佩迪鲁（虫尾巴）的一只银色魔法手——替代他在复活仪式中自愿献出的右手。这只银手力大无穷，但暗藏杀机：当虫尾巴在马尔福庄园地牢中对哈利产生了一丝犹豫和同情时，银手立刻反过来掐住了虫尾巴自己的喉咙并将其勒死。这是伏地魔的保险措施——他对背叛零容忍。邓布利多早已预见到这只手终将杀死虫尾巴。',

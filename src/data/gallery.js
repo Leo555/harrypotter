@@ -1,9 +1,7 @@
 // 人物剧照画廊数据
 // 使用 TMDB 电影剧照作为场景配图，每个场景分配唯一图片
-const galleryImages = import.meta.glob('../assets/gallery/*.webp', { eager: true })
 function getGalleryImage(id) {
-  const key = Object.keys(galleryImages).find(k => k.includes(`/${id}.webp`))
-  return key ? galleryImages[key].default : null
+  return id ? `/images/gallery/${id}.webp` : null
 }
 
 // 电影名 → 图片文件缩写前缀 + 可用数量

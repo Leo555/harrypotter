@@ -1,9 +1,7 @@
 // 哈利波特人物数据 - 魔法档案馆
 // 角色剧照图片映射（文件位于 src/assets/characters/）
-const characterImages = import.meta.glob('../assets/characters/*.webp', { eager: true })
 function getCharacterImage(id) {
-  const key = Object.keys(characterImages).find(k => k.includes(`/${id}.webp`))
-  return key ? characterImages[key].default : null
+  return id ? `/images/characters/${id}.webp` : null
 }
 
 const characters = [

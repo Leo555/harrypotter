@@ -1,9 +1,7 @@
 // 哈利波特七部原著数据
-// 书籍封面图片映射（文件位于 src/assets/books/）
-const bookCoverImages = import.meta.glob('../assets/books/*.{jpg,png}', { eager: true })
+// 书籍封面图片映射（从 public/images/books/ 加载）
 function getBookCoverImage(id) {
-  const key = Object.keys(bookCoverImages).find(k => k.includes(`/${id}.`))
-  return key ? bookCoverImages[key].default : null
+  return id ? `/images/books/${id}.webp` : null
 }
 
 const books = [

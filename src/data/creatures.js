@@ -1,9 +1,7 @@
 // 魔法生物百科数据
 // 生物图片映射（文件位于 src/assets/creatures/）
-const creatureImages = import.meta.glob('../assets/creatures/*.webp', { eager: true })
 function getCreatureImage(id) {
-  const key = Object.keys(creatureImages).find(k => k.includes(`/${id}.webp`))
-  return key ? creatureImages[key].default : null
+  return id ? `/images/creatures/${id}.webp` : null
 }
 
 const creatures = [
