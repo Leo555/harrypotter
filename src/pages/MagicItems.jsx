@@ -67,11 +67,22 @@ export default function MagicItems() {
         {filtered.map((item, i) => (
           <div key={i} className="magic-item-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
-              {item.image ? (
-                <img loading="lazy" src={item.image} alt={item.name} className="spell-icon-img" />
-              ) : (
-                <span className="spell-icon">{item.emoji}</span>
-              )}
+              <span className="magic-item-icon-wrap">
+                {item.image && (
+                  <img
+                    loading="lazy"
+                    src={item.image}
+                    alt={item.name}
+                    className="spell-icon-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.parentElement.querySelector('.spell-icon-fallback').style.display = 'inline-flex';
+                    }}
+                  />
+                )}
+                {!item.image && <span className="spell-icon spell-icon-fallback">{item.emoji}</span>}
+                {item.image && <span className="spell-icon spell-icon-fallback" style={{ display: 'none' }}>{item.emoji}</span>}
+              </span>
               <div>
                 <h3 className="spell-name">{item.name}</h3>
                 <div className="spell-name-en">{item.nameEn}</div>

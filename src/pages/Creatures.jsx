@@ -67,11 +67,22 @@ export default function Creatures() {
         {filtered.map((creature, i) => (
           <div key={i} className="creature-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
-              {creature.image ? (
-                <img loading="lazy" src={creature.image} alt={creature.name} className="spell-icon-img" />
-              ) : (
-                <span className="spell-icon">{creature.emoji}</span>
-              )}
+              <span className="magic-item-icon-wrap">
+                {creature.image && (
+                  <img
+                    loading="lazy"
+                    src={creature.image}
+                    alt={creature.name}
+                    className="spell-icon-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.parentElement.querySelector('.spell-icon-fallback').style.display = 'inline-flex';
+                    }}
+                  />
+                )}
+                {!creature.image && <span className="spell-icon spell-icon-fallback">{creature.emoji}</span>}
+                {creature.image && <span className="spell-icon spell-icon-fallback" style={{ display: 'none' }}>{creature.emoji}</span>}
+              </span>
               <div>
                 <h3 className="spell-name">{creature.name}</h3>
                 <div className="spell-name-en">{creature.nameEn}</div>

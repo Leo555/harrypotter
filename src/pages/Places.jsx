@@ -73,11 +73,22 @@ export default function Places() {
         {filtered.map((place, i) => (
           <div key={i} className="place-card" style={{ borderColor: 'rgba(212,168,67,0.15)' }}>
             <div className="spell-card-header">
-              {place.image ? (
-                <img loading="lazy" src={place.image} alt={place.name} className="spell-icon-img" />
-              ) : (
-                <span className="spell-icon">{place.emoji}</span>
-              )}
+              <span className="magic-item-icon-wrap">
+                {place.image && (
+                  <img
+                    loading="lazy"
+                    src={place.image}
+                    alt={place.name}
+                    className="spell-icon-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.parentElement.querySelector('.spell-icon-fallback').style.display = 'inline-flex';
+                    }}
+                  />
+                )}
+                {!place.image && <span className="spell-icon spell-icon-fallback">{place.emoji}</span>}
+                {place.image && <span className="spell-icon spell-icon-fallback" style={{ display: 'none' }}>{place.emoji}</span>}
+              </span>
               <div>
                 <h3 className="spell-name">{place.name}</h3>
                 <div className="spell-name-en">{place.nameEn}</div>

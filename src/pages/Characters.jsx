@@ -81,10 +81,19 @@ export default function Characters() {
             <div className="character-card-header">
               <div className="character-avatar" style={{ background: houses[char.house]?.color || '#333' }}>
                 {char.image ? (
-                  <img loading="lazy" src={char.image} alt={char.name} className="character-avatar-img" />
-                ) : (
-                  char.avatar
-                )}
+                  <img
+                    loading="lazy"
+                    src={char.image}
+                    alt={char.name}
+                    className="character-avatar-img"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const fb = e.target.parentElement.querySelector('.avatar-fallback');
+                      if (fb) fb.style.display = 'flex';
+                    }}
+                  />
+                ) : null}
+                {(!char.image || true) && <span className={`avatar-fallback${!char.image ? '' : ' avatar-fallback-hidden'}`}>{char.avatar}</span>}
               </div>
               <div>
                 <div className="character-card-name">{char.name}</div>
