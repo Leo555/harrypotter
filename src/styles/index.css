@@ -1196,11 +1196,9 @@ a:hover { color: var(--color-gold-light); }
   font-weight: 600;
 }
 .movie-score-douban {
-  background: rgba(44,182,44,0.2);
   color: #5ee35e;
 }
 .movie-score-imdb {
-  background: rgba(245,197,24,0.2);
   color: #f5c518;
 }
 /* 卡片底部文字区 */

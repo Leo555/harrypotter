@@ -1,8 +1,6 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { characters, houses } from '../data/characters'
 import movies from '../data/movies'
-import characterGallery from '../data/gallery'
-import PhotoGallery from '../components/PhotoGallery'
 import useDocumentHead from '../hooks/useDocumentHead'
 
 export default function CharacterDetail() {
@@ -127,9 +125,9 @@ export default function CharacterDetail() {
                   key={i}
                   className="char-skill-tag"
                   style={{
-                    background: `${house?.color || '#d4af37'}22`,
-                    color: house?.light || 'var(--color-gold)',
-                    border: `1px solid ${house?.color || '#d4af37'}44`,
+                    background: `${house?.color || '#d4af37'}15`,
+                    color: 'var(--color-parchment)',
+                    borderColor: `${house?.color || '#d4af37'}30`,
                   }}
                 >
                   ✦ {skill}
@@ -194,20 +192,6 @@ export default function CharacterDetail() {
                 </p>
               ))}
             </div>
-          </div>
-        )}
-
-        {/* 📸 剧照画廊 */}
-        {characterGallery[char.id]?.photos?.length > 0 && (
-          <div className="detail-section">
-            <h2 className="detail-section-title">📸 电影剧照 · 经典瞬间</h2>
-            <p className="char-gallery-hint">
-              共 {characterGallery[char.id].photos.length} 张经典场景
-            </p>
-            <PhotoGallery
-              photos={characterGallery[char.id].photos}
-              characterName={char.name}
-            />
           </div>
         )}
 
