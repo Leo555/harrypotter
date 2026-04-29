@@ -3,63 +3,6 @@ function getMovieCoverImage(id) {
   return id ? `/images/movies/${id}.jpg` : null
 }
 
-// 电影剧照图片映射（从 public/images/gallery/ 加载）
-function getStillImage(id) {
-  return id ? `/images/gallery/${id}.webp` : null
-}
-
-// 每部电影的经典场景剧照（来自 TMDB 真实电影截图）
-const movieStills = {
-  'philosophers-stone': [
-    { id: 'ps-1', caption: '霍格沃茨城堡初见' },
-    { id: 'ps-2', caption: '霍格沃茨的魔法世界' },
-    { id: 'ps-3', caption: '魔法石的冒险' },
-    { id: 'ps-4', caption: '哈利的第一年' },
-  ],
-  'chamber-of-secrets': [
-    { id: 'cos-1', caption: '密室的秘密' },
-    { id: 'cos-2', caption: '霍格沃茨的危机' },
-    { id: 'cos-3', caption: '蛇怪的阴影' },
-    { id: 'cos-4', caption: '勇闯密室' },
-  ],
-  'prisoner-of-azkaban': [
-    { id: 'poa-1', caption: '阿兹卡班的囚徒' },
-    { id: 'poa-2', caption: '时间转换器' },
-    { id: 'poa-3', caption: '守护神咒' },
-    { id: 'poa-4', caption: '真相大白' },
-  ],
-  'goblet-of-fire': [
-    { id: 'gof-1', caption: '三强争霸赛' },
-    { id: 'gof-2', caption: '火焰杯的考验' },
-    { id: 'gof-3', caption: '黑暗降临' },
-    { id: 'gof-4', caption: '墓地对决' },
-  ],
-  'order-of-the-phoenix': [
-    { id: 'oop-1', caption: '凤凰社集结' },
-    { id: 'oop-2', caption: '邓布利多军' },
-    { id: 'oop-3', caption: '反抗乌姆里奇' },
-    { id: 'oop-4', caption: '神秘事务司之战' },
-  ],
-  'half-blood-prince': [
-    { id: 'hbp-1', caption: '混血王子的秘密' },
-    { id: 'hbp-2', caption: '追寻魂器' },
-    { id: 'hbp-3', caption: '黑暗笼罩霍格沃茨' },
-    { id: 'hbp-4', caption: '天文塔的悲剧' },
-  ],
-  'deathly-hallows-1': [
-    { id: 'dh1-1', caption: '逃亡之路' },
-    { id: 'dh1-2', caption: '寻找魂器' },
-    { id: 'dh1-3', caption: '黑暗时代' },
-    { id: 'dh1-4', caption: '三兄弟的故事' },
-  ],
-  'deathly-hallows-2': [
-    { id: 'dh2-1', caption: '最终之战' },
-    { id: 'dh2-2', caption: '霍格沃茨保卫战' },
-    { id: 'dh2-3', caption: '斯内普的真相' },
-    { id: 'dh2-4', caption: '终极对决' },
-  ],
-}
-
 // 哈利波特八部电影数据
 const movies = [
   {
@@ -421,4 +364,3 @@ const movies = [
 ]
 
 export default movies
-export { movieStills, getStillImage }
