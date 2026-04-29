@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-29T13:19:58.258Z",
+  "lastUpdated": "2026-04-29T16:22:42.679Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "13fe8f32",
+      "title": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅 - chinanews.com.cn",
+      "date": "2026-04-28",
+      "category": "出版物",
+      "summary": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅",
+      "content": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2eFEyb2dIZEsyeEVIRWlxVGUydldnc3pDWXN6aTNQYk5xY2lENGRwYjNIXzhpcFhNOFZkRVo3U2VXNkhpaEZ0UGR2RjN3ZUpMcWNpYkw5ZlFSNUZ3NDV2MElfbzg4OXZxd0E?oc=5"
+    },
     {
       "id": "b0121f2b",
       "title": "霍格沃茨之遗2重磅爆料：魁地奇回归，多人模式却遭玩家抵制？ - 搜狐网",
@@ -41,26 +61,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fWm05SzVheWtxQlhTdHBxQlNxdUVKcXdhQ29vTFpBS1puNDJ0NUhyMmVJckFYZF9xMVlXWFJWdF9xMzVieEYtaUplLVZfdjlabzhxQ2d5OVR1OTZWZTU0dg?oc=5"
-    },
-    {
-      "id": "e5e34480",
-      "title": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅 - 新浪财经",
-      "date": "2026-04-28",
-      "category": "出版物",
-      "summary": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅",
-      "content": "“哈利·波特：‘阅’读越魔法”读书分享会带来一场魔法与人生的成长之旅",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaWE0NUg5Qk4yS3U0dE1ldGh0ZzRLZ0dWSjNQRGdMOGxLOXVhM3J4U2VRVjBBMEl0dGE5LWZBdWZWZFhnVTBDWDV2QW5ZLVhNVVNHVmtDOHNGYlluVlh0dnIwenBLSG40bDRaR1kxSk5HUm9CT3hoelNYdUtDcG1hcmtSQlJDb0k?oc=5"
     },
     {
       "id": "c78424cb",
