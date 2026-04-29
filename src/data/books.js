@@ -1,7 +1,8 @@
 // 哈利波特七部原著数据
 // 书籍封面图片映射（从 public/images/books/ 加载）
 function getBookCoverImage(id) {
-  return id ? `/images/books/${id}.webp` : null
+  // 书籍封面原始格式为 jpg/png（非 webp），按实际扩展名返回
+  return id ? `/images/books/${id}.jpg` : null
 }
 
 const books = [
