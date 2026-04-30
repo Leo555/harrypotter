@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-30T16:11:43.061Z",
+  "lastUpdated": "2026-04-30T19:04:36.810Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "5c24dab7",
+      "title": "哈利-波特》系列：这些配角可以发挥更大作用 - Notebookcheck CN",
+      "date": "2026-04-30",
+      "category": "出版物",
+      "summary": "哈利-波特》系列：这些配角可以发挥更大作用",
+      "content": "哈利-波特》系列：这些配角可以发挥更大作用",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CY2xEdThvVUEtWUhmbi1PTGhDS1JNUHhfaUs3U1NzOENDb1BPOFFwc0czNE4yeXJaRzMyWUNiY3V1ZE5rZmswdjVja2NEVkNfeEJvOExCaEZJb2c?oc=5"
+    },
     {
       "id": "142dbed4",
       "title": "申京疯狂痴迷哈利-波特！打造专属主题房 1-3落后多次提及魔法 - 球迷屋",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QeXdwZDZYZWx5SmRWb1pFNnZrUkZoREo5REoyd0xGRWJpYVpUNG96bzdNZWFZcXU4eXlpc25vTnFPSXM0ellEN3RRT1h2NVdYeW5uRUFBajByWUxtamN6NUJiNA?oc=5"
-    },
-    {
-      "id": "2f3922eb",
-      "title": "#哈利波特魔法觉醒[超话]# 我不得劲😭 我好难受👊 ​ - 手机新浪网",
-      "date": "2026-04-25",
-      "category": "综合资讯",
-      "summary": "#哈利波特魔法觉醒[超话]# 我不得劲😭 我好难受👊 ​",
-      "content": "#哈利波特魔法觉醒[超话]# 我不得劲😭 我好难受👊 ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YdzRoUjdyRURRT3EzU2trNlQ3cUcxMjN1c2UwX21kUmtsQ1VpcUdYQmY5TGRKQzlnblFSSzEzcW8xSWFsVmZKY1hZRmlsaXptSDhZYnZtTWZVTXJGN2g0NGR6MA?oc=5"
     }
   ]
 }
