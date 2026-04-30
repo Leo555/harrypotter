@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-04-29T21:50:32.102Z",
+  "lastUpdated": "2026-04-30T01:52:06.824Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "142dbed4",
+      "title": "申京疯狂痴迷哈利-波特！打造专属主题房 1-3落后多次提及魔法 - 球迷屋",
+      "date": "2026-04-30",
+      "category": "综合资讯",
+      "summary": "申京疯狂痴迷哈利-波特！打造专属主题房 1-3落后多次提及魔法",
+      "content": "申京疯狂痴迷哈利-波特！打造专属主题房 1-3落后多次提及魔法",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50Rm5WUnhzSlNGQS1wOXVYUUc2T3lwTzhBWTlZUFRzQnhKWkVQYmJTSnZidDNZN2Nhd0hnSy0taWJ1NHRxYkdSMV96eFRVWDI5czhpVw?oc=5"
+    },
     {
       "id": "ec52aba7",
       "title": "抽送Redmi Pad2 Pro套装_新浪新闻 - 手机新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcE16YjZGNlJsY0lXRTk4M3VCNmlia3FpbmdfWE1tTUN1bTN5eEo4ekhmX1FzX3RqdVYyTmlOaWZJVkc1cVA5MmU5T0tkakxIZ3VlRVRzeXA2MjdUaDctc2RBWQ?oc=5"
-    },
-    {
-      "id": "34acc706",
-      "title": "哈利波特 26-04-23 12:00 - 手机新浪网",
-      "date": "2026-04-23",
-      "category": "影视动态",
-      "summary": "哈利波特 26-04-23 12:00",
-      "content": "哈利波特 26-04-23 12:00",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PeGVwLWdwX0VSWktGVmhSc2NTTGo5SVNNeWlYYXNnc0xxVjZVMGMxejJFVWVZMTUyRjB4VVNTbVR6bG53UzJtLThhR2FvZHYxb0s1LTVETWpzZTkzdGRRaDBCNA?oc=5"
     }
   ]
 }
