@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T10:44:45.976Z",
+  "lastUpdated": "2026-04-30T13:17:57.058Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -40,7 +40,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGWVhuM0QtQmNLTjZPZk11QkpLRlNvMEFQbFFNRzg1dUFkQUdHY05vdWdoaW1obzFMYjFrWENIRVd5SFIwcWtyV0RLMUxSeDV4SUdqVFo5cHZPTEo4Qmp0cmU1R3hxUQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iWk9qLU04c1dGUEhqRmNPTzU0bE9UejZZbkw4X2JxTWtwX3laaHBQX3UxT1NDRTAwNHRKV1BTdHZ4amlablplbUdNblNlWWctMV9iLW1fOUhMWHptNERtd0Z6YVQ?oc=5"
     },
     {
       "id": "ec52aba7",
@@ -83,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2eFEyb2dIZEsyeEVIRWlxVGUydldnc3pDWXN6aTNQYk5xY2lENGRwYjNIXzhpcFhNOFZkRVo3U2VXNkhpaEZ0UGR2RjN3ZUpMcWNpYkw5ZlFSNUZ3NDV2MElfbzg4OXZxd0E?oc=5"
     },
     {
-      "id": "06d2bebf",
-      "title": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景 - Notebookcheck CN",
-      "date": "2026-04-28",
-      "category": "影视动态",
-      "summary": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景",
-      "content": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fWm05SzVheWtxQlhTdHBxQlNxdUVKcXdhQ29vTFpBS1puNDJ0NUhyMmVJckFYZF9xMVlXWFJWdF9xMzVieEYtaUplLVZfdjlabzhxQ2d5OVR1OTZWZTU0dg?oc=5"
-    },
-    {
       "id": "b0121f2b",
       "title": "霍格沃茨之遗2重磅爆料：魁地奇回归，多人模式却遭玩家抵制？ - 搜狐网",
       "date": "2026-04-28",
@@ -121,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS2x3V0lyUkxDTy1UTTFEbWdtUXpSS0pSUWNfQ2lyVWpxalh0WFJ6dkpkM0pqSi1XcjVLSlVSSWdMdzVRa1Nzbm1HakFWVlRZVGp4c25sdHJfYzltZnlmSGlYQWNKdEJzckczMDNpc05xeFVlM2FxdkllVEQ1cjJPM2d5MVlHYVJkcjFobw?oc=5"
+    },
+    {
+      "id": "06d2bebf",
+      "title": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景 - Notebookcheck CN",
+      "date": "2026-04-28",
+      "category": "影视动态",
+      "summary": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景",
+      "content": "据影迷称，这些场景是 HBO 的《哈利-波特》系列的必备场景",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fWm05SzVheWtxQlhTdHBxQlNxdUVKcXdhQ29vTFpBS1puNDJ0NUhyMmVJckFYZF9xMVlXWFJWdF9xMzVieEYtaUplLVZfdjlabzhxQ2d5OVR1OTZWZTU0dg?oc=5"
     },
     {
       "id": "5c4a5655",
