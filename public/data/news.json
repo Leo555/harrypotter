@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T05:58:38.303Z",
+  "lastUpdated": "2026-05-01T08:09:50.579Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56QWt4OVdJNEJvbXZsWUJrcHZlUlBBOHFZWVVGcTgtV2lYUmRlbUszb3NuQ1lZQ01LZ0tUVG5uYjFmUkxKS1VHWDlHUW1DaV9oaWItZHh1VjA?oc=5"
+    },
+    {
+      "id": "9d538eb8",
+      "title": "Epic 喜加一：384 元 3A 游戏大作《霍格沃茨之遗》再次限免，庆祝哈利 · 波特魔法 25 周年 - 新浪财经",
+      "date": "2026-05-01",
+      "category": "影视动态",
+      "summary": "Epic 喜加一：384 元 3A 游戏大作《霍格沃茨之遗》再次限免，庆祝哈利 · 波特魔法 25 周年",
+      "content": "Epic 喜加一：384 元 3A 游戏大作《霍格沃茨之遗》再次限免，庆祝哈利 · 波特魔法 25 周年",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50ei1JcXoyVXp1UTV0M0RSTTVfa2FFTDFFYi0tRzlfNHQwbFh2cnRyaFZQTGxtQk53aEh6Sm10SGtuS2xxWHRwTldLMEhJNFlfWVZrNnM2OVY5YzBidTZJUGMyT2NoLW5QMEp3VlhqeUJiNlU2NFQwVU9Ua1V0WE0?oc=5"
     },
     {
       "id": "5b446a58",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yZXR0ZG9EREpxc2FuRmdFaGZ4dlF2SWNDejdHYU45N0h2Z0p3TGsyTzdYVWRCSzNmdHBEVG83cEt3WkJDTms5blo0MEFkNjJNVk9jZXlncE9TVVBQRVcwRWpaTQ?oc=5"
-    },
-    {
-      "id": "e6a2c889",
-      "title": "脱哈利波特魔法觉醒 - 手机新浪网",
-      "date": "2026-04-27",
-      "category": "影视动态",
-      "summary": "脱哈利波特魔法觉醒",
-      "content": "脱哈利波特魔法觉醒",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uUjA4YmRYOXlQRDhLSzVQa0o3MEhnYXFDOWVTdjBGdFNfSGIzaFFaSmo4ZnZYbEdvLWRxTVltX0NWSGFKSUZRMU1TNUphSnZiN3VKMXFyTlJlWENJbnhyUDZfYw?oc=5"
     }
   ]
 }
