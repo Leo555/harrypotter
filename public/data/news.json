@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T05:32:54.267Z",
+  "lastUpdated": "2026-05-05T07:52:08.551Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -343,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CY2xEdThvVUEtWUhmbi1PTGhDS1JNUHhfaUs3U1NzOENDb1BPOFFwc0czNE4yeXJaRzMyWUNiY3V1ZE5rZmswdjVja2NEVkNfeEJvOExCaEZJb2c?oc=5"
     },
     {
+      "id": "a77762c8",
+      "title": "转发福灵剂祈愿顺利_新浪新闻 - 新浪网",
+      "date": "2026-04-30",
+      "category": "影视动态",
+      "summary": "转发福灵剂祈愿顺利_新浪新闻",
+      "content": "转发福灵剂祈愿顺利_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81SEY4VEl2b0RHLUJuSmNIUXVBVFV1NDlTNzJzaWdvUjVQOXE0bXlWSDhVTWtWMkNGVzNkVTVmMnNLaGJNczZSZTNvNzhFT0l4YlhmMzV0NzNxeHlpTFFrZlRiMA?oc=5"
+    },
+    {
       "id": "0a90c780",
       "title": "Hogwarts Legacy Dark Arts Pack 霍格沃茨之遗 黑暗艺术包 $3.74 超值好货 | 北美省钱快报 - 加拿大省钱快报",
       "date": "2026-04-30",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iWk9qLU04c1dGUEhqRmNPTzU0bE9UejZZbkw4X2JxTWtwX3laaHBQX3UxT1NDRTAwNHRKV1BTdHZ4amlablplbUdNblNlWWctMV9iLW1fOUhMWHptNERtd0Z6YVQ?oc=5"
-    },
-    {
-      "id": "97822a44",
-      "title": "《霍格沃茨遗产》PC 版在 Epic Games Store 上免费，截止日期为 5 月 3 日 - Mix Vale",
-      "date": "2026-04-30",
-      "category": "游戏资讯",
-      "summary": "《霍格沃茨遗产》PC 版在 Epic Games Store 上免费，截止日期为 5 月 3 日",
-      "content": "《霍格沃茨遗产》PC 版在 Epic Games Store 上免费，截止日期为 5 月 3 日",
-      "image": "🎮",
-      "relatedLinks": [
-        {
-          "label": "🎩 分院帽测试",
-          "path": "/interactive/sorting"
-        },
-        {
-          "label": "✨ 咒语大全",
-          "path": "/world/spells"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOYXpaM2dYalY0dlNFMXpfYUtUb09ENy1PS3NieURFRFVaVnJwXzNNUWxHd0IteGdyX3k5SGVmSGItYTdYWE5SU2YxRTE5a1I3X2pfSUgyTTU1c1Y2WDF6cUowUGxUTEYzZHBCbGliVTUxdU9TNTRqY3R3UTl0ZHNVbnF4dHdIRVVHR0xXeDhmNkpaSGtIdjZiaHkzN3JvM1lhWDJTYkljN28yRXNTa193dXBrY1dOcksyeGRBOFpoc0dqLVJlUE5tRURiMFlFRmxzZE05V0R6TUZHamlxZEt3WmhvaTk0eGhvU2pOWUwxRVI1RUh3YWxpNTFCdnVQVDQ1eXRPVEhGSUZRMmNNaU9yeDhhS2pLUUgzV2ppQUxTN2NzQWlRcUNOajY4V2tfcmFWZFpWNmhqNWlmZ1M4LVVFNDZzcGJxa0RLb2Zqb25adzVzbXlJVEt6MWZ0VdIB2wJBVV95cUxOYXpaM2dYalY0dlNFMXpfYUtUb09ENy1PS3NieURFRFVaVnJwXzNNUWxHd0IteGdyX3k5SGVmSGItYTdYWE5SU2YxRTE5a1I3X2pfSUgyTTU1c1Y2WDF6cUowUGxUTEYzZHBCbGliVTUxdU9TNTRqY3R3UTl0ZHNVbnF4dHdIRVVHR0xXeDhmNkpaSGtIdjZiaHkzN3JvM1lhWDJTYkljN28yRXNTa193dXBrY1dOcksyeGRBOFpoc0dqLVJlUE5tRURiMFlFRmxzZE05V0R6TUZHamlxZEt3WmhvaTk0eGhvU2pOWUwxRVI1RUh3YWxpNTFCdnVQVDQ1eXRPVEhGSUZRMmNNaU9yeDhhS2pLUUgzV2ppQUxTN2NzQWlRcUNOajY4V2tfcmFWZFpWNmhqNWlmZ1M4LVVFNDZzcGJxa0RLb2Zqb25adzVzbXlJVEt6MWZ0VQ?oc=5"
     }
   ]
 }
