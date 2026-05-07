@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import useDocumentHead from '../hooks/useDocumentHead'
-import { loadBook, bookTitles, bookTitlesEn, bookCovers, bookColors, chapterNames } from '../data/bookLoader'
+import { loadBook, bookTitles, bookTitlesEn, bookCovers, bookColors } from '../data/bookLoader'
 import books from '../data/books'
 
 export default function BookReader() {
