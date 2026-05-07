@@ -3023,32 +3023,48 @@ a:hover { color: var(--color-gold-light); }
   gap: 8px;
   font-size: 0.88rem;
   color: var(--color-text-secondary);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .reader-chapters-meta-dot {
   opacity: 0.4;
 }
 
+.reader-chapters-hero .reader-lang-switcher {
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.reader-chapters-hero .reader-lang-btn {
+  padding: 8px 22px;
+  font-size: 0.85rem;
+}
+
 .reader-chapters-start-btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 14px 36px;
-  background: linear-gradient(135deg, rgba(var(--color-gold-rgb), 0.2), rgba(var(--color-gold-rgb), 0.1));
-  border: 1px solid rgba(var(--color-gold-rgb), 0.35);
-  border-radius: 28px;
+  gap: 6px;
+  padding: 8px 20px;
+  background: rgba(var(--color-gold-rgb), 0.1);
+  border: 1px solid rgba(var(--color-gold-rgb), 0.3);
+  border-radius: 16px;
   color: var(--color-gold);
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.88rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .reader-chapters-start-btn:hover {
-  background: linear-gradient(135deg, rgba(var(--color-gold-rgb), 0.3), rgba(var(--color-gold-rgb), 0.15));
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(var(--color-gold-rgb), 0.15);
+  background: rgba(var(--color-gold-rgb), 0.15);
+  border-color: rgba(var(--color-gold-rgb), 0.5);
+  color: var(--color-gold-light);
+  transform: translateY(-1px);
+}
+
+.reader-chapters-start-btn:active {
+  transform: scale(0.98);
 }
 
 .reader-chapters-body {
@@ -5238,17 +5254,25 @@ a:hover { color: var(--color-gold-light); }
 .book-movie-links-list { display: flex; flex-direction: column; gap: 10px; }
 
 .book-movie-link {
-  display: flex; align-items: center; gap: 16px;
-  padding: 14px 18px; border-radius: 12px;
-  background: rgba(var(--color-gold-rgb), 0.05);
-  border: 1px solid rgba(var(--color-gold-rgb), 0.15);
-  text-decoration: none; transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: rgba(var(--color-gold-rgb), 0.04);
+  border: 1px solid rgba(var(--color-gold-rgb), 0.12);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.book-movie-link:hover {
+  background: rgba(var(--color-gold-rgb), 0.08);
+  border-color: rgba(var(--color-gold-rgb), 0.3);
 }
 
-.book-movie-emoji { font-size: 2rem; }
-.book-movie-title { font-size: 0.9rem; font-weight: 600; color: var(--color-parchment); }
-.book-movie-meta { font-size: 0.75rem; color: var(--color-text-secondary); margin-top: 2px; }
-.book-movie-arrow { margin-left: auto; color: var(--color-gold); font-size: 0.85rem; }
+.book-movie-link-icon { font-size: 1.5rem; opacity: 0.7; }
+.book-movie-link-title { font-size: 0.95rem; font-weight: 600; color: var(--color-parchment); }
+.book-movie-link-meta { font-size: 0.78rem; color: var(--color-text-secondary); margin-top: 4px; }
+.book-movie-link-arrow { margin-left: auto; color: var(--color-gold); font-size: 0.82rem; font-weight: 500; white-space: nowrap; }
 
 .book-char-card {
   display: flex; flex-direction: column; align-items: center;

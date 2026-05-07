@@ -199,11 +199,7 @@ export default function BookReader() {
           <div className="reader-standalone-topbar-center">
             {bookCovers[bookNum]} {lang === 'en' ? bookData.titleEn : bookData.titleCn}
           </div>
-          <div className="reader-standalone-topbar-right">
-            <button onClick={toggleLang} className="reader-standalone-lang-btn">
-              {lang === 'cn' ? '🇬🇧 English' : '🇨🇳 中文'}
-            </button>
-          </div>
+          <div className="reader-standalone-topbar-right"></div>
         </div>
 
         {/* 书籍封面区 */}
@@ -219,8 +215,20 @@ export default function BookReader() {
           <div className="reader-chapters-en">{lang === 'en' ? bookData.titleCn : bookData.titleEn}</div>
           <div className="reader-chapters-meta">
             <span>📑 {totalChapters} {lang === 'cn' ? '章' : 'Chapters'}</span>
-            <span className="reader-chapters-meta-dot">·</span>
-            <span>{lang === 'cn' ? '🇨🇳 中文译本' : '🇬🇧 英文原版'}</span>
+          </div>
+          <div className="reader-lang-switcher">
+            <button
+              className={`reader-lang-btn ${lang === 'cn' ? 'active' : ''}`}
+              onClick={() => { setLang('cn'); localStorage.setItem('hp-reader-lang', 'cn') }}
+            >
+              🇨🇳 中文译本
+            </button>
+            <button
+              className={`reader-lang-btn ${lang === 'en' ? 'active' : ''}`}
+              onClick={() => { setLang('en'); localStorage.setItem('hp-reader-lang', 'en') }}
+            >
+              🇬🇧 英文原版
+            </button>
           </div>
           <button
             onClick={() => goToChapter(1)}
@@ -360,7 +368,7 @@ export default function BookReader() {
               onClick={() => goToChapter(chapterNum - 1)}
               className="reader-topbar-nav-btn reader-topbar-nav-prev"
               disabled={chapterNum <= 1}
-              title={chapterNum > 1 ? `${lang === 'cn' ? '上一章' : 'Previous'}: ${lang === 'en' ? bookData.chapters[chapterNum - 2]?.title : bookData.chapters[chapterNum - 2]?.titleCn}` : (lang === 'cn' ? '已是第一章' : 'First Chapter')}
+              title={chapterNum > 1 ? `上一章：${bookData.chapters[chapterNum - 2]?.titleCn || ''}` : '已是第一章'}
             >
               ←
             </button>
@@ -372,7 +380,7 @@ export default function BookReader() {
               onClick={() => goToChapter(chapterNum + 1)}
               className="reader-topbar-nav-btn reader-topbar-nav-next"
               disabled={chapterNum >= totalChapters}
-              title={chapterNum < totalChapters ? `${lang === 'cn' ? '下一章' : 'Next'}: ${lang === 'en' ? bookData.chapters[chapterNum]?.title : bookData.chapters[chapterNum]?.titleCn}` : (lang === 'cn' ? '已是最后一章' : 'Last Chapter')}
+              title={chapterNum < totalChapters ? `下一章：${bookData.chapters[chapterNum]?.titleCn || ''}` : '已是最后一章'}
             >
               →
             </button>
@@ -380,17 +388,17 @@ export default function BookReader() {
 
           {/* 右侧控制 */}
           <div className="reader-topbar-right">
-            <button onClick={toggleLang} className="reader-topbar-lang-btn" title={lang === 'cn' ? '切换到英文原版' : '切换到中文译本'}>
+            <button onClick={toggleLang} className="reader-topbar-lang-btn" title={lang === 'cn' ? '当前：中文译本（点击切换英文）' : '当前：英文原版（点击切换中文）'}>
               {lang === 'cn' ? '🇨🇳' : '🇬🇧'}
             </button>
 
             <div className="reader-font-controls">
-              <button onClick={() => changeFontSize(-1)} className="reader-font-btn" title={lang === 'cn' ? '缩小字体' : 'Decrease Font'}>A-</button>
+              <button onClick={() => changeFontSize(-1)} className="reader-font-btn" title="缩小字体">A-</button>
               <span className="reader-font-size">{fontSize}</span>
-              <button onClick={() => changeFontSize(1)} className="reader-font-btn" title={lang === 'cn' ? '增大字体' : 'Increase Font'}>A+</button>
+              <button onClick={() => changeFontSize(1)} className="reader-font-btn" title="放大字体">A+</button>
             </div>
 
-            <Link to="/reader" className="reader-topbar-exit-btn" title={lang === 'cn' ? '返回书架' : 'Back to Shelf'}>
+            <Link to="/reader" className="reader-topbar-exit-btn" title="返回书架">
               ✕
             </Link>
           </div>

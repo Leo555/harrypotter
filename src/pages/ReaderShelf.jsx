@@ -15,6 +15,16 @@ const bookDescriptions = {
   7: '死亡圣器的传说、霍格沃茨大战、最终的对决...',
 }
 
+const bookDescriptionsEn = {
+  1: 'Harry Potter discovers he is a wizard on his 11th birthday and enters the magical world...',
+  2: 'The Chamber of Secrets has been opened. Students are being petrified one by one...',
+  3: 'Sirius Black escapes Azkaban. Dementors surround Hogwarts...',
+  4: 'The Triwizard Tournament, the Goblet of Fire, and the return of Voldemort...',
+  5: 'The Order of the Phoenix, Dumbledore\'s Army, the Battle at the Ministry...',
+  6: 'The secret of Horcruxes, the Half-Blood Prince\'s book, tragedy atop the Astronomy Tower...',
+  7: 'The tale of the Deathly Hallows, the Battle of Hogwarts, the final confrontation...',
+}
+
 const bookYears = {
   1: '1997', 2: '1998', 3: '1999', 4: '2000',
   5: '2003', 6: '2005', 7: '2007',
@@ -90,18 +100,18 @@ export default function ReaderShelf() {
                     <span className="reader-book-cover-emoji">{bookCovers[num]}</span>
                   )}
                 </div>
-                <div className="reader-book-number">第{num}部</div>
+                <div className="reader-book-number">{lang === 'cn' ? `第${num}部` : `Book ${num}`}</div>
               </div>
 
               {/* 书籍信息区域 */}
               <div className="reader-book-info">
-                <h3 className="reader-book-title">{bookTitles[num]}</h3>
-                <div className="reader-book-title-en">{bookTitlesEn[num]}</div>
-                <p className="reader-book-desc">{bookDescriptions[num]}</p>
+                <h3 className="reader-book-title">{lang === 'cn' ? bookTitles[num] : bookTitlesEn[num]}</h3>
+                <div className="reader-book-title-en">{lang === 'cn' ? bookTitlesEn[num] : bookTitles[num]}</div>
+                <p className="reader-book-desc">{lang === 'cn' ? bookDescriptions[num] : bookDescriptionsEn[num]}</p>
 
                 <div className="reader-book-meta">
                   <span className="reader-book-meta-item">
-                    📑 {chapterNames[num]?.length || 0} 章
+                    📑 {chapterNames[num]?.length || 0} {lang === 'cn' ? '章' : 'Ch.'}
                   </span>
                   <span className="reader-book-meta-item">
                     📅 {bookYears[num]}
