@@ -1,10 +1,50 @@
 {
-  "lastUpdated": "2026-05-07T13:25:31.605Z",
+  "lastUpdated": "2026-05-07T16:43:11.283Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "144d6e72",
-      "title": "《花少》导演面试林一剧版哈利波特续订_新浪新闻 - 新浪网",
+      "id": "df827425",
+      "title": "霍格沃茨传奇 2》可能会让影迷失望--《哈利-波特》可能是原因之一 - notebookcheck-cn.com",
+      "date": "2026-05-07",
+      "category": "出版物",
+      "summary": "霍格沃茨传奇 2》可能会让影迷失望--《哈利-波特》可能是原因之一",
+      "content": "霍格沃茨传奇 2》可能会让影迷失望--《哈利-波特》可能是原因之一",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80X2tET2xvaHdVMWl5V3lWeFhibjRQTW50ZTR2UGVrRVA1MHY2MVlkTHFaVzlLOFR1S21USW12MDIxUWRzeEJMUlR5V3F1cHFlSzlNMHRfUGhNemM2UGc?oc=5"
+    },
+    {
+      "id": "11774aa7",
+      "title": "HBO续订哈利·波特第二季，今秋开拍密室改编 - 手机新浪网",
+      "date": "2026-05-07",
+      "category": "影视动态",
+      "summary": "HBO续订哈利·波特第二季，今秋开拍密室改编",
+      "content": "HBO续订哈利·波特第二季，今秋开拍密室改编",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdXpzNU9NRDY2eDJaTVd4a210bTNrdnJaTGZYel82bDJ3WVJhMHhDSVd3a0lGV2JLbmlWbVAxdEYtZkNiOEI2RmdBcEpOWmlIOFY4MHAtWWd5cUx5N3RFZThDZWd5d0ZQd01QUlpGVWpnY0hiRFh2c29TU2J5NDh4bg?oc=5"
+    },
+    {
+      "id": "cb5a309c",
+      "title": "《花少》导演面试林一剧版哈利波特续订_新浪新闻 - 手机新浪网",
       "date": "2026-05-07",
       "category": "综合资讯",
       "summary": "《花少》导演面试林一剧版哈利波特续订_新浪新闻",
@@ -81,6 +121,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HcHlBbWhSUWtiX3VCVnA2bFd0T0liN05GWGloTEtkdUxvbnI1c01DeWtod2VkTmNTRkc5NkFSOGdTOWxJMmtwX081aW1UNzExWlprOU9KdTFtbUk?oc=5"
+    },
+    {
+      "id": "84df477a",
+      "title": "哈利-波特》系列：新的片场照片引发大量粉丝猜测 - notebookcheck-cn.com",
+      "date": "2026-05-04",
+      "category": "影视动态",
+      "summary": "哈利-波特》系列：新的片场照片引发大量粉丝猜测",
+      "content": "哈利-波特》系列：新的片场照片引发大量粉丝猜测",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBUlVMVUhjTjBWX3RYZWdEbEE0ZTBaMXJhTWgtVEZTWTRZbTlYbGRfZ25XNTBlT3NvcU1OZ0daQ3RUX3BrdzNsTVJya05QdkhBRm92MXZ5NUx6ZlU?oc=5"
     },
     {
       "id": "ec142790",
@@ -163,8 +223,8 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UeDMxS1B0X0EyQ0tLOTRvQmJJeUpNTEZhMDZtOXFvZ1lNTWRHSkhuR0piaXBQQV8yS0drV3AzaU1jWFNSNWJwQTNza0lWc0duZjVKSW9n?oc=5"
     },
     {
-      "id": "bd0140ee",
-      "title": "哈利波特新时装灵感来源_新浪新闻 - 新浪网",
+      "id": "50b1df1d",
+      "title": "哈利波特新时装灵感来源_新浪新闻 - 手机新浪网",
       "date": "2026-05-02",
       "category": "综合资讯",
       "summary": "哈利波特新时装灵感来源_新浪新闻",
@@ -263,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FQ1JzMnpkcl9ITG5Ia0JZTjJySFlVQ1lUYVQ0TzNQcVM3ZEdONUYtbzJEaV94Tl9mYkk0a044NExaQjFzVkRYS25oZWgwN2lCcnRYQnhaYTBubmo1QnVZR3ZrRG0?oc=5"
     },
     {
-      "id": "4ab1adae",
-      "title": "剧版《哈利波特》主演阵容揭晓，粉丝热情点燃魔法世界新期待！ - MSN",
-      "date": "2026-05-01",
-      "category": "影视动态",
-      "summary": "剧版《哈利波特》主演阵容揭晓，粉丝热情点燃魔法世界新期待！",
-      "content": "剧版《哈利波特》主演阵容揭晓，粉丝热情点燃魔法世界新期待！",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMipARBVV95cUxPd3hldWF4UXkzUTBOQ3pDX3FaZkRKejVTTXVIcHJhR0U2TEdvQkZKSnlyWTdjTGdyRTRZZ2FzS0tBbVROQV9XZm03eFR1dHg0Q0hFcEgtYmhrZjkyVGpDX2Z0cVk1VUtza2ZENDNkNnc3b04yT3BOT0pGWWxUalNUSVBVeUcwWjdZM3hGXzZ1SGpwanJwMWN2d21haDFEWFpEczd4bXRSMkJNRDVkRTFHUWhXbUc5VkwxR1hDQ3RnYjRORGpFQkV1b2lLYWJlTk45SUdzWFJRS2Q5R0s3R0daUHFfRlA1dG81Q1pwMm8xMy1FTGxncnMzRzNuYnNPNVVSVmpCaVRZbGplREFtUW5FMzlFdmJDd1diYzVGVTJVellDUUdOTVRwalBtZFNzTGFPU29zRjVxcERiMU5JY2dfZXBYT2JLa2dudWNlMFZPbE9vSmZDWlVKMkZfRTlid0lSSkEtSHVRdVZ6TzlKMnNSTkJnRDN5bXlPbVlSenVSNTdQUU1hWXlyTlRhbGxGLTlQMXlCWkJYcTA3VVRHa3ppMlNlLUJtMERSdnl6TnE1NXdvU2dLRUlWUkpDSlVKaEF0UTFrVUdpYjhZSThsXzVQMWdsU29EZXBWUFBTYmVmNTFpZmxrWGRBRl9KUGVVU1daWFVuT2NRZE5WdUhIMzgwVFFuajdQbHZzUk9ONVgtV1diQmNqOGlJSGtJUGRNTzdxek5pYw?oc=5"
-    },
-    {
       "id": "262f3180",
       "title": "《霍格沃茨之遗》现在可以完全免费下载了！但你得抓紧时间！ - Letem světem Applem",
       "date": "2026-05-01",
@@ -301,6 +341,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZjg2SUV2UGUwMzREaGlib3BTcVJaSEhoRlJKODRyZDJ3MkdQRk4tWVBpSFRQZGhYQ2ZmRENGZUFLQTVBWkxzUERKZE4xRE1mazhWbXpXdnJkWW5IS3lxdEZKSVhsX3NET1ZMbXRqR2VmUEpaR0FGUlFaekhrM29ldkFoVUlvTXpIMG80WDRJWUtxLTNkVlFoRXRnSUtsdjFMdFBWQUdfcVQxMGs5U045SW92ZWZjQWxNbVRQUWxB?oc=5"
+    },
+    {
+      "id": "4ab1adae",
+      "title": "剧版《哈利波特》主演阵容揭晓，粉丝热情点燃魔法世界新期待！ - MSN",
+      "date": "2026-05-01",
+      "category": "影视动态",
+      "summary": "剧版《哈利波特》主演阵容揭晓，粉丝热情点燃魔法世界新期待！",
+      "content": "剧版《哈利波特》主演阵容揭晓，粉丝热情点燃魔法世界新期待！",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMipARBVV95cUxPd3hldWF4UXkzUTBOQ3pDX3FaZkRKejVTTXVIcHJhR0U2TEdvQkZKSnlyWTdjTGdyRTRZZ2FzS0tBbVROQV9XZm03eFR1dHg0Q0hFcEgtYmhrZjkyVGpDX2Z0cVk1VUtza2ZENDNkNnc3b04yT3BOT0pGWWxUalNUSVBVeUcwWjdZM3hGXzZ1SGpwanJwMWN2d21haDFEWFpEczd4bXRSMkJNRDVkRTFHUWhXbUc5VkwxR1hDQ3RnYjRORGpFQkV1b2lLYWJlTk45SUdzWFJRS2Q5R0s3R0daUHFfRlA1dG81Q1pwMm8xMy1FTGxncnMzRzNuYnNPNVVSVmpCaVRZbGplREFtUW5FMzlFdmJDd1diYzVGVTJVellDUUdOTVRwalBtZFNzTGFPU29zRjVxcERiMU5JY2dfZXBYT2JLa2dudWNlMFZPbE9vSmZDWlVKMkZfRTlid0lSSkEtSHVRdVZ6TzlKMnNSTkJnRDN5bXlPbVlSenVSNTdQUU1hWXlyTlRhbGxGLTlQMXlCWkJYcTA3VVRHa3ppMlNlLUJtMERSdnl6TnE1NXdvU2dLRUlWUkpDSlVKaEF0UTFrVUdpYjhZSThsXzVQMWdsU29EZXBWUFBTYmVmNTFpZmxrWGRBRl9KUGVVU1daWFVuT2NRZE5WdUhIMzgwVFFuajdQbHZzUk9ONVgtV1diQmNqOGlJSGtJUGRNTzdxek5pYw?oc=5"
     },
     {
       "id": "b0e0a417",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNVE5SeDZCdGhLMmhwVGJxNkhrMWZQQlRJT2pneXBQQVh0SEI2ZXlmSGNoemgzem9zS0tGNFRjdlNKN1ZrQmpmX1o4QnFaSUNuZFJoUl9xbDI3cWE0VWRaZG1sZ0ticndmYjBkVG9DQUlIWlM4VUozWFZMdGZUVXI2LUpMRGdmMjM1ZDdOcHdFVEktV3JTZDBRX2pXMkNWdVR4MzlYZFkxWXotM3N3cEVFVzRKNFlsUzBJOW12MEI4by1WM2FsNGJsMWktamZMbnYzSmF1SWtFTDZtVmJQU2N4QTFSY2ZqMExoNXI0dmM0S1ZwU2NSSE4xOVU4ZFRPT1lkRHN2TFJoNWZ1SkhqRWFxMjljZnFfWVpLRXlybzBwZzZTeWRNbHNIeWN0TlB6S1dqbkxqeWNFMk5XYlVtV19DVThPeUsxRWlHM3dpUUxwS29fSFhjZlRvU0JXc9IB4AJBVV95cUxPMzZPdmVGaWoxV2RCaEc2NHNsM25hZnktVWFwc3BTZVpTdld2WmhRcGNnRi04OTdOb1Z4QUJJdVZvZXk5dEtDbkFaenVoQUxRb0M5TF95Qkp6Yk5PeGE3UjNuVnNQVWFhTWs5SEk5MHoycGxPclEtOHhJcDF4NDhYanVDcGpEQkZoQk9Dc20yUkpVWnBSMjRwU09qY0tmSzNueERHeWhqdVlVX3Y1N0EzMWtYcUtkdndHSGNaVXdQQ0RsbWNRdHdLUHJ5cVRYZDBOX2RScUpudXJuOFVHcnRRZ2Rja3ZNWTlLc3d3eXI3UlV5VFd1X1RadzNyaF9lcy1tR3FzX25QMFVoYzFoaV9vZkR6c3A5MXBrVHBoWl9UTkJ6TDBxQmRJcHlHOC1Mblh2NUxTcENzZ2poQW9oc1ZtY1pmRGFHQXFPUjBFM2xlZ001VUYwN0ZqLTlHa0FBeVN5?oc=5"
-    },
-    {
-      "id": "c72184aa",
-      "title": "哈利波特系列的开放世界角色扮演游戏在电脑上免费发布至五月 - Mix Vale",
-      "date": "2026-05-01",
-      "category": "影视动态",
-      "summary": "哈利波特系列的开放世界角色扮演游戏在电脑上免费发布至五月",
-      "content": "哈利波特系列的开放世界角色扮演游戏在电脑上免费发布至五月",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNbEYxbXBiLVFzdlBlMFhOTTZxWkJpY2tvakxScDdYUzlEZGF4S3Bsb2ZoVVJ4SVFWVEJINTBCU21wS1BGaVBuS2FaZkdkSmFlc0E2eEFEUEQ2b1hPNUR3Y0pWVzlRaFdBM2ZqbUxZRzR1b28wRjNhbWxvbFV1X285WlljMFhSci16QXV1RzhZdklGejBkb2V0WXZYVk04TXQweEdjVkpiYWJmLUl4MVNFX1VIVExnMzkyZTNPTjJVWDg1Sk9LaG9Qc2kyUm9fOG5KMElXbUtoeUZJMTFxT3dNRGdMR3BVTEgtdUYyLXU1WGFtbEx5TXd6YkFLY0JjSC0yV18wZ1VCVXUtZ1l5N0hfcHJKZmZPVXRrMFpxWV9OLVlMbnpuS05DUE5KMjZTVEJoOFk5UlBQOVpUaEVGckNwQ2k4OWhqVDdwWUN6MUZoTndWSElEM0x5SFNPQdIB2wJBVV95cUxNbEYxbXBiLVFzdlBlMFhOTTZxWkJpY2tvakxScDdYUzlEZGF4S3Bsb2ZoVVJ4SVFWVEJINTBCU21wS1BGaVBuS2FaZkdkSmFlc0E2eEFEUEQ2b1hPNUR3Y0pWVzlRaFdBM2ZqbUxZRzR1b28wRjNhbWxvbFV1X285WlljMFhSci16QXV1RzhZdklGejBkb2V0WXZYVk04TXQweEdjVkpiYWJmLUl4MVNFX1VIVExnMzkyZTNPTjJVWDg1Sk9LaG9Qc2kyUm9fOG5KMElXbUtoeUZJMTFxT3dNRGdMR3BVTEgtdUYyLXU1WGFtbEx5TXd6YkFLY0JjSC0yV18wZ1VCVXUtZ1l5N0hfcHJKZmZPVXRrMFpxWV9OLVlMbnpuS05DUE5KMjZTVEJoOFk5UlBQOVpUaEVGckNwQ2k4OWhqVDdwWUN6MUZoTndWSElEM0x5SFNPQQ?oc=5"
-    },
-    {
-      "id": "b279757b",
-      "title": "Hogwarts Legacy je nyní ke stažení zcela zdarma! Musíte si ale pospíšit - Letem světem Applem",
-      "date": "2026-05-01",
-      "category": "影视动态",
-      "summary": "Hogwarts Legacy je nyní ke stažení zcela zdarma! Musíte si ale pospíšit",
-      "content": "Hogwarts Legacy je nyní ke stažení zcela zdarma! Musíte si ale pospíšit",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZjg2SUV2UGUwMzREaGlib3BTcVJaSEhoRlJKODRyZDJ3MkdQRk4tWVBpSFRQZGhYQ2ZmRENGZUFLQTVBWkxzUERKZE4xRE1mazhWbXpXdnJkWW5IS3lxdEZKSVhsX3NET1ZMbXRqR2VmUEpaR0FGUlFaekhrM29ldkFoVUlvTXpIMG80WDRJWUtxLTNkVlFoRXRnSUtsdjFMdFBWQUdfcVQxMGs5U045SW92ZWZjQWxNbVRQUWxB?oc=5"
-    },
-    {
-      "id": "20887226",
-      "title": "Epic Games Store 在五月初之前免费推出霍格沃茨遗产的永久兑换 - Mix Vale",
-      "date": "2026-05-01",
-      "category": "影视动态",
-      "summary": "Epic Games Store 在五月初之前免费推出霍格沃茨遗产的永久兑换",
-      "content": "Epic Games Store 在五月初之前免费推出霍格沃茨遗产的永久兑换",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQZURJdEZEY080X1UtRC1iY3ZfcUktMEliNkRqckI2OV9wSEVCV0RVb2pJU2ppWkhDWnNNcnlTSFFNTXc3dDdMRXBlZjNEMV9DNjRJM0dnQUhVT253dnczQWkzNGprUlg0TGZrOFRJSFRWNFpmbHhFZW1jSnVKQktYaC02QXhMNWx4VUcxMzY3eHJYZV9hTkdKUW1QRWpNYjJ2bDd2MWFHS0VnODdESlhGMzdCZWU1ekl3X1A4S0l3eXVuazcyWng1a29CM3BSVHJ2S0k5a0dwdmVsRUduWXk5ZThMWDJYTXZOUjI1b0UyUkg3VWJtWS1ZY3dNeWdpckQzQ0tpWWZDVVdQLWpDenczbVNLTlhYdUlyNTVXSTlhVmVwdUFwOU9oOFJab0dWODZiaEZTbUJHZ3JzODBRRVBpbmk5X2drUEtZNEtzWXFBak5wQkdlczlSa2VSa1F2UlVV0gHgAkFVX3lxTFBlREl0RkRjTzRfVS1ELWJjdl9xSS0wSWI2RGpyQjY5X3BIRUJXRFVvaklTamlaSENac01yeVNIUU1Ndzd0N0xFcGVmM0QxX0M2NEkzR2dBSFVPbnd2dzNBaTM0amtSWDRMZms4VElIVFY0WmZseEVlbWNKdUpCS1hoLTZBeEw1bHhVRzEzNjd4clhlX2FOR0pRbVBFak1iMnZsN3YxYUdLRWc4N0RKWEYzN0JlZTV6SXdfUDhLSXd5dW5rNzJaeDVrb0IzcFJUcnZLSTlrR3B2ZWxFR25ZeTllOExYMlhNdk5SMjVvRTJSSDdVYm1ZLVljd015Z2lyRDNDS2lZZkNVV1AtakN6dzNtU0tOWFh1SXI1NVdJOWFWZXB1QXA5T2g4UlpvR1Y4NmJoRlNtQkdncnM4MFFFUGluaTlfZ2tQS1k0S3NZcUFqTnBCR2VzOVJrZVJrUXZSVVU?oc=5"
     }
   ]
 }
