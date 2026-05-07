@@ -21,7 +21,7 @@ const bookYears = {
 }
 
 export default function ReaderShelf() {
-  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'en')
+  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'cn')
 
   const toggleLang = (newLang) => {
     setLang(newLang)

@@ -21,7 +21,7 @@ export default function BookReader() {
     return saved ? parseInt(saved) : 17
   })
   const [sidebarOpen, setSidebarOpen] = useState(false)
-  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'en')
+  const [lang, setLang] = useState(() => localStorage.getItem('hp-reader-lang') || 'cn')
   const [readingProgress, setReadingProgress] = useState(0)
   const contentRef = useRef(null)
   const sidebarRef = useRef(null)
