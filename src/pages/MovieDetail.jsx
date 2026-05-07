@@ -23,8 +23,14 @@ const roleToCharacterId = {
   '多比（配音）': 'dobby',
   '多比': 'dobby',
   '贝拉特里克斯·莱斯特兰奇': 'bellatrix-lestrange',
+  '贝拉特里克斯': 'bellatrix-lestrange',
   '疯眼汉穆迪': 'alastor-moody',
   '尼法朵拉·唐克斯': 'nymphadora-tonks',
+  '卢修斯·马尔福': 'lucius-malfoy',
+  '吉德罗·洛哈特': 'gilderoy-lockhart',
+  '塞德里克·迪戈里': 'cedric-diggory',
+  '多洛雷斯·乌姆里奇': 'dolores-umbridge',
+  '霍拉斯·斯拉格霍恩': 'horace-slughorn',
 }
 
 export default function MovieDetail() {

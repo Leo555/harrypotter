@@ -5407,6 +5407,7 @@ a:hover { color: var(--color-gold-light); }
   background: rgba(var(--color-gold-rgb), 0.04);
   border: 1px solid rgba(var(--color-gold-rgb), 0.12);
   transition: all 0.3s ease; display: block;
+  position: relative;
 }
 
 .movie-char-avatar-wrap {
@@ -5421,9 +5422,10 @@ a:hover { color: var(--color-gold-light); }
 .movie-char-name-en { font-size: 0.72rem; color: var(--color-text-secondary); text-align: center; margin-bottom: 8px; }
 
 .movie-char-house-tag {
-  font-size: 0.7rem; text-align: center; padding: 3px 8px;
-  border-radius: 10px; background: rgba(var(--color-gold-rgb), 0.08);
-  color: var(--color-gold); display: inline-block; width: 100%;
+  position: absolute; top: 8px; right: 8px;
+  font-size: 0.6rem; padding: 2px 6px;
+  border-radius: 6px; background: rgba(var(--color-gold-rgb), 0.12);
+  color: var(--color-gold); font-weight: 500;
 }
 
 .movie-char-occupation {
