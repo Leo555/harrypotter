@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T05:21:37.321Z",
+  "lastUpdated": "2026-05-08T07:13:43.521Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE5zemtoSk5nV0V2SHQ1ekpvdFRITVU1ZE9aVExIS2dXRzRybDlRZDN2cmVFU2hDZHpwbnd4TnFsSk9jVjFEOGJTVC1uZ1BJR3dRRThsUE1wOXVscjlCN2VrQzBZeHB3ZFY4QWkyRmZYNjhyb1RDVzJVcmhaNExEd2Z2Zi1COFdE?oc=5"
+    },
+    {
+      "id": "5ec3e434",
+      "title": "Epic Games Store 宣布 2026 年 5 月推出新的免费神秘游戏赠品 - Notebookcheck CN",
+      "date": "2026-05-08",
+      "category": "游戏资讯",
+      "summary": "Epic Games Store 宣布 2026 年 5 月推出新的免费神秘游戏赠品",
+      "content": "Epic Games Store 宣布 2026 年 5 月推出新的免费神秘游戏赠品",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwRmoxR3lMUDEtNldpeU1PaEtxRnlSVmFldVNfZXVjZXFTSDdabTNEZ1JYSlRoZTRZWFBMdDRmUDB1ODlZV29rOHN6YXhNYU9MYnBmTDJ4WnJsOHdubkxLdFl2cHhfcHIybnYyZV9DWnBzR2xXeERfeExrdw?oc=5"
     },
     {
       "id": "a959b50d",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MbS12X2dDTzNiUk9ldFF3cFpTcWxhWFFLMU9JczhxY0RUSkR1bWxoRzltZDVUNVlpcGl5QmN6dEI0UnlpY1JkVVhGYWI5M2xtYjJCUFVabWVabTlzM0oxUWZJVQ?oc=5"
-    },
-    {
-      "id": "e05241af",
-      "title": "哈利·波特25周年大礼！白嫖价值384元的3A大作：仅剩48小时 - 17173",
-      "date": "2026-05-01",
-      "category": "综合资讯",
-      "summary": "哈利·波特25周年大礼！白嫖价值384元的3A大作：仅剩48小时",
-      "content": "哈利·波特25周年大礼！白嫖价值384元的3A大作：仅剩48小时",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FQ1JzMnpkcl9ITG5Ia0JZTjJySFlVQ1lUYVQ0TzNQcVM3ZEdONUYtbzJEaV94Tl9mYkk0a044NExaQjFzVkRYS25oZWgwN2lCcnRYQnhaYTBubmo1QnVZR3ZrRG0?oc=5"
     }
   ]
 }
