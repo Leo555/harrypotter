@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T19:02:09.309Z",
+  "lastUpdated": "2026-05-08T21:47:55.961Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80X2tET2xvaHdVMWl5V3lWeFhibjRQTW50ZTR2UGVrRVA1MHY2MVlkTHFaVzlLOFR1S21USW12MDIxUWRzeEJMUlR5V3F1cHFlSzlNMHRfUGhNemM2UGc?oc=5"
+    },
+    {
+      "id": "53242aa2",
+      "title": "HBO剧版《哈利·波特》第二季将于今秋开拍，改编自《哈利·波特与密室》 ​ - 新浪网",
+      "date": "2026-05-07",
+      "category": "影视动态",
+      "summary": "HBO剧版《哈利·波特》第二季将于今秋开拍，改编自《哈利·波特与密室》 ​",
+      "content": "HBO剧版《哈利·波特》第二季将于今秋开拍，改编自《哈利·波特与密室》 ​",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6ckI1YXhDN2FJaWQ2NlBGRU5CSnVnZy12cFgtbE1NbFRPaXJ4R3B0bUdZMHl5Wm52aWVJU0k0SFNSZkFKd0d2TTFjRHlNcU51YWE3TXJEWEg0VldLczBKVTZORQ?oc=5"
     },
     {
       "id": "11774aa7",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UeDMxS1B0X0EyQ0tLOTRvQmJJeUpNTEZhMDZtOXFvZ1lNTWRHSkhuR0piaXBQQV8yS0drV3AzaU1jWFNSNWJwQTNza0lWc0duZjVKSW9n?oc=5"
-    },
-    {
-      "id": "50b1df1d",
-      "title": "哈利波特新时装灵感来源_新浪新闻 - 手机新浪网",
-      "date": "2026-05-02",
-      "category": "综合资讯",
-      "summary": "哈利波特新时装灵感来源_新浪新闻",
-      "content": "哈利波特新时装灵感来源_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kUzk2R1hNR0tNOGkxT1FOdV9XZ0k3eTYxcFdWRnZDZ3hKbHo5eWp2MEJRRFZHZjRzcFZneDRzY3Z2QWFBVnpHMDdkdW1iakhMRnJRZmRoVF9QNjVIal9pX3pjNA?oc=5"
     }
   ]
 }
