@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T05:38:50.139Z",
+  "lastUpdated": "2026-05-09T07:30:09.173Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -363,6 +363,26 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBUlVMVUhjTjBWX3RYZWdEbEE0ZTBaMXJhTWgtVEZTWTRZbTlYbGRfZ25XNTBlT3NvcU1OZ0daQ3RUX3BrdzNsTVJya05QdkhBRm92MXZ5NUx6ZlU?oc=5"
     },
     {
+      "id": "fb52dd23",
+      "title": "迈克尔·杰克逊收藏哈利·波特_新浪新闻 - 新浪网",
+      "date": "2026-05-04",
+      "category": "综合资讯",
+      "summary": "迈克尔·杰克逊收藏哈利·波特_新浪新闻",
+      "content": "迈克尔·杰克逊收藏哈利·波特_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5UENnUGpyNno1cVpEd3FRcDZvU0Izemo1YkhJeDF4ZUxhY1FiNm5fbGRQVWxXVXc1M2x4SElhU0d6YWR5ODVBbE9hT0pMbzMzTmZMWnd2bzJSWVZUUDlwWlN0cw?oc=5"
+    },
+    {
       "id": "84df477a",
       "title": "哈利-波特》系列：新的片场照片引发大量粉丝猜测 - notebookcheck-cn.com",
       "date": "2026-05-04",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBUlVMVUhjTjBWX3RYZWdEbEE0ZTBaMXJhTWgtVEZTWTRZbTlYbGRfZ25XNTBlT3NvcU1OZ0daQ3RUX3BrdzNsTVJya05QdkhBRm92MXZ5NUx6ZlU?oc=5"
-    },
-    {
-      "id": "0329b960",
-      "title": "丹尼尔看《哈利·波特》_新浪新闻 - 新浪网",
-      "date": "2026-05-04",
-      "category": "综合资讯",
-      "summary": "丹尼尔看《哈利·波特》_新浪新闻",
-      "content": "丹尼尔看《哈利·波特》_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aODNqRmtncjFlRF9yamNPWjYwZEIzbEhwMEZ3R1cwUTA1WEhuRDFtbXB3SU1wYXVuNmZ2U2lfaWI1cW0zZkdQRkxMMEZrUGI2MEdSc2Via05IcmVRcDhfdFFGOA?oc=5"
     }
   ]
 }
