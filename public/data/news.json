@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-12T17:01:47.006Z",
+  "lastUpdated": "2026-05-12T19:26:32.721Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "bcd35e43",
+      "title": "全套《哈利波特：魁地奇冠军》全阵容配音有声书现已上线 Audible - 17173",
+      "date": "2026-05-12",
+      "category": "游戏资讯",
+      "summary": "全套《哈利波特：魁地奇冠军》全阵容配音有声书现已上线 Audible",
+      "content": "全套《哈利波特：魁地奇冠军》全阵容配音有声书现已上线 Audible",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ma1o1Qk5mQmNRY0ZwTTRZRi1NcUloRnZ6dlA1UlRuaGkzVktWWFFadmI3S29qUjl4VGRpUUxuTTlUX0lnXzhCZ0ZaTFBJM1lETWhLT0gzV3RRUDlrUllNMHI0X2Y0dw?oc=5"
+    },
     {
       "id": "49bd6e8b",
       "title": "哈利·波特九宫格插画_新浪新闻 - 手机新浪网",
@@ -140,7 +160,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOWTlqWFhpM29OSzNnZ29XaUZfYkV3YUU4eGtNVk9FYV9helV6MUk1WVBjcjZDQ3N2c0l6ZXBwX3k3VWljQXZaU21VcDE0TGRSZkYzYlZXMDkyOFRFR3hpUzNJMVRnQ0N2UWJ5bUJpMFNoMERZMmpucnlFbGdWZmlyMzB1YTQ4OFA3eG9DN3BzT3VFUHVSSjlSSnpkckozNzdhUDBLbDlZbmd3emtpdnJuRXdsclhxbHM4d1c1U0dzOWowc1lUckpveXZPRTB6MmZPVWphcXhfV1FFVHJmanZLTG5pSFRXTDFPOGtMU1FVeTJsQ1lnX3RUVXNvNjBnd3N1MHZlNjJJeEc0NUNWakRYLXFZdUJJdEpqdTgyRjZhZXdYUVgyVHZ1ZTdrVjYyQkFBVHdnYzB2c0NZUkNpb3hROVpDQk1yQ3NJVDRoN29kWWNDU2pY0gHUAkFVX3lxTE5ZOWpYWGkzb05LM2dnb1dpRl9iRXdhRTh4a01WT0VhX2F6VXoxSTVZUGNyNkNDc3ZzSXplcHBfeTdVaWNBdlpTbVVwMTRMZFJmRjNiVlcwOTI4VEVHeGlTM0kxVGdDQ3ZRYnltQmkwU2gwRFkyam5yeUVsZ1ZmaXIzMHVhNDg4UDd4b0M3cHNPdUVQdVJKOVJKemRySjM3N2FQMEtsOVluZ3d6a2l2cm5Fd2xyWHFsczh3VzVTR3M5ajBzWVRySm95dk9FMHoyZk9VamFxeF9XUUVUcmZqdktMbmlIVFdMMU84a0xTUVV5MmxDWWdfdFRVc282MGd3c3UwdmU2Mkl4RzQ1Q1ZqRFgtcVl1Qkl0Smp1ODJGNmFld1hRWDJUdnVlN2tWNjJCQUFUd2djMHZzQ1lSQ2lveFE5WkNCTXJDc0lUNGg3b2RZY0NTalg?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOWTlqWFhpM29OSzNnZ29XaUZfYkV3YUU4eGtNVk9FYV9helV6MUk1WVBjcjZDQ3N2c0l6ZXBwX3k3VWljQXZaU21VcDE0TGRSZkYzYlZXMDkyOFRFR3hpUzNJMVRnQ0N2UWJ5bUJpMFNoMERZMmpucnlFbGdWZmlyMzB1YTQ4OFA3eG9DN3BzT3VFUHVSSjlSSnpkckozNzdhUDBLbDlZbmd3emtpdnJuRXdsclhxbHM4d1c1U0dzOWowc1lUckpveXZPRTB6MmZPVWphcXhfV1FFVHJmanZLTG5pSFRXTDFPOGtMU1FVeTJsQ1lnX3RUVXNvNjBnd3N1MHZlNjJJeEc0NUNWakRYLXFZdUJJdEpqdTgyRjZhZXdYUVgyVHZ1ZTdrVjYyQkFBVHdnYzB2c0NZUkNpb3hROVpDQk1yQ3NJVDRoN29kWWNDU2pY0gHaAkFVX3lxTE9EYXJxWm9BbVVVRTd3TU1rTy1KaXdCSmNMRFhsU2Y1Q3p0UDR1M2NGekhNR1hwN3RqMjF1Y1pKWEJXc0o0UzFPU3U5ampTNzVRODM5c0dDNUhaY1ZiT0NSRGl1UHg3V2ZUeTV6OEhBbVAtd0NOY1JLa0lXdmZGVzd1OHJrZWI5amJZNENsM3JyWkxzdEZGV1hlMV9RZnRkTlFOelp2ZC1BaW5QSTVMNUpqQ1VmcW92N3JTSUYtb0txeFFVWHJBRnFMTWN3TXVqYjN5RjZLZHoyRTUtU3FaaGZmY0xqVUVwcW1nWVBmcjd0cFRnUUl6WS1zRkVDRUpSOEc5THlJdEZvbGd3aFh0RTRURTZSdUVYWnY4MFpNOGxiY3h6Uk5ha1RCYVE5Sld5UHIyOFN6emQ2bHRhOV9HalJkRDdER2xxMFBHUlVwMWsxZHNLZFh3TEFXSWc?oc=5"
     },
     {
       "id": "0b4743fe",
@@ -183,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE5zemtoSk5nV0V2SHQ1ekpvdFRITVU1ZE9aVExIS2dXRzRybDlRZDN2cmVFU2hDZHpwbnd4TnFsSk9jVjFEOGJTVC1uZ1BJR3dRRThsUE1wOXVscjlCN2VrQzBZeHB3ZFY4QWkyRmZYNjhyb1RDVzJVcmhaNExEd2Z2Zi1COFdE?oc=5"
     },
     {
-      "id": "e3bd4277",
-      "title": "Louis Partridge试镜剧版哈利波特_新浪新闻 - 手机新浪网",
-      "date": "2026-05-08",
-      "category": "综合资讯",
-      "summary": "Louis Partridge试镜剧版哈利波特_新浪新闻",
-      "content": "Louis Partridge试镜剧版哈利波特_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KS0dLcXdUNWxaeXdURG9NZndrbThBZ2VnZm5tN09Udk5zb0p4NkZuQmN5cUJBYXZUQ0kybG1MQ0dkRlRabjI3WklCVGZJQ25UQUdhb1Nja0hJSHE2MFhWMm0zaw?oc=5"
-    },
-    {
       "id": "6940e1da",
       "title": "哈利·波特将以季播OTT剧集回归 - 매일경제",
       "date": "2026-05-08",
@@ -241,6 +241,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwRmoxR3lMUDEtNldpeU1PaEtxRnlSVmFldVNfZXVjZXFTSDdabTNEZ1JYSlRoZTRZWFBMdDRmUDB1ODlZV29rOHN6YXhNYU9MYnBmTDJ4WnJsOHdubkxLdFl2cHhfcHIybnYyZV9DWnBzR2xXeERfeExrdw?oc=5"
+    },
+    {
+      "id": "e3bd4277",
+      "title": "Louis Partridge试镜剧版哈利波特_新浪新闻 - 手机新浪网",
+      "date": "2026-05-08",
+      "category": "综合资讯",
+      "summary": "Louis Partridge试镜剧版哈利波特_新浪新闻",
+      "content": "Louis Partridge试镜剧版哈利波特_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KS0dLcXdUNWxaeXdURG9NZndrbThBZ2VnZm5tN09Udk5zb0p4NkZuQmN5cUJBYXZUQ0kybG1MQ0dkRlRabjI3WklCVGZJQ25UQUdhb1Nja0hJSHE2MFhWMm0zaw?oc=5"
     },
     {
       "id": "4b3fb12f",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xSV9QdnVyTWIxYTV2NUgySWRFRTZ2aU9jUVBPX3MzZXJtM0RPYkhhV1VLZFZIWlQ2aVRCU3I0V1YzbXZhMk1lNTBzRjk3YWItankzRHhXRzR6UVI1MmxVMTlXWQ?oc=5"
-    },
-    {
-      "id": "5228d5ce",
-      "title": "哈利波特魔法觉醒职业猜测_新浪新闻 - 手机新浪网",
-      "date": "2026-05-07",
-      "category": "综合资讯",
-      "summary": "哈利波特魔法觉醒职业猜测_新浪新闻",
-      "content": "哈利波特魔法觉醒职业猜测_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xdmdoSzlCOGdVaHhnSVNwNDdiMzFqNUZWelpacm5fOWdoRFJnejZIY0N2NkdNdm9fdHpNQWdkVlE4UjF4VjB1SmNLUkVESExmTHZtNE1oZ0k3VlFzQ1JjclJRZw?oc=5"
     }
   ]
 }
