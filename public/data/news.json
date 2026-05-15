@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-15T06:22:12.754Z",
+  "lastUpdated": "2026-05-15T11:12:25.498Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "06274851",
+      "title": "《霍格沃茨遗产》将在接下来的几天内离开 Epic Games Store 的免费目录 - Mix Vale",
+      "date": "2026-05-15",
+      "category": "游戏资讯",
+      "summary": "《霍格沃茨遗产》将在接下来的几天内离开 Epic Games Store 的免费目录",
+      "content": "《霍格沃茨遗产》将在接下来的几天内离开 Epic Games Store 的免费目录",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOVFVzb2RyQ1B2bHJTbmRISGRKYzBES2paeXdHUmFGOWg2LW1pUjZiV01Nc01ldDNldFQ0ZDZrV0dsUGxWOHRJWHpjZEt1RmpTWHVtLWpJSzM2WFJ4dEVNS3c0cTFVQ2pLdjhnSXZjUzRORGZiM05LSDlxLVAxbmV3UFBvc2FKLVpES0ZZU3pCeHpNenM2Z3prUExpZHczSkQtU0V4LWpRMGNyaU12WkU5Wm9RdmdWNWxrengtSmJReVd5enVjWHVSM3Byc0g2eTZvSzRTbS1fNnBIckROcGd1ZXJuZTQ3blRmWl9HcG5CRXUwMXIwRU14TkZ3ajV4aVJvQlVRdzJoLUFMcDBVSEt3OXNxLThPYnNIZWNOcHVmWGE5N1BHMm9faUxJZk5OZkJ5bngtblFzRHg0bkpYTkdLT3o0RFFYTTJCWlhWckM3cjJ6NXM1b0VuVGluQQ?oc=5"
+    },
     {
       "id": "55db9f36",
       "title": "不知为何，凯莉·詹娜竟然是《塞尔达传说：旷野之息》的忠实粉丝 - 17173",
@@ -283,26 +303,6 @@
       "source": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOQno1bE1sSFNibGk2eDFsa25ibW94OWpkX2t2dGZXeUJWN2Nyd21jMkdMNnBWSzZQdmhCUFJxMXdrLUFGM00tWjRYM0x2MTRaaG9nUUxUSllKZDhLYWFma2g5aXpJS3VPRFFfak1TYWVKY3ZSUHVONlFvVWpsWF9jM3pINDhRZ1poZVJ3SVhaUUxEZkV5UWlGZFgwdEJ0a3lsa2RUVXdmRG9jcWVnazB6OU5ZazlEWWR3aVJHeE1rTFJ3b1N2alItcTR4NFl2bUktVF9xNzlsUE1WY1Q4NEtjRm5UNTAxeWZ1b2hoR2VXbmRPRlZ0Sk1GWjFXZjItRlFucEEtZU96Yw?oc=5"
     },
     {
-      "id": "b4fad5c6",
-      "title": "Animate推出哈利波特戒指_新浪新闻 - 手机新浪网",
-      "date": "2026-05-08",
-      "category": "影视动态",
-      "summary": "Animate推出哈利波特戒指_新浪新闻",
-      "content": "Animate推出哈利波特戒指_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56YUlxQTVpWWV5XzB5OS0zS3JQVFU2VkoySl95Zl9IRFhiQV9rVndnTm5BSkwzdHQ0Y3NyaWxNMUswdnE2eWNrdlQyLXRudF9ITlZSVjJkUnNwOUtXSnZ5clhabw?oc=5"
-    },
-    {
       "id": "5ec3e434",
       "title": "Epic Games Store 宣布 2026 年 5 月推出新的免费神秘游戏赠品 - Notebookcheck CN",
       "date": "2026-05-08",
@@ -321,6 +321,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwRmoxR3lMUDEtNldpeU1PaEtxRnlSVmFldVNfZXVjZXFTSDdabTNEZ1JYSlRoZTRZWFBMdDRmUDB1ODlZV29rOHN6YXhNYU9MYnBmTDJ4WnJsOHdubkxLdFl2cHhfcHIybnYyZV9DWnBzR2xXeERfeExrdw?oc=5"
+    },
+    {
+      "id": "b4fad5c6",
+      "title": "Animate推出哈利波特戒指_新浪新闻 - 手机新浪网",
+      "date": "2026-05-08",
+      "category": "影视动态",
+      "summary": "Animate推出哈利波特戒指_新浪新闻",
+      "content": "Animate推出哈利波特戒指_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56YUlxQTVpWWV5XzB5OS0zS3JQVFU2VkoySl95Zl9IRFhiQV9rVndnTm5BSkwzdHQ0Y3NyaWxNMUswdnE2eWNrdlQyLXRudF9ITlZSVjJkUnNwOUtXSnZ5clhabw?oc=5"
     },
     {
       "id": "1a431c13",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ic3hLenVqQi01Ti1YQkhMQlprc0NRckx3R0lSVUtyNXBJVkVLOXZfMjEyVktpcjJoa1dkU3hpMWp3QllPaW83NGlJdUZSUUZCSkE?oc=5"
-    },
-    {
-      "id": "64b4e9ac",
-      "title": "剧版《哈利·波特》道具频繁被盗，剧组给扫帚植入微型芯片定位 - 搜狐网",
-      "date": "2026-05-08",
-      "category": "影视动态",
-      "summary": "剧版《哈利·波特》道具频繁被盗，剧组给扫帚植入微型芯片定位",
-      "content": "剧版《哈利·波特》道具频繁被盗，剧组给扫帚植入微型芯片定位",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE5zemtoSk5nV0V2SHQ1ekpvdFRITVU1ZE9aVExIS2dXRzRybDlRZDN2cmVFU2hDZHpwbnd4TnFsSk9jVjFEOGJTVC1uZ1BJR3dRRThsUE1wOXVscjlCN2VrQzBZeHB3ZFY4QWkyRmZYNjhyb1RDVzJVcmhaNExEd2Z2Zi1COFdE?oc=5"
     }
   ]
 }
