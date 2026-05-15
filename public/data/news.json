@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T16:46:07.288Z",
+  "lastUpdated": "2026-05-15T19:14:25.165Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -41,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ONU03VjU3c2lNWlB1eFRTN1VIN180d2RTMjdrS3JDRV9zc3lvTzU0VUh3QWlEenhIUjBiZThVTkU3SHdvYUtVMk8zbm9KR1VsRTBzX2lxejBzRUNGWEh1RzluMFE?oc=5"
+    },
+    {
+      "id": "568e66f3",
+      "title": "哈利波特魔法觉醒： - 手机新浪网",
+      "date": "2026-05-12",
+      "category": "影视动态",
+      "summary": "哈利波特魔法觉醒：",
+      "content": "哈利波特魔法觉醒：",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KcmNFR1JvU01rNDNOYk5sdm92bGtlMGhsWEs3TkV3bEMwMUkyTkptVkxYQWNoZ2phNnFqaXUyVjgzVGhPNlU4MWNLdW5TXzcwajYzQVkyeXpJUmZsQmdPNmVvYw?oc=5"
     },
     {
       "id": "bcd35e43",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sUUJwd1FmUndZeG1HZXhjOElCN2szUnhIMWxNWk5SUF9qbFFrVThxb2ZvOWdYelhpMkc5S2hGNEs3cjJqdGlibTF4RWlIckp5S3RxZ051T0U1V2RrTlpPOU5kSQ?oc=5"
-    },
-    {
-      "id": "6940e1da",
-      "title": "哈利·波特将以季播OTT剧集回归 - 매일경제",
-      "date": "2026-05-08",
-      "category": "影视动态",
-      "summary": "哈利·波特将以季播OTT剧集回归",
-      "content": "哈利·波特将以季播OTT剧集回归",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ic3hLenVqQi01Ti1YQkhMQlprc0NRckx3R0lSVUtyNXBJVkVLOXZfMjEyVktpcjJoa1dkU3hpMWp3QllPaW83NGlJdUZSUUZCSkE?oc=5"
     }
   ]
 }
