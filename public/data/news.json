@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T17:32:34.889Z",
+  "lastUpdated": "2026-05-19T19:41:03.850Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -363,6 +363,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Kd2xPNzUtTHI1Q08xUDhsZU1qdVcyNmlnSE9malpkaW5NZUk2S2RlUmJycnRXZzZlUTBjVXBXNE1GWDNfZDlMU1pmQVRoNjdpbU1faXk5U2ptUTV5TEdxY1RNUQ?oc=5"
     },
     {
+      "id": "92a728ca",
+      "title": "温故知新实装_新浪新闻 - 新浪网",
+      "date": "2026-05-14",
+      "category": "综合资讯",
+      "summary": "温故知新实装_新浪新闻",
+      "content": "温故知新实装_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ROWlZaXhyMlljdkpTbEpaQVdnZ0pja2U0NjZZeDV1SVpQOWFQVWQzS0VKUWVNNlRVNkJzaEJ2eHh5WHVIeHVXc2FjOVl2VVJKNXU0RHNyejVCQ3JEdmw1MncwQQ?oc=5"
+    },
+    {
       "id": "a6483e47",
       "title": "#哈利波特魔法觉醒[超话]# 好美哦。 ​ - 新浪网",
       "date": "2026-05-14",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAyMFJILXc3LURHQjlIdGQ3MkRhZ0VFUGEwWThLc3ZpbmZWZ0loQUIyQ255Slp2OGtDTm9ORHpwRVg4S2JrREdaZ1hZcjJoTkZ3VUd0bHU4ZkxRNWY2eWkxalA4RQ?oc=5"
-    },
-    {
-      "id": "55db9f36",
-      "title": "不知为何，凯莉·詹娜竟然是《塞尔达传说：旷野之息》的忠实粉丝 - 17173",
-      "date": "2026-05-14",
-      "category": "影视动态",
-      "summary": "不知为何，凯莉·詹娜竟然是《塞尔达传说：旷野之息》的忠实粉丝",
-      "content": "不知为何，凯莉·詹娜竟然是《塞尔达传说：旷野之息》的忠实粉丝",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ONU03VjU3c2lNWlB1eFRTN1VIN180d2RTMjdrS3JDRV9zc3lvTzU0VUh3QWlEenhIUjBiZThVTkU3SHdvYUtVMk8zbm9KR1VsRTBzX2lxejBzRUNGWEh1RzluMFE?oc=5"
     }
   ]
 }
