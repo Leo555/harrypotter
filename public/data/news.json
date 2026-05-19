@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-18T21:57:20.262Z",
+  "lastUpdated": "2026-05-19T02:07:14.352Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "fa5e15ee",
+      "title": "HBO剧版《哈利·波特》金妮·韦斯莱演员Gracie Cochrane退出第二季 - 新浪网",
+      "date": "2026-05-19",
+      "category": "影视动态",
+      "summary": "HBO剧版《哈利·波特》金妮·韦斯莱演员Gracie Cochrane退出第二季",
+      "content": "HBO剧版《哈利·波特》金妮·韦斯莱演员Gracie Cochrane退出第二季",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNXUyQlZwV0FacVlRNFVBVTJXcTVRRWZKYkpfa3hOUy1GLXNFZG9aQTUybXBrNWczZUNHYUZOZEFlT29iWFpSZjU1UDdxRDJNQ1Zkem1IamFRcnZsUjM2ZWNXanR0QkszQ0NUN3ZvLXp3UjVqUW5IRmp5SHk1SXFYQQ?oc=5"
+    },
     {
       "id": "8bd8eb0f",
       "title": "哈迷等到了！REDMI Pad 2 Pro哈利·波特版限时直降400元：到手2199元 - 驱动之家",
@@ -21,26 +41,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Hb0REdGQ3M0xCWEd4a0kweFNWOThUcXBOeldyVlNTLVRjcW9pX3V4eGMzR2JLRTluNlp6Q1BfQWcwWk9jY3BYMzRHaVY4TXpFcGdhTEtnc18?oc=5"
-    },
-    {
-      "id": "1a67718a",
-      "title": "HBO剧版哈利波特金妮韦斯莱演员Gracie Cochrane退出第二季 - 新浪网",
-      "date": "2026-05-18",
-      "category": "影视动态",
-      "summary": "HBO剧版哈利波特金妮韦斯莱演员Gracie Cochrane退出第二季",
-      "content": "HBO剧版哈利波特金妮韦斯莱演员Gracie Cochrane退出第二季",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSTAtRnJ1SE9UdnFjT3VzUzdQMTBtOEhCQm1mTFVCekpZaVlQMmxYUkFqbUZJSTdQQklzZFRVOXFvanpZVUN2cXB4LXpuQm4ySlllYjZmUG1kUVhaTFVKNEhXZnBCRGtfaDN4WVl6S080eDVSeXFXS3hVNGlKVnBPMw?oc=5"
     },
     {
       "id": "ad19f842",
@@ -103,6 +103,26 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaN0s0ZUtRS0txby1PWGh1S00weDJjTVdZZFlYWVJMWVlManM4b0JDUVpUY3ZVbkgtZ0Iwa1pjNGR6Wmdjby1IZURpbkdYQkxCbmEtUXNqTUtjYlhlRXBKN04wVVg?oc=5"
     },
     {
+      "id": "7334f717",
+      "title": "哈利波特角色成长历程_新浪新闻 - 新浪网",
+      "date": "2026-05-15",
+      "category": "综合资讯",
+      "summary": "哈利波特角色成长历程_新浪新闻",
+      "content": "哈利波特角色成长历程_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjQkpRVjdVaDBUajN6MGhmRElhYlhuUXd5QXdqbzdoRFJteV9uWTF4OFQ1OHNWREVqdDdZeS1vb2dsOTJHUUJ4MWd2ZTA5V2lTZDR4cEYyQ183bVduaElhTkk2Yw?oc=5"
+    },
+    {
       "id": "06274851",
       "title": "《霍格沃茨遗产》将在接下来的几天内离开 Epic Games Store 的免费目录 - Mix Vale",
       "date": "2026-05-15",
@@ -141,26 +161,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNSUZkb1FYYi1OeHhEWklnQXd5eDhqellsWFFKeWQyWW9CTWpQRG9FelNzeGtmdU1jV1BqQTRNaWg0cWtwd3VHRms5YWFtTG1UazZ0NHFKVjU5N002TFBUVlljVmNXMy0zWmIybEM1NVREYVJscFZZcGNNOGtzR05NSUhfV0hPdHhpREdJeVNwUXVkMkg0S2h2dzBIUjI0QjVuMmV0dThzaE9RTmNMTWhwOW5USXZSRU95ekRVX3FXMUtlMWVhRm9wTWZFZFZockI4SFpwZ0QwYTd0TlpLNmVlZ0d5ejBzMl82ZDVXanFoai1ZaVlMQjZwck5ZVnpJNExWS2Y4UFphdU50WnBwYm1sYWZENDJVSDQxRVdQUUpFSmtTZzdONGc0QkVwWWF6WXJWVWRWdjlEbWhrS0ZXUnF4LWNhOTlIVzBfeUlQZXphaThoUQ?oc=5"
-    },
-    {
-      "id": "7334f717",
-      "title": "哈利波特角色成长历程_新浪新闻 - 新浪网",
-      "date": "2026-05-15",
-      "category": "综合资讯",
-      "summary": "哈利波特角色成长历程_新浪新闻",
-      "content": "哈利波特角色成长历程_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjQkpRVjdVaDBUajN6MGhmRElhYlhuUXd5QXdqbzdoRFJteV9uWTF4OFQ1OHNWREVqdDdZeS1vb2dsOTJHUUJ4MWd2ZTA5V2lTZDR4cEYyQ183bVduaElhTkk2Yw?oc=5"
     },
     {
       "id": "7fdeb4b7",
