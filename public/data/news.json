@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T11:41:13.352Z",
+  "lastUpdated": "2026-05-20T14:31:55.949Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -163,26 +163,6 @@
       "source": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPTnR4aHR5XzdDdzg1YzBXMUJhb2s4YVFaMW9zeVVoZU9wemQ4Ql9XSE5zcTN6RTZnNVR3Sk8yZUJvTnY3QlhoVGEtb3lpbERzU3BYVzEtRDZicWFORXBnMENlUS1wVFVVN3l0dlBIZmtvZTNsaXpJcG5RaUE0b19fc01zd3phNzN3WTJOTE5GQlhpeFc5U0xUTTBDSWQ1alZWM0p2ckpXZUFxN2ktb2xuazVwRTQtYnlmOXl4R2JWOGlKSVkwdmdGWFY2cEkxUzFabVZ0QS1sWm5JWjFCcU9XWXNjdm83ZHJFYlVCQTZaYWdHZmlja0ZsV3MtckVZY0FtNU1ZTUs5b0doa3VD?oc=5"
     },
     {
-      "id": "c3e3505b",
-      "title": "小米REDMI Pad 2 Pro平板哈利·波特版限时优惠400元，到手2199元 - Pchome电脑之家",
-      "date": "2026-05-18",
-      "category": "综合资讯",
-      "summary": "小米REDMI Pad 2 Pro平板哈利·波特版限时优惠400元，到手2199元",
-      "content": "小米REDMI Pad 2 Pro平板哈利·波特版限时优惠400元，到手2199元",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jQk9nM0lpWXpMRk8xUTY0WG9nd2RSOGZSVkQzT2k2N2xUbm90TGJVNm5WdFZxbm41US1BLUQ4bldFYlYzOHhISlBVa0NEUXpxQV9RZA?oc=5"
-    },
-    {
       "id": "67e0b878",
       "title": "哈利波特：魁地奇冠军 season 2关键角色将重新选角，原演员已退出HBO剧集 - 17173",
       "date": "2026-05-18",
@@ -241,6 +221,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43Z0xVUXJCZ21YWjJoLTRYMHpNbVFOV3d2X1cyS0cyaWo1TURiaGFtMkVIa21BcHdPbTFfQ2hzcmZPWV95Sk9jUV8wcjZ6Y3oxOUp5czd2dzg3MTAybEtJVUh0ck0?oc=5"
+    },
+    {
+      "id": "c3e3505b",
+      "title": "小米REDMI Pad 2 Pro平板哈利·波特版限时优惠400元，到手2199元 - Pchome电脑之家",
+      "date": "2026-05-18",
+      "category": "综合资讯",
+      "summary": "小米REDMI Pad 2 Pro平板哈利·波特版限时优惠400元，到手2199元",
+      "content": "小米REDMI Pad 2 Pro平板哈利·波特版限时优惠400元，到手2199元",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jQk9nM0lpWXpMRk8xUTY0WG9nd2RSOGZSVkQzT2k2N2xUbm90TGJVNm5WdFZxbm41US1BLUQ4bldFYlYzOHhISlBVa0NEUXpxQV9RZA?oc=5"
     },
     {
       "id": "8bd8eb0f",
