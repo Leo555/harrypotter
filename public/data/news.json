@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T20:00:28.689Z",
+  "lastUpdated": "2026-05-20T22:18:44.659Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -363,6 +363,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fWHd5TXJBSkVhR1ZOV3pjTnIzUkVfMk9Tc214dWRFVjNQX214Z3FsYnUwLXlvbnk0TFYwakNwZURaWTlkZVhndS1oZ2pCSk9PdHJSMWlNQzlvQ0E5d0stQnpTYw?oc=5"
     },
     {
+      "id": "84e324eb",
+      "title": "哈利波特回廊超越_新浪新闻 - 新浪网",
+      "date": "2026-05-16",
+      "category": "影视动态",
+      "summary": "哈利波特回廊超越_新浪新闻",
+      "content": "哈利波特回廊超越_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qcllTVnRMZ3hIZDMxeWJQd2dRVm0xMUdqQUFyM3JVSGg1NnhGSXJtTmhvWTY3cVB3bi1yTE1ZWFV5UmxobXpXdVpEVkhVZTc0TEx2M2wwcHNQZ1FrUHBfZzdmRQ?oc=5"
+    },
+    {
       "id": "ad91afbd",
       "title": "哈利波特时装返场投票_新浪新闻 - 新浪网",
       "date": "2026-05-16",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NQ0YzaTVCQW0wdjZqOTRuTUVDd0o4Ui1HX2pWYjdnQ2NvWjdwbFFqcVZBZHB5TFhUR0FPX3BUbUpadklSTE1iS3RLbXEtUDlPeWpuWlBFS2pTY2tMMmxGYVVkVQ?oc=5"
-    },
-    {
-      "id": "cc3e858f",
-      "title": "哈利波特演员史丹尼斯拉夫41岁生日，曾饰威克多尔克鲁姆 - 手机新浪网",
-      "date": "2026-05-16",
-      "category": "影视动态",
-      "summary": "哈利波特演员史丹尼斯拉夫41岁生日，曾饰威克多尔克鲁姆",
-      "content": "哈利波特演员史丹尼斯拉夫41岁生日，曾饰威克多尔克鲁姆",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQWY3LXVJQk5tOFhWOFBKcW56c1UwdGxvZU1KZTZRSndLTEl6OHU1ZVdKdjFTNUlhREFpYkVlNUdLTVhadkljeTRmWm5hQjNkZmtNdWNWV0hkd2dhdTd4LVgxZ0U0ZEV3WTFZZTRFYUFuXzFTUDBfejVlbEhTMThIQ1RxMWlNdG1laHgwNEIwbEVROURNRUIxc3Z0RlBsb0ZRUU9qNzVId1JETms?oc=5"
     }
   ]
 }
