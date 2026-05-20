@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T17:49:26.783Z",
+  "lastUpdated": "2026-05-20T20:00:28.689Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -61,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPellqSVZvSzZTSWkxd1d6MkY1YUVLS19xV1U2RUdneDgtNXBTMXZuSVo2dUpDUk1MZ3NFRnhCM0RrbE1Ub0dZOVdvcDJsTDF0MDVibDVQYkNrc0NFcDdMTUdub05JaWV4ZFVqekppUjc1dlg1Q1JsQnJmQnpyZnJHaEZn?oc=5"
+    },
+    {
+      "id": "30f635c1",
+      "title": "剧版《哈利波特》还没开播，就官宣换了主演-腾讯新闻 - 腾讯新闻",
+      "date": "2026-05-19",
+      "category": "综合资讯",
+      "summary": "剧版《哈利波特》还没开播，就官宣换了主演-腾讯新闻",
+      "content": "剧版《哈利波特》还没开播，就官宣换了主演-腾讯新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEb1hjWXhLT0xFRVl2VGtlT29Idnh5VGExRWhiS1g2T3Z2Q2FZMExGd01pZEJ6eW1wREZrLThmOVVJWEw0cmJqZjI1RHJEdFU5RHhXeXNB?oc=5"
     },
     {
       "id": "e86b1897",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQWY3LXVJQk5tOFhWOFBKcW56c1UwdGxvZU1KZTZRSndLTEl6OHU1ZVdKdjFTNUlhREFpYkVlNUdLTVhadkljeTRmWm5hQjNkZmtNdWNWV0hkd2dhdTd4LVgxZ0U0ZEV3WTFZZTRFYUFuXzFTUDBfejVlbEhTMThIQ1RxMWlNdG1laHgwNEIwbEVROURNRUIxc3Z0RlBsb0ZRUU9qNzVId1JETms?oc=5"
-    },
-    {
-      "id": "9dc03e7a",
-      "title": "5部比 哈利波特：魁地奇冠军 更好看的奇幻小说推荐 - 17173",
-      "date": "2026-05-15",
-      "category": "影视动态",
-      "summary": "5部比 哈利波特：魁地奇冠军 更好看的奇幻小说推荐",
-      "content": "5部比 哈利波特：魁地奇冠军 更好看的奇幻小说推荐",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaN0s0ZUtRS0txby1PWGh1S00weDJjTVdZZFlYWVJMWVlManM4b0JDUVpUY3ZVbkgtZ0Iwa1pjNGR6Wmdjby1IZURpbkdYQkxCbmEtUXNqTUtjYlhlRXBKN04wVVg?oc=5"
     }
   ]
 }
