@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T17:01:28.157Z",
+  "lastUpdated": "2026-05-22T19:21:15.958Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -123,26 +123,6 @@
       "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPellqSVZvSzZTSWkxd1d6MkY1YUVLS19xV1U2RUdneDgtNXBTMXZuSVo2dUpDUk1MZ3NFRnhCM0RrbE1Ub0dZOVdvcDJsTDF0MDVibDVQYkNrc0NFcDdMTUdub05JaWV4ZFVqekppUjc1dlg1Q1JsQnJmQnpyZnJHaEZn?oc=5"
     },
     {
-      "id": "e86b1897",
-      "title": "哈利-波特》系列：主要角色最早将在第二季重铸 - Notebookcheck CN",
-      "date": "2026-05-19",
-      "category": "出版物",
-      "summary": "哈利-波特》系列：主要角色最早将在第二季重铸",
-      "content": "哈利-波特》系列：主要角色最早将在第二季重铸",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIT0lyLW9Kamh0MXpvckhYcGdlT3lRT2F3dmZzbEtsQ1A0S3Jpc3dnYWJobG5hdTlsQTJ6NWdicV96X2tlMU9ER3Fhak5yT3pCdlBBTXowNGI1WDQ?oc=5"
-    },
-    {
       "id": "6a20a74e",
       "title": "剧版《哈利波特》还没开播，就官宣换了主演-腾讯新闻 - QQ News",
       "date": "2026-05-19",
@@ -161,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEb1hjWXhLT0xFRVl2VGtlT29Idnh5VGExRWhiS1g2T3Z2Q2FZMExGd01pZEJ6eW1wREZrLThmOVVJWEw0cmJqZjI1RHJEdFU5RHhXeXNB?oc=5"
+    },
+    {
+      "id": "e86b1897",
+      "title": "哈利-波特》系列：主要角色最早将在第二季重铸 - Notebookcheck CN",
+      "date": "2026-05-19",
+      "category": "出版物",
+      "summary": "哈利-波特》系列：主要角色最早将在第二季重铸",
+      "content": "哈利-波特》系列：主要角色最早将在第二季重铸",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIT0lyLW9Kamh0MXpvckhYcGdlT3lRT2F3dmZzbEtsQ1A0S3Jpc3dnYWJobG5hdTlsQTJ6NWdicV96X2tlMU9ER3Fhak5yT3pCdlBBTXowNGI1WDQ?oc=5"
     },
     {
       "id": "fae1faab",
@@ -383,13 +383,13 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43Z0xVUXJCZ21YWjJoLTRYMHpNbVFOV3d2X1cyS0cyaWo1TURiaGFtMkVIa21BcHdPbTFfQ2hzcmZPWV95Sk9jUV8wcjZ6Y3oxOUp5czd2dzg3MTAybEtJVUh0ck0?oc=5"
     },
     {
-      "id": "528f4fbe",
-      "title": "生日特别场直播_新浪新闻 - 新浪网",
+      "id": "8a381981",
+      "title": "金妮演员重新选角_新浪新闻 - 新浪网",
       "date": "2026-05-18",
-      "category": "综合资讯",
-      "summary": "生日特别场直播_新浪新闻",
-      "content": "生日特别场直播_新浪新闻",
-      "image": "📰",
+      "category": "影视动态",
+      "summary": "金妮演员重新选角_新浪新闻",
+      "content": "金妮演员重新选角_新浪新闻",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -400,7 +400,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qRUIyNU50R0tMSkpWMVN3ZjhyOVBQeC1SZFJnQzloR0Y0TnB5ODc5YTlRVlByemtWYllZUGNtX1lqblU5UGo1M0JyTXh4UXBTRDlnOXNlaU9lb0stOVlMWXNtSQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tYkFlc3I0S2k2TDl0ZXBqOGNqc1AtWnlmZWE2TWNWSVF0WEl6c3prbUE3Q3hxc2FJYzdlUVpMVGtKT2F4Q1lrcUxSVl8wTVJzM3gyZURzcWV2a2JOblRhZFlUaw?oc=5"
     }
   ]
 }
