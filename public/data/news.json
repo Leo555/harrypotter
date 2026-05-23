@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-23T08:12:00.242Z",
+  "lastUpdated": "2026-05-23T10:20:26.752Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "ec9f3faa",
+      "title": "把热爱玩成超能力！六一将至，来听听这位上海少年的成长故事 - 搜狐网",
+      "date": "2026-05-23",
+      "category": "影视动态",
+      "summary": "把热爱玩成超能力！六一将至，来听听这位上海少年的成长故事",
+      "content": "把热爱玩成超能力！六一将至，来听听这位上海少年的成长故事",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzNMZGdWa2ZSTTYwaUh2WldreDJFRmc5MHpVVVpRTU1aZ0JUMDFpR3NJekdNZzZ4bGNvZVEyTERSZVZaam5QNjUxd3lqak5Iem9KaXk1SEIzeEZrRUluV3dyRVNtd05ET1dzdFo5UkFTVHJvZjdNR1lNdUxTS3lDcDZiWTBWallGRlJmRQ?oc=5"
+    },
     {
       "id": "10ad32cc",
       "title": "剧版《哈利波特》金妮韦斯莱换人 因不可预见退出 - 中华网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tYkFlc3I0S2k2TDl0ZXBqOGNqc1AtWnlmZWE2TWNWSVF0WEl6c3prbUE3Q3hxc2FJYzdlUVpMVGtKT2F4Q1lrcUxSVl8wTVJzM3gyZURzcWV2a2JOblRhZFlUaw?oc=5"
-    },
-    {
-      "id": "42e0f060",
-      "title": "哈利波特金妮演员退出_新浪新闻 - 新浪网",
-      "date": "2026-05-18",
-      "category": "影视动态",
-      "summary": "哈利波特金妮演员退出_新浪新闻",
-      "content": "哈利波特金妮演员退出_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BRHVhTFRZUU5JLUVBaGlFT1lpb0hOWWxmWk1abHJmUWdtU21kSmdKUlQxUzZ0RV82MTc2S29qWTVXZ0lZb2dPdll5UTlxdHBFQmp1bDNPNkFWUVU5RnNwNU1FZw?oc=5"
     }
   ]
 }
