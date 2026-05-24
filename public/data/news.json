@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-24T02:03:39.582Z",
+  "lastUpdated": "2026-05-24T06:26:28.786Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "3f36f265",
-      "title": "玛吉·史密斯隐瞒乳腺癌坚持完成哈利波特拍摄 - 手机新浪网",
+      "id": "29231c83",
+      "title": "玛吉·史密斯隐瞒乳腺癌坚持完成哈利波特拍摄 - 新浪网",
       "date": "2026-05-24",
       "category": "影视动态",
       "summary": "玛吉·史密斯隐瞒乳腺癌坚持完成哈利波特拍摄",
@@ -61,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrSi1Na3VlLWJUQTN2VHFCYWtmQW1iTnItNHBnQXMzNmljS0xLbHM0U3E4M0dsZzhnaWVHUDBTcEVrZFM1NEJKb2x3a0dVd2d5cHVLVjJXNmpqTE1sYVViNUxlVURieU92RTNIQmptX2ZIdzJzcnRsYQ?oc=5"
+    },
+    {
+      "id": "54450eb1",
+      "title": "噗噗波特 - 新浪网",
+      "date": "2026-05-23",
+      "category": "综合资讯",
+      "summary": "噗噗波特",
+      "content": "噗噗波特",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycDd6R19Mei10d2JRek83YmRib2pqSXUtODczejE1RXVfMENQd1lWRnlMTFJUMVRQMGstcG1NTkg5WnoyR01tSkVoVXdPbXp4SWZCVy1DZmVyMDlxWk5JMlBzZw?oc=5"
     },
     {
       "id": "ec9f3faa",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNXUyQlZwV0FacVlRNFVBVTJXcTVRRWZKYkpfa3hOUy1GLXNFZG9aQTUybXBrNWczZUNHYUZOZEFlT29iWFpSZjU1UDdxRDJNQ1Zkem1IamFRcnZsUjM2ZWNXanR0QkszQ0NUN3ZvLXp3UjVqUW5IRmp5SHk1SXFYQQ?oc=5"
-    },
-    {
-      "id": "448d8d73",
-      "title": "《哈利波特》爆大换角 “金妮”拍完第1季就辞演 - 娱乐 - 国外娱乐 - 好莱坞 - Sin Chew Daily",
-      "date": "2026-05-19",
-      "category": "影视动态",
-      "summary": "《哈利波特》爆大换角 “金妮”拍完第1季就辞演",
-      "content": "《哈利波特》爆大换角 “金妮”拍完第1季就辞演",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmbUhrOFpXZFN6QV82RXpram5fc2JYMjNFUXhObVpjdUdVd0pjMXJkZzY1Yzk4WnFuQTF4MEpSUTN2MTkzcTVwYW9NaUVfSnhLQkl5bVBHVkdFajRPX014NDZFMmxGZnBrVy1tWElTcw?oc=5"
     }
   ]
 }
