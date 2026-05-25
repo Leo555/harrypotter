@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T16:57:39.492Z",
+  "lastUpdated": "2026-05-25T19:13:26.921Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -263,26 +263,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAyOHZpME9UVUxRLWMwZ0tyQ0JJWlkycFN6WWozbjZHdUIxcHg2QnVoajdaMlhfNTV0LWNRaGFCZGNlXzFDdUJQZ2FqdkVyRFdWZW81S3lQa2JUUEcxdGVtM2U4OA?oc=5"
     },
     {
-      "id": "54450eb1",
-      "title": "噗噗波特 - 新浪网",
-      "date": "2026-05-23",
-      "category": "综合资讯",
-      "summary": "噗噗波特",
-      "content": "噗噗波特",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycDd6R19Mei10d2JRek83YmRib2pqSXUtODczejE1RXVfMENQd1lWRnlMTFJUMVRQMGstcG1NTkg5WnoyR01tSkVoVXdPbXp4SWZCVy1DZmVyMDlxWk5JMlBzZw?oc=5"
-    },
-    {
       "id": "ba14905e",
       "title": "系列电影｜魔法闪耀25周年 - siff.com",
       "date": "2026-05-23",
@@ -301,6 +281,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84YWJJQ1Y5a09PNzdadE9GYzlXNE9BUXdBb0RsTTlNSDNoNUptaXM4ZFFNT2MzUDFSSGZWYWlUY09meWxfVzB6QVdzZ0xNaUltRXZ3UmpVeEJxMlFETlIzTW5IZXYyN0NiNG54TUJPRFBjTGFjNzlHRQ?oc=5"
+    },
+    {
+      "id": "54450eb1",
+      "title": "噗噗波特 - 新浪网",
+      "date": "2026-05-23",
+      "category": "综合资讯",
+      "summary": "噗噗波特",
+      "content": "噗噗波特",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycDd6R19Mei10d2JRek83YmRib2pqSXUtODczejE1RXVfMENQd1lWRnlMTFJUMVRQMGstcG1NTkg5WnoyR01tSkVoVXdPbXp4SWZCVy1DZmVyMDlxWk5JMlBzZw?oc=5"
     },
     {
       "id": "c5865167",
