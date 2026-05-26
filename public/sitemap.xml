@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <!-- 首页 / Homepage -->
+
+  <!-- 首页 -->
   <url>
     <loc>https://harrypotter.lz5z.com/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://harrypotter.lz5z.com/" />
@@ -12,7 +12,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- 原著百科 / Books -->
+  <!-- 原著百科 -->
   <url><loc>https://harrypotter.lz5z.com/books</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://harrypotter.lz5z.com/books/philosophers-stone</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/books/chamber-of-secrets</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -22,7 +22,7 @@
   <url><loc>https://harrypotter.lz5z.com/books/half-blood-prince</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/books/deathly-hallows</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- 电影百科 / Movies -->
+  <!-- 电影百科 -->
   <url><loc>https://harrypotter.lz5z.com/movies</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://harrypotter.lz5z.com/movies/philosophers-stone</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/movies/chamber-of-secrets</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -33,44 +33,77 @@
   <url><loc>https://harrypotter.lz5z.com/movies/deathly-hallows-1</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/movies/deathly-hallows-2</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- 人物百科 / Characters -->
+  <!-- 人物百科 -->
   <url><loc>https://harrypotter.lz5z.com/characters</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <!-- 热门角色详情页 -->
   <url><loc>https://harrypotter.lz5z.com/characters/harry-potter</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/hermione-granger</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/ron-weasley</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/albus-dumbledore</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/severus-snape</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/voldemort</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/ginny-weasley</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/sirius-black</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://harrypotter.lz5z.com/characters/rubeus-hagrid</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/draco-malfoy</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/luna-lovegood</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://harrypotter.lz5z.com/characters/neville-longbottom</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://harrypotter.lz5z.com/characters/ginny-weasley</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://harrypotter.lz5z.com/characters/bellatrix-lestrange</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://harrypotter.lz5z.com/characters/remus-lupin</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/minerva-mcgonagall</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/neville-longbottom</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/rubeus-hagrid</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/remus-lupin</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/fred-george-weasley</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/dobby</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/bellatrix-lestrange</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/characters/nymphadora-tonks</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://harrypotter.lz5z.com/characters/fred-george-weasley</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/arthur-molly-weasley</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/james-lily-potter</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/alastor-moody</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/cedric-diggory</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/lucius-malfoy</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/dolores-umbridge</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/horace-slughorn</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/percy-weasley</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/cho-chang</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/peter-pettigrew</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/gellert-grindelwald</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/bill-weasley</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/fleur-delacour</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/kingsley-shacklebolt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/fenrir-greyback</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/charlie-weasley</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/oliver-wood</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/dean-thomas</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/seamus-finnigan</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/lavender-brown</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/gilderoy-lockhart</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/kreacher</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/regulus-black</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/viktor-krum</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/rita-skeeter</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/barty-crouch-jr</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/narcissa-malfoy</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/aberforth-dumbledore</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/cornelius-fudge</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/ollivander</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/moaning-myrtle</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/hedwig</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/newt-scamander</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://harrypotter.lz5z.com/characters/xenophilius-lovegood</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
 
-  <!-- 魔法世界 / Wizarding World -->
+  <!-- 魔法世界 -->
   <url><loc>https://harrypotter.lz5z.com/world/spells</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/world/creatures</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/world/items</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/world/places</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://harrypotter.lz5z.com/world/potions</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- 预言家日报 / News -->
+  <!-- 预言家日报 -->
   <url><loc>https://harrypotter.lz5z.com/news</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
-  <!-- 互动专区 / Interactive -->
+  <!-- 互动专区 -->
   <url><loc>https://harrypotter.lz5z.com/interactive/sorting</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/interactive/patronus</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://harrypotter.lz5z.com/interactive/wand</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- 其他 / Others -->
+  <!-- 其他 -->
   <url><loc>https://harrypotter.lz5z.com/timeline</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://harrypotter.lz5z.com/extra-stories</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://harrypotter.lz5z.com/reader</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
