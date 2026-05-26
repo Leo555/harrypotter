@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-26T02:02:47.718Z",
+  "lastUpdated": "2026-05-26T06:36:15.848Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "5254e664",
+      "title": "抽奖送分院帽相框_新浪新闻 - 新浪网",
+      "date": "2026-05-26",
+      "category": "影视动态",
+      "summary": "抽奖送分院帽相框_新浪新闻",
+      "content": "抽奖送分院帽相框_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SQW83S3BiWWhvQnpibEJlYm50bFJVM3hYYXBWZVdaRWJUUWljRURvTVBINHhLdTRScnVvd3plT2xobkxxNldwcGtSLVVlZy0xRjVHQ1piNEFxUDhmNzBSei1Zdw?oc=5"
+    },
     {
       "id": "e22ddfbb",
       "title": "剧版哈利波特先导预告_新浪新闻 - 新浪网",
@@ -23,26 +43,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DOVBfdW5ETHIwa2xBRHpQLWF3WW1MWWt1U2k4Y2lMRUdudHAwVXRhaHNfYUt0LTBhR3JCalVOLXdQVHpELVk2RDhSSkdqLUdyaXMzY3YyNzRRZ2kxNWhla3BpOA?oc=5"
     },
     {
-      "id": "f452e5e0",
-      "title": "HBO剧版《哈利·波特与魔法石》前瞻预告公开，12月25日播出 - 搜狐网",
-      "date": "2026-05-25",
-      "category": "影视动态",
-      "summary": "HBO剧版《哈利·波特与魔法石》前瞻预告公开，12月25日播出",
-      "content": "HBO剧版《哈利·波特与魔法石》前瞻预告公开，12月25日播出",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbFpzbENoN3M3Q3ByTlBlU3puS2xJaV9NMU95VENOd29pLXp4OC1ydC0wNDNOSWdEWnhzWHB5bjIzNVVSRWRKaUtpelktRFZmS0hvcWdZU2xXUW5Gc05WRU1UYUxpRUtSLTU5SDFSMDQwTlVpVFU2SEpsUkQxbUhzZnM0RjJ0Sllp?oc=5"
-    },
-    {
       "id": "6d70af1a",
       "title": "PS官方认证！13款必玩开放世界！PS+会员畅享 - 17173",
       "date": "2026-05-25",
@@ -61,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrdGpTeUMzdjZKbUlFRl9wRnFKUG9JLWMxcEZWeUUtT3N6alB5eU05VEQ1WDg4dFNjWXIzNy1yM04tbDZPTHU3enZvX2taaXRpZnM1Vng4ZWpiTDNROUMtT2pDcjQ?oc=5"
+    },
+    {
+      "id": "f452e5e0",
+      "title": "HBO剧版《哈利·波特与魔法石》前瞻预告公开，12月25日播出 - 搜狐网",
+      "date": "2026-05-25",
+      "category": "影视动态",
+      "summary": "HBO剧版《哈利·波特与魔法石》前瞻预告公开，12月25日播出",
+      "content": "HBO剧版《哈利·波特与魔法石》前瞻预告公开，12月25日播出",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbFpzbENoN3M3Q3ByTlBlU3puS2xJaV9NMU95VENOd29pLXp4OC1ydC0wNDNOSWdEWnhzWHB5bjIzNVVSRWRKaUtpelktRFZmS0hvcWdZU2xXUW5Gc05WRU1UYUxpRUtSLTU5SDFSMDQwTlVpVFU2SEpsUkQxbUhzZnM0RjJ0Sllp?oc=5"
     },
     {
       "id": "d15ca628",
@@ -121,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWHZpRll3QmdJbEdDSmllWm9oTGQ0NVJkcEdWcTNxMVRkYnhFaHlGeUdMY0ZFYjRERW1ObV83bzQxM3g0V1I3dS1JclNVc1dFOTdJQkduWnRZUWlIWGRzQ0hjTllOVEVpelV1Um5abEdiYW5lbFVlaVBkTzlNUTZNSDZCWmVEbjNW?oc=5"
+    },
+    {
+      "id": "7d2e70f9",
+      "title": "Calling all Potterheads to the Algarve - Portugal Resident",
+      "date": "2026-05-24",
+      "category": "影视动态",
+      "summary": "Calling all Potterheads to the Algarve",
+      "content": "Calling all Potterheads to the Algarve",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2FDZVhEeWIzTnYzZ0NvajZwY1pWUlNGVksxUmxsQjJvdDR6bkJtVW5hSzRUMktQelhDVUNyRkg5a1dlTW1ZTVNjcGFMTk1RNGtOS3k1a2d2SnJId1dVem81dFhrWEx2MElScWpPYTZSc0FrblpOdDRGTzc1V3V0QVlZX20?oc=5"
     },
     {
       "id": "60ab3668",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tbG5CaDJlMGk5LXVBOGM1ejFTekJSb0RxZk1XdGFVZEhRODFHbHZRM2t5b2c0Q3ZqODI4YzFkZGJXWXJEVHBnbDI5QzBSVm5xRFljSHgteXJHSjh6ZkNqOXFRdw?oc=5"
-    },
-    {
-      "id": "1dfa549e",
-      "title": "#哈利波特魔法觉醒[超话]# 今天是我们一岁零两天的生日 - 新浪网",
-      "date": "2026-05-22",
-      "category": "综合资讯",
-      "summary": "#哈利波特魔法觉醒[超话]# 今天是我们一岁零两天的生日",
-      "content": "#哈利波特魔法觉醒[超话]# 今天是我们一岁零两天的生日",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vQ3RfUEpSX1ZaUC1qdHc3eUFMVmlmVXMwLXVyb01IS0tXUUFVY2VlUzJGbnl6MTRnekozQUduU2h3NDVSWTFzM1UxQ3FCZkFDbDlGdUNTN2ROaHc2aFU3WmVRSQ?oc=5"
-    },
-    {
-      "id": "10ad32cc",
-      "title": "剧版《哈利波特》金妮韦斯莱换人 因不可预见退出 - 中华网",
-      "date": "2026-05-22",
-      "category": "影视动态",
-      "summary": "剧版《哈利波特》金妮韦斯莱换人 因不可预见退出",
-      "content": "剧版《哈利波特》金妮韦斯莱换人 因不可预见退出",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CZHhPdDVnak5jd3E3Vk5NYThBYlZCZjFJYzZTcUJNQV8ya1cyZVR5OEh1RnBURFpCOWRNWWdwWFVoMzZLZzRhTTdsTFBnLW5FVFVvb0trbnBaTTk0b1ZxV01BM1NXOTVkZE5pZDdB?oc=5"
     }
   ]
 }
