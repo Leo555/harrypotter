@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T17:50:04.006Z",
+  "lastUpdated": "2026-05-27T19:57:07.405Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -163,26 +163,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DOVBfdW5ETHIwa2xBRHpQLWF3WW1MWWt1U2k4Y2lMRUdudHAwVXRhaHNfYUt0LTBhR3JCalVOLXdQVHpELVk2RDhSSkdqLUdyaXMzY3YyNzRRZ2kxNWhla3BpOA?oc=5"
     },
     {
-      "id": "aa6bed5e",
-      "title": "哈利波特魔法觉醒 - 新浪网",
-      "date": "2026-05-25",
-      "category": "影视动态",
-      "summary": "哈利波特魔法觉醒",
-      "content": "哈利波特魔法觉醒",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yNVNGV3J0TGVNcG1SQnlPVFZ5UVZtS2d1c0VQRlFIaGhyMmVRdWQxWVp6UzZyMnpiTTVqa0N4WEUxTGEyV0psZWh0MjBiZ3RobjVZcnE1dk1QYUJ6YmRfZ2JBWQ?oc=5"
-    },
-    {
       "id": "6d70af1a",
       "title": "PS官方认证！13款必玩开放世界！PS+会员畅享 - 17173",
       "date": "2026-05-25",
@@ -201,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrdGpTeUMzdjZKbUlFRl9wRnFKUG9JLWMxcEZWeUUtT3N6alB5eU05VEQ1WDg4dFNjWXIzNy1yM04tbDZPTHU3enZvX2taaXRpZnM1Vng4ZWpiTDNROUMtT2pDcjQ?oc=5"
+    },
+    {
+      "id": "aa6bed5e",
+      "title": "哈利波特魔法觉醒 - 新浪网",
+      "date": "2026-05-25",
+      "category": "影视动态",
+      "summary": "哈利波特魔法觉醒",
+      "content": "哈利波特魔法觉醒",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yNVNGV3J0TGVNcG1SQnlPVFZ5UVZtS2d1c0VQRlFIaGhyMmVRdWQxWVp6UzZyMnpiTTVqa0N4WEUxTGEyV0psZWh0MjBiZ3RobjVZcnE1dk1QYUJ6YmRfZ2JBWQ?oc=5"
     },
     {
       "id": "53926df4",
