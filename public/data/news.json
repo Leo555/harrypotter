@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-28T01:54:02.198Z",
+  "lastUpdated": "2026-05-28T06:41:44.377Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "62a73f17",
+      "title": "《乐高哈利波特》庆祝哈利·波特25周年！ - 17173",
+      "date": "2026-05-28",
+      "category": "周边商品",
+      "summary": "《乐高哈利波特》庆祝哈利·波特25周年！",
+      "content": "《乐高哈利波特》庆祝哈利·波特25周年！",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
+    },
     {
       "id": "12bbc55a",
       "title": "《霍格沃茨之遗》庆祝哈利·波特25周年！ - 17173",
@@ -21,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yLTdtZncxaHotUWZnRGRQUllHY1Zfd1AxLWJ3RDB4TUFWdi13a0o2TVQ1bjR0bzl0WWNoTXk2RmkxWmZNcHp0WHRjdnpUVEsyTURqT011clItS0JZcF9KREFDY3M?oc=5"
+    },
+    {
+      "id": "654ed479",
+      "title": "汤姆·费尔顿试镜马尔福未读原著，巧答古灵阁被导演识破 - 手机新浪网",
+      "date": "2026-05-27",
+      "category": "综合资讯",
+      "summary": "汤姆·费尔顿试镜马尔福未读原著，巧答古灵阁被导演识破",
+      "content": "汤姆·费尔顿试镜马尔福未读原著，巧答古灵阁被导演识破",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWxsbmV5Yi01dUJuYzRjeC1NSFlXSHpIZ2dvMDJVaW1QYmE4NnBWbFZEY1ZUa29YaUVBbnFPQnhSTzRnc1YtSkpLblFqek04TXlobEpQVEJySG4wZlJGQTl2M3EyclR2andpM01vQkEwcGtDbjluNTN1eW5vTWJXcW9Tak9iOGtmSVlXTjhIbTJvNUl4ZEw1bWJIams5ZmtsVWVZ?oc=5"
     },
     {
       "id": "97bd4902",
@@ -43,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPUVdTOVFZcWlYRTd1MFZTejdZVjBRZXY5aVpncVFZdWcwbHRYNFhrbVEtbERVNnFobXJPVExpTmNRVGNySDV2WUpic21udE9RZ1NIR1gweVdFd0dERkxkZGowNDk3Z2g3bXpFTWhvQVBDT3hmckNmSjJLV016azdtWWpHUGg1b3dfRENJUUlENVVLSjhPdllPcTZFNEN4dnNjM3cwSU81SGhvMjVMdE9NSUl6SmJ0dTN5aThLamx3YnV3Qk9uVl82OVQ5cHlLWTdWUG1tdzB2aDdVeWZzTEo5YVJjbjBxVzNPVEZTY08xaVJNeHJDS2lsQlJhdzFVd3pRNEZPRGpnZW9yb2FLQXFSS05wN2VkRlpnaVVFSk9qUk11a2lGODVXWFNfd3RDWlBMbWM3Vk9IVlBkZ3lPemFsLUlMYk0yWDBaVGpjVC1WNmhwRS1UaHVDbFQ0M1dvT0nSAd8CQVVfeXFMT1FXUzlRWXFpWEU3dTBWU3o3WVYwUWV2OWlaZ3FRWXVnMGx0WDRYa21RLWxEVTZxaG1yT1RMaU5jUVRjckg1dllKYnNtbnRPUWdTSEdYMHlXRXdHREZMZGRqMDQ5N2doN216RU1ob0FQQ094ZnJDZkoyS1dNems3bVlqR1BoNW93X0RDSVFJRDVVS0o4T3ZZT3E2RTRDeHZzYzN3MElPNUhobzI1THRPTUlJekpidHUzeWk4S2psd2J1d0JPblZfNjlUOXB5S1k3VlBtbXcwdmg3VXlmc0xKOWFSY24wcVczT1RGU2NPMWlSTXhyQ0tpbEJSYXcxVXd6UTRGT0RqZ2Vvcm9hS0FxUktOcDdlZEZaZ2lVRUpPalJNdWtpRjg1V1hTX3d0Q1pQTG1jN1ZPSFZQZGd5T3phbC1JTGJNMlgwWlRqY1QtVjZocEUtVGh1Q2xUNDNXb09J?oc=5"
     },
     {
-      "id": "a3217f4c",
-      "title": "汤姆·费尔顿试镜马尔福未读原著，巧答古灵阁被导演识破 - 新浪娱乐",
-      "date": "2026-05-27",
-      "category": "综合资讯",
-      "summary": "汤姆·费尔顿试镜马尔福未读原著，巧答古灵阁被导演识破",
-      "content": "汤姆·费尔顿试镜马尔福未读原著，巧答古灵阁被导演识破",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWxsbmV5Yi01dUJuYzRjeC1NSFlXSHpIZ2dvMDJVaW1QYmE4NnBWbFZEY1ZUa29YaUVBbnFPQnhSTzRnc1YtSkpLblFqek04TXlobEpQVEJySG4wZlJGQTl2M3EyclR2andpM01vQkEwcGtDbjluNTN1eW5vTWJXcW9Tak9iOGtmSVlXTjhIbTJvNUl4ZEw1bWJIams5ZmtsVWVZ?oc=5"
-    },
-    {
       "id": "f726e761",
       "title": "哈利-波特》系列：影迷从 HBO 最新预告片中得到的启示 - Notebookcheck CN",
       "date": "2026-05-26",
@@ -83,26 +103,6 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTMlVQUXYtNndoNXpoSnZSbDZ1WVlnVk5jYkVtUDg0MGxZV3NocDZxUDA5X3JVZW1jenVCaHp2T3FUcXBlVWowdVJIbkhocU9VQlV3aHl0ZW5aQm1WdkFpVQ?oc=5"
     },
     {
-      "id": "8362d3cf",
-      "title": "哈利波特： - 新浪网",
-      "date": "2026-05-26",
-      "category": "影视动态",
-      "summary": "哈利波特：",
-      "content": "哈利波特：",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wc1IwUWI2MU9wMm1IV0RtcWMtVjdyQ0ZRQ0wyOHdjWWppU0JsWmxMZGtSYS1BOGR6U3lIX19kWU9yMW5QX19kZUM3aVF1bG5WZDJaeDd0cnNvOXRGOTR1NnNHRQ?oc=5"
-    },
-    {
       "id": "17cd9fa1",
       "title": "ins｜Newt Scamander ：学长好🔮 ​ - 新浪网",
       "date": "2026-05-26",
@@ -121,6 +121,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55a21ZdFF2U2NSVEttZ3RFMWNuMHNUYm8yNDJ1OFktZ1BJQTJTWklWSGlhbWpGUHI3UUVMQUQ1bHdpR1BXcEV6M1RGMF9EbEJ0eFRTUmFwZ3drVFp6QUFmbVJtQQ?oc=5"
+    },
+    {
+      "id": "8362d3cf",
+      "title": "哈利波特： - 新浪网",
+      "date": "2026-05-26",
+      "category": "影视动态",
+      "summary": "哈利波特：",
+      "content": "哈利波特：",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wc1IwUWI2MU9wMm1IV0RtcWMtVjdyQ0ZRQ0wyOHdjWWppU0JsWmxMZGtSYS1BOGR6U3lIX19kWU9yMW5QX19kZUM3aVF1bG5WZDJaeDd0cnNvOXRGOTR1NnNHRQ?oc=5"
     },
     {
       "id": "3ee9738b",
@@ -323,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWHZpRll3QmdJbEdDSmllWm9oTGQ0NVJkcEdWcTNxMVRkYnhFaHlGeUdMY0ZFYjRERW1ObV83bzQxM3g0V1I3dS1JclNVc1dFOTdJQkduWnRZUWlIWGRzQ0hjTllOVEVpelV1Um5abEdiYW5lbFVlaVBkTzlNUTZNSDZCWmVEbjNW?oc=5"
     },
     {
+      "id": "d0970872",
+      "title": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道 - Sina finance",
+      "date": "2026-05-24",
+      "category": "综合资讯",
+      "summary": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道",
+      "content": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lMk1hLU5ZZm5KR1U5VmFDSC11WnNhNTZxTWJSNTNNN0lvYXBQa202dWFoMFRZT2l2VjYxRm5QUnVZNUdHeFFISWhUX3NzbkRSQXo1bkU3OGVSM0VCSGcwczhWbG03UDV4b0llTENXMm5SMGNRM00yMA?oc=5"
+    },
+    {
       "id": "60ab3668",
       "title": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道 - 新浪财经",
       "date": "2026-05-24",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2FDZVhEeWIzTnYzZ0NvajZwY1pWUlNGVksxUmxsQjJvdDR6bkJtVW5hSzRUMktQelhDVUNyRkg5a1dlTW1ZTVNjcGFMTk1RNGtOS3k1a2d2SnJId1dVem81dFhrWEx2MElScWpPYTZSc0FrblpOdDRGTzc1V3V0QVlZX20?oc=5"
-    },
-    {
-      "id": "29231c83",
-      "title": "玛吉·史密斯隐瞒乳腺癌坚持完成哈利波特拍摄 - 新浪网",
-      "date": "2026-05-24",
-      "category": "影视动态",
-      "summary": "玛吉·史密斯隐瞒乳腺癌坚持完成哈利波特拍摄",
-      "content": "玛吉·史密斯隐瞒乳腺癌坚持完成哈利波特拍摄",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSW9LX3dzaU5LV1ZsMWpiSXZOWjVjLVI4NUUzZjZvRlM3M0VoSTBMV3lZNGFTVnVTLWpHNzRUeVFUek1xSDVMNy1IOFZVRkRTV01oOXVVaGVnaHNsY0QwY3J0OGhpdWozVS1OajFLLXdnbkkxaVpMWUstS1FWOVZMZw?oc=5"
-    },
-    {
-      "id": "d0970872",
-      "title": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道 - Sina finance",
-      "date": "2026-05-24",
-      "category": "综合资讯",
-      "summary": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道",
-      "content": "2026斯巴达勇士儿童赛哈利·波特专场开启 超万名小勇士及家庭齐聚环球城市大道",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lMk1hLU5ZZm5KR1U5VmFDSC11WnNhNTZxTWJSNTNNN0lvYXBQa202dWFoMFRZT2l2VjYxRm5QUnVZNUdHeFFISWhUX3NzbkRSQXo1bkU3OGVSM0VCSGcwczhWbG03UDV4b0llTENXMm5SMGNRM00yMA?oc=5"
     }
   ]
 }
