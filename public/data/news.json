@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-05-29T20:27:05.427Z",
+  "lastUpdated": "2026-05-29T22:23:25.043Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "683bc70c",
+      "title": "父亲拉黑儿子_新浪新闻 - 新浪网",
+      "date": "2026-05-29",
+      "category": "综合资讯",
+      "summary": "父亲拉黑儿子_新浪新闻",
+      "content": "父亲拉黑儿子_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01a244VmpVQ19vNFRlV3ZiUmJMYTkyNFV2clJaeXkyaTZSS243MlY5V3N2UmpzbllnUExvNEpCSHA2cGdvT3VPNzdIa0xUenp1MTFmSzRPYTZNUW9DQkhzRVhsQQ?oc=5"
+    },
     {
       "id": "62a73f17",
       "title": "《乐高哈利波特》庆祝哈利·波特25周年！ - 17173",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fQ3VHVmUxQ2RwaTA5cFBuV0ZjdElTdXhjMzVKbUtLYmp6Mk9JQzFzWFlYV2ozOHlTMnhCYnVLRndXSDdvSXZxanpxdmdVUnI0cTl1UnBB?oc=5"
-    },
-    {
-      "id": "d15ca628",
-      "title": "HBO 剧版《哈利 · 波特与魔法石》前瞻预告短片公开，12 月 25 日播出 - 17173",
-      "date": "2026-05-25",
-      "category": "影视动态",
-      "summary": "HBO 剧版《哈利 · 波特与魔法石》前瞻预告短片公开，12 月 25 日播出",
-      "content": "HBO 剧版《哈利 · 波特与魔法石》前瞻预告短片公开，12 月 25 日播出",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jdjhOWkJsaFhrOWlXa3AyYlJhRUtITzM2Z3RaYXJjSDVZU2cxYTQ5YW9xVzhzSlZCT05ZX19DQWRNdHFOSVVOTFd4WmZRaWg4S3czYkRSRHpWdkphc0JmMWpfZFY?oc=5"
     }
   ]
 }
