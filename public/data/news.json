@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T12:00:42.765Z",
+  "lastUpdated": "2026-05-29T17:59:31.752Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -20,7 +20,7 @@
           "path": "/world/creatures"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kWnUxMG53SzVTdkpfNk0wT0V4WUUxYWcxV0JBWm1Hdjl3V3dJWGU1ZWdIelhlRlVrR3MzTThldDh5c3NIRVVRSktsNE91WmtuQjRHSFd2THljaVV4amw1NUJlVGNZdw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
     },
     {
       "id": "f71a4107",
@@ -263,6 +263,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DOVBfdW5ETHIwa2xBRHpQLWF3WW1MWWt1U2k4Y2lMRUdudHAwVXRhaHNfYUt0LTBhR3JCalVOLXdQVHpELVk2RDhSSkdqLUdyaXMzY3YyNzRRZ2kxNWhla3BpOA?oc=5"
     },
     {
+      "id": "2f19fd9f",
+      "title": "HBO剧版《哈利·波特》定档圣诞：8集多线叙事，罗琳参与开发 - 手机网易网",
+      "date": "2026-05-25",
+      "category": "影视动态",
+      "summary": "HBO剧版《哈利·波特》定档圣诞：8集多线叙事，罗琳参与开发",
+      "content": "HBO剧版《哈利·波特》定档圣诞：8集多线叙事，罗琳参与开发",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzS0QtUVFRMEhsblJZekQ2dGtsWkNHaGstSWIxRVlxZ0EybXRybkRZSmdBSzkwTlNpbGZKeUNLMlE5MWhNcnRsaWF2ZjNOUlpKa213dXRvQ0lreEt6MlRNUzNR?oc=5"
+    },
+    {
       "id": "e092bf40",
       "title": "哈利波特魔法觉醒遇神人_新浪新闻 - 新浪网",
       "date": "2026-05-25",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jdjhOWkJsaFhrOWlXa3AyYlJhRUtITzM2Z3RaYXJjSDVZU2cxYTQ5YW9xVzhzSlZCT05ZX19DQWRNdHFOSVVOTFd4WmZRaWg4S3czYkRSRHpWdkphc0JmMWpfZFY?oc=5"
-    },
-    {
-      "id": "761d4aea",
-      "title": "剧版《哈利·波特》第一季曝光先导预告 哈利·波特身着格兰芬多队服亮相魁地奇比赛 - 搜狐网",
-      "date": "2026-05-25",
-      "category": "影视动态",
-      "summary": "剧版《哈利·波特》第一季曝光先导预告 哈利·波特身着格兰芬多队服亮相魁地奇比赛",
-      "content": "剧版《哈利·波特》第一季曝光先导预告 哈利·波特身着格兰芬多队服亮相魁地奇比赛",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWHZpRll3QmdJbEdDSmllWm9oTGQ0NVJkcEdWcTNxMVRkYnhFaHlGeUdMY0ZFYjRERW1ObV83bzQxM3g0V1I3dS1JclNVc1dFOTdJQkduWnRZUWlIWGRzQ0hjTllOVEVpelV1Um5abEdiYW5lbFVlaVBkTzlNUTZNSDZCWmVEbjNW?oc=5"
     }
   ]
 }
