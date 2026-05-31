@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-30T21:49:32.919Z",
+  "lastUpdated": "2026-05-31T02:12:07.684Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "5f54d878",
-      "title": "窦靖童《歌手2026》首秀震撼全场:唱爸妈经典,成华语歌坛‘哈利波特’! - 手机新浪网",
+      "id": "5ebe584b",
+      "title": "窦靖童《歌手2026》首秀震撼全场:唱爸妈经典,成华语歌坛‘哈利波特’! - 新浪网",
       "date": "2026-05-30",
       "category": "影视动态",
       "summary": "窦靖童《歌手2026》首秀震撼全场:唱爸妈经典,成华语歌坛‘哈利波特’!",
@@ -23,8 +23,8 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vb0hDZUxLNXJoNWR3YnJtMlJEZzI1andLWmJnMFlZMGNuWTlTVXN2VnhJOVlCUjhkY05LaFFVTTFUcTh6cEVUYkIxc1NHZHZNRFhya2Zxa0hheVk2TGlHWFl4T2dJeTdRTUVfbURyMk56Znc?oc=5"
     },
     {
-      "id": "bd76c56d",
-      "title": "今日消费资讯:王俊凯成为娇兰护肤代言人、宋茜和范丞丞成为天猫国际全球代言人 - 手机新浪网",
+      "id": "a1a0dc9a",
+      "title": "今日消费资讯:王俊凯成为娇兰护肤代言人、宋茜和范丞丞成为天猫国际全球代言人 - 新浪网",
       "date": "2026-05-30",
       "category": "综合资讯",
       "summary": "今日消费资讯:王俊凯成为娇兰护肤代言人、宋茜和范丞丞成为天猫国际全球代言人",
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
+    },
+    {
+      "id": "a884d066",
+      "title": "哈利·波特联名店闪现广州_新浪新闻 - 新浪网",
+      "date": "2026-05-28",
+      "category": "影视动态",
+      "summary": "哈利·波特联名店闪现广州_新浪新闻",
+      "content": "哈利·波特联名店闪现广州_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sSE84UEJjQnRlU0x6Y21zT2Z5RVFnYTZVV3VsSlJseEE4S1JyOXFxb3hBR0g3aUQzQ1J2Z0c3U2l3X09WUTZObkx3OFdwS3UyaHQwa0xXdkNHQVlBUTVpdzU4UQ?oc=5"
     },
     {
       "id": "4c620e79",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55a21ZdFF2U2NSVEttZ3RFMWNuMHNUYm8yNDJ1OFktZ1BJQTJTWklWSGlhbWpGUHI3UUVMQUQ1bHdpR1BXcEV6M1RGMF9EbEJ0eFRTUmFwZ3drVFp6QUFmbVJtQQ?oc=5"
-    },
-    {
-      "id": "8362d3cf",
-      "title": "哈利波特： - 新浪网",
-      "date": "2026-05-26",
-      "category": "影视动态",
-      "summary": "哈利波特：",
-      "content": "哈利波特：",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wc1IwUWI2MU9wMm1IV0RtcWMtVjdyQ0ZRQ0wyOHdjWWppU0JsWmxMZGtSYS1BOGR6U3lIX19kWU9yMW5QX19kZUM3aVF1bG5WZDJaeDd0cnNvOXRGOTR1NnNHRQ?oc=5"
     }
   ]
 }
