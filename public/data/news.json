@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T15:58:44.114Z",
+  "lastUpdated": "2026-05-31T19:00:24.472Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -83,6 +83,26 @@
       "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNSE5SMF9jeVpWYWdRbmlLTEgyWlJ6VEE1TzFfcXVSMm9zclpQZGRlX19LTzEzSEJuQUVyQ1E1LWtMTnRuQk5mQjdQQm9mS0daYjNuXzlaNE1mWkN2UVFNaUN2Zy1DeGRuVEpRQ0g5ZUFYajI1OWptTjkyWTBfd0xfQlFiTjVkRFI3akRIb1c0T2lXS21Bb3JmOVMybWdHYzhKbkw5UVcybVY2aGNuQ1JBX1FxLUJ1OTlrYVdFTENqODREbklmYmFXQnBOSmZQNDRvblJINjU4elVTRng2WkJLV2l6TW1WX0t3bk0yOGRzNXBSNUlqRFhmTmxOUXA1RnU2ZzdldS1R?oc=5"
     },
     {
+      "id": "8dad5a7c",
+      "title": "《神奇动物：格林德沃之罪》——葡萄牙居民 - Portugal Resident",
+      "date": "2026-05-30",
+      "category": "影视动态",
+      "summary": "《神奇动物：格林德沃之罪》——葡萄牙居民",
+      "content": "《神奇动物：格林德沃之罪》——葡萄牙居民",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUktSVDNDOFRqWDBZN0t2V0s2SnYxUWhHSk9Da3VSRW1NWUctOGNzaWUyUGl1ZWNKaE55VmhmSVFmeHBFQkg0Zjhma0Yxbko3cElPMkJYRTQ4ZTJfU3pJY2YzVUxRU2lEV3NKQjhtVTZIR2tZejVSRkhvaTJtaERaRFMwZGlMWVh6ZFE?oc=5"
+    },
+    {
       "id": "eb49df1a",
       "title": "窦靖童,华语歌坛有自己的“哈利波特”! - 新浪网",
       "date": "2026-05-30",
@@ -163,26 +183,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01a244VmpVQ19vNFRlV3ZiUmJMYTkyNFV2clJaeXkyaTZSS243MlY5V3N2UmpzbllnUExvNEpCSHA2cGdvT3VPNzdIa0xUenp1MTFmSzRPYTZNUW9DQkhzRVhsQQ?oc=5"
     },
     {
-      "id": "62a73f17",
-      "title": "《乐高哈利波特》庆祝哈利·波特25周年！ - 17173",
-      "date": "2026-05-28",
-      "category": "周边商品",
-      "summary": "《乐高哈利波特》庆祝哈利·波特25周年！",
-      "content": "《乐高哈利波特》庆祝哈利·波特25周年！",
-      "image": "🛍️",
-      "relatedLinks": [
-        {
-          "label": "⚗️ 魔法物品",
-          "path": "/world/items"
-        },
-        {
-          "label": "🐉 魔法生物",
-          "path": "/world/creatures"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
-    },
-    {
       "id": "a884d066",
       "title": "哈利·波特联名店闪现广州_新浪新闻 - 新浪网",
       "date": "2026-05-28",
@@ -201,6 +201,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sSE84UEJjQnRlU0x6Y21zT2Z5RVFnYTZVV3VsSlJseEE4S1JyOXFxb3hBR0g3aUQzQ1J2Z0c3U2l3X09WUTZObkx3OFdwS3UyaHQwa0xXdkNHQVlBUTVpdzU4UQ?oc=5"
+    },
+    {
+      "id": "62a73f17",
+      "title": "《乐高哈利波特》庆祝哈利·波特25周年！ - 17173",
+      "date": "2026-05-28",
+      "category": "周边商品",
+      "summary": "《乐高哈利波特》庆祝哈利·波特25周年！",
+      "content": "《乐高哈利波特》庆祝哈利·波特25周年！",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
     },
     {
       "id": "62a3d7af",
@@ -261,26 +281,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQMHRVZjdsaDQ2X1dKbU9JV3REZ1lFTGpNeVlnUmFNQ3AxdG16MXVEN0RtV1RZWV9ybC1ZWTIxZ0wzc29ZazdGb0xWcWtuTzhWX1k5Q1dJV3k1cm5ab3h6UFRBQXNIOGNrZnFuVlp3SlJPLUczaEhoWTVIVXRHVkVTWTM2MXQ0aGtlcVhwNGZOSU9nNmtaWG9MSFlLYTBPM0pnLWFfWXNSRzRxVGQwV0xtZmFoMHZlNlFvVUdUNU9iSDJSSWFLME9oSFFXTTZhT2thNkFtckJKeVIzUnV1OUpuelJNWnBKVGs0d3BwWXJHYlFtX0hSVFlUanJ0NjdybmRicjR0WkJFWHoyTEpEVXFIbUFIaHRjeUZPWVVVYXVUZw?oc=5"
-    },
-    {
-      "id": "8dad5a7c",
-      "title": "《神奇动物：格林德沃之罪》——葡萄牙居民 - Portugal Resident",
-      "date": "2026-05-27",
-      "category": "影视动态",
-      "summary": "《神奇动物：格林德沃之罪》——葡萄牙居民",
-      "content": "《神奇动物：格林德沃之罪》——葡萄牙居民",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUktSVDNDOFRqWDBZN0t2V0s2SnYxUWhHSk9Da3VSRW1NWUctOGNzaWUyUGl1ZWNKaE55VmhmSVFmeHBFQkg0Zjhma0Yxbko3cElPMkJYRTQ4ZTJfU3pJY2YzVUxRU2lEV3NKQjhtVTZIR2tZejVSRkhvaTJtaERaRFMwZGlMWVh6ZFE?oc=5"
     },
     {
       "id": "97bd4902",
