@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T06:46:15.022Z",
+  "lastUpdated": "2026-05-31T10:50:55.098Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -143,26 +143,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01a244VmpVQ19vNFRlV3ZiUmJMYTkyNFV2clJaeXkyaTZSS243MlY5V3N2UmpzbllnUExvNEpCSHA2cGdvT3VPNzdIa0xUenp1MTFmSzRPYTZNUW9DQkhzRVhsQQ?oc=5"
     },
     {
-      "id": "62a73f17",
-      "title": "《乐高哈利波特》庆祝哈利·波特25周年！ - 17173",
-      "date": "2026-05-28",
-      "category": "周边商品",
-      "summary": "《乐高哈利波特》庆祝哈利·波特25周年！",
-      "content": "《乐高哈利波特》庆祝哈利·波特25周年！",
-      "image": "🛍️",
-      "relatedLinks": [
-        {
-          "label": "⚗️ 魔法物品",
-          "path": "/world/items"
-        },
-        {
-          "label": "🐉 魔法生物",
-          "path": "/world/creatures"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
-    },
-    {
       "id": "a884d066",
       "title": "哈利·波特联名店闪现广州_新浪新闻 - 新浪网",
       "date": "2026-05-28",
@@ -201,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01aXY1TWxaMHo0ZkE4Qjc5cGFSZjQ4UHZUcGhlc0FIQmEwT3VHRzUzcW51bEJIR21SOUZoNGtWS04tVmtqZlBpS3o0NFluS2hDWHI5cUVWc3JHZHJTZVZyTFdYQQ?oc=5"
+    },
+    {
+      "id": "62a73f17",
+      "title": "《乐高哈利波特》庆祝哈利·波特25周年！ - 17173",
+      "date": "2026-05-28",
+      "category": "周边商品",
+      "summary": "《乐高哈利波特》庆祝哈利·波特25周年！",
+      "content": "《乐高哈利波特》庆祝哈利·波特25周年！",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtSjhidExMdEllaHV5cVFKOEZXY05nLVBiMHZHcFk0TUNCX2UyeXN1Y292c0IyNEswRnhUY2xwMnJMbTFCOWMtMW1VMHV0YjhWbUJfenB3VUx2WDF6QnVvTnQzQzk?oc=5"
     },
     {
       "id": "f71a4107",
@@ -363,6 +363,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wc1IwUWI2MU9wMm1IV0RtcWMtVjdyQ0ZRQ0wyOHdjWWppU0JsWmxMZGtSYS1BOGR6U3lIX19kWU9yMW5QX19kZUM3aVF1bG5WZDJaeDd0cnNvOXRGOTR1NnNHRQ?oc=5"
     },
     {
+      "id": "8747d1c7",
+      "title": "哈利·波特联名广州711_新浪新闻 - 新浪网",
+      "date": "2026-05-26",
+      "category": "影视动态",
+      "summary": "哈利·波特联名广州711_新浪新闻",
+      "content": "哈利·波特联名广州711_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDMTVCeWNkQS1ITzhxbkVjbEhwZ2hEYWl3ZC1uMVp3RVlkSWd0bjNGSW9sbkd4OGJiYzlpRmFyVHBBcXBvSnM2REgxclM3ajNHSm5mdEtHMUtWSFZUenJWRDFnMA?oc=5"
+    },
+    {
       "id": "9a6e38cd",
       "title": "俺硕硕cos了我超爱看的神奇动物在哪里 - 新浪网",
       "date": "2026-05-26",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94VFJBZFg5SGdCRmFheUIwVXptbHotRGw0cnczZHpISkZkS0wzZDFnRU5jQjdXWW9JZERSMnRwd3NsT0hLU0Nfam1jeTFwRlF2TzUzQTg5dF9mRHZHamt3aUdvQQ?oc=5"
-    },
-    {
-      "id": "af068b58",
-      "title": "泡泡玛特推哈利波特猫头鹰_新浪新闻 - 新浪网",
-      "date": "2026-05-26",
-      "category": "综合资讯",
-      "summary": "泡泡玛特推哈利波特猫头鹰_新浪新闻",
-      "content": "泡泡玛特推哈利波特猫头鹰_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5paFYwM0g5LXp0Rk5sMWZwbzY1ZXNVMmlCYU4wTFVPaEpsLTIzWWpTeWVqYTk0ZUt5N0JScGhRSFUwUnhnZUN4U3JtWXJ0ZklWdGtzNzY5RFNkb3dfTE92Y01JUQ?oc=5"
     }
   ]
 }
