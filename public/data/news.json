@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T12:32:58.635Z",
+  "lastUpdated": "2026-06-02T18:29:40.627Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -283,26 +283,6 @@
       "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSGtfd2pzX2lvQTF0UlVuQjZvWWdXQ285Y1pVZ19nWkxrTkdYS3ROcVFXV1A4dVVuSzhyR0R4NUZ6YVVjZ2h0al8xMkR1d0VxR2owYndFaW81M1ZiWHppN0xST0piN0c2d3JCOG5WVkdOcVJPOVU4aEJud1FfRkVoelBYaUttc3hCY0xzeTNMbw?oc=5"
     },
     {
-      "id": "9ce19db1",
-      "title": "哈利波特魔法觉醒作业来了_新浪新闻 - 新浪网",
-      "date": "2026-05-29",
-      "category": "综合资讯",
-      "summary": "哈利波特魔法觉醒作业来了_新浪新闻",
-      "content": "哈利波特魔法觉醒作业来了_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjYlVteVBzWThPbHhaUm1wR0xDaWY3T0V5eDJ1RzNiT1BIZ05LSEZ4VlZRb1hmak9LSFYyUjNFTjRPVTNFcm1WS1FMSExCVzJLajZEdG1lbEx5d1JITW5Bcm5rZw?oc=5"
-    },
-    {
       "id": "4f7db26a",
       "title": "Xbox促销活动：多款大作低至$15，截止至6月10日 - games.gg",
       "date": "2026-05-29",
@@ -321,6 +301,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaGxCaXVJTmpsVDZVb2RaVmdlbGpmWFFvbkl2c0ZxNTdQQ1d6STZCMVlEeHpHSzJzM3o1bHRTTmVrQUVNRHlvT1FNSl9sczhCd0FsWjlNZk9zX216MFFUVTVEZlZ5WVl3OVBGR1dTMGY0U2ZZSEhRcFpKNHMxcFFTZXJMWVF3NnlrWm9KWXAzajNfX1NSX0dFY3h2RktvVGlLTm5VMVpIblItU3BMZzlRSVpXR2pkaE03SF9HYWY2MS1NZDZLaVN2OFQ5c0ZueVNHSlhmNFd2dU5aeXUwUUZtREtzQUxDM1BjblZ2UDlvX1NoQmszS2t4LVJlLVJBT1phTkhJ?oc=5"
+    },
+    {
+      "id": "9ce19db1",
+      "title": "哈利波特魔法觉醒作业来了_新浪新闻 - 新浪网",
+      "date": "2026-05-29",
+      "category": "综合资讯",
+      "summary": "哈利波特魔法觉醒作业来了_新浪新闻",
+      "content": "哈利波特魔法觉醒作业来了_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjYlVteVBzWThPbHhaUm1wR0xDaWY3T0V5eDJ1RzNiT1BIZ05LSEZ4VlZRb1hmak9LSFYyUjNFTjRPVTNFcm1WS1FMSExCVzJLajZEdG1lbEx5d1JITW5Bcm5rZw?oc=5"
     },
     {
       "id": "117bc2c1",
