@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T07:30:06.681Z",
+  "lastUpdated": "2026-06-03T13:04:30.515Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EUUhOTDl4VzlXeUJSbkU1bEQ2bjVvNnkzTzAyS3VCOEgyc0MzV0xoUmRJN244aTdVX2lkWjJDUHlRb2ctYVBfdHd3QzA2dTJzVHYxTy12U2s?oc=5"
+    },
+    {
+      "id": "fe88888b",
+      "title": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡 - 香港01",
+      "date": "2026-06-03",
+      "category": "影视动态",
+      "summary": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡",
+      "content": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPaGVCS2R1WndrRXdqaEN4WkROUVdwbEktbWNpNlhrQVlJU0NOUl9sbHptdDFULXRWYzA4blVJZlkzSV8tRk4zeXVJcklmOTQwQUZRR2tBU1FhbkliaTVzNHJOM2RYMTBfRHhYeWVaaEVzOF9nZEFPa2JrenE5ajhOcl9KSC1pUi0zNE5UTm5JNzJ3MjV6TUFjUnllMmpZaDZ6WmdCeUxOOHRNdFRBWjZYd2drT1BBc1FRaHR3X3MweWhzS2lyRmt3UzNoVGtZbjQ0c2IzOTVhd1o3ZlREVmoweURQb1NNb2N6XzFIQUFsd3h1NUxDVV9POVdaZ3dSS1dydEVHWURWTWhEdmEwQnJFN2pjWkd3TGhBcVhnRjdDajdhNnA4X0QxN2tIeWNMR29oYmlPYnNVemNUcjl1TUVYeXQzaWRfY2NHTjdCZTRjNlFSVWRkNW9oLXhLR0NndVR6UmxBTXhvbUNuUnJOcUpkQnFQbkpOcEJQMGQzNlV3NkRTeUJtWnZ5M2dQd2lQTlg4bW5OUEMxSDkyMHUxeDNLOHpIMmpiZkJjS0E?oc=5"
     },
     {
       "id": "3d2b9a82",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaGxCaXVJTmpsVDZVb2RaVmdlbGpmWFFvbkl2c0ZxNTdQQ1d6STZCMVlEeHpHSzJzM3o1bHRTTmVrQUVNRHlvT1FNSl9sczhCd0FsWjlNZk9zX216MFFUVTVEZlZ5WVl3OVBGR1dTMGY0U2ZZSEhRcFpKNHMxcFFTZXJMWVF3NnlrWm9KWXAzajNfX1NSX0dFY3h2RktvVGlLTm5VMVpIblItU3BMZzlRSVpXR2pkaE03SF9HYWY2MS1NZDZLaVN2OFQ5c0ZueVNHSlhmNFd2dU5aeXUwUUZtREtzQUxDM1BjblZ2UDlvX1NoQmszS2t4LVJlLVJBT1phTkhJ?oc=5"
-    },
-    {
-      "id": "9ce19db1",
-      "title": "哈利波特魔法觉醒作业来了_新浪新闻 - 新浪网",
-      "date": "2026-05-29",
-      "category": "综合资讯",
-      "summary": "哈利波特魔法觉醒作业来了_新浪新闻",
-      "content": "哈利波特魔法觉醒作业来了_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjYlVteVBzWThPbHhaUm1wR0xDaWY3T0V5eDJ1RzNiT1BIZ05LSEZ4VlZRb1hmak9LSFYyUjNFTjRPVTNFcm1WS1FMSExCVzJLajZEdG1lbEx5d1JITW5Bcm5rZw?oc=5"
     }
   ]
 }
