@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T19:29:33.828Z",
+  "lastUpdated": "2026-06-05T22:07:56.550Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -243,6 +243,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12QWY2OFBHR0tWdG1wVm5pbmlmY2NpVU5IWWRMeGdYa013Zjh3Zk53TW9zcnF0cS0tSVJuNzk0VlhCSlRaWktyVTA2eVREZXladnZmN1A4RW5YWEtxTG4tVFNqQQ?oc=5"
     },
     {
+      "id": "93e61899",
+      "title": "吐槽哈利波特bro_新浪新闻 - 手机新浪网",
+      "date": "2026-05-31",
+      "category": "综合资讯",
+      "summary": "吐槽哈利波特bro_新浪新闻",
+      "content": "吐槽哈利波特bro_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yU3dLOE5sdEIzcVk0VXF2LUNRQTFSYzhFSFRFVkR5eDZzWDI2ZUxEQWkyRWVrQW1RdjNQeks2X1dwR1BlaVhaWTQ0U09FcnAwRmVIOHdCZ2NWV2t1SjVVckJjRQ?oc=5"
+    },
+    {
       "id": "13b1c343",
       "title": "哥哥送哈利波特乐高_新浪新闻 - 手机新浪网",
       "date": "2026-05-31",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fd05FaFk0ZUt6bTFaWHF3TWhqLTdfa0xteXdfU19OTC12RlRYSHN3b0l0elVRTXJqb2N1ZVZ5WjZ1ODZFTHgxOFBEaGd1MVhNbFpfOFNiSS02eEdYSHEwV3ZaVQ?oc=5"
-    },
-    {
-      "id": "5ebe584b",
-      "title": "窦靖童《歌手2026》首秀震撼全场:唱爸妈经典,成华语歌坛‘哈利波特’! - 新浪网",
-      "date": "2026-05-30",
-      "category": "影视动态",
-      "summary": "窦靖童《歌手2026》首秀震撼全场:唱爸妈经典,成华语歌坛‘哈利波特’!",
-      "content": "窦靖童《歌手2026》首秀震撼全场:唱爸妈经典,成华语歌坛‘哈利波特’!",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vb0hDZUxLNXJoNWR3YnJtMlJEZzI1andLWmJnMFlZMGNuWTlTVXN2VnhJOVlCUjhkY05LaFFVTTFUcTh6cEVUYkIxc1NHZHZNRFhya2Zxa0hheVk2TGlHWFl4T2dJeTdRTUVfbURyMk56Znc?oc=5"
     }
   ]
 }
