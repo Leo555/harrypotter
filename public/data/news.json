@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-05T11:54:51.348Z",
+  "lastUpdated": "2026-06-05T14:21:46.895Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "205b7bf6",
+      "title": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026 - British Theatre",
+      "date": "2026-06-05",
+      "category": "综合资讯",
+      "summary": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026",
+      "content": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0NPUVhMd080dW5FckphTWw4eFJfRjB1N004elVNS25lMmo0ZThYUjd0cElSd2ppbWFKeDN3UkFxclRFa1pLVnpVd2NwblJYakJreTZzWlJtbk01bEdiNWtDNUJfTW5iM1pwOUQzQUpsMGFEclVUMzdDWDBMZnc3V3JuNl9zaURxd2FQMk1QcDJwMGVqanNJZkZDc1ZYRVNjWFZ0cXpUMUoyMjkwRzZuQ0NuaEtiVEpfYVdsVQ?oc=5"
+    },
     {
       "id": "18d9e740",
       "title": "REDMI Pad 2 Pro哈利·波特版618特惠，闪降400元 - 三易生活",
@@ -43,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EUUhOTDl4VzlXeUJSbkU1bEQ2bjVvNnkzTzAyS3VCOEgyc0MzV0xoUmRJN244aTdVX2lkWjJDUHlRb2ctYVBfdHd3QzA2dTJzVHYxTy12U2s?oc=5"
     },
     {
-      "id": "fe88888b",
-      "title": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡 - 香港01",
-      "date": "2026-06-03",
-      "category": "综合资讯",
-      "summary": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡",
-      "content": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIaVI1TzU4bHVUM0lHY3BHMWFXdnJMa3NuVC1Jdl9JdkExb25BQ1BWZ1dnNTlDbTFKRGV0dmNfWGhDQUIycE9yNU5pUHhwSkNMckE?oc=5"
-    },
-    {
       "id": "3d2b9a82",
       "title": "海外观察|流媒体巨头竞逐播客?天空新闻推付费服务 - 流媒体网",
       "date": "2026-06-03",
@@ -83,13 +83,13 @@
       "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mdFFtOVRJMVdOeVZ6UDhjZVZLMlRfQ1RuOXJTdV8yYlBPVzJpN0xuZDZpbWs0Mk1nWjNqcDhMbXRNOUU0NnNObGRjQTFpcHBkN09Wd1pSQ2tMdERkMW1yVTRuNkk2c3V0aHBJ?oc=5"
     },
     {
-      "id": "ae011703",
-      "title": "从《哈利波特》“张秋”到《柏捷顿》 梁佩诗：粉丝跟我一起长大 - 香港01",
-      "date": "2026-06-02",
-      "category": "影视动态",
-      "summary": "从《哈利波特》“张秋”到《柏捷顿》 梁佩诗：粉丝跟我一起长大",
-      "content": "从《哈利波特》“张秋”到《柏捷顿》 梁佩诗：粉丝跟我一起长大",
-      "image": "📺",
+      "id": "fe88888b",
+      "title": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡 - 香港01",
+      "date": "2026-06-03",
+      "category": "综合资讯",
+      "summary": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡",
+      "content": "丹麦影帝麦斯米基辛系李小龙迷 大耍双节棍仲专诚到“故居”打卡",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -100,7 +100,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNVndsNTM2dHRIWExWbDd5cmk2d0FCc1ZzdHN6SGdkVDdoVVBjRTA3Mkp6TVE5SDU4bm9MQmJoVHEwemZ0Nm1HdmhKRVhZNjlra29ZcEk3V190c3NMUXBLNkN2Zk1QUnBBNElxNWVkQkNqWFJoUTVHVVVQQkNMZHM2UEE0c0lfUE5fbWg1WUtrOWkwam5mSUJNbWpURnRWY1hsREdnOGRNdGRkbXgxeU1PR041M2I3a0k3OG9ENzZOcUp3bVNUa0U4YXhXaFptTzlkX29ud0xSNTc5T3RDUWo0M0cyc3VlU3NDNXRVaVBrY0FnQVlWcE5qQ3hPclhZWnl5eFZBT3ZLSmxPejRLOV9udE1qSlNzZ1BOSkxCT1JUWndVYUQ2YXF5WTF0S1U3NEptSXFnRjRsck9GbFVnMzJtdGtrd1JYVEFYd2MwUExBZXRGUjF3Y0ZVT2k5TDBJSGpXVmM5ZlV6WFM0a0VFRUt5aDhR?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIaVI1TzU4bHVUM0lHY3BHMWFXdnJMa3NuVC1Jdl9JdkExb25BQ1BWZ1dnNTlDbTFKRGV0dmNfWGhDQUIycE9yNU5pUHhwSkNMckE?oc=5"
     },
     {
       "id": "3ec3c9b2",
@@ -121,6 +121,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUFDdE5VYVYyTkctN2ozZ291bWtGTlc0eGQyMURJOUNBMVZfeEpuN0VtcHNpVzRwVng3TUZCYW5RZGR4aHkzLTIzUkxoOHdQdTg4a0hfV3M2eDlOLTl4bGtyTzJwQTJkQ0c3ZEJGMUR4UVhBQmctWlhTbV9VYWlWS25PckhFRzhGTzVWbXZyZjQ?oc=5"
+    },
+    {
+      "id": "ae011703",
+      "title": "从《哈利波特》“张秋”到《柏捷顿》 梁佩诗：粉丝跟我一起长大 - 香港01",
+      "date": "2026-06-02",
+      "category": "影视动态",
+      "summary": "从《哈利波特》“张秋”到《柏捷顿》 梁佩诗：粉丝跟我一起长大",
+      "content": "从《哈利波特》“张秋”到《柏捷顿》 梁佩诗：粉丝跟我一起长大",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNVndsNTM2dHRIWExWbDd5cmk2d0FCc1ZzdHN6SGdkVDdoVVBjRTA3Mkp6TVE5SDU4bm9MQmJoVHEwemZ0Nm1HdmhKRVhZNjlra29ZcEk3V190c3NMUXBLNkN2Zk1QUnBBNElxNWVkQkNqWFJoUTVHVVVQQkNMZHM2UEE0c0lfUE5fbWg1WUtrOWkwam5mSUJNbWpURnRWY1hsREdnOGRNdGRkbXgxeU1PR041M2I3a0k3OG9ENzZOcUp3bVNUa0U4YXhXaFptTzlkX29ud0xSNTc5T3RDUWo0M0cyc3VlU3NDNXRVaVBrY0FnQVlWcE5qQ3hPclhZWnl5eFZBT3ZLSmxPejRLOV9udE1qSlNzZ1BOSkxCT1JUWndVYUQ2YXF5WTF0S1U3NEptSXFnRjRsck9GbFVnMzJtdGtrd1JYVEFYd2MwUExBZXRGUjF3Y0ZVT2k5TDBJSGpXVmM5ZlV6WFM0a0VFRUt5aDhR?oc=5"
     },
     {
       "id": "6ec5b7e0",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vb0hDZUxLNXJoNWR3YnJtMlJEZzI1andLWmJnMFlZMGNuWTlTVXN2VnhJOVlCUjhkY05LaFFVTTFUcTh6cEVUYkIxc1NHZHZNRFhya2Zxa0hheVk2TGlHWFl4T2dJeTdRTUVfbURyMk56Znc?oc=5"
-    },
-    {
-      "id": "8dad5a7c",
-      "title": "《神奇动物：格林德沃之罪》——葡萄牙居民 - Portugal Resident",
-      "date": "2026-05-30",
-      "category": "影视动态",
-      "summary": "《神奇动物：格林德沃之罪》——葡萄牙居民",
-      "content": "《神奇动物：格林德沃之罪》——葡萄牙居民",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUktSVDNDOFRqWDBZN0t2V0s2SnYxUWhHSk9Da3VSRW1NWUctOGNzaWUyUGl1ZWNKaE55VmhmSVFmeHBFQkg0Zjhma0Yxbko3cElPMkJYRTQ4ZTJfU3pJY2YzVUxRU2lEV3NKQjhtVTZIR2tZejVSRkhvaTJtaERaRFMwZGlMWVh6ZFE?oc=5"
     }
   ]
 }
