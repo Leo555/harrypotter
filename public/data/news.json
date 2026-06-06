@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T02:01:14.255Z",
+  "lastUpdated": "2026-06-06T06:20:18.699Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -101,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIaVI1TzU4bHVUM0lHY3BHMWFXdnJMa3NuVC1Jdl9JdkExb25BQ1BWZ1dnNTlDbTFKRGV0dmNfWGhDQUIycE9yNU5pUHhwSkNMckE?oc=5"
+    },
+    {
+      "id": "eb82e0a1",
+      "title": "伦敦偶遇撒那波特_新浪新闻 - 手机新浪网",
+      "date": "2026-06-02",
+      "category": "影视动态",
+      "summary": "伦敦偶遇撒那波特_新浪新闻",
+      "content": "伦敦偶遇撒那波特_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nZjlvZXBudnR2dXA3dDBXdzV2dmlyQTZ3YUZRT1ppd1dOUmY1VDRMUFMzb2ZaTW45UkhyN250bTVNck9pOWhlS2NZSlZnR21xRGhLWE5YU3VZbUJmUFZBMG1Gcw?oc=5"
     },
     {
       "id": "3ec3c9b2",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FZ0pUUFpPY2Rsb0VsTUJsSDNwbTlGV3htdzZUdWlNaVR3b0ZLcFlRc1dNT3lWekhOby0tWXdUbXNsRzlWbXl5WDJpQkNYQ1hwaDVFWDZDMUdQQWtSaUVGT2IxMA?oc=5"
-    },
-    {
-      "id": "99ae545b",
-      "title": "越际之旅×11_新浪新闻 - 新浪网",
-      "date": "2026-05-30",
-      "category": "综合资讯",
-      "summary": "越际之旅×11_新浪新闻",
-      "content": "越际之旅×11_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fd05FaFk0ZUt6bTFaWHF3TWhqLTdfa0xteXdfU19OTC12RlRYSHN3b0l0elVRTXJqb2N1ZVZ5WjZ1ODZFTHgxOFBEaGd1MVhNbFpfOFNiSS02eEdYSHEwV3ZaVQ?oc=5"
     }
   ]
 }
