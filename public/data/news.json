@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T13:17:25.706Z",
+  "lastUpdated": "2026-06-07T16:04:43.934Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -123,26 +123,6 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EUUhOTDl4VzlXeUJSbkU1bEQ2bjVvNnkzTzAyS3VCOEgyc0MzV0xoUmRJN244aTdVX2lkWjJDUHlRb2ctYVBfdHd3QzA2dTJzVHYxTy12U2s?oc=5"
     },
     {
-      "id": "07cc88e8",
-      "title": "挂墙心疼菠萝头_新浪新闻 - 手机新浪网",
-      "date": "2026-06-03",
-      "category": "综合资讯",
-      "summary": "挂墙心疼菠萝头_新浪新闻",
-      "content": "挂墙心疼菠萝头_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FeFNnd3pQaEpwMWhXWHZoamNSYlMzQzFQOThXQ0NIMW8zdWpHNGpzYUFfd1Q1NEQ1ajRlN0ZDbm1fMWZaNDV5MFgyX3l2NERmbU4zaFhJOGN6czRKRXRDSS01TQ?oc=5"
-    },
-    {
       "id": "a2615826",
       "title": "哈利波特工厂被偶遇的1346 ​ - 手机新浪网",
       "date": "2026-06-03",
@@ -161,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ITEJ4eW42R0lxNGQxY0psRXZ3MHhodlpUVzRpbUhfYWV4RWpwd0w1emJLWHFQczFTaHVCZEVpVGdCazdUSm5CS2F3cFh5ckF1cS1mWk1hODBGNk5wbl84SUVVSQ?oc=5"
+    },
+    {
+      "id": "07cc88e8",
+      "title": "挂墙心疼菠萝头_新浪新闻 - 手机新浪网",
+      "date": "2026-06-03",
+      "category": "综合资讯",
+      "summary": "挂墙心疼菠萝头_新浪新闻",
+      "content": "挂墙心疼菠萝头_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FeFNnd3pQaEpwMWhXWHZoamNSYlMzQzFQOThXQ0NIMW8zdWpHNGpzYUFfd1Q1NEQ1ajRlN0ZDbm1fMWZaNDV5MFgyX3l2NERmbU4zaFhJOGN6czRKRXRDSS01TQ?oc=5"
     },
     {
       "id": "3d2b9a82",
