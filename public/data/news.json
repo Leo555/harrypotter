@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T21:54:38.934Z",
+  "lastUpdated": "2026-06-07T02:28:05.959Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -323,6 +323,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12QWY2OFBHR0tWdG1wVm5pbmlmY2NpVU5IWWRMeGdYa013Zjh3Zk53TW9zcnF0cS0tSVJuNzk0VlhCSlRaWktyVTA2eVREZXladnZmN1A4RW5YWEtxTG4tVFNqQQ?oc=5"
     },
     {
+      "id": "6c18d918",
+      "title": "阿兹卡班的囚徒22周年_新浪新闻 - 手机新浪网",
+      "date": "2026-05-31",
+      "category": "综合资讯",
+      "summary": "阿兹卡班的囚徒22周年_新浪新闻",
+      "content": "阿兹卡班的囚徒22周年_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xbnVQSEhYSEE1VWZvcmtERkxFWVZDWVZEcFV2V3VTY3k5anpLOE1qNXJuRGM0ajR5cHpGWnJYZUZGdmhYSVRnUmVRVmNxOGlNaU1raGRFalEwb3FicktxV21CSQ?oc=5"
+    },
+    {
       "id": "93e61899",
       "title": "吐槽哈利波特bro_新浪新闻 - 手机新浪网",
       "date": "2026-05-31",
@@ -361,26 +381,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tQmRnMUJKRkNPWFBMYmZSS1RqTU9iU2trOFlJLWNiOWo5NkFTU2t3Q0xCb3FFMFZ5aHFzM3h1XzFfWDNobENnMWZHaUtuemZXOVRFd29DemRaTjAtX3RlZzh4NA?oc=5"
-    },
-    {
-      "id": "6c18d918",
-      "title": "阿兹卡班的囚徒22周年_新浪新闻 - 手机新浪网",
-      "date": "2026-05-31",
-      "category": "综合资讯",
-      "summary": "阿兹卡班的囚徒22周年_新浪新闻",
-      "content": "阿兹卡班的囚徒22周年_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xbnVQSEhYSEE1VWZvcmtERkxFWVZDWVZEcFV2V3VTY3k5anpLOE1qNXJuRGM0ajR5cHpGWnJYZUZGdmhYSVRnUmVRVmNxOGlNaU1raGRFalEwb3FicktxV21CSQ?oc=5"
     },
     {
       "id": "35a56347",
