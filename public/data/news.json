@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T12:55:56.244Z",
+  "lastUpdated": "2026-06-08T17:42:22.671Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -61,6 +61,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0NPUVhMd080dW5FckphTWw4eFJfRjB1N004elVNS25lMmo0ZThYUjd0cElSd2ppbWFKeDN3UkFxclRFa1pLVnpVd2NwblJYakJreTZzWlJtbk01bEdiNWtDNUJfTW5iM1pwOUQzQUpsMGFEclVUMzdDWDBMZnc3V3JuNl9zaURxd2FQMk1QcDJwMGVqanNJZkZDc1ZYRVNjWFZ0cXpUMUoyMjkwRzZuQ0NuaEtiVEpfYVdsVQ?oc=5"
+    },
+    {
+      "id": "f7998fae",
+      "title": "龙脉之誓_新浪新闻 - 手机新浪网",
+      "date": "2026-06-05",
+      "category": "影视动态",
+      "summary": "龙脉之誓_新浪新闻",
+      "content": "龙脉之誓_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhZVppdTVFYWI5RlpVY0dZV3JUQ0JlTkNFbld4bm5OWjc2STgwMWhpZ0dwRmdtcURqSnVDVzJYZ0hBaElwaGwwbTFBdko2RU52RGs1V2VIU1FUeHUtdUw0Z2d6QQ?oc=5"
+    },
+    {
+      "id": "f61ccc49",
+      "title": "德拉科记下胜利_新浪新闻 - 手机新浪网",
+      "date": "2026-06-05",
+      "category": "综合资讯",
+      "summary": "德拉科记下胜利_新浪新闻",
+      "content": "德拉科记下胜利_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RUkw2TFEzMzJhSm1iWXBEcmFzM3FGNVpTOWpiU0dfSGVjdlpXcWJ5UkUySEdiSTJzMHhxUmlyMi04YTU4UWhLdWE1OHFDSmVDeHlSRDhNUGtTRndKN2c0RW81Yw?oc=5"
     },
     {
       "id": "16de2703",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FSFoxRXNFNXQ1Y1owVnE5bWNmNlJ2Vl91ZVowNnFHRnE0VHBISlozUm1oQW1pM3REdTRBV2MzcTZva3dScHRfSXI5UHFwQ3R3MUxsbzh1OTJ3U2RxWGItYjlaMA?oc=5"
-    },
-    {
-      "id": "f0644299",
-      "title": "邓布利多与格林德沃关系分析_新浪新闻 - 新浪网",
-      "date": "2026-06-01",
-      "category": "影视动态",
-      "summary": "邓布利多与格林德沃关系分析_新浪新闻",
-      "content": "邓布利多与格林德沃关系分析_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12QWY2OFBHR0tWdG1wVm5pbmlmY2NpVU5IWWRMeGdYa013Zjh3Zk53TW9zcnF0cS0tSVJuNzk0VlhCSlRaWktyVTA2eVREZXladnZmN1A4RW5YWEtxTG4tVFNqQQ?oc=5"
-    },
-    {
-      "id": "93e61899",
-      "title": "吐槽哈利波特bro_新浪新闻 - 手机新浪网",
-      "date": "2026-05-31",
-      "category": "综合资讯",
-      "summary": "吐槽哈利波特bro_新浪新闻",
-      "content": "吐槽哈利波特bro_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yU3dLOE5sdEIzcVk0VXF2LUNRQTFSYzhFSFRFVkR5eDZzWDI2ZUxEQWkyRWVrQW1RdjNQeks2X1dwR1BlaVhaWTQ0U09FcnAwRmVIOHdCZ2NWV2t1SjVVckJjRQ?oc=5"
     }
   ]
 }
