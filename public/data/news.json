@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-07T21:57:05.901Z",
+  "lastUpdated": "2026-06-08T02:33:08.581Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "6eec3165",
+      "title": "张帅晋级伦敦站正赛_新浪新闻 - 手机新浪网",
+      "date": "2026-06-07",
+      "category": "影视动态",
+      "summary": "张帅晋级伦敦站正赛_新浪新闻",
+      "content": "张帅晋级伦敦站正赛_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1LUnZoZmx1aXdzSlNrbVVKM1UxemNlNlpmeFRaSEppaE5PalY0cTR5WEg1X3pxcjVHUlVvVGJhLXhuWEZLdHBXQTRPZGVWOEFEVEpTVXQ2Z2Eyc0RJMTFzVENUQQ?oc=5"
+    },
     {
       "id": "a54553fe",
       "title": "哈利波特新魔杖_新浪新闻 - 手机新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yU3dLOE5sdEIzcVk0VXF2LUNRQTFSYzhFSFRFVkR5eDZzWDI2ZUxEQWkyRWVrQW1RdjNQeks2X1dwR1BlaVhaWTQ0U09FcnAwRmVIOHdCZ2NWV2t1SjVVckJjRQ?oc=5"
-    },
-    {
-      "id": "6c18d918",
-      "title": "阿兹卡班的囚徒22周年_新浪新闻 - 手机新浪网",
-      "date": "2026-05-31",
-      "category": "综合资讯",
-      "summary": "阿兹卡班的囚徒22周年_新浪新闻",
-      "content": "阿兹卡班的囚徒22周年_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xbnVQSEhYSEE1VWZvcmtERkxFWVZDWVZEcFV2V3VTY3k5anpLOE1qNXJuRGM0ajR5cHpGWnJYZUZGdmhYSVRnUmVRVmNxOGlNaU1raGRFalEwb3FicktxV21CSQ?oc=5"
     }
   ]
 }
