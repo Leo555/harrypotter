@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-08T22:18:08.344Z",
+  "lastUpdated": "2026-06-09T01:57:48.181Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "ff6d16ff",
+      "title": "“哈利波特”丹尼尔：我不会去现场看球 但很好奇赛后纽约的氛围 - news.zhibo8.com",
+      "date": "2026-06-08",
+      "category": "影视动态",
+      "summary": "“哈利波特”丹尼尔：我不会去现场看球 但很好奇赛后纽约的氛围",
+      "content": "“哈利波特”丹尼尔：我不会去现场看球 但很好奇赛后纽约的氛围",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RT0ZsYWc2YkZXeXJSWEoyN01PcXphMFNMTi1IMXFfQ1ZhcUhLZ1o0X2ExNVlVVmZBQTc1M3FWdUpCRkUxU1RQNTJCY2ZtVnZ1Q3M5N1hMcW1LaVQ5RmhCbE1kN0JLclkxWDJQRWVVTQ?oc=5"
+    },
     {
       "id": "6eec3165",
       "title": "张帅晋级伦敦站正赛_新浪新闻 - 手机新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcG9sb3pUQ0V5VXVaYjBpNURGaDVlT25EN2lLVFZMTmNJWGx2RFI0SndNcmp3R3k2eVU0LUFEcFVKVmdLYmtuRldQM3M4bTctd01jSDhaSEZXdlp4MXFKRVZ5YjVCNEJUazg1LUhPWU1faTZudmhPeDI0dmFHQzdhSVNSUDNrLXBOOENNckk4TVFUS1ZIQ0FaeGoxcHh5Qzc3V1plNVlFeExPZGlmdjhmYlA5V0prU3V4aDY2YUw0SjVqNE9xQUNZS1UweXNDSnRLeHhJREh6SHo3TUpYSUVr?oc=5"
-    },
-    {
-      "id": "c8b9c559",
-      "title": "脆皮老母亲的一天_新浪新闻 - 新浪网",
-      "date": "2026-06-01",
-      "category": "综合资讯",
-      "summary": "脆皮老母亲的一天_新浪新闻",
-      "content": "脆皮老母亲的一天_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FSFoxRXNFNXQ1Y1owVnE5bWNmNlJ2Vl91ZVowNnFHRnE0VHBISlozUm1oQW1pM3REdTRBV2MzcTZva3dScHRfSXI5UHFwQ3R3MUxsbzh1OTJ3U2RxWGItYjlaMA?oc=5"
     }
   ]
 }
