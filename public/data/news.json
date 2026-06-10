@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T22:17:02.632Z",
+  "lastUpdated": "2026-06-10T02:09:48.004Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -161,6 +161,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjJtMS0yd3NzVGpqZ1RsY211LU53UDdid3MtdUZQT0NpUTRQZmpIM1hWYkhrT0hmdklrTmxoNzhKRGktWS1iZE55c3NMVk01cnNqRlByMDZlbmxMUk82QmJEQnpFMl9wQXQySngwVVhNdTA2a1FyUzRwNmVDZU01eDBBVlJEQjNLck1FSXlNYTh1U0pNaFlKd2hPb2owNHNuLXRwTHBTbVRmQk1kZ3VVM05n?oc=5"
+    },
+    {
+      "id": "70585905",
+      "title": "关注波特三年去读书_新浪新闻 - 手机新浪网",
+      "date": "2026-06-04",
+      "category": "出版物",
+      "summary": "关注波特三年去读书_新浪新闻",
+      "content": "关注波特三年去读书_新浪新闻",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Tb2VKUnlQcGhNUzZCOXdfRkxQMEkySVk3ODFrT2xGZEZnSGdnamZoSjBvSE1TSWx4Y2RtRXNHaWFsRW1pa1Zhalc5OEZfODhsYUdzY2NRWGphV1BnR3ZtSGpDSQ?oc=5"
     },
     {
       "id": "649cc48c",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd29kR2lmTjJEUE1TaHd2amw0dVpOTFczOUxqS0VlVXpIcTNLZFBQNmZUOWpGZG9LZTBTb1pGUnJTTDNoWWpyYVppUFZtS2JiOEdvZTR4LWVVQUhLYXNmNEdva1Y0cy1lY2ZZVXBaM1FIT0hmUXNFbm9Ebm5reURmQzc3YzlFMFdQMEtwRWROM09Yd3l0VTU4dDVZWWc0TWNwc1JvMnZwekcyTHpsb3IzWGpfQU1TQ3M?oc=5"
-    },
-    {
-      "id": "82e53e70",
-      "title": "#德哈[超话]# 2026DMHP生贺24h DM×HP 06.05 DM专场 ​ - 手机新浪网",
-      "date": "2026-06-02",
-      "category": "综合资讯",
-      "summary": "#德哈[超话]# 2026DMHP生贺24h DM×HP 06.05 DM专场 ​",
-      "content": "#德哈[超话]# 2026DMHP生贺24h DM×HP 06.05 DM专场 ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BSGZWX2ZzUzNMcGhWcUswdl9tTkxBaktQNGNmTWNjczdRU2QxZzlZSzdiT3h4TXlxbHBtbHlyd1hfdXNKbmtXc1ZJZnI3RHlKSVdkT2tQMjU0cGpxVWUzRUlSQQ?oc=5"
     }
   ]
 }
