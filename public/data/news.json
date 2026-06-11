@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-06-11T18:00:26.726Z",
+  "lastUpdated": "2026-06-11T22:46:16.033Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "72d66faf",
+      "title": "《哈利·波特》中的英式思维与保守主义暗示解读 - VanPeople",
+      "date": "2026-06-11",
+      "category": "综合资讯",
+      "summary": "《哈利·波特》中的英式思维与保守主义暗示解读",
+      "content": "《哈利·波特》中的英式思维与保守主义暗示解读",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PWWIyUWJWRnByTm82dUVkdC1vV1o2VmxNMWVudDVIRDNBT2JHRTJsaVRxNXAtcFFHSHdmWmFidl8yaGVoOHlfeTcxbmFIc0RN?oc=5"
+    },
+    {
+      "id": "cb3c4031",
+      "title": "Harry Potter: Hogwarts Mystery 下载量突破 160M - games.gg",
+      "date": "2026-06-11",
+      "category": "影视动态",
+      "summary": "Harry Potter: Hogwarts Mystery 下载量突破 160M",
+      "content": "Harry Potter: Hogwarts Mystery 下载量突破 160M",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
+    },
     {
       "id": "043d1766",
       "title": "Steam各游戏类型收入分布分析 - games.gg",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HekF6ckZPbDFFeW5ZUkZveTdzWnlxX3Z3dWRUekRvd3lXZkM5cDEtTnRhR3g2ZzltT0VhSVVXU1VrMzNvdl9KbW9RcHNlU21UV0VPSjhOSFlUVXB4R1NRNEpjQzJfUQ?oc=5"
-    },
-    {
-      "id": "2096e4ce",
-      "title": "上影节又搞来《哈利波特》全系列大放送了😆 ​ - 手机新浪网",
-      "date": "2026-06-03",
-      "category": "综合资讯",
-      "summary": "上影节又搞来《哈利波特》全系列大放送了😆 ​",
-      "content": "上影节又搞来《哈利波特》全系列大放送了😆 ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NZjZoYjFVTUtadW4wYTU3TFNNYUlNeWs0QmNfUi1xb2dac3ExbU9jT1loRW5GY21vaG1uSFJBYXdoYzJmemttb2REYWpEbzMxd1NIU1ZSQXRhYzEzUnVwMFluYw?oc=5"
-    },
-    {
-      "id": "a2615826",
-      "title": "哈利波特工厂被偶遇的1346 ​ - 手机新浪网",
-      "date": "2026-06-03",
-      "category": "综合资讯",
-      "summary": "哈利波特工厂被偶遇的1346 ​",
-      "content": "哈利波特工厂被偶遇的1346 ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ITEJ4eW42R0lxNGQxY0psRXZ3MHhodlpUVzRpbUhfYWV4RWpwd0w1emJLWHFQczFTaHVCZEVpVGdCazdUSm5CS2F3cFh5ckF1cS1mWk1hODBGNk5wbl84SUVVSQ?oc=5"
     }
   ]
 }
