@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-12T07:10:35.740Z",
+  "lastUpdated": "2026-06-12T12:09:54.345Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "6e4a54a5",
+      "title": "哈利·波特领衔好戏登场，第28届上海国际电影节拉开大幕 - 51ldb.com",
+      "date": "2026-06-12",
+      "category": "影视动态",
+      "summary": "哈利·波特领衔好戏登场，第28届上海国际电影节拉开大幕",
+      "content": "哈利·波特领衔好戏登场，第28届上海国际电影节拉开大幕",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeXBkVnIzeUNuWGNSUWdlaG85UENiaHVqMV9ZMThsQ0FOLVRma0VZWFdkSWVTTlZxYlFja1NxM3lwdUFGZWVSaWItN2RuSThkVXpONTVFakh3UUp1Q2ZXdmlFZXV4Tl9qU3RZWl9WVWV4eVVRQUhhRVJ1bGlvU1p3a3JGbw?oc=5"
+    },
     {
       "id": "72d66faf",
       "title": "《哈利·波特》中的英式思维与保守主义暗示解读 - VanPeople",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Tb2VKUnlQcGhNUzZCOXdfRkxQMEkySVk3ODFrT2xGZEZnSGdnamZoSjBvSE1TSWx4Y2RtRXNHaWFsRW1pa1Zhalc5OEZfODhsYUdzY2NRWGphV1BnR3ZtSGpDSQ?oc=5"
-    },
-    {
-      "id": "649cc48c",
-      "title": "#哈利波特魔法觉醒黑市[超话]# 狮院雪羽男号，蹲共号 - 手机新浪网",
-      "date": "2026-06-04",
-      "category": "综合资讯",
-      "summary": "#哈利波特魔法觉醒黑市[超话]# 狮院雪羽男号，蹲共号",
-      "content": "#哈利波特魔法觉醒黑市[超话]# 狮院雪羽男号，蹲共号",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wOHBYSkxZZFg5aVJGYjA3eTJLcXB4a21NQjR4UXI1cE9LYkhmOVMza09OWG5LX2NCVmVGT1NzVFM4YXhVaVNqUUFFZDNaQ3dWSEJhV1NLX01vSjZTdS1tWjFIQQ?oc=5"
     }
   ]
 }
