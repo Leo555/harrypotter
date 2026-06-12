@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T02:27:34.747Z",
+  "lastUpdated": "2026-06-12T07:10:35.740Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,26 +23,6 @@
       "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PWWIyUWJWRnByTm82dUVkdC1vV1o2VmxNMWVudDVIRDNBT2JHRTJsaVRxNXAtcFFHSHdmWmFidl8yaGVoOHlfeTcxbmFIc0RN?oc=5"
     },
     {
-      "id": "0f5577a0",
-      "title": "莫言专访：AI让聪明人更聪明，让傻瓜更傻 - thepaper.cn",
-      "date": "2026-06-11",
-      "category": "影视动态",
-      "summary": "莫言专访：AI让聪明人更聪明，让傻瓜更傻",
-      "content": "莫言专访：AI让聪明人更聪明，让傻瓜更傻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBERWdwWnNQNEtBX2FJaXZwNDYzZmlUMGlSbnp3cF9GNjExY0ZabG94bTdpc3p6bEYwaktMMERadjFEc2JSb1p3akN4OGtVZ0VfS0NKX3NBeFNVc0J2aFVyLQ?oc=5"
-    },
-    {
       "id": "cb3c4031",
       "title": "Harry Potter: Hogwarts Mystery 下载量突破 160M - games.gg",
       "date": "2026-06-11",
@@ -61,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1dGOGpjaTRFZHRJYWxHdWJYcjlKTVVIU255bUZwZzRhZ05rSkFQNFlIOG42N2E2SGp3UDlaS3FCZlozTGtIRFJKcndxWXBYTFJXZkJfQmcxNS00bzVCZ1duNTd4eUg0S3Zzdm9TYjR4VC1Od1VoemVIakNQdTZFZEIxV2FOM2xWZk9DU0NyR2JlQk14UTA5bHhHVTZEYmRicXBmc0p5NUFZbGdWSHp5U1NyMWZxTmEyTXBOaDZlMHQ1YTN6cXl1NWE2d1V6ekpxbnl3bHFnT3NhdjFSQTBsbkRpQU1NQkJaSkVqS3lyRXVsVjZpZE81SXNTWVY3eEhYTWx0andn?oc=5"
+    },
+    {
+      "id": "0f5577a0",
+      "title": "莫言专访：AI让聪明人更聪明，让傻瓜更傻 - thepaper.cn",
+      "date": "2026-06-11",
+      "category": "影视动态",
+      "summary": "莫言专访：AI让聪明人更聪明，让傻瓜更傻",
+      "content": "莫言专访：AI让聪明人更聪明，让傻瓜更傻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBERWdwWnNQNEtBX2FJaXZwNDYzZmlUMGlSbnp3cF9GNjExY0ZabG94bTdpc3p6bEYwaktMMERadjFEc2JSb1p3akN4OGtVZ0VfS0NKX3NBeFNVc0J2aFVyLQ?oc=5"
     },
     {
       "id": "043d1766",
