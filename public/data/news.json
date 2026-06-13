@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T06:45:16.549Z",
+  "lastUpdated": "2026-06-13T11:08:10.756Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -63,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeXBkVnIzeUNuWGNSUWdlaG85UENiaHVqMV9ZMThsQ0FOLVRma0VZWFdkSWVTTlZxYlFja1NxM3lwdUFGZWVSaWItN2RuSThkVXpONTVFakh3UUp1Q2ZXdmlFZXV4Tl9qU3RZWl9WVWV4eVVRQUhhRVJ1bGlvU1p3a3JGbw?oc=5"
     },
     {
+      "id": "a8c1df6d",
+      "title": "小兽睡睡 - 手机新浪网",
+      "date": "2026-06-11",
+      "category": "综合资讯",
+      "summary": "小兽睡睡",
+      "content": "小兽睡睡",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Eem9qLUVtOFFvNUtscXY2QjF0YW1DUm8xSHc4V3dBQ3g1a1Z2bDlhbXhXdHZfZHd3LU9ySkZ3enVhVzFHS2RPWUhPY0lIdUp2cmEzVWxyWDZYTWdpMHM5eGs5Zw?oc=5"
+    },
+    {
       "id": "cb3c4031",
       "title": "Harry Potter: Hogwarts Mystery 下载量突破 160M - games.gg",
       "date": "2026-06-11",
@@ -123,24 +143,24 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBERWdwWnNQNEtBX2FJaXZwNDYzZmlUMGlSbnp3cF9GNjExY0ZabG94bTdpc3p6bEYwaktMMERadjFEc2JSb1p3akN4OGtVZ0VfS0NKX3NBeFNVc0J2aFVyLQ?oc=5"
     },
     {
-      "id": "a8f548b4",
-      "title": "Lookkaew深圳团建活动_新浪新闻 - 手机新浪网",
+      "id": "a9add1be",
+      "title": "邓布利多戏服细节_新浪新闻 - 手机新浪网",
       "date": "2026-06-10",
-      "category": "社区活动",
-      "summary": "Lookkaew深圳团建活动_新浪新闻",
-      "content": "Lookkaew深圳团建活动_新浪新闻",
-      "image": "🎉",
+      "category": "综合资讯",
+      "summary": "邓布利多戏服细节_新浪新闻",
+      "content": "邓布利多戏服细节_新浪新闻",
+      "image": "📰",
       "relatedLinks": [
         {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
+          "label": "📚 原著百科",
+          "path": "/books"
         },
         {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
+          "label": "🧙 人物百科",
+          "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4WlBaQVZRQXR2OG9SSGJWbE1aZFdrYTlZT2ZnSUtGNk1NYS1aWjY2UHBLdThwTkdmZng4S094VDBFVFlxWk1FbklSVWJsNVhwNWE3OFRaQkppc3MwVDNLUXRadw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZZmZLQ09vOHozNWhxYXZBamhveEh2LWVxWDUwSXdUVjFKaDhEWVNQR1NKX3BSWk9qWmxZRk1yYk1kUHV6R3dNLUNJVHZSakhOM2tDa0VvYndENjhmUzhTSEY1RQ?oc=5"
     },
     {
       "id": "043d1766",
@@ -161,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNc19vbXRJZ2xYYUpvQ3RzZEYzcDdZOWRqWnpXcVgzNXRNMTZFVWp2Yk9zZTdrSDl4X0RrdHlYeW5MZWozYlhJd2dOMEJfazFXS294M2hnMm1EWTZCT3NoZERCY3hxSkZ3dkRwTGpFcnE4YmVYNzA0ZkRqMXV1VXdpeWNCVkVNZjUzaWtIRUJBZDByS0s1TFZTaUdtMktmLVJScmRrV2lLOHRWamNPQXdkdGxwblFKTkpoR2xOWEFZb2dlbzVYYlhVTjg1Qng1dw?oc=5"
+    },
+    {
+      "id": "a8f548b4",
+      "title": "Lookkaew深圳团建活动_新浪新闻 - 手机新浪网",
+      "date": "2026-06-10",
+      "category": "社区活动",
+      "summary": "Lookkaew深圳团建活动_新浪新闻",
+      "content": "Lookkaew深圳团建活动_新浪新闻",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4WlBaQVZRQXR2OG9SSGJWbE1aZFdrYTlZT2ZnSUtGNk1NYS1aWjY2UHBLdThwTkdmZng4S094VDBFVFlxWk1FbklSVWJsNVhwNWE3OFRaQkppc3MwVDNLUXRadw?oc=5"
     },
     {
       "id": "018a243c",
@@ -303,12 +343,12 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wYkZBMG5SMmxjTUlYZVJfbDVOM2czakRMZHBmS25JUWhBVmZNZi1iQlZEaFNsR2d6ZHJJYU5WdUVMVjVBaHA2MzR4QjJQRlY2eW5Mb3VzWlY5bmdUZVd2R3pabw?oc=5"
     },
     {
-      "id": "205b7bf6",
-      "title": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026 - British Theatre",
+      "id": "1bd02734",
+      "title": "哈利波特魔法觉醒新转盘_新浪新闻 - 手机新浪网",
       "date": "2026-06-05",
       "category": "综合资讯",
-      "summary": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026",
-      "content": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026",
+      "summary": "哈利波特魔法觉醒新转盘_新浪新闻",
+      "content": "哈利波特魔法觉醒新转盘_新浪新闻",
       "image": "📰",
       "relatedLinks": [
         {
@@ -320,7 +360,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0NPUVhMd080dW5FckphTWw4eFJfRjB1N004elVNS25lMmo0ZThYUjd0cElSd2ppbWFKeDN3UkFxclRFa1pLVnpVd2NwblJYakJreTZzWlJtbk01bEdiNWtDNUJfTW5iM1pwOUQzQUpsMGFEclVUMzdDWDBMZnc3V3JuNl9zaURxd2FQMk1QcDJwMGVqanNJZkZDc1ZYRVNjWFZ0cXpUMUoyMjkwRzZuQ0NuaEtiVEpfYVdsVQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBUHBLWTBZa01KSGd5SFZXUHJfWjZlRm92RXhVMUt3Q2l2X0xBbXJnVUhxemtKcE1KRWJMVzdNMXRfaHBSdmtGMy1jVTlsd2YzOG96QVBkNHgxWWp2Ykc3LTJCYw?oc=5"
     },
     {
       "id": "f61ccc49",
@@ -343,12 +383,12 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RUkw2TFEzMzJhSm1iWXBEcmFzM3FGNVpTOWpiU0dfSGVjdlpXcWJ5UkUySEdiSTJzMHhxUmlyMi04YTU4UWhLdWE1OHFDSmVDeHlSRDhNUGtTRndKN2c0RW81Yw?oc=5"
     },
     {
-      "id": "1bd02734",
-      "title": "哈利波特魔法觉醒新转盘_新浪新闻 - 手机新浪网",
+      "id": "205b7bf6",
+      "title": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026 - British Theatre",
       "date": "2026-06-05",
       "category": "综合资讯",
-      "summary": "哈利波特魔法觉醒新转盘_新浪新闻",
-      "content": "哈利波特魔法觉醒新转盘_新浪新闻",
+      "summary": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026",
+      "content": "Harry Potter and the Cursed Child Becomes One-Part Show: Tickets on Sale from October 2026",
       "image": "📰",
       "relatedLinks": [
         {
@@ -360,47 +400,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBUHBLWTBZa01KSGd5SFZXUHJfWjZlRm92RXhVMUt3Q2l2X0xBbXJnVUhxemtKcE1KRWJMVzdNMXRfaHBSdmtGMy1jVTlsd2YzOG96QVBkNHgxWWp2Ykc3LTJCYw?oc=5"
-    },
-    {
-      "id": "842f02cb",
-      "title": "野火飞驰时装即将登场_新浪新闻 - 手机新浪网",
-      "date": "2026-06-05",
-      "category": "综合资讯",
-      "summary": "野火飞驰时装即将登场_新浪新闻",
-      "content": "野火飞驰时装即将登场_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xOW9xZFY2SnBOLTR1bl9EMEtlRTR5ellhMF9tX09TeHh2X3JSNmo0WDdrN3FDdUd0TUtqSjRZdWg1cE9sLWp0WU1GZmc0MmQ4WFhEdlZubHhiRjlMMzJISC1rbw?oc=5"
-    },
-    {
-      "id": "f7998fae",
-      "title": "龙脉之誓_新浪新闻 - 手机新浪网",
-      "date": "2026-06-05",
-      "category": "影视动态",
-      "summary": "龙脉之誓_新浪新闻",
-      "content": "龙脉之誓_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhZVppdTVFYWI5RlpVY0dZV3JUQ0JlTkNFbld4bm5OWjc2STgwMWhpZ0dwRmdtcURqSnVDVzJYZ0hBaElwaGwwbTFBdko2RU52RGs1V2VIU1FUeHUtdUw0Z2d6QQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0NPUVhMd080dW5FckphTWw4eFJfRjB1N004elVNS25lMmo0ZThYUjd0cElSd2ppbWFKeDN3UkFxclRFa1pLVnpVd2NwblJYakJreTZzWlJtbk01bEdiNWtDNUJfTW5iM1pwOUQzQUpsMGFEclVUMzdDWDBMZnc3V3JuNl9zaURxd2FQMk1QcDJwMGVqanNJZkZDc1ZYRVNjWFZ0cXpUMUoyMjkwRzZuQ0NuaEtiVEpfYVdsVQ?oc=5"
     }
   ]
 }
