@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T22:18:13.323Z",
+  "lastUpdated": "2026-06-13T02:08:40.352Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -103,6 +103,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBERWdwWnNQNEtBX2FJaXZwNDYzZmlUMGlSbnp3cF9GNjExY0ZabG94bTdpc3p6bEYwaktMMERadjFEc2JSb1p3akN4OGtVZ0VfS0NKX3NBeFNVc0J2aFVyLQ?oc=5"
     },
     {
+      "id": "a8f548b4",
+      "title": "Lookkaew深圳团建活动_新浪新闻 - 手机新浪网",
+      "date": "2026-06-10",
+      "category": "社区活动",
+      "summary": "Lookkaew深圳团建活动_新浪新闻",
+      "content": "Lookkaew深圳团建活动_新浪新闻",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4WlBaQVZRQXR2OG9SSGJWbE1aZFdrYTlZT2ZnSUtGNk1NYS1aWjY2UHBLdThwTkdmZng4S094VDBFVFlxWk1FbklSVWJsNVhwNWE3OFRaQkppc3MwVDNLUXRadw?oc=5"
+    },
+    {
       "id": "043d1766",
       "title": "Steam各游戏类型收入分布分析 - games.gg",
       "date": "2026-06-10",
@@ -121,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNc19vbXRJZ2xYYUpvQ3RzZEYzcDdZOWRqWnpXcVgzNXRNMTZFVWp2Yk9zZTdrSDl4X0RrdHlYeW5MZWozYlhJd2dOMEJfazFXS294M2hnMm1EWTZCT3NoZERCY3hxSkZ3dkRwTGpFcnE4YmVYNzA0ZkRqMXV1VXdpeWNCVkVNZjUzaWtIRUJBZDByS0s1TFZTaUdtMktmLVJScmRrV2lLOHRWamNPQXdkdGxwblFKTkpoR2xOWEFZb2dlbzVYYlhVTjg1Qng1dw?oc=5"
+    },
+    {
+      "id": "018a243c",
+      "title": "Netflix与Paramount竞购Warner Bros - games.gg",
+      "date": "2026-06-09",
+      "category": "影视动态",
+      "summary": "Netflix与Paramount竞购Warner Bros",
+      "content": "Netflix与Paramount竞购Warner Bros",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZU9GZmJ0d05NTjFVa01VSTE0bzRITTJlN2J6RXBfUkNwV3NxWHE4dHJ4WnNGTDNmT2NEdXEyc19uckwza0t3OFU0azFNZkl0ZDJjd1hjZ3F0bDd2Y3Zsd21CMDVMVVduVEdjd0Q3QS10bTdqM0RFckNTeUp4OVdFX1Vab0xJWTJiRHpJ?oc=5"
     },
     {
       "id": "3b485374",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DRHpHR19JcTFQQ3lZYjJhNjJDUW9oelFoT3B2bWtFWVFSSE5nYUc4bEFpZ20xenZBb0w0RWl2TXRjcUFGVXJxZE1yeEg1VmNsd00yRGotNmRLa2Q4VUtfTW8yaw?oc=5"
-    },
-    {
-      "id": "16de2703",
-      "title": "“哈利·波特”生日系列周边将于2026年6月8日在东京华纳兄弟哈利·波特影城及哈利·波特商店正式发售 - haveagood-holiday.com",
-      "date": "2026-06-05",
-      "category": "影视动态",
-      "summary": "“哈利·波特”生日系列周边将于2026年6月8日在东京华纳兄弟哈利·波特影城及哈利·波特商店正式发售",
-      "content": "“哈利·波特”生日系列周边将于2026年6月8日在东京华纳兄弟哈利·波特影城及哈利·波特商店正式发售",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjJtMS0yd3NzVGpqZ1RsY211LU53UDdid3MtdUZQT0NpUTRQZmpIM1hWYkhrT0hmdklrTmxoNzhKRGktWS1iZE55c3NMVk01cnNqRlByMDZlbmxMUk82QmJEQnpFMl9wQXQySngwVVhNdTA2a1FyUzRwNmVDZU01eDBBVlJEQjNLck1FSXlNYTh1U0pNaFlKd2hPb2owNHNuLXRwTHBTbVRmQk1kZ3VVM05n?oc=5"
-    },
-    {
-      "id": "eaa7ac64",
-      "title": "德拉科·马尔福生日彩蛋_新浪新闻 - 手机新浪网",
-      "date": "2026-06-04",
-      "category": "综合资讯",
-      "summary": "德拉科·马尔福生日彩蛋_新浪新闻",
-      "content": "德拉科·马尔福生日彩蛋_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0UFI5NzlMaFA2QjZudTFNZDlQNUN2TWV5NVo1Q1ZBeWVlRzIxWXRoTnk3SUR4Qjd3elQ0WThGcUpmZFAxSHRacFA5SU1NeTBwa3Q1OXBjWFM4aXoxYzY3S2kyaw?oc=5"
     }
   ]
 }
