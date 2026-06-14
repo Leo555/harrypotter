@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T02:32:02.819Z",
+  "lastUpdated": "2026-06-14T07:14:28.745Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -343,8 +343,8 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1LUnZoZmx1aXdzSlNrbVVKM1UxemNlNlpmeFRaSEppaE5PalY0cTR5WEg1X3pxcjVHUlVvVGJhLXhuWEZLdHBXQTRPZGVWOEFEVEpTVXQ2Z2Eyc0RJMTFzVENUQQ?oc=5"
     },
     {
-      "id": "a54553fe",
-      "title": "哈利波特新魔杖_新浪新闻 - 手机新浪网",
+      "id": "8b810177",
+      "title": "哈利波特新魔杖_新浪新闻 - 新浪网",
       "date": "2026-06-06",
       "category": "综合资讯",
       "summary": "哈利波特新魔杖_新浪新闻",
@@ -361,6 +361,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wYkZBMG5SMmxjTUlYZVJfbDVOM2czakRMZHBmS25JUWhBVmZNZi1iQlZEaFNsR2d6ZHJJYU5WdUVMVjVBaHA2MzR4QjJQRlY2eW5Mb3VzWlY5bmdUZVd2R3pabw?oc=5"
+    },
+    {
+      "id": "07ff211a",
+      "title": "霍格沃茨遗产模组：从实用到骑着干尸猫飞行 - Foro3D",
+      "date": "2026-06-05",
+      "category": "综合资讯",
+      "summary": "霍格沃茨遗产模组：从实用到骑着干尸猫飞行",
+      "content": "霍格沃茨遗产模组：从实用到骑着干尸猫飞行",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZzlyNHQ2Ukw5OVpjdldzbXhTemhZZS1sS0xYY3RVM3A3U3lmTFJKdkFhZEphQ0JCc01DcDJOMTJ6SnFJUFhkWGpOUUNTRjh2UGRZM2U4UDlOQ0E5Z1FadzdNZ2ppQ1BLLVFaRHA3ZGhIVWlLdVAwdVVVTmZHWURFbmlydkhkWVc1VU1lU1pteFU0WmM1RjI2VkZYNlBNMDE1cm5ac253?oc=5"
     },
     {
       "id": "205b7bf6",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb0NPUVhMd080dW5FckphTWw4eFJfRjB1N004elVNS25lMmo0ZThYUjd0cElSd2ppbWFKeDN3UkFxclRFa1pLVnpVd2NwblJYakJreTZzWlJtbk01bEdiNWtDNUJfTW5iM1pwOUQzQUpsMGFEclVUMzdDWDBMZnc3V3JuNl9zaURxd2FQMk1QcDJwMGVqanNJZkZDc1ZYRVNjWFZ0cXpUMUoyMjkwRzZuQ0NuaEtiVEpfYVdsVQ?oc=5"
-    },
-    {
-      "id": "b9f816f6",
-      "title": "德拉科记下胜利_新浪新闻 - 新浪网",
-      "date": "2026-06-05",
-      "category": "综合资讯",
-      "summary": "德拉科记下胜利_新浪新闻",
-      "content": "德拉科记下胜利_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RUkw2TFEzMzJhSm1iWXBEcmFzM3FGNVpTOWpiU0dfSGVjdlpXcWJ5UkUySEdiSTJzMHhxUmlyMi04YTU4UWhLdWE1OHFDSmVDeHlSRDhNUGtTRndKN2c0RW81Yw?oc=5"
     }
   ]
 }
