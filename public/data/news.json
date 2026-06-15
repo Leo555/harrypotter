@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-06-15T14:53:51.517Z",
+  "lastUpdated": "2026-06-15T18:59:11.250Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "7db31478",
-      "title": "伏地魔的鼻子是怎么没的？他的脸，就是一部黑魔王堕落史 - 腾讯新闻",
+      "id": "afce4ee7",
+      "title": "《哈利·波特》系列：HBO为一个几乎被遗忘的角色选角，引发了观众对忠实改编的期待 - Notebookcheck CN",
+      "date": "2026-06-15",
+      "category": "影视动态",
+      "summary": "《哈利·波特》系列：HBO为一个几乎被遗忘的角色选角，引发了观众对忠实改编的期待",
+      "content": "《哈利·波特》系列：HBO为一个几乎被遗忘的角色选角，引发了观众对忠实改编的期待",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHdnNFaVU0Z1phNkFqTUlHRWRyVGJ2NERES1UwRzlhZDNoLWdHZk9GS0FuSkptSG1NcmdvUVJtclpGbnoyLWZfZTAwTTJ5M0M3Skc0R205OEI3THNiVDZBMQ?oc=5"
+    },
+    {
+      "id": "68849c9a",
+      "title": "伏地魔的鼻子是怎么没的？他的脸，就是一部黑魔王堕落史 - QQ News",
       "date": "2026-06-14",
       "category": "综合资讯",
       "summary": "伏地魔的鼻子是怎么没的？他的脸，就是一部黑魔王堕落史",
@@ -23,8 +43,8 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fQWpTblZhejBHLWkwS25lQkliRl9PRTBoUFNyWHZvX2ViOFNKRHhRcGQySVdTRzhVcHlrNGlrbTdqY1pjaER3UDh4TF91V3RDMmlqWHJR?oc=5"
     },
     {
-      "id": "68849c9a",
-      "title": "伏地魔的鼻子是怎么没的？他的脸，就是一部黑魔王堕落史 - QQ News",
+      "id": "7db31478",
+      "title": "伏地魔的鼻子是怎么没的？他的脸，就是一部黑魔王堕落史 - 腾讯新闻",
       "date": "2026-06-14",
       "category": "综合资讯",
       "summary": "伏地魔的鼻子是怎么没的？他的脸，就是一部黑魔王堕落史",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iVThDVWJaTVp2aWdLUlN2cmVmRE1BMFM4NTI1ZTBhbmxMZ25pU1laOFZtS2dnaHhXbWFpZGQ5YmpiMHlUM0tYSnAwYlhVVjlicE1Qb1RTT3hKRUgwTTBXQTRtNA?oc=5"
-    },
-    {
-      "id": "308459e9",
-      "title": "“哈利波特”丹尼尔：我不会去现场看球 但很好奇赛后纽约的氛围 - zhibo8.com",
-      "date": "2026-06-08",
-      "category": "影视动态",
-      "summary": "“哈利波特”丹尼尔：我不会去现场看球 但很好奇赛后纽约的氛围",
-      "content": "“哈利波特”丹尼尔：我不会去现场看球 但很好奇赛后纽约的氛围",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RT0ZsYWc2YkZXeXJSWEoyN01PcXphMFNMTi1IMXFfQ1ZhcUhLZ1o0X2ExNVlVVmZBQTc1M3FWdUpCRkUxU1RQNTJCY2ZtVnZ1Q3M5N1hMcW1LaVQ5RmhCbE1kN0JLclkxWDJQRWVVTQ?oc=5"
     }
   ]
 }
