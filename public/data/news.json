@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-15T18:59:11.250Z",
+  "lastUpdated": "2026-06-15T22:53:51.382Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "1779244f",
+      "title": "HBO选定《哈利·波特》演员，将原著角色搬上荧幕 - 17173",
+      "date": "2026-06-15",
+      "category": "影视动态",
+      "summary": "HBO选定《哈利·波特》演员，将原著角色搬上荧幕",
+      "content": "HBO选定《哈利·波特》演员，将原著角色搬上荧幕",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52V212RW1TcGJJa1BkZUN1RlRiWHllVWJGUDF4eThrMjFVeldQbWhuOFREU2toUmJHY1UzeWdZWkR4SUg0M0hpTDFVbmwwMHA0TGVMamM3WHhZTm1Ha1FoNFZaaTRmQQ?oc=5"
+    },
     {
       "id": "afce4ee7",
       "title": "《哈利·波特》系列：HBO为一个几乎被遗忘的角色选角，引发了观众对忠实改编的期待 - Notebookcheck CN",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZU9GZmJ0d05NTjFVa01VSTE0bzRITTJlN2J6RXBfUkNwV3NxWHE4dHJ4WnNGTDNmT2NEdXEyc19uckwza0t3OFU0azFNZkl0ZDJjd1hjZ3F0bDd2Y3Zsd21CMDVMVVduVEdjd0Q3QS10bTdqM0RFckNTeUp4OVdFX1Vab0xJWTJiRHpJ?oc=5"
-    },
-    {
-      "id": "3b485374",
-      "title": "丹尼尔汤姆托尼奖重聚_新浪新闻 - 手机新浪网",
-      "date": "2026-06-09",
-      "category": "影视动态",
-      "summary": "丹尼尔汤姆托尼奖重聚_新浪新闻",
-      "content": "丹尼尔汤姆托尼奖重聚_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iVThDVWJaTVp2aWdLUlN2cmVmRE1BMFM4NTI1ZTBhbmxMZ25pU1laOFZtS2dnaHhXbWFpZGQ5YmpiMHlUM0tYSnAwYlhVVjlicE1Qb1RTT3hKRUgwTTBXQTRtNA?oc=5"
     }
   ]
 }
