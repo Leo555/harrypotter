@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-15T22:53:51.382Z",
+  "lastUpdated": "2026-06-16T02:39:16.554Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "3f167c0b",
+      "title": "走进魔法世界 哈利波特展览悉尼站正式开启 - 澳洲看新闻",
+      "date": "2026-06-16",
+      "category": "影视动态",
+      "summary": "走进魔法世界 哈利波特展览悉尼站正式开启",
+      "content": "走进魔法世界 哈利波特展览悉尼站正式开启",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPZ1U3VHlXSmFEY2lVX29nMVRYV3ZiY3RvSC1PbTUwWHpPckE4eFAwTEtWNy1NM0FkU2tyU0pWVkwzVXBBdHdCWnJWbXlwTWs4bWV1bTUteDg1dEFIcjZrSUhFeUpGamQxSzJFNXZzc0FfZ3NDNXl6Q3RrUVZFel8xZU85dTFaQ0pzY1ZQdV9pVk5nOUUwNUZkamhKSlZnYzJGbElLRng4eGtVVzZqaXg4N2hYR25DX1pvOTFVbUUyaTgwc0w5dEZubmhQWTJnTTJ6Q3V3SFk3UVk4NTJMY1FQdWNZVGRnR1JhT2trSW52NmRJTWF4ZndMdVRpS25sS1RZR1YtbjhNYlJ1X1NRQjhDcnpfN2NCRFBkc2hNdnFQVQ?oc=5"
+    },
     {
       "id": "1779244f",
       "title": "HBO选定《哈利·波特》演员，将原著角色搬上荧幕 - 17173",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTG5VOGdwbUpqYVFPVmF3dlRhMF9tajFMVnVhV21YWUlBN213ZzE1YXdZUWYwZWZJRHBpbFNpSTFvMU5kSUxvOTVNMnBETkg4a2l0VWFGMUh4UUtuQTB2N1NmZlp0aDVrVlVmRWdyM3R3ajFXRXlZZzFFUjZzSFEyeWNleHA1bmQ1RE41aUhDZVRTZTg0MG9GTHV2VFF0cEtzSXk1RXd0bnkzS1o1X2xKVm5aT1dSSWY3MXVIeWRzR2kyRFlralRHejVqbkN4M2JtV29Uc1lQV0lFMkZnWERINzJkV0JqU1Jyd1UyNzl0aFNrNDAzYjRRWXpHYm1qU0tUYUhr?oc=5"
-    },
-    {
-      "id": "018a243c",
-      "title": "Netflix与Paramount竞购Warner Bros - games.gg",
-      "date": "2026-06-09",
-      "category": "影视动态",
-      "summary": "Netflix与Paramount竞购Warner Bros",
-      "content": "Netflix与Paramount竞购Warner Bros",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZU9GZmJ0d05NTjFVa01VSTE0bzRITTJlN2J6RXBfUkNwV3NxWHE4dHJ4WnNGTDNmT2NEdXEyc19uckwza0t3OFU0azFNZkl0ZDJjd1hjZ3F0bDd2Y3Zsd21CMDVMVVduVEdjd0Q3QS10bTdqM0RFckNTeUp4OVdFX1Vab0xJWTJiRHpJ?oc=5"
     }
   ]
 }
