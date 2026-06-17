@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T02:36:31.611Z",
+  "lastUpdated": "2026-06-17T08:20:01.822Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHdnNFaVU0Z1phNkFqTUlHRWRyVGJ2NERES1UwRzlhZDNoLWdHZk9GS0FuSkptSG1NcmdvUVJtclpGbnoyLWZfZTAwTTJ5M0M3Skc0R205OEI3THNiVDZBMQ?oc=5"
+    },
+    {
+      "id": "d99effec",
+      "title": "佳片有约 | 404天闯15关，比哈利·波特冒险还刺激 - 新浪网",
+      "date": "2026-06-14",
+      "category": "综合资讯",
+      "summary": "佳片有约 | 404天闯15关，比哈利·波特冒险还刺激",
+      "content": "佳片有约 | 404天闯15关，比哈利·波特冒险还刺激",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BOEtuNndmZEs2ZldnTW1MQXBSVHo0UXRUTlh1M2R1WkRhUWRVM1dLNFRtSmk1NTAxWWZxYmtUMlA5RXU1LU9SdUppdzloT0NwM3ltT3h1aXZoczRyV08xOWVJaHRiNWtxclFxNUo0dHRmdw?oc=5"
     },
     {
       "id": "8de97a67",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01WW5VYUU4TEluaF9hdTZWT0haaXh0N0M3UGpJSThWd29PVEJnb1dnOFQyOXJDWUs1Z3pLemNnTlhOTTU4b044dW5EUWdPbklkNndVaGJSelRST2VjLThRUWJqUQ?oc=5"
-    },
-    {
-      "id": "361cbf80",
-      "title": "哈利·波特主题挂件_新浪新闻 - 新浪网",
-      "date": "2026-06-11",
-      "category": "综合资讯",
-      "summary": "哈利·波特主题挂件_新浪新闻",
-      "content": "哈利·波特主题挂件_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zMVNSR3M3WWJPVVpEZmNxVWZ0OXItaHd6eUhXZzc1WnFlWkxGcjNoaTNTMXo4TFQxMDBoU1hVaEpsY0J5S05qaXNkWjZ6R0gtNnRCQS14VWpzTy1LZzZveWFhNA?oc=5"
     }
   ]
 }
