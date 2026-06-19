@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-19T02:49:51.766Z",
+  "lastUpdated": "2026-06-19T08:23:58.147Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "aa6bed5e",
+      "title": "哈利波特魔法觉醒 - 新浪网",
+      "date": "2026-06-19",
+      "category": "综合资讯",
+      "summary": "哈利波特魔法觉醒",
+      "content": "哈利波特魔法觉醒",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PQzc5WGdQUU9SdTJid3ZWX0paVGhKVi12bkZjQjM3MXZLV25fTDk0T290RTdWM2RVVHkxYXVsLWRUY2s3UENxNWdsSGtjVlQwTXk5X2dfeTlBc01IcmMzdWNjZw?oc=5"
+    },
     {
       "id": "8dbbf5dc",
       "title": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮 - Notebookcheck CN",
@@ -303,6 +323,26 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fQWpTblZhejBHLWkwS25lQkliRl9PRTBoUFNyWHZvX2ViOFNKRHhRcGQySVdTRzhVcHlrNGlrbTdqY1pjaER3UDh4TF91V3RDMmlqWHJR?oc=5"
     },
     {
+      "id": "3852aa3e",
+      "title": "天天盈球足彩比分最新结果 怎么判断入口真实性 - 格隆汇",
+      "date": "2026-06-13",
+      "category": "综合资讯",
+      "summary": "天天盈球足彩比分最新结果 怎么判断入口真实性",
+      "content": "天天盈球足彩比分最新结果 怎么判断入口真实性",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oS1V6Q3c4ZEtaNE91QUJZUnpwWk5TeXJIZGVVQjFiRVY3dVBmQXEtYW9qR1RwVE56bTEycVA4ZThURlpxZVY2MF9pZ2Y4UFRaMkNBVDhZcVAxN1FU?oc=5"
+    },
+    {
       "id": "1311a175",
       "title": "JP_Halls's Achievements - Exophase",
       "date": "2026-06-13",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43MUlra1VfbzZWTzZ2M0lfbEJEazNNR1ZidmllRVlNbGFwWkJQSWdvTlFhYl94eWkzWDVZbXVBV0pwYmhSZnFYaWVyaUpPMTU4TU96U2txbDY3cllXV1hXYWJCWmQyYWhBSE9zSUtKYw?oc=5"
-    },
-    {
-      "id": "57d3ec27",
-      "title": "23841 【】投喂，一个哈儿 - 新浪网",
-      "date": "2026-06-12",
-      "category": "影视动态",
-      "summary": "23841 【】投喂，一个哈儿",
-      "content": "23841 【】投喂，一个哈儿",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sWUE0QmFOUk0yMWUzb0NxN2tVcFNzelF0NlVwazYySWhLUU5INEdFODFBdDNxRzRvZm5iLXBjRGZ5eDdwN01HMWtMYkhvRUwxbEQzUUk4aWNMNTQ1RThiOVZRaw?oc=5"
-    },
-    {
-      "id": "c9a8546f",
-      "title": "魔法世界电影展映开启_新浪新闻 - 新浪网",
-      "date": "2026-06-12",
-      "category": "影视动态",
-      "summary": "魔法世界电影展映开启_新浪新闻",
-      "content": "魔法世界电影展映开启_新浪新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lcmNONGsycmU4QXdWa3MydUJ1OHUxcjN6QWpoSkhyQTRWNmlIT3ZhY0VHbFV2c1Y0ZlhCbnVpYk9CNlVZbU5SUU4zQ2pvQlpXTjZEWmlfOXdlVFhZLTB3TFdMMA?oc=5"
     }
   ]
 }
