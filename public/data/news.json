@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T13:24:20.076Z",
+  "lastUpdated": "2026-06-20T16:09:48.568Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -43,26 +43,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PQzc5WGdQUU9SdTJid3ZWX0paVGhKVi12bkZjQjM3MXZLV25fTDk0T290RTdWM2RVVHkxYXVsLWRUY2s3UENxNWdsSGtjVlQwTXk5X2dfeTlBc01IcmMzdWNjZw?oc=5"
     },
     {
-      "id": "8dbbf5dc",
-      "title": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮 - Notebookcheck CN",
-      "date": "2026-06-17",
-      "category": "影视动态",
-      "summary": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮",
-      "content": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjQk1oZWJxdGVfRzBqRTZTNWNfUjVteFkzTk4wbEY2Z05PTkhtb25aaVRRaF8ybTRQd2xLblIwOTZlZHViSlZRY3hLXzQwVUdmNFh6VkN3bVRPZEIzV01TTA?oc=5"
-    },
-    {
       "id": "5e29d52a",
       "title": "“哈利·波特”20周年纪念版套装发布 - 新浪网",
       "date": "2026-06-17",
@@ -81,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwSFZSOHhPY3RzZ19RZWU4MWt3ejRxNm92M1plNk8xeUswX0lDdnVuTHA2MXViUVlFOEFZSm5QYUJ6Z0VRQ1dlOERGNHg1ZFNTRXExY1FpendpamZrclhIaTRhSThSTnZYWmdFSmFBTDJCUQ?oc=5"
+    },
+    {
+      "id": "8dbbf5dc",
+      "title": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮 - Notebookcheck CN",
+      "date": "2026-06-17",
+      "category": "影视动态",
+      "summary": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮",
+      "content": "终于正式确认：这位演员将在HBO的《哈利·波特》剧集中饰演闹鬼精皮皮",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjQk1oZWJxdGVfRzBqRTZTNWNfUjVteFkzTk4wbEY2Z05PTkhtb25aaVRRaF8ybTRQd2xLblIwOTZlZHViSlZRY3hLXzQwVUdmNFh6VkN3bVRPZEIzV01TTA?oc=5"
     },
     {
       "id": "6aa213ae",
