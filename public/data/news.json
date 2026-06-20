@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-06-20T06:53:33.265Z",
+  "lastUpdated": "2026-06-20T11:06:29.614Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "de8407ad",
+      "title": "《哈利·波特》光影马拉松上映，九棵树用“电影+”把观众留下来 - Sohu",
+      "date": "2026-06-20",
+      "category": "影视动态",
+      "summary": "《哈利·波特》光影马拉松上映，九棵树用“电影+”把观众留下来",
+      "content": "《哈利·波特》光影马拉松上映，九棵树用“电影+”把观众留下来",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdllVbGYySV9URVN0b2tqUFcxUURaV3N0cTM0ZldyQkh6UW1sazlCQmFzN2xlZW04d21WaDFGM25wVGx5Ym4xa1VKZEpFY2xtZVkzb1dJZ3NoU3BYNWh3MndsTVVRTENOdnRZNXpKbFRqc1U5blRfcS03STJtblhRVXZLRGdVcVdPSUhLYw?oc=5"
+    },
     {
       "id": "aa6bed5e",
       "title": "哈利波特魔法觉醒 - 新浪网",
@@ -343,26 +363,6 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fQWpTblZhejBHLWkwS25lQkliRl9PRTBoUFNyWHZvX2ViOFNKRHhRcGQySVdTRzhVcHlrNGlrbTdqY1pjaER3UDh4TF91V3RDMmlqWHJR?oc=5"
     },
     {
-      "id": "1311a175",
-      "title": "JP_Halls's Achievements - Exophase",
-      "date": "2026-06-13",
-      "category": "综合资讯",
-      "summary": "JP_Halls's Achievements",
-      "content": "JP_Halls's Achievements",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05eDNkX2psZnZILUplQ21TYWRHU1lNMmVEQzZUMlBVSlQxbUE4eFlnNTYzTFpQNDBBNkp2NDVtSmljUjlPUmJZZm9XRXZEU0IyRHlMcTRpc3g1UQ?oc=5"
-    },
-    {
       "id": "3852aa3e",
       "title": "天天盈球足彩比分最新结果 怎么判断入口真实性 - 格隆汇",
       "date": "2026-06-13",
@@ -383,12 +383,12 @@
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oS1V6Q3c4ZEtaNE91QUJZUnpwWk5TeXJIZGVVQjFiRVY3dVBmQXEtYW9qR1RwVE56bTEycVA4ZThURlpxZVY2MF9pZ2Y4UFRaMkNBVDhZcVAxN1FU?oc=5"
     },
     {
-      "id": "8e9e0b3a",
-      "title": "哈利波特魔法觉醒[超话]# 迷情剂建模释出大家觉得还原度如何 - 新浪网",
+      "id": "1311a175",
+      "title": "JP_Halls's Achievements - Exophase",
       "date": "2026-06-13",
       "category": "综合资讯",
-      "summary": "哈利波特魔法觉醒[超话]# 迷情剂建模释出大家觉得还原度如何",
-      "content": "哈利波特魔法觉醒[超话]# 迷情剂建模释出大家觉得还原度如何",
+      "summary": "JP_Halls's Achievements",
+      "content": "JP_Halls's Achievements",
       "image": "📰",
       "relatedLinks": [
         {
@@ -400,7 +400,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xRU4wTHdvblFFcjhGZ1lCeGJzRmtDaGRSMDBRcHdYcFN3WlhmcFhvcG1ZakJrYW5UcUdUWUttSWNja3hDWDhHY1lQVnloQndOMW5vM0F1REJxTkRlOEJUOEI0cw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05eDNkX2psZnZILUplQ21TYWRHU1lNMmVEQzZUMlBVSlQxbUE4eFlnNTYzTFpQNDBBNkp2NDVtSmljUjlPUmJZZm9XRXZEU0IyRHlMcTRpc3g1UQ?oc=5"
     }
   ]
 }
