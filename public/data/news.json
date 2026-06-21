@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T19:12:05.766Z",
+  "lastUpdated": "2026-06-21T22:07:05.305Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -223,8 +223,8 @@
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQ3k2dmtzWkpFYUNPMGVmdzI1WDlWR0ZCTkZyMVpDN1R1LWtLN1JUVnVsbl9WWjVLTkNtdC1LSThiRGRDTHlaWXRIYUh4UC1WczFmZk4xRDBGMTNLMERVUXFCVDVkNUFUMDBkQ2ZzVGZGZw?oc=5"
     },
     {
-      "id": "d6f99841",
-      "title": "哈利波特 - 新浪网",
+      "id": "41f4cb78",
+      "title": "哈利波特 - 手机新浪网",
       "date": "2026-06-16",
       "category": "综合资讯",
       "summary": "哈利波特",
@@ -343,8 +343,8 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pd2dsTjkwQmt5aGMwRXNLZWlrLWRYZHdxZXdXRkoxU1FtbHZmdDhEN1ZNZ0RMRGtMWG1ieDR3LXVudDZCS2R2LXRndTZFUUdURVI5aEw1QmU3OHZTSXU3SFQyczA?oc=5"
     },
     {
-      "id": "87403424",
-      "title": "泰国HP封面精美德国版被嘲_新浪新闻 - 新浪网",
+      "id": "059c4eff",
+      "title": "泰国HP封面精美德国版被嘲_新浪新闻 - 手机新浪网",
       "date": "2026-06-15",
       "category": "综合资讯",
       "summary": "泰国HP封面精美德国版被嘲_新浪新闻",
@@ -361,6 +361,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16NHZfNFFZcnUwcHdOVFFld1Q2NDRMa0Y5UE90YU9zQlJvRGtfcTR4ZV81Z1NrRnkzbE1hWnQwU1pldl9vVVJYVDZBck9xOU16bllCZ0ZTMEVVbTcyRERjWUNHVQ?oc=5"
+    },
+    {
+      "id": "a5d5eb91",
+      "title": "#哈利波特魔法觉醒[超话]# 我…… ​ - 手机新浪网",
+      "date": "2026-06-15",
+      "category": "综合资讯",
+      "summary": "#哈利波特魔法觉醒[超话]# 我…… ​",
+      "content": "#哈利波特魔法觉醒[超话]# 我…… ​",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wRDJrZjBMQ0V3WE44Qkw0cXdrMExOcmNrZkdUQ3BuMGRTM1AxalBmenQxOXd0cVBVazBCdFA4TGZpNW9yTlU4UFlXQjNrVzRCWDYtTU1LemJkZ2FKa0NKWS1Ddw?oc=5"
     },
     {
       "id": "afce4ee7",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHdnNFaVU0Z1phNkFqTUlHRWRyVGJ2NERES1UwRzlhZDNoLWdHZk9GS0FuSkptSG1NcmdvUVJtclpGbnoyLWZfZTAwTTJ5M0M3Skc0R205OEI3THNiVDZBMQ?oc=5"
-    },
-    {
-      "id": "41963b7d",
-      "title": "哈利波特：魁地奇冠军 中三位最标志性的选角出自一个出人意料的来源 - news.17173.com",
-      "date": "2026-06-14",
-      "category": "影视动态",
-      "summary": "哈利波特：魁地奇冠军 中三位最标志性的选角出自一个出人意料的来源",
-      "content": "哈利波特：魁地奇冠军 中三位最标志性的选角出自一个出人意料的来源",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EWGI3WDF3dDA4X1RieEpNRWltOWg2M0hNQzc1M3BzYmRKdGRpdm1tZ1BPUG1PRXdJSFJ3bTFySThpMTJrdjZ6bnJFLTBIQklEUEZKYzdBaFZuOWlIYWdEY2RNX3g?oc=5"
     }
   ]
 }
