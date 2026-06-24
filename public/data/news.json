@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T06:34:40.934Z",
+  "lastUpdated": "2026-06-24T11:37:12.604Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -101,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUXFrdTJfTU9FcVVFYWp0UEpUajc4U21vOWlmb21pRDU0RDBDSWc3cS15ZjF4YlBQcVVfenBrbWJqYTVXclhZc2tVN2V2NDZwUVJ3R1EtMENmNXE3eFJkYWFtMllfZllrcDBvZGFUWVVVbXM?oc=5"
+    },
+    {
+      "id": "45de36b6",
+      "title": "Harry Potter角色卡_新浪新闻 - 新浪网",
+      "date": "2026-06-22",
+      "category": "综合资讯",
+      "summary": "Harry Potter角色卡_新浪新闻",
+      "content": "Harry Potter角色卡_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0R0h0ZTQ1MGVqWHRsbWQzbDhWN1YzM3lZX05jNE5FdGJHdGZSMUU2ZlR5RE5RQ3VGNENpTTJ5Wm02dTZVNzVrc3B2ci02SVlmamlDNllWbWI0cURiSEtiRWt4dw?oc=5"
     },
     {
       "id": "c69814ea",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjQk1oZWJxdGVfRzBqRTZTNWNfUjVteFkzTk4wbEY2Z05PTkhtb25aaVRRaF8ybTRQd2xLblIwOTZlZHViSlZRY3hLXzQwVUdmNFh6VkN3bVRPZEIzV01TTA?oc=5"
-    },
-    {
-      "id": "6aa213ae",
-      "title": "法国8家最有特色的哈利波特民宿出租,麻瓜们可入住“霍格沃兹”啦! - 新浪网",
-      "date": "2026-06-17",
-      "category": "影视动态",
-      "summary": "法国8家最有特色的哈利波特民宿出租,麻瓜们可入住“霍格沃兹”啦!",
-      "content": "法国8家最有特色的哈利波特民宿出租,麻瓜们可入住“霍格沃兹”啦!",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xREI0aXAycDMzTUZ2RG92TFc0NGd1YjhaazNqLU43MDYxcUoxaGR2a2xUeXRYejZQdG1GcXp3bVptYUEzVWJENXl0WlhQTVJnZEl5TllqUmlBWk1TSklWRHdzTWdQTTY3QWVRc29EUFcyQQ?oc=5"
     }
   ]
 }
