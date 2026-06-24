@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T11:37:12.604Z",
+  "lastUpdated": "2026-06-24T14:03:30.218Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -103,26 +103,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUXFrdTJfTU9FcVVFYWp0UEpUajc4U21vOWlmb21pRDU0RDBDSWc3cS15ZjF4YlBQcVVfenBrbWJqYTVXclhZc2tVN2V2NDZwUVJ3R1EtMENmNXE3eFJkYWFtMllfZllrcDBvZGFUWVVVbXM?oc=5"
     },
     {
-      "id": "45de36b6",
-      "title": "Harry Potter角色卡_新浪新闻 - 新浪网",
-      "date": "2026-06-22",
-      "category": "综合资讯",
-      "summary": "Harry Potter角色卡_新浪新闻",
-      "content": "Harry Potter角色卡_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0R0h0ZTQ1MGVqWHRsbWQzbDhWN1YzM3lZX05jNE5FdGJHdGZSMUU2ZlR5RE5RQ3VGNENpTTJ5Wm02dTZVNzVrc3B2ci02SVlmamlDNllWbWI0cURiSEtiRWt4dw?oc=5"
-    },
-    {
       "id": "c69814ea",
       "title": "哈利·波特“快闪店”将亮相2026北京国际图书博览会 - 中青在线",
       "date": "2026-06-22",
@@ -181,6 +161,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQnZpSUVaM29SazZJVUV6MF9ZVzdiOXVETkkyOUh4V1lTQjJ4TFlrT2R6d2VRNmp5X0ZaMWFVOTNnbFhfcHV6aTlvZU5YRXUzNVY5dHFxUFpkaDlMei14OTZ0QkFjQUFSUkJJeU5VSGFidWRqdmplRlIyTVNOa2E4ajRhZXo0cGFpTTRSTUd3V0NDdWt4WGR5UGcyYV9MVmtoWXh2cXl3aFY2ckE5SDFNRW9mZDdwakRsTDMzeEN0MVI2ajFudW0tdDRhNElZYnpsa1ktVkZpQTVQaDla?oc=5"
+    },
+    {
+      "id": "45de36b6",
+      "title": "Harry Potter角色卡_新浪新闻 - 新浪网",
+      "date": "2026-06-22",
+      "category": "综合资讯",
+      "summary": "Harry Potter角色卡_新浪新闻",
+      "content": "Harry Potter角色卡_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0R0h0ZTQ1MGVqWHRsbWQzbDhWN1YzM3lZX05jNE5FdGJHdGZSMUU2ZlR5RE5RQ3VGNENpTTJ5Wm02dTZVNzVrc3B2ci02SVlmamlDNllWbWI0cURiSEtiRWt4dw?oc=5"
     },
     {
       "id": "0c174228",
