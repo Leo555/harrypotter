@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T06:38:24.131Z",
+  "lastUpdated": "2026-06-25T11:31:07.566Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -263,6 +263,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fdzlGdGh1dzJxbE1rTHVlRXdOYlN4Qk81ZVVUUUJfbFJxRDFTVmhCUTlZVkdTMDU3ZmktaHZuVUpXNldtRUlkMzJvMk1LY0VjXy1FdFlNWTJzSGFzQmlmRmpuMA?oc=5"
     },
     {
+      "id": "36eeb76f",
+      "title": "凤凰社小说23周年_新浪新闻 - 新浪网",
+      "date": "2026-06-21",
+      "category": "综合资讯",
+      "summary": "凤凰社小说23周年_新浪新闻",
+      "content": "凤凰社小说23周年_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NWHhOVmg2d3RfRUhjNnN2NGFfYWx2TGVxREd3SlQ4czVtNDdaanlhTlJmZHZtaE9ONno1OG1nRkFrVzFCRl9USDJDWDR5YW5OOEFyekN4NjVfZTJsNHU2ZmwxVQ?oc=5"
+    },
+    {
       "id": "64d460c7",
       "title": "#哈利波特魔法觉醒[超话]# 像是一颗巧克力[期待] ​ - 新浪网",
       "date": "2026-06-21",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeEFETUwwelBYa21kSWd6Mi1SODJRMEpZSU1hT2VPdlBuMWVNVG5CczBPdVE4ekhKRk5ubFFjMmlDT2U5d21JM1NRZzRLWC1RV29ZUEtSMkpYYmFXSjBDdnVsMXUzMU1mYnVVTDhaRFU1TUtXR2p0QzdBYlhjVk1DZXNrcHRuY011cEI5QmItYVRaT3RDSVpSWlNsYXhhYXFZc2JyX3o3aHJ3SWFvbVVvd0xVQjVoXzZzcjVmcDhaR3FzT29ILXJkWHd2YUpjaDBvUzN4eWxOLUs1QWhrTzhuQ2E1OTB4VUJr?oc=5"
-    },
-    {
-      "id": "aa6bed5e",
-      "title": "哈利波特魔法觉醒 - 新浪网",
-      "date": "2026-06-19",
-      "category": "综合资讯",
-      "summary": "哈利波特魔法觉醒",
-      "content": "哈利波特魔法觉醒",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PQzc5WGdQUU9SdTJid3ZWX0paVGhKVi12bkZjQjM3MXZLV25fTDk0T290RTdWM2RVVHkxYXVsLWRUY2s3UENxNWdsSGtjVlQwTXk5X2dfeTlBc01IcmMzdWNjZw?oc=5"
     }
   ]
 }
