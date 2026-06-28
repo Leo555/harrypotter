@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T13:11:14.717Z",
+  "lastUpdated": "2026-06-28T16:01:30.977Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -263,26 +263,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUXFrdTJfTU9FcVVFYWp0UEpUajc4U21vOWlmb21pRDU0RDBDSWc3cS15ZjF4YlBQcVVfenBrbWJqYTVXclhZc2tVN2V2NDZwUVJ3R1EtMENmNXE3eFJkYWFtMllfZllrcDBvZGFUWVVVbXM?oc=5"
     },
     {
-      "id": "ac04a4a2",
-      "title": "#哈利波特魔法觉醒[超话]# 作业和魔盒预告来了！ ​ - 新浪网",
-      "date": "2026-06-22",
-      "category": "影视动态",
-      "summary": "#哈利波特魔法觉醒[超话]# 作业和魔盒预告来了！ ​",
-      "content": "#哈利波特魔法觉醒[超话]# 作业和魔盒预告来了！ ​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mczlsTGdNenZTZmxuMWVWOTdpQUE5UWxhaThreVRNQlU5a2RTZ1lmUEtpOHFsdVRqd1JIUDItWmZOcTUxQ3FaMTZ2cWpuSVREV2VDN0VOS1Y1UEFrODhZZDNvdw?oc=5"
-    },
-    {
       "id": "4928e8ec",
       "title": "哈利·波特对峙伏地魔_新浪新闻 - 新浪网",
       "date": "2026-06-22",
@@ -301,6 +281,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KWkxnZkxRS1g1Rkw3a1F5Q2FUeUpVUG5WRHdQVzZDQ3M1TkRrX1VKcWdNMGxfMFduS3dEUWVxcDBtX2VyMENJZnQxMTBPRTlDLTJlR2RIdXRHR3haaUhvbWpXQQ?oc=5"
+    },
+    {
+      "id": "ac04a4a2",
+      "title": "#哈利波特魔法觉醒[超话]# 作业和魔盒预告来了！ ​ - 新浪网",
+      "date": "2026-06-22",
+      "category": "影视动态",
+      "summary": "#哈利波特魔法觉醒[超话]# 作业和魔盒预告来了！ ​",
+      "content": "#哈利波特魔法觉醒[超话]# 作业和魔盒预告来了！ ​",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mczlsTGdNenZTZmxuMWVWOTdpQUE5UWxhaThreVRNQlU5a2RTZ1lmUEtpOHFsdVRqd1JIUDItWmZOcTUxQ3FaMTZ2cWpuSVREV2VDN0VOS1Y1UEFrODhZZDNvdw?oc=5"
     },
     {
       "id": "ba3995d4",
