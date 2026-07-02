@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T16:43:26.785Z",
+  "lastUpdated": "2026-07-02T19:06:27.143Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -41,26 +41,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00ZGFyYzNIeEdsa3RzdDZzSEN5ZnZrV3NGbWFKX1lyOWRFaTl1cVVmOTk5Yl92MmljM0FTWHNhdUk0Tm1oaENpUlZVZm5LWjNEbHVDdlRkRzRKMV9uYTdsRmlhSDV0cVd5ZTk2SUhaZzk?oc=5"
-    },
-    {
-      "id": "72f403bf",
-      "title": "新浪网 - 新浪网",
-      "date": "2026-07-02",
-      "category": "综合资讯",
-      "summary": "新浪网",
-      "content": "新浪网",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MbUZsUHhrYzNXYnBCNjVkM3RVWE5lM2NSUUJuTW5sXzRJTnNCQ2p1RENfVmQzLW1xMGR0R2ZybUwwUDY4aENPU2tfUWVCcXMzcS1nWVR0NXM0UU1sVW1Mb0xrSQ?oc=5"
     },
     {
       "id": "754b26c0",
@@ -121,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPU0JOTUVZaE5iTzlFU1VYeklKcjBkZjBZMW5Sd0tFUDgzbjJGY3FuVGhHWE9rRGNleDYxVjUyVmtGSXJRdGQ5NVVxSUdnb2ViZzRpc1U4YzhYV2o4MENKMnFmNUJNbzBaX1hfSHJiblI1Yk1PVV95ZmZ1SXNPOEg3UkFnamp5UGJOVVE1X3pBeGdhaWtrSW5CQVRDVFFBcWY4SUQxNm8zdjF4VGl2anRreGlEdUxrQS1tdmdId3ZwUTJ2bXRqVXZsOWlJRm9OX0pDMnludnpWbldCU3dmaFBCNy1UNzJRWGc?oc=5"
+    },
+    {
+      "id": "72f403bf",
+      "title": "新浪网 - 新浪网",
+      "date": "2026-07-02",
+      "category": "综合资讯",
+      "summary": "新浪网",
+      "content": "新浪网",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MbUZsUHhrYzNXYnBCNjVkM3RVWE5lM2NSUUJuTW5sXzRJTnNCQ2p1RENfVmQzLW1xMGR0R2ZybUwwUDY4aENPU2tfUWVCcXMzcS1nWVR0NXM0UU1sVW1Mb0xrSQ?oc=5"
     },
     {
       "id": "4f77f1f6",
