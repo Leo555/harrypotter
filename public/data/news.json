@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-04T01:49:10.732Z",
+  "lastUpdated": "2026-07-04T06:08:18.209Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "f4f9c4a0",
+      "title": "《哈利·波特魔法盛宴》礼盒套装上市，含丰富周边 - 新浪网",
+      "date": "2026-07-04",
+      "category": "周边商品",
+      "summary": "《哈利·波特魔法盛宴》礼盒套装上市，含丰富周边",
+      "content": "《哈利·波特魔法盛宴》礼盒套装上市，含丰富周边",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sUXN2bnNiU2FBRk9QamxWSkpHWGJSekFsOVZSY21HQnNNTzh5UlFlS2drcUtWQXV3UnFvTGhzWEJWVnJzSGEyRHA1ZW5jZXdkY0YxT2lkQkYwUmJTS21rMnUxY3RaY05zZDllM1AwZ1F2Zw?oc=5"
+    },
     {
       "id": "5d0a1738",
       "title": "偶遇彭于晏|彭于晏|抹茶冰淇淋|harry potter|tottenham地铁站_新浪新闻 - 新浪网",
@@ -21,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GQXVkeFYyNFhaX2RvQVo0eDcxd1JFWkRDS3A0SjgzeVFhOVlyWF9LdXVWa3dJYnVyWlR6MjJoTzB0U1ZkR3BZWDdaR0RIX08tNUNOR3ZrRmk0VFU4dDRsR05DQQ?oc=5"
+    },
+    {
+      "id": "fc7e5e91",
+      "title": "迈克尔·拜恩，因在《印第安纳·琼斯》、《哈利·波特》和《勇敢的心》中的角色而闻名，已于82岁去世。 - Informat.ro",
+      "date": "2026-07-03",
+      "category": "影视动态",
+      "summary": "迈克尔·拜恩，因在《印第安纳·琼斯》、《哈利·波特》和《勇敢的心》中的角色而闻名，已于82岁去世。",
+      "content": "迈克尔·拜恩，因在《印第安纳·琼斯》、《哈利·波特》和《勇敢的心》中的角色而闻名，已于82岁去世。",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbnFnUFVLTnUwLVNzTnY2cjRDYVdFdGZrem4yeU4ySzJ3MjliYkxha3Mxbjh4ZzlOWHRyclE3TUtNY09ad01oVHgyZnQtVVhPRkdhbjhZV3gyekJubGZ6QWk1UmFZcDFnVnF0SnVvNjRYc2tXUzktdE4wSF9SaFZ2MU5kWFpnOERsUW9laTJlSEg4WmZmbnNWelZVYVF5YjRvUTZxaHdnWE5MUW1DRGN0SEdHVW9NWTJxencxekI0ZGwtTnFLdVA0SE5kcjI?oc=5"
     },
     {
       "id": "ed3254a6",
@@ -61,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS0hwX3pFWkJLWVBXZ0ExTnZyYnRGRGQxYUNlLWNJNzRFUFo5SUJpUzEyanYyMmUyc2FNQXc4VnRVYlh0Nm9FMHhkSXJVN09lX3NadzVmd0FrZmIxY3pTRzhVNlJYNzdRM09HaUtIYVJtMUtxQUFlVW1TLWJvMGhVZg?oc=5"
+    },
+    {
+      "id": "6cf45abe",
+      "title": "《哈利波特》反派逝世享年82岁 | 娱乐 | 2026-07-02 - 光明日报",
+      "date": "2026-07-02",
+      "category": "影视动态",
+      "summary": "《哈利波特》反派逝世享年82岁 | 娱乐 | 2026-07-02",
+      "content": "《哈利波特》反派逝世享年82岁 | 娱乐 | 2026-07-02",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQejZPNENNaERSbzROd2Q0aGx4U1NaeTh1ejk3cy1OMWQ0ZHJILVVyQTVBZVlic09Zak5wQUJUcS1KVExSQVBDYUsybGFqVTQtX1VYV255R0RBZkxqV0dXeU9sWk5VdDJRdVM2UGVWN2pUU21UeFY2WkhuOTBHWTY4Z24xVW5oMUxvR3hqeWxLOXZaYVQ4dGNteUZxTHJkSGVQYk5WVmJFb2JUQ2EtSHJnZFZQOFFUVmFVZmNpQ25EcC1NYURtN0Q1RTlNTUNGQUtId0ItSjFXTzdhUmk0THc?oc=5"
     },
     {
       "id": "9cb95205",
@@ -203,26 +263,6 @@
       "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeEN0WFk3SlhBZzNqM3dDT0VmbHNaWFpGTVNGWGRNTVdVSFFXZDZSMzVYMWZHUUFPS2ViN3l6VFZrSUFNNzRfRkZRaG9QWDBmV1h1YWpLSmxBTlN1T2tjN0FPbEY3VkdHckh5REgtanc4ekN0SHptNDhoc0xKV2tQcndGQW1Ib2RnNlJnY2RiTExURFBXamVFQ0lVaWRGNEtIZVA5dUhmSEk0X2luNF9DODUtS0FUcTV3bDU0bUotNjdLTnhCeWNRTU9TZy0wNWgwSmMybE1pamhHeEpDM3pGUQ?oc=5"
     },
     {
-      "id": "6cf45abe",
-      "title": "《哈利波特》反派逝世享年82岁 | 娱乐 | 2026-07-02 - 光明日报",
-      "date": "2026-07-02",
-      "category": "影视动态",
-      "summary": "《哈利波特》反派逝世享年82岁 | 娱乐 | 2026-07-02",
-      "content": "《哈利波特》反派逝世享年82岁 | 娱乐 | 2026-07-02",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQejZPNENNaERSbzROd2Q0aGx4U1NaeTh1ejk3cy1OMWQ0ZHJILVVyQTVBZVlic09Zak5wQUJUcS1KVExSQVBDYUsybGFqVTQtX1VYV255R0RBZkxqV0dXeU9sWk5VdDJRdVM2UGVWN2pUU21UeFY2WkhuOTBHWTY4Z24xVW5oMUxvR3hqeWxLOXZaYVQ4dGNteUZxTHJkSGVQYk5WVmJFb2JUQ2EtSHJnZFZQOFFUVmFVZmNpQ25EcC1NYURtN0Q1RTlNTUNGQUtId0ItSjFXTzdhUmk0THc?oc=5"
-    },
-    {
       "id": "754b26c0",
       "title": "澳洲梦幻庄园850万寻买家 城堡外形似足《哈利波特》场景 兼享逾20万短租回报 - 星島頭條",
       "date": "2026-07-02",
@@ -303,26 +343,6 @@
       "source": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOcHN0c29YLVR1SHhRcjdYVjVzb1dPX1dEbkI4SVdhZzJNYzhIdG8zUFpSRllBMm12OFNKOFFsa0lrZXNOTlU1OEhMNEZQc1NjUmhGZWRTZHpTemoxNU8zdGluWlkzUElzalo0c0hhcmg0eDNXTFNVM0FYdzhEWXlEdm1hWkRNNDB5Z2VqZGNoY3FldWlYZTZrQURnQUxjVlZseWNGclk5ajBUQUlKS3R1dDd0Q2YxM1hDbDkzWmo2bE1pOTRyNV9lQ2h2SzBkSW1nRUxMSUt4a0NFandhYzQ1TTB0OC1wS0o0bnNvUXZoUlpGUEtnNU5MbFlaYUFOVlNWUklLNTFaOXI0Z1pGalZKUTJPUjNYSlkwS1g0Sl9HcGJSTkFVd2h6TDdvcFJhUkJTTFBFOHd1dlhHQlFMUmtENHpab09RSHRuUFZHOS1jcGxVZWU1YUNfNUR2VFI3ZlRhdEhaejMzYTBLWTBSQ1ZZMnBfa3hZTU9ESFFTNk9B?oc=5"
     },
     {
-      "id": "b9c11827",
-      "title": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响 - 星島頭條",
-      "date": "2026-07-01",
-      "category": "影视动态",
-      "summary": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响",
-      "content": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxNVjNUQjNHTTY2LXE5ZTQ5S2RZS0UzdzFwR2xydGN6OUlGOF9mZ1NjM0NIZXR6OUc4V1RMeWFBdU9VdXdOcTBfTG4zYW1iY0hZNVhQS1JMMXYyejZHOV9iQzhTdEU2UmRFUjJxODZER3didTR2TnpoYUQwU0JEeEFXdFp4aWozNHNuOWpmS0d4ME5SdmRiRkJRaHAwV3FObEl6SktFYUNtNXRraHlrNjM5aENzb2NlSXVwQmhPLVI1ZldZNkNyMXZyYjNjRWRhMEZQSWFGdTgtRDlXQ0hJaGVPanc2ZzhFbTM0UzlUSVQwMXVNVDV3VkFQS3oza1h0R1otdi1wWFY4UHFabXkzUEJNY1hjQVI4UFVDZllCQXVZTUgxVXRwaEsyTVVYbzRjRkZ5R1hJcHYybFRYdXJPLTZiZXNlRVJEcEQtdzhXb3Y4LW5VdjJnSWxzRzdhalNlSjBIM1UxVkVHc2ttN2pfN0NwdTJmWVRBVjlqbldIQk9zZ2xSWEhuWGlpMm1tdGNfc2ZsSjJxdmRuSWtGNFAxQVMtNVhIRjBvcHpLVWJneTZCRFpnY1M2VmJBXzE3OWdHMFY5WGN3emcyRnp1LUpFVHVQWl9tVmNvWFBHb0hycHowLU5QQTg0Ry00eF9TZ1R1T0E?oc=5"
-    },
-    {
       "id": "9fbb8128",
       "title": "《哈利波特》饰“老年葛林戴华德”男星麦可伯恩逝世 享寿82岁 - orientaldaily.com.my",
       "date": "2026-07-01",
@@ -341,26 +361,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oeTFUVTJ5Rlh1RFhqd0tRUUxKX0ZSblIwSzRfWWtsWTVacmZzSzc0SUgzWmFJMk52NmVKOUJ0Ykt4RHJfUGhLUmtLMi1kS0tMN2VwOEFNelh1WWlOOVB2S19NU0ZfTktqMHZudjhFV3FsZDU3S05PWQ?oc=5"
-    },
-    {
-      "id": "c373b655",
-      "title": "《印第安纳·琼斯》→《哈利·波特》迈克尔·拜恩去世..享年82岁 - starnewskorea.com",
-      "date": "2026-07-01",
-      "category": "影视动态",
-      "summary": "《印第安纳·琼斯》→《哈利·波特》迈克尔·拜恩去世..享年82岁",
-      "content": "《印第安纳·琼斯》→《哈利·波特》迈克尔·拜恩去世..享年82岁",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mWGtwWFdjTzNxdlhUelpIVExyckxFOVhkX2FVOWs5eV9RTXp4Zm03VWU2cEZZRzRIeTdqTWNtVG1XWDQteDItRlp3cTIwZXBhRlVna2dkR2hEVU96TXJtX0VmRkNsNzVWVXZlU1YyelU4ajRyQ1Y0?oc=5"
     },
     {
       "id": "0c621ae5",
@@ -383,12 +383,12 @@
       "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlhNRzNSOUVyRWJqSVFxQWN6U2t3eWt0WUFnb2NkWm52WDl0ZDhKUGd6NzdLY0JoQ2dJTjVkTnA2d2N4VEpoREw1THJtZkNBSDZROXBTRF9pQ3R4TXFSUml6VjVCakM4Z3gtZVZSdHdmcXplZkh2emlxNGhqUndwWkRWSU03YVpOV2tuX1hXXzBENnBmend5cVFn?oc=5"
     },
     {
-      "id": "b8368e52",
-      "title": "知名演员迈克尔·伯恩去世，曾饰演《哈利波特》系列电影的老年格林德沃等角色 - 新浪财经",
+      "id": "b9c11827",
+      "title": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响 - 星島頭條",
       "date": "2026-07-01",
       "category": "影视动态",
-      "summary": "知名演员迈克尔·伯恩去世，曾饰演《哈利波特》系列电影的老年格林德沃等角色",
-      "content": "知名演员迈克尔·伯恩去世，曾饰演《哈利波特》系列电影的老年格林德沃等角色",
+      "summary": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响",
+      "content": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响",
       "image": "📺",
       "relatedLinks": [
         {
@@ -400,7 +400,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG05Nml2SHl2U2tnQ1BUakZFLUJ5aGo0TWVQOGRKdnJrZGF4aDBuMVhDMzIxNV9iS3lqdnlldEIwbl9PNjhGTTN3UGdKNTloclNEMXkxRGhGSWp0dUtxbW9uSWZIeUJnaGJ5Vk9INHdmbVJ6UDVlM0VfVzItT2lHMXBGTQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxNVjNUQjNHTTY2LXE5ZTQ5S2RZS0UzdzFwR2xydGN6OUlGOF9mZ1NjM0NIZXR6OUc4V1RMeWFBdU9VdXdOcTBfTG4zYW1iY0hZNVhQS1JMMXYyejZHOV9iQzhTdEU2UmRFUjJxODZER3didTR2TnpoYUQwU0JEeEFXdFp4aWozNHNuOWpmS0d4ME5SdmRiRkJRaHAwV3FObEl6SktFYUNtNXRraHlrNjM5aENzb2NlSXVwQmhPLVI1ZldZNkNyMXZyYjNjRWRhMEZQSWFGdTgtRDlXQ0hJaGVPanc2ZzhFbTM0UzlUSVQwMXVNVDV3VkFQS3oza1h0R1otdi1wWFY4UHFabXkzUEJNY1hjQVI4UFVDZllCQXVZTUgxVXRwaEsyTVVYbzRjRkZ5R1hJcHYybFRYdXJPLTZiZXNlRVJEcEQtdzhXb3Y4LW5VdjJnSWxzRzdhalNlSjBIM1UxVkVHc2ttN2pfN0NwdTJmWVRBVjlqbldIQk9zZ2xSWEhuWGlpMm1tdGNfc2ZsSjJxdmRuSWtGNFAxQVMtNVhIRjBvcHpLVWJneTZCRFpnY1M2VmJBXzE3OWdHMFY5WGN3emcyRnp1LUpFVHVQWl9tVmNvWFBHb0hycHowLU5QQTg0Ry00eF9TZ1R1T0E?oc=5"
     }
   ]
 }
