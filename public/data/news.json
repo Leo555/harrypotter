@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-04T21:45:48.125Z",
+  "lastUpdated": "2026-07-05T01:55:01.964Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "216a7f13",
+      "title": "iPhone藏哈利波特彩蛋！对Siri念Lumos秒开电筒 网：我唔系麻瓜 - 香港01",
+      "date": "2026-07-05",
+      "category": "影视动态",
+      "summary": "iPhone藏哈利波特彩蛋！对Siri念Lumos秒开电筒 网：我唔系麻瓜",
+      "content": "iPhone藏哈利波特彩蛋！对Siri念Lumos秒开电筒 网：我唔系麻瓜",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQa2xWdkRRX1cxTG9PMkRXTVBkLXRNdXhwREhHZGR2alVvOWlaTHJxTDR4b01GUkhsQ0NmSnByZlQyUnpUMllNV2lWc2YydUgtLXZzaWRad2VZYTFma0JfYmNfQWlJWlY2a25CaF82SVpiRVFxQ1E0emx6QlhIZEQ0X245bXd2OFBuc1FZN0puaFF5dEFQQlJVX291T01IbnU5NWF4aS1LeWdDYV80VWNQcDVHQWN0Sl9Ka0tFSmJwcU00SzlobHdCU0VMalhHeENMN3JZZVF6VG04azNkS2JSdkhveGkyVUQ1UjNPY3k5NGVnNDJ3ZXRjUzJZRjdPR3ViajRhTFNLdld2dDBpdk9lM1I1MzcyTE9Rb0g2b2UwalMwNWFZbWp2ektKQ21nbFgtang1bkNMV0dCeTUxSVFhRVBJdnJUbGZmNkhCTjdLdmNtd3BmNVpMVmcyRFdmTG1ZZHdmSnBEQ1RkWFl1U29pdFFES09HZw?oc=5"
+    },
     {
       "id": "74ce5e70",
       "title": "知名演员迈克尔·伯恩去世，曾饰演《哈利·波特》系列电影中的老年格林德沃等角色 - 新浪财经",
@@ -63,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GQXVkeFYyNFhaX2RvQVo0eDcxd1JFWkRDS3A0SjgzeVFhOVlyWF9LdXVWa3dJYnVyWlR6MjJoTzB0U1ZkR3BZWDdaR0RIX08tNUNOR3ZrRmk0VFU4dDRsR05DQQ?oc=5"
     },
     {
-      "id": "ecceba39",
-      "title": "男演员去世，这些经典巨作里都有他的身影！网友感慨：童年碎片在一点点消散… - 新浪网",
-      "date": "2026-07-03",
-      "category": "综合资讯",
-      "summary": "男演员去世，这些经典巨作里都有他的身影！网友感慨：童年碎片在一点点消散…",
-      "content": "男演员去世，这些经典巨作里都有他的身影！网友感慨：童年碎片在一点点消散…",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS0hwX3pFWkJLWVBXZ0ExTnZyYnRGRGQxYUNlLWNJNzRFUFo5SUJpUzEyanYyMmUyc2FNQXc4VnRVYlh0Nm9FMHhkSXJVN09lX3NadzVmd0FrZmIxY3pTRzhVNlJYNzdRM09HaUtIYVJtMUtxQUFlVW1TLWJvMGhVZg?oc=5"
-    },
-    {
       "id": "ed3254a6",
       "title": "盘点“哈利·波特” 电影宇宙中,那些扮演过格林德沃的演员 - 新浪网",
       "date": "2026-07-03",
@@ -101,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNVDBncjlVeF9iNllFTFhXWlphZHR2QUJlWi1UdVM3R0I4RC05dWNtSVdYVjNsNzdYR0JEdm11SGVhdk5uQllybG5OWXNuMUYxYUU3QkJjUUhfeDF1d1NNeFV6YXVTaGVYSXdxUV9iMXk5Yk0?oc=5"
+    },
+    {
+      "id": "ecceba39",
+      "title": "男演员去世，这些经典巨作里都有他的身影！网友感慨：童年碎片在一点点消散… - 新浪网",
+      "date": "2026-07-03",
+      "category": "综合资讯",
+      "summary": "男演员去世，这些经典巨作里都有他的身影！网友感慨：童年碎片在一点点消散…",
+      "content": "男演员去世，这些经典巨作里都有他的身影！网友感慨：童年碎片在一点点消散…",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS0hwX3pFWkJLWVBXZ0ExTnZyYnRGRGQxYUNlLWNJNzRFUFo5SUJpUzEyanYyMmUyc2FNQXc4VnRVYlh0Nm9FMHhkSXJVN09lX3NadzVmd0FrZmIxY3pTRzhVNlJYNzdRM09HaUtIYVJtMUtxQUFlVW1TLWJvMGhVZg?oc=5"
     },
     {
       "id": "fc7e5e91",
@@ -343,24 +363,24 @@
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yclJXLWIyWlJIbWdJTVVXQUFHWVJlU2d4TGF6Y0xNSF9HOHBHVjdvOE83eTNsQXpNaGJIWU0xRHByenRVQm1tWGM1S0ZxTS1EU3N2SlFxQUlIWnA3QUsyX0lWaXBRc29jVXc?oc=5"
     },
     {
-      "id": "761b3fe7",
-      "title": "《哈利波特》葛林戴华德Michael Byrne辞世 曾演活多位经典反派 - 香港01",
+      "id": "360a50fe",
+      "title": "英国演员迈克尔・伯恩去世，曾在《哈利·波特》中饰演老年格林德沃 - 京报网",
       "date": "2026-07-01",
-      "category": "社区活动",
-      "summary": "《哈利波特》葛林戴华德Michael Byrne辞世 曾演活多位经典反派",
-      "content": "《哈利波特》葛林戴华德Michael Byrne辞世 曾演活多位经典反派",
-      "image": "🎉",
+      "category": "综合资讯",
+      "summary": "英国演员迈克尔・伯恩去世，曾在《哈利·波特》中饰演老年格林德沃",
+      "content": "英国演员迈克尔・伯恩去世，曾在《哈利·波特》中饰演老年格林德沃",
+      "image": "📰",
       "relatedLinks": [
         {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
+          "label": "📚 原著百科",
+          "path": "/books"
         },
         {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
+          "label": "🧙 人物百科",
+          "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOcHN0c29YLVR1SHhRcjdYVjVzb1dPX1dEbkI4SVdhZzJNYzhIdG8zUFpSRllBMm12OFNKOFFsa0lrZXNOTlU1OEhMNEZQc1NjUmhGZWRTZHpTemoxNU8zdGluWlkzUElzalo0c0hhcmg0eDNXTFNVM0FYdzhEWXlEdm1hWkRNNDB5Z2VqZGNoY3FldWlYZTZrQURnQUxjVlZseWNGclk5ajBUQUlKS3R1dDd0Q2YxM1hDbDkzWmo2bE1pOTRyNV9lQ2h2SzBkSW1nRUxMSUt4a0NFandhYzQ1TTB0OC1wS0o0bnNvUXZoUlpGUEtnNU5MbFlaYUFOVlNWUklLNTFaOXI0Z1pGalZKUTJPUjNYSlkwS1g0Sl9HcGJSTkFVd2h6TDdvcFJhUkJTTFBFOHd1dlhHQlFMUmtENHpab09RSHRuUFZHOS1jcGxVZWU1YUNfNUR2VFI3ZlRhdEhaejMzYTBLWTBSQ1ZZMnBfa3hZTU9ESFFTNk9B?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mdmtxSW5DOWRwOFNzcGNGcVU0OXdjeTNET2FvSnc2eVpHSml5Y2tNU0plQ1FaWXIwWThQd1JGRHY4Mk9qNk1yUXQ0cTI3ZzJIUl85SlBEV3dhYUh0eWc?oc=5"
     },
     {
       "id": "9fbb8128",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oeTFUVTJ5Rlh1RFhqd0tRUUxKX0ZSblIwSzRfWWtsWTVacmZzSzc0SUgzWmFJMk52NmVKOUJ0Ykt4RHJfUGhLUmtLMi1kS0tMN2VwOEFNelh1WWlOOVB2S19NU0ZfTktqMHZudjhFV3FsZDU3S05PWQ?oc=5"
-    },
-    {
-      "id": "b9c11827",
-      "title": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响 - 星島頭條",
-      "date": "2026-07-01",
-      "category": "影视动态",
-      "summary": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响",
-      "content": "《哈利波特》黑巫师Michael Byrne离世享年82岁 家属证实拒透死因 一代经典反派角色成绝响",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxNVjNUQjNHTTY2LXE5ZTQ5S2RZS0UzdzFwR2xydGN6OUlGOF9mZ1NjM0NIZXR6OUc4V1RMeWFBdU9VdXdOcTBfTG4zYW1iY0hZNVhQS1JMMXYyejZHOV9iQzhTdEU2UmRFUjJxODZER3didTR2TnpoYUQwU0JEeEFXdFp4aWozNHNuOWpmS0d4ME5SdmRiRkJRaHAwV3FObEl6SktFYUNtNXRraHlrNjM5aENzb2NlSXVwQmhPLVI1ZldZNkNyMXZyYjNjRWRhMEZQSWFGdTgtRDlXQ0hJaGVPanc2ZzhFbTM0UzlUSVQwMXVNVDV3VkFQS3oza1h0R1otdi1wWFY4UHFabXkzUEJNY1hjQVI4UFVDZllCQXVZTUgxVXRwaEsyTVVYbzRjRkZ5R1hJcHYybFRYdXJPLTZiZXNlRVJEcEQtdzhXb3Y4LW5VdjJnSWxzRzdhalNlSjBIM1UxVkVHc2ttN2pfN0NwdTJmWVRBVjlqbldIQk9zZ2xSWEhuWGlpMm1tdGNfc2ZsSjJxdmRuSWtGNFAxQVMtNVhIRjBvcHpLVWJneTZCRFpnY1M2VmJBXzE3OWdHMFY5WGN3emcyRnp1LUpFVHVQWl9tVmNvWFBHb0hycHowLU5QQTg0Ry00eF9TZ1R1T0E?oc=5"
     }
   ]
 }
