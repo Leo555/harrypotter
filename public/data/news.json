@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-07-06T06:59:25.840Z",
+  "lastUpdated": "2026-07-06T12:34:23.706Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "41dd5078",
+      "title": "开发者用Fable模型将墨水屏变哈利波特魔法日记 - 新浪网",
+      "date": "2026-07-06",
+      "category": "综合资讯",
+      "summary": "开发者用Fable模型将墨水屏变哈利波特魔法日记",
+      "content": "开发者用Fable模型将墨水屏变哈利波特魔法日记",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PLVNQd2FLZU9PWXZSZTl1bnIxcHBQX2tWeG43eEJyX3UzdDZCQWRfSzBBWHBPRVZCelpUVnpMY2RMcGw5eVpvSU1SZlN0cFVrcGNzMjJpRVI2a3lMck1TeDFwSkRYMTlyMWExMkotRFpodw?oc=5"
+    },
+    {
+      "id": "57645ec2",
+      "title": "罗琳：伤疤为啥闪电形|j.k. rowling|哈利·波特|闪电形伤疤_新浪新闻 - 新浪网",
+      "date": "2026-07-05",
+      "category": "综合资讯",
+      "summary": "罗琳：伤疤为啥闪电形|j.k. rowling|哈利·波特|闪电形伤疤_新浪新闻",
+      "content": "罗琳：伤疤为啥闪电形|j.k. rowling|哈利·波特|闪电形伤疤_新浪新闻",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHOFZuVXd0WUpwbXAzUGRUZzdDRUhEU1JEc2NJSXk5d0VoR25vR0FPSERBSENzQTRXVTM2amJwbEo5ZVpBMzJVcF9iaXNTcmhxSmdEM2p5ZXRIN3Q1NjhXa3lsZw?oc=5"
+    },
     {
       "id": "c2e5d554",
       "title": "手写屏改哈利波特日记|推上有人|maximerivest|哈利波特|汤姆里德尔|日记本|手写墨水屏|ai大模型|墨水逐隐效果 - 新浪网",
@@ -43,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0STR6b2R3MTBMVmZ6TWpNbzRGTmd3NGJfU3VYQS03N21sRlVsUE5UTnR6RlktTDZTMGdWM2VuWnI3dVYzNTU4MkdsWl9JdUNFZmd1MmQ4WjVPZjc2TlVpdUtHWQ?oc=5"
     },
     {
-      "id": "b444916c",
-      "title": "男演员突然去世！死因尚未公布，他的作品太经典 - 新浪网",
-      "date": "2026-07-05",
-      "category": "影视动态",
-      "summary": "男演员突然去世！死因尚未公布，他的作品太经典",
-      "content": "男演员突然去世！死因尚未公布，他的作品太经典",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nYTlTSlYxU1kwc2JzVDk3VVJYLXdDaGZId1VwLXZ2TVI2QmlJWVdkM0thTHBkczl4bU5WZkJsc2JTWEVtWU45N0RGNl9RSzJjNWt5WTNfSEhBMVd3YlB0a0hPSUh2eHR2cERWQ3RZY3l0d3c?oc=5"
-    },
-    {
       "id": "3f39b1bd",
       "title": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐 - 上观新闻",
       "date": "2026-07-05",
@@ -81,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3azFQN2VRRFFVR080OGRqX2pIOG9QekN6Q0JpdmF0VzRWbl9QY2hvYm1XS0x1bEV4LU1Gck4tNGhtR1FONWJOaFUwVjhVc2h1ZFhZVWxjTGs2Zw?oc=5"
+    },
+    {
+      "id": "b444916c",
+      "title": "男演员突然去世！死因尚未公布，他的作品太经典 - 新浪网",
+      "date": "2026-07-05",
+      "category": "影视动态",
+      "summary": "男演员突然去世！死因尚未公布，他的作品太经典",
+      "content": "男演员突然去世！死因尚未公布，他的作品太经典",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nYTlTSlYxU1kwc2JzVDk3VVJYLXdDaGZId1VwLXZ2TVI2QmlJWVdkM0thTHBkczl4bU5WZkJsc2JTWEVtWU45N0RGNl9RSzJjNWt5WTNfSEhBMVd3YlB0a0hPSUh2eHR2cERWQ3RZY3l0d3c?oc=5"
     },
     {
       "id": "216a7f13",
@@ -223,8 +263,8 @@
       "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbnFnUFVLTnUwLVNzTnY2cjRDYVdFdGZrem4yeU4ySzJ3MjliYkxha3Mxbjh4ZzlOWHRyclE3TUtNY09ad01oVHgyZnQtVVhPRkdhbjhZV3gyekJubGZ6QWk1UmFZcDFnVnF0SnVvNjRYc2tXUzktdE4wSF9SaFZ2MU5kWFpnOERsUW9laTJlSEg4WmZmbnNWelZVYVF5YjRvUTZxaHdnWE5MUW1DRGN0SEdHVW9NWTJxencxekI0ZGwtTnFLdVA0SE5kcjI?oc=5"
     },
     {
-      "id": "9cb95205",
-      "title": "丁程鑫cos哈利波特的照片 - 新浪网",
+      "id": "a53ece7e",
+      "title": "丁程鑫cos哈利波特的照片 - 新浪娱乐",
       "date": "2026-07-02",
       "category": "影视动态",
       "summary": "丁程鑫cos哈利波特的照片",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00ZGFyYzNIeEdsa3RzdDZzSEN5ZnZrV3NGbWFKX1lyOWRFaTl1cVVmOTk5Yl92MmljM0FTWHNhdUk0Tm1oaENpUlZVZm5LWjNEbHVDdlRkRzRKMV9uYTdsRmlhSDV0cVd5ZTk2SUhaZzk?oc=5"
-    },
-    {
-      "id": "8e629676",
-      "title": "英国演员迈克尔・伯恩去世，曾在《哈利·波特》系列电影中饰演老年格林德沃--国际 - globalpeople.com.cn",
-      "date": "2026-07-02",
-      "category": "影视动态",
-      "summary": "英国演员迈克尔・伯恩去世，曾在《哈利·波特》系列电影中饰演老年格林德沃--国际",
-      "content": "英国演员迈克尔・伯恩去世，曾在《哈利·波特》系列电影中饰演老年格林德沃--国际",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mc2Y0ZlRUc0tGVTdTbG42eXU3OENsWjJ4TWVFUU9FekpMSEpUX0VTY3JUUk5IOFNkWmV6NExacHg1WTRQT2JKRlVib29VTnlzbUh3QUkyeGdZanpiMi1oYVdkTjBIVEV4aUh2OHRSWUhVUHo4?oc=5"
-    },
-    {
-      "id": "4dd65f92",
-      "title": "BGM一响，Crush登场。 #哈利波特##德拉科马尔福# ​ - 新浪网",
-      "date": "2026-07-02",
-      "category": "影视动态",
-      "summary": "BGM一响，Crush登场。 #哈利波特##德拉科马尔福# ​",
-      "content": "BGM一响，Crush登场。 #哈利波特##德拉科马尔福# ​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeEN0WFk3SlhBZzNqM3dDT0VmbHNaWFpGTVNGWGRNTVdVSFFXZDZSMzVYMWZHUUFPS2ViN3l6VFZrSUFNNzRfRkZRaG9QWDBmV1h1YWpLSmxBTlN1T2tjN0FPbEY3VkdHckh5REgtanc4ekN0SHptNDhoc0xKV2tQcndGQW1Ib2RnNlJnY2RiTExURFBXamVFQ0lVaWRGNEtIZVA5dUhmSEk0X2luNF9DODUtS0FUcTV3bDU0bUotNjdLTnhCeWNRTU9TZy0wNWgwSmMybE1pamhHeEpDM3pGUQ?oc=5"
     }
   ]
 }
