@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-07T19:38:04.696Z",
+  "lastUpdated": "2026-07-07T22:03:46.164Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "6b9c00db",
+      "title": "《哈利·波特》：HBO演员对科尼利厄斯·福吉这一角色提出了有趣的见解 - Notebookcheck CN",
+      "date": "2026-07-07",
+      "category": "影视动态",
+      "summary": "《哈利·波特》：HBO演员对科尼利厄斯·福吉这一角色提出了有趣的见解",
+      "content": "《哈利·波特》：HBO演员对科尼利厄斯·福吉这一角色提出了有趣的见解",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1scS10TTlBYWpqRUFTLTZkcXFiQ2dTVU0yNy1rRkxPUG9heE5mWHlpWnNZWVNUV0k1Q3ByWGtuRE9pZEZYbWp2bmNXQjZFdW9RMmwwZ01FcE9adHZRUzhKNQ?oc=5"
+    },
     {
       "id": "d6f99841",
       "title": "哈利波特 - 新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNVDBncjlVeF9iNllFTFhXWlphZHR2QUJlWi1UdVM3R0I4RC05dWNtSVdYVjNsNzdYR0JEdm11SGVhdk5uQllybG5OWXNuMUYxYUU3QkJjUUhfeDF1d1NNeFV6YXVTaGVYSXdxUV9iMXk5Yk0?oc=5"
-    },
-    {
-      "id": "9cb95205",
-      "title": "丁程鑫cos哈利波特的照片 - 新浪网",
-      "date": "2026-07-02",
-      "category": "影视动态",
-      "summary": "丁程鑫cos哈利波特的照片",
-      "content": "丁程鑫cos哈利波特的照片",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUG1VYkJIejRMdmxJeDVQODNxRjRxSzgtV1V1dXROYUpYTXQyVTVRNTdWcWJqY0trQkhTUG9MVmVIU0p6WHEzMVM4WnlQSFFVX1BNeW5HN1JCTEhkUkdPZXRLdEthT0RSVmFLdWFnRHV2enYxZ0QwWHhiNlFzVTh4Yw?oc=5"
     }
   ]
 }
