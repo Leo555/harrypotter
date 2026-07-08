@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T01:27:00.860Z",
+  "lastUpdated": "2026-07-08T05:40:17.655Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,26 +23,6 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1scS10TTlBYWpqRUFTLTZkcXFiQ2dTVU0yNy1rRkxPUG9heE5mWHlpWnNZWVNUV0k1Q3ByWGtuRE9pZEZYbWp2bmNXQjZFdW9RMmwwZ01FcE9adHZRUzhKNQ?oc=5"
     },
     {
-      "id": "d6f99841",
-      "title": "哈利波特 - 新浪网",
-      "date": "2026-07-06",
-      "category": "综合资讯",
-      "summary": "哈利波特",
-      "content": "哈利波特",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TcUItb1dubzhTMGh5RXE3MTRKX244emo2NWNiYjVvRnJyT21ibzJZcmFnUlZfd2JsMXFKSUI5SzBudTRreDdNX2g1RHNkWjlZM0RmdXZLaXZZaXdGdzV3YUxGSQ?oc=5"
-    },
-    {
       "id": "41dd5078",
       "title": "开发者用Fable模型将墨水屏变哈利波特魔法日记 - 新浪网",
       "date": "2026-07-06",
@@ -61,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PLVNQd2FLZU9PWXZSZTl1bnIxcHBQX2tWeG43eEJyX3UzdDZCQWRfSzBBWHBPRVZCelpUVnpMY2RMcGw5eVpvSU1SZlN0cFVrcGNzMjJpRVI2a3lMck1TeDFwSkRYMTlyMWExMkotRFpodw?oc=5"
+    },
+    {
+      "id": "d6f99841",
+      "title": "哈利波特 - 新浪网",
+      "date": "2026-07-06",
+      "category": "综合资讯",
+      "summary": "哈利波特",
+      "content": "哈利波特",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TcUItb1dubzhTMGh5RXE3MTRKX244emo2NWNiYjVvRnJyT21ibzJZcmFnUlZfd2JsMXFKSUI5SzBudTRreDdNX2g1RHNkWjlZM0RmdXZLaXZZaXdGdzV3YUxGSQ?oc=5"
     },
     {
       "id": "e9dfb3ca",
