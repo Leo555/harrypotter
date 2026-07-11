@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-11T12:51:21.904Z",
+  "lastUpdated": "2026-07-11T15:43:05.624Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "d8f2cb7c",
+      "title": "2026年7月澳大利亚最佳LEGO优惠精选 - games.gg",
+      "date": "2026-07-11",
+      "category": "影视动态",
+      "summary": "2026年7月澳大利亚最佳LEGO优惠精选",
+      "content": "2026年7月澳大利亚最佳LEGO优惠精选",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRDMwQU41V1FXZ01uOFZKT3gxZERMVm9fMFduSmRVY3U3SEtydEtKTHlnelRRcnI4TENjdVBXY0I4cVpodlFRcEVUS3RXWXV0alNNdThYazYyTFVUbFhXOERmZm04U0NpUzRROHFZY3FCLXR1NllIUUJHX1psaUgyNTVJYXBPeHlXU0ZIV0RrOWozZ3ZPYjNwTGhNcTJaTXlKb2I0VE1EUjN1SGM4dmFBMFl5dnJ0NVhHRTVlUFAzeEI3Z3JJWExXVEkyYml4SGZNdkM3dzJ2N0szTmMtNjlz?oc=5"
+    },
     {
       "id": "5d2141de",
       "title": "大大方方的友谊 小心翼翼是爱情 哈利波特 l 罗赫 l 人生电影时刻 - 新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sUXN2bnNiU2FBRk9QamxWSkpHWGJSekFsOVZSY21HQnNNTzh5UlFlS2drcUtWQXV3UnFvTGhzWEJWVnJzSGEyRHA1ZW5jZXdkY0YxT2lkQkYwUmJTS21rMnUxY3RaY05zZDllM1AwZ1F2Zw?oc=5"
-    },
-    {
-      "id": "32353208",
-      "title": "新浪网· - 新浪网",
-      "date": "2026-07-03",
-      "category": "影视动态",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LMkJBWXMyQmp3aFlSZlctLUc1eEN2M3BmY1VjVWVmRE10ckVvUDZobV9Vc093aFJ3ekdVcVRZZmhDSktDOTROVTVMRXpFYkh0RUNDWW1Vc0ZTY2RVWjUwU1V4aw?oc=5"
     }
   ]
 }
