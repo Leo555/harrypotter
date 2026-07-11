@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-11T15:43:05.624Z",
+  "lastUpdated": "2026-07-11T18:42:26.610Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "84dfc478",
+      "title": "《哈利·波特》消失的霍琦夫人等人：片酬谈崩了 - 网易",
+      "date": "2026-07-11",
+      "category": "综合资讯",
+      "summary": "《哈利·波特》消失的霍琦夫人等人：片酬谈崩了",
+      "content": "《哈利·波特》消失的霍琦夫人等人：片酬谈崩了",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yaHhyRGlsWlpSRkZKbVE2WmR1dWEtWEduSmlBMXZ4bjFDaVhQT0dKSUItSllNRjhQQ0ZDTHRMdW9hQWlhSjB1X2xpOVlSVHpSaWo0VUh3MzAxU21GSWZ0dWN3?oc=5"
+    },
     {
       "id": "d8f2cb7c",
       "title": "2026年7月澳大利亚最佳LEGO优惠精选 - games.gg",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhcGRiM1hJcmxNUTFFWFRXUmw3eGg4cWZSLTdVbzRwWEVHLTh5ay00Q0dLcVh3RlJJRGE0U1lwV0pFdGdFVmtnOXVOUFBaanc1UEh1QUR0M1dfLWhKNFBTcnBlS0p5X0VyeHZ0X3VwVDNXTFZ0Vmc?oc=5"
-    },
-    {
-      "id": "f4f9c4a0",
-      "title": "《哈利·波特魔法盛宴》礼盒套装上市，含丰富周边 - 新浪网",
-      "date": "2026-07-04",
-      "category": "周边商品",
-      "summary": "《哈利·波特魔法盛宴》礼盒套装上市，含丰富周边",
-      "content": "《哈利·波特魔法盛宴》礼盒套装上市，含丰富周边",
-      "image": "🛍️",
-      "relatedLinks": [
-        {
-          "label": "⚗️ 魔法物品",
-          "path": "/world/items"
-        },
-        {
-          "label": "🐉 魔法生物",
-          "path": "/world/creatures"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sUXN2bnNiU2FBRk9QamxWSkpHWGJSekFsOVZSY21HQnNNTzh5UlFlS2drcUtWQXV3UnFvTGhzWEJWVnJzSGEyRHA1ZW5jZXdkY0YxT2lkQkYwUmJTS21rMnUxY3RaY05zZDllM1AwZ1F2Zw?oc=5"
     }
   ]
 }
