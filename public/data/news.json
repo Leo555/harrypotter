@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-12T05:46:20.715Z",
+  "lastUpdated": "2026-07-12T07:56:12.456Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "39eb2a8c",
+      "title": "【暑期福利】《哈利波特》《爱乐之城》……多部经典电影金曲现场重现，免费门票限时抢→ - 广州日报新花城",
+      "date": "2026-07-12",
+      "category": "影视动态",
+      "summary": "【暑期福利】《哈利波特》《爱乐之城》……多部经典电影金曲现场重现，免费门票限时抢→",
+      "content": "【暑期福利】《哈利波特》《爱乐之城》……多部经典电影金曲现场重现，免费门票限时抢→",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTXprMmVOMkxVNEllUWZTMlU3U3pCUUxNYk1nSzdxWFgxa25LbEtYUWdibFhIcUp6cjhrcndpaG1na2gzRlpDWkVGS2NHX2s0NC0tVHIwOUZlVUplaVRkdjFZWk9BNVE1bC1nM0w5M3NPSXlObmJnM1dzWGE3aE96b2hFdUItX3VSM3c?oc=5"
+    },
     {
       "id": "84dfc478",
       "title": "《哈利·波特》消失的霍琦夫人等人：片酬谈崩了 - 网易",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXLVMzLVJRbWF1NXBFNUF1cGpFUFJKbHNMWUlEN1hkMG9OVGN4Tjl1aXJkaFU3a2VudDUwZzFjcFdpNzZsN3duZDhWWHdIRWt4clFTeEJR?oc=5"
-    },
-    {
-      "id": "74ce5e70",
-      "title": "知名演员迈克尔·伯恩去世，曾饰演《哈利·波特》系列电影中的老年格林德沃等角色 - 新浪财经",
-      "date": "2026-07-04",
-      "category": "影视动态",
-      "summary": "知名演员迈克尔·伯恩去世，曾饰演《哈利·波特》系列电影中的老年格林德沃等角色",
-      "content": "知名演员迈克尔·伯恩去世，曾饰演《哈利·波特》系列电影中的老年格林德沃等角色",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhcGRiM1hJcmxNUTFFWFRXUmw3eGg4cWZSLTdVbzRwWEVHLTh5ay00Q0dLcVh3RlJJRGE0U1lwV0pFdGdFVmtnOXVOUFBaanc1UEh1QUR0M1dfLWhKNFBTcnBlS0p5X0VyeHZ0X3VwVDNXTFZ0Vmc?oc=5"
     }
   ]
 }
