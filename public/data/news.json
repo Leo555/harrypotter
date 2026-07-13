@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T14:00:12.007Z",
+  "lastUpdated": "2026-07-13T17:03:33.305Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -243,26 +243,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yMmhZb0ZzWi1fZ1FkN2xGNFdCNGxZbHFsV0JWdFhPN3VleHdKbzMyeDNaSHNxR3BLbXJoVE5tdkpKTnEwM0hMUlM2VEdLMXhXYVFwOUtkS2hmSmoySnFKRnRFRzN5STc3T3g2YTdMNXg0VVU?oc=5"
     },
     {
-      "id": "95c4c14d",
-      "title": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐 - 手机网易网",
-      "date": "2026-07-05",
-      "category": "影视动态",
-      "summary": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐",
-      "content": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qSkdpZC0wNEJjSGpRMlVrTGx3dFI5LWd5Mlk0NHNMdWQ1UW13WVJwQUQxbTEwRWk1UUdaRU5iREdNeFItemFPeHZNQzhBelQyWXJGOU9PbWJIX3RPUktya2pn?oc=5"
-    },
-    {
       "id": "ba39772e",
       "title": "7月5日#哈利波特[超话]# 一周#新闻速递# ​ - 新浪网",
       "date": "2026-07-05",
@@ -281,6 +261,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43SnNxY0xLakVZZmZtWFRsVDBFSUNsRDFIdWNvQVAzYlZPRllyVGI4V3h2VG5YMmRBQUF3Q25XZHdPTzdYblRJMC1jU19qT2x5cmZlQ3M0Q0JUM0F0R0lGYWJiUQ?oc=5"
+    },
+    {
+      "id": "95c4c14d",
+      "title": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐 - 手机网易网",
+      "date": "2026-07-05",
+      "category": "影视动态",
+      "summary": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐",
+      "content": "《哈利·波特》《阿凡达》《星际迷航》《加勒比海盗》都有他的预告音乐",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qSkdpZC0wNEJjSGpRMlVrTGx3dFI5LWd5Mlk0NHNMdWQ1UW13WVJwQUQxbTEwRWk1UUdaRU5iREdNeFItemFPeHZNQzhBelQyWXJGOU9PbWJIX3RPUktya2pn?oc=5"
     },
     {
       "id": "4f29df96",
