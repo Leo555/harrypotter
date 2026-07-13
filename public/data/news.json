@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T17:03:33.305Z",
+  "lastUpdated": "2026-07-13T19:08:43.793Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuNTJ3eVM1czM1cE9LUFJ2UlFoQ1pNOXRlWjBITTN6UXd1YXdyYXNqVE84OFgtTGE1d0VuWGlacm5MMFpQUW1CT0tCcmN4M0dQa3lSdGZNX3I1Z0xHRXZhTFdTcFNUR0F4V0YwZld2MzA?oc=5"
+    },
+    {
+      "id": "d2538a7e",
+      "title": "巴西街头惊现“魔法扫帚”，路人甲都看呆了 - 网易新闻客户端",
+      "date": "2026-07-13",
+      "category": "影视动态",
+      "summary": "巴西街头惊现“魔法扫帚”，路人甲都看呆了",
+      "content": "巴西街头惊现“魔法扫帚”，路人甲都看呆了",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lb1N6MEdCUUdCVHhUVGdzalhoc2xBMFVLbm4xTVAwalZqcVRxNFFwVjNNbkMxTVlrbUdQWHFYY2tLclNJZ285dVh0R2Q5TTRoY0NrcDF0VVMwaUo5?oc=5"
     },
     {
       "id": "39eb2a8c",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MNHN0V3ZMZFpBNFdUWURFNU9zQ0JCSXY3Wl9UbFNZaGRGZjc1NlNGRVBJa1FNMjVkS01fc2EySmFuT0Y2a1FCaFRIZFlmMXRGN1k3V203UXA5NWtnTml2akNzZw?oc=5"
-    },
-    {
-      "id": "f7bb524e",
-      "title": "哈利波特的“魔法扫把”照进现实，变身滑板助力器 - 腾讯新闻",
-      "date": "2026-07-04",
-      "category": "综合资讯",
-      "summary": "哈利波特的“魔法扫把”照进现实，变身滑板助力器",
-      "content": "哈利波特的“魔法扫把”照进现实，变身滑板助力器",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXLVMzLVJRbWF1NXBFNUF1cGpFUFJKbHNMWUlEN1hkMG9OVGN4Tjl1aXJkaFU3a2VudDUwZzFjcFdpNzZsN3duZDhWWHdIRWt4clFTeEJR?oc=5"
     }
   ]
 }
