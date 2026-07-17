@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T18:50:44.218Z",
+  "lastUpdated": "2026-07-17T21:39:57.161Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -61,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yaGxBRkNYZ3drSGh1VEdWQzdMS1ZTVnFEbk8zdTRmVzVSd0RhTE5GZl9MVm5qWlVFdDZCT25hOUJ1TWJjNnhRcmVJR0tiTmMtOTI2QmlmdmNIMFZ3dElHa1dNdjdzaGVqRDQxTHpMczEwRWs?oc=5"
+    },
+    {
+      "id": "045eda79",
+      "title": "[淡淡的]旧图掏出来重绘了 - 新浪网",
+      "date": "2026-07-15",
+      "category": "综合资讯",
+      "summary": "[淡淡的]旧图掏出来重绘了",
+      "content": "[淡淡的]旧图掏出来重绘了",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5a3BXbm14dUZUejQwc19JLU1rU2xsV250QlZNZDEzNDhSdlpXdDdIelUxZkFPcE5PVGlLUWduYjdXRkxlR3N3TU1wX09IQ1l3bTU1MFdqZE03WGVnRU5kdjdKNA?oc=5"
     },
     {
       "id": "0ebc9190",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbnFnUFVLTnUwLVNzTnY2cjRDYVdFdGZrem4yeU4ySzJ3MjliYkxha3Mxbjh4ZzlOWHRyclE3TUtNY09ad01oVHgyZnQtVVhPRkdhbjhZV3gyekJubGZ6QWk1UmFZcDFnVnF0SnVvNjRYc2tXUzktdE4wSF9SaFZ2MU5kWFpnOERsUW9laTJlSEg4WmZmbnNWelZVYVF5YjRvUTZxaHdnWE5MUW1DRGN0SEdHVW9NWTJxencxekI0ZGwtTnFLdVA0SE5kcjI?oc=5"
-    },
-    {
-      "id": "bf804a1f",
-      "title": "霍格沃茨之遗：屹立不倒的城堡 - Foro3D",
-      "date": "2026-07-06",
-      "category": "影视动态",
-      "summary": "霍格沃茨之遗：屹立不倒的城堡",
-      "content": "霍格沃茨之遗：屹立不倒的城堡",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPekJjdEZwSFB6SUNhMnY0SWtYT1FJekk5amNUNmFRN2dCZV9VX1hzZkdRSmtmSEFnS3YtVHFCRElaZG9BN05jVVN2SHJsYWl3Z21QeGtRUlA1SGU4QlhHcFBFUkVOY2tIdmNucFFSVlpSUnBDMjJ0RUF1UkRhU1puMzZVdUtCTTA5aURmVWlCNld0MmRQUGFv?oc=5"
     }
   ]
 }
