@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-17T05:31:18.764Z",
+  "lastUpdated": "2026-07-17T07:49:44.104Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "b1ec8c6e",
+      "title": "《哈利·波特》秋·张演员新剧演邪恶继母,网友:撞脸刘玉玲 - 新浪网",
+      "date": "2026-07-17",
+      "category": "综合资讯",
+      "summary": "《哈利·波特》秋·张演员新剧演邪恶继母,网友:撞脸刘玉玲",
+      "content": "《哈利·波特》秋·张演员新剧演邪恶继母,网友:撞脸刘玉玲",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3dJSE15T0c2VUxfT1lOS1VTQzd6cVR3LVZ5eFpGNFdXNnRJVkFpNVQyVjl0M19Fc0JjZ2xhLXB1UVFVOVlDcXBMTE92dE93ZGdXbGdvYmRPN0xxQ183aklNNnlpQURQVnFQeGMzdVJSZEhNanJaaTFUNU4yQnlxMmpiWEt4eWJtMUdVTGR0bGRrMVBVZXNUZ1NVRXd5UXFpSklVVGV6NW9qN2MwcjBHNnZR?oc=5"
+    },
     {
       "id": "ff3ca3f7",
       "title": "告别哈利·波特后，丹尼尔新片继续“什么角色都接”？ - 手机网易网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPekJjdEZwSFB6SUNhMnY0SWtYT1FJekk5amNUNmFRN2dCZV9VX1hzZkdRSmtmSEFnS3YtVHFCRElaZG9BN05jVVN2SHJsYWl3Z21QeGtRUlA1SGU4QlhHcFBFUkVOY2tIdmNucFFSVlpSUnBDMjJ0RUF1UkRhU1puMzZVdUtCTTA5aURmVWlCNld0MmRQUGFv?oc=5"
-    },
-    {
-      "id": "d6f99841",
-      "title": "哈利波特 - 新浪网",
-      "date": "2026-07-06",
-      "category": "综合资讯",
-      "summary": "哈利波特",
-      "content": "哈利波特",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TcUItb1dubzhTMGh5RXE3MTRKX244emo2NWNiYjVvRnJyT21ibzJZcmFnUlZfd2JsMXFKSUI5SzBudTRreDdNX2g1RHNkWjlZM0RmdXZLaXZZaXdGdzV3YUxGSQ?oc=5"
     }
   ]
 }
