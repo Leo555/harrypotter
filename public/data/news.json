@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T05:14:22.644Z",
+  "lastUpdated": "2026-07-18T07:24:42.707Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -20,7 +20,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3dJSE15T0c2VUxfT1lOS1VTQzd6cVR3LVZ5eFpGNFdXNnRJVkFpNVQyVjl0M19Fc0JjZ2xhLXB1UVFVOVlDcXBMTE92dE93ZGdXbGdvYmRPN0xxQ183aklNNnlpQURQVnFQeGMzdVJSZEhNanJaaTFUNU4yQnlxMmpiWEt4eWJtMUdVTGR0bGRrMVBVZXNUZ1NVRXd5UXFpSklVVGV6NW9qN2MwcjBHNnZR?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzUkhtR0xNSnlnZWVzRnZqblVSUmttTFBEMUlSUTRyU1gwWTgzaF9yZnR4dkhsX3ZnMXlLai0tYnoweEhNNkdlN1dKeHcxbTlFT3FSdmJZSDdEWWZKWVliRVZ5UUNmRWtRQmI1UDVoS3c?oc=5"
     },
     {
       "id": "ff3ca3f7",
@@ -41,26 +41,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tNkVNMm1qeWlzSUdVeDdtQTdfNWVlLWF6T3FJRHlxc2VBTXBnT0lsd3lPXzZVdDh3NTF5aUQtXy03S2Y2WWNDTEJMNGlraTVYbHpEb1pOUE43b0xBMGRFZk9R?oc=5"
-    },
-    {
-      "id": "ba1351e1",
-      "title": "哈利·波特老年格林德沃扮演者迈克尔·伯恩去世，享年82岁 - 新浪网",
-      "date": "2026-07-15",
-      "category": "影视动态",
-      "summary": "哈利·波特老年格林德沃扮演者迈克尔·伯恩去世，享年82岁",
-      "content": "哈利·波特老年格林德沃扮演者迈克尔·伯恩去世，享年82岁",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yaGxBRkNYZ3drSGh1VEdWQzdMS1ZTVnFEbk8zdTRmVzVSd0RhTE5GZl9MVm5qWlVFdDZCT25hOUJ1TWJjNnhRcmVJR0tiTmMtOTI2QmlmdmNIMFZ3dElHa1dNdjdzaGVqRDQxTHpMczEwRWs?oc=5"
     },
     {
       "id": "045eda79",
@@ -101,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa3l0VjhxNEgxaUJiMWNyR1hmMnBObmxtQjFCNlVMeDI5ODRLM3JPenIxVGhPZFZfWDNVcmJuSVlKYTJBU1RLU0F5SVRFY2JPRm9ZcDd2MjhoRzJEM25KVzU5SHdObW1LdHhUUDJ2WmczVEI5dnZPVExjQnUya3FLZDdrTkJrZ1p2VENlcFhxYkpiSGd0bUZrOUIwd0hCYXhTUVNhTG5hQ1MyWGY3ZnItX1Z0OUFfVGEtbWNxenFYMmp4Sjdfb3A0T0NDeXFhQTFTRXA2U09XejhMRkdU?oc=5"
+    },
+    {
+      "id": "ba1351e1",
+      "title": "哈利·波特老年格林德沃扮演者迈克尔·伯恩去世，享年82岁 - 新浪网",
+      "date": "2026-07-15",
+      "category": "影视动态",
+      "summary": "哈利·波特老年格林德沃扮演者迈克尔·伯恩去世，享年82岁",
+      "content": "哈利·波特老年格林德沃扮演者迈克尔·伯恩去世，享年82岁",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yaGxBRkNYZ3drSGh1VEdWQzdMS1ZTVnFEbk8zdTRmVzVSd0RhTE5GZl9MVm5qWlVFdDZCT25hOUJ1TWJjNnhRcmVJR0tiTmMtOTI2QmlmdmNIMFZ3dElHa1dNdjdzaGVqRDQxTHpMczEwRWs?oc=5"
     },
     {
       "id": "c305f5d8",
