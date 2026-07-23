@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-23T18:56:12.824Z",
+  "lastUpdated": "2026-07-23T21:55:07.733Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "d6f99841",
+      "title": "哈利波特 - 新浪网",
+      "date": "2026-07-23",
+      "category": "综合资讯",
+      "summary": "哈利波特",
+      "content": "哈利波特",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11UGJHU1ZFUG02QzVIMjRDVkZEWHF6ZmNhNXZTMTZQMFhvN1hoY2JEX0JPc0hOdnFjZ091Q1pERm43OWVmLTBQZ1A4YThLcEVuNWpkaDBhdTB5NDFhdVdiTTU5UQ?oc=5"
+    },
     {
       "id": "1afa1cf9",
       "title": "《哈利·波特》出版商将从Anthropic版权和解案中获得数百万赔偿 - 手机网易网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tNkVNMm1qeWlzSUdVeDdtQTdfNWVlLWF6T3FJRHlxc2VBTXBnT0lsd3lPXzZVdDh3NTF5aUQtXy03S2Y2WWNDTEJMNGlraTVYbHpEb1pOUE43b0xBMGRFZk9R?oc=5"
-    },
-    {
-      "id": "045eda79",
-      "title": "[淡淡的]旧图掏出来重绘了 - 新浪网",
-      "date": "2026-07-15",
-      "category": "综合资讯",
-      "summary": "[淡淡的]旧图掏出来重绘了",
-      "content": "[淡淡的]旧图掏出来重绘了",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5a3BXbm14dUZUejQwc19JLU1rU2xsV250QlZNZDEzNDhSdlpXdDdIelUxZkFPcE5PVGlLUWduYjdXRkxlR3N3TU1wX09IQ1l3bTU1MFdqZE03WGVnRU5kdjdKNA?oc=5"
     }
   ]
 }
