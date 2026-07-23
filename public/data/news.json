@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-23T08:08:34.758Z",
+  "lastUpdated": "2026-07-23T10:57:55.139Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "1afa1cf9",
+      "title": "《哈利·波特》出版商将从Anthropic版权和解案中获得数百万赔偿 - 手机网易网",
+      "date": "2026-07-23",
+      "category": "影视动态",
+      "summary": "《哈利·波特》出版商将从Anthropic版权和解案中获得数百万赔偿",
+      "content": "《哈利·波特》出版商将从Anthropic版权和解案中获得数百万赔偿",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ad0pHXzJGTThCSU9Ebkx0V1NOT1ZtZTVxUUhKcl81SU8wbE1XZG1uUEpFM3VoUjZMSG1DX2V6WnhSRzFLNVphNGVkU2RkS2VnWTB5QVVaaTVtWkkzYUhTV1hn?oc=5"
+    },
     {
       "id": "e9480331",
       "title": "《哈利·波特》出版商确认分得赔偿：Anthropic和解案涉1.5万部作品，每部获赔约3000美元 - 手机网易网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5a3BXbm14dUZUejQwc19JLU1rU2xsV250QlZNZDEzNDhSdlpXdDdIelUxZkFPcE5PVGlLUWduYjdXRkxlR3N3TU1wX09IQ1l3bTU1MFdqZE03WGVnRU5kdjdKNA?oc=5"
-    },
-    {
-      "id": "0ebc9190",
-      "title": "最后机会观看《哈利·波特与被诅咒的孩子》两部曲及更多伦敦剧院优惠 - BroadwayWorld",
-      "date": "2026-07-15",
-      "category": "综合资讯",
-      "summary": "最后机会观看《哈利·波特与被诅咒的孩子》两部曲及更多伦敦剧院优惠",
-      "content": "最后机会观看《哈利·波特与被诅咒的孩子》两部曲及更多伦敦剧院优惠",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa3l0VjhxNEgxaUJiMWNyR1hmMnBObmxtQjFCNlVMeDI5ODRLM3JPenIxVGhPZFZfWDNVcmJuSVlKYTJBU1RLU0F5SVRFY2JPRm9ZcDd2MjhoRzJEM25KVzU5SHdObW1LdHhUUDJ2WmczVEI5dnZPVExjQnUya3FLZDdrTkJrZ1p2VENlcFhxYkpiSGd0bUZrOUIwd0hCYXhTUVNhTG5hQ1MyWGY3ZnItX1Z0OUFfVGEtbWNxenFYMmp4Sjdfb3A0T0NDeXFhQTFTRXA2U09XejhMRkdU?oc=5"
     }
   ]
 }
