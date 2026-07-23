@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T01:44:10.878Z",
+  "lastUpdated": "2026-07-23T05:43:08.315Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -63,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wNjBHOUk5dGNlQjlUMGdBQndKb2NnTGVMUDAyS21iamRGenpfQ0sxNkxTcjRJeUdqbW5CRHFEck5yVE0xYWlwSVY5WUdXeG9uUjZpQm9BZ1B5QThsclk4YmJR?oc=5"
     },
     {
+      "id": "2e537801",
+      "title": "九龙山“趣成长营”带孩子们在《哈利·波特》中读懂友谊与勇气 - 手机网易网",
+      "date": "2026-07-21",
+      "category": "综合资讯",
+      "summary": "九龙山“趣成长营”带孩子们在《哈利·波特》中读懂友谊与勇气",
+      "content": "九龙山“趣成长营”带孩子们在《哈利·波特》中读懂友谊与勇气",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mREZYcnVydHFkTDFsRWhMZVRNbjRpX0NlNnJhX0RPNkdRWmJ1UVh3Mm5HNkNZVUZ2WkJWUlBYVnExUWdHQk9JeU0zNl8wNEZMNnJVSFJRMHdXZUtYRnhYTnVB?oc=5"
+    },
+    {
       "id": "6d5b3398",
       "title": "《哈利波特》剧集被曝尚未播出已破记录 每集预算或超1亿美元 - 新浪网",
       "date": "2026-07-21",
@@ -101,26 +121,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01eDF3R0ZTZHU3MkFuVzl0U190RHdPNjdrNjh0SnJBSWwxTGVIOWIxSFhFUmFYQmRTQjdMajNRRmpNOENKd05DWXZJMllkNjY3eDYzbFNrYXQyLUpaV0Q2aFdwVEZXR2pfelJlMUtBWV8?oc=5"
-    },
-    {
-      "id": "2e537801",
-      "title": "九龙山“趣成长营”带孩子们在《哈利·波特》中读懂友谊与勇气 - 手机网易网",
-      "date": "2026-07-21",
-      "category": "综合资讯",
-      "summary": "九龙山“趣成长营”带孩子们在《哈利·波特》中读懂友谊与勇气",
-      "content": "九龙山“趣成长营”带孩子们在《哈利·波特》中读懂友谊与勇气",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mREZYcnVydHFkTDFsRWhMZVRNbjRpX0NlNnJhX0RPNkdRWmJ1UVh3Mm5HNkNZVUZ2WkJWUlBYVnExUWdHQk9JeU0zNl8wNEZMNnJVSFJRMHdXZUtYRnhYTnVB?oc=5"
     },
     {
       "id": "5c72296a",
