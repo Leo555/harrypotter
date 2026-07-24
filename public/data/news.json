@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-24T08:04:35.903Z",
+  "lastUpdated": "2026-07-24T10:52:08.961Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "bff47904",
+      "title": "人民文学出版社 - 新浪网",
+      "date": "2026-07-24",
+      "category": "出版物",
+      "summary": "人民文学出版社",
+      "content": "人民文学出版社",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tdFZEbWF2M0R2TXRhZTJZZE96Z1BGNkgtMnBQbTIwaklxUzRqaUF1a25HTTdzYXpGNEVxeXdkYjhkVWVMQTFXSWJVREc4VWN4UFZOeXBMUUhEZlBfdUtlM2dHRQ?oc=5"
+    },
     {
       "id": "94c8dd6f",
       "title": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂 - 新浪网",
@@ -41,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwdXo3cXNlcUVXNXYtYzZuelpyYm1yUFdLdnYzNVd3amU3MUs4dm85Mk54cFVUWnF5ak9YM0djQ01KTTYySzBrZnBaYzlLZEV1WVlVTzlFdWJ1ZUxqQlRJckNsUU9nMGFiZ01V?oc=5"
+    },
+    {
+      "id": "32353208",
+      "title": "新浪网· - 新浪网",
+      "date": "2026-07-23",
+      "category": "综合资讯",
+      "summary": "新浪网·",
+      "content": "新浪网·",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XaXVvVlloUnpGazFHWlVrT1R4TjdSbDNrakFKUnlycXpZQWFIR1NZUlJ2X0pHMnhDckt1Z0JJS0pXRHFVVkJ5OFEyNTJTRnUtT1djVnVwUFd4REFrVmxhTFJ0RQ?oc=5"
     },
     {
       "id": "d6f99841",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CeGhEcWpEWGlMNlduYzNyWXBJUjRzWHM2ODgxNGhadlpBS21tRkhxcGRIa2g5NlVweFdSYm40S0t5akhuR01qVno2VWJyVTN0UTVQYUtVS1BHRDgtck5temdHdnViNnlibEhDVlVDT2F1Zw?oc=5"
-    },
-    {
-      "id": "990cbfe3",
-      "title": "星球大战、哈利·波特……在MISA的夏夜里开启一场电影音乐之旅 - 手机网易网",
-      "date": "2026-07-19",
-      "category": "影视动态",
-      "summary": "星球大战、哈利·波特……在MISA的夏夜里开启一场电影音乐之旅",
-      "content": "星球大战、哈利·波特……在MISA的夏夜里开启一场电影音乐之旅",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xak8zcWtaTlZkYXV3Uk1PVkpmOWNob1NBekw4NVI1dXZoRlNEY04yVHdZcWIzLS11R25UeFNfTnl3MVhCM1lKNGZwSTlsZm0yQnpETWRMYXFGREJBQ05BczNn?oc=5"
-    },
-    {
-      "id": "f1d774fd",
-      "title": "别错过!这是小朋友也能玩的哈利波特魔法密室-大众点评 - 新浪网",
-      "date": "2026-07-19",
-      "category": "影视动态",
-      "summary": "别错过!这是小朋友也能玩的哈利波特魔法密室-大众点评",
-      "content": "别错过!这是小朋友也能玩的哈利波特魔法密室-大众点评",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE05N04zM1hIUmd5Ri1GRUFjVE41dkM3UTlYY0c3UWlzbVNkMkR1RlBwbkZRdnhPSzRtVjV3U19SckYwNUs4ZnJYWlhRMU9WNGJENFlXcU9NX0RlN3RlWURfNTFudVlLOE9MelgxQnFrcWxmQQ?oc=5"
     }
   ]
 }
