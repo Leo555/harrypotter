@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T10:52:08.961Z",
+  "lastUpdated": "2026-07-24T13:14:38.373Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -243,6 +243,26 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmQVpYWmtpWGRGRDh0RFRBNUszNEZQdXJUck5HVmgxeF9xSDlWSmp3RDVpQWJfUjlUOUxmWXVNUHRqNEpQWGFESE91X20yTVdEWnBWbGJLT2ZHbDQ1VmxuaVpKZ0o5ZC1BWHFBcV9pNW8?oc=5"
     },
     {
+      "id": "61794c2c",
+      "title": "趣出发·观演 | 曾为《哈利·波特》《阿凡达》电影配乐的作曲家首度来华！《歌手》之外齐豫还要来上海唱歌！ - 手机网易网",
+      "date": "2026-07-20",
+      "category": "影视动态",
+      "summary": "趣出发·观演 | 曾为《哈利·波特》《阿凡达》电影配乐的作曲家首度来华！《歌手》之外齐豫还要来上海唱歌！",
+      "content": "趣出发·观演 | 曾为《哈利·波特》《阿凡达》电影配乐的作曲家首度来华！《歌手》之外齐豫还要来上海唱歌！",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yNE5BS2JIWlA5MTFXZkVQUHBTU1FWaFpnck52MVFkSlAxRTdKX1dQUXRZcEpzQ3o3UXFtWjI0QldyNDJrYzhmRVBrOFVOSndXRE5SdUlhS3RFWGZPaG0wbTdR?oc=5"
+    },
+    {
       "id": "5c72296a",
       "title": "华纳投资建设哈利·波特学校 - 驱动之家",
       "date": "2026-07-20",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jamtQRVk4Q0U3WGp0T21aZEFvVjEwVTV0ak9jZjB2RWpjVVZRSDcxa3R5YklHeGRuX3hNa0VDLXBLRWpiQTNpM3Bpd1pVZlotRWh1U1I3YzQ0Rk9aSFY1Wll3?oc=5"
-    },
-    {
-      "id": "d54ea4fa",
-      "title": "红米Note12 Turbo哈利波特限定版的价格是多少？ - 新浪网",
-      "date": "2026-07-19",
-      "category": "影视动态",
-      "summary": "红米Note12 Turbo哈利波特限定版的价格是多少？",
-      "content": "红米Note12 Turbo哈利波特限定版的价格是多少？",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CeGhEcWpEWGlMNlduYzNyWXBJUjRzWHM2ODgxNGhadlpBS21tRkhxcGRIa2g5NlVweFdSYm40S0t5akhuR01qVno2VWJyVTN0UTVQYUtVS1BHRDgtck5temdHdnViNnlibEhDVlVDT2F1Zw?oc=5"
     }
   ]
 }
