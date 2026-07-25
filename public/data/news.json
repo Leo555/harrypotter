@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T10:19:26.294Z",
+  "lastUpdated": "2026-07-25T12:57:20.028Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,6 +23,26 @@
       "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxNUtud202TklTTFBTVlZBazF1RG9sSnNWTExRYmNKelIyZTVuazMyX3FYOG1iVVVIV3BKY1BEeklKczV2MEJWcG1DaVBpbkViR0h0R1JhM01VY1FRTG1aRnEtS0llQmdDdDh3?oc=5"
     },
     {
+      "id": "6bc0c899",
+      "title": "卡卡沃与华纳兄弟探索集团全球消费品业务达成长期战略合作，携手推出哈利·波特官方授权TCG卡牌游戏 - 中国娱乐网",
+      "date": "2026-07-25",
+      "category": "影视动态",
+      "summary": "卡卡沃与华纳兄弟探索集团全球消费品业务达成长期战略合作，携手推出哈利·波特官方授权TCG卡牌游戏",
+      "content": "卡卡沃与华纳兄弟探索集团全球消费品业务达成长期战略合作，携手推出哈利·波特官方授权TCG卡牌游戏",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SW5wSktGYmFFN0JCcnJNVmlpU1ZUUGwyLWtvR2I3bFNRUk0za2RjaWdJNkV1djN2VF9mWVVJOXBmY2tvbmdaNHhEOXp3M0xfUlZQbHhNTlJTdEk?oc=5"
+    },
+    {
       "id": "337c3997",
       "title": "《哈利波特神秘的魔法石》25周年重映 神秘的10分钟片段银幕曝光 - 香港01",
       "date": "2026-07-24",
@@ -41,26 +61,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMilgNBVV95cUxOX2NUTWhIVUdvaHZ5RV9UVFZYMzV2UHppcU1XemU4U21rVE5MMzRYVUQ2RF9uQmZvLXZWSEpLaTNpdmt5X2Y5emQ5dHRfYlpoSy05Z3dCbU9SdHdoQm1Ud1lmSVRDTzZ0ZGkwODJjMW1tWU14OTQzME1IVXRqb1Bvd2UxSjdTTHNwV2xZR3F0dUNrSW50a0tTZU5jSmpnQzNnVWhacDFuT09qMGszeDFYNmRGa0hpNnV4bXQwT1B0TV9qbGNaTmRaNHVlbDFtZ3llZUVQcGctUkZ2T21GUDBMTFJ0RXRKWFNKTlJjUFFXVUtzN2MxbFUyTlZWQ3Q1NldiQzRneEdHU2lzOE8tcVFmcU5DeVVJNm5KTC1kX0dUMVJhMGR1NFRkWUdvbmNvVUoxNXpjSmNkOG5xUkNuTmNPem9jNVBmYWZ4SHdvRE4wQnh2MEp3djd1SG1aTC1iWmZVRXAyOUtFTDB1UWtfWnlnZWt1a2F0cUVxMER6R19jUl8xZlNUNU1OVWtrbjRjNG1sQUlNQmdR?oc=5"
-    },
-    {
-      "id": "bff47904",
-      "title": "人民文学出版社 - 新浪网",
-      "date": "2026-07-24",
-      "category": "出版物",
-      "summary": "人民文学出版社",
-      "content": "人民文学出版社",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tdFZEbWF2M0R2TXRhZTJZZE96Z1BGNkgtMnBQbTIwaklxUzRqaUF1a25HTTdzYXpGNEVxeXdkYjhkVWVMQTFXSWJVREc4VWN4UFZOeXBMUUhEZlBfdUtlM2dHRQ?oc=5"
     },
     {
       "id": "cf2bd9b4",
@@ -123,6 +123,26 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFQW04Rm1Yb283MlctcXpzeGZiQzBZYmVxamVPZy1YNENja05sLWsySnZkbFpYYU1STjFPLS1pZmtQbU9yczVHM3pMM29zSFRoYmtIeUN2ck1sVFU?oc=5"
     },
     {
+      "id": "bff47904",
+      "title": "人民文学出版社 - 新浪网",
+      "date": "2026-07-24",
+      "category": "出版物",
+      "summary": "人民文学出版社",
+      "content": "人民文学出版社",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tdFZEbWF2M0R2TXRhZTJZZE96Z1BGNkgtMnBQbTIwaklxUzRqaUF1a25HTTdzYXpGNEVxeXdkYjhkVWVMQTFXSWJVREc4VWN4UFZOeXBMUUhEZlBfdUtlM2dHRQ?oc=5"
+    },
+    {
       "id": "d6f99841",
       "title": "哈利波特 - 新浪网",
       "date": "2026-07-23",
@@ -143,26 +163,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11UGJHU1ZFUG02QzVIMjRDVkZEWHF6ZmNhNXZTMTZQMFhvN1hoY2JEX0JPc0hOdnFjZ091Q1pERm43OWVmLTBQZ1A4YThLcEVuNWpkaDBhdTB5NDFhdVdiTTU5UQ?oc=5"
     },
     {
-      "id": "32353208",
-      "title": "新浪网· - 新浪网",
-      "date": "2026-07-23",
-      "category": "综合资讯",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XaXVvVlloUnpGazFHWlVrT1R4TjdSbDNrakFKUnlycXpZQWFIR1NZUlJ2X0pHMnhDckt1Z0JJS0pXRHFVVkJ5OFEyNTJTRnUtT1djVnVwUFd4REFrVmxhTFJ0RQ?oc=5"
-    },
-    {
       "id": "1afa1cf9",
       "title": "《哈利·波特》出版商将从Anthropic版权和解案中获得数百万赔偿 - 手机网易网",
       "date": "2026-07-23",
@@ -181,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ad0pHXzJGTThCSU9Ebkx0V1NOT1ZtZTVxUUhKcl81SU8wbE1XZG1uUEpFM3VoUjZMSG1DX2V6WnhSRzFLNVphNGVkU2RkS2VnWTB5QVVaaTVtWkkzYUhTV1hn?oc=5"
+    },
+    {
+      "id": "32353208",
+      "title": "新浪网· - 新浪网",
+      "date": "2026-07-23",
+      "category": "综合资讯",
+      "summary": "新浪网·",
+      "content": "新浪网·",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XaXVvVlloUnpGazFHWlVrT1R4TjdSbDNrakFKUnlycXpZQWFIR1NZUlJ2X0pHMnhDckt1Z0JJS0pXRHFVVkJ5OFEyNTJTRnUtT1djVnVwUFd4REFrVmxhTFJ0RQ?oc=5"
     },
     {
       "id": "e9480331",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zR2JvMk9WaDNCbTNETlBkNzFjYXByOXNYWnRaWEFzXzhDNmpNNFVfNFlqeXFfQkNjVnZadGo2d2JvTlNPSEh3VmtTR1FLQ2VlMWNvMkRCOGZIQjYwTzg0MV9R?oc=5"
-    },
-    {
-      "id": "1f7a7fd1",
-      "title": "【马修·路易斯】如果当年伏地魔选择是孩子是他，那么《哈利波特》要改名为《纳威隆巴顿》#一分钟精选视频扶持计划# ​ - 新浪网",
-      "date": "2026-07-20",
-      "category": "综合资讯",
-      "summary": "【马修·路易斯】如果当年伏地魔选择是孩子是他，那么《哈利波特》要改名为《纳威隆巴顿》#一分钟精选视频扶持计划# ​",
-      "content": "【马修·路易斯】如果当年伏地魔选择是孩子是他，那么《哈利波特》要改名为《纳威隆巴顿》#一分钟精选视频扶持计划# ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNlQ5X2RrVUtxLVlFMzI2MU9PR2RYSGlCLWtSQzlQdFN1eXNIenNUSFdROUhITnFYeE1LTEo1Y29lbmNqT2lpeW40RnA4WnVRYzRzbWd6dXBsT05aYnRZU01Tdmh6SlMwU1lMOE13cVA0dUkwMEhhUGRDN1R6SktWd3c3RDFUdmFLSHlqR2RYRk1UcE1ZZHNvcXVWTkItYWVMNk8wLS0tYWdPWHFfcks3MlZzc01hWUxXLXRaR1pJZzFDeVFDQW5MbUpZTDRxTFRhQkdvTTBaS3BUU1ZQ?oc=5"
     }
   ]
 }
