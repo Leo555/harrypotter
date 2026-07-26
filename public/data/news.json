@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-26T18:53:18.050Z",
+  "lastUpdated": "2026-07-26T21:47:03.670Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "78232702",
+      "title": "#德哈[超话]# The Spindle of Fate ​ - 手机新浪网",
+      "date": "2026-07-26",
+      "category": "综合资讯",
+      "summary": "#德哈[超话]# The Spindle of Fate ​",
+      "content": "#德哈[超话]# The Spindle of Fate ​",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYOXRkcUxucTF4ZndmZktLa29zSm9OVUVzangxWnhWaHJkdHhQeHl2VUxVSm5nMzQ4UGRuYW5uLVhJQjZBZ3NvNWxGVlBQeEI1NHE4TkdZUGVMQ0FfcUJVQmZLUQ?oc=5"
+    },
     {
       "id": "b47715d6",
       "title": "Bruno Mars开骚扮哈利波特造型挥魔杖出魔法｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
@@ -21,26 +41,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGlDTm5EYWk5c0w0dy1yZTNzclQzcHZDS3QxRjdUOEVPdW1LYjFBNWdWRkNXcEhHWk01ZE03MWlFX1U0RkduZ3M0bGpfVS1YYUk2WmVad2RwMTBvVmRXZjJBOGF2dThqdS1lTElqdnlRaEpJTGVSMDBRX3lFSXRJc2dtOE1UMmtIczJ3a0VaUE1kNnBYR1pSdWM3SQ?oc=5"
-    },
-    {
-      "id": "b427069f",
-      "title": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏 - 中国营销传播网",
-      "date": "2026-07-25",
-      "category": "影视动态",
-      "summary": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏",
-      "content": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxNUtud202TklTTFBTVlZBazF1RG9sSnNWTExRYmNKelIyZTVuazMyX3FYOG1iVVVIV3BKY1BEeklKczV2MEJWcG1DaVBpbkViR0h0R1JhM01VY1FRTG1aRnEtS0llQmdDdDh3?oc=5"
     },
     {
       "id": "6bc0c899",
@@ -63,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SW5wSktGYmFFN0JCcnJNVmlpU1ZUUGwyLWtvR2I3bFNRUk0za2RjaWdJNkV1djN2VF9mWVVJOXBmY2tvbmdaNHhEOXp3M0xfUlZQbHhNTlJTdEk?oc=5"
     },
     {
+      "id": "b427069f",
+      "title": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏 - 中国营销传播网",
+      "date": "2026-07-25",
+      "category": "影视动态",
+      "summary": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏",
+      "content": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxNUtud202TklTTFBTVlZBazF1RG9sSnNWTExRYmNKelIyZTVuazMyX3FYOG1iVVVIV3BKY1BEeklKczV2MEJWcG1DaVBpbkViR0h0R1JhM01VY1FRTG1aRnEtS0llQmdDdDh3?oc=5"
+    },
+    {
       "id": "337c3997",
       "title": "《哈利波特神秘的魔法石》25周年重映 神秘的10分钟片段银幕曝光 - 香港01",
       "date": "2026-07-24",
@@ -83,8 +103,8 @@
       "source": "https://news.google.com/rss/articles/CBMilgNBVV95cUxOX2NUTWhIVUdvaHZ5RV9UVFZYMzV2UHppcU1XemU4U21rVE5MMzRYVUQ2RF9uQmZvLXZWSEpLaTNpdmt5X2Y5emQ5dHRfYlpoSy05Z3dCbU9SdHdoQm1Ud1lmSVRDTzZ0ZGkwODJjMW1tWU14OTQzME1IVXRqb1Bvd2UxSjdTTHNwV2xZR3F0dUNrSW50a0tTZU5jSmpnQzNnVWhacDFuT09qMGszeDFYNmRGa0hpNnV4bXQwT1B0TV9qbGNaTmRaNHVlbDFtZ3llZUVQcGctUkZ2T21GUDBMTFJ0RXRKWFNKTlJjUFFXVUtzN2MxbFUyTlZWQ3Q1NldiQzRneEdHU2lzOE8tcVFmcU5DeVVJNm5KTC1kX0dUMVJhMGR1NFRkWUdvbmNvVUoxNXpjSmNkOG5xUkNuTmNPem9jNVBmYWZ4SHdvRE4wQnh2MEp3djd1SG1aTC1iWmZVRXAyOUtFTDB1UWtfWnlnZWt1a2F0cUVxMER6R19jUl8xZlNUNU1OVWtrbjRjNG1sQUlNQmdR?oc=5"
     },
     {
-      "id": "cf2bd9b4",
-      "title": "《哈利·波特》七部原著主题插画发布 - 新浪网",
+      "id": "83323874",
+      "title": "《哈利·波特》七部原著主题插画发布 - 手机新浪网",
       "date": "2026-07-24",
       "category": "影视动态",
       "summary": "《哈利·波特》七部原著主题插画发布",
@@ -101,26 +121,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vODJ5eHlVY3V2RE1VZkFvbXlIRm1Rd3hkVlN4Rzk4bE0wMHBoa25xNGpZWnJsT3YtVnBjYlZIM2hhY1h2VzBWeDlPSlZuOGd4dlEtSmMwQ0E3Q3RuMzlWRnB6aHhiQi1WckVMcXVWNUo1Zw?oc=5"
-    },
-    {
-      "id": "94c8dd6f",
-      "title": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂 - 新浪网",
-      "date": "2026-07-24",
-      "category": "影视动态",
-      "summary": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂",
-      "content": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWHUxN1J1SGRpSER2TDdtUWtvNHE2VDdVMDZzQTNoNW1LcHZVLTQ4LTdjRHZ4ZkFza0habUtEMWdwZ3BkWXdBcEhHTGxVYjZUS2pHV1QzeHc3YWtCTG1xaVRtZmRWVFBBbTNMUlU1S2dWMUs0N1ZOV1A5RkFWV0FnYUxxaExFdEhpWWsxRkowMUlCTWZBZzRRd3JOa0IwM3p5Wk9yMnFid0tDYVVzRFRuYzBOQ0Z3dGdfSE1SU2tPZFV0V0Q2dmpEeFpkektIR1VUdFBwUnJkVFVPQQ?oc=5"
     },
     {
       "id": "6afb8a78",
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFQW04Rm1Yb283MlctcXpzeGZiQzBZYmVxamVPZy1YNENja05sLWsySnZkbFpYYU1STjFPLS1pZmtQbU9yczVHM3pMM29zSFRoYmtIeUN2ck1sVFU?oc=5"
+    },
+    {
+      "id": "94c8dd6f",
+      "title": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂 - 新浪网",
+      "date": "2026-07-24",
+      "category": "影视动态",
+      "summary": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂",
+      "content": "艾玛·沃特森人设风波不断，童话滤镜悄然碎裂",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWHUxN1J1SGRpSER2TDdtUWtvNHE2VDdVMDZzQTNoNW1LcHZVLTQ4LTdjRHZ4ZkFza0habUtEMWdwZ3BkWXdBcEhHTGxVYjZUS2pHV1QzeHc3YWtCTG1xaVRtZmRWVFBBbTNMUlU1S2dWMUs0N1ZOV1A5RkFWV0FnYUxxaExFdEhpWWsxRkowMUlCTWZBZzRRd3JOa0IwM3p5Wk9yMnFid0tDYVVzRFRuYzBOQ0Z3dGdfSE1SU2tPZFV0V0Q2dmpEeFpkektIR1VUdFBwUnJkVFVPQQ?oc=5"
     },
     {
       "id": "bff47904",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yNE5BS2JIWlA5MTFXZkVQUHBTU1FWaFpnck52MVFkSlAxRTdKX1dQUXRZcEpzQ3o3UXFtWjI0QldyNDJrYzhmRVBrOFVOSndXRE5SdUlhS3RFWGZPaG0wbTdR?oc=5"
-    },
-    {
-      "id": "c9cf8c2b",
-      "title": "每集成本恐超1亿美元！HBO《哈利·波特》剧未播已创纪录，2027年才能看 - 手机网易网",
-      "date": "2026-07-20",
-      "category": "影视动态",
-      "summary": "每集成本恐超1亿美元！HBO《哈利·波特》剧未播已创纪录，2027年才能看",
-      "content": "每集成本恐超1亿美元！HBO《哈利·波特》剧未播已创纪录，2027年才能看",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RNW1jNzNpSXI0NXRsY2lvazlkejB5ZE8wQzdOSjU5NUJQc2IweDVRVUNscktBNUtDczV2WWFPM1QwMklkT0JoX2xkVF94dDhCY1VJY0M3eXlfYzZYajlfSGJR?oc=5"
     }
   ]
 }
