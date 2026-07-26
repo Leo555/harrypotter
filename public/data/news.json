@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-26T10:27:36.855Z",
+  "lastUpdated": "2026-07-26T12:54:18.665Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "b47715d6",
+      "title": "Bruno Mars开骚扮哈利波特造型挥魔杖出魔法｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
+      "date": "2026-07-26",
+      "category": "综合资讯",
+      "summary": "Bruno Mars开骚扮哈利波特造型挥魔杖出魔法｜即时新闻｜缤FUN星网｜on.cc东网",
+      "content": "Bruno Mars开骚扮哈利波特造型挥魔杖出魔法｜即时新闻｜缤FUN星网｜on.cc东网",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGlDTm5EYWk5c0w0dy1yZTNzclQzcHZDS3QxRjdUOEVPdW1LYjFBNWdWRkNXcEhHWk01ZE03MWlFX1U0RkduZ3M0bGpfVS1YYUk2WmVad2RwMTBvVmRXZjJBOGF2dThqdS1lTElqdnlRaEpJTGVSMDBRX3lFSXRJc2dtOE1UMmtIczJ3a0VaUE1kNnBYR1pSdWM3SQ?oc=5"
+    },
     {
       "id": "b427069f",
       "title": "卡卡沃将推出哈利·波特官方授权TCG卡牌游戏 - 中国营销传播网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RNW1jNzNpSXI0NXRsY2lvazlkejB5ZE8wQzdOSjU5NUJQc2IweDVRVUNscktBNUtDczV2WWFPM1QwMklkT0JoX2xkVF94dDhCY1VJY0M3eXlfYzZYajlfSGJR?oc=5"
-    },
-    {
-      "id": "9d2228e9",
-      "title": "《哈利波特》剧集尚未播出已破记录 每集预算超天价 - 手机网易网",
-      "date": "2026-07-20",
-      "category": "影视动态",
-      "summary": "《哈利波特》剧集尚未播出已破记录 每集预算超天价",
-      "content": "《哈利波特》剧集尚未播出已破记录 每集预算超天价",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zR2JvMk9WaDNCbTNETlBkNzFjYXByOXNYWnRaWEFzXzhDNmpNNFVfNFlqeXFfQkNjVnZadGo2d2JvTlNPSEh3VmtTR1FLQ2VlMWNvMkRCOGZIQjYwTzg0MV9R?oc=5"
     }
   ]
 }
