@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-27T12:09:04.701Z",
+  "lastUpdated": "2026-07-27T16:52:00.842Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "1343277a",
+      "title": "访谈：David Ricardo Pearce、Naana Agyei-Ampadu与Thomas Aldridge谈《哈利·波特与被诅咒的孩子》十周年 - BroadwayWorld",
+      "date": "2026-07-27",
+      "category": "综合资讯",
+      "summary": "访谈：David Ricardo Pearce、Naana Agyei-Ampadu与Thomas Aldridge谈《哈利·波特与被诅咒的孩子》十周年",
+      "content": "访谈：David Ricardo Pearce、Naana Agyei-Ampadu与Thomas Aldridge谈《哈利·波特与被诅咒的孩子》十周年",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPa29oREdIeG9QTkhkQTk1YnMyNEVaS0NYUkVzY3U2dXpsZ0VPTS1ZQmlOZzZrVktPajV2NXVCNXh4Vk5BSlV2TmZkNVRvWlRaTTdqUFJtNnhJTi11MUF5dWNWM09VN2tCSjFZOWhyYnFiUUFOUm1lWmJOZ01DeDdPcHkxM2ItakJsNDRMUEFDSXcxTmVXRTN4dXdMUDQyMTF1TTQ2cnBwZXFUdjhUOGV6LXh2elRfaThwbDktTlo2SUdQanVEWWZwSXNjZjREby1BZ1ZRRURRVnh1WE9BSHlBLWRWdk0yamRKb0lOaWx5aDEtcnVYS2l6cGV3?oc=5"
+    },
     {
       "id": "2877c7f1",
       "title": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》 - 新浪财经",
@@ -143,26 +163,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tdFZEbWF2M0R2TXRhZTJZZE96Z1BGNkgtMnBQbTIwaklxUzRqaUF1a25HTTdzYXpGNEVxeXdkYjhkVWVMQTFXSWJVREc4VWN4UFZOeXBMUUhEZlBfdUtlM2dHRQ?oc=5"
     },
     {
-      "id": "83323874",
-      "title": "《哈利·波特》七部原著主题插画发布 - 手机新浪网",
-      "date": "2026-07-24",
-      "category": "影视动态",
-      "summary": "《哈利·波特》七部原著主题插画发布",
-      "content": "《哈利·波特》七部原著主题插画发布",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vODJ5eHlVY3V2RE1VZkFvbXlIRm1Rd3hkVlN4Rzk4bE0wMHBoa25xNGpZWnJsT3YtVnBjYlZIM2hhY1h2VzBWeDlPSlZuOGd4dlEtSmMwQ0E3Q3RuMzlWRnB6aHhiQi1WckVMcXVWNUo1Zw?oc=5"
-    },
-    {
       "id": "6afb8a78",
       "title": "海外观察|亚马逊入局电视端云游戏,对标Netflix游戏服务 - 流媒体网",
       "date": "2026-07-24",
@@ -181,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFQW04Rm1Yb283MlctcXpzeGZiQzBZYmVxamVPZy1YNENja05sLWsySnZkbFpYYU1STjFPLS1pZmtQbU9yczVHM3pMM29zSFRoYmtIeUN2ck1sVFU?oc=5"
+    },
+    {
+      "id": "83323874",
+      "title": "《哈利·波特》七部原著主题插画发布 - 手机新浪网",
+      "date": "2026-07-24",
+      "category": "影视动态",
+      "summary": "《哈利·波特》七部原著主题插画发布",
+      "content": "《哈利·波特》七部原著主题插画发布",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vODJ5eHlVY3V2RE1VZkFvbXlIRm1Rd3hkVlN4Rzk4bE0wMHBoa25xNGpZWnJsT3YtVnBjYlZIM2hhY1h2VzBWeDlPSlZuOGd4dlEtSmMwQ0E3Q3RuMzlWRnB6aHhiQi1WckVMcXVWNUo1Zw?oc=5"
     },
     {
       "id": "94c8dd6f",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmQVpYWmtpWGRGRDh0RFRBNUszNEZQdXJUck5HVmgxeF9xSDlWSmp3RDVpQWJfUjlUOUxmWXVNUHRqNEpQWGFESE91X20yTVdEWnBWbGJLT2ZHbDQ1VmxuaVpKZ0o5ZC1BWHFBcV9pNW8?oc=5"
-    },
-    {
-      "id": "4e954afe",
-      "title": "华纳投资建设哈利·波特学校 - 17173",
-      "date": "2026-07-20",
-      "category": "影视动态",
-      "summary": "华纳投资建设哈利·波特学校",
-      "content": "华纳投资建设哈利·波特学校",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JZFp5Zl9fMmNXNU1MR1BUUjFnUUNQb2FyaFVkR0FnWU1MX2xVTkotamtxVHZNUG0xQy1yTXNxSDNYemt6aEJDeVNCa0FBeGxqYnh5N2hpYTBMY2RjTklicDUtVU0?oc=5"
     }
   ]
 }
