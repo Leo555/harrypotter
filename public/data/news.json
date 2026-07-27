@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-07-27T01:49:35.508Z",
+  "lastUpdated": "2026-07-27T06:16:22.645Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "24cf6533",
-      "title": "#德哈[超话]# The Spindle of Fate ​ - 新浪网",
+      "id": "2877c7f1",
+      "title": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》 - 新浪财经",
+      "date": "2026-07-27",
+      "category": "出版物",
+      "summary": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》",
+      "content": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54dUZfaWZTOGpWSG0wdk43MDEza3hialMwVlZ2LThyLVIxWUc3X3cyNFdzWUthVk8ybDJibXhpSW9EUG5CMHV4M0l5NEk2RmFLTGZDTlhMeFB3cnBGZDNCMDVfRUkxQjE1RUNBaGFLdjdJUGQxWnc?oc=5"
+    },
+    {
+      "id": "78232702",
+      "title": "#德哈[超话]# The Spindle of Fate ​ - 手机新浪网",
       "date": "2026-07-26",
       "category": "综合资讯",
       "summary": "#德哈[超话]# The Spindle of Fate ​",
@@ -103,8 +123,8 @@
       "source": "https://news.google.com/rss/articles/CBMilgNBVV95cUxOX2NUTWhIVUdvaHZ5RV9UVFZYMzV2UHppcU1XemU4U21rVE5MMzRYVUQ2RF9uQmZvLXZWSEpLaTNpdmt5X2Y5emQ5dHRfYlpoSy05Z3dCbU9SdHdoQm1Ud1lmSVRDTzZ0ZGkwODJjMW1tWU14OTQzME1IVXRqb1Bvd2UxSjdTTHNwV2xZR3F0dUNrSW50a0tTZU5jSmpnQzNnVWhacDFuT09qMGszeDFYNmRGa0hpNnV4bXQwT1B0TV9qbGNaTmRaNHVlbDFtZ3llZUVQcGctUkZ2T21GUDBMTFJ0RXRKWFNKTlJjUFFXVUtzN2MxbFUyTlZWQ3Q1NldiQzRneEdHU2lzOE8tcVFmcU5DeVVJNm5KTC1kX0dUMVJhMGR1NFRkWUdvbmNvVUoxNXpjSmNkOG5xUkNuTmNPem9jNVBmYWZ4SHdvRE4wQnh2MEp3djd1SG1aTC1iWmZVRXAyOUtFTDB1UWtfWnlnZWt1a2F0cUVxMER6R19jUl8xZlNUNU1OVWtrbjRjNG1sQUlNQmdR?oc=5"
     },
     {
-      "id": "cf2bd9b4",
-      "title": "《哈利·波特》七部原著主题插画发布 - 新浪网",
+      "id": "83323874",
+      "title": "《哈利·波特》七部原著主题插画发布 - 手机新浪网",
       "date": "2026-07-24",
       "category": "影视动态",
       "summary": "《哈利·波特》七部原著主题插画发布",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JZFp5Zl9fMmNXNU1MR1BUUjFnUUNQb2FyaFVkR0FnWU1MX2xVTkotamtxVHZNUG0xQy1yTXNxSDNYemt6aEJDeVNCa0FBeGxqYnh5N2hpYTBMY2RjTklicDUtVU0?oc=5"
-    },
-    {
-      "id": "61794c2c",
-      "title": "趣出发·观演 | 曾为《哈利·波特》《阿凡达》电影配乐的作曲家首度来华！《歌手》之外齐豫还要来上海唱歌！ - 手机网易网",
-      "date": "2026-07-20",
-      "category": "影视动态",
-      "summary": "趣出发·观演 | 曾为《哈利·波特》《阿凡达》电影配乐的作曲家首度来华！《歌手》之外齐豫还要来上海唱歌！",
-      "content": "趣出发·观演 | 曾为《哈利·波特》《阿凡达》电影配乐的作曲家首度来华！《歌手》之外齐豫还要来上海唱歌！",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yNE5BS2JIWlA5MTFXZkVQUHBTU1FWaFpnck52MVFkSlAxRTdKX1dQUXRZcEpzQ3o3UXFtWjI0QldyNDJrYzhmRVBrOFVOSndXRE5SdUlhS3RFWGZPaG0wbTdR?oc=5"
     }
   ]
 }
