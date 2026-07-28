@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T05:36:13.795Z",
+  "lastUpdated": "2026-07-28T08:11:31.873Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -123,26 +123,6 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SW5wSktGYmFFN0JCcnJNVmlpU1ZUUGwyLWtvR2I3bFNRUk0za2RjaWdJNkV1djN2VF9mWVVJOXBmY2tvbmdaNHhEOXp3M0xfUlZQbHhNTlJTdEk?oc=5"
     },
     {
-      "id": "995c34dd",
-      "title": "人民文学出版社 - 手机新浪网",
-      "date": "2026-07-24",
-      "category": "出版物",
-      "summary": "人民文学出版社",
-      "content": "人民文学出版社",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tdFZEbWF2M0R2TXRhZTJZZE96Z1BGNkgtMnBQbTIwaklxUzRqaUF1a25HTTdzYXpGNEVxeXdkYjhkVWVMQTFXSWJVREc4VWN4UFZOeXBMUUhEZlBfdUtlM2dHRQ?oc=5"
-    },
-    {
       "id": "6afb8a78",
       "title": "海外观察|亚马逊入局电视端云游戏,对标Netflix游戏服务 - 流媒体网",
       "date": "2026-07-24",
@@ -161,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFQW04Rm1Yb283MlctcXpzeGZiQzBZYmVxamVPZy1YNENja05sLWsySnZkbFpYYU1STjFPLS1pZmtQbU9yczVHM3pMM29zSFRoYmtIeUN2ck1sVFU?oc=5"
+    },
+    {
+      "id": "995c34dd",
+      "title": "人民文学出版社 - 手机新浪网",
+      "date": "2026-07-24",
+      "category": "出版物",
+      "summary": "人民文学出版社",
+      "content": "人民文学出版社",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tdFZEbWF2M0R2TXRhZTJZZE96Z1BGNkgtMnBQbTIwaklxUzRqaUF1a25HTTdzYXpGNEVxeXdkYjhkVWVMQTFXSWJVREc4VWN4UFZOeXBMUUhEZlBfdUtlM2dHRQ?oc=5"
     },
     {
       "id": "337c3997",
