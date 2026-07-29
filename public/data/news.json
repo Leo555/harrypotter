@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-29T08:16:32.315Z",
+  "lastUpdated": "2026-07-29T11:12:29.064Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "8cc4f224",
+      "title": "#德哈[超话]# 2026DMHP生贺24H HP专场 - 新浪网",
+      "date": "2026-07-28",
+      "category": "综合资讯",
+      "summary": "#德哈[超话]# 2026DMHP生贺24H HP专场",
+      "content": "#德哈[超话]# 2026DMHP生贺24H HP专场",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CcUlvNU1mZVc2aEU2T0xJZlV1REF4WndZS2NpczNUYVlnaU81dVJvSU93cWtNSzAxd3BXQW4zd0lOaEpvVkVaR0ZweGlmallHb3BYVk54bHlxbGRPaGtGaU43QQ?oc=5"
+    },
     {
       "id": "764707e7",
       "title": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋 - VanPeople",
@@ -183,8 +203,8 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SW5wSktGYmFFN0JCcnJNVmlpU1ZUUGwyLWtvR2I3bFNRUk0za2RjaWdJNkV1djN2VF9mWVVJOXBmY2tvbmdaNHhEOXp3M0xfUlZQbHhNTlJTdEk?oc=5"
     },
     {
-      "id": "fd5be286",
-      "title": "海外观察|亚马逊入局电视端云游戏,对标Netflix游戏服务 - 今日流媒体",
+      "id": "6afb8a78",
+      "title": "海外观察|亚马逊入局电视端云游戏,对标Netflix游戏服务 - 流媒体网",
       "date": "2026-07-24",
       "category": "游戏资讯",
       "summary": "海外观察|亚马逊入局电视端云游戏,对标Netflix游戏服务",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aMV80TEZZZzA2QXg4cXZJaXNJQzN5UkdfTDFlZmUxSlRlZURsVmV1RWlqa1dpOUdiSnFoaUNfenM1N2Mwb3FYNks2UXlMcEVTQ01nSDlVYWJWbmctWWN4bXJ3?oc=5"
-    },
-    {
-      "id": "929eaa34",
-      "title": "HBO哈利波特第一季定级TV-14，暴力惊悚程度超电影 - 新浪网",
-      "date": "2026-07-22",
-      "category": "影视动态",
-      "summary": "HBO哈利波特第一季定级TV-14，暴力惊悚程度超电影",
-      "content": "HBO哈利波特第一季定级TV-14，暴力惊悚程度超电影",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zNmhIMW81dzFQVTg1Z3JYakJLTU1OUTgxaG9wT2lnR3ZJQWVILUFUb3BYbGt6U3ZjZGxtLWswY2gzN09vX2tVQl9oOXZZTDREVmwtMkE4clpDSk1NMmxuUXpQWDI0c1B4ZFRhRHJCdlI?oc=5"
     }
   ]
 }
