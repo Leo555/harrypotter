@@ -1,27 +1,7 @@
 {
-  "lastUpdated": "2026-07-30T05:29:35.828Z",
+  "lastUpdated": "2026-07-30T08:04:39.115Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
-    {
-      "id": "5adff709",
-      "title": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年 - BroadwayWorld",
-      "date": "2026-07-29",
-      "category": "影视动态",
-      "summary": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年",
-      "content": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNjY1U05LNVNCbGFyNmZTeWdfZGFEZEppX1VBSnBEa0RxSUVsdmQ0NTJfcG9mQTJpQXFUODR1SW14akRFR1JtbzFWS3N6NmhzOGM0UG92M19FZFI1VUJBMDJiVFFOeEl4QklkMkoyeFp4SDFJa0p3Q1FFdGM4QjdJVDZvazV1MHQ5RXNpcWk4Y2hmcksxbmxPeE1LVVVMZkZCNTZQQWFaUkZLOEZ1YWJkS252ci1UcUtVWXJpTWkwU0x0aUw2M1RIY3hScVY0U1U0akg1QkVHOHdwN0xUWDRrLWhkVVBxUVZLWDlxcmRMV19wQQ?oc=5"
-    },
     {
       "id": "fe33f534",
       "title": "Draco要带孔雀去宿舍|draco|哈利·波特_新浪新闻 - 新浪网",
@@ -41,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nbURTdG53WjhGQ2stak1nQ1R2MkhvQ0JIQU1WRUZQdUpza3pWWk55UmRiMEpwcWp4Z3d3anAwTEZtNE4xZjZENk9BZ0ZKYU12MXBxU0hIUFRhbVNBZWxHbFZIaw?oc=5"
+    },
+    {
+      "id": "5adff709",
+      "title": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年 - BroadwayWorld",
+      "date": "2026-07-29",
+      "category": "影视动态",
+      "summary": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年",
+      "content": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNjY1U05LNVNCbGFyNmZTeWdfZGFEZEppX1VBSnBEa0RxSUVsdmQ0NTJfcG9mQTJpQXFUODR1SW14akRFR1JtbzFWS3N6NmhzOGM0UG92M19FZFI1VUJBMDJiVFFOeEl4QklkMkoyeFp4SDFJa0p3Q1FFdGM4QjdJVDZvazV1MHQ5RXNpcWk4Y2hmcksxbmxPeE1LVVVMZkZCNTZQQWFaUkZLOEZ1YWJkS252ci1UcUtVWXJpTWkwU0x0aUw2M1RIY3hScVY0U1U0akg1QkVHOHdwN0xUWDRrLWhkVVBxUVZLWDlxcmRMV19wQQ?oc=5"
     },
     {
       "id": "57a7cac0",
@@ -83,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sU3djY05TaVJlOU9ES0diU2FUd2NpWWZuM3VzajBYNVpiQ1lfQUdXc3ZpMzFKaHowUTRqT3NKc1Q5Y0xmLUdYRnFZMnkxZjhj?oc=5"
     },
     {
-      "id": "8cc4f224",
-      "title": "#德哈[超话]# 2026DMHP生贺24H HP专场 - 新浪网",
-      "date": "2026-07-28",
-      "category": "综合资讯",
-      "summary": "#德哈[超话]# 2026DMHP生贺24H HP专场",
-      "content": "#德哈[超话]# 2026DMHP生贺24H HP专场",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CcUlvNU1mZVc2aEU2T0xJZlV1REF4WndZS2NpczNUYVlnaU81dVJvSU93cWtNSzAxd3BXQW4zd0lOaEpvVkVaR0ZweGlmallHb3BYVk54bHlxbGRPaGtGaU43QQ?oc=5"
-    },
-    {
       "id": "764707e7",
       "title": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋 - VanPeople",
       "date": "2026-07-28",
@@ -121,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MN2NyWWhUU25fZm5OeUlyWjBPVlJHbkNtTmpva1p4b1BVTWhNVk5rR1pabHluRnpYbzFrbXlweHBpRUxIME8wTEpuZHl3OVV0?oc=5"
+    },
+    {
+      "id": "8cc4f224",
+      "title": "#德哈[超话]# 2026DMHP生贺24H HP专场 - 新浪网",
+      "date": "2026-07-28",
+      "category": "综合资讯",
+      "summary": "#德哈[超话]# 2026DMHP生贺24H HP专场",
+      "content": "#德哈[超话]# 2026DMHP生贺24H HP专场",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CcUlvNU1mZVc2aEU2T0xJZlV1REF4WndZS2NpczNUYVlnaU81dVJvSU93cWtNSzAxd3BXQW4zd0lOaEpvVkVaR0ZweGlmallHb3BYVk54bHlxbGRPaGtGaU43QQ?oc=5"
     },
     {
       "id": "bb700f56",
@@ -223,6 +223,26 @@
       "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54dUZfaWZTOGpWSG0wdk43MDEza3hialMwVlZ2LThyLVIxWUc3X3cyNFdzWUthVk8ybDJibXhpSW9EUG5CMHV4M0l5NEk2RmFLTGZDTlhMeFB3cnBGZDNCMDVfRUkxQjE1RUNBaGFLdjdJUGQxWnc?oc=5"
     },
     {
+      "id": "24cf6533",
+      "title": "#德哈[超话]# The Spindle of Fate ​ - 新浪网",
+      "date": "2026-07-26",
+      "category": "综合资讯",
+      "summary": "#德哈[超话]# The Spindle of Fate ​",
+      "content": "#德哈[超话]# The Spindle of Fate ​",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYOXRkcUxucTF4ZndmZktLa29zSm9OVUVzangxWnhWaHJkdHhQeHl2VUxVSm5nMzQ4UGRuYW5uLVhJQjZBZ3NvNWxGVlBQeEI1NHE4TkdZUGVMQ0FfcUJVQmZLUQ?oc=5"
+    },
+    {
       "id": "b47715d6",
       "title": "Bruno Mars开骚扮哈利波特造型挥魔杖出魔法｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
       "date": "2026-07-26",
@@ -241,26 +261,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmFRZFV3WVBDOHYwZ2JvVUM5WjBYYy01SUtYdGQ5bGhNNHI5bjJzb011am5pX1NLbEk1RmY5d09uOGhac0Vna2JqVWw5YWtIdWV6S1dVdG9DZW9hWjN4cldxbHBjaFZYeXV5Ry1rREloVThDTWxfNWRRTzBYUWQzQkxKUDdUUy1jRTZCYzJXTGdMOVlXM1lCN3VOSHIyWGRIdGxCeg?oc=5"
-    },
-    {
-      "id": "78232702",
-      "title": "#德哈[超话]# The Spindle of Fate ​ - 手机新浪网",
-      "date": "2026-07-26",
-      "category": "综合资讯",
-      "summary": "#德哈[超话]# The Spindle of Fate ​",
-      "content": "#德哈[超话]# The Spindle of Fate ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYOXRkcUxucTF4ZndmZktLa29zSm9OVUVzangxWnhWaHJkdHhQeHl2VUxVSm5nMzQ4UGRuYW5uLVhJQjZBZ3NvNWxGVlBQeEI1NHE4TkdZUGVMQ0FfcUJVQmZLUQ?oc=5"
     },
     {
       "id": "6bc0c899",
