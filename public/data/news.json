@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-07-30T10:56:54.220Z",
+  "lastUpdated": "2026-07-30T13:23:27.875Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "f2f04fea",
-      "title": "Draco要带孔雀去宿舍|draco|哈利·波特_新浪新闻 - sina.cn",
+      "id": "559d323b",
+      "title": "3,491块的乐高《哈利·波特》巨型套装设计图在正式发布前泄露，售价450美元 - Notebookcheck CN",
+      "date": "2026-07-30",
+      "category": "影视动态",
+      "summary": "3,491块的乐高《哈利·波特》巨型套装设计图在正式发布前泄露，售价450美元",
+      "content": "3,491块的乐高《哈利·波特》巨型套装设计图在正式发布前泄露，售价450美元",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fQzF1YVpyREY0ZVNudWFyUF93NzJFRWU4UzZsTEo3azc2cWxrRURwWmxRS0dfa2hiZnd0Q25jRTlJTTBvem5JUmQtSURGaEpWb2lWa01XZTV0M0xEVGRiYkFsaTZGT0dB?oc=5"
+    },
+    {
+      "id": "f8974a3b",
+      "title": "Draco要带孔雀去宿舍|draco|哈利·波特_新浪新闻 - 手机新浪网",
       "date": "2026-07-29",
       "category": "综合资讯",
       "summary": "Draco要带孔雀去宿舍|draco|哈利·波特_新浪新闻",
@@ -223,8 +243,8 @@
       "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54dUZfaWZTOGpWSG0wdk43MDEza3hialMwVlZ2LThyLVIxWUc3X3cyNFdzWUthVk8ybDJibXhpSW9EUG5CMHV4M0l5NEk2RmFLTGZDTlhMeFB3cnBGZDNCMDVfRUkxQjE1RUNBaGFLdjdJUGQxWnc?oc=5"
     },
     {
-      "id": "b848073c",
-      "title": "#德哈[超话]# The Spindle of Fate ​ - sina.cn",
+      "id": "78232702",
+      "title": "#德哈[超话]# The Spindle of Fate ​ - 手机新浪网",
       "date": "2026-07-26",
       "category": "综合资讯",
       "summary": "#德哈[超话]# The Spindle of Fate ​",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWHUxN1J1SGRpSER2TDdtUWtvNHE2VDdVMDZzQTNoNW1LcHZVLTQ4LTdjRHZ4ZkFza0habUtEMWdwZ3BkWXdBcEhHTGxVYjZUS2pHV1QzeHc3YWtCTG1xaVRtZmRWVFBBbTNMUlU1S2dWMUs0N1ZOV1A5RkFWV0FnYUxxaExFdEhpWWsxRkowMUlCTWZBZzRRd3JOa0IwM3p5Wk9yMnFid0tDYVVzRFRuYzBOQ0Z3dGdfSE1SU2tPZFV0V0Q2dmpEeFpkektIR1VUdFBwUnJkVFVPQQ?oc=5"
-    },
-    {
-      "id": "ea4e2cc5",
-      "title": "为什么《哈利·波特》里的“七个波特大战”不用幻影移形直接跑？ - 腾讯新闻",
-      "date": "2026-07-23",
-      "category": "影视动态",
-      "summary": "为什么《哈利·波特》里的“七个波特大战”不用幻影移形直接跑？",
-      "content": "为什么《哈利·波特》里的“七个波特大战”不用幻影移形直接跑？",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pOUgzaXMyRmtldlRuRUhJY1lxN2hETVhJanJsb0F1RU5RYy1zNmtudmc2RzJmcmJ3R0hKLXg1T29La2hzUS1hYXVSa0ltal9jNWVrcXRn?oc=5"
     }
   ]
 }
