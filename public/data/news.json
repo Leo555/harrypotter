@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-31T13:28:05.207Z",
+  "lastUpdated": "2026-07-31T16:28:58.475Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "9ff8f29b",
+      "title": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国 - ua.news",
+      "date": "2026-07-31",
+      "category": "出版物",
+      "summary": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国",
+      "content": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeVFST1ZKWk03YTZoZlhOZkM5WDFxdTFYdUpDYW92UnFQUHpBVHQ3aEVlTG1nei1hZVhmOGFIUGtCZFY2ZDJvTk52QUF6NmV1ejRBQzZNd1B5QTZIb3RoOWtESXZsU1p1aUwwcml6ZGNKNEVfcVJra0VzUS1VemlTNWRQSUctYkc2UVdkejk3VnVWd2xOZElvbDJ1Mzh2MzRfOWM0a2hhdGFIVC11RjgtTTJGRlRnZ3lPdE91MDYzNmRySEE?oc=5"
+    },
     {
       "id": "41f4cb78",
       "title": "哈利波特 - 手机新浪网",
@@ -23,8 +43,8 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80U3ZKcTYwalkzbUJRcFYwb2hTbEhITnRpZVpVZnZMSTlHdy1Kd0k5ZTM0MDlXZmN2aFNTR1hfUG9PTm5xdUx4R3VMN0lBb295OGgtbnNia3pMdWt3TmFuZm9zYw?oc=5"
     },
     {
-      "id": "95b1a114",
-      "title": "哈通社7月31日简报：哈萨克斯坦历史上的今天 - cn.inform.kz",
+      "id": "28398235",
+      "title": "哈通社7月31日简报：哈萨克斯坦历史上的今天 - 哈通社",
       "date": "2026-07-31",
       "category": "综合资讯",
       "summary": "哈通社7月31日简报：哈萨克斯坦历史上的今天",
@@ -103,26 +123,6 @@
       "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fQzF1YVpyREY0ZVNudWFyUF93NzJFRWU4UzZsTEo3azc2cWxrRURwWmxRS0dfa2hiZnd0Q25jRTlJTTBvem5JUmQtSURGaEpWb2lWa01XZTV0M0xEVGRiYkFsaTZGT0dB?oc=5"
     },
     {
-      "id": "85e763ad",
-      "title": "《哈利·波特与被诅咒的孩子》庆祝西区十周年 - BroadwayWorld",
-      "date": "2026-07-30",
-      "category": "综合资讯",
-      "summary": "《哈利·波特与被诅咒的孩子》庆祝西区十周年",
-      "content": "《哈利·波特与被诅咒的孩子》庆祝西区十周年",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVDJmTmtJWjcyNEZUNVpsLWpjR2Qya3lxVEdlZHV0WjlSWkxETXU0NjN0eTgtbjMxQV85NGtxQzEzYlpTY3Nyb3NFS3hjN1lCV1FIVjBrdkZzeHZrajBDZGxGbWRrLTl5OXczeDhjYlpKa1I0V2pweUY2a0h2ZWphWUx2elBFRW53Y1FMbkRQQVpnRDRFUmVZNkd3cG95dkFEV2owa3NVR3ljcFNBNXdXRkdmekQ2cUlqdEFYdXFR?oc=5"
-    },
-    {
       "id": "6c567d9a",
       "title": "#早安# “我庄严宣誓不干好事”，哈利·波特。#哈利波特46岁生日快乐# ​ - 手机新浪网",
       "date": "2026-07-30",
@@ -181,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zbGo4UVhmd2JfTTl0VEdhU3g1cF9MVU9rT0NaTXhoNHVKLUVHamZHS0QxSG0tU1QyX0cwSHQwZ2ZmbFNfSnlRdnVlLXA4ak1XdXlPZUtyWW1tY215YjZtTXVDdw?oc=5"
+    },
+    {
+      "id": "85e763ad",
+      "title": "《哈利·波特与被诅咒的孩子》庆祝西区十周年 - BroadwayWorld",
+      "date": "2026-07-30",
+      "category": "综合资讯",
+      "summary": "《哈利·波特与被诅咒的孩子》庆祝西区十周年",
+      "content": "《哈利·波特与被诅咒的孩子》庆祝西区十周年",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVDJmTmtJWjcyNEZUNVpsLWpjR2Qya3lxVEdlZHV0WjlSWkxETXU0NjN0eTgtbjMxQV85NGtxQzEzYlpTY3Nyb3NFS3hjN1lCV1FIVjBrdkZzeHZrajBDZGxGbWRrLTl5OXczeDhjYlpKa1I0V2pweUY2a0h2ZWphWUx2elBFRW53Y1FMbkRQQVpnRDRFUmVZNkd3cG95dkFEV2owa3NVR3ljcFNBNXdXRkdmekQ2cUlqdEFYdXFR?oc=5"
     },
     {
       "id": "5adff709",
@@ -263,8 +283,8 @@
       "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sU3djY05TaVJlOU9ES0diU2FUd2NpWWZuM3VzajBYNVpiQ1lfQUdXc3ZpMzFKaHowUTRqT3NKc1Q5Y0xmLUdYRnFZMnkxZjhj?oc=5"
     },
     {
-      "id": "2b19f3b6",
-      "title": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋 - info.vanpeople.com",
+      "id": "764707e7",
+      "title": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋 - VanPeople",
       "date": "2026-07-28",
       "category": "综合资讯",
       "summary": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40N09YcGYxSURUc3F4NUhOTjAyVWx5YWg2UFVGSTJWN3VkUmtIV3NwZlpIZjZTNGtOR0M4Nnppc3RJdFJYOEdlandzSGhMaFA2dlROeFJickhUM0lEWV9JZkVSN3N2VkllTVc0bXZnU2t5Vy1BdElMd2JmMW1yZw?oc=5"
-    },
-    {
-      "id": "2877c7f1",
-      "title": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》 - 新浪财经",
-      "date": "2026-07-27",
-      "category": "出版物",
-      "summary": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》",
-      "content": "打卡第383天，嘉宾马诚铖为大家推荐书籍《哈利·波特》",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54dUZfaWZTOGpWSG0wdk43MDEza3hialMwVlZ2LThyLVIxWUc3X3cyNFdzWUthVk8ybDJibXhpSW9EUG5CMHV4M0l5NEk2RmFLTGZDTlhMeFB3cnBGZDNCMDVfRUkxQjE1RUNBaGFLdjdJUGQxWnc?oc=5"
     }
   ]
 }
