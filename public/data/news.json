@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T05:54:41.051Z",
+  "lastUpdated": "2026-07-31T08:30:24.052Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -163,6 +163,26 @@
       "source": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNjY1U05LNVNCbGFyNmZTeWdfZGFEZEppX1VBSnBEa0RxSUVsdmQ0NTJfcG9mQTJpQXFUODR1SW14akRFR1JtbzFWS3N6NmhzOGM0UG92M19FZFI1VUJBMDJiVFFOeEl4QklkMkoyeFp4SDFJa0p3Q1FFdGM4QjdJVDZvazV1MHQ5RXNpcWk4Y2hmcksxbmxPeE1LVVVMZkZCNTZQQWFaUkZLOEZ1YWJkS252ci1UcUtVWXJpTWkwU0x0aUw2M1RIY3hScVY0U1U0akg1QkVHOHdwN0xUWDRrLWhkVVBxUVZLWDlxcmRMV19wQQ?oc=5"
     },
     {
+      "id": "115c0e02",
+      "title": "新浪网· - 手机新浪网",
+      "date": "2026-07-29",
+      "category": "综合资讯",
+      "summary": "新浪网·",
+      "content": "新浪网·",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNekF6WkFhOUJ6NXZHclNVT2Mxd1JvY1VzbndXak1QRi1zTUNvUzVDMU9Db2ZwQ291Qm43Y2NsQks3TW1TejVYa1JDQ3ptQnRNUVY3SGlsQVNDQ0VVRTQ2WEJSVQ?oc=5"
+    },
+    {
       "id": "f2f04fea",
       "title": "Draco要带孔雀去宿舍|draco|哈利·波特_新浪新闻 - sina.cn",
       "date": "2026-07-29",
@@ -223,8 +243,8 @@
       "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sU3djY05TaVJlOU9ES0diU2FUd2NpWWZuM3VzajBYNVpiQ1lfQUdXc3ZpMzFKaHowUTRqT3NKc1Q5Y0xmLUdYRnFZMnkxZjhj?oc=5"
     },
     {
-      "id": "764707e7",
-      "title": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋 - VanPeople",
+      "id": "2b19f3b6",
+      "title": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋 - info.vanpeople.com",
       "date": "2026-07-28",
       "category": "综合资讯",
       "summary": "哈利波特\"空降\"加拿大：TimHortons官宣7款\"魔法\"新品，还藏彩蛋",
@@ -361,26 +381,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54dUZfaWZTOGpWSG0wdk43MDEza3hialMwVlZ2LThyLVIxWUc3X3cyNFdzWUthVk8ybDJibXhpSW9EUG5CMHV4M0l5NEk2RmFLTGZDTlhMeFB3cnBGZDNCMDVfRUkxQjE1RUNBaGFLdjdJUGQxWnc?oc=5"
-    },
-    {
-      "id": "78232702",
-      "title": "#德哈[超话]# The Spindle of Fate ​ - 手机新浪网",
-      "date": "2026-07-26",
-      "category": "综合资讯",
-      "summary": "#德哈[超话]# The Spindle of Fate ​",
-      "content": "#德哈[超话]# The Spindle of Fate ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYOXRkcUxucTF4ZndmZktLa29zSm9OVUVzangxWnhWaHJkdHhQeHl2VUxVSm5nMzQ4UGRuYW5uLVhJQjZBZ3NvNWxGVlBQeEI1NHE4TkdZUGVMQ0FfcUJVQmZLUQ?oc=5"
     },
     {
       "id": "b47715d6",
