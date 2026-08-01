@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T10:24:26.920Z",
+  "lastUpdated": "2026-08-01T12:52:28.851Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -43,8 +43,8 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Eb3hfNGpfWl9hYk5qN1NvWmJCLU5ESHVIZWNxUHFqcHlGRDlpUENJcFVYOUdFX3g4SXI2MjdKaDhzdkxkTFRGS1FpU21DYUIzMl84VVVvYWZtR1B1NlpPNi00eXM3RUFwNHVvT01JQ2U?oc=5"
     },
     {
-      "id": "49420fc5",
-      "title": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国 - UA.NEWS",
+      "id": "9ff8f29b",
+      "title": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国 - ua.news",
       "date": "2026-07-31",
       "category": "出版物",
       "summary": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国",
@@ -103,26 +103,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02UVlGazhsOENhRzI4NjFSQU80ZzdWRFdQX1dKcXZnYnJ0VUFLWHA4YUlwQUxUamM1cXVZczcteDMtYVVDLUg5dC1LeUstNGh2akd2ei1GU2pCS3g2dWlaRHR1SQ?oc=5"
     },
     {
-      "id": "d826a79d",
-      "title": "哈利波特生日驚喜「神秘的魔法石」25周年重返大銀幕 - 世界新聞網",
-      "date": "2026-07-31",
-      "category": "影视动态",
-      "summary": "哈利波特生日驚喜「神秘的魔法石」25周年重返大銀幕",
-      "content": "哈利波特生日驚喜「神秘的魔法石」25周年重返大銀幕",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ral9LVVZUenk3a0kxY3JTTE9TSERmQlFzb19UQTVCVHBvZFRRSnI0WWpkNDVmak5nMDZSLVNBZlFCZUVkRjlYOGpOTEQ3UDZBU1RMTTl1UEFpODJ2WjJZWG53ZjBuRWx6NlHSAWdBVV95cUxNM2xxVXZxUEdqMERQYnVxaUZfM1NINWg5UlhPal9VbThlTmMwZ3B5ZzFFeUk4UUtVYnI2WlpxNzdhQVJfY0daVnZ1RE96ZVc1Q3NIc1R2c3BoZUt2ZmRDWUZkMm52TGhz?oc=5"
-    },
-    {
       "id": "74e69ab4",
       "title": "哈利·波特的隐身斗篷还远吗？ - 新浪财经",
       "date": "2026-07-31",
@@ -141,6 +121,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qZkxfTzRGV0h4UzBMNmpfMzJwSFJuRjdLeDYwbGVaWnQtSXlWSzYtR0daeHYyV2hidEVYSUxtZ0UwWlJTb3lUUC0yenNGcjVDdktaR1RSemVMb2kxbTNybWRlRlZ4VkotSlNFTTlvUm5PYWJUMnBtMg?oc=5"
+    },
+    {
+      "id": "d826a79d",
+      "title": "哈利波特生日驚喜「神秘的魔法石」25周年重返大銀幕 - 世界新聞網",
+      "date": "2026-07-31",
+      "category": "影视动态",
+      "summary": "哈利波特生日驚喜「神秘的魔法石」25周年重返大銀幕",
+      "content": "哈利波特生日驚喜「神秘的魔法石」25周年重返大銀幕",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ral9LVVZUenk3a0kxY3JTTE9TSERmQlFzb19UQTVCVHBvZFRRSnI0WWpkNDVmak5nMDZSLVNBZlFCZUVkRjlYOGpOTEQ3UDZBU1RMTTl1UEFpODJ2WjJZWG53ZjBuRWx6NlHSAWdBVV95cUxNM2xxVXZxUEdqMERQYnVxaUZfM1NINWg5UlhPal9VbThlTmMwZ3B5ZzFFeUk4UUtVYnI2WlpxNzdhQVJfY0daVnZ1RE96ZVc1Q3NIc1R2c3BoZUt2ZmRDWUZkMm52TGhz?oc=5"
     },
     {
       "id": "1a7edf18",
