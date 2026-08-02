@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-02T10:23:48.999Z",
+  "lastUpdated": "2026-08-02T12:54:42.141Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "b14fb2b3",
+      "title": "人文社“哈利·波特”学院知识竞赛引“哈迷”齐聚直播间展开智慧较量 - chinanews.com.cn",
+      "date": "2026-08-02",
+      "category": "综合资讯",
+      "summary": "人文社“哈利·波特”学院知识竞赛引“哈迷”齐聚直播间展开智慧较量",
+      "content": "人文社“哈利·波特”学院知识竞赛引“哈迷”齐聚直播间展开智慧较量",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTlRfQXNkdmFHeU1na3A1TUV5WUsxaVpaNUVPckVjSDMwN3o5TUoyRHVLVzBDYVZLZWdFMGNfVTZHbXZVaHh5cWs0N1dYdHVtMmhjMFRGZ0dUcmNOcmlER2I4djRCUWJsOUE?oc=5"
+    },
     {
       "id": "ad1491ac",
       "title": "萨玛拉·韦文为见丹尼尔·雷德克里夫接演电影，隐藏纹身终被发现 - 手机新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1Rl9Del9fZWxsWm5fekhNak45NzVqNnBWWDllRTRIOFk5V3l1dTNxTDkwUnJGbzVJU01wUWF3OUh0aTVRLWNQak5WSmJfbWFNN1YxQldpNUowZW4wYklMOWRvTQ?oc=5"
-    },
-    {
-      "id": "57a5a090",
-      "title": "TimHortons联名哈利波特！结果惹的一身骚 - VanPeople",
-      "date": "2026-07-29",
-      "category": "周边商品",
-      "summary": "TimHortons联名哈利波特！结果惹的一身骚",
-      "content": "TimHortons联名哈利波特！结果惹的一身骚",
-      "image": "🛍️",
-      "relatedLinks": [
-        {
-          "label": "⚗️ 魔法物品",
-          "path": "/world/items"
-        },
-        {
-          "label": "🐉 魔法生物",
-          "path": "/world/creatures"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sU3djY05TaVJlOU9ES0diU2FUd2NpWWZuM3VzajBYNVpiQ1lfQUdXc3ZpMzFKaHowUTRqT3NKc1Q5Y0xmLUdYRnFZMnkxZjhj?oc=5"
     }
   ]
 }
