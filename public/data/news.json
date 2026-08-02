@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T18:52:04.980Z",
+  "lastUpdated": "2026-08-02T21:43:14.975Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,8 +23,28 @@
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTlRfQXNkdmFHeU1na3A1TUV5WUsxaVpaNUVPckVjSDMwN3o5TUoyRHVLVzBDYVZLZWdFMGNfVTZHbXZVaHh5cWs0N1dYdHVtMmhjMFRGZ0dUcmNOcmlER2I4djRCUWJsOUE?oc=5"
     },
     {
-      "id": "b655b5cc",
-      "title": "萨玛拉·韦文为见丹尼尔·雷德克里夫接演电影，隐藏纹身终被发现 - k.sina.com.cn",
+      "id": "804a968c",
+      "title": "“哈利·波特”系列今年将出多种新书 - 新浪财经",
+      "date": "2026-08-02",
+      "category": "出版物",
+      "summary": "“哈利·波特”系列今年将出多种新书",
+      "content": "“哈利·波特”系列今年将出多种新书",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ib1I4UXZoQ016YnZfVGFaSDBhbzRubVg5TTF1WDZLMmpJSnMtQ3IzRVhtdXRabmlrTGNRTkJYVWpnS2hYNElfQjhCMU1RU25RYTNLMjlnQllLN0ZpejIwZDg5VXVrUDJrbnZSdEVDLWVIVWJVSkt4bA?oc=5"
+    },
+    {
+      "id": "ad1491ac",
+      "title": "萨玛拉·韦文为见丹尼尔·雷德克里夫接演电影，隐藏纹身终被发现 - 手机新浪网",
       "date": "2026-08-02",
       "category": "影视动态",
       "summary": "萨玛拉·韦文为见丹尼尔·雷德克里夫接演电影，隐藏纹身终被发现",
@@ -143,8 +163,8 @@
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ral9LVVZUenk3a0kxY3JTTE9TSERmQlFzb19UQTVCVHBvZFRRSnI0WWpkNDVmak5nMDZSLVNBZlFCZUVkRjlYOGpOTEQ3UDZBU1RMTTl1UEFpODJ2WjJZWG53ZjBuRWx6NlHSAWdBVV95cUxNM2xxVXZxUEdqMERQYnVxaUZfM1NINWg5UlhPal9VbThlTmMwZ3B5ZzFFeUk4UUtVYnI2WlpxNzdhQVJfY0daVnZ1RE96ZVc1Q3NIc1R2c3BoZUt2ZmRDWUZkMm52TGhz?oc=5"
     },
     {
-      "id": "0b64d109",
-      "title": "哈利·波特的隐身斗篷还远吗？ - 新浪财经_金融信息服务商",
+      "id": "74e69ab4",
+      "title": "哈利·波特的隐身斗篷还远吗？ - 新浪财经",
       "date": "2026-07-31",
       "category": "综合资讯",
       "summary": "哈利·波特的隐身斗篷还远吗？",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nbURTdG53WjhGQ2stak1nQ1R2MkhvQ0JIQU1WRUZQdUpza3pWWk55UmRiMEpwcWp4Z3d3anAwTEZtNE4xZjZENk9BZ0ZKYU12MXBxU0hIUFRhbVNBZWxHbFZIaw?oc=5"
-    },
-    {
-      "id": "aa3133cb",
-      "title": "35年前的今天，三四十封霍格沃茨录取通知书从女贞路4号厨房的烟囱中飞进屋子，上面全写着哈利·波特！ ​​​ - sina.cn",
-      "date": "2026-07-29",
-      "category": "影视动态",
-      "summary": "35年前的今天，三四十封霍格沃茨录取通知书从女贞路4号厨房的烟囱中飞进屋子，上面全写着哈利·波特！ ​​​",
-      "content": "35年前的今天，三四十封霍格沃茨录取通知书从女贞路4号厨房的烟囱中飞进屋子，上面全写着哈利·波特！ ​​​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1Rl9Del9fZWxsWm5fekhNak45NzVqNnBWWDllRTRIOFk5V3l1dTNxTDkwUnJGbzVJU01wUWF3OUh0aTVRLWNQak5WSmJfbWFNN1YxQldpNUowZW4wYklMOWRvTQ?oc=5"
     }
   ]
 }
