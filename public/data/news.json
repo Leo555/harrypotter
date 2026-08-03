@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T06:08:54.478Z",
+  "lastUpdated": "2026-08-03T12:10:32.336Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,26 +21,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTlRfQXNkdmFHeU1na3A1TUV5WUsxaVpaNUVPckVjSDMwN3o5TUoyRHVLVzBDYVZLZWdFMGNfVTZHbXZVaHh5cWs0N1dYdHVtMmhjMFRGZ0dUcmNOcmlER2I4djRCUWJsOUE?oc=5"
-    },
-    {
-      "id": "804a968c",
-      "title": "“哈利·波特”系列今年将出多种新书 - 新浪财经",
-      "date": "2026-08-02",
-      "category": "出版物",
-      "summary": "“哈利·波特”系列今年将出多种新书",
-      "content": "“哈利·波特”系列今年将出多种新书",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ib1I4UXZoQ016YnZfVGFaSDBhbzRubVg5TTF1WDZLMmpJSnMtQ3IzRVhtdXRabmlrTGNRTkJYVWpnS2hYNElfQjhCMU1RU25RYTNLMjlnQllLN0ZpejIwZDg5VXVrUDJrbnZSdEVDLWVIVWJVSkt4bA?oc=5"
     },
     {
       "id": "2191c0e4",
@@ -83,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZmdycjV5UVBHbWNxMWtWZGExbV9zWTdkRWxWbzVDNkFSOUF4U2FRUlN5andheFlRYjBNbXpfUm80SzBSb2VPQkRQbXUtUDBwbVIycVRzV3R2WUlVMWRDWXhoZ3pnNldvODFHdDF4Ulphakd4cnRGejVid3pzUC1RaE5JUTcwTFdySmpTcDM0QUoyWDJKZnJ3VVBNa01sSUNyUWxOQUI2VGJPRllPNGREaFR0Mmh3cE1JQS1yT2FHQWF1QkJkZkZpd3kxMTVpVk81a3NDOUpCcjVBdw?oc=5"
     },
     {
+      "id": "804a968c",
+      "title": "“哈利·波特”系列今年将出多种新书 - 新浪财经",
+      "date": "2026-08-02",
+      "category": "出版物",
+      "summary": "“哈利·波特”系列今年将出多种新书",
+      "content": "“哈利·波特”系列今年将出多种新书",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ib1I4UXZoQ016YnZfVGFaSDBhbzRubVg5TTF1WDZLMmpJSnMtQ3IzRVhtdXRabmlrTGNRTkJYVWpnS2hYNElfQjhCMU1RU25RYTNLMjlnQllLN0ZpejIwZDg5VXVrUDJrbnZSdEVDLWVIVWJVSkt4bA?oc=5"
+    },
+    {
       "id": "016d58f0",
       "title": "Redmi Turbo4 Pro的机身内存有几种选择？ - 手机新浪网",
       "date": "2026-08-01",
@@ -123,6 +123,26 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Eb3hfNGpfWl9hYk5qN1NvWmJCLU5ESHVIZWNxUHFqcHlGRDlpUENJcFVYOUdFX3g4SXI2MjdKaDhzdkxkTFRGS1FpU21DYUIzMl84VVVvYWZtR1B1NlpPNi00eXM3RUFwNHVvT01JQ2U?oc=5"
     },
     {
+      "id": "995c34dd",
+      "title": "人民文学出版社 - 手机新浪网",
+      "date": "2026-07-31",
+      "category": "出版物",
+      "summary": "人民文学出版社",
+      "content": "人民文学出版社",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2R3h3NXdhczNkTGFTODc2T1pla2pjN1ppZ0Qwc2lDZllsSnhnbXREUkMzUzcyUE5lckRsQXh5ZTN4YXJmbWlDd2J2bzVGUzBSM25TQVFvck1IcWJtZUFSa2FBWQ?oc=5"
+    },
+    {
       "id": "49420fc5",
       "title": "乔安·罗琳——61岁：《哈利·波特》 的作者如何将一个图书创意打造为价值数十亿的商业帝国 - UA.NEWS",
       "date": "2026-07-31",
@@ -143,12 +163,12 @@
       "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeVFST1ZKWk03YTZoZlhOZkM5WDFxdTFYdUpDYW92UnFQUHpBVHQ3aEVlTG1nei1hZVhmOGFIUGtCZFY2ZDJvTk52QUF6NmV1ejRBQzZNd1B5QTZIb3RoOWtESXZsU1p1aUwwcml6ZGNKNEVfcVJra0VzUS1VemlTNWRQSUctYkc2UVdkejk3VnVWd2xOZElvbDJ1Mzh2MzRfOWM0a2hhdGFIVC11RjgtTTJGRlRnZ3lPdE91MDYzNmRySEE?oc=5"
     },
     {
-      "id": "41f4cb78",
-      "title": "哈利波特 - 手机新浪网",
+      "id": "06de83dd",
+      "title": "哈利·波特的隐身斗篷还远吗？ - finance.sina.com.cn",
       "date": "2026-07-31",
       "category": "综合资讯",
-      "summary": "哈利波特",
-      "content": "哈利波特",
+      "summary": "哈利·波特的隐身斗篷还远吗？",
+      "content": "哈利·波特的隐身斗篷还远吗？",
       "image": "📰",
       "relatedLinks": [
         {
@@ -160,7 +180,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80U3ZKcTYwalkzbUJRcFYwb2hTbEhITnRpZVpVZnZMSTlHdy1Kd0k5ZTM0MDlXZmN2aFNTR1hfUG9PTm5xdUx4R3VMN0lBb295OGgtbnNia3pMdWt3TmFuZm9zYw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qZkxfTzRGV0h4UzBMNmpfMzJwSFJuRjdLeDYwbGVaWnQtSXlWSzYtR0daeHYyV2hidEVYSUxtZ0UwWlJTb3lUUC0yenNGcjVDdktaR1RSemVMb2kxbTNybWRlRlZ4VkotSlNFTTlvUm5PYWJUMnBtMg?oc=5"
     },
     {
       "id": "d826a79d",
@@ -183,12 +203,12 @@
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ral9LVVZUenk3a0kxY3JTTE9TSERmQlFzb19UQTVCVHBvZFRRSnI0WWpkNDVmak5nMDZSLVNBZlFCZUVkRjlYOGpOTEQ3UDZBU1RMTTl1UEFpODJ2WjJZWG53ZjBuRWx6NlHSAWdBVV95cUxNM2xxVXZxUEdqMERQYnVxaUZfM1NINWg5UlhPal9VbThlTmMwZ3B5ZzFFeUk4UUtVYnI2WlpxNzdhQVJfY0daVnZ1RE96ZVc1Q3NIc1R2c3BoZUt2ZmRDWUZkMm52TGhz?oc=5"
     },
     {
-      "id": "74e69ab4",
-      "title": "哈利·波特的隐身斗篷还远吗？ - 新浪财经",
+      "id": "41f4cb78",
+      "title": "哈利波特 - 手机新浪网",
       "date": "2026-07-31",
       "category": "综合资讯",
-      "summary": "哈利·波特的隐身斗篷还远吗？",
-      "content": "哈利·波特的隐身斗篷还远吗？",
+      "summary": "哈利波特",
+      "content": "哈利波特",
       "image": "📰",
       "relatedLinks": [
         {
@@ -200,7 +220,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qZkxfTzRGV0h4UzBMNmpfMzJwSFJuRjdLeDYwbGVaWnQtSXlWSzYtR0daeHYyV2hidEVYSUxtZ0UwWlJTb3lUUC0yenNGcjVDdktaR1RSemVMb2kxbTNybWRlRlZ4VkotSlNFTTlvUm5PYWJUMnBtMg?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80U3ZKcTYwalkzbUJRcFYwb2hTbEhITnRpZVpVZnZMSTlHdy1Kd0k5ZTM0MDlXZmN2aFNTR1hfUG9PTm5xdUx4R3VMN0lBb295OGgtbnNia3pMdWt3TmFuZm9zYw?oc=5"
     },
     {
       "id": "1a7edf18",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sY1h0dWN3SHpuQ0RXaExHQXlidUtEaEN2VU5XS3RPWF9xTzV0MkdBWUVFZDhYdjY5V1ZWMzIyZlNVM3ZmTDY1bDVqU1dSTDdzVHlGZ0FhbTg2bUViU05nYlg3NA?oc=5"
-    },
-    {
-      "id": "5adff709",
-      "title": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年 - BroadwayWorld",
-      "date": "2026-07-29",
-      "category": "影视动态",
-      "summary": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年",
-      "content": "专访：Joshua Sullivan、Tamia Renée Alexandra 与 Kai Spackman 谈《哈利·波特与被诅咒的孩子》十周年",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNjY1U05LNVNCbGFyNmZTeWdfZGFEZEppX1VBSnBEa0RxSUVsdmQ0NTJfcG9mQTJpQXFUODR1SW14akRFR1JtbzFWS3N6NmhzOGM0UG92M19FZFI1VUJBMDJiVFFOeEl4QklkMkoyeFp4SDFJa0p3Q1FFdGM4QjdJVDZvazV1MHQ5RXNpcWk4Y2hmcksxbmxPeE1LVVVMZkZCNTZQQWFaUkZLOEZ1YWJkS252ci1UcUtVWXJpTWkwU0x0aUw2M1RIY3hScVY0U1U0akg1QkVHOHdwN0xUWDRrLWhkVVBxUVZLWDlxcmRMV19wQQ?oc=5"
     }
   ]
 }
