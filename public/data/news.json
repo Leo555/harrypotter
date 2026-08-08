@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-07T21:26:43.423Z",
+  "lastUpdated": "2026-08-08T00:45:17.180Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "570837ce",
+      "title": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款人仔 - news.17173.com",
+      "date": "2026-08-07",
+      "category": "周边商品",
+      "summary": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款人仔",
+      "content": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款人仔",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPa1J1QUVIY2gyc1k1UWhzOThRUnlZTnNsaVFHMUtFdkV6ZTlKLTlIcVJjMDZvdEpXMUJtTmluLTlKTGZHRzdPa0x0YVQ0dXZYNnFZX2dGSmdfZnBFTE5FQWpsSHo?oc=5"
+    },
     {
       "id": "8b582b31",
       "title": "德思礼夫妇最大的恶是用最丑陋的方式养大了哈利 - 新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GTTh5ZHRxQ3pRT3pESXpiU3ozOFhlQk9DSDdpek9JbHd5Wm5vRVBBQ1NKcWJwSEx2R3hHYjhYbGNEd2RvaUVSbFpteXN6VnpV?oc=5"
-    },
-    {
-      "id": "115c0e02",
-      "title": "新浪网· - 手机新浪网",
-      "date": "2026-07-31",
-      "category": "综合资讯",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02UVlGazhsOENhRzI4NjFSQU80ZzdWRFdQX1dKcXZnYnJ0VUFLWHA4YUlwQUxUamM1cXVZczcteDMtYVVDLUg5dC1LeUstNGh2akd2ei1GU2pCS3g2dWlaRHR1SQ?oc=5"
     }
   ]
 }
