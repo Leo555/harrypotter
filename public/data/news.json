@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-08T12:22:45.938Z",
+  "lastUpdated": "2026-08-08T15:17:57.264Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "9d222916",
+      "title": "《哈利波特》迷准备 熬夜施法 24小时连看8电影 票价最贵988 - KLSE Screener",
+      "date": "2026-08-08",
+      "category": "影视动态",
+      "summary": "《哈利波特》迷准备 熬夜施法 24小时连看8电影 票价最贵988",
+      "content": "《哈利波特》迷准备 熬夜施法 24小时连看8电影 票价最贵988",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNSGNWNVYxSXJCbjBCZEhjT0xneklkcktfV0NHZGtsSlZiVjNuX1BJbTdsTTg0N2x2RXNROUJpaWNuTi1LdmlhSXFHRXJzeUcwbjMzMkU2UU9GX3JveElJaDZ2ZWFpMmxNNUp1NHp1RDVPelJYcWZUWTNpWUN0LUZkeWZJTjU2QmM4RVhMTVF6bXdjZTFVNzJ2cEctbE5DQmtTYi1VeGt4aXJqQmxOa0xrZTUtRmxsbEdnbFJXN3JEVGl5NGNIellIX3F2S3VSUkVCcXNha2xhUVQ4cEcxVGIzamJ5aEEyRGVBQVhsaTg0ZEdNUHN3MVVHMG16amdQN3loOE9KcTB2NkhaRVU2ejJTM0ljUzgxRHFCNGxFQWpSSUMweFIwTkxta2FGSF9qZ1BIVmt3NmVOb3lMSk5GOEZWNng4emJqdzV3OHJablVRZUZ1eUdndTV3X2lRZ0F1UlNoZDU3UVJ1aTQ?oc=5"
+    },
     {
       "id": "570837ce",
       "title": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款人仔 - news.17173.com",
@@ -23,8 +43,8 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPa1J1QUVIY2gyc1k1UWhzOThRUnlZTnNsaVFHMUtFdkV6ZTlKLTlIcVJjMDZvdEpXMUJtTmluLTlKTGZHRzdPa0x0YVQ0dXZYNnFZX2dGSmdfZnBFTE5FQWpsSHo?oc=5"
     },
     {
-      "id": "8b582b31",
-      "title": "德思礼夫妇最大的恶是用最丑陋的方式养大了哈利 - 新浪网",
+      "id": "870be963",
+      "title": "德思礼夫妇最大的恶是用最丑陋的方式养大了哈利 - k.sina.com.cn",
       "date": "2026-08-06",
       "category": "影视动态",
       "summary": "德思礼夫妇最大的恶是用最丑陋的方式养大了哈利",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOalM1Qm1OOGU4eXNKLVdCVDA5a3pZem5aQTlaZHBhMGpsWlBEVXhCanl6MThMTnZjTzZhcXJoUExPMm56RUNKZC0tNGM4bXZJSVAxb0xGYzB1SjlfQjBfRV9KQjVxVW5CMWJ4eURQLW1rdEF1X2piT3dCZGxxblJyM29sa3J6MkdDRmd6ZE1Sa2xnOUd1R1dxU2xsVWpJV2tTSHA4Z1JqRzJKX2FJeTFFMnY0LVk3aWNSUkxNZXdXZnV1dW9lelBYOFZaeDAzMkxtbTdveGNmOGw?oc=5"
-    },
-    {
-      "id": "12dbf77b",
-      "title": "VMO户外交响音乐会8月登场选奏侏罗纪公园及哈利波特经典曲目 - VanPeople",
-      "date": "2026-07-31",
-      "category": "综合资讯",
-      "summary": "VMO户外交响音乐会8月登场选奏侏罗纪公园及哈利波特经典曲目",
-      "content": "VMO户外交响音乐会8月登场选奏侏罗纪公园及哈利波特经典曲目",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GTTh5ZHRxQ3pRT3pESXpiU3ozOFhlQk9DSDdpek9JbHd5Wm5vRVBBQ1NKcWJwSEx2R3hHYjhYbGNEd2RvaUVSbFpteXN6VnpV?oc=5"
     }
   ]
 }
