@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-11T00:50:53.582Z",
+  "lastUpdated": "2026-08-11T04:10:11.221Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "de12c944",
+      "title": "遭《哈利·波特》粉丝抗议，英国4.3亿英镑海底电缆项目被迫改道 - 观察者",
+      "date": "2026-08-11",
+      "category": "影视动态",
+      "summary": "遭《哈利·波特》粉丝抗议，英国4.3亿英镑海底电缆项目被迫改道",
+      "content": "遭《哈利·波特》粉丝抗议，英国4.3亿英镑海底电缆项目被迫改道",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fRjVEX19sX3lzZVNybzRwQ3RXLTVyUHlZWG9CMGZ2eEVqbm1RMGxkM2RHaFVwYWtaSkJEMGlhMU1QLUxmYnNWT05mMjU0TGpSbUJCa0tWaGswclJDQk0wbjVsTDdrUHBsREE?oc=5"
+    },
     {
       "id": "d4e1fbfd",
       "title": "《哈利波特》书迷影迷成功迫使英爱跨境电缆改道 - BBC",
@@ -43,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zeExxYWJNYW8yUXZkQnMtQlVlMWJPdllYaW9FZl9QYjJWLUtldGhUZ0tJZFRmeG5ZaXFDbXZ0ZEM1S3l1UjhFN01uOEtDd2t3Y0tPU3U2ZFJoWDBydzdPcGl0eWc?oc=5"
     },
     {
-      "id": "57e61e3d",
-      "title": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子 - 3DM",
-      "date": "2026-08-10",
-      "category": "社区活动",
-      "summary": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子",
-      "content": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子",
-      "image": "🎉",
-      "relatedLinks": [
-        {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
-        },
-        {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00bUhaWWF6WnN2a1dpT0hGaXBSSjNBRjVqN3F2TExSTmVaR3VJa1VHUmRFTlMtT244TUdkQl9RX1VXR1dobWdPYlFEZzBGWjRCQnd6dHpDR1pUdjdy?oc=5"
-    },
-    {
       "id": "c8412915",
       "title": "HBO《哈利·波特》第一季定为TV-14级，比电影更黑暗 - 新浪网",
       "date": "2026-08-10",
@@ -81,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kSFhGSmhTTjNCZGpnZFkwYUhlT0s5TUdnUno4NWw4NnQtQUdGNFVhc1JUdU8zRmRyRVpacHU2MGNZRlFlSGJxMDQ5RWpuS3JHR3RlZzI3QVVETzZrMzRWRDlR?oc=5"
+    },
+    {
+      "id": "57e61e3d",
+      "title": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子 - 3DM",
+      "date": "2026-08-10",
+      "category": "社区活动",
+      "summary": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子",
+      "content": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00bUhaWWF6WnN2a1dpT0hGaXBSSjNBRjVqN3F2TExSTmVaR3VJa1VHUmRFTlMtT244TUdkQl9RX1VXR1dobWdPYlFEZzBGWjRCQnd6dHpDR1pUdjdy?oc=5"
     },
     {
       "id": "68d085e7",
@@ -123,26 +143,6 @@
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02SnBvV2RIckk4bVctbVlFWEdoWEwyQTRwMXNPdmZNelVDaUFzUW4wYnZ3UnVWbmZLU1JDVkJhRm9YT0RqaFdIYmJMTDUzVDI2b2hBOWhOU3NVQVFENzR5ZS1TNGFaX2dUbll0dmpabw?oc=5"
     },
     {
-      "id": "9f5beb5f",
-      "title": "哈利波特🔁马尔福😂😂😂😂#巴萨##至死不渝红蓝魂# ​ - 新浪网",
-      "date": "2026-08-10",
-      "category": "综合资讯",
-      "summary": "哈利波特🔁马尔福😂😂😂😂#巴萨##至死不渝红蓝魂# ​",
-      "content": "哈利波特🔁马尔福😂😂😂😂#巴萨##至死不渝红蓝魂# ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDbVN1djdZSEZkYkU1UUpUVjhsOHRyODM4aHljMWVRYjZzNWtNbGtybTI3TnZlTmpnV0wzcUlHSWlQZlBqVnFxdW1KRXJiNC1rWGVHdkpOdUUtb01TRmFRVGpGOA?oc=5"
-    },
-    {
       "id": "d35962df",
       "title": "《哈利波特》书迷影迷成功迫使英国跨境电缆改道 - 文学城",
       "date": "2026-08-10",
@@ -163,6 +163,26 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLU9ObU15ZndXV0MtYmhrRDJVeTdZb1pFaUN3d2Z4Wmd1d1RibThQRUJ3WEdpZzNpemdkcHFhTlhqU2dlcU1aaFhfM1VuV25YUHhfRmIybEZZUEdYU3VXTEtEcVRqZm1fYldVZklGcXM2RlgyUVZfTDFKSmFjbEJWUWhqQmI5dHVw?oc=5"
     },
     {
+      "id": "9f5beb5f",
+      "title": "哈利波特🔁马尔福😂😂😂😂#巴萨##至死不渝红蓝魂# ​ - 新浪网",
+      "date": "2026-08-10",
+      "category": "综合资讯",
+      "summary": "哈利波特🔁马尔福😂😂😂😂#巴萨##至死不渝红蓝魂# ​",
+      "content": "哈利波特🔁马尔福😂😂😂😂#巴萨##至死不渝红蓝魂# ​",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDbVN1djdZSEZkYkU1UUpUVjhsOHRyODM4aHljMWVRYjZzNWtNbGtybTI3TnZlTmpnV0wzcUlHSWlQZlBqVnFxdW1KRXJiNC1rWGVHdkpOdUUtb01TRmFRVGpGOA?oc=5"
+    },
+    {
       "id": "bb39590b",
       "title": "哈利·波特新闻资料 - Sin Chew Daily",
       "date": "2026-08-10",
@@ -180,7 +200,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ld3g3U29HMDlkVmRvVDFkRUQ4TGRETms4VWw0UTlweEFUSENCcWppNVdELXFVVHliVXg2cV9NZkU1M1J0UDBBWnFkZ3BjMHRyWVpPSXlHRWhxY1lZTlJPekRlWkt4QUllZzhVMkJQR2EwWEVvNEg5S3RXMHN6aGc?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5LTM1c2dQZ0RvT29JYTRpMWVGYV9PVDJwUVM1T1hTUDkwTWFmS1lFWHpsNjQ2LWJDQ2NUbG93UTduV19raFVLUVNsNjZZMWtZZ1kxSUZxTWs1ZDZpLW9OQnlydmw5b21IWnFDWkNUZ3JjSk1URjBhaEdQUWQydw?oc=5"
     },
     {
       "id": "747fd74f",
@@ -283,6 +303,26 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WkFfYmdpbFUxN3owRU93QmxKVUhyREFuWHJwQjgyTVBNal9pc3ZISklJbVJfSGJ3czR3clFNQmNlTTVQMWIyTk8zS3dOcmxUUW9aVE9B?oc=5"
     },
     {
+      "id": "9ee38a1a",
+      "title": "免费入场！哈利·波特夏日书店，来石景山解锁魔法奇遇 - 新浪网",
+      "date": "2026-08-09",
+      "category": "出版物",
+      "summary": "免费入场！哈利·波特夏日书店，来石景山解锁魔法奇遇",
+      "content": "免费入场！哈利·波特夏日书店，来石景山解锁魔法奇遇",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wTHYwSld6cF83MjBGZ2doaGlxOXhmaml2Q3V4TmF3OTlBejh2Rmd1SzJtZFpobHVkaXFSYXNwUm82ZFdPU1JIeTBFX2gzVGhNY2xNMlZyT01oRjFVaHkxUG5n?oc=5"
+    },
+    {
       "id": "0206bf3e",
       "title": "《哈利波特》女星转战成人平台 靠一头长发救全家 - 中國報 China Press",
       "date": "2026-08-09",
@@ -303,8 +343,8 @@
       "source": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPTFZfSXRuUWo2MjY2Z05MYWd6eVRFeGFwTlR0TUFuM202VW1FS3pUODczdjJOdDI2eWZZanRiYVZpLXVEUVRwbkE5OXBQanNtamZkWERoQ1k0R1pWZ3VqcXl2SXFGRWExM0xON1VYckJHNWZwTmxkWnlPS3dFTHZjZjFodktMNWs3X1lvanF0cXh5NVVnM29HZlFMakpaNVAzSkpUVUlsSGF3Q1BHVkdMQkJjdXRnSklFTElkY21jc1R1NnhIelkwMGlER2c2OWZJdGtQRmF6TmlyRzBMUUs1QlZyeGxGRWk0cTRwZUktNmhkcGpiX0VlWDRYM0NFZktlY1BoZ0VOMENqaTJpM1BXVURHdmZuaWtBekQ0X0VzTjRYT0RtMW5ZT1gtaHBYbVNqM0VRX1dSZW43bE9RSDFVNmZUb2RMUjFiVUVsTERKZUNuSDRoZ3FQMndR?oc=5"
     },
     {
-      "id": "8f6656b1",
-      "title": "《哈利波特》荣恩女友转战OnlyFans “不露点”年收入超演员生涯 - global.hk01.com",
+      "id": "2b6ac880",
+      "title": "《哈利波特》荣恩女友转战OnlyFans “不露点”年收入超演员生涯 - 香港01",
       "date": "2026-08-09",
       "category": "影视动态",
       "summary": "《哈利波特》荣恩女友转战OnlyFans “不露点”年收入超演员生涯",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WkFfYmdpbFUxN3owRU93QmxKVUhyREFuWHJwQjgyTVBNal9pc3ZISklJbVJfSGJ3czR3clFNQmNlTTVQMWIyTk8zS3dOcmxUUW9aVE9B?oc=5"
-    },
-    {
-      "id": "822c73f3",
-      "title": "《哈利·波特》美女演员靠梳头视频赚钱！收入已超过整个演艺生涯所得 - news.17173.com",
-      "date": "2026-08-09",
-      "category": "影视动态",
-      "summary": "《哈利·波特》美女演员靠梳头视频赚钱！收入已超过整个演艺生涯所得",
-      "content": "《哈利·波特》美女演员靠梳头视频赚钱！收入已超过整个演艺生涯所得",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mWWZyUV81bWswaXRYUHJHVTBZSjZWVU0wbTVKcHRUcGtHRXFRakV3bXd3V3BkWWQ5SFRzX29BVmt6U1h2blJGMkVCbnRhOFl0cW9WZ2JhREhRVWxEWUJvWS1tdDg?oc=5"
-    },
-    {
-      "id": "197d383b",
-      "title": "大连英博球迷为何为斯坦丘制作哈利·波特主题TIFO？ - 新浪网",
-      "date": "2026-08-09",
-      "category": "综合资讯",
-      "summary": "大连英博球迷为何为斯坦丘制作哈利·波特主题TIFO？",
-      "content": "大连英博球迷为何为斯坦丘制作哈利·波特主题TIFO？",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV09kZDdtN2FoZXlOcDFNdG1GUzJUV21Zajd2cjhTdzB5czMzQ0ZOdUw5QXpLcjdVVWh3WE9iUWRJbjdtUWNlVERLZjhuV3NIRWNxMU5iZ0Y2QkhMMTdpWG5LY25mUlU1U0t5ck1SN3VONjhZaXNyVS1CdDIzcjM5SDdB?oc=5"
     }
   ]
 }
