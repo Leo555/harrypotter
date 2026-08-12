@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T18:44:40.502Z",
+  "lastUpdated": "2026-08-12T21:33:16.210Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -203,6 +203,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vRk9EeUhmWEo3MkwteGhPbUlrVUViT1M1SDRwWFFCMmRCQjNZb0MzNkVXaklpU0VfMDhiNE9IVTk3R3JGWnZ2UmEwQUxEeDNkOFJoT1FSbTNOeXlJTjRCMtIBZkFVX3lxTFBVUnQ0SzdxNE5LV3ZUNzRvQzFjWExjS1lYWWd4ZFE1OW9XdnZjaVBRNXNNSVVNT00tUVJDRGV6REZhaF9hQ1A4TFEwQnBwWGlxRkVURFJDUlQyZDJUUGpmbHEyVzBhQQ?oc=5"
     },
     {
+      "id": "9c761c92",
+      "title": "乐高正在准备一份丰厚的奖励 Mini哈利波特魔法套装。它会免费附赠一套福吉主题的套装。 - Letem světem Applem",
+      "date": "2026-08-12",
+      "category": "周边商品",
+      "summary": "乐高正在准备一份丰厚的奖励 Mini哈利波特魔法套装。它会免费附赠一套福吉主题的套装。",
+      "content": "乐高正在准备一份丰厚的奖励 Mini哈利波特魔法套装。它会免费附赠一套福吉主题的套装。",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSEU2RW1sR3NhRVZNTG5iYlhGVzNCZ0JMZDNfc2htMFA1aUpSTUtiRVRjR2JQY3VuOC1fdGZlSnp2US12NGhFeFp4aUlKRExFd1p5S1VyaGhZZlh6QUZWb0kzSXJwMHd2aWp0LWlqUl9JRTRUSy0yaDF4bU80dGNRNExiY1ZHa09faGFfSDBRa1kxdGFwMEFWMjFQb08zc0NGaW90eGRHdTBOaG51UmFHMXZ3c1l0Zmt3b0NmaURyVGl1XzJzTTltbER1SU9vdTc2ZS0wOEdMY05lSHJWMVVjMWFKTXRyOFp5U1Y0MGhoaw?oc=5"
+    },
+    {
       "id": "3b853abf",
       "title": "HBO 剧集《哈利波特：魁地奇冠军》第二季选定尼古拉斯·霍尔特饰演吉德罗·洛哈特 - 17173",
       "date": "2026-08-11",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xMUMtVU1zOGllU3Qwc2kyb05SdDllUXlEN0ppQU9NLXBfRkVsejNjR1Vham5kdHZ3N3dwbTJJVy1GVjdVUjR2WDJaRnE3UG1oVEFYUGphWnY0bGZVS0R6bHpxX25GZ9IBa0FVX3lxTE5ncC0xZ3NmVEI5QUo5Y3VDYURTUDc0ZFBDSjktR1Rsa0FROFpXa0xiMkZET3prVTBtRlZsaW1aOVlhY0NfREpFWC1tUVUybjFkQ3U1VEp6dC1WRGJycnA1R3hmLUdsX0N0Y2tN?oc=5"
-    },
-    {
-      "id": "57e61e3d",
-      "title": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子 - 3DM",
-      "date": "2026-08-10",
-      "category": "社区活动",
-      "summary": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子",
-      "content": "不搞黄！ 《哈利波特》女演员自曝靠Onlyfans养活4个孩子",
-      "image": "🎉",
-      "relatedLinks": [
-        {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
-        },
-        {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00bUhaWWF6WnN2a1dpT0hGaXBSSjNBRjVqN3F2TExSTmVaR3VJa1VHUmRFTlMtT244TUdkQl9RX1VXR1dobWdPYlFEZzBGWjRCQnd6dHpDR1pUdjdy?oc=5"
     }
   ]
 }
