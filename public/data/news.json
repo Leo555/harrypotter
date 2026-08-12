@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-08-11T21:34:09.489Z",
+  "lastUpdated": "2026-08-12T00:57:42.012Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "c49846a7",
+      "title": "'哈利·波特'粉丝守护的多多洛之墓……“收到数百通抗议电话” - starnewskorea.com",
+      "date": "2026-08-12",
+      "category": "社区活动",
+      "summary": "'哈利·波特'粉丝守护的多多洛之墓……“收到数百通抗议电话”",
+      "content": "'哈利·波特'粉丝守护的多多洛之墓……“收到数百通抗议电话”",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40VEFpWE9OZUJvcUFGeFZ2cE5BSGZVYVV0cG1HbUhMQTUzVVFlaE05aFlIWEhzN1c5b1FLVk1pWDFmUGtDNzNOZk9jaUtBNkhzQUhVRE1VeUNNU05uWWVadVVjZTYyb0lKRUJ3d2VjRlNlYjFFSFQxNg?oc=5"
+    },
+    {
+      "id": "3b853abf",
+      "title": "HBO 剧集《哈利波特：魁地奇冠军》第二季选定尼古拉斯·霍尔特饰演吉德罗·洛哈特 - 17173",
+      "date": "2026-08-11",
+      "category": "影视动态",
+      "summary": "HBO 剧集《哈利波特：魁地奇冠军》第二季选定尼古拉斯·霍尔特饰演吉德罗·洛哈特",
+      "content": "HBO 剧集《哈利波特：魁地奇冠军》第二季选定尼古拉斯·霍尔特饰演吉德罗·洛哈特",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mY21pMktLeXRrQmhJeGpZZVQwODV2M1h2S01uNVFBUnV6YlUwS05YWG9PcWs1ek1CTFcyZ3FORjhtT3hTam5SNFRFcjZhRzEtUTljZmR2cDBHVHNYQVNLX2hvSlNnZw?oc=5"
+    },
     {
       "id": "a02f30a7",
       "title": "绕过“多比”坟墓！《哈利·波特》影迷大量投诉，促使4.3亿英镑跨国电缆改道 - 新浪网",
@@ -43,8 +83,8 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYnpLT3d6VlFYdHJQcThJMkJPTmRQWVd6Y09oRFRYclhPVlB2VzJMNEFOVl8wWm5zREttcUdERWxJNG9wVWRtZWYzdU9nejlzSVJVVGhaOXBCMzRmN08ycnR4WVZFaFloZHQxeS13U0o?oc=5"
     },
     {
-      "id": "6346f108",
-      "title": "哈利波特迷太疯狂！GSC推“988令吉马拉松电影套票”热卖掀议 - 娱乐 - 即时娱乐 - Sin Chew Daily",
+      "id": "1f8d3594",
+      "title": "哈利波特迷太疯狂！GSC推“988令吉马拉松电影套票”热卖掀议 - 娱乐 - 即时娱乐 - sinchew.com.my",
       "date": "2026-08-11",
       "category": "影视动态",
       "summary": "哈利波特迷太疯狂！GSC推“988令吉马拉松电影套票”热卖掀议",
@@ -61,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xUFB6bmY4bTdQdGw4Nlc4U1RTMG94NTdfemxkNjdzbWpxUzBtWVAxZFRlYldSOVliNl81LTBaRWdrbVVOUnhSZHhWektSM1ZnYjgzLUVfZzRnQ2VXZ2RLU090bG14Nzg4Wm5WSDllcw?oc=5"
+    },
+    {
+      "id": "4bfac6a5",
+      "title": "英电缆经多比坟墓被哈迷抗议改道 - 新浪网",
+      "date": "2026-08-11",
+      "category": "综合资讯",
+      "summary": "英电缆经多比坟墓被哈迷抗议改道",
+      "content": "英电缆经多比坟墓被哈迷抗议改道",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81RXhfTmh0ZGoxYklVQ2Fscll3bzJyS29DRXRaUDlobTBJM2FQNGNFU0Y3UWJMZHJ5M05YcjBta0pxLVc4X25Ub05neDV6cnpSQVNjQjBCUTFtU2hEakJGUFJ3?oc=5"
     },
     {
       "id": "00fba6b9",
@@ -103,8 +163,8 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTEVkY1h4bFZhNDJMb1duUDJGZGtWbkRuZGZubThrNzVJbDZHM2NHRllRdk9mSEpEOWlIRFVMYVBmazQ2SWl2dnFiakNiUjZVRDc0UlZKLU1YeWV5UnRkaG9hRm9Pem9WLXhVbmRuUm1hN1BPZDh1Z0F0TFhtWVNsV3lGd2dLRThB?oc=5"
     },
     {
-      "id": "1f8d3594",
-      "title": "哈利波特迷太疯狂！GSC推“988令吉马拉松电影套票”热卖掀议 - 娱乐 - 即时娱乐 - sinchew.com.my",
+      "id": "6346f108",
+      "title": "哈利波特迷太疯狂！GSC推“988令吉马拉松电影套票”热卖掀议 - 娱乐 - 即时娱乐 - Sin Chew Daily",
       "date": "2026-08-11",
       "category": "影视动态",
       "summary": "哈利波特迷太疯狂！GSC推“988令吉马拉松电影套票”热卖掀议",
@@ -141,26 +201,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xMUMtVU1zOGllU3Qwc2kyb05SdDllUXlEN0ppQU9NLXBfRkVsejNjR1Vham5kdHZ3N3dwbTJJVy1GVjdVUjR2WDJaRnE3UG1oVEFYUGphWnY0bGZVS0R6bHpxX25GZ9IBa0FVX3lxTE5ncC0xZ3NmVEI5QUo5Y3VDYURTUDc0ZFBDSjktR1Rsa0FROFpXa0xiMkZET3prVTBtRlZsaW1aOVlhY0NfREpFWC1tUVUybjFkQ3U1VEp6dC1WRGJycnA1R3hmLUdsX0N0Y2tN?oc=5"
-    },
-    {
-      "id": "315dce78",
-      "title": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过多比墓地”的输电线改道 - 17173",
-      "date": "2026-08-10",
-      "category": "游戏资讯",
-      "summary": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过多比墓地”的输电线改道",
-      "content": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过多比墓地”的输电线改道",
-      "image": "🎮",
-      "relatedLinks": [
-        {
-          "label": "🎩 分院帽测试",
-          "path": "/interactive/sorting"
-        },
-        {
-          "label": "✨ 咒语大全",
-          "path": "/world/spells"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zeExxYWJNYW8yUXZkQnMtQlVlMWJPdllYaW9FZl9QYjJWLUtldGhUZ0tJZFRmeG5ZaXFDbXZ0ZEM1S3l1UjhFN01uOEtDd2t3Y0tPU3U2ZFJoWDBydzdPcGl0eWc?oc=5"
     },
     {
       "id": "57e61e3d",
@@ -223,6 +263,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kSFhGSmhTTjNCZGpnZFkwYUhlT0s5TUdnUno4NWw4NnQtQUdGNFVhc1JUdU8zRmRyRVpacHU2MGNZRlFlSGJxMDQ5RWpuS3JHR3RlZzI3QVVETzZrMzRWRDlR?oc=5"
     },
     {
+      "id": "315dce78",
+      "title": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过多比墓地”的输电线改道 - 17173",
+      "date": "2026-08-10",
+      "category": "游戏资讯",
+      "summary": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过多比墓地”的输电线改道",
+      "content": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过多比墓地”的输电线改道",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zeExxYWJNYW8yUXZkQnMtQlVlMWJPdllYaW9FZl9QYjJWLUtldGhUZ0tJZFRmeG5ZaXFDbXZ0ZEM1S3l1UjhFN01uOEtDd2t3Y0tPU3U2ZFJoWDBydzdPcGl0eWc?oc=5"
+    },
+    {
       "id": "d35962df",
       "title": "《哈利波特》书迷影迷成功迫使英国跨境电缆改道 - 文学城",
       "date": "2026-08-10",
@@ -243,8 +303,8 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLU9ObU15ZndXV0MtYmhrRDJVeTdZb1pFaUN3d2Z4Wmd1d1RibThQRUJ3WEdpZzNpemdkcHFhTlhqU2dlcU1aaFhfM1VuV25YUHhfRmIybEZZUEdYU3VXTEtEcVRqZm1fYldVZklGcXM2RlgyUVZfTDFKSmFjbEJWUWhqQmI5dHVw?oc=5"
     },
     {
-      "id": "bb39590b",
-      "title": "哈利·波特新闻资料 - Sin Chew Daily",
+      "id": "e891dd68",
+      "title": "哈利·波特新闻资料 - sinchew.com.my",
       "date": "2026-08-10",
       "category": "综合资讯",
       "summary": "哈利·波特新闻资料",
@@ -283,8 +343,8 @@
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RUzZEOFpwWjhyMGRVZXFacTYwa0tMWWZlNDE5MnRrRWJlNVdFSVlaQVZqb1h5YWVVUHdLTmJiQzUxZjlLX0NPY1NxeFRVTHZDSFd5NEFJWjJfNzExUlVGUkUycmNNb3NDVThOVVcxUkhQdw?oc=5"
     },
     {
-      "id": "e891dd68",
-      "title": "哈利·波特新闻资料 - sinchew.com.my",
+      "id": "bb39590b",
+      "title": "哈利·波特新闻资料 - Sin Chew Daily",
       "date": "2026-08-10",
       "category": "综合资讯",
       "summary": "哈利·波特新闻资料",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDbVN1djdZSEZkYkU1UUpUVjhsOHRyODM4aHljMWVRYjZzNWtNbGtybTI3TnZlTmpnV0wzcUlHSWlQZlBqVnFxdW1KRXJiNC1rWGVHdkpOdUUtb01TRmFRVGpGOA?oc=5"
-    },
-    {
-      "id": "464cfe6a",
-      "title": "梁洁莹／女儿的魔法世界 - 副刊 - 家庭 - 霈润莹心 - Sin Chew Daily",
-      "date": "2026-08-10",
-      "category": "综合资讯",
-      "summary": "梁洁莹／女儿的魔法世界",
-      "content": "梁洁莹／女儿的魔法世界",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HUFY1bUN5V0hRMU5iN3V4UjluaElfMlBFU3JxLTN1cWdCNGQyNUlfWjhWZTFWUHpZaXl4eFU5WGJpckQ1MDMwdklXT2R4NW1TWFlsd2lBZnpzNWozYno3RFRGSUM1WmdxVWdR?oc=5"
-    },
-    {
-      "id": "4b6755a2",
-      "title": "《哈利·波特》女演员破产求生：靠穿衣梳头日赚两万，年收入远超整个演艺生涯 - QQ News",
-      "date": "2026-08-09",
-      "category": "影视动态",
-      "summary": "《哈利·波特》女演员破产求生：靠穿衣梳头日赚两万，年收入远超整个演艺生涯",
-      "content": "《哈利·波特》女演员破产求生：靠穿衣梳头日赚两万，年收入远超整个演艺生涯",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xU1pxRGtlQWlwSjJYVFgzRHd2TTNuaTk1SUViNVBaTlJyUERhWklmcWZHMFBPMWl3bWtYM0pPdGRTOTVsNzVaVHZmTmNDOVJoNldZazVB?oc=5"
-    },
-    {
-      "id": "abc6a456",
-      "title": "\"荣恩女友\"转战OnlyFans!《哈利波特》女星赚钱救全家 - 文学城",
-      "date": "2026-08-09",
-      "category": "影视动态",
-      "summary": "\"荣恩女友\"转战OnlyFans!《哈利波特》女星赚钱救全家",
-      "content": "\"荣恩女友\"转战OnlyFans!《哈利波特》女星赚钱救全家",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TbHVzSW1QcXk2ZTYwTVduX1J1dF8zcHIxbDVZeERHRXMtY0M4VHBXRTEwZmduMnFWQVZ0Z3RwN2JLWDdwN1dHc1huakFOV0pFTVM2T3B3bnRxRVBxNk1qNUttMXVtaWRkYXc?oc=5"
     }
   ]
 }
