@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T12:41:52.375Z",
+  "lastUpdated": "2026-08-13T15:47:11.021Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,6 +23,26 @@
       "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsejNlcUdab0I1d0JKMGlLNGFIRHRodUduNllyS1Z1ZWc3U2x5bEtuNllxbmFsbnY0aFphbmpuMldMSnlqdC1nb1puVHdQWVlEaUtOZVA1RzUwR3dOWVNBSk1nVHFDUV9fay0tZGxWWkgwWlpG?oc=5"
     },
     {
+      "id": "a49c9102",
+      "title": "GRTV News - 《霍格華茲傳承》的續作正在開發中 - gamereactor.cn",
+      "date": "2026-08-13",
+      "category": "影视动态",
+      "summary": "GRTV News",
+      "content": "GRTV News",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa2VTSTkzMWZ3d3R3aEZrdFYwa3M3RFBGb1RoVkE1WEpWUFVLYXl5SXZHMmg2QkZmXzJNNWVPc1RmRHNTRHIxUjJlN0xJNjFiMXdLWDZ5YUJ3RnNIUVpYNnVOMlBlYW16WTA0UjVFbDUxOXJqSnNNbXFDRnJZdGJDY1Y1Z001UWRibV9GUjAxSVdMT25WekVfWEEyOTZXQQ?oc=5"
+    },
+    {
       "id": "648d83e2",
       "title": "华纳兄弟确认将推出《霍格沃茨之遗2》 - 凤凰网科技",
       "date": "2026-08-13",
@@ -43,8 +63,8 @@
       "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Nbm5Jenl3U3U0X3V0NkJFOFBTWEpxZi0wdzZhWGIya2RhVWFrWTBzN3FpUGZnSmhnRk5kY3M3azVsa0JsZk0tZ3JYUWY?oc=5"
     },
     {
-      "id": "24195edd",
-      "title": "哈利波特粉丝逼退4.3亿英镑电缆项目 网友：原因太离谱了 - 驱动之家",
+      "id": "954ef563",
+      "title": "哈利波特粉丝逼退4.3亿英镑电缆项目 网友：原因太离谱了 - news.mydrivers.com",
       "date": "2026-08-12",
       "category": "社区活动",
       "summary": "哈利波特粉丝逼退4.3亿英镑电缆项目 网友：原因太离谱了",
@@ -203,8 +223,8 @@
       "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40VEFpWE9OZUJvcUFGeFZ2cE5BSGZVYVV0cG1HbUhMQTUzVVFlaE05aFlIWEhzN1c5b1FLVk1pWDFmUGtDNzNOZk9jaUtBNkhzQUhVRE1VeUNNU05uWWVadVVjZTYyb0lKRUJ3d2VjRlNlYjFFSFQxNg?oc=5"
     },
     {
-      "id": "f1679305",
-      "title": "尼可拉斯霍特加盟HBO《哈利波特》第二季 - epochtimes.com",
+      "id": "b99d9d56",
+      "title": "尼可拉斯霍特加盟HBO《哈利波特》第二季 - 大纪元",
       "date": "2026-08-12",
       "category": "影视动态",
       "summary": "尼可拉斯霍特加盟HBO《哈利波特》第二季",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NVGU4NEkwLUJoTVFLT0hMcE5SVmI2bHViSTZoYmZLQUMzSjJOZzZ6UmNQdjNxcUlveDdNQjhHU2NRMXZ1cld6eDAxYVMwaHRFd1hKNWN6ZjhoWks4NnhzUWNn?oc=5"
-    },
-    {
-      "id": "4bfac6a5",
-      "title": "英电缆经多比坟墓被哈迷抗议改道 - 新浪网",
-      "date": "2026-08-11",
-      "category": "综合资讯",
-      "summary": "英电缆经多比坟墓被哈迷抗议改道",
-      "content": "英电缆经多比坟墓被哈迷抗议改道",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81RXhfTmh0ZGoxYklVQ2Fscll3bzJyS29DRXRaUDlobTBJM2FQNGNFU0Y3UWJMZHJ5M05YcjBta0pxLVc4X25Ub05neDV6cnpSQVNjQjBCUTFtU2hEakJGUFJ3?oc=5"
     }
   ]
 }
