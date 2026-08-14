@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-14T12:37:32.014Z",
+  "lastUpdated": "2026-08-14T15:39:52.332Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "48a433c2",
+      "title": "Caravan SandWitch 现已在 Epic Games Store 开启限时免费领取 - games.gg",
+      "date": "2026-08-14",
+      "category": "影视动态",
+      "summary": "Caravan SandWitch 现已在 Epic Games Store 开启限时免费领取",
+      "content": "Caravan SandWitch 现已在 Epic Games Store 开启限时免费领取",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONktLTmppNUVIR2Vqb1VnQVpKWmNZOVpNSHg2WGhCUjFka3N2VTBjaG9pYTVXVXl5YU9DY3A3WXZ4TXItaGRRdnlqWlhUVHVheGh5eVljQm9qZUY3MzVBNmpOZXg1eDJKZU9DbkRvZEN1bUF1MjF0ekw0U0s3SktLSGh6N2ZfREd5cEJtNGQwWV8yTEkzWGtqRG11dlM4WVhPRnhlOGx6c05GMFVTREJMd1ZFUjIyQUdReGdjUGpIYl9mN3N0SFFETGpnVTQydHIxQndDeHBSYThaUGg2b1hoTEtJQWhSUzBxNTJYS0Y1dlFja2xmNzk4?oc=5"
+    },
     {
       "id": "a49c9102",
       "title": "GRTV News - 《霍格華茲傳承》的續作正在開發中 - gamereactor.cn",
@@ -143,8 +163,8 @@
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VaFpzS2ZlN2JwVnQwbGNQejFxOV9WUkpOUDJMQXUtQnJfTEJkUXRqWXFKaUV3bzBNdmRkekRGaDR3ZFFOLXVZcDV6dzQzUHJqOFl6SXFjS2pDSmdHb2xPa1B3?oc=5"
     },
     {
-      "id": "ca7935da",
-      "title": "影迷投诉，成功让约合40亿元的跨境电缆改道 - 新浪财经",
+      "id": "a980a3a4",
+      "title": "影迷投诉，成功让约合40亿元的跨境电缆改道 - 新浪网",
       "date": "2026-08-12",
       "category": "影视动态",
       "summary": "影迷投诉，成功让约合40亿元的跨境电缆改道",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYnpLT3d6VlFYdHJQcThJMkJPTmRQWVd6Y09oRFRYclhPVlB2VzJMNEFOVl8wWm5zREttcUdERWxJNG9wVWRtZWYzdU9nejlzSVJVVGhaOXBCMzRmN08ycnR4WVZFaFloZHQxeS13U0o?oc=5"
-    },
-    {
-      "id": "a02f30a7",
-      "title": "绕过“多比”坟墓！《哈利·波特》影迷大量投诉，促使4.3亿英镑跨国电缆改道 - 新浪网",
-      "date": "2026-08-11",
-      "category": "影视动态",
-      "summary": "绕过“多比”坟墓！《哈利·波特》影迷大量投诉，促使4.3亿英镑跨国电缆改道",
-      "content": "绕过“多比”坟墓！《哈利·波特》影迷大量投诉，促使4.3亿英镑跨国电缆改道",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoYm1YVTVEQzY4VjNFMWQ5MC1Fazk2aWUtU3cwWXN1ZDd3dzBfb3NZN1JLTksxc0JXWldCMHFPX3FMT0gyT1o0dkZKUkh2OWV2U3VUSk1SNlBzY0l1U19keExB?oc=5"
     }
   ]
 }
