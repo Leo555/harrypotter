@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T09:49:56.680Z",
+  "lastUpdated": "2026-08-14T12:37:32.014Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -143,26 +143,6 @@
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VaFpzS2ZlN2JwVnQwbGNQejFxOV9WUkpOUDJMQXUtQnJfTEJkUXRqWXFKaUV3bzBNdmRkekRGaDR3ZFFOLXVZcDV6dzQzUHJqOFl6SXFjS2pDSmdHb2xPa1B3?oc=5"
     },
     {
-      "id": "519955bf",
-      "title": "尼古拉斯·霍尔特加盟《哈利·波特2》......将饰演吉德罗·洛哈特 - 매일경제",
-      "date": "2026-08-12",
-      "category": "影视动态",
-      "summary": "尼古拉斯·霍尔特加盟《哈利·波特2》......将饰演吉德罗·洛哈特",
-      "content": "尼古拉斯·霍尔特加盟《哈利·波特2》......将饰演吉德罗·洛哈特",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZM1J0VGFQaU1zNGpURWdaTHhyNFJvaGFRN0s2bHJodElrU3RBVUxZM2FMT2NnTWd2VkdicHEwemdqd3VUTVhzd1VGRlU3dkk2bER3Z0dB?oc=5"
-    },
-    {
       "id": "ca7935da",
       "title": "影迷投诉，成功让约合40亿元的跨境电缆改道 - 新浪财经",
       "date": "2026-08-12",
@@ -181,6 +161,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSzZxV2ZuTlFXWUJsUjFmVUFGNnNlUlViQkRqaGdkQi04UnRXTjA4Z2swTDdDUmhjN0J6Z2Z1UWM4UGhBc1VNOEJ1VFViNjZsOXd3RUxyUFhsaDN3eV9qNzVsek9EdEdnMDh4dld3UXgzV0VzWjlxSnh5NWhTVTVyX1o0Qnh4NWlSMXhsdWlXakhCWjY4am90bw?oc=5"
+    },
+    {
+      "id": "519955bf",
+      "title": "尼古拉斯·霍尔特加盟《哈利·波特2》......将饰演吉德罗·洛哈特 - 매일경제",
+      "date": "2026-08-12",
+      "category": "影视动态",
+      "summary": "尼古拉斯·霍尔特加盟《哈利·波特2》......将饰演吉德罗·洛哈特",
+      "content": "尼古拉斯·霍尔特加盟《哈利·波特2》......将饰演吉德罗·洛哈特",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZM1J0VGFQaU1zNGpURWdaTHhyNFJvaGFRN0s2bHJodElrU3RBVUxZM2FMT2NnTWd2VkdicHEwemdqd3VUTVhzd1VGRlU3dkk2bER3Z0dB?oc=5"
     },
     {
       "id": "699c1c9a",
