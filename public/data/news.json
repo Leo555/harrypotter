@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-14T15:39:52.332Z",
+  "lastUpdated": "2026-08-14T18:38:36.612Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "63ea911a",
+      "title": "两位女导演因不满罗琳反跨行为拒绝执导剧版哈利波特 - 新浪网",
+      "date": "2026-08-14",
+      "category": "综合资讯",
+      "summary": "两位女导演因不满罗琳反跨行为拒绝执导剧版哈利波特",
+      "content": "两位女导演因不满罗琳反跨行为拒绝执导剧版哈利波特",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaFN3dHRhQkhCWDV1OGpvblpOTHhELUtQNHBCVHY1UnBWWmV3QnNDeG9qWVphZWlpa0l0UE1YQVlfbWVEMlVzSnVBUnpTOFFGS2V3eGRvLVVCZ2FYZnd0ejdjT3FGZUE5Rmxia0tWdHlhZkVmR0FGdmN6SXFIOC1RdQ?oc=5"
+    },
     {
       "id": "48a433c2",
       "title": "Caravan SandWitch 现已在 Epic Games Store 开启限时免费领取 - games.gg",
@@ -23,26 +43,6 @@
       "source": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONktLTmppNUVIR2Vqb1VnQVpKWmNZOVpNSHg2WGhCUjFka3N2VTBjaG9pYTVXVXl5YU9DY3A3WXZ4TXItaGRRdnlqWlhUVHVheGh5eVljQm9qZUY3MzVBNmpOZXg1eDJKZU9DbkRvZEN1bUF1MjF0ekw0U0s3SktLSGh6N2ZfREd5cEJtNGQwWV8yTEkzWGtqRG11dlM4WVhPRnhlOGx6c05GMFVTREJMd1ZFUjIyQUdReGdjUGpIYl9mN3N0SFFETGpnVTQydHIxQndDeHBSYThaUGg2b1hoTEtJQWhSUzBxNTJYS0Y1dlFja2xmNzk4?oc=5"
     },
     {
-      "id": "a49c9102",
-      "title": "GRTV News - 《霍格華茲傳承》的續作正在開發中 - gamereactor.cn",
-      "date": "2026-08-13",
-      "category": "影视动态",
-      "summary": "GRTV News",
-      "content": "GRTV News",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa2VTSTkzMWZ3d3R3aEZrdFYwa3M3RFBGb1RoVkE1WEpWUFVLYXl5SXZHMmg2QkZmXzJNNWVPc1RmRHNTRHIxUjJlN0xJNjFiMXdLWDZ5YUJ3RnNIUVpYNnVOMlBlYW16WTA0UjVFbDUxOXJqSnNNbXFDRnJZdGJDY1Y1Z001UWRibV9GUjAxSVdMT25WekVfWEEyOTZXQQ?oc=5"
-    },
-    {
       "id": "a591c1ba",
       "title": "霍格沃茨传奇 2》正式启动，与 HBO 推出的《哈利-波特》系列同步上映 - Sortir à Paris",
       "date": "2026-08-13",
@@ -61,6 +61,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWjdMNmNkZjFZU3VjX0l6ZUY3VVBQMjdEdlZNbDg5NjFMSFpsUVZFLWVRd1pkU0FUUTNNV0p0Mnc4eUt1STBHM2NvdURzSXlBZlgyaENMbmMyZjlzYS12eEtLLWNlbThMdWU3LUVZdXdwUlVYV2pNVWNnNzBpNUluU1V6LW1KcVQ5dnFkSklRWjVET3lFT01sRWRaTTJDLW9aMVVEY0tGNEE2Yk91ZUpMeUlQNkI0UjBlaGVqbVpwUGJDOEhEM2RZQlo2TXY5TFJjOGxrNg?oc=5"
+    },
+    {
+      "id": "a49c9102",
+      "title": "GRTV News - 《霍格華茲傳承》的續作正在開發中 - gamereactor.cn",
+      "date": "2026-08-13",
+      "category": "影视动态",
+      "summary": "GRTV News",
+      "content": "GRTV News",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa2VTSTkzMWZ3d3R3aEZrdFYwa3M3RFBGb1RoVkE1WEpWUFVLYXl5SXZHMmg2QkZmXzJNNWVPc1RmRHNTRHIxUjJlN0xJNjFiMXdLWDZ5YUJ3RnNIUVpYNnVOMlBlYW16WTA0UjVFbDUxOXJqSnNNbXFDRnJZdGJDY1Y1Z001UWRibV9GUjAxSVdMT25WekVfWEEyOTZXQQ?oc=5"
     },
     {
       "id": "35a17a96",
@@ -163,8 +183,8 @@
       "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VaFpzS2ZlN2JwVnQwbGNQejFxOV9WUkpOUDJMQXUtQnJfTEJkUXRqWXFKaUV3bzBNdmRkekRGaDR3ZFFOLXVZcDV6dzQzUHJqOFl6SXFjS2pDSmdHb2xPa1B3?oc=5"
     },
     {
-      "id": "a980a3a4",
-      "title": "影迷投诉，成功让约合40亿元的跨境电缆改道 - 新浪网",
+      "id": "ca7935da",
+      "title": "影迷投诉，成功让约合40亿元的跨境电缆改道 - 新浪财经",
       "date": "2026-08-12",
       "category": "影视动态",
       "summary": "影迷投诉，成功让约合40亿元的跨境电缆改道",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05REFOazF1andGSE0tRkpVdGxFSE5VRWhzUlFlXzFuR1FHa1JlZEV0WDZzc00xdUVMTUpqWVlSbzJWYmdSTWhMdVBJZFlORHhzOXdqVjBUemZKWVp1cVRYeV95d0w?oc=5"
-    },
-    {
-      "id": "907ae224",
-      "title": "哈利波特女星靠订阅制赚疯了！日入10万 拯救绝望人生 - 直播吧",
-      "date": "2026-08-11",
-      "category": "综合资讯",
-      "summary": "哈利波特女星靠订阅制赚疯了！日入10万 拯救绝望人生",
-      "content": "哈利波特女星靠订阅制赚疯了！日入10万 拯救绝望人生",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYnpLT3d6VlFYdHJQcThJMkJPTmRQWVd6Y09oRFRYclhPVlB2VzJMNEFOVl8wWm5zREttcUdERWxJNG9wVWRtZWYzdU9nejlzSVJVVGhaOXBCMzRmN08ycnR4WVZFaFloZHQxeS13U0o?oc=5"
     }
   ]
 }
