@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T09:28:57.171Z",
+  "lastUpdated": "2026-08-17T12:18:59.063Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -103,8 +103,8 @@
       "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SXzVHT3VnUlN1RlYwWmJVanhaZFM1WXk2dGZNWDNEaXk0bVQySXpORmJJQ3NWQm5SakhiQXFIMk1KUGpVRkoxaGVQXzBuZkZlTUhXU21HZVB5dw?oc=5"
     },
     {
-      "id": "e7795cbc",
-      "title": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道 - news.17173.com",
+      "id": "c16f025a",
+      "title": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道 - 17173",
       "date": "2026-08-15",
       "category": "综合资讯",
       "summary": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道",
@@ -121,26 +121,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GR0lTb1hWRnhMMHNmVzVNc1N6Z3ExMXFoR0llOGpESXhIelh5SkFvSVZNc0VKMkh1Z1NITFNFTHpUVHZ5aFRzNmhDZ3dxMjBPVmhIdzA0Q1lfMGFVTk0xTERINDM?oc=5"
-    },
-    {
-      "id": "ddbff0c2",
-      "title": "尼古拉斯·霍尔特将在新《哈利·波特》中饰演吉德罗·洛哈特 - infohub.kz",
-      "date": "2026-08-15",
-      "category": "影视动态",
-      "summary": "尼古拉斯·霍尔特将在新《哈利·波特》中饰演吉德罗·洛哈特",
-      "content": "尼古拉斯·霍尔特将在新《哈利·波特》中饰演吉德罗·洛哈特",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3JOVjIzQlNXdGhqQ1UzMndqQXloRjEyY1VDU3VlZ2tfRlpRTDF5SXlVV1E3NW9zbDA4SDFvb0VHNkNVNUNiemF2aTVUa3ExRmZ4ZENrZWNXUWdscHI0Zm1XNEZoZmh6M24tLUdheXRjN2ZZVUVpcGYtY1ZOcHZHRWJHc3hJNDJlV19wWQ?oc=5"
     },
     {
       "id": "f77549f4",
@@ -201,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RMVZwTlFlYURsV1d2WHQ2VmRDd2I4RzJwQS10bGVCUEl4Z25zQkZ2QW5ybWk4NjQ1TjFnOEdROXpKeXhwV1hub2lqcmxpZw?oc=5"
+    },
+    {
+      "id": "ddbff0c2",
+      "title": "尼古拉斯·霍尔特将在新《哈利·波特》中饰演吉德罗·洛哈特 - infohub.kz",
+      "date": "2026-08-15",
+      "category": "影视动态",
+      "summary": "尼古拉斯·霍尔特将在新《哈利·波特》中饰演吉德罗·洛哈特",
+      "content": "尼古拉斯·霍尔特将在新《哈利·波特》中饰演吉德罗·洛哈特",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3JOVjIzQlNXdGhqQ1UzMndqQXloRjEyY1VDU3VlZ2tfRlpRTDF5SXlVV1E3NW9zbDA4SDFvb0VHNkNVNUNiemF2aTVUa3ExRmZ4ZENrZWNXUWdscHI0Zm1XNEZoZmh6M24tLUdheXRjN2ZZVUVpcGYtY1ZOcHZHRWJHc3hJNDJlV19wWQ?oc=5"
     },
     {
       "id": "492df256",
