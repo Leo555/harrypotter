@@ -1,27 +1,7 @@
 {
-  "lastUpdated": "2026-08-21T18:20:04.889Z",
+  "lastUpdated": "2026-08-21T21:12:32.705Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
-    {
-      "id": "310d9f4e",
-      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 手机新浪网",
-      "date": "2026-08-20",
-      "category": "影视动态",
-      "summary": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
-      "content": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EeTZXMjZhdFl3TWRXc1ZicDJZWGNmdWstU3VfV0oxVWlySGFHMTB1QjA1dXdjbXFYcXNlLXNjVV9RTldxNDVHVExacUNURjZWNUV2bzV5ZzNONzNxNnlMVGptRlFwWGd2c2ZQM281UWtpYzQ?oc=5"
-    },
     {
       "id": "9f8b366a",
       "title": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新 - 手机新浪网",
@@ -41,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrOVo3OHAxX0luUmFBWHFsVENJZWRPZVRRVTE0VUszTXozTXVCeFBPalk4bVdhRmc0ZDFsaEp0ZU1EUmVvS29Bb3A3MTl1SFdqLVdpRUR6c0hleGZVOFJkcjgyVGJhcmpFdDNwVjhsd3pUVFE?oc=5"
+    },
+    {
+      "id": "310d9f4e",
+      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 手机新浪网",
+      "date": "2026-08-20",
+      "category": "影视动态",
+      "summary": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
+      "content": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EeTZXMjZhdFl3TWRXc1ZicDJZWGNmdWstU3VfV0oxVWlySGFHMTB1QjA1dXdjbXFYcXNlLXNjVV9RTldxNDVHVExacUNURjZWNUV2bzV5ZzNONzNxNnlMVGptRlFwWGd2c2ZQM281UWtpYzQ?oc=5"
     },
     {
       "id": "4168f8b7",
