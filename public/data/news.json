@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-22T06:19:29.329Z",
+  "lastUpdated": "2026-08-22T09:16:12.458Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "6a73cefa",
+      "title": "'哈利·波特'演员靠OnlyFans维持生计：“无色情内容……太委屈了”[世界明星话题] - starnewskorea.com",
+      "date": "2026-08-22",
+      "category": "社区活动",
+      "summary": "'哈利·波特'演员靠OnlyFans维持生计：“无色情内容……太委屈了”[世界明星话题]",
+      "content": "'哈利·波特'演员靠OnlyFans维持生计：“无色情内容……太委屈了”[世界明星话题]",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oZmxjbHFocWk0dzlOU1B4VVEwT2l6MEJ4dWFsVE1TUU9Ddm5FM3AwQlpMM2ZBMDZUUUdLUXpsMldRVXhjTHBhYTl6b3I1MHlfZTFHN2J4anc0WU1WUUJFZnBlaXVuSWU3NkRpdG1vbmxmQXRJY29tUQ?oc=5"
+    },
     {
       "id": "861f8079",
       "title": "哈利波特：魁地奇冠军 粉丝发起抗议，成功让原定“穿过永利下载登录墓地”的输电线改道 - womenofchina.com",
@@ -43,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrcjltTUhhejFfdVpOMVJGc05PM3ZyYTdxNUxxbFc0MzY4bjFEZWNObUxHNWdLOVJpbEVVQ0lBbzBvTTFIYk1Oak9qcFZpTVBZYUxNWWZ3?oc=5"
     },
     {
-      "id": "9f8b366a",
-      "title": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新 - 手机新浪网",
-      "date": "2026-08-20",
-      "category": "影视动态",
-      "summary": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新",
-      "content": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrOVo3OHAxX0luUmFBWHFsVENJZWRPZVRRVTE0VUszTXozTXVCeFBPalk4bVdhRmc0ZDFsaEp0ZU1EUmVvS29Bb3A3MTl1SFdqLVdpRUR6c0hleGZVOFJkcjgyVGJhcmpFdDNwVjhsd3pUVFE?oc=5"
-    },
-    {
       "id": "310d9f4e",
       "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 手机新浪网",
       "date": "2026-08-20",
@@ -81,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EeTZXMjZhdFl3TWRXc1ZicDJZWGNmdWstU3VfV0oxVWlySGFHMTB1QjA1dXdjbXFYcXNlLXNjVV9RTldxNDVHVExacUNURjZWNUV2bzV5ZzNONzNxNnlMVGptRlFwWGd2c2ZQM281UWtpYzQ?oc=5"
+    },
+    {
+      "id": "9f8b366a",
+      "title": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新 - 手机新浪网",
+      "date": "2026-08-20",
+      "category": "影视动态",
+      "summary": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新",
+      "content": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrOVo3OHAxX0luUmFBWHFsVENJZWRPZVRRVTE0VUszTXozTXVCeFBPalk4bVdhRmc0ZDFsaEp0ZU1EUmVvS29Bb3A3MTl1SFdqLVdpRUR6c0hleGZVOFJkcjgyVGJhcmpFdDNwVjhsd3pUVFE?oc=5"
     },
     {
       "id": "e64c2515",
@@ -323,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUdEJ3SUZMd212c2h0d0x5RkRreGs0UUdteWIxS1I5Z1dQLTI0SWNrNW16MldvN2tLemJKQUcwYUNiV2JzdW9MU3JRaDV5RHF2VWNpTVB5WnJtVmh0TnJKWA?oc=5"
     },
     {
+      "id": "e7795cbc",
+      "title": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道 - news.17173.com",
+      "date": "2026-08-15",
+      "category": "综合资讯",
+      "summary": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道",
+      "content": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GR0lTb1hWRnhMMHNmVzVNc1N6Z3ExMXFoR0llOGpESXhIelh5SkFvSVZNc0VKMkh1Z1NITFNFTHpUVHZ5aFRzNmhDZ3dxMjBPVmhIdzA0Q1lfMGFVTk0xTERINDM?oc=5"
+    },
+    {
       "id": "25e48019",
       "title": "华纳官方确认《88老虎网𶢂》 或为PS6首发之一 - womenofchina.com",
       "date": "2026-08-15",
@@ -343,26 +383,6 @@
       "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RMVZwTlFlYURsV1d2WHQ2VmRDd2I4RzJwQS10bGVCUEl4Z25zQkZ2QW5ybWk4NjQ1TjFnOEdROXpKeXhwV1hub2lqcmxpZw?oc=5"
     },
     {
-      "id": "c16f025a",
-      "title": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道 - 17173",
-      "date": "2026-08-15",
-      "category": "综合资讯",
-      "summary": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道",
-      "content": "为避开《哈利波特》多比“墓地”，价值 4.3 亿英镑海底电缆项目被迫改道",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GR0lTb1hWRnhMMHNmVzVNc1N6Z3ExMXFoR0llOGpESXhIelh5SkFvSVZNc0VKMkh1Z1NITFNFTHpUVHZ5aFRzNmhDZ3dxMjBPVmhIdzA0Q1lfMGFVTk0xTERINDM?oc=5"
-    },
-    {
       "id": "f77549f4",
       "title": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款壹L定发娱乐赌注APP - womenofchina.com",
       "date": "2026-08-15",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNY0d6Mko0QW9HQzdhTXphMDV4R1JJTkNHSWpIRGV1QU1tNDVuRThYQjBIRERsdUM5SFJSdHFzMWpiVTlOSktUVndiOVJaQzVHNEdKRG5zOE1oWkxH?oc=5"
-    },
-    {
-      "id": "c910c634",
-      "title": "华纳官方确认《体验金白񒚚》 或为PS6首发之一 - womenofchina.com",
-      "date": "2026-08-15",
-      "category": "影视动态",
-      "summary": "华纳官方确认《体验金白񒚚》 或为PS6首发之一",
-      "content": "华纳官方确认《体验金白񒚚》 或为PS6首发之一",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qSHA1VE9kdkNJZnZjNm9PT1ZySW9jcnRQUThtMGgtY3ppVlpmV3J3N0ZlWGFNTFR2ZjJIQVlmelZfWFVHZ0VMUUMyZUJ3d1VCaEVzY05tZjQ4QjRMOEc0?oc=5"
     }
   ]
 }
