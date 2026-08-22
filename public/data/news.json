@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-22T09:16:12.458Z",
+  "lastUpdated": "2026-08-22T12:15:30.284Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "a365987d",
+      "title": "Pavilion Damansara Heights变身魔法世界穿越9¾月台开启霍格沃茨之旅| 活动 | U玩食| 東方網馬來西亞東方日報 - orientaldaily.com.my",
+      "date": "2026-08-22",
+      "category": "社区活动",
+      "summary": "Pavilion Damansara Heights变身魔法世界穿越9¾月台开启霍格沃茨之旅| 活动 | U玩食| 東方網馬來西亞東方日報",
+      "content": "Pavilion Damansara Heights变身魔法世界穿越9¾月台开启霍格沃茨之旅| 活动 | U玩食| 東方網馬來西亞東方日報",
+      "image": "🎉",
+      "relatedLinks": [
+        {
+          "label": "🧪 魔药百科",
+          "path": "/world/potions"
+        },
+        {
+          "label": "🪄 魔杖匹配",
+          "path": "/interactive/wand"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mSFpmZUdBWmpmS2wtLWhYdlFBYm93Y0QzRDNmRGljS0tUeXNGbDlSOFZjVU5BRjJrcVVNUTluUGNNSllBb01sZ3pmdlZ4Q00yNVpMUE9lZXg0N0JUYW1fNEp4bS00T1lSWk9SU3BPSFBZbDhvTl8wRmZrOHU?oc=5"
+    },
     {
       "id": "6a73cefa",
       "title": "'哈利·波特'演员靠OnlyFans维持生计：“无色情内容……太委屈了”[世界明星话题] - starnewskorea.com",
@@ -63,8 +83,8 @@
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrcjltTUhhejFfdVpOMVJGc05PM3ZyYTdxNUxxbFc0MzY4bjFEZWNObUxHNWdLOVJpbEVVQ0lBbzBvTTFIYk1Oak9qcFZpTVBZYUxNWWZ3?oc=5"
     },
     {
-      "id": "310d9f4e",
-      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 手机新浪网",
+      "id": "94569027",
+      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 新浪网",
       "date": "2026-08-20",
       "category": "影视动态",
       "summary": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
@@ -83,8 +103,8 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EeTZXMjZhdFl3TWRXc1ZicDJZWGNmdWstU3VfV0oxVWlySGFHMTB1QjA1dXdjbXFYcXNlLXNjVV9RTldxNDVHVExacUNURjZWNUV2bzV5ZzNONzNxNnlMVGptRlFwWGd2c2ZQM281UWtpYzQ?oc=5"
     },
     {
-      "id": "9f8b366a",
-      "title": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新 - 手机新浪网",
+      "id": "88b9c466",
+      "title": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新 - 新浪网",
       "date": "2026-08-20",
       "category": "影视动态",
       "summary": "哈利·波特与魔法石精选片段8发布，经典电影赏析持续更新",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RMVZwTlFlYURsV1d2WHQ2VmRDd2I4RzJwQS10bGVCUEl4Z25zQkZ2QW5ybWk4NjQ1TjFnOEdROXpKeXhwV1hub2lqcmxpZw?oc=5"
-    },
-    {
-      "id": "f77549f4",
-      "title": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款壹L定发娱乐赌注APP - womenofchina.com",
-      "date": "2026-08-15",
-      "category": "周边商品",
-      "summary": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款壹L定发娱乐赌注APP",
-      "content": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款壹L定发娱乐赌注APP",
-      "image": "🛍️",
-      "relatedLinks": [
-        {
-          "label": "⚗️ 魔法物品",
-          "path": "/world/items"
-        },
-        {
-          "label": "🐉 魔法生物",
-          "path": "/world/creatures"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNY0d6Mko0QW9HQzdhTXphMDV4R1JJTkNHSWpIRGV1QU1tNDVuRThYQjBIRERsdUM5SFJSdHFzMWpiVTlOSktUVndiOVJaQzVHNEdKRG5zOE1oWkxH?oc=5"
     }
   ]
 }
