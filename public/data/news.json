@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T12:16:26.862Z",
+  "lastUpdated": "2026-08-23T15:10:50.761Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -143,8 +143,8 @@
       "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa3dNeEYyWXBvMWZEMEUxS2JzQUhLbFNiZ3pkTU9UTGpPVUV4WWVpVThaZHN2V3EwVEx3QnQ0MnYxU0d3Ql8wMldyWHVLMU1aazhMRUU2MElJdUctYlBDR1IwMGxzRjVFV1h0X0J4QmRlRUYxQlJ5anRJNlpSc0tvZXFNaEo2a3JOZmc?oc=5"
     },
     {
-      "id": "310d9f4e",
-      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 手机新浪网",
+      "id": "94569027",
+      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 新浪网",
       "date": "2026-08-20",
       "category": "影视动态",
       "summary": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
@@ -303,26 +303,6 @@
       "source": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zY0VvQWkyWjBUX2MyVWFaSUdraWlCdEtERS1VQWU2bkYxR0JURWpfZVdKM1BKSTNxai01dWtBZF93SVhETlNnc0RqeVNwSkpPVWZvVXh6NA?oc=5"
     },
     {
-      "id": "d3617c8e",
-      "title": "华纳官方确认《360登𻥔》 或为PS6首发之一 - womenofchina.com",
-      "date": "2026-08-17",
-      "category": "影视动态",
-      "summary": "华纳官方确认《360登𻥔》 或为PS6首发之一",
-      "content": "华纳官方确认《360登𻥔》 或为PS6首发之一",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GNk5mY3F3TmFhd2xpM0RqcENxYUNtYVFONTk2RmdYT0NDN2RzYTl4U0xBczNpS3g3MU1kU05Ta0FEV3VxckJ2X1NMS2NvLUdNRTc1RVFVaVlmQ3N6d3BsRUt3?oc=5"
-    },
-    {
       "id": "d90e3b5b",
       "title": "华纳官方确认《伟德网上投񄄒》 或为PS6首发之一 - womenofchina.com",
       "date": "2026-08-17",
@@ -341,6 +321,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByWTcwQVc0OF9vWWtxSURHT1dRYlFsUVl0M2RXLU02dFNOakV5MDRtNkZyR1pJTU5MZzRLZHYyelF4TzJsNVZDWmdZajFIOHAtNUxFNHF3?oc=5"
+    },
+    {
+      "id": "d3617c8e",
+      "title": "华纳官方确认《360登𻥔》 或为PS6首发之一 - womenofchina.com",
+      "date": "2026-08-17",
+      "category": "影视动态",
+      "summary": "华纳官方确认《360登𻥔》 或为PS6首发之一",
+      "content": "华纳官方确认《360登𻥔》 或为PS6首发之一",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GNk5mY3F3TmFhd2xpM0RqcENxYUNtYVFONTk2RmdYT0NDN2RzYTl4U0xBczNpS3g3MU1kU05Ta0FEV3VxckJ2X1NMS2NvLUdNRTc1RVFVaVlmQ3N6d3BsRUt3?oc=5"
     },
     {
       "id": "544a0613",
