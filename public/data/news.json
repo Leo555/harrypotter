@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-25T21:16:17.879Z",
+  "lastUpdated": "2026-08-26T00:35:48.965Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "c36f744d",
+      "title": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》 - 新浪财经",
+      "date": "2026-08-25",
+      "category": "综合资讯",
+      "summary": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》",
+      "content": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ocXBVcWpVMmZJUURONUJHUDF5WlVZN2xTR1I2VlpFNUZKcEN2cklRc0MtWmg5OWFsSHVDOTN4VFYyQ0doOEUtSVBqUkItbDFiM0VhdllqNU9MWXp0alpjVGdWclBQMURBV1AzcnctbVhGU00xem80eA?oc=5"
+    },
     {
       "id": "6bc9cb06",
       "title": "基特·哈灵顿将在《哈利·波特》剧集中替代尼古拉斯· 霍尔特 - UA.NEWS",
@@ -83,8 +103,8 @@
       "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOEszTmstNU9sU21RbHdqUExqUUJXb3pEQ1c2Ql83d3Z6NTRZcDJVcDdHNEg4a3BUV1ZGLTZ2RzB5OEptTVQ0M3JaanN1VkM0WWtiMTdxR2pvMzY3d2lfTXVKclNoNHFmUjI3SDZQVnZUNE9NYTZ6ZjFUd1RLa09SSER1QnFUSDdIbzB0X0Mxem5UXzBsOThXbA?oc=5"
     },
     {
-      "id": "f12d77d0",
-      "title": "尼古拉斯·霍尔特退出后，基特·哈灵顿将接替出演HBO《哈利·波特》第二季的吉德罗·洛哈特一角 - 17173",
+      "id": "dca81d54",
+      "title": "尼古拉斯·霍尔特退出后，基特·哈灵顿将接替出演HBO《哈利·波特》第二季的吉德罗·洛哈特一角 - news.17173.com",
       "date": "2026-08-24",
       "category": "影视动态",
       "summary": "尼古拉斯·霍尔特退出后，基特·哈灵顿将接替出演HBO《哈利·波特》第二季的吉德罗·洛哈特一角",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84dEtYMFpDVWtyM0x6UzgzY3ExU2prWnRoYXZfdmM5TWhmXzcxUkM4cFZwcnJEYnBxOHFLOTRSWWZJSjdDWTlXT2NNOVowN3NqMjFXZjdDZzZBWXUxOG4tNjM0RUU2LWhMSUE?oc=5"
-    },
-    {
-      "id": "0d1373c8",
-      "title": "华纳官方确认《网络押注大𹢘》 或为PS6首发之一 - womenofchina.com",
-      "date": "2026-08-18",
-      "category": "影视动态",
-      "summary": "华纳官方确认《网络押注大𹢘》 或为PS6首发之一",
-      "content": "华纳官方确认《网络押注大𹢘》 或为PS6首发之一",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ncGdtb0xzWTc2R2x6MGVRdkxPNlpoZFlFSTdqcnhDNWYtNVhBMnJZVUxrcXZBZl9xZ3Z1eUQ2dUxmZWkwX2lqdXZTMDFCOVc4RjBXS2xNZDE?oc=5"
     }
   ]
 }
