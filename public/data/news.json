@@ -1,27 +1,7 @@
 {
-  "lastUpdated": "2026-08-26T16:08:12.085Z",
+  "lastUpdated": "2026-08-26T19:29:11.117Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
-    {
-      "id": "76f17771",
-      "title": "尼古拉斯霍特退出《哈利波特》 基特哈灵顿接棒喊美梦成真 - 娱乐 - 国外娱乐 - 好莱坞 - Sin Chew Daily",
-      "date": "2026-08-26",
-      "category": "综合资讯",
-      "summary": "尼古拉斯霍特退出《哈利波特》 基特哈灵顿接棒喊美梦成真",
-      "content": "尼古拉斯霍特退出《哈利波特》 基特哈灵顿接棒喊美梦成真",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FbDVoZkdIQ2Jqb25sUGt1RWZVaDJzcFJ1ZkNfeFBzVnlQQmlTR0cwaFZuVjgyeGtCNjZlYTBsTkRoZXhjaFRTN2Y3NHRrRGtkN0hpUXE5RC01ZE1qc3FWaVVlckp1NTlkMmxUMVV3VQ?oc=5"
-    },
     {
       "id": "67fae3c4",
       "title": "汤姆·费尔顿与鲁伯特·格林特加盟哈利波特舞台剧，下一位会是谁 - 手机新浪网",
@@ -41,6 +21,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHhobUdNNTBaSnNSRGtnSF81NG0weGxSSTEwZnZyeEhwN0J6bE1JOGo3QnZBYUtQS2hRWkVoUW5vTndwLTNNWTJCTWVvNlMxWGhqSnp3aFBfbHhISlpmUEdCSDVLNWZvMnY5NzJHenpIS0hlam0wSHFJQWpjck81c0ZjelhTLXYteUtmSDdCSXFWX2EzNTJ0Tm1YSGs3NGZta2k2aHBB?oc=5"
+    },
+    {
+      "id": "ed7a3940",
+      "title": "稻垣吾郎将出演舞台剧《哈利·波特与被诅咒的孩子》 3月开始售票 - 华人头条",
+      "date": "2026-08-26",
+      "category": "影视动态",
+      "summary": "稻垣吾郎将出演舞台剧《哈利·波特与被诅咒的孩子》 3月开始售票",
+      "content": "稻垣吾郎将出演舞台剧《哈利·波特与被诅咒的孩子》 3月开始售票",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmxTTGh3aWZSdGl1ZjFxSDl1YWoxWVppNUpPWVJtV3VGQk93Ym8yN19KeVYyY2ZDb0UtU09uc0RIaTc4RHc4VWZrRlY2N09RZnpmQzhGMnBWOEFZWmRYendoVWpRU09RVFA5UlpRdm90enpMRi1RRTBXTEc2MTB4TURodHVXS3ZYWWJnQUdn?oc=5"
+    },
+    {
+      "id": "76f17771",
+      "title": "尼古拉斯霍特退出《哈利波特》 基特哈灵顿接棒喊美梦成真 - 娱乐 - 国外娱乐 - 好莱坞 - Sin Chew Daily",
+      "date": "2026-08-26",
+      "category": "综合资讯",
+      "summary": "尼古拉斯霍特退出《哈利波特》 基特哈灵顿接棒喊美梦成真",
+      "content": "尼古拉斯霍特退出《哈利波特》 基特哈灵顿接棒喊美梦成真",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FbDVoZkdIQ2Jqb25sUGt1RWZVaDJzcFJ1ZkNfeFBzVnlQQmlTR0cwaFZuVjgyeGtCNjZlYTBsTkRoZXhjaFRTN2Y3NHRrRGtkN0hpUXE5RC01ZE1qc3FWaVVlckp1NTlkMmxUMVV3VQ?oc=5"
     },
     {
       "id": "170f2688",
@@ -83,26 +103,6 @@
       "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWFkwcDgybVdsNVVWZ2ZOeFVrZUxNQmlpcEVWeC1lN2xUMDF0YlFJVUF4bEU2NVRVb21FdERVelF3MFV5Z3d3U0dwVWRWXzBOQk53WWFySEFKLUhUZmZaeEk3a1dwLXgtelZCejZ1R1lNdjFidGcwWVVzXzVJc0lKTzM5eU04ZGY1MGdhRDhHWFRxNWttRlE?oc=5"
     },
     {
-      "id": "5d7d4863",
-      "title": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》 - finance.sina.com.cn",
-      "date": "2026-08-25",
-      "category": "综合资讯",
-      "summary": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》",
-      "content": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ocXBVcWpVMmZJUURONUJHUDF5WlVZN2xTR1I2VlpFNUZKcEN2cklRc0MtWmg5OWFsSHVDOTN4VFYyQ0doOEUtSVBqUkItbDFiM0VhdllqNU9MWXp0alpjVGdWclBQMURBV1AzcnctbVhGU00xem80eA?oc=5"
-    },
-    {
       "id": "88b661e6",
       "title": "《哈利波特》影集换角 基特哈灵顿接演洛哈教授直呼美梦成真 - 茉莉花新闻网",
       "date": "2026-08-25",
@@ -121,6 +121,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5US01CVzdPU3MwQlJRTFF2RHlyTVFJbWRnZG9SUW5zWDZCUWszb0JhQlBUaFlJOG40bkZDZ0g5TmN3V3pf?oc=5"
+    },
+    {
+      "id": "c36f744d",
+      "title": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》 - 新浪财经",
+      "date": "2026-08-25",
+      "category": "综合资讯",
+      "summary": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》",
+      "content": "《权游》“雪诺”接替尼古拉斯·霍尔特出演《哈利·波特》",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ocXBVcWpVMmZJUURONUJHUDF5WlVZN2xTR1I2VlpFNUZKcEN2cklRc0MtWmg5OWFsSHVDOTN4VFYyQ0doOEUtSVBqUkItbDFiM0VhdllqNU9MWXp0alpjVGdWclBQMURBV1AzcnctbVhGU00xem80eA?oc=5"
+    },
+    {
+      "id": "f3d59936",
+      "title": "华纳官方确认《两分彩APP下񙫤》 或为PS6首发之一 - womenofchina.com",
+      "date": "2026-08-25",
+      "category": "影视动态",
+      "summary": "华纳官方确认《两分彩APP下񙫤》 或为PS6首发之一",
+      "content": "华纳官方确认《两分彩APP下񙫤》 或为PS6首发之一",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45WWtzamhyZlFRV19UaF9XQmpIRzRIUXFzZ04xTjhzUVgzbnVoOHRYSURiV3FzU1UwaGthUGNJQ1pzYnFJTTF6UGhqcEN1dXNGc3ZtT19ISjFSOGd2N1E?oc=5"
     },
     {
       "id": "ab77171c",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrcjltTUhhejFfdVpOMVJGc05PM3ZyYTdxNUxxbFc0MzY4bjFEZWNObUxHNWdLOVJpbEVVQ0lBbzBvTTFIYk1Oak9qcFZpTVBZYUxNWWZ3?oc=5"
-    },
-    {
-      "id": "15d45924",
-      "title": "终极之战！《哈利·波特与死亡圣器（下）》曝剧照 - 华人头条",
-      "date": "2026-08-20",
-      "category": "影视动态",
-      "summary": "终极之战！《哈利·波特与死亡圣器（下）》曝剧照",
-      "content": "终极之战！《哈利·波特与死亡圣器（下）》曝剧照",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa3dNeEYyWXBvMWZEMEUxS2JzQUhLbFNiZ3pkTU9UTGpPVUV4WWVpVThaZHN2V3EwVEx3QnQ0MnYxU0d3Ql8wMldyWHVLMU1aazhMRUU2MElJdUctYlBDR1IwMGxzRjVFV1h0X0J4QmRlRUYxQlJ5anRJNlpSc0tvZXFNaEo2a3JOZmc?oc=5"
-    },
-    {
-      "id": "310d9f4e",
-      "title": "哈利·波特与魔法石精选片段6，电影赏析经典音乐 - 手机新浪网",
-      "date": "2026-08-20",
-      "category": "影视动态",
-      "summary": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
-      "content": "哈利·波特与魔法石精选片段6，电影赏析经典音乐",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EeTZXMjZhdFl3TWRXc1ZicDJZWGNmdWstU3VfV0oxVWlySGFHMTB1QjA1dXdjbXFYcXNlLXNjVV9RTldxNDVHVExacUNURjZWNUV2bzV5ZzNONzNxNnlMVGptRlFwWGd2c2ZQM281UWtpYzQ?oc=5"
     }
   ]
 }
