@@ -1,15 +1,35 @@
 {
-  "lastUpdated": "2026-08-27T13:16:02.094Z",
+  "lastUpdated": "2026-08-28T00:08:23.331Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "b9732af9",
-      "title": "【#鲁伯特舞台剧再演罗恩#】是谁的童年回来了！！据外媒 - 新浪网",
+      "id": "5d63ec5e",
+      "title": "《乐高哈利波特》回到霍格沃 - news.17173.com",
       "date": "2026-08-27",
-      "category": "综合资讯",
-      "summary": "【#鲁伯特舞台剧再演罗恩#】是谁的童年回来了！！据外媒",
-      "content": "【#鲁伯特舞台剧再演罗恩#】是谁的童年回来了！！据外媒",
-      "image": "📰",
+      "category": "周边商品",
+      "summary": "《乐高哈利波特》回到霍格沃",
+      "content": "《乐高哈利波特》回到霍格沃",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nNmJNNmJYOGhfOGtUb29wVkJNZ2VEY2pVSmMtaUM5NnVSR2ZJMW12Qi1LZGM0UTY4SlIwTnVSYU5rYkZCMk8xcmxEek1qaEJlazk2MVh2ekNpV0dPVUlid3puS1A?oc=5"
+    },
+    {
+      "id": "3fbf9afe",
+      "title": "《哈利·波特》和《怪物史莱克》重返葡萄牙影院 - The Portugal News",
+      "date": "2026-08-27",
+      "category": "影视动态",
+      "summary": "《哈利·波特》和《怪物史莱克》重返葡萄牙影院",
+      "content": "《哈利·波特》和《怪物史莱克》重返葡萄牙影院",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -20,7 +40,47 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CYU4walN5enZpNGNDWGZvWTJaN2dsdW4xRDV0SVhta3kxUF9panFfMnA0R1k5NnpLV25lRjlQd0VhQ09jSDd1ajJKaTBHSUlUd2YzVjhDS1RsNzJqTmZzYk1HOA?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcHRaaWVtTEUzc2h0MWpDZThnNWR0dmFzdUxDNVdrY2pKZW9iX3ZmUWgzaXBtdExvSHdzRkJRNHJfRE5IaWgxNmM3aGhFVjl0NmdQbGprWG02NFgxTEVLc2VFakJDd1NmRTRTZjM3cGhnN0h0OFd3STVVUTlBT1l6cU5rTDRDcXF0dXY1WGxrcmZrWUNRUlBkSTlDVnNjX3p6ekRDQl9lS1VkbTlQTC1ZQ1cySQ?oc=5"
+    },
+    {
+      "id": "b4ed99b4",
+      "title": "《哈利·波特与魔法石》精选片段88发布 - 新浪网",
+      "date": "2026-08-27",
+      "category": "影视动态",
+      "summary": "《哈利·波特与魔法石》精选片段88发布",
+      "content": "《哈利·波特与魔法石》精选片段88发布",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTmNzRzZ3dmdvdzFidV9wdUJkTDhvRVRwWjNqYUdMX1E1dEo1ZFJONVNLNEJXRVhRY0pscFY3bjc4b1lOQUZON3dkdjlkbWU0Ul82R0pWekRiSFYxRVRkdnJXcG1SODd0ejNpeEkxOTF6ckxtbHpRNGFrU25kdDFVWWYzS0pfallpZ1JFZjZRcml4S3NoZElCU0lzTXhKQXBtTk1GMkdoTlpHbjctWXZQeElwYm8tVGxlRUpsMnpKcGFoS0FlSlVKZGd6a2o2WEJPWnBvczlFdS1IMEU?oc=5"
+    },
+    {
+      "id": "ff380d55",
+      "title": "路拔格连《哈利波特》舞台剧再演荣恩即被反原作者网民狂闹｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
+      "date": "2026-08-27",
+      "category": "影视动态",
+      "summary": "路拔格连《哈利波特》舞台剧再演荣恩即被反原作者网民狂闹｜即时新闻｜缤FUN星网｜on.cc东网",
+      "content": "路拔格连《哈利波特》舞台剧再演荣恩即被反原作者网民狂闹｜即时新闻｜缤FUN星网｜on.cc东网",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZF9ESVZobUJ4cWc4LVRFVHR4UFJlTXl3QTFZS29ReWptVlNUempSYnozOFNMcGl1OWwtUFFNUm9Tc3dBcVhXZ3FyMGhlREFRdVNycE1ZS2taMTZxalNOV0VxVlFLZmJLMzdVMGt5cDdteWNfZm1mcmZlcnppYkRaVmN4eXMwZGxySUhvOUlzTWJMR3hjbHFWMklvOA?oc=5"
     },
     {
       "id": "6552fbd6",
@@ -43,13 +103,13 @@
       "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHVXUnFXbVhEbFZucXhjdlI3WFgycG1hTVlmaDhPYVI5aWduX1A1VS05THhvT3F6YWVjSnhwVHhQQmUxZ0FYOWF0R29wdU1iQm1TbGEtSXV5cEFzN2hLdmpOS0JBck9YODM5SVVpVDN1dnNSc1B1cFZGd1NlQzI3cnBCOTJvLUpkbXh6WXRyN1lvZVdtQ2tTcDRUSWJtbS1LcFVvdw?oc=5"
     },
     {
-      "id": "a4b142b5",
-      "title": "鲁伯特·格林特回归百老汇，在《哈利波特：魁地奇冠军与被诅咒的孩子》中再次饰演罗恩·韦斯莱 - 17173",
-      "date": "2026-08-26",
-      "category": "影视动态",
-      "summary": "鲁伯特·格林特回归百老汇，在《哈利波特：魁地奇冠军与被诅咒的孩子》中再次饰演罗恩·韦斯莱",
-      "content": "鲁伯特·格林特回归百老汇，在《哈利波特：魁地奇冠军与被诅咒的孩子》中再次饰演罗恩·韦斯莱",
-      "image": "📺",
+      "id": "b9732af9",
+      "title": "【#鲁伯特舞台剧再演罗恩#】是谁的童年回来了！！据外媒 - 新浪网",
+      "date": "2026-08-27",
+      "category": "综合资讯",
+      "summary": "【#鲁伯特舞台剧再演罗恩#】是谁的童年回来了！！据外媒",
+      "content": "【#鲁伯特舞台剧再演罗恩#】是谁的童年回来了！！据外媒",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -60,7 +120,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TeHRtcE16d2hDM05XNENpdzduWjE0SThRY2JPd1laaVZKVnBDTDJHazMwWndCMDRianpMRG1ENHZyR0Q0SzVyTUZ0ZlNxTV9obVFQejdfQmcyOVFKSWdJR1NvSlY?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CYU4walN5enZpNGNDWGZvWTJaN2dsdW4xRDV0SVhta3kxUF9panFfMnA0R1k5NnpLV25lRjlQd0VhQ09jSDd1ajJKaTBHSUlUd2YzVjhDS1RsNzJqTmZzYk1HOA?oc=5"
     },
     {
       "id": "ed7a3940",
@@ -123,6 +183,26 @@
       "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHhobUdNNTBaSnNSRGtnSF81NG0weGxSSTEwZnZyeEhwN0J6bE1JOGo3QnZBYUtQS2hRWkVoUW5vTndwLTNNWTJCTWVvNlMxWGhqSnp3aFBfbHhISlpmUEdCSDVLNWZvMnY5NzJHenpIS0hlam0wSHFJQWpjck81c0ZjelhTLXYteUtmSDdCSXFWX2EzNTJ0Tm1YSGs3NGZta2k2aHBB?oc=5"
     },
     {
+      "id": "0cfbf61e",
+      "title": "鲁伯特·格林特回归百老汇，在《哈利波特：魁地奇冠军与被诅咒的孩子》中再次饰演罗恩·韦斯莱 - news.17173.com",
+      "date": "2026-08-26",
+      "category": "影视动态",
+      "summary": "鲁伯特·格林特回归百老汇，在《哈利波特：魁地奇冠军与被诅咒的孩子》中再次饰演罗恩·韦斯莱",
+      "content": "鲁伯特·格林特回归百老汇，在《哈利波特：魁地奇冠军与被诅咒的孩子》中再次饰演罗恩·韦斯莱",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TeHRtcE16d2hDM05XNENpdzduWjE0SThRY2JPd1laaVZKVnBDTDJHazMwWndCMDRianpMRG1ENHZyR0Q0SzVyTUZ0ZlNxTV9obVFQejdfQmcyOVFKSWdJR1NvSlY?oc=5"
+    },
+    {
       "id": "0547a992",
       "title": "哈利波特里的妖怪书，被乐高做活了！！_中国大陆_新闻 - 华人头条",
       "date": "2026-08-26",
@@ -141,6 +221,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RRW95OTNjMVMzR1dJc1lnV2VKV3VjQ2h1VnNVSkJZZTVrblVtaXpodWpDeFU3eTV1ejdEWnNXbk1ISWo1Ym5MZDVudlJaamZFakMzWlRlTzFQUGx4V0E?oc=5"
+    },
+    {
+      "id": "a81415cc",
+      "title": "华纳官方确认《澳门管家婆1002》 或为PS6首发之一 - womenofchina.com",
+      "date": "2026-08-26",
+      "category": "影视动态",
+      "summary": "华纳官方确认《澳门管家婆1002》 或为PS6首发之一",
+      "content": "华纳官方确认《澳门管家婆1002》 或为PS6首发之一",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWWVlJcHF3ZnFRZVVCWmNzemZxSHMwVmdLS3BoQlE1bi1OT2g1RG1HOGt4Rkdkc0Nla0ZRUUFNNVJpTmk3ZFVIRmRJai14ZVJaZU43UmRzU2ZFOTV0dGd3WV8xRy1IT3c2VXhN?oc=5"
     },
     {
       "id": "170f2688",
@@ -283,8 +383,8 @@
       "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOEszTmstNU9sU21RbHdqUExqUUJXb3pEQ1c2Ql83d3Z6NTRZcDJVcDdHNEg4a3BUV1ZGLTZ2RzB5OEptTVQ0M3JaanN1VkM0WWtiMTdxR2pvMzY3d2lfTXVKclNoNHFmUjI3SDZQVnZUNE9NYTZ6ZjFUd1RLa09SSER1QnFUSDdIbzB0X0Mxem5UXzBsOThXbA?oc=5"
     },
     {
-      "id": "f12d77d0",
-      "title": "尼古拉斯·霍尔特退出后，基特·哈灵顿将接替出演HBO《哈利·波特》第二季的吉德罗·洛哈特一角 - 17173",
+      "id": "dca81d54",
+      "title": "尼古拉斯·霍尔特退出后，基特·哈灵顿将接替出演HBO《哈利·波特》第二季的吉德罗·洛哈特一角 - news.17173.com",
       "date": "2026-08-24",
       "category": "影视动态",
       "summary": "尼古拉斯·霍尔特退出后，基特·哈灵顿将接替出演HBO《哈利·波特》第二季的吉德罗·洛哈特一角",
@@ -301,106 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12UE8xQVpMajgwbjN5NVdRdVdvVnY5aFlkQjBjNHhTeDNLMFFGWmh3VDQ2cjY3UFRYbmtGNnBxUEd2QWhVZTdlN0tIWVZjQXd1VmxGOUFqaHAzTDhDQ0pKZUZaSVQ?oc=5"
-    },
-    {
-      "id": "ef7ceff3",
-      "title": "本周伦敦戏剧优惠：LES MISÉRABLES等精彩剧目门票 - BroadwayWorld",
-      "date": "2026-08-24",
-      "category": "综合资讯",
-      "summary": "本周伦敦戏剧优惠：LES MISÉRABLES等精彩剧目门票",
-      "content": "本周伦敦戏剧优惠：LES MISÉRABLES等精彩剧目门票",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOFpjYTFBaUIta2RXNm85ZVhUWnFZNFlJcnhGajNpYlF2SWxfYUZBdWJhV1M1LWZQX3lWMFpsMGc2eHFqVTRlc09MQTRzaTExZDZtRkJuamhhRFlVQlV5eFBLb1NvbWVGcHd6YlR1NjNCNmJ2Z3RHYjR3U0FxRlBoVlN4ZW8wNks3aVJOVVFHcklIam9neGE0M0ZLdFVDZmIzOTI5SlBneVRQZEk3dmdkcHdRMlR3RXgtcGc?oc=5"
-    },
-    {
-      "id": "22ffd873",
-      "title": "华纳官方确认《银泰娱乐游𽒘》 或为PS6首发之一 - womenofchina.com",
-      "date": "2026-08-24",
-      "category": "影视动态",
-      "summary": "华纳官方确认《银泰娱乐游𽒘》 或为PS6首发之一",
-      "content": "华纳官方确认《银泰娱乐游𽒘》 或为PS6首发之一",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SOXJnTXhRcWdWei15NlVtdVJZU295ZXdLV0JFU0Z4VUNXMVlod0lRQkc1by13TzJLRkk1VldDZHdYbGQtT2lrMm5kREUyY2g2bUsyemotZ2M?oc=5"
-    },
-    {
-      "id": "67a53f92",
-      "title": "《哈利波特》女星转战成人平台：它真的救了我 - 文学城",
-      "date": "2026-08-23",
-      "category": "综合资讯",
-      "summary": "《哈利波特》女星转战成人平台：它真的救了我",
-      "content": "《哈利波特》女星转战成人平台：它真的救了我",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uVlZfdkhfMnJZSjk3bjQyaXNNbEFidVdTWmZDR1EwbjFWaDZRV0pCWmZ0aGxDUHlua1JFRXdRR2R2TEdNZVFpbnpJSmQxVGVuVnc2WkFLZ3FGMlhUdTRLeFhuY3RrVUR5?oc=5"
-    },
-    {
-      "id": "8da850a6",
-      "title": "亚马逊独占《哈利·波特》8部华宇娱乐注册招𵓀K铁盒典藏套装在美国上架 - womenofchina.com",
-      "date": "2026-08-22",
-      "category": "综合资讯",
-      "summary": "亚马逊独占《哈利·波特》8部华宇娱乐注册招𵓀K铁盒典藏套装在美国上架",
-      "content": "亚马逊独占《哈利·波特》8部华宇娱乐注册招𵓀K铁盒典藏套装在美国上架",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HZElCLTFyUzM0VmtmaW94XzZKa1RnNGstZDhiQllzVVpORm9LSnVibVppTUpqbjZsYy04MkIzdDNER0M4RWhaTGE3ZTAxQ2h1RElyeXRnSTk4emhxQ0ltMw?oc=5"
-    },
-    {
-      "id": "a365987d",
-      "title": "Pavilion Damansara Heights变身魔法世界穿越9¾月台开启霍格沃茨之旅| 活动 | U玩食| 東方網馬來西亞東方日報 - orientaldaily.com.my",
-      "date": "2026-08-22",
-      "category": "社区活动",
-      "summary": "Pavilion Damansara Heights变身魔法世界穿越9¾月台开启霍格沃茨之旅| 活动 | U玩食| 東方網馬來西亞東方日報",
-      "content": "Pavilion Damansara Heights变身魔法世界穿越9¾月台开启霍格沃茨之旅| 活动 | U玩食| 東方網馬來西亞東方日報",
-      "image": "🎉",
-      "relatedLinks": [
-        {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
-        },
-        {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mSFpmZUdBWmpmS2wtLWhYdlFBYm93Y0QzRDNmRGljS0tUeXNGbDlSOFZjVU5BRjJrcVVNUTluUGNNSllBb01sZ3pmdlZ4Q00yNVpMUE9lZXg0N0JUYW1fNEp4bS00T1lSWk9SU3BPSFBZbDhvTl8wRmZrOHU?oc=5"
     }
   ]
 }
