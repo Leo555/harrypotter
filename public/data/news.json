@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T20:06:39.522Z",
+  "lastUpdated": "2026-08-29T22:53:32.461Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -143,26 +143,6 @@
       "source": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNS3NfTmJDWVdwU2dOV3I2U0ZNdGNkbEZFR2l2dEROWjNmSUFnaURjZ0dMUk9ya3NlTzFlQnJiNXZ0Yl9wd3ZfOGtrOFJYNXNtM2pTVFhDbjVpWENLOTBIYURkNGsyNkZRTVU5TXR0V2Zrd2dnWFZKYkp5UnBiMGt0UkNlX1hLUk1BUUZ1anRhUzlSaklNc1ZnZGQ1d0RHTlBJNHRhNnh5MnlmbkpwYkVjY0FwbFRINl8ycGNTQ2dEaHRNOEpBLTZFSUZ6N2FCNWI2MEFYOGZESnVGZWNLVk5rSHo4Y2dRNEZ1SG5ZcU00UlJqOUNVZnBid0FwblZnWmRjUlFhQlBGbTFnYWg3ZGhuTzVGVGYyZ1pPSkJjaVVjRE5kaEdHeWZEZWZBaml3ZkE4UlEzV19IN3NSZ2Y5a0stYzBGLVAtUV9aSUt3MHpMWU04RmVTbnFmZ25hTEEySmZPcXM2YVA2X24xQ01JMDdiWDAybw?oc=5"
     },
     {
-      "id": "5d63ec5e",
-      "title": "《乐高哈利波特》回到霍格沃 - news.17173.com",
-      "date": "2026-08-28",
-      "category": "影视动态",
-      "summary": "《乐高哈利波特》回到霍格沃",
-      "content": "《乐高哈利波特》回到霍格沃",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RWVVxZFJnaWdTVno1MVBTQTJ0MWw3N1BaWERYdEZSNHFVdDVhWVNsMVZINFlnOVV0aHhBUDd1NlJreWZsQ1FVOGxtSHJnSW5YV2FTeXRjU1hKdldFYkdMZ1NoMmM5QQ?oc=5"
-    },
-    {
       "id": "323843a5",
       "title": "《乐高哈利波特》庆祝 25 周年，推出魔法部套装及某特定角色的首款AG币游 - womenofchina.com",
       "date": "2026-08-28",
@@ -223,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FeHFyVmRMRUZsX3VNcmNxUEdnek5uNDlwM3FmbXpudUdCY0ZnR2w5enJfUF9HWWZ3Tkt5REh1S28taC1GMnhrc2tpYzNxYnZ1Y2Jsa1JDVVI?oc=5"
     },
     {
-      "id": "68c8d09f",
-      "title": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一 - womenofchina.com",
-      "date": "2026-08-28",
-      "category": "影视动态",
-      "summary": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一",
-      "content": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NQ05VTkRFc0o4Nk1LYlVDazdzSnZjeVcxbUlHTTBXTUpCV1NRZ0JmLW9kbW9zdzhHTXNCTDZBZUdoZjh5WTFYZHBmX0xvTXNhakgwbUV3?oc=5"
-    },
-    {
       "id": "0c930623",
       "title": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一 - womenofchina.com",
       "date": "2026-08-28",
@@ -261,6 +221,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZN3ZyZmE0c25RYkVEVVdQYVpwc0lnc1p0cU4yUkJ5emRZTVFjWFRyUkQwU3pCeUVORk14TmwwZjZGWktNVWJJcmtDaWo5UUZ3TFItUGZhRTJjQQ?oc=5"
+    },
+    {
+      "id": "5d63ec5e",
+      "title": "《乐高哈利波特》回到霍格沃 - news.17173.com",
+      "date": "2026-08-28",
+      "category": "影视动态",
+      "summary": "《乐高哈利波特》回到霍格沃",
+      "content": "《乐高哈利波特》回到霍格沃",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RWVVxZFJnaWdTVno1MVBTQTJ0MWw3N1BaWERYdEZSNHFVdDVhWVNsMVZINFlnOVV0aHhBUDd1NlJreWZsQ1FVOGxtSHJnSW5YV2FTeXRjU1hKdldFYkdMZ1NoMmM5QQ?oc=5"
+    },
+    {
+      "id": "68c8d09f",
+      "title": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一 - womenofchina.com",
+      "date": "2026-08-28",
+      "category": "影视动态",
+      "summary": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一",
+      "content": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NQ05VTkRFc0o4Nk1LYlVDazdzSnZjeVcxbUlHTTBXTUpCV1NRZ0JmLW9kbW9zdzhHTXNCTDZBZUdoZjh5WTFYZHBmX0xvTXNhakgwbUV3?oc=5"
     },
     {
       "id": "088b2a4e",
