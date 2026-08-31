@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T22:59:03.482Z",
+  "lastUpdated": "2026-08-31T02:05:37.407Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -203,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FeHFyVmRMRUZsX3VNcmNxUEdnek5uNDlwM3FmbXpudUdCY0ZnR2w5enJfUF9HWWZ3Tkt5REh1S28taC1GMnhrc2tpYzNxYnZ1Y2Jsa1JDVVI?oc=5"
     },
     {
-      "id": "0c930623",
-      "title": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一 - womenofchina.com",
-      "date": "2026-08-28",
-      "category": "影视动态",
-      "summary": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一",
-      "content": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZN3ZyZmE0c25RYkVEVVdQYVpwc0lnc1p0cU4yUkJ5emRZTVFjWFRyUkQwU3pCeUVORk14TmwwZjZGWktNVWJJcmtDaWo5UUZ3TFItUGZhRTJjQQ?oc=5"
-    },
-    {
       "id": "68c8d09f",
       "title": "华纳官方确认《立博体育在线登𻥔》 或为PS6首发之一 - womenofchina.com",
       "date": "2026-08-28",
@@ -241,6 +221,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NQ05VTkRFc0o4Nk1LYlVDazdzSnZjeVcxbUlHTTBXTUpCV1NRZ0JmLW9kbW9zdzhHTXNCTDZBZUdoZjh5WTFYZHBmX0xvTXNhakgwbUV3?oc=5"
+    },
+    {
+      "id": "0c930623",
+      "title": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一 - womenofchina.com",
+      "date": "2026-08-28",
+      "category": "影视动态",
+      "summary": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一",
+      "content": "华纳官方确认《仲博在线登𻥔》 或为PS6首发之一",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZN3ZyZmE0c25RYkVEVVdQYVpwc0lnc1p0cU4yUkJ5emRZTVFjWFRyUkQwU3pCeUVORk14TmwwZjZGWktNVWJJcmtDaWo5UUZ3TFItUGZhRTJjQQ?oc=5"
     },
     {
       "id": "3fbf9afe",
