@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T01:43:00.023Z",
+  "lastUpdated": "2026-09-06T07:22:51.060Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -43,12 +43,12 @@
       "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZjdPVnJDY2ZWbTNMaUFpamtpd05iT0JHMnZNVDNUTG1mczNwNE43Q0F5OHBOOEFaamgzUGRNX3E2RktwUDBmQTgxU00tSy16dGY2SEFaRTBQU1JkWUN3ZkE5RHdZT1dINEZKLXdTMUF2bEdUZlBJaFRJRnVVSGpEMHhMdTJVMVNZajQzY3ptcVBMZEFSX1M1cmc0NFF1NVpkWEkwM2EtTG9qQQ?oc=5"
     },
     {
-      "id": "ec369bf4",
-      "title": "真人演多比？剧版《哈利波特》公布新选角 - 观察者",
-      "date": "2026-09-05",
+      "id": "e4c08dd5",
+      "title": "HBO剧版《哈利·波特》预告片 🔻怎么讲？ - 新浪网",
+      "date": "2026-09-06",
       "category": "影视动态",
-      "summary": "真人演多比？剧版《哈利波特》公布新选角",
-      "content": "真人演多比？剧版《哈利波特》公布新选角",
+      "summary": "HBO剧版《哈利·波特》预告片 🔻怎么讲？",
+      "content": "HBO剧版《哈利·波特》预告片 🔻怎么讲？",
       "image": "📺",
       "relatedLinks": [
         {
@@ -60,7 +60,67 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUeUhxUUR0YkZ5Sm5KTW9mdzc5a1dCcXhmaDQ5QkRFWndOSW55Z3R6R2I3N3hEaDZnbUVWZ1R6Vzl0NlBMb19vdW1DRlYtdXVCbmxJaWF4ZUEtQmY2dU90OGJza18?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jSEFpbzVXYjlkUGFSeGJYb21pMlBGajV5enFuU1pRU0RTR1pNbVVMN04zYlc1RmYzSTdUem9DYUZVRW1MNWxlc0YtVjZGclFZWWZEMENHRjZYNzNrcTNDVDFrdUFQTVFDZXZIbGhFV012R0k?oc=5"
+    },
+    {
+      "id": "06c56de7",
+      "title": "波特大，波特小 - 新浪网",
+      "date": "2026-09-06",
+      "category": "综合资讯",
+      "summary": "波特大，波特小",
+      "content": "波特大，波特小",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zcjA4RjR6bXgxRGNoNGZ5eks5T1d4VVl4MWoxdUg0LVpCNk9ONlVxSV9ldDhQYnZqbGI3a0dOS2c0VHFiR2JibzI0b1FiUDJqa1VkbE41VWZUdnlpejh6T0YwWQ?oc=5"
+    },
+    {
+      "id": "be682994",
+      "title": "哈利波特早餐场景对比|英国_新浪新闻 - 新浪网",
+      "date": "2026-09-06",
+      "category": "影视动态",
+      "summary": "哈利波特早餐场景对比|英国_新浪新闻",
+      "content": "哈利波特早餐场景对比|英国_新浪新闻",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QMDdIMWtrcElGd2xJU3FhcGg4elBzdFprVzhLX3VzTVZFQlUwUmllTUs0NFFpN2k1RUJTRmdBYlJIRzBJODlqc2poQ0c5LTNlTm1nZFFsX3k2RVB1XzRkM0VKZw?oc=5"
+    },
+    {
+      "id": "4c65f1f8",
+      "title": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角 - 新浪财经",
+      "date": "2026-09-05",
+      "category": "影视动态",
+      "summary": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角",
+      "content": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWEpfS3phMG5LUDM3S0syWU5EcVFRbHZMdFBEZ2NkdG9abzNHYlVmTzZ5VjNwSzV1dUdqanR2dFNRUFhsQk1JODBvTUs0OXZlZ2NGZmx4WHNTTXVaN2hwYUM5SV9QSnZyTl9BWVkyMHJfTjYtVDBfTkdVWkhZd3Q4ZjJpbw?oc=5"
     },
     {
       "id": "3478ad24",
@@ -103,6 +163,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYY0l1dDRCMHk4R3RqeDBfOWcxWDhZZmMwMW41V1hyamgxcUtKRkRudXYxQVd0Zndsd2YyWXhPSHh1dXB6TGUxTTVibTVNbzRPRTVEZV83N0NKRUdZWnVmTjAtbw?oc=5"
     },
     {
+      "id": "16132753",
+      "title": "什么是「通货膨胀」：#哈利波特宇宙中通货膨胀的样子# - 新浪网",
+      "date": "2026-09-05",
+      "category": "影视动态",
+      "summary": "什么是「通货膨胀」：#哈利波特宇宙中通货膨胀的样子#",
+      "content": "什么是「通货膨胀」：#哈利波特宇宙中通货膨胀的样子#",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zM1VkSVJIaDkwMWlSZlFxbjJUNjVHbmF1WkV3ZVNlLVgxYjlVcnJyR2l4VDVoSTVhd0x6NFY3RzVKaVlmQWV5THZILTVjWDB4bG1fMEFMQ2QtTk5QRURjM045WQ?oc=5"
+    },
+    {
       "id": "65b181d5",
       "title": "#TNABO# 好莱坞确实不景气了，华纳确实没钱了 - 新浪网",
       "date": "2026-09-05",
@@ -121,6 +201,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1meEFWLVE3eDJpWmdkVWtaYnVVU0laSGYzS3VwdWZfMGNuMVRaclNsNkpUZ1J1SXZtaFNTVlQydURHc2FhUXVzVVM1cGN6WW1mQzlJalY1YkY4Z2RnQ1JodFVRVQ?oc=5"
+    },
+    {
+      "id": "24f622d3",
+      "title": "国外热帖:从两版哈利波特看通货膨胀 - 新浪网",
+      "date": "2026-09-05",
+      "category": "综合资讯",
+      "summary": "国外热帖:从两版哈利波特看通货膨胀",
+      "content": "国外热帖:从两版哈利波特看通货膨胀",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1raXVxTkoxWjRvSXd1Y0ZlUUdDeEE5QmhKV3UtSmdRT2NxMHdxRWhBMEpJeS1wNVZLNkN2TlQ1WWJSYkNweGZLYnlZZmZaNkZTeHAyVFhEUDFmbTdPYlRhYmJhbw?oc=5"
     },
     {
       "id": "766d1840",
@@ -163,26 +263,6 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHeUVVZjlvT1lsMXlxd2VlOWpCM3pNN2RXODdFd0RvWGxrbUpxN2lXNzd3UUlra2hqSlM0cFpQR0RWMHVqRVE4Y1RjNGdYclNLd2ljSDBVMGs?oc=5"
     },
     {
-      "id": "24f622d3",
-      "title": "国外热帖:从两版哈利波特看通货膨胀 - 新浪网",
-      "date": "2026-09-05",
-      "category": "综合资讯",
-      "summary": "国外热帖:从两版哈利波特看通货膨胀",
-      "content": "国外热帖:从两版哈利波特看通货膨胀",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1raXVxTkoxWjRvSXd1Y0ZlUUdDeEE5QmhKV3UtSmdRT2NxMHdxRWhBMEpJeS1wNVZLNkN2TlQ1WWJSYkNweGZLYnlZZmZaNkZTeHAyVFhEUDFmbTdPYlRhYmJhbw?oc=5"
-    },
-    {
       "id": "f997696d",
       "title": "哈利·波特真人剧版2026与电影版2001对比 - 新浪网",
       "date": "2026-09-05",
@@ -223,26 +303,6 @@
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SdmM0REFGeXg1YjlEQVJycXIxR0JUczVPWEx0RWdqeS1Jc0dtUUZsVnZxYVVHYjdOME82RXg0NGp6S2YzUEtwS19xXzYxU0lCeG94WXN1Q05QTkVKU2ZRcjZTcXJYenpaWGFkcEVlRi1Odw?oc=5"
     },
     {
-      "id": "0684d811",
-      "title": "哈利 的初吻拍了30多遍 - 新浪网",
-      "date": "2026-09-05",
-      "category": "影视动态",
-      "summary": "哈利 的初吻拍了30多遍",
-      "content": "哈利 的初吻拍了30多遍",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGIyS1JRU1dvejdSMGs5SF9YbWljd2ZseXk2MTJpOWF0Z0NKLWllWVdwcU5XTnp0U0kzYlA4dkZuTWI2VEJpbzJvdFMwZkhXWnNRLTdZemwwcXMxdktDVlBIREdsd2wyVXEybFlhOUdHVDNCQmRWVVBuYlNwZENvODBTbTEtams3WHF3c1Y0Qzd5Umpsb29IN2c4UDlCNnFWTm9EMlI1d1EyTWUxYXhNeXUyTVhxLXh6a1FrN3dKeVNjMEd5c2hmZDd5djNGalV6Rl81dGsxb2M?oc=5"
-    },
-    {
       "id": "8b8fc57f",
       "title": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？… - 新浪网",
       "date": "2026-09-05",
@@ -261,6 +321,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMUEhBR3g2Ukpmc0ZwazlSNy1uLTdDY3J2TXZvRGk0TFZoanlRLXVXRHFGNkhiVmViaGRxX0hYQ09JRHFEVEk2LW1uV3o0UHNoU01hYjlHZldscF9qQTNlVGxLYUlPZWkyMXVLajdUZWhLc0U?oc=5"
+    },
+    {
+      "id": "0684d811",
+      "title": "哈利 的初吻拍了30多遍 - 新浪网",
+      "date": "2026-09-05",
+      "category": "影视动态",
+      "summary": "哈利 的初吻拍了30多遍",
+      "content": "哈利 的初吻拍了30多遍",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGIyS1JRU1dvejdSMGs5SF9YbWljd2ZseXk2MTJpOWF0Z0NKLWllWVdwcU5XTnp0U0kzYlA4dkZuTWI2VEJpbzJvdFMwZkhXWnNRLTdZemwwcXMxdktDVlBIREdsd2wyVXEybFlhOUdHVDNCQmRWVVBuYlNwZENvODBTbTEtams3WHF3c1Y0Qzd5Umpsb29IN2c4UDlCNnFWTm9EMlI1d1EyTWUxYXhNeXUyTVhxLXh6a1FrN3dKeVNjMEd5c2hmZDd5djNGalV6Rl81dGsxb2M?oc=5"
     },
     {
       "id": "04569d6c",
@@ -283,12 +363,12 @@
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xRmw2WUVTNk8yY3VpajJjUVZjMlZ0OF9fTjNkeThuQlAxZVZocmhoNVBLaDBDOHlfVUdpMG5sUUU0cjNJRmwzcVdIQmg2UDdDeXVHbm8xUnppX3lDX3ZrLWdnaGV3b1Y3QVZNTFJSMnBqQQ?oc=5"
     },
     {
-      "id": "4c65f1f8",
-      "title": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角 - 新浪财经",
+      "id": "ec369bf4",
+      "title": "真人演多比？剧版《哈利波特》公布新选角 - 观察者",
       "date": "2026-09-05",
       "category": "影视动态",
-      "summary": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角",
-      "content": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角",
+      "summary": "真人演多比？剧版《哈利波特》公布新选角",
+      "content": "真人演多比？剧版《哈利波特》公布新选角",
       "image": "📺",
       "relatedLinks": [
         {
@@ -300,7 +380,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XckM2UkpMaXV0dG93VGp1ZnVDeGxXb1pmYWoyY2l6eW9JcDZSMU9pN3dZalVmcEJ3eUxiR3plYnR3Z1ZlUGZwc1BvQy05cHZiTHN5U0tNdEJDNHBHNkZIX0ZpVklic1BScGVpb0JUY2pjbjM0X25XMw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUeUhxUUR0YkZ5Sm5KTW9mdzc5a1dCcXhmaDQ5QkRFWndOSW55Z3R6R2I3N3hEaDZnbUVWZ1R6Vzl0NlBMb19vdW1DRlYtdXVCbmxJaWF4ZUEtQmY2dU90OGJza18?oc=5"
     },
     {
       "id": "7347166b",
@@ -321,86 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vMnJVWnA5OXBtYkhuQUJFSmZxUkN1eUdSSGNiMVNKYTRqZXhUeFVDS25xM2RSNlR1el9CUThPdEpjb3k4dENPaFdUUVdWX1Q5c1VMbmV6VnhmVUs4QlE4QTQxZUhSdlBhcU9iVXJBUFhxZw?oc=5"
-    },
-    {
-      "id": "39d5f0c1",
-      "title": "哈利波特宇宙服化道缩水对比|哈利波特|好莱坞|服化道|通货膨胀 - 新浪网",
-      "date": "2026-09-05",
-      "category": "影视动态",
-      "summary": "哈利波特宇宙服化道缩水对比|哈利波特|好莱坞|服化道|通货膨胀",
-      "content": "哈利波特宇宙服化道缩水对比|哈利波特|好莱坞|服化道|通货膨胀",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91UGlfVFNmSlVuU3dYRS11UENiN3hKaW9IcENreHBpZVdETVJ4Nm56NUo2dFJyTDZvbVROQ0VqTjBfRkFwOWRmc05DdXpUTDk1NWVhVlhsTDE1SGZ4aUZGeHluUQ?oc=5"
-    },
-    {
-      "id": "32353208",
-      "title": "新浪网· - 新浪网",
-      "date": "2026-09-05",
-      "category": "综合资讯",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4cFBhWEo1cnVqUUNlSnQ5M1lrcGdFemd0MEFESkVCWlh0c3NqVG5JU1hZNDE4bnBidGxuMWJZNEtwU0tZUnZGNVU4SnFZdGZENFN2akpqZDJMLTQ3bUNMNnNobw?oc=5"
-    },
-    {
-      "id": "5aaf5112",
-      "title": "《哈利·波特》剧集多比与少年伏地魔选角揭晓 - 17173",
-      "date": "2026-09-04",
-      "category": "影视动态",
-      "summary": "《哈利·波特》剧集多比与少年伏地魔选角揭晓",
-      "content": "《哈利·波特》剧集多比与少年伏地魔选角揭晓",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRWF9zd2JHMS1BYU14S2l5TW0ybmtOMEhHTzhGcXJEUWVUaWo0bHhZVGZKd2ZZUDB3NklpWXhnMUREcFhycDBSMU9vSlVNYUtXdU1TQTRTaTJCWWFsS1pETVpzeThfdw?oc=5"
-    },
-    {
-      "id": "cce4bc69",
-      "title": "直观展现了： 通 货 膨 胀 - 新浪网",
-      "date": "2026-09-04",
-      "category": "综合资讯",
-      "summary": "直观展现了： 通 货 膨 胀",
-      "content": "直观展现了： 通 货 膨 胀",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXUUhwVGVKLUlMN2tsOXJyTWhHQTZkS3JoM1hGWjNMU045YW1OQmpMdmtidjVLUWZPeW93NktfVThFOExZYVVhRVk4bWI3Ukh3MlNlY0tCRksza3RfejJNVURQQQ?oc=5"
     }
   ]
 }
