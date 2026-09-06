@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T12:26:13.746Z",
+  "lastUpdated": "2026-09-06T17:23:41.570Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -43,13 +43,13 @@
       "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZjdPVnJDY2ZWbTNMaUFpamtpd05iT0JHMnZNVDNUTG1mczNwNE43Q0F5OHBOOEFaamgzUGRNX3E2RktwUDBmQTgxU00tSy16dGY2SEFaRTBQU1JkWUN3ZkE5RHdZT1dINEZKLXdTMUF2bEdUZlBJaFRJRnVVSGpEMHhMdTJVMVNZajQzY3ptcVBMZEFSX1M1cmc0NFF1NVpkWEkwM2EtTG9qQQ?oc=5"
     },
     {
-      "id": "e4c08dd5",
-      "title": "HBO剧版《哈利·波特》预告片 🔻怎么讲？ - 新浪网",
+      "id": "7a16a6f8",
+      "title": "哈利·波特影版剧版对比，全球经济不太好 - 新浪网",
       "date": "2026-09-06",
-      "category": "影视动态",
-      "summary": "HBO剧版《哈利·波特》预告片 🔻怎么讲？",
-      "content": "HBO剧版《哈利·波特》预告片 🔻怎么讲？",
-      "image": "📺",
+      "category": "综合资讯",
+      "summary": "哈利·波特影版剧版对比，全球经济不太好",
+      "content": "哈利·波特影版剧版对比，全球经济不太好",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -60,7 +60,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jSEFpbzVXYjlkUGFSeGJYb21pMlBGajV5enFuU1pRU0RTR1pNbVVMN04zYlc1RmYzSTdUem9DYUZVRW1MNWxlc0YtVjZGclFZWWZEMENHRjZYNzNrcTNDVDFrdUFQTVFDZXZIbGhFV012R0k?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wcndkQW5Qbk9ZV1Z4ZDRWWU52RHZERmhHVUwwMVhIUUctZ0lOZTZWdEtmVFpsZDJVMmpuQzFZT2N6Nm1hYUxuMkd2d1dGVUFwdkhIS2ViTGFvY295MXpYN2liSGlwM2xNWUpveFY0VzFSZw?oc=5"
     },
     {
       "id": "06c56de7",
@@ -83,6 +83,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zcjA4RjR6bXgxRGNoNGZ5eks5T1d4VVl4MWoxdUg0LVpCNk9ONlVxSV9ldDhQYnZqbGI3a0dOS2c0VHFiR2JibzI0b1FiUDJqa1VkbE41VWZUdnlpejh6T0YwWQ?oc=5"
     },
     {
+      "id": "e4c08dd5",
+      "title": "HBO剧版《哈利·波特》预告片 🔻怎么讲？ - 新浪网",
+      "date": "2026-09-06",
+      "category": "影视动态",
+      "summary": "HBO剧版《哈利·波特》预告片 🔻怎么讲？",
+      "content": "HBO剧版《哈利·波特》预告片 🔻怎么讲？",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jSEFpbzVXYjlkUGFSeGJYb21pMlBGajV5enFuU1pRU0RTR1pNbVVMN04zYlc1RmYzSTdUem9DYUZVRW1MNWxlc0YtVjZGclFZWWZEMENHRjZYNzNrcTNDVDFrdUFQTVFDZXZIbGhFV012R0k?oc=5"
+    },
+    {
       "id": "be682994",
       "title": "哈利波特早餐场景对比|英国_新浪新闻 - 新浪网",
       "date": "2026-09-06",
@@ -103,8 +123,8 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QMDdIMWtrcElGd2xJU3FhcGg4elBzdFprVzhLX3VzTVZFQlUwUmllTUs0NFFpN2k1RUJTRmdBYlJIRzBJODlqc2poQ0c5LTNlTm1nZFFsX3k2RVB1XzRkM0VKZw?oc=5"
     },
     {
-      "id": "a8242a25",
-      "title": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角 - finance.sina.cn",
+      "id": "4c65f1f8",
+      "title": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角 - 新浪财经",
       "date": "2026-09-05",
       "category": "影视动态",
       "summary": "新潮观鱼：真人演多比？剧版《哈利波特》第二季公布新选角",
@@ -203,26 +223,6 @@
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHeUVVZjlvT1lsMXlxd2VlOWpCM3pNN2RXODdFd0RvWGxrbUpxN2lXNzd3UUlra2hqSlM0cFpQR0RWMHVqRVE4Y1RjNGdYclNLd2ljSDBVMGs?oc=5"
     },
     {
-      "id": "4649526f",
-      "title": "剧版哈利波特课表出炉，哈利课程安排一览 - 新浪网",
-      "date": "2026-09-05",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特课表出炉，哈利课程安排一览",
-      "content": "剧版哈利波特课表出炉，哈利课程安排一览",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SdmM0REFGeXg1YjlEQVJycXIxR0JUczVPWEx0RWdqeS1Jc0dtUUZsVnZxYVVHYjdOME82RXg0NGp6S2YzUEtwS19xXzYxU0lCeG94WXN1Q05QTkVKU2ZRcjZTcXJYenpaWGFkcEVlRi1Odw?oc=5"
-    },
-    {
       "id": "f997696d",
       "title": "哈利·波特真人剧版2026与电影版2001对比 - 新浪网",
       "date": "2026-09-05",
@@ -243,12 +243,12 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jRjF1QzJKWV9VdldiaG0xNEhGM25SYkk5Y2xFZElEay00T3JTb1pZa3dKQXVGR3ZXaTgyd3lYeFktcUFSd1NQYU9lbGtudEloS3B3enhiU0J5R2FfdGFlRXFXQmFNaEZJT3ByeTBBczhwNWM?oc=5"
     },
     {
-      "id": "8b8fc57f",
-      "title": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？… - 新浪网",
+      "id": "4649526f",
+      "title": "剧版哈利波特课表出炉，哈利课程安排一览 - 新浪网",
       "date": "2026-09-05",
       "category": "综合资讯",
-      "summary": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？…",
-      "content": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？…",
+      "summary": "剧版哈利波特课表出炉，哈利课程安排一览",
+      "content": "剧版哈利波特课表出炉，哈利课程安排一览",
       "image": "📰",
       "relatedLinks": [
         {
@@ -260,7 +260,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMUEhBR3g2Ukpmc0ZwazlSNy1uLTdDY3J2TXZvRGk0TFZoanlRLXVXRHFGNkhiVmViaGRxX0hYQ09JRHFEVEk2LW1uV3o0UHNoU01hYjlHZldscF9qQTNlVGxLYUlPZWkyMXVLajdUZWhLc0U?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SdmM0REFGeXg1YjlEQVJycXIxR0JUczVPWEx0RWdqeS1Jc0dtUUZsVnZxYVVHYjdOME82RXg0NGp6S2YzUEtwS19xXzYxU0lCeG94WXN1Q05QTkVKU2ZRcjZTcXJYenpaWGFkcEVlRi1Odw?oc=5"
     },
     {
       "id": "04569d6c",
@@ -301,6 +301,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOGIyS1JRU1dvejdSMGs5SF9YbWljd2ZseXk2MTJpOWF0Z0NKLWllWVdwcU5XTnp0U0kzYlA4dkZuTWI2VEJpbzJvdFMwZkhXWnNRLTdZemwwcXMxdktDVlBIREdsd2wyVXEybFlhOUdHVDNCQmRWVVBuYlNwZENvODBTbTEtams3WHF3c1Y0Qzd5Umpsb29IN2c4UDlCNnFWTm9EMlI1d1EyTWUxYXhNeXUyTVhxLXh6a1FrN3dKeVNjMEd5c2hmZDd5djNGalV6Rl81dGsxb2M?oc=5"
+    },
+    {
+      "id": "8b8fc57f",
+      "title": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？… - 新浪网",
+      "date": "2026-09-05",
+      "category": "综合资讯",
+      "summary": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？…",
+      "content": "换校长、换导演、主角长相大变……这难道不是霍格沃茨最危险的一次开学？…",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMUEhBR3g2Ukpmc0ZwazlSNy1uLTdDY3J2TXZvRGk0TFZoanlRLXVXRHFGNkhiVmViaGRxX0hYQ09JRHFEVEk2LW1uV3o0UHNoU01hYjlHZldscF9qQTNlVGxLYUlPZWkyMXVLajdUZWhLc0U?oc=5"
     },
     {
       "id": "22d1192a",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUeUhxUUR0YkZ5Sm5KTW9mdzc5a1dCcXhmaDQ5QkRFWndOSW55Z3R6R2I3N3hEaDZnbUVWZ1R6Vzl0NlBMb19vdW1DRlYtdXVCbmxJaWF4ZUEtQmY2dU90OGJza18?oc=5"
-    },
-    {
-      "id": "7347166b",
-      "title": "《哈利·波特：魔法幻境》中国首秀落户成都，2026年Q4开启魔法之旅 - 新浪网",
-      "date": "2026-09-05",
-      "category": "综合资讯",
-      "summary": "《哈利·波特：魔法幻境》中国首秀落户成都，2026年Q4开启魔法之旅",
-      "content": "《哈利·波特：魔法幻境》中国首秀落户成都，2026年Q4开启魔法之旅",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vMnJVWnA5OXBtYkhuQUJFSmZxUkN1eUdSSGNiMVNKYTRqZXhUeFVDS25xM2RSNlR1el9CUThPdEpjb3k4dENPaFdUUVdWX1Q5c1VMbmV6VnhmVUs4QlE4QTQxZUhSdlBhcU9iVXJBUFhxZw?oc=5"
     }
   ]
 }
