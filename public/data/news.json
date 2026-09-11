@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:24:51.152Z",
+  "lastUpdated": "2026-09-11T22:51:23.389Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,6 +23,26 @@
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45U3hZUmtNaDMzbWFKYmVNYzlWMmkwc1FVdVE2a2JJYzdScWh0WnJWWFpxcWxJN19JankzNVY4LXdwZlRTNC1kaHA4elhhNE54YjdGZUVlclp4WTZLcS1janRpbElDNVRDWE9qcmNqbw?oc=5"
     },
     {
+      "id": "62ef0832",
+      "title": "哈利·波特鼓励你撞墙 - 新浪网",
+      "date": "2026-09-11",
+      "category": "影视动态",
+      "summary": "哈利·波特鼓励你撞墙",
+      "content": "哈利·波特鼓励你撞墙",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNVGhic2F0R0J4OXJpcDEtVTktTjc2dGFZbjIzVXE4VUxocTRCUDlXY3R6VENMT2RMeWl1ZmxsWnF1TkFrZjFsLVBYZElKVGxWSjlrVnBselUwdTJJejdYNklDV2lodUtzY1FCcVVjV2V3ZVU?oc=5"
+    },
+    {
       "id": "b94b45b3",
       "title": "哈利·波特邀你来次墙体亲密接触 - 新浪网",
       "date": "2026-09-11",
@@ -43,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pZ2FlSm1TT0RsX2VwSV91Rk1VbS1yZUNnanc1b2hkaVN1WXNaRVVocTlrY0ZyVXFNSTdIQnNwMmRZRXlOSXY0Q2hjWEFiaVBVMDc2MDAzUlFvOXF5UEViWENBcmt0ZGs3SzlDU040aFdUN0U?oc=5"
     },
     {
-      "id": "d24c9a98",
-      "title": "霍格沃茨特快上铁三角初次相遇，魔法世界开端 - 新浪网",
-      "date": "2026-09-11",
-      "category": "影视动态",
-      "summary": "霍格沃茨特快上铁三角初次相遇，魔法世界开端",
-      "content": "霍格沃茨特快上铁三角初次相遇，魔法世界开端",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCTUdrTkktaHVjSnBOX0JkVVdyMXlBaDk1VzZ2OFVKRVBEMHZfM2dncjAzS2VmM1VnVVJKMUUwV3pZbjRnNlc1LWVyalNCX2pCMWhaYW9ZR0RMMVFNN3VreUp2STVQZzlGYmRqLWRZZC1FMWs?oc=5"
-    },
-    {
       "id": "009a4263",
       "title": "“哈利波特”丹尼尔烈格夫被传将于新剧饰演佛地魔｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
       "date": "2026-09-11",
@@ -81,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV2RhYS1Sa19kb052QmpaUkhHckdreHl3UnBvZkltaFJncnhiYmJ3RlhHN0w3ZTI4R05SSlNpYmVYQms0TWVzckI2eFhiRjZIWE5LbkpCS0cybnV2ZV9DUVEzUlRSdUY1T1BTS0Y3eWh1am5Cc3ZITFdyYzhCblhqY0FvWWkyNmR6RWdxTTZDYnU5Uzd5NDAzQWxJWmppZEpBQU9aRQ?oc=5"
+    },
+    {
+      "id": "d24c9a98",
+      "title": "霍格沃茨特快上铁三角初次相遇，魔法世界开端 - 新浪网",
+      "date": "2026-09-11",
+      "category": "影视动态",
+      "summary": "霍格沃茨特快上铁三角初次相遇，魔法世界开端",
+      "content": "霍格沃茨特快上铁三角初次相遇，魔法世界开端",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCTUdrTkktaHVjSnBOX0JkVVdyMXlBaDk1VzZ2OFVKRVBEMHZfM2dncjAzS2VmM1VnVVJKMUUwV3pZbjRnNlc1LWVyalNCX2pCMWhaYW9ZR0RMMVFNN3VreUp2STVQZzlGYmRqLWRZZC1FMWs?oc=5"
     },
     {
       "id": "efbaa777",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRZjlGYW5VTUN6TlBXNG9NcWZhZXpWNVFDY25fU2JHczVfX0FROHV1VHNDSE1QYzlCU2hJZzNERFNEV3lvRTNLZTc4TE42ek9GNXFmS0t5RGYwbE5TZ2FzX0xxdldwaXZHb2R0dkRWTHFMNTg?oc=5"
-    },
-    {
-      "id": "0c062de9",
-      "title": "Windows 10/11桌面变成哈利波特电影宣发广告？微软通过必应壁纸投放的- Microsoft Bing 微软必应搜索 - cnbeta.com.tw",
-      "date": "2026-09-08",
-      "category": "影视动态",
-      "summary": "Windows 10/11桌面变成哈利波特电影宣发广告？微软通过必应壁纸投放的- Microsoft Bing 微软必应搜索",
-      "content": "Windows 10/11桌面变成哈利波特电影宣发广告？微软通过必应壁纸投放的- Microsoft Bing 微软必应搜索",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OY3FvZHNlZTFYM1ZMNl9hZFFrTk1QTEZnZGVjb0psWkFOX0xKMnlNQXFjdXN2SlNVa1psbnZMVEZOcjh3NE0zb19pZWdtSU9MMHJ5VVJUaEV2c3hfamNvYg?oc=5"
     }
   ]
 }
