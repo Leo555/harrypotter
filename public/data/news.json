@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T01:51:09.015Z",
+  "lastUpdated": "2026-09-13T07:43:41.250Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,8 +23,8 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0g3ZFJ3OTF3R3BpVUxEMUlpaXBLdDEyNEZCWFlpVkR4dW9RRDlhX2NTMWFhdzU2TU9Zd180SVpPbFZTa3gzY0V1b0M2ck5iRWsyckR5Y3VscjNUcjZvOFFvd3BvTWM5MVJDQmItczY3SDhYbUFEM3dBbXRiNWY4NldjbllaYnV3?oc=5"
     },
     {
-      "id": "3bca36db",
-      "title": "《霍格沃茨2》确认开发 玩家纠结:不想给JK罗琳送钱 - news.17173.com",
+      "id": "b5117448",
+      "title": "《霍格沃茨2》确认开发 玩家纠结:不想给JK罗琳送钱 - 17173",
       "date": "2026-09-12",
       "category": "综合资讯",
       "summary": "《霍格沃茨2》确认开发 玩家纠结:不想给JK罗琳送钱",
@@ -41,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IcGFoZTZYWmVzVHBSVmdiYTdDUDdZLTN2RHVxZDhqcW9nalZOSlJBcFpGd2JHN3lBY1lHVUFicElRUUJqNnVvUENzbUlicjBVX0dhVXVhTEdZR0JBSFpkZHJYb2s?oc=5"
+    },
+    {
+      "id": "bff47904",
+      "title": "人民文学出版社 - 新浪网",
+      "date": "2026-09-12",
+      "category": "出版物",
+      "summary": "人民文学出版社",
+      "content": "人民文学出版社",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WZUpDc3ZPN3g4WHk3YjV4WEVDenBGZTd4bS14MmdzMG9kRmNlc2tDZlRtZHpTdV9VVUd2cjVJNkpFSGR0Ul94cmVhZmU3RWJVd0w5dDI2MVoxbGp5QjBUSm1oVQ?oc=5"
     },
     {
       "id": "155065ff",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNZFlidWFneHh6c3dmN0p2cjQ4TGxqVDRHS1ZYTEo0a0lvdlJib3VsZ3dweFR2MUVFcjBtZFkwLU53eGJyTnd4WEV4THZLc0taWG1zRDJvTHVDNU85R3lpazF1eU1tRXVlczBCc05TZXhLN0NVazlFUkpnazNxTEpTQmFwbGUyMm85QUxPWlhxQ25UUktqVFE1U3BKUkJYUFpUcW9hd3Z4TzFsRkVhcTZJMm1sNXFOeW1IWlZqM0hPNk1EbkE0Y1hQSF9ySy1NdS1WU2dhcnNFSkVraVZnaXFzOWJacFNiVzdtVDdKSXl6T3hfaFpxbVpZODFGWDdXSWtkYVh2Wk5SSnRRcERzQW1RRFZzem1YQklzSzdJUzV5NUZHa2VoOFhtWUZPek5aY0RraGk2N3JzQXFxd1JBakF5M253dk8?oc=5"
-    },
-    {
-      "id": "b591c633",
-      "title": "剧集版《哈利波特》新主角撞脸谭咏麟 网民笑翻：入学第一天已是“校长” - orientaldaily.com.my",
-      "date": "2026-09-08",
-      "category": "影视动态",
-      "summary": "剧集版《哈利波特》新主角撞脸谭咏麟 网民笑翻：入学第一天已是“校长”",
-      "content": "剧集版《哈利波特》新主角撞脸谭咏麟 网民笑翻：入学第一天已是“校长”",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PQzlCNkhWSGtxelpaMDJuTS03dVpSbnlNLXV0djVqaS0ydE9jYndrUVE5VjEtOWg4dmlGRVVYS0dRRTk1WU5kaTZKTUFXRVg4d2hpQ2tMd1hpazhpNk8wWWxvRTY4aWpTbFkzOXNDSkY5Wl9WRWxhTg?oc=5"
     }
   ]
 }
