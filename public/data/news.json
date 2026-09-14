@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T22:42:40.477Z",
+  "lastUpdated": "2026-09-14T02:08:36.846Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -83,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IcGFoZTZYWmVzVHBSVmdiYTdDUDdZLTN2RHVxZDhqcW9nalZOSlJBcFpGd2JHN3lBY1lHVUFicElRUUJqNnVvUENzbUlicjBVX0dhVXVhTEdZR0JBSFpkZHJYb2s?oc=5"
     },
     {
-      "id": "bff47904",
-      "title": "人民文学出版社 - 新浪网",
-      "date": "2026-09-12",
-      "category": "出版物",
-      "summary": "人民文学出版社",
-      "content": "人民文学出版社",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WZUpDc3ZPN3g4WHk3YjV4WEVDenBGZTd4bS14MmdzMG9kRmNlc2tDZlRtZHpTdV9VVUd2cjVJNkpFSGR0Ul94cmVhZmU3RWJVd0w5dDI2MVoxbGp5QjBUSm1oVQ?oc=5"
-    },
-    {
       "id": "155065ff",
       "title": "今天是哈利波特 里她贡献了不少高燃场面 - 新浪网",
       "date": "2026-09-12",
@@ -163,6 +143,26 @@
       "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQ05vNjZxeXdHbmhXNGMtanhoaFBHN2p6Q0wyWDd2UHFxbVRmNkF5QUI1aUFGRHlsaXRFYXp4TUx6UTk0d2tJV19WSU9nVWR5Z1BjdWFpZkJWSnNkQzhjMUZ4dUhjdm5pOTZGWVVCWlZSd0hxM1BIZUhhemg4S1lLZTZzSUY0TmlxVndqcDJKaHlqTlQ1Sm9HUllNV1dzbGtUTXhCQVlOMGU4eVczeW00dkt5N2VsdWxpWlV6YVRqcnNtZGlTcUV0NkE3Zkt2a01LVXpxc195dVQ?oc=5"
     },
     {
+      "id": "bff47904",
+      "title": "人民文学出版社 - 新浪网",
+      "date": "2026-09-12",
+      "category": "出版物",
+      "summary": "人民文学出版社",
+      "content": "人民文学出版社",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WZUpDc3ZPN3g4WHk3YjV4WEVDenBGZTd4bS14MmdzMG9kRmNlc2tDZlRtZHpTdV9VVUd2cjVJNkpFSGR0Ul94cmVhZmU3RWJVd0w5dDI2MVoxbGp5QjBUSm1oVQ?oc=5"
+    },
+    {
       "id": "59aaf801",
       "title": "丹尼尔烈格夫演佛地魔？电视版《哈利波特》未开播即宣布拍第2季 - 娱乐 - 国外娱乐 - 好莱坞 - Sin Chew Daily",
       "date": "2026-09-11",
@@ -203,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNVGhic2F0R0J4OXJpcDEtVTktTjc2dGFZbjIzVXE4VUxocTRCUDlXY3R6VENMT2RMeWl1ZmxsWnF1TkFrZjFsLVBYZElKVGxWSjlrVnBselUwdTJJejdYNklDV2lodUtzY1FCcVVjV2V3ZVU?oc=5"
     },
     {
-      "id": "b94b45b3",
-      "title": "哈利·波特邀你来次墙体亲密接触 - 新浪网",
-      "date": "2026-09-11",
-      "category": "综合资讯",
-      "summary": "哈利·波特邀你来次墙体亲密接触",
-      "content": "哈利·波特邀你来次墙体亲密接触",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pZ2FlSm1TT0RsX2VwSV91Rk1VbS1yZUNnanc1b2hkaVN1WXNaRVVocTlrY0ZyVXFNSTdIQnNwMmRZRXlOSXY0Q2hjWEFiaVBVMDc2MDAzUlFvOXF5UEViWENBcmt0ZGs3SzlDU040aFdUN0U?oc=5"
-    },
-    {
       "id": "d24c9a98",
       "title": "霍格沃茨特快上铁三角初次相遇，魔法世界开端 - 新浪网",
       "date": "2026-09-11",
@@ -261,6 +241,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV2RhYS1Sa19kb052QmpaUkhHckdreHl3UnBvZkltaFJncnhiYmJ3RlhHN0w3ZTI4R05SSlNpYmVYQms0TWVzckI2eFhiRjZIWE5LbkpCS0cybnV2ZV9DUVEzUlRSdUY1T1BTS0Y3eWh1am5Cc3ZITFdyYzhCblhqY0FvWWkyNmR6RWdxTTZDYnU5Uzd5NDAzQWxJWmppZEpBQU9aRQ?oc=5"
+    },
+    {
+      "id": "b94b45b3",
+      "title": "哈利·波特邀你来次墙体亲密接触 - 新浪网",
+      "date": "2026-09-11",
+      "category": "综合资讯",
+      "summary": "哈利·波特邀你来次墙体亲密接触",
+      "content": "哈利·波特邀你来次墙体亲密接触",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pZ2FlSm1TT0RsX2VwSV91Rk1VbS1yZUNnanc1b2hkaVN1WXNaRVVocTlrY0ZyVXFNSTdIQnNwMmRZRXlOSXY0Q2hjWEFiaVBVMDc2MDAzUlFvOXF5UEViWENBcmt0ZGs3SzlDU040aFdUN0U?oc=5"
     },
     {
       "id": "c1dc2199",
@@ -323,8 +323,8 @@
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE01TU16S0poTG0wWWtFcS1xcDhoT2ZwSkw2TzhWWHpzOGRVU29EUXNxamNYcEJTanFYNHRVMkM2ZHZfYzMwMU96SGtJaGxhN3FYdmdnWEZzOWFScFFsOUtUQ0NwMTRvdFZ1bnppMmhyVEF2UQ?oc=5"
     },
     {
-      "id": "39b98ce6",
-      "title": "【场面】锦江乐园新生：哈利・波特制片厂钢结构完工 - 上观新闻",
+      "id": "0d0dc3d8",
+      "title": "【场面】锦江乐园新生：哈利・波特制片厂钢结构完工 - jfdaily.com",
       "date": "2026-09-10",
       "category": "主题乐园",
       "summary": "【场面】锦江乐园新生：哈利・波特制片厂钢结构完工",
