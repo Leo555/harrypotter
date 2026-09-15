@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-09-15T18:33:37.688Z",
+  "lastUpdated": "2026-09-15T23:16:22.524Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "6126b89d",
-      "title": "哈利波特与密室精选片段赏析 - k.sina.com.cn",
+      "id": "9052af1e",
+      "title": "同样讲小孩，为什么《哪吒》比不过《哈利·波特》？ - 手机网易网",
+      "date": "2026-09-15",
+      "category": "综合资讯",
+      "summary": "同样讲小孩，为什么《哪吒》比不过《哈利·波特》？",
+      "content": "同样讲小孩，为什么《哪吒》比不过《哈利·波特》？",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5weS1oU1NfWmo2ZGU0ZDVPU2VxRFVKZWFWeUJuSFMwUFRuNWlsdDBUaWFGUEdoVWhXWUNFcXRfWkNRTEJnU0VvV2haOEhUSFQ2czZTTA?oc=5"
+    },
+    {
+      "id": "ac93ca31",
+      "title": "哈利波特与密室精选片段赏析 - 新浪网",
       "date": "2026-09-15",
       "category": "综合资讯",
       "summary": "哈利波特与密室精选片段赏析",
@@ -23,8 +43,8 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJb2syQXJYZ3QtdE5pVXA2NmgzY3UxbXRRRVRiU3Axck12VGlTbGM5SGhuWmFpbmlzb0RiTFc0dFV3X0h6YmtUSU1OaFk0OFE3WFdYUGZGS0pFS1AybWlFbDg0eGd1Qm8zMjFTSmVkOGlrYnc?oc=5"
     },
     {
-      "id": "8a98cada",
-      "title": "三个全新的哈利·波特主题区即将登陆阿布扎比华纳兄弟世界 - k.sina.com.cn",
+      "id": "ee0c4184",
+      "title": "三个全新的哈利·波特主题区即将登陆阿布扎比华纳兄弟世界 - 新浪网",
       "date": "2026-09-15",
       "category": "影视动态",
       "summary": "三个全新的哈利·波特主题区即将登陆阿布扎比华纳兄弟世界",
@@ -41,26 +61,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fbXoxSzYxOGNWblFpZDVVcmwtY1ZuUEJ0NDl4QmRDVkw1VkZIR0xfbmg0ZlBIVFdnXy1wSElYTUdhSk1NTl9YclZkUEY1bzNUUGpFZVJTWTdtQlFUU29Nd0F5Mk1LVE5nWkxhb0tFckRpYk0?oc=5"
-    },
-    {
-      "id": "bf2c643c",
-      "title": "哈利·波特版realme真我16 Pro手机预热：天玑7300 Max芯片 - 新浪财经",
-      "date": "2026-09-14",
-      "category": "综合资讯",
-      "summary": "哈利·波特版realme真我16 Pro手机预热：天玑7300 Max芯片",
-      "content": "哈利·波特版realme真我16 Pro手机预热：天玑7300 Max芯片",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYWlwQjdxWVJjSVZNckJUX3NCb2pVd2dQc0k2QThzbEgwcmhTbEQ3ck40LURMQWJzSVR1Qm5Lc2lYRDVWSlBwWnUxVGZjYl9nUW1SVEhQVk00NkMyQWEzQ0FReFZZNW8yRjlfVDJRMEQxMlVkMGYyblBZOEtBNC1JdmttRk1BVDZxX25Z?oc=5"
     },
     {
       "id": "35a66c13",
@@ -81,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYk5FWXJwOVlfcHA3d2lFWkM4TndVTXJHdU92c0NkTnZJQkdqM19KaTRXMU5ab0NNeUNPUFVhbld2U1FiZHB1RWNWRUNDOE1CdWhrZlktbFdRLXF2S2ZjXzZXazg2Yk1IRFN4UnJOckd6ajZrMGtJUEJzS2hrZTFkSDJEOUNNQlNiRzZHTUxkWkxIOGljYTVFM0k5TXoyUGRSSzlpNlFmOA?oc=5"
+    },
+    {
+      "id": "bf2c643c",
+      "title": "哈利·波特版realme真我16 Pro手机预热：天玑7300 Max芯片 - 新浪财经",
+      "date": "2026-09-14",
+      "category": "综合资讯",
+      "summary": "哈利·波特版realme真我16 Pro手机预热：天玑7300 Max芯片",
+      "content": "哈利·波特版realme真我16 Pro手机预热：天玑7300 Max芯片",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYWlwQjdxWVJjSVZNckJUX3NCb2pVd2dQc0k2QThzbEgwcmhTbEQ3ck40LURMQWJzSVR1Qm5Lc2lYRDVWSlBwWnUxVGZjYl9nUW1SVEhQVk00NkMyQWEzQ0FReFZZNW8yRjlfVDJRMEQxMlVkMGYyblBZOEtBNC1JdmttRk1BVDZxX25Z?oc=5"
     },
     {
       "id": "d4e14e5b",
@@ -163,8 +183,8 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0g3ZFJ3OTF3R3BpVUxEMUlpaXBLdDEyNEZCWFlpVkR4dW9RRDlhX2NTMWFhdzU2TU9Zd180SVpPbFZTa3gzY0V1b0M2ck5iRWsyckR5Y3VscjNUcjZvOFFvd3BvTWM5MVJDQmItczY3SDhYbUFEM3dBbXRiNWY4NldjbllaYnV3?oc=5"
     },
     {
-      "id": "b65b373c",
-      "title": "哈利·波特系列学术表现总览 - k.sina.com.cn",
+      "id": "1020fcfa",
+      "title": "哈利·波特系列学术表现总览 - 新浪网",
       "date": "2026-09-13",
       "category": "综合资讯",
       "summary": "哈利·波特系列学术表现总览",
@@ -183,8 +203,8 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BSmxrbEZzQXk1TGh5MU04RlpLN0hiSTRlZHhLaUtwcHprcHBFOEZMS3FpTmw0VGIyeFdCR2NYYnlTMnd0c3hQS2F1Q1FGbE5OMnRpcDd3M2xJYWpfMjlBWWJNcnhaa0xFQUJJMDhVR3A2bEk?oc=5"
     },
     {
-      "id": "84fadc93",
-      "title": "解析下 - k.sina.com.cn",
+      "id": "ad964ae3",
+      "title": "解析下 - 新浪网",
       "date": "2026-09-13",
       "category": "综合资讯",
       "summary": "解析下",
@@ -303,8 +323,8 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WZUpDc3ZPN3g4WHk3YjV4WEVDenBGZTd4bS14MmdzMG9kRmNlc2tDZlRtZHpTdV9VVUd2cjVJNkpFSGR0Ul94cmVhZmU3RWJVd0w5dDI2MVoxbGp5QjBUSm1oVQ?oc=5"
     },
     {
-      "id": "009a4263",
-      "title": "“哈利波特”丹尼尔烈格夫被传将于新剧饰演佛地魔｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
+      "id": "4f69483f",
+      "title": "“哈利波特”丹尼尔烈格夫被传将于新剧饰演佛地魔｜即时新闻｜缤FUN星网｜on.cc东网 - hk.on.cc",
       "date": "2026-09-11",
       "category": "综合资讯",
       "summary": "“哈利波特”丹尼尔烈格夫被传将于新剧饰演佛地魔｜即时新闻｜缤FUN星网｜on.cc东网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCTUdrTkktaHVjSnBOX0JkVVdyMXlBaDk1VzZ2OFVKRVBEMHZfM2dncjAzS2VmM1VnVVJKMUUwV3pZbjRnNlc1LWVyalNCX2pCMWhaYW9ZR0RMMVFNN3VreUp2STVQZzlGYmRqLWRZZC1FMWs?oc=5"
-    },
-    {
-      "id": "b94b45b3",
-      "title": "哈利·波特邀你来次墙体亲密接触 - 新浪网",
-      "date": "2026-09-11",
-      "category": "综合资讯",
-      "summary": "哈利·波特邀你来次墙体亲密接触",
-      "content": "哈利·波特邀你来次墙体亲密接触",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pZ2FlSm1TT0RsX2VwSV91Rk1VbS1yZUNnanc1b2hkaVN1WXNaRVVocTlrY0ZyVXFNSTdIQnNwMmRZRXlOSXY0Q2hjWEFiaVBVMDc2MDAzUlFvOXF5UEViWENBcmt0ZGs3SzlDU040aFdUN0U?oc=5"
     }
   ]
 }
