@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2026-09-18T01:58:37.188Z",
+  "lastUpdated": "2026-09-18T07:41:11.670Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "ec55f3ac",
-      "title": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作 - 3DM",
+      "id": "32353208",
+      "title": "新浪网· - 新浪网",
+      "date": "2026-09-18",
+      "category": "综合资讯",
+      "summary": "新浪网·",
+      "content": "新浪网·",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yV2hYZGUtOTU2TUhfTTRLUy1jZjJZWjFrcDk2NmMwSGpjNzZuOVgzbzVUVjFJUHpvZnFSTnVIVG9MSnhBWldiOGpWbXdYbDdiVjE5VEQ4aUZZd0ZnM3Q0M1d6MA?oc=5"
+    },
+    {
+      "id": "40452415",
+      "title": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作 - 3dmgame.com",
       "date": "2026-09-17",
       "category": "影视动态",
       "summary": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作",
@@ -361,26 +381,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4NVpoMmtHVFU5SkNjNGppaF9PUVBvVnRpNjM4LXJiWHdHYkV0eWpwZHhGN0R2QUNGNEduejJna3YwZHgxcGNwNnBJUnBud25JRVQwc011dzI1R0l2Q3l1XzVWSQ?oc=5"
-    },
-    {
-      "id": "b6b1bc83",
-      "title": "新浪网· - sina.cn",
-      "date": "2026-09-16",
-      "category": "影视动态",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zdDhRVHdpV3gtLUlLNWp6am5ieEl1RlgzeTMwWWQ1SlJvejZDZTNRXzduWUVJem5WbS1GLTV4anVpVlJsSnhzUTFha2s3bzIzSkQtbS1jREk1ajAxTHRnS0x2QQ?oc=5"
     },
     {
       "id": "dbd8cb2c",
