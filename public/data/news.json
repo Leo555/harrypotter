@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-09-19T19:43:15.174Z",
+  "lastUpdated": "2026-09-19T22:33:03.907Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "d56cb6cb",
+      "title": "剧版哈利波特第一季开播倒计时97天 - 手机新浪网",
+      "date": "2026-09-19",
+      "category": "综合资讯",
+      "summary": "剧版哈利波特第一季开播倒计时97天",
+      "content": "剧版哈利波特第一季开播倒计时97天",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NdGgwbWluX3VOUzN0TnhJS2Q5Z2l4TXZYYVpJVGpBMTNjUXdZMnVmckQ5Z3BKRU9UQmkwcktLQ2dlaklZeHRocTZIZjFuNlI1UU5VaHNXRFcwcUxUREloNk5mT2xMc0ZXSEJ5QlhMSlhFQQ?oc=5"
+    },
+    {
+      "id": "202a6113",
+      "title": "《哈利波特》港版外傳 LibTV创作者成长计划 - 手机新浪网",
+      "date": "2026-09-19",
+      "category": "影视动态",
+      "summary": "《哈利波特》港版外傳 LibTV创作者成长计划",
+      "content": "《哈利波特》港版外傳 LibTV创作者成长计划",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NRnhDdFo2cEhGWTNDVF9kWFhweEFzWUEtRDZqTHBWYjRzaEFYNjA2UllTekt3LTJpdm9rdnM3U1JPZm53OXJNMUdDaUd6V1AxQmR6TUV3aThfNmROdWg2NVp4MXNZMzdLNG45N3lNellubWM?oc=5"
+    },
     {
       "id": "8c481467",
       "title": "加菲称赞哈利波特电影艺术家，暗讽罗琳不人道立法 - 手机新浪网",
@@ -120,27 +160,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb2phRkl4S0RTZGNUc0p5NTFPYWkwMXlsVzRXOTJuWHBBSFZ2Y2NqUUVObnh0bXdULWlfcFZkYk9kOXNGV2dSbTd4TFo4OWVxMF9uX1V5bHAtaFN5WU5wMzkyV1dNU2h3dlFxTk9UdVIzQmlLVjJLLUI1R2VrakY4NEVRSFdnUHhCYWU4?oc=5"
-    },
-    {
-      "id": "0d2a8f03",
-      "title": "剧版哈利波特第一季开播倒计时99天 - 手机新浪网",
-      "date": "2026-09-17",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特第一季开播倒计时99天",
-      "content": "剧版哈利波特第一季开播倒计时99天",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBISDI1c1pLOGN4cFBaSERYcElCazUzbDNLeEVkUGkzTmRRRzBrVEtseVgxbjU2OG9NVUg0V290amVWNDV5by1KRk9WcWo1eHNLNnhTcXNGd0NCUWlBODRFZkpFekFyeThyV19OaHA4Ul9ZZw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Fa2tCSHozS3FyY3MyTjdCdFB3WW1zZEtmTmtTRjFxREN1ZFlEV2tfUGU1Ykc1dEVTaldBcVBBV3dKSnZIbnR0aDJyMFVTejRJYkE?oc=5"
     },
     {
       "id": "66d20bb5",
@@ -241,6 +261,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE00M1RPcW5ZWm1nVFZkWnhIWGlSZnNRTzFiUjVFVVBnMXRCNUFNUU0wRThtaDhBWElNZmZyUkRFV3B6bUpqM0NNcldCTWJDclUzcVBtN0hXZkpxcnlkMS1vVlNrekp1LS1kNU9wRlhwcFJDdw?oc=5"
+    },
+    {
+      "id": "0d2a8f03",
+      "title": "剧版哈利波特第一季开播倒计时99天 - 手机新浪网",
+      "date": "2026-09-17",
+      "category": "综合资讯",
+      "summary": "剧版哈利波特第一季开播倒计时99天",
+      "content": "剧版哈利波特第一季开播倒计时99天",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBISDI1c1pLOGN4cFBaSERYcElCazUzbDNLeEVkUGkzTmRRRzBrVEtseVgxbjU2OG9NVUg0V290amVWNDV5by1KRk9WcWo1eHNLNnhTcXNGd0NCUWlBODRFZkpFekFyeThyV19OaHA4Ul9ZZw?oc=5"
     },
     {
       "id": "ec55f3ac",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UdzV2NlFnMnNvVUJsbDBQLXVNNE82MGJZbUpmLXkzaFl1SHg3VFhYa3M4SjVWLXJaVFRJTVpnZWtoOFdycUNDNk1YNnhfbDhlUUZtZEtabGJEQWhOTFZVUzIwejE?oc=5"
-    },
-    {
-      "id": "ff0ee7be",
-      "title": "哈利·波特主题忍笑挑战 精神状态belike - 手机新浪网",
-      "date": "2026-09-16",
-      "category": "综合资讯",
-      "summary": "哈利·波特主题忍笑挑战 精神状态belike",
-      "content": "哈利·波特主题忍笑挑战 精神状态belike",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Ra2dCdXdVdHh1aE9Pdldmd04waFJ0WlBPemwyc1VHS0V0NGQyVUQydlZWeWt6YWplNndIRDZId3ZCRDhSNmZnM0JTUjJaa0NRQ3dXb1NVeTFYS2h3cFU3SzR4cTdsbUJwRmw5dFktbURZOWs?oc=5"
-    },
-    {
-      "id": "f551a2d0",
-      "title": "剧版哈利·波特第一季开播倒计时100天 - 手机新浪网",
-      "date": "2026-09-16",
-      "category": "综合资讯",
-      "summary": "剧版哈利·波特第一季开播倒计时100天",
-      "content": "剧版哈利·波特第一季开播倒计时100天",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FOEZDMlRiOGRGY3BaU1FXWnljNnFzeTMyWEVvR0JuT2NmcXQ4RmhVd1lDRldFZmNuWkQtMzI1UFF3MW5SR1hnMEpuUFBQN1NveXZzeS1nTEdwOWlfQmc1MmItM3lURzJpVHdpN3g3RFRodw?oc=5"
     }
   ]
 }
