@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T12:44:50.250Z",
+  "lastUpdated": "2026-09-19T17:33:53.189Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -101,26 +101,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yV2hYZGUtOTU2TUhfTTRLUy1jZjJZWjFrcDk2NmMwSGpjNzZuOVgzbzVUVjFJUHpvZnFSTnVIVG9MSnhBWldiOGpWbXdYbDdiVjE5VEQ4aUZZd0ZnM3Q0M1d6MA?oc=5"
-    },
-    {
-      "id": "ec55f3ac",
-      "title": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作 - 3DM",
-      "date": "2026-09-17",
-      "category": "影视动态",
-      "summary": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作",
-      "content": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PS2lSRFpQQXpXd25lenBMcjhtaFFZUGxmYkhVVUlTemRLbVRrZXE5STlqUndUZ0owNkhJaGtvT29RR0NwSXBsWXlSSEx5RV9Dd1RmRnljbkRwZnF4?oc=5"
     },
     {
       "id": "0d2a8f03",
@@ -241,6 +221,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE00M1RPcW5ZWm1nVFZkWnhIWGlSZnNRTzFiUjVFVVBnMXRCNUFNUU0wRThtaDhBWElNZmZyUkRFV3B6bUpqM0NNcldCTWJDclUzcVBtN0hXZkpxcnlkMS1vVlNrekp1LS1kNU9wRlhwcFJDdw?oc=5"
+    },
+    {
+      "id": "ec55f3ac",
+      "title": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作 - 3DM",
+      "date": "2026-09-17",
+      "category": "影视动态",
+      "summary": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作",
+      "content": "HBO内容负责人确认《哈利·波特》难以严格年更，罗琳仍全面参与创作",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PS2lSRFpQQXpXd25lenBMcjhtaFFZUGxmYkhVVUlTemRLbVRrZXE5STlqUndUZ0owNkhJaGtvT29RR0NwSXBsWXlSSEx5RV9Dd1RmRnljbkRwZnF4?oc=5"
     },
     {
       "id": "e26d3a51",
