@@ -1,14 +1,34 @@
 {
-  "lastUpdated": "2026-09-21T08:18:42.808Z",
+  "lastUpdated": "2026-09-21T15:26:00.919Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "4342056d",
-      "title": "HBO新版《哈利·波特》预告居中构图引争议！方便竖屏裁切传播 - 3dmgame.com",
-      "date": "2026-09-20",
+      "id": "4565ab16",
+      "title": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布 - notebookcheck-cn.com",
+      "date": "2026-09-21",
+      "category": "出版物",
+      "summary": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
+      "content": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xbnJFc3lldHVMdFI0ZmNXcFJVb2JyQkc5eG1xZ0pXTDljdUd1TXUyTk9TNE5OMVp1OGlOQ1dvYTFkZHh2b04wQWpabUY4bmlFZmo5R0o1d1hvbmh6MHJ3QU9QVXE?oc=5"
+    },
+    {
+      "id": "2e21a190",
+      "title": "用40s重温《哈利·波特》8部电影！！！ ​ - 手机新浪网",
+      "date": "2026-09-21",
       "category": "影视动态",
-      "summary": "HBO新版《哈利·波特》预告居中构图引争议！方便竖屏裁切传播",
-      "content": "HBO新版《哈利·波特》预告居中构图引争议！方便竖屏裁切传播",
+      "summary": "用40s重温《哈利·波特》8部电影！！！ ​",
+      "content": "用40s重温《哈利·波特》8部电影！！！ ​",
       "image": "📺",
       "relatedLinks": [
         {
@@ -20,7 +40,47 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wTVRKRzNaU00yR3UwTkp6dkNQeXhjd3pHTnFGTFcxZ3Y0aWhnNktzSjhpTU85eHI1Tl9GMXJMOTRpdmppOTBIOUpoMDA0NmRWWnI5QUJKYnp5ZUxx?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Bd0RCWFp0RlZPcWNhQTlKX056S3lkX1FTdDVWQmIzYzlMVzJ4YlZXNFhVMFVsSHgzdzhISXFDNHFDcFF2OU42R1NoS1MxNmNfN0JjUFc0aXVxZ2xFT0tsNkFpWml5anFKR2xIWVpDcVpPQVE?oc=5"
+    },
+    {
+      "id": "6f754b2a",
+      "title": "哈利波特与密室精选片段76发布 - 手机新浪网",
+      "date": "2026-09-21",
+      "category": "影视动态",
+      "summary": "哈利波特与密室精选片段76发布",
+      "content": "哈利波特与密室精选片段76发布",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FU2tnNW9vTnROLUJZRWJNZkpITk5JVG5iWklHeWRia011Tmtld2syN1NYb0tNcFN0TVR3S3VlS1FVM2xGSTg2MDBTTjNsY0VzTTFYczdPS2JoOWxEbTdyaHRRR3Z3OU1YYkVxUDRzWnIzMTg?oc=5"
+    },
+    {
+      "id": "177a25e3",
+      "title": "HBO新版《哈利·波特》预告居中构图引争议 方便竖屏裁切传播 - cnBeta.COM",
+      "date": "2026-09-20",
+      "category": "影视动态",
+      "summary": "HBO新版《哈利·波特》预告居中构图引争议 方便竖屏裁切传播",
+      "content": "HBO新版《哈利·波特》预告居中构图引争议 方便竖屏裁切传播",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MVnhTaHFUUllnQ0psQ0dyQXJsNklWV1BvSFZSTG5tRkJNRDhsczR4c0oxU1V0X0ZnMThmSVhMMy1XSWt5dHdIN1lVTzVJbjZ5VWc?oc=5"
     },
     {
       "id": "903f11a5",
@@ -203,8 +263,8 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yV2hYZGUtOTU2TUhfTTRLUy1jZjJZWjFrcDk2NmMwSGpjNzZuOVgzbzVUVjFJUHpvZnFSTnVIVG9MSnhBWldiOGpWbXdYbDdiVjE5VEQ4aUZZd0ZnM3Q0M1d6MA?oc=5"
     },
     {
-      "id": "4af831a9",
-      "title": "中国首秀！“哈利·波特：魔法幻境”项目即将落地成都 - 搜狐网",
+      "id": "09308dca",
+      "title": "中国首秀！“哈利·波特：魔法幻境”项目即将落地成都 - sohu.com",
       "date": "2026-09-17",
       "category": "综合资讯",
       "summary": "中国首秀！“哈利·波特：魔法幻境”项目即将落地成都",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KdHZiTGdseWo2b09rZ05LNUtURy02WTRTajdrTWM0cnJRQVYyYVhzWDlXS3dnN1p0azN6c3Z4YXo2ZjFXZ1lYeUZNNkRmcGd0ZU1Da2FlWm1jWDF0MklMUVN0d3RRMFE4YVd3SjRoSQ?oc=5"
-    },
-    {
-      "id": "2ab0b8a1",
-      "title": "难怪斯教走路都带风，原来都是急的 哈利波特 鹅滴神片 - 手机新浪网",
-      "date": "2026-09-17",
-      "category": "影视动态",
-      "summary": "难怪斯教走路都带风，原来都是急的 哈利波特 鹅滴神片",
-      "content": "难怪斯教走路都带风，原来都是急的 哈利波特 鹅滴神片",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeDdZUUl0REIyRE5hY2lLU1hiS2dINTRab0RIa281dDVRdW9wRkx0dmFGc3BnYTZ0bjN6UW9ER0QxVXFtYXFBMUhhMVlIR2k3RzRmd1RuNUdBVm9XdmlpVnFOM3hpYWhkTUJWblVQakQ0SjRveEdSTVhZbEdmRTFNWHlueVliWGZEM2IxTnplYmk1T2tRV0xfQjBjYVFIeWRHRjNSWU9YWXB2ckRKRVNrejVYRndBQWY2NG5ZYVVGcW8tRlM1NXVaYlltcWhRMjVlVDV6MTJsRTU?oc=5"
-    },
-    {
-      "id": "0d2a8f03",
-      "title": "剧版哈利波特第一季开播倒计时99天 - 手机新浪网",
-      "date": "2026-09-17",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特第一季开播倒计时99天",
-      "content": "剧版哈利波特第一季开播倒计时99天",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBISDI1c1pLOGN4cFBaSERYcElCazUzbDNLeEVkUGkzTmRRRzBrVEtseVgxbjU2OG9NVUg0V290amVWNDV5by1KRk9WcWo1eHNLNnhTcXNGd0NCUWlBODRFZkpFekFyeThyV19OaHA4Ul9ZZw?oc=5"
-    },
-    {
-      "id": "d398326a",
-      "title": "非裔演「石內卜」獲JK羅琳稱讚 網友有意見 - epochtimes.com",
-      "date": "2026-09-17",
-      "category": "综合资讯",
-      "summary": "非裔演「石內卜」獲JK羅琳稱讚 網友有意見",
-      "content": "非裔演「石內卜」獲JK羅琳稱讚 網友有意見",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wY3doMkd3X1o0ZzVscFMyU1pBV2FIaFd3RzlYVFh1aWdmdFR2QXRoY2N2Wi1SN2F6UkxrWUx2Q0ozS2M0cWp3dDhJQVBPM2dfVTJNVExYUXV6a2w4a1htZNIBZkFVX3lxTE1TSENuUEVudXlXUHBXdDM1ekh4TXprV0hkOTFnTThQT2ZoWVdTSEQ0UmpVdzZQeERRQUE4ak9Xc2dhd3FIVnlGWndIbzFsSU5zOUN2ZnhZSWxhT2NRN21kLXVfVVJtQQ?oc=5"
     }
   ]
 }
