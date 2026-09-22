@@ -173,18 +173,41 @@ export async function loadBook(bookNum, lang = 'en') {
     }
   } else {
     // 英文版：按 "CHAPTER X" / "Chapter X" 分割
-    // 支持两种格式：
-    // 1. CHAPTER X\nTITLE (分行)
-    // 2. CHAPTER X TITLE (同行)
-    // 注意：使用 [ \t] 而不是 \s，避免跨行匹配
-    const chapterRegex = /(?:^|\n)[ \t]*(CHAPTER|Chapter)[ \t]+([A-Za-z-]+)[ \t]*([^\r\n]*)\r?\n/g
+    // 支持多种格式变体：
+    // 1. CHAPTER ONE\nTITLE        (Book1: 标准大写)
+    // 2. 　　CHAPTER\tONE\n　　TITLE  (Book2: 全角空格+TAB, 大小写混合如TWo)
+    // 3. 　　CHAPTER ONE\nTITLE     (Book3: 全角空格前缀)
+    // 4. 　　CHAPTER ONE - TITLE    (Book4: 同行标题带破折号)
+    // 5. - CHAPTER ONE -\nTITLE    (Book5: 破折号包裹)
+    // 6. Chapter 1: Title          (Book6: 数字+冒号+同行标题)
+    // 7.  Chapter One\nTitle       (Book7: 首字母大写)
+    // 宽松正则：匹配 "CHAPTER" 后面的章节号和可选标题
+    // [^\S\n]* = 行内空白（含全角空格、TAB等，不跨行）
+    // 章节号部分用贪婪匹配直到遇到 ":" "-" 或行尾，以支持 "F I v E" 等异常格式
+    const chapterRegex = /(?:^|\n)[^\S\n]*-?[^\S\n]*(CHAPTER|Chapter)[^\S\n]+(.+?)\r?\n/gi
     const splits = []
     let match
 
     while ((match = chapterRegex.exec(text)) !== null) {
-      // match[2] 是章节号（如 ONE, SEVEN）
-      // match[3] 是同行标题（如果有，如 THE SORTING HAT）
-      const sameLineTitle = match[3] ? match[3].trim() : ''
+      let rest = match[2].trim().replace(/-\s*$/, '').trim()
+      let chapterNum = ''
+      let sameLineTitle = ''
+
+      // Book6 格式: "1: The Other Minister"
+      const colonMatch = rest.match(/^(\d+)\s*[:：]\s*(.+)/)
+      // Book4 格式: "ONE - THE RIDDLE HOUSE" / "THIRTY-SEVEN - THE BEGINNING"
+      const dashMatch = rest.match(/^([A-Z][A-Z-]+)\s+[-–—]\s+([A-Z].+)/)
+
+      if (colonMatch) {
+        chapterNum = colonMatch[1].trim()
+        sameLineTitle = colonMatch[2].trim()
+      } else if (dashMatch) {
+        chapterNum = dashMatch[1].trim()
+        sameLineTitle = dashMatch[2].trim()
+      } else {
+        chapterNum = rest
+      }
+
       splits.push({
         index: match.index,
         raw: match[0],
