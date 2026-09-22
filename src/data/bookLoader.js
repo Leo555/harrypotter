@@ -1,4 +1,6 @@
 // 书籍文本加载器 — 动态导入原著文本并按章节分割，支持中英文双语
+import { splitEnChapters } from './chapterSplit.js'
+
 // 英文文件映射
 const bookFilesEn = {
   1: () => import('../../books/Book1-Harry_Potter_and_the_Sorcerers_Stone.txt?raw'),
@@ -134,7 +136,7 @@ export async function loadBook(bookNum, lang = 'en') {
   const text = module.default
 
   const cnNames = chapterNames[bookNum] || []
-  const chapters = []
+  let chapters = []
 
   if (lang === 'cn') {
     // 中文版：按 "第X章　标题" 分割，同时支持 "尾声" 作为最后一章
@@ -172,77 +174,8 @@ export async function loadBook(bookNum, lang = 'en') {
       })
     }
   } else {
-    // 英文版：按 "CHAPTER X" / "Chapter X" 分割
-    // 支持多种格式变体：
-    // 1. CHAPTER ONE\nTITLE        (Book1: 标准大写)
-    // 2. 　　CHAPTER\tONE\n　　TITLE  (Book2: 全角空格+TAB, 大小写混合如TWo)
-    // 3. 　　CHAPTER ONE\nTITLE     (Book3: 全角空格前缀)
-    // 4. 　　CHAPTER ONE - TITLE    (Book4: 同行标题带破折号)
-    // 5. - CHAPTER ONE -\nTITLE    (Book5: 破折号包裹)
-    // 6. Chapter 1: Title          (Book6: 数字+冒号+同行标题)
-    // 7.  Chapter One\nTitle       (Book7: 首字母大写)
-    // 宽松正则：匹配 "CHAPTER" 后面的章节号和可选标题
-    // [^\S\n]* = 行内空白（含全角空格、TAB等，不跨行）
-    // 章节号部分用贪婪匹配直到遇到 ":" "-" 或行尾，以支持 "F I v E" 等异常格式
-    const chapterRegex = /(?:^|\n)[^\S\n]*-?[^\S\n]*(CHAPTER|Chapter)[^\S\n]+(.+?)\r?\n/gi
-    const splits = []
-    let match
-
-    while ((match = chapterRegex.exec(text)) !== null) {
-      let rest = match[2].trim().replace(/-\s*$/, '').trim()
-      let chapterNum = ''
-      let sameLineTitle = ''
-
-      // Book6 格式: "1: The Other Minister"
-      const colonMatch = rest.match(/^(\d+)\s*[:：]\s*(.+)/)
-      // Book4 格式: "ONE - THE RIDDLE HOUSE" / "THIRTY-SEVEN - THE BEGINNING"
-      const dashMatch = rest.match(/^([A-Z][A-Z-]+)\s+[-–—]\s+([A-Z].+)/)
-
-      if (colonMatch) {
-        chapterNum = colonMatch[1].trim()
-        sameLineTitle = colonMatch[2].trim()
-      } else if (dashMatch) {
-        chapterNum = dashMatch[1].trim()
-        sameLineTitle = dashMatch[2].trim()
-      } else {
-        chapterNum = rest
-      }
-
-      splits.push({
-        index: match.index,
-        raw: match[0],
-        sameLineTitle: sameLineTitle.length > 0 && sameLineTitle.length < 80 ? sameLineTitle : '',
-      })
-    }
-
-    for (let i = 0; i < splits.length; i++) {
-      const start = splits[i].index + splits[i].raw.length
-      const end = i + 1 < splits.length ? splits[i + 1].index : text.length
-      let content = text.slice(start, end).trim()
-
-      // 如果同行有标题，直接使用
-      let engTitle = splits[i].sameLineTitle || ''
-
-      // 如果同行没有标题，尝试从下一行提取
-      if (!engTitle) {
-        const firstNewline = content.indexOf('\n')
-        if (firstNewline > 0 && firstNewline < 80) {
-          const possibleTitle = content.slice(0, firstNewline).trim()
-          if (possibleTitle.length < 80 && possibleTitle.length > 0 &&
-              (possibleTitle === possibleTitle.toUpperCase() || /^[A-Z]/.test(possibleTitle))) {
-            engTitle = possibleTitle
-            content = content.slice(firstNewline).trim()
-          }
-        }
-      }
-
-      chapters.push({
-        number: i + 1,
-        title: engTitle || `Chapter ${i + 1}`,
-        titleCn: cnNames[i] || `第${i + 1}章`,
-        content,
-      })
-    }
+    // 英文版：按 "CHAPTER X" / "Chapter X" 分割，额外处理 Epilogue 等无编号章节
+    chapters = splitEnChapters(text, cnNames)
   }
 
   return {
