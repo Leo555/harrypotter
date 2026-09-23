@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T13:56:16.051Z",
+  "lastUpdated": "2026-09-23T18:42:53.473Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -103,8 +103,8 @@
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KM19md0dHSGtxWDVKcUtXWHpTdkNqNWtwSklfeGx4dEpHOEpKaWQ5NnZjQ19oODJnUHpRRGk5ODhMZVlBMjV4dW9ocm55c2FLMU9waWtmaU02Si05T09rRTNhekNRUQ?oc=5"
     },
     {
-      "id": "23cb0d67",
-      "title": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界 - VOI.ID",
+      "id": "b1904b4c",
+      "title": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界 - voi.id",
       "date": "2026-09-21",
       "category": "综合资讯",
       "summary": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界",
@@ -343,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVZUNBSDJCaUJZdWZFaTRvSkVPQ1h2Q0tOaHNkYmdhWUxXeVBGUExqTl9MeDZKNVprdFZWNDRwTF80Rm9fZjh6VFRSS3JmYjVTNEtYVnJDNDhHbW5KUGpVbVdaZw?oc=5"
     },
     {
+      "id": "a78521cf",
+      "title": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都 - QQ News",
+      "date": "2026-09-18",
+      "category": "影视动态",
+      "summary": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
+      "content": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VZl9ldWRnb1JrSXlUc3U4YXV0OFpwU3hwTGpUMUZyZVNJQ0FLNDVCZEpaa04wbGRVOFg0bjc0VUo2ZTV2Uzd0WUN3eFJnSGhkbmpJVTJB?oc=5"
+    },
+    {
       "id": "c11f2dac",
       "title": "转发关注抽奖送哈利波特画册，明天平台开奖 - 手机新浪网",
       "date": "2026-09-18",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWVVqS0FBUE1kY3lmTk1BVzVsWDRwQlRQdzltMVNjQUMyVzNiRDdxVmU5ekZ6dENrc2czRmNFdmgtRW92N3BPVm03bkN3b0tzQUxJaEtCdUE1Q2xkcFRSNmRXSkVkZ1dEZ00yTVZ0NFZHanZfT0xkWmczUlpuTl85UGxBa1N4VThZ?oc=5"
-    },
-    {
-      "id": "115c0e02",
-      "title": "新浪网· - 手机新浪网",
-      "date": "2026-09-18",
-      "category": "综合资讯",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yV2hYZGUtOTU2TUhfTTRLUy1jZjJZWjFrcDk2NmMwSGpjNzZuOVgzbzVUVjFJUHpvZnFSTnVIVG9MSnhBWldiOGpWbXdYbDdiVjE5VEQ4aUZZd0ZnM3Q0M1d6MA?oc=5"
     }
   ]
 }
