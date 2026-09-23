@@ -48,7 +48,7 @@ const movies = [
     awards: ['英国电影学院奖提名', '全球票房超10亿美元'],
     watchLinks: {
       tencent: 'https://v.qq.com/x/cover/pb69zpzabgg1t7n.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28281',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep280975',
     },
   },
   {
@@ -91,8 +91,8 @@ const movies = [
     ],
     awards: ['BAFTA 最佳制作设计提名'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/d7kcwk10rkewxp3.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28283',
+      tencent: 'https://v.qq.com/x/cover/2tk2e2v12j4jcm5/k0020b7eb77.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep281206',
     },
   },
   {
@@ -135,8 +135,8 @@ const movies = [
     ],
     awards: ['奥斯卡最佳原创配乐提名', '奥斯卡最佳视觉效果提名'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/51v6vu0q0ldqvqa.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28285',
+      tencent: 'https://v.qq.com/x/cover/2tk2e2v12j4jcm5/c0024shykh1.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep750414',
     },
   },
   {
@@ -179,8 +179,8 @@ const movies = [
     ],
     awards: ['BAFTA 最佳制作设计提名'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/1txp2tl5e73mhol.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28287',
+      tencent: 'https://v.qq.com/x/cover/o275c9svl35mdv9.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep281208',
     },
   },
   {
@@ -224,8 +224,8 @@ const movies = [
     ],
     awards: ['奥斯卡最佳视觉效果提名'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/gpbv1o5dbtk8d37.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28289',
+      tencent: 'https://v.qq.com/x/cover/2tk2e2v12j4jcm5/f0020p3sdbn.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep281209',
     },
   },
   {
@@ -267,8 +267,8 @@ const movies = [
     ],
     awards: ['奥斯卡最佳摄影提名'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/e087z1nnhtlvu0j.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28291',
+      tencent: 'https://v.qq.com/x/cover/b444k2fgkcf2np8/a002058rl6e.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep281210',
     },
   },
   {
@@ -310,8 +310,8 @@ const movies = [
     ],
     awards: ['奥斯卡最佳视觉效果提名', '奥斯卡最佳艺术指导提名'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/c4j2ngiexg82zfb.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28293',
+      tencent: 'https://v.qq.com/x/page/x32643ycoi3.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep281211',
     },
   },
   {
@@ -357,8 +357,8 @@ const movies = [
     ],
     awards: ['奥斯卡3项提名', '全球票房13.42亿美元', '烂番茄96%新鲜度'],
     watchLinks: {
-      tencent: 'https://v.qq.com/x/cover/fhl7r27bcxq5uga.html',
-      bilibili: 'https://www.bilibili.com/bangumi/play/ss28295',
+      tencent: 'https://v.qq.com/x/cover/2tk2e2v12j4jcm5/l0020i1tnq3.html',
+      bilibili: 'https://www.bilibili.com/bangumi/play/ep281212',
     },
   },
 ]
