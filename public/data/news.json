@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T23:17:01.229Z",
+  "lastUpdated": "2026-09-24T02:00:36.935Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -103,6 +103,26 @@
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KM19md0dHSGtxWDVKcUtXWHpTdkNqNWtwSklfeGx4dEpHOEpKaWQ5NnZjQ19oODJnUHpRRGk5ODhMZVlBMjV4dW9ocm55c2FLMU9waWtmaU02Si05T09rRTNhekNRUQ?oc=5"
     },
     {
+      "id": "c3384875",
+      "title": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布 - Notebookcheck CN",
+      "date": "2026-09-21",
+      "category": "出版物",
+      "summary": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
+      "content": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xbnJFc3lldHVMdFI0ZmNXcFJVb2JyQkc5eG1xZ0pXTDljdUd1TXUyTk9TNE5OMVp1OGlOQ1dvYTFkZHh2b04wQWpabUY4bmlFZmo5R0o1d1hvbmh6MHJ3QU9QVXE?oc=5"
+    },
+    {
       "id": "566dbf2a",
       "title": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界 - VOI.id",
       "date": "2026-09-21",
@@ -161,26 +181,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FU2tnNW9vTnROLUJZRWJNZkpITk5JVG5iWklHeWRia011Tmtld2syN1NYb0tNcFN0TVR3S3VlS1FVM2xGSTg2MDBTTjNsY0VzTTFYczdPS2JoOWxEbTdyaHRRR3Z3OU1YYkVxUDRzWnIzMTg?oc=5"
-    },
-    {
-      "id": "c3384875",
-      "title": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布 - Notebookcheck CN",
-      "date": "2026-09-21",
-      "category": "出版物",
-      "summary": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
-      "content": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xbnJFc3lldHVMdFI0ZmNXcFJVb2JyQkc5eG1xZ0pXTDljdUd1TXUyTk9TNE5OMVp1OGlOQ1dvYTFkZHh2b04wQWpabUY4bmlFZmo5R0o1d1hvbmh6MHJ3QU9QVXE?oc=5"
     },
     {
       "id": "3eaa5470",
