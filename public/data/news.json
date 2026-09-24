@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T02:00:36.935Z",
+  "lastUpdated": "2026-09-24T07:53:41.548Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -103,6 +103,26 @@
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KM19md0dHSGtxWDVKcUtXWHpTdkNqNWtwSklfeGx4dEpHOEpKaWQ5NnZjQ19oODJnUHpRRGk5ODhMZVlBMjV4dW9ocm55c2FLMU9waWtmaU02Si05T09rRTNhekNRUQ?oc=5"
     },
     {
+      "id": "23cb0d67",
+      "title": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界 - VOI.ID",
+      "date": "2026-09-21",
+      "category": "综合资讯",
+      "summary": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界",
+      "content": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4xS0hpOEZjblBaa3R0UkxLTDFVM0RSMFZoZkNYaFU3eDB4Qk5ySmE2TUN2Tm9KMkVwZHNJVS1oaE5pcDTSAUJBVV95cUxNd3BTRlNVc1hMTFZUN05GdnJJV3paTUNRZTM5VjBMQ3g2cXZFaUliLTU4bFBpVTYwcHotb0loZlRFamc?oc=5"
+    },
+    {
       "id": "c3384875",
       "title": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布 - Notebookcheck CN",
       "date": "2026-09-21",
@@ -121,26 +141,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xbnJFc3lldHVMdFI0ZmNXcFJVb2JyQkc5eG1xZ0pXTDljdUd1TXUyTk9TNE5OMVp1OGlOQ1dvYTFkZHh2b04wQWpabUY4bmlFZmo5R0o1d1hvbmh6MHJ3QU9QVXE?oc=5"
-    },
-    {
-      "id": "566dbf2a",
-      "title": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界 - VOI.id",
-      "date": "2026-09-21",
-      "category": "综合资讯",
-      "summary": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界",
-      "content": "通过哈利·波特版realme 16 Pro探索霍格沃茨魔法世界",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4xS0hpOEZjblBaa3R0UkxLTDFVM0RSMFZoZkNYaFU3eDB4Qk5ySmE2TUN2Tm9KMkVwZHNJVS1oaE5pcDTSAUJBVV95cUxNd3BTRlNVc1hMTFZUN05GdnJJV3paTUNRZTM5VjBMQ3g2cXZFaUliLTU4bFBpVTYwcHotb0loZlRFamc?oc=5"
     },
     {
       "id": "2e21a190",
@@ -343,6 +343,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVZUNBSDJCaUJZdWZFaTRvSkVPQ1h2Q0tOaHNkYmdhWUxXeVBGUExqTl9MeDZKNVprdFZWNDRwTF80Rm9fZjh6VFRSS3JmYjVTNEtYVnJDNDhHbW5KUGpVbVdaZw?oc=5"
     },
     {
+      "id": "bd2e8cc0",
+      "title": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都 - news.qq.com",
+      "date": "2026-09-18",
+      "category": "影视动态",
+      "summary": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
+      "content": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VZl9ldWRnb1JrSXlUc3U4YXV0OFpwU3hwTGpUMUZyZVNJQ0FLNDVCZEpaa04wbGRVOFg0bjc0VUo2ZTV2Uzd0WUN3eFJnSGhkbmpJVTJB?oc=5"
+    },
+    {
       "id": "a78521cf",
       "title": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都 - QQ News",
       "date": "2026-09-18",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6WjZvbWIxVkFRSERYVnBONmVpZ1J2ZGlQQU9majR4d1EwZ1NXLTM4RlRvRjc1eEVoSGJMUzVENUlnSEdQQmF3YmZiWDJEdU01eV93TGh4VzcxakZLUjNtZjlialV0bUhlcXZ3OVM0TjQ?oc=5"
-    },
-    {
-      "id": "32c0bc44",
-      "title": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都 - sohu.com",
-      "date": "2026-09-18",
-      "category": "影视动态",
-      "summary": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
-      "content": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWVVqS0FBUE1kY3lmTk1BVzVsWDRwQlRQdzltMVNjQUMyVzNiRDdxVmU5ekZ6dENrc2czRmNFdmgtRW92N3BPVm03bkN3b0tzQUxJaEtCdUE1Q2xkcFRSNmRXSkVkZ1dEZ00yTVZ0NFZHanZfT0xkWmczUlpuTl85UGxBa1N4VThZ?oc=5"
     }
   ]
 }
