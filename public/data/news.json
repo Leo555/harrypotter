@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T18:43:49.898Z",
+  "lastUpdated": "2026-09-24T23:37:36.861Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2Zk5TV0FGdGlFUVQtZFpDem03OUotYWdLLVFYS2hhX1g4b1B3UFdXeTJRRlpwYmpBUXJFY3BZSWtpRkNLNnFsTHhYbHBReHRMWm03RXpVbUdVTkpiUWRINWhRSWtvUk1QbFlUczdBbncydw?oc=5"
+    },
+    {
+      "id": "33dce598",
+      "title": "剧版哈利波特第一季开播倒计时92天 - 新浪财经",
+      "date": "2026-09-24",
+      "category": "综合资讯",
+      "summary": "剧版哈利波特第一季开播倒计时92天",
+      "content": "剧版哈利波特第一季开播倒计时92天",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUGZTRjUzUnp0bC1XZU4zc295MnVGb0FGWkFpMnZtbmRIWHd4emp6cEVLQUNYZElfSXNjeEhKdmxXaVJZQlN4QmVBWThJTUdWRFhmaUlyXzFDNm84bzJhN0piUzRmTTd5ZE5mdzFPTk9zWW5TOW5KWEk0VGtQN3Mtd1M3WQ?oc=5"
     },
     {
       "id": "9b422bb1",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVZUNBSDJCaUJZdWZFaTRvSkVPQ1h2Q0tOaHNkYmdhWUxXeVBGUExqTl9MeDZKNVprdFZWNDRwTF80Rm9fZjh6VFRSS3JmYjVTNEtYVnJDNDhHbW5KUGpVbVdaZw?oc=5"
-    },
-    {
-      "id": "a78521cf",
-      "title": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都 - QQ News",
-      "date": "2026-09-18",
-      "category": "影视动态",
-      "summary": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
-      "content": "中国首秀！“哈利·波特：魔法幻境”10月登陆成都",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VZl9ldWRnb1JrSXlUc3U4YXV0OFpwU3hwTGpUMUZyZVNJQ0FLNDVCZEpaa04wbGRVOFg0bjc0VUo2ZTV2Uzd0WUN3eFJnSGhkbmpJVTJB?oc=5"
     }
   ]
 }
