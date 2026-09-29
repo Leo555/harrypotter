@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-09-29T09:12:09.572Z",
+  "lastUpdated": "2026-09-29T17:10:57.997Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "39d20249",
+      "title": "交易 | 畅销《哈利·波特》RPG游戏在 Nintendo Switch 上降价 90%，从 60 美元降至 6 美元。 - Notebookcheck CN",
+      "date": "2026-09-29",
+      "category": "游戏资讯",
+      "summary": "交易 | 畅销《哈利·波特》RPG游戏在 Nintendo Switch 上降价 90%，从 60 美元降至 6 美元。",
+      "content": "交易 | 畅销《哈利·波特》RPG游戏在 Nintendo Switch 上降价 90%，从 60 美元降至 6 美元。",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZnlZOEtQb3BqZml3Yi0zdEtKeElGdEhUWXBYd19sVEdzSEVJNVA3dXc2NXpvWDlpeFpjamdQZ2JiVzloMmpLV0NiYWUwNEdIMzhJWGtWcDEwUXVBdTZoZTNnXzFRRy11S3RNcmpVdHlIYzJIT2xPNEZReXZEQ3lrVQ?oc=5"
+    },
     {
       "id": "b09fe47b",
       "title": "日本环球影城USJ｜哈利波特＋咚奇刚 10大园区攻略｜附购票方法 - 香港01",
@@ -21,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNSWJYSmpXMm9aendQTU52bEN6RnVqWjl5SVdaM1ZxbVFhRjJqaTNkRndmZjlZdm9sbVItTXdKY0wweUV2dDVSMFZqRFNiS295RVUzQktnb0pYWlJFd0xOd2UxSmlrTmMtTEJYbG00SkpMWThZOGx5VXVOQk54R3lDb0dHZ1hsa2o1SlViNXJFZnJQOGUzOG40V0ZRQ3dCSGRoLWFFVkFETUZPOGR3c3BEcHBWdXJZdnhLQ2k4dFlwTEQ5V0ZwejREOUJZMHRFcW12MG43bVVGT2pvb2xWbnlRcVFOT3dkaG9Id0VUcUY1eVhOdGg2dmw1RlNYb1hPM29VeEdZQ2RsQ0x4RU14X3VDREVseFltWl9vZGd3WE5JckNXaW9rSmpkMnUxRXVtWHpfODB5QjEtSmVPdDVoc3BmSFl5VFQyS3Rvem9kR21HQjk5V3hiOXA5RmVDZ1VGd0Z4WWowczBsZHZTYjhZSmU5NXg4SmQwYXMySm5GU2FoZTVtdw?oc=5"
+    },
+    {
+      "id": "2114cddd",
+      "title": "阿根廷中国工商银行酷似哈利·波特古灵阁成街头景点 - 手机新浪网",
+      "date": "2026-09-29",
+      "category": "综合资讯",
+      "summary": "阿根廷中国工商银行酷似哈利·波特古灵阁成街头景点",
+      "content": "阿根廷中国工商银行酷似哈利·波特古灵阁成街头景点",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQVFB1MzM0V3g3ejlUTWFBUllCZVlPdFMyUHlmTHEtZk42d2VKSDBKZktBS29ISVJ5aElLQWljU3VzSUxSMzNZeE1XQ3I5VFVmTlNpczZidzBHZUdHU1dfWmg2Ukh5aHFTRUdud0dwTHBfcTg?oc=5"
     },
     {
       "id": "1a2eb0d3",
@@ -43,6 +83,26 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1id2VkWmNaQ1gtTG5UUG9Nb3VIbVR3ZGNEbWZfS2J5TEVkSmozWVV1R3NHSUJzZHkzUE8yZTlVeUhWRlNpTmt0YnYyaTBTS1JRN3lRWVRZc3hWVS1Wa2hYdm15UEpKbk1iU1dsMnVlWkpSZlk?oc=5"
     },
     {
+      "id": "0c73c927",
+      "title": "The Witcher 3: Wild Hunt Remastered is now available: Players who own the base game receive a free update and can once again embark on their witch-hunting journey. (SuperPower.com) - 超能网",
+      "date": "2026-09-29",
+      "category": "影视动态",
+      "summary": "The Witcher 3: Wild Hunt Remastered is now available: Players who own the base game receive a free update and can once a...",
+      "content": "The Witcher 3: Wild Hunt Remastered is now available: Players who own the base game receive a free update and can once again embark on their witch-hunting journey. (SuperPower.com)",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wVWEtVXliZkNVcmRSc1N4YUFxREtLM1EzbXFFR3dySlNhYUwtTldWb2d6bFFEMXRDUlplYk8tWlluejFWRjJHSmt4dw?oc=5"
+    },
+    {
       "id": "9f54338c",
       "title": "中国工商银行在阿根廷成王虹打卡点，外观酷似《哈利波特》中的“古灵阁” - 手机网易网",
       "date": "2026-09-29",
@@ -63,8 +123,8 @@
       "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54cko0Nk9EQlBXeEFuSmdOLTlENWJKZkNiQU83c3ZlbFR5SEhQdnlUOU5nd2xrTnpOSEI4b3J3WUk4WjVSRXRYY01oTDNJenFLb3A2RA?oc=5"
     },
     {
-      "id": "9364dd20",
-      "title": "酷似《哈利·波特》建筑走红 阿根廷街头著名景点竟是中国工商银行 - news.mydrivers.com",
+      "id": "a1254726",
+      "title": "酷似《哈利·波特》建筑走红 阿根廷街头著名景点竟是中国工商银行 - 驱动之家",
       "date": "2026-09-28",
       "category": "综合资讯",
       "summary": "酷似《哈利·波特》建筑走红 阿根廷街头著名景点竟是中国工商银行",
@@ -263,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NbzUzNUZac0xGeWlmV24yQnZ5WWZZZy1ETWdfTFNTUjdhcUhDWnlvT25FU1BnQUpiSUdSd08wTGtVQ2hsNzd2SWhobVc2ZVBQdTRaTURXRTZMRzAz?oc=5"
     },
     {
-      "id": "4a03fc0f",
-      "title": "詹莉党的黎明即将破晓！爱情 - 手机新浪网",
-      "date": "2026-09-22",
-      "category": "综合资讯",
-      "summary": "詹莉党的黎明即将破晓！爱情",
-      "content": "詹莉党的黎明即将破晓！爱情",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNaXBxblZ3MmV4dVgyNHBmek02TXlvQ25NcUxueW1XdTZvaUJpOHA1RUk3MGJIVURFUXM4cnVTeGE3VTRIblJRXzlsYmFnOFNmbWx0VHA5YUhNZWQwbDl0dExlODRoZF9nNjNweWtYZHk0dEE?oc=5"
-    },
-    {
       "id": "6d79bd35",
       "title": "据传《不义联盟：我们心中的神 3》爆料揭晓两名可玩角色 - 17173",
       "date": "2026-09-22",
@@ -301,6 +341,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KM19md0dHSGtxWDVKcUtXWHpTdkNqNWtwSklfeGx4dEpHOEpKaWQ5NnZjQ19oODJnUHpRRGk5ODhMZVlBMjV4dW9ocm55c2FLMU9waWtmaU02Si05T09rRTNhekNRUQ?oc=5"
+    },
+    {
+      "id": "4a03fc0f",
+      "title": "詹莉党的黎明即将破晓！爱情 - 手机新浪网",
+      "date": "2026-09-22",
+      "category": "综合资讯",
+      "summary": "詹莉党的黎明即将破晓！爱情",
+      "content": "詹莉党的黎明即将破晓！爱情",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNaXBxblZ3MmV4dVgyNHBmek02TXlvQ25NcUxueW1XdTZvaUJpOHA1RUk3MGJIVURFUXM4cnVTeGE3VTRIblJRXzlsYmFnOFNmbWx0VHA5YUhNZWQwbDl0dExlODRoZF9nNjNweWtYZHk0dEE?oc=5"
     },
     {
       "id": "a1d2cf92",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4xS0hpOEZjblBaa3R0UkxLTDFVM0RSMFZoZkNYaFU3eDB4Qk5ySmE2TUN2Tm9KMkVwZHNJVS1oaE5pcDTSAUJBVV95cUxNd3BTRlNVc1hMTFZUN05GdnJJV3paTUNRZTM5VjBMQ3g2cXZFaUliLTU4bFBpVTYwcHotb0loZlRFamc?oc=5"
-    },
-    {
-      "id": "6f754b2a",
-      "title": "哈利波特与密室精选片段76发布 - 手机新浪网",
-      "date": "2026-09-21",
-      "category": "影视动态",
-      "summary": "哈利波特与密室精选片段76发布",
-      "content": "哈利波特与密室精选片段76发布",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FU2tnNW9vTnROLUJZRWJNZkpITk5JVG5iWklHeWRia011Tmtld2syN1NYb0tNcFN0TVR3S3VlS1FVM2xGSTg2MDBTTjNsY0VzTTFYczdPS2JoOWxEbTdyaHRRR3Z3OU1YYkVxUDRzWnIzMTg?oc=5"
-    },
-    {
-      "id": "2e21a190",
-      "title": "用40s重温《哈利·波特》8部电影！！！ ​ - 手机新浪网",
-      "date": "2026-09-21",
-      "category": "影视动态",
-      "summary": "用40s重温《哈利·波特》8部电影！！！ ​",
-      "content": "用40s重温《哈利·波特》8部电影！！！ ​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Bd0RCWFp0RlZPcWNhQTlKX056S3lkX1FTdDVWQmIzYzlMVzJ4YlZXNFhVMFVsSHgzdzhISXFDNHFDcFF2OU42R1NoS1MxNmNfN0JjUFc0aXVxZ2xFT0tsNkFpWml5anFKR2xIWVpDcVpPQVE?oc=5"
-    },
-    {
-      "id": "c3384875",
-      "title": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布 - Notebookcheck CN",
-      "date": "2026-09-21",
-      "category": "出版物",
-      "summary": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
-      "content": "采用霍格沃茨设计的真我 16 Pro 《哈利·波特》特别版正式发布",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xbnJFc3lldHVMdFI0ZmNXcFJVb2JyQkc5eG1xZ0pXTDljdUd1TXUyTk9TNE5OMVp1OGlOQ1dvYTFkZHh2b04wQWpabUY4bmlFZmo5R0o1d1hvbmh6MHJ3QU9QVXE?oc=5"
     }
   ]
 }
