@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-09-30T17:08:57.764Z",
+  "lastUpdated": "2026-09-30T21:36:57.429Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "172c354b",
+      "title": "选择比能力更重要，哈利与汤姆·里德尔命运迥异 - 手机新浪网",
+      "date": "2026-09-30",
+      "category": "影视动态",
+      "summary": "选择比能力更重要，哈利与汤姆·里德尔命运迥异",
+      "content": "选择比能力更重要，哈利与汤姆·里德尔命运迥异",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DSWZrUlhkTnpMQTVEY1Y3MHlLeVA4aFlZRzZ5Q3oxaENzd3VjZTZfVUZHbER6RjhlaThJcXg1ajk1VDZ1MDE0dFdIMTkxQmxkSDR3UVluTHZjc3VJTFo1Z204MEU5a3RpUy1WYkw1OS1RQW8?oc=5"
+    },
     {
       "id": "12cb801b",
       "title": "剧版哈利波特演员大半年未见身高变化明显 - 手机新浪网",
@@ -343,8 +363,8 @@
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NbzUzNUZac0xGeWlmV24yQnZ5WWZZZy1ETWdfTFNTUjdhcUhDWnlvT25FU1BnQUpiSUdSd08wTGtVQ2hsNzd2SWhobVc2ZVBQdTRaTURXRTZMRzAz?oc=5"
     },
     {
-      "id": "6d79bd35",
-      "title": "据传《不义联盟：我们心中的神 3》爆料揭晓两名可玩角色 - 17173",
+      "id": "bee65374",
+      "title": "据传《不义联盟：我们心中的神 3》爆料揭晓两名可玩角色 - news.17173.com",
       "date": "2026-09-22",
       "category": "综合资讯",
       "summary": "据传《不义联盟：我们心中的神 3》爆料揭晓两名可玩角色",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNaXBxblZ3MmV4dVgyNHBmek02TXlvQ25NcUxueW1XdTZvaUJpOHA1RUk3MGJIVURFUXM4cnVTeGE3VTRIblJRXzlsYmFnOFNmbWx0VHA5YUhNZWQwbDl0dExlODRoZF9nNjNweWtYZHk0dEE?oc=5"
-    },
-    {
-      "id": "a1d2cf92",
-      "title": "哈利·波特官方Instagram账号发布了漂亮的新版学院徽章，官网的分院测试也更新了！ ​ - 手机新浪网",
-      "date": "2026-09-21",
-      "category": "综合资讯",
-      "summary": "哈利·波特官方Instagram账号发布了漂亮的新版学院徽章，官网的分院测试也更新了！ ​",
-      "content": "哈利·波特官方Instagram账号发布了漂亮的新版学院徽章，官网的分院测试也更新了！ ​",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXcFdwd3lmb3JnVlBJdnl5NmtHaGkxY0VjVFh1M2JIX2tOTlpZazdoZ1d4alVfTjd0QmFlUFpfeXNTbGJzOUNzeVIyMmlhbWhGbnhTcWxYcnBSWlFwRVRiR19obw?oc=5"
     }
   ]
 }
