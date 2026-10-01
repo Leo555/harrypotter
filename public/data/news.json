@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-01T02:54:14.851Z",
+  "lastUpdated": "2026-10-01T09:33:22.872Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "e7ba5355",
+      "title": "HARRY POTTER AND THE CURSED CHILD 首次公布单幕制作的演员阵容 - BroadwayWorld",
+      "date": "2026-10-01",
+      "category": "综合资讯",
+      "summary": "HARRY POTTER AND THE CURSED CHILD 首次公布单幕制作的演员阵容",
+      "content": "HARRY POTTER AND THE CURSED CHILD 首次公布单幕制作的演员阵容",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWDBUM21GalhhOUJHNHZNQkJtM1c2OFJJY3JuS0RiSm5acUJ4RTFpSVpGVGFGR0IzN3FpVXBIWFFKTnFOaFpHN1Yyb3BJQXh3T3FBWDJkUVdGMEJXeS1BZEFEQjdIRHB1V2YzdzlLOWlzM3lPR0JEaXpZV2pVTElEd0pBTHMyWFl3aFNram14c3llZHlKYVpUMUd5MDRUT2J2Z1pwZFFSMXlkNW5nR1lHRWFXSE1FNXhOdEk5elIwSkluYkRzOWd3?oc=5"
+    },
     {
       "id": "172c354b",
       "title": "选择比能力更重要，哈利与汤姆·里德尔命运迥异 - 手机新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KM19md0dHSGtxWDVKcUtXWHpTdkNqNWtwSklfeGx4dEpHOEpKaWQ5NnZjQ19oODJnUHpRRGk5ODhMZVlBMjV4dW9ocm55c2FLMU9waWtmaU02Si05T09rRTNhekNRUQ?oc=5"
-    },
-    {
-      "id": "4a03fc0f",
-      "title": "詹莉党的黎明即将破晓！爱情 - 手机新浪网",
-      "date": "2026-09-22",
-      "category": "综合资讯",
-      "summary": "詹莉党的黎明即将破晓！爱情",
-      "content": "詹莉党的黎明即将破晓！爱情",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNaXBxblZ3MmV4dVgyNHBmek02TXlvQ25NcUxueW1XdTZvaUJpOHA1RUk3MGJIVURFUXM4cnVTeGE3VTRIblJRXzlsYmFnOFNmbWx0VHA5YUhNZWQwbDl0dExlODRoZF9nNjNweWtYZHk0dEE?oc=5"
     }
   ]
 }
