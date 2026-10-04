@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T20:36:13.126Z",
+  "lastUpdated": "2026-10-04T23:41:23.770Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xczVUb2tiZnFGZ3ZCTjlSdjVnT2tYZkxHVG1rSExoQTBBMVlFYkN0WkVWMS15T0RmVUZRcnNOanFUWFVMTXVkLWVXbmFJQ2R4RUsxM29HUHN4MF9fRnBBbERjRDFFOHpzanI0Rmc0bi1rdw?oc=5"
+    },
+    {
+      "id": "2bbd7d2c",
+      "title": "《哈利·波特》马尔福性转图走红，作者却被私信要求改成跨性别 - 手机新浪网",
+      "date": "2026-10-04",
+      "category": "综合资讯",
+      "summary": "《哈利·波特》马尔福性转图走红，作者却被私信要求改成跨性别",
+      "content": "《哈利·波特》马尔福性转图走红，作者却被私信要求改成跨性别",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0bzR5Mk1wdnc0QTZZWC14SXZkcVdsLUtYN1hnVWVFOVNjWVRBbXNaM3k5d000Vy1hNFBrOWFZV3VqNFZkZXBaN0UxTWJSakxMMi12eU9kM2xOekJsYkowQnZ0YVFzRzFseDVpU0N3bDk?oc=5"
     },
     {
       "id": "ff64cc93",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wVWEtVXliZkNVcmRSc1N4YUFxREtLM1EzbXFFR3dySlNhYUwtTldWb2d6bFFEMXRDUlplYk8tWlluejFWRjJHSmt4dw?oc=5"
-    },
-    {
-      "id": "9f54338c",
-      "title": "中国工商银行在阿根廷成王虹打卡点，外观酷似《哈利波特》中的“古灵阁” - 手机网易网",
-      "date": "2026-09-29",
-      "category": "综合资讯",
-      "summary": "中国工商银行在阿根廷成王虹打卡点，外观酷似《哈利波特》中的“古灵阁”",
-      "content": "中国工商银行在阿根廷成王虹打卡点，外观酷似《哈利波特》中的“古灵阁”",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54cko0Nk9EQlBXeEFuSmdOLTlENWJKZkNiQU83c3ZlbFR5SEhQdnlUOU5nd2xrTnpOSEI4b3J3WUk4WjVSRXRYY01oTDNJenFLb3A2RA?oc=5"
     }
   ]
 }
