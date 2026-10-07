@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-07T12:13:45.493Z",
+  "lastUpdated": "2026-10-07T20:16:18.974Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "79275be2",
+      "title": "剧版哈利·波特第一季开播倒计时80天 - 新浪网",
+      "date": "2026-10-07",
+      "category": "综合资讯",
+      "summary": "剧版哈利·波特第一季开播倒计时80天",
+      "content": "剧版哈利·波特第一季开播倒计时80天",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE16Z2dQUTJqUmVwZWwzZzVSU2sxODBfSlY5MURKYWNjT08yc0pqVUt6SE9wVVFxcmJhVXR0SFhFeHoyNjJBNkF6MFh0M1lheTRoNlJjdkVyR3NtMzRzbngxZHNpNjZ3SzNSLWpTUnpGUVVlUQ?oc=5"
+    },
     {
       "id": "3fbcb250",
       "title": "《哈利·波特》里让人拳头发硬的马尔福，在外网成了金发傲娇大小姐_3DM专栏 - 3DM",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWDBUM21GalhhOUJHNHZNQkJtM1c2OFJJY3JuS0RiSm5acUJ4RTFpSVpGVGFGR0IzN3FpVXBIWFFKTnFOaFpHN1Yyb3BJQXh3T3FBWDJkUVdGMEJXeS1BZEFEQjdIRHB1V2YzdzlLOWlzM3lPR0JEaXpZV2pVTElEd0pBTHMyWFl3aFNram14c3llZHlKYVpUMUd5MDRUT2J2Z1pwZFFSMXlkNW5nR1lHRWFXSE1FNXhOdEk5elIwSkluYkRzOWd3?oc=5"
-    },
-    {
-      "id": "977d9cf0",
-      "title": "从 2025 到 2026，小哈利在镜头前悄悄长大了|小哈利|剧版《哈利·波特_新浪新闻 - 手机新浪网",
-      "date": "2026-09-30",
-      "category": "综合资讯",
-      "summary": "从 2025 到 2026，小哈利在镜头前悄悄长大了|小哈利|剧版《哈利·波特_新浪新闻",
-      "content": "从 2025 到 2026，小哈利在镜头前悄悄长大了|小哈利|剧版《哈利·波特_新浪新闻",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0UnI0MXAtb2xiWjljTEVxZjJfX2RsMFhpRnplSlJXUTkyQS1iLXk3X3JDV1dWVEhPaU5KOFBkdXFaa1BMR2hHbk9qRUxwYU82SzdabWo5bk1JaG9rSE9UUE1vMA?oc=5"
     }
   ]
 }
