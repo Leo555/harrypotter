@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T21:58:12.147Z",
+  "lastUpdated": "2026-10-07T03:07:06.237Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -43,26 +43,6 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTFRiUWVkUUJuelAybkpGVk5uaWFqN1k0WEItQy1LMnpNUWRiVVVIZHZVVzhFRjdsQW51LUh6UXJ5SXExVWhWUDMxNV9TVkgzSThFM3hsalhjd0I1blc2RmNXSWhfQ04tVVdNWXI0b2NpNEJmYzVmQ1Z6ak1aT2ZndkExMGp4NDlv?oc=5"
     },
     {
-      "id": "6c1f6a2c",
-      "title": "剧版哈利波特第一季开播倒计时83天 - 新浪网",
-      "date": "2026-10-04",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特第一季开播倒计时83天",
-      "content": "剧版哈利波特第一季开播倒计时83天",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xczVUb2tiZnFGZ3ZCTjlSdjVnT2tYZkxHVG1rSExoQTBBMVlFYkN0WkVWMS15T0RmVUZRcnNOanFUWFVMTXVkLWVXbmFJQ2R4RUsxM29HUHN4MF9fRnBBbERjRDFFOHpzanI0Rmc0bi1rdw?oc=5"
-    },
-    {
       "id": "de7708ad",
       "title": "倒计时三天！来成都打卡哈利波特经典场景 - 搜狐网",
       "date": "2026-10-04",
@@ -101,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0bzR5Mk1wdnc0QTZZWC14SXZkcVdsLUtYN1hnVWVFOVNjWVRBbXNaM3k5d000Vy1hNFBrOWFZV3VqNFZkZXBaN0UxTWJSakxMMi12eU9kM2xOekJsYkowQnZ0YVFzRzFseDVpU0N3bDk?oc=5"
+    },
+    {
+      "id": "6c1f6a2c",
+      "title": "剧版哈利波特第一季开播倒计时83天 - 新浪网",
+      "date": "2026-10-04",
+      "category": "综合资讯",
+      "summary": "剧版哈利波特第一季开播倒计时83天",
+      "content": "剧版哈利波特第一季开播倒计时83天",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xczVUb2tiZnFGZ3ZCTjlSdjVnT2tYZkxHVG1rSExoQTBBMVlFYkN0WkVWMS15T0RmVUZRcnNOanFUWFVMTXVkLWVXbmFJQ2R4RUsxM29HUHN4MF9fRnBBbERjRDFFOHpzanI0Rmc0bi1rdw?oc=5"
     },
     {
       "id": "ff64cc93",
