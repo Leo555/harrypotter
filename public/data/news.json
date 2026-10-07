@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-10-07T03:07:06.237Z",
+  "lastUpdated": "2026-10-07T12:13:45.493Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "8a66afc5",
-      "title": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕|成都市|游客|魔杖|文化|展览 - 新浪财经",
-      "date": "2026-10-06",
+      "id": "3fbcb250",
+      "title": "《哈利·波特》里让人拳头发硬的马尔福，在外网成了金发傲娇大小姐_3DM专栏 - 3DM",
+      "date": "2026-10-07",
       "category": "影视动态",
-      "summary": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕|成都市|游客|魔杖|文化|展览",
-      "content": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕|成都市|游客|魔杖|文化|展览",
+      "summary": "《哈利·波特》里让人拳头发硬的马尔福，在外网成了金发傲娇大小姐_3DM专栏",
+      "content": "《哈利·波特》里让人拳头发硬的马尔福，在外网成了金发傲娇大小姐_3DM专栏",
       "image": "📺",
       "relatedLinks": [
         {
@@ -20,7 +20,67 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PclRqRVRmRS1takd4b2w4ZTlEcVZSczdlbXphb0szVy1vZE9kUVlMck1ERmFPSVg0eEUwbW9wSWx3QzZUY1pBajNtTFJmeDBHTC1lOTVnUDdILXZ0bUpTMWh4NTB2YVBaMy1sdHljVHdaR016dWlHUXdZZy0zTWs?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5MW9ON3plbUdaN0R5aHBHNk9wREl6YWpCdldXR3ZDQV9ram9vQTVrU3R0Z3NHVlRmTlVLREdNUFA5T2RVaVViMzg4d1o5UGNXeEZRQVBYZVE?oc=5"
+    },
+    {
+      "id": "e0decc74",
+      "title": "临时加开专场！90后成都说书先生把仙侠网游、魔法世界讲成“爆款评书” - 新浪网",
+      "date": "2026-10-07",
+      "category": "出版物",
+      "summary": "临时加开专场！90后成都说书先生把仙侠网游、魔法世界讲成“爆款评书”",
+      "content": "临时加开专场！90后成都说书先生把仙侠网游、魔法世界讲成“爆款评书”",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50dE5kQXh4ODlJc0pRX0k3WVlqOWV3VVlUNU1RN29IQ3NlM2JlMFdhczhtN0NEcGF1VXkwOXprdHhCalR3VDFzSWk3UHVGeGduZlFhMk5qWU9iSDRfTXdfOTNESnpiVzdaVXBheEEwdmE?oc=5"
+    },
+    {
+      "id": "6615be9f",
+      "title": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化 - igor´sLAB",
+      "date": "2026-10-07",
+      "category": "综合资讯",
+      "summary": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化",
+      "content": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
+    },
+    {
+      "id": "1ab9abc1",
+      "title": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕 - 凤凰网",
+      "date": "2026-10-06",
+      "category": "影视动态",
+      "summary": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕",
+      "content": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5mbFlKRWJIcGtHWWZ5QmJmb3dLSV9aaS1td3NSZkJfUjQtVWh1aDVacm13dHM4OEVBaEh4ZE5Xby1aOXRKR1pQdUxGWWc?oc=5"
     },
     {
       "id": "4641ab8a",
@@ -41,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTFRiUWVkUUJuelAybkpGVk5uaWFqN1k0WEItQy1LMnpNUWRiVVVIZHZVVzhFRjdsQW51LUh6UXJ5SXExVWhWUDMxNV9TVkgzSThFM3hsalhjd0I1blc2RmNXSWhfQ04tVVdNWXI0b2NpNEJmYzVmQ1Z6ak1aT2ZndkExMGp4NDlv?oc=5"
+    },
+    {
+      "id": "8a66afc5",
+      "title": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕|成都市|游客|魔杖|文化|展览 - 新浪财经",
+      "date": "2026-10-06",
+      "category": "影视动态",
+      "summary": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕|成都市|游客|魔杖|文化|展览",
+      "content": "《哈利·波特：魔法幻境》中国首秀落地成都，10月8日开幕|成都市|游客|魔杖|文化|展览",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PclRqRVRmRS1takd4b2w4ZTlEcVZSczdlbXphb0szVy1vZE9kUVlMck1ERmFPSVg0eEUwbW9wSWx3QzZUY1pBajNtTFJmeDBHTC1lOTVnUDdILXZ0bUpTMWh4NTB2YVBaMy1sdHljVHdaR016dWlHUXdZZy0zTWs?oc=5"
     },
     {
       "id": "de7708ad",
@@ -321,86 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0UnI0MXAtb2xiWjljTEVxZjJfX2RsMFhpRnplSlJXUTkyQS1iLXk3X3JDV1dWVEhPaU5KOFBkdXFaa1BMR2hHbk9qRUxwYU82SzdabWo5bk1JaG9rSE9UUE1vMA?oc=5"
-    },
-    {
-      "id": "172c354b",
-      "title": "选择比能力更重要，哈利与汤姆·里德尔命运迥异 - 手机新浪网",
-      "date": "2026-09-30",
-      "category": "影视动态",
-      "summary": "选择比能力更重要，哈利与汤姆·里德尔命运迥异",
-      "content": "选择比能力更重要，哈利与汤姆·里德尔命运迥异",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DSWZrUlhkTnpMQTVEY1Y3MHlLeVA4aFlZRzZ5Q3oxaENzd3VjZTZfVUZHbER6RjhlaThJcXg1ajk1VDZ1MDE0dFdIMTkxQmxkSDR3UVluTHZjc3VJTFo1Z204MEU5a3RpUy1WYkw1OS1RQW8?oc=5"
-    },
-    {
-      "id": "12cb801b",
-      "title": "剧版哈利波特演员大半年未见身高变化明显 - 手机新浪网",
-      "date": "2026-09-30",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特演员大半年未见身高变化明显",
-      "content": "剧版哈利波特演员大半年未见身高变化明显",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PRmJQNUtFMXU2SXltYUtTZjl6WGVsNUxJVjM3NDdXMFdKc3BEZU0yQzJBWUJSY24yX0dYTjdacWNsMjBMMF9GUFV1TTMyYjJGbWdTTEh1d1h1VlR6N2lWQkVVMVdSektDVkg0MV95cw?oc=5"
-    },
-    {
-      "id": "39d20249",
-      "title": "交易 | 畅销《哈利·波特》RPG游戏在 Nintendo Switch 上降价 90%，从 60 美元降至 6 美元。 - Notebookcheck CN",
-      "date": "2026-09-29",
-      "category": "游戏资讯",
-      "summary": "交易 | 畅销《哈利·波特》RPG游戏在 Nintendo Switch 上降价 90%，从 60 美元降至 6 美元。",
-      "content": "交易 | 畅销《哈利·波特》RPG游戏在 Nintendo Switch 上降价 90%，从 60 美元降至 6 美元。",
-      "image": "🎮",
-      "relatedLinks": [
-        {
-          "label": "🎩 分院帽测试",
-          "path": "/interactive/sorting"
-        },
-        {
-          "label": "✨ 咒语大全",
-          "path": "/world/spells"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZnlZOEtQb3BqZml3Yi0zdEtKeElGdEhUWXBYd19sVEdzSEVJNVA3dXc2NXpvWDlpeFpjamdQZ2JiVzloMmpLV0NiYWUwNEdIMzhJWGtWcDEwUXVBdTZoZTNnXzFRRy11S3RNcmpVdHlIYzJIT2xPNEZReXZEQ3lrVQ?oc=5"
-    },
-    {
-      "id": "05cf4b9c",
-      "title": "日本环球影城USJ｜哈利波特＋咚奇刚 10大园区攻略｜附购票方法 - global.hk01.com",
-      "date": "2026-09-29",
-      "category": "影视动态",
-      "summary": "日本环球影城USJ｜哈利波特＋咚奇刚 10大园区攻略｜附购票方法",
-      "content": "日本环球影城USJ｜哈利波特＋咚奇刚 10大园区攻略｜附购票方法",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNSWJYSmpXMm9aendQTU52bEN6RnVqWjl5SVdaM1ZxbVFhRjJqaTNkRndmZjlZdm9sbVItTXdKY0wweUV2dDVSMFZqRFNiS295RVUzQktnb0pYWlJFd0xOd2UxSmlrTmMtTEJYbG00SkpMWThZOGx5VXVOQk54R3lDb0dHZ1hsa2o1SlViNXJFZnJQOGUzOG40V0ZRQ3dCSGRoLWFFVkFETUZPOGR3c3BEcHBWdXJZdnhLQ2k4dFlwTEQ5V0ZwejREOUJZMHRFcW12MG43bVVGT2pvb2xWbnlRcVFOT3dkaG9Id0VUcUY1eVhOdGg2dmw1RlNYb1hPM29VeEdZQ2RsQ0x4RU14X3VDREVseFltWl9vZGd3WE5JckNXaW9rSmpkMnUxRXVtWHpfODB5QjEtSmVPdDVoc3BmSFl5VFQyS3Rvem9kR21HQjk5V3hiOXA5RmVDZ1VGd0Z4WWowczBsZHZTYjhZSmU5NXg4SmQwYXMySm5GU2FoZTVtdw?oc=5"
     }
   ]
 }
