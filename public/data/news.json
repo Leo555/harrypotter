@@ -1,27 +1,7 @@
 {
-  "lastUpdated": "2026-10-09T17:39:46.869Z",
+  "lastUpdated": "2026-10-09T21:57:52.212Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
-    {
-      "id": "3c4c4e48",
-      "title": "《哈利·波特：魔法幻境》登陆成都 - 新浪网",
-      "date": "2026-10-09",
-      "category": "影视动态",
-      "summary": "《哈利·波特：魔法幻境》登陆成都",
-      "content": "《哈利·波特：魔法幻境》登陆成都",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hT25EcU93eXZQVFBYQ0dPR0FCcWtVX3d2MUNVcDh5bkR5VEVpQTA5Z1hLQjZGWEpLOVZsbzJSVDcxUUppeVd5UnF0a2V3SlQ1bTFmRGJBV3FOVVRIZ21qbE42WlZ0TVVvd0pUZnpxaloxQQ?oc=5"
-    },
     {
       "id": "c5806def",
       "title": "《哈利·波特：魔法幻境》中国首秀落地四川成都 - 旅日侨网",
@@ -41,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZnMzckE3X09mbi1PVmVBc09XQkhGaUhPYmRGLVhicExXaEtQMEVYQ2lmbGZmOHpQaTlCbXhOQkZBanVNVmJJd0kwdFprcnNxZWJsdXdCWEdEdm1BdWNwU2gxdjhuZUZUYV9QMG9UU0lwQXFlcUNacHFScWRCdjRibktKV1ZXZ29vcUE?oc=5"
+    },
+    {
+      "id": "3c4c4e48",
+      "title": "《哈利·波特：魔法幻境》登陆成都 - 新浪网",
+      "date": "2026-10-09",
+      "category": "影视动态",
+      "summary": "《哈利·波特：魔法幻境》登陆成都",
+      "content": "《哈利·波特：魔法幻境》登陆成都",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hT25EcU93eXZQVFBYQ0dPR0FCcWtVX3d2MUNVcDh5bkR5VEVpQTA5Z1hLQjZGWEpLOVZsbzJSVDcxUUppeVd5UnF0a2V3SlQ1bTFmRGJBV3FOVVRIZ21qbE42WlZ0TVVvd0pUZnpxaloxQQ?oc=5"
     },
     {
       "id": "e9bf1f0e",
@@ -183,26 +183,6 @@
       "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWpoSnlvTEI0SEhCWG1IYUNVbnUydlZ6ZkRiUUs0TGNiUDhIajFrSFdWUHBHVmYyX1VCRGFFOU9VbE94SUNzUnpLVjJ5bDBTdkYxMmU0U0xiQ21mejVrZGR0cHJONmNvV1o5M05tYTB4STdVVEtRY3pib3U1dTNTeG4zd1A4bU8yc1BlUW5sMmdtY3hKOFZHMDN2YzEzYVJObzVCYWJsSDc1UQ?oc=5"
     },
     {
-      "id": "b7009b77",
-      "title": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界 - 新浪网",
-      "date": "2026-10-08",
-      "category": "综合资讯",
-      "summary": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界",
-      "content": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JUFlmX1VfNm4tZHhxaERDUlVKQVlGVmJ2Z0kweG9BUU1MUnJrSUpvb2xFRlFMbmladnMzSnBNUU10REpjaXd3aHdkQ3JiazJobVBES1k3R0loOGpxR1Z3SjdOak5HdG9aREtqRWJEc3BpUQ?oc=5"
-    },
-    {
       "id": "05f6b3c2",
       "title": "派拉蒙合并华纳兄弟：可能以四种方式影响你的生活 - BBC",
       "date": "2026-10-08",
@@ -263,6 +243,26 @@
       "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeHdFaWFZOW9ldXJZV3lseU9naEFQUXIwUnA5WWxjd09obXpzQWxHdEN6aWl5VURkUjVFcU8yd0EzV3p3d0J6bDJqOHZ1X2lIN3FkdlhGdWh4VUYxRzluaXVhZVg2enYyN3NhVFdYaGM5YnJSd21jRHMtbU56dVhYcVJEOA?oc=5"
     },
     {
+      "id": "b7009b77",
+      "title": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界 - 新浪网",
+      "date": "2026-10-08",
+      "category": "综合资讯",
+      "summary": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界",
+      "content": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JUFlmX1VfNm4tZHhxaERDUlVKQVlGVmJ2Z0kweG9BUU1MUnJrSUpvb2xFRlFMbmladnMzSnBNUU10REpjaXd3aHdkQ3JiazJobVBES1k3R0loOGpxR1Z3SjdOak5HdG9aREtqRWJEc3BpUQ?oc=5"
+    },
+    {
       "id": "6b06eb1b",
       "title": "国庆假期刚过，成都又迎来一个全球超300万人打卡的超级IP - 新浪网",
       "date": "2026-10-08",
@@ -303,26 +303,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zSk1wUV9xelZFSFpQMTg1anR4QW1uWmNGMU5JTzNESzFQdVE1UHFsV1I3dzhvTjVYM1FXRU9tMU5WSU4tYmpKZ3ZhRmx1bnBGQ2xqaGE4bHYyd01XZmtwOGtnTTZZaTQ2SDgxcTFFVlFTUWM?oc=5"
     },
     {
-      "id": "0d8b84ad",
-      "title": "国内首秀！《哈利·波特：魔法幻境》今日登陆成都，50多种首发官方周边，麻瓜速入 - 搜狐网",
-      "date": "2026-10-08",
-      "category": "周边商品",
-      "summary": "国内首秀！《哈利·波特：魔法幻境》今日登陆成都，50多种首发官方周边，麻瓜速入",
-      "content": "国内首秀！《哈利·波特：魔法幻境》今日登陆成都，50多种首发官方周边，麻瓜速入",
-      "image": "🛍️",
-      "relatedLinks": [
-        {
-          "label": "⚗️ 魔法物品",
-          "path": "/world/items"
-        },
-        {
-          "label": "🐉 魔法生物",
-          "path": "/world/creatures"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkoyZHpBUDFjNEotR2dnTFVqbDJoTXNDRkFFV0pnMXd4OEh6UFRCRW1lZlQ5aGZEc1IwOUUwelBnelhsQVotaGNIemJacnFld3RkcXdzQ0NHOWxjWFRJU0RkXy1xYVFOWHkyT3F5WURHSFpIQWs4TDFMYUl3SlpKdmZpRnlHZi0w?oc=5"
-    },
-    {
       "id": "6615be9f",
       "title": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化 - igor´sLAB",
       "date": "2026-10-08",
@@ -341,6 +321,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
+    },
+    {
+      "id": "0d8b84ad",
+      "title": "国内首秀！《哈利·波特：魔法幻境》今日登陆成都，50多种首发官方周边，麻瓜速入 - 搜狐网",
+      "date": "2026-10-08",
+      "category": "周边商品",
+      "summary": "国内首秀！《哈利·波特：魔法幻境》今日登陆成都，50多种首发官方周边，麻瓜速入",
+      "content": "国内首秀！《哈利·波特：魔法幻境》今日登陆成都，50多种首发官方周边，麻瓜速入",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkoyZHpBUDFjNEotR2dnTFVqbDJoTXNDRkFFV0pnMXd4OEh6UFRCRW1lZlQ5aGZEc1IwOUUwelBnelhsQVotaGNIemJacnFld3RkcXdzQ0NHOWxjWFRJU0RkXy1xYVFOWHkyT3F5WURHSFpIQWs4TDFMYUl3SlpKdmZpRnlHZi0w?oc=5"
     },
     {
       "id": "cb438523",
@@ -363,6 +363,26 @@
       "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTM29RU3pEQVV2VmIyWXI1YTF1VzlKV1ZJTk5wQ0ktMFczYXptM0hpZThSa3FtVkdsTl9KdUI0R2pBX2hnOWh1ZHpHVQ?oc=5"
     },
     {
+      "id": "c28fe6ec",
+      "title": "马尔福不小，哈利波特大[doge][doge][doge] ​ - 手机新浪网",
+      "date": "2026-10-07",
+      "category": "综合资讯",
+      "summary": "马尔福不小，哈利波特大[doge][doge][doge] ​",
+      "content": "马尔福不小，哈利波特大[doge][doge][doge] ​",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mbEdRWFAtQ3RKVC1MeDVFYURHN2NaQXh4bk5JZ3RtZTAtOUExSjNpNkpLc0xGRzFDZmJHSGtoY0I0QkY5RXJJdm90Qk9ybWRCdTBzc0hORFIyeFlFYUJER0J5NA?oc=5"
+    },
+    {
       "id": "3fbcb250",
       "title": "《哈利·波特》里让人拳头发硬的马尔福，在外网成了金发傲娇大小姐_3DM专栏 - 3DM",
       "date": "2026-10-07",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5MW9ON3plbUdaN0R5aHBHNk9wREl6YWpCdldXR3ZDQV9ram9vQTVrU3R0Z3NHVlRmTlVLREdNUFA5T2RVaVViMzg4d1o5UGNXeEZRQVBYZVE?oc=5"
-    },
-    {
-      "id": "79275be2",
-      "title": "剧版哈利·波特第一季开播倒计时80天 - 新浪网",
-      "date": "2026-10-07",
-      "category": "综合资讯",
-      "summary": "剧版哈利·波特第一季开播倒计时80天",
-      "content": "剧版哈利·波特第一季开播倒计时80天",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE16Z2dQUTJqUmVwZWwzZzVSU2sxODBfSlY5MURKYWNjT08yc0pqVUt6SE9wVVFxcmJhVXR0SFhFeHoyNjJBNkF6MFh0M1lheTRoNlJjdkVyR3NtMzRzbngxZHNpNjZ3SzNSLWpTUnpGUVVlUQ?oc=5"
     }
   ]
 }
