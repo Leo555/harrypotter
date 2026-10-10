@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:48:57.924Z",
+  "lastUpdated": "2026-10-10T23:56:25.042Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -323,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNejBaUW9lTWpzZS1LemdCS0JPSWhfRGJ4R2QyU0tFS1UtTmxUN1Rwd09JYkkwYWp5OFlhVDhGSEZsNm05QkR0Vkp4bXowYS1YZGlVNUVhclB6NnhTVTQzNG43aGVpNFpEUVJudzBwa3hsRDk5RFRFTlpKUUpjQWFuaVhCTmJUTHFY?oc=5"
     },
     {
-      "id": "de92e085",
-      "title": "中国首秀正式开幕！《哈利·波特：魔法幻境》10月8日登陆成都 - 新浪网",
-      "date": "2026-10-08",
-      "category": "综合资讯",
-      "summary": "中国首秀正式开幕！《哈利·波特：魔法幻境》10月8日登陆成都",
-      "content": "中国首秀正式开幕！《哈利·波特：魔法幻境》10月8日登陆成都",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeHdFaWFZOW9ldXJZV3lseU9naEFQUXIwUnA5WWxjd09obXpzQWxHdEN6aWl5VURkUjVFcU8yd0EzV3p3d0J6bDJqOHZ1X2lIN3FkdlhGdWh4VUYxRzluaXVhZVg2enYyN3NhVFdYaGM5YnJSd21jRHMtbU56dVhYcVJEOA?oc=5"
-    },
-    {
       "id": "6b06eb1b",
       "title": "国庆假期刚过，成都又迎来一个全球超300万人打卡的超级IP - 新浪网",
       "date": "2026-10-08",
@@ -401,6 +381,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
+    },
+    {
+      "id": "de92e085",
+      "title": "中国首秀正式开幕！《哈利·波特：魔法幻境》10月8日登陆成都 - 新浪网",
+      "date": "2026-10-08",
+      "category": "综合资讯",
+      "summary": "中国首秀正式开幕！《哈利·波特：魔法幻境》10月8日登陆成都",
+      "content": "中国首秀正式开幕！《哈利·波特：魔法幻境》10月8日登陆成都",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeHdFaWFZOW9ldXJZV3lseU9naEFQUXIwUnA5WWxjd09obXpzQWxHdEN6aWl5VURkUjVFcU8yd0EzV3p3d0J6bDJqOHZ1X2lIN3FkdlhGdWh4VUYxRzluaXVhZVg2enYyN3NhVFdYaGM5YnJSd21jRHMtbU56dVhYcVJEOA?oc=5"
     }
   ]
 }
