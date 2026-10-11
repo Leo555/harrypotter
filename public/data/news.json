@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T23:56:25.042Z",
+  "lastUpdated": "2026-10-11T03:08:38.432Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -243,26 +243,6 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XeHBjcEkyOURRd3BDcHg0bHRXajBtXzNqVkZCVFQ3djk3YW5TYy1vNEtCS3Rndmx6bkxGXzJCb2xudTc1T2c4Slo4TzVLd2ljc19SNWFPZmRpNXM?oc=5"
     },
     {
-      "id": "bb6a4763",
-      "title": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警 - Informat.ro",
-      "date": "2026-10-08",
-      "category": "综合资讯",
-      "summary": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
-      "content": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWpoSnlvTEI0SEhCWG1IYUNVbnUydlZ6ZkRiUUs0TGNiUDhIajFrSFdWUHBHVmYyX1VCRGFFOU9VbE94SUNzUnpLVjJ5bDBTdkYxMmU0U0xiQ21mejVrZGR0cHJONmNvV1o5M05tYTB4STdVVEtRY3pib3U1dTNTeG4zd1A4bU8yc1BlUW5sMmdtY3hKOFZHMDN2YzEzYVJObzVCYWJsSDc1UQ?oc=5"
-    },
-    {
       "id": "05f6b3c2",
       "title": "派拉蒙合并华纳兄弟：可能以四种方式影响你的生活 - BBC",
       "date": "2026-10-08",
@@ -306,10 +286,10 @@
       "id": "209a9fff",
       "title": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界 - 搜狐网",
       "date": "2026-10-08",
-      "category": "影视动态",
+      "category": "综合资讯",
       "summary": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界",
       "content": "中国首秀！《哈利·波特：魔法幻境》在成都启幕，八大场景带你沉浸式解锁魔法世界",
-      "image": "📺",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -320,7 +300,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNejBaUW9lTWpzZS1LemdCS0JPSWhfRGJ4R2QyU0tFS1UtTmxUN1Rwd09JYkkwYWp5OFlhVDhGSEZsNm05QkR0Vkp4bXowYS1YZGlVNUVhclB6NnhTVTQzNG43aGVpNFpEUVJudzBwa3hsRDk5RFRFTlpKUUpjQWFuaVhCTmJUTHFY?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSE5QbVVscWtRU2x1SlFfbjl4M2ZELUF0THFuOE5MNC1JNENIWC1NWno0T1NmYXNYTXF1Q1lKamJsdU9PWmtNdUZuNGRYcDUwdjk3RjFlSWt5SmRBUEpJTGJQVFVlbXNMc3Nya1J0SEJmM0tWWXZBZy1ldUFhOU5JSnVuYVNPcno2VFU4dQ?oc=5"
     },
     {
       "id": "6b06eb1b",
@@ -381,6 +361,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
+    },
+    {
+      "id": "bb6a4763",
+      "title": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警 - Informat.ro",
+      "date": "2026-10-08",
+      "category": "综合资讯",
+      "summary": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
+      "content": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWpoSnlvTEI0SEhCWG1IYUNVbnUydlZ6ZkRiUUs0TGNiUDhIajFrSFdWUHBHVmYyX1VCRGFFOU9VbE94SUNzUnpLVjJ5bDBTdkYxMmU0U0xiQ21mejVrZGR0cHJONmNvV1o5M05tYTB4STdVVEtRY3pib3U1dTNTeG4zd1A4bU8yc1BlUW5sMmdtY3hKOFZHMDN2YzEzYVJObzVCYWJsSDc1UQ?oc=5"
     },
     {
       "id": "de92e085",
