@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-11T03:08:38.432Z",
+  "lastUpdated": "2026-10-11T11:44:29.058Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "6615be9f",
+      "title": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化 - igor´sLAB",
+      "date": "2026-10-11",
+      "category": "综合资讯",
+      "summary": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化",
+      "content": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
+    },
     {
       "id": "48a6b3b6",
       "title": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max - cnBeta.COM",
@@ -341,26 +361,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zSk1wUV9xelZFSFpQMTg1anR4QW1uWmNGMU5JTzNESzFQdVE1UHFsV1I3dzhvTjVYM1FXRU9tMU5WSU4tYmpKZ3ZhRmx1bnBGQ2xqaGE4bHYyd01XZmtwOGtnTTZZaTQ2SDgxcTFFVlFTUWM?oc=5"
-    },
-    {
-      "id": "6615be9f",
-      "title": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化 - igor´sLAB",
-      "date": "2026-10-08",
-      "category": "综合资讯",
-      "summary": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化",
-      "content": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
     },
     {
       "id": "bb6a4763",
