@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-11T21:10:14.156Z",
+  "lastUpdated": "2026-10-12T03:04:25.981Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "3b57999e",
+      "title": "《乐高哈利波特合集》NS2版10月16日推出 数字版需12.6GB - 3DM",
+      "date": "2026-10-11",
+      "category": "周边商品",
+      "summary": "《乐高哈利波特合集》NS2版10月16日推出 数字版需12.6GB",
+      "content": "《乐高哈利波特合集》NS2版10月16日推出 数字版需12.6GB",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4SVNBelBQTXJlbjdPS1JZcS0xR2pxOVVILTA3NFNlaklRSEdlb3N6QzF5bWNoc3pibFlPYi1QbWJENkVMWWRwREdWSUlISmJvSlBpMXZMa3VzcU9y?oc=5"
+    },
     {
       "id": "6615be9f",
       "title": "RTX 5090：在超过 600 瓦的 DLSS-5 测试中，16 针连接器熔化 - igor´sLAB",
@@ -23,12 +43,12 @@
       "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzFaamV6SUpzRjhZMUhEUHk5R1p1cXEwVWNKTnhHZVYxenU3allwT0tGX21yblFBM2IyX1NyUmZVanZuRHdETTE5LXhwZnpoel9pbEw3YVdzQmZKM1NjOTJGdTl4b1AyZktJLXRoNTJ2Yk1VLVJfbndkOWE2aUlMbHlnazhJRE9kQ2oyT3dIOG8?oc=5"
     },
     {
-      "id": "48a6b3b6",
-      "title": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max - cnBeta.COM",
+      "id": "51823f43",
+      "title": "HBO新版《哈利·波特》剧集演员称首季约10小时，官方尚未确认 - 3DM",
       "date": "2026-10-10",
       "category": "影视动态",
-      "summary": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max",
-      "content": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max",
+      "summary": "HBO新版《哈利·波特》剧集演员称首季约10小时，官方尚未确认",
+      "content": "HBO新版《哈利·波特》剧集演员称首季约10小时，官方尚未确认",
       "image": "📺",
       "relatedLinks": [
         {
@@ -40,27 +60,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZSXU3dmFoUnhySlVFeko2X0FlTktPcVB4S3Z6NDJuby1sR0x0ZkZsRFlhT2lXU2JVOUtqNVBxeXhMU05nOUJ3NVc0andiV2dnRVpPZ1M5a1VUbmJIVllDMG9B?oc=5"
-    },
-    {
-      "id": "81fef93c",
-      "title": "新品上线| 哈利・波特亚克力百变挂件拾光版第1弹🆕哈利・波特亚克力百变挂件拾光版第1弹正式上线卡游抽卡机&amp;卡游潮玩GO！✅️18款亚克力集结，包含9款常规款和9款隐藏款～🧩本弹加入特色拼图玩法！集齐9个不同角色即可拼出霍格沃茨完整地图！✨隐藏款升级 - 手机新浪网",
-      "date": "2026-10-10",
-      "category": "综合资讯",
-      "summary": "新品上线| 哈利・波特亚克力百变挂件拾光版第1弹🆕哈利・波特亚克力百变挂件拾光版第1弹正式上线卡游抽卡机&卡游潮玩GO！✅️18款亚克力集结，包含9款常规款和9款隐藏款～🧩本弹加入特色拼图玩法！集齐9个不同角色即可拼出霍格沃茨完整地图！...",
-      "content": "新品上线| 哈利・波特亚克力百变挂件拾光版第1弹🆕哈利・波特亚克力百变挂件拾光版第1弹正式上线卡游抽卡机&卡游潮玩GO！✅️18款亚克力集结，包含9款常规款和9款隐藏款～🧩本弹加入特色拼图玩法！集齐9个不同角色即可拼出霍格沃茨完整地图！✨隐藏款升级 手机新浪网",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RbGkzcFJNS1dIdkZ6TXNXV1FGZk9YLXR5bE1tZVR5MWNpaTNFQWUyS0h6NDJUNE9Rdm1zb2ZQTzBrM1gzSGh1QWdVaU83SzNKc2h3eUVpUVJ4UWVlSnpPdkVCcw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uMVh3OThUUFZWQUtnYUtJbWo5aVpLLXoxU2ZkVHB3WGNVYXJiQ0puSXdMellCX2prWkdYTUFxdEl2Nng4c0lJU1RxajVLT3VkSEUzc25BQ2lEczBD?oc=5"
     },
     {
       "id": "aebe8caf",
@@ -101,6 +101,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oMXF0SDUtWU5EWFJPaXN6WGgyRzNTcno2LWlMMGIxT0h5d2pIaFBWSmgyalNRb3E4OVR5ZmFOUk1RalVIWmo3LUhsYjFCb0VVd2Vsc2ZRcWx1MG5hQU1YZmdKdFBPOUZNZ3ktSHNpdFk0Zw?oc=5"
+    },
+    {
+      "id": "48a6b3b6",
+      "title": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max - cnBeta.COM",
+      "date": "2026-10-10",
+      "category": "影视动态",
+      "summary": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max",
+      "content": "HBO新版《哈利·波特》剧集演员称首季约10小时官方尚未确认- 视频网站- WarnerMedia HBO Max",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZSXU3dmFoUnhySlVFeko2X0FlTktPcVB4S3Z6NDJuby1sR0x0ZkZsRFlhT2lXU2JVOUtqNVBxeXhMU05nOUJ3NVc0andiV2dnRVpPZ1M5a1VUbmJIVllDMG9B?oc=5"
+    },
+    {
+      "id": "81fef93c",
+      "title": "新品上线| 哈利・波特亚克力百变挂件拾光版第1弹🆕哈利・波特亚克力百变挂件拾光版第1弹正式上线卡游抽卡机&amp;卡游潮玩GO！✅️18款亚克力集结，包含9款常规款和9款隐藏款～🧩本弹加入特色拼图玩法！集齐9个不同角色即可拼出霍格沃茨完整地图！✨隐藏款升级 - 手机新浪网",
+      "date": "2026-10-10",
+      "category": "综合资讯",
+      "summary": "新品上线| 哈利・波特亚克力百变挂件拾光版第1弹🆕哈利・波特亚克力百变挂件拾光版第1弹正式上线卡游抽卡机&卡游潮玩GO！✅️18款亚克力集结，包含9款常规款和9款隐藏款～🧩本弹加入特色拼图玩法！集齐9个不同角色即可拼出霍格沃茨完整地图！...",
+      "content": "新品上线| 哈利・波特亚克力百变挂件拾光版第1弹🆕哈利・波特亚克力百变挂件拾光版第1弹正式上线卡游抽卡机&卡游潮玩GO！✅️18款亚克力集结，包含9款常规款和9款隐藏款～🧩本弹加入特色拼图玩法！集齐9个不同角色即可拼出霍格沃茨完整地图！✨隐藏款升级 手机新浪网",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RbGkzcFJNS1dIdkZ6TXNXV1FGZk9YLXR5bE1tZVR5MWNpaTNFQWUyS0h6NDJUNE9Rdm1zb2ZQTzBrM1gzSGh1QWdVaU83SzNKc2h3eUVpUVJ4UWVlSnpPdkVCcw?oc=5"
     },
     {
       "id": "8bae1a8a",
@@ -243,6 +283,26 @@
       "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbS1Wdm40UDlfTnF3MUt1UXIwdWVTQWROWW5DNzBIeF9zaVVYM0ZBek4xNHoyQXJsTDUtWmljbVpWUmc4RE9ua2JzS2hOQXhHbHMxdGxaTHJ6Vk1rQm1QVzZKb2dmU1F1cjc1SkZQYjY4MUtxTTJGNE9yT3BrOFB2RmVvMEtOTjVzc0Q0dQ?oc=5"
     },
     {
+      "id": "bb6a4763",
+      "title": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警 - Informat.ro",
+      "date": "2026-10-08",
+      "category": "综合资讯",
+      "summary": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
+      "content": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWpoSnlvTEI0SEhCWG1IYUNVbnUydlZ6ZkRiUUs0TGNiUDhIajFrSFdWUHBHVmYyX1VCRGFFOU9VbE94SUNzUnpLVjJ5bDBTdkYxMmU0U0xiQ21mejVrZGR0cHJONmNvV1o5M05tYTB4STdVVEtRY3pib3U1dTNTeG4zd1A4bU8yc1BlUW5sMmdtY3hKOFZHMDN2YzEzYVJObzVCYWJsSDc1UQ?oc=5"
+    },
+    {
       "id": "270403d1",
       "title": "国内首秀！《哈利·波特：魔法幻境》今日在蓉启幕 - 搜狐网",
       "date": "2026-10-08",
@@ -341,66 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XeHBjcEkyOURRd3BDcHg0bHRXajBtXzNqVkZCVFQ3djk3YW5TYy1vNEtCS3Rndmx6bkxGXzJCb2xudTc1T2c4Slo4TzVLd2ljc19SNWFPZmRpNXM?oc=5"
-    },
-    {
-      "id": "05f6b3c2",
-      "title": "派拉蒙合并华纳兄弟：可能以四种方式影响你的生活 - BBC",
-      "date": "2026-10-08",
-      "category": "影视动态",
-      "summary": "派拉蒙合并华纳兄弟：可能以四种方式影响你的生活",
-      "content": "派拉蒙合并华纳兄弟：可能以四种方式影响你的生活",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LLXJNM0pYMWMxVjJldHNoTmtkV1c3NmRmdUlJLWtqb1lCZ0JJTHdTRlY1Sk55dWtTczRFdWhLd3U1TzRRUnpheDIwcUpZUEpMX0xCcHdKQVVjcDZjSVhWeXlKTGxvV03SAWxBVV95cUxOMjltTE9DRXFxa3hnS3ZTdFZnZjQ2XzNEbm5GSmdPYmFwSlMwbWU1WGpvMjNsQ3E2NFN1OE9kUHNsRlBzMXotcE9abWN0LXNpUXRreDFFSkZkLW42UUxOZ1dkcWlIOGU4cGZCUkk?oc=5"
-    },
-    {
-      "id": "6b06eb1b",
-      "title": "国庆假期刚过，成都又迎来一个全球超300万人打卡的超级IP - 新浪网",
-      "date": "2026-10-08",
-      "category": "影视动态",
-      "summary": "国庆假期刚过，成都又迎来一个全球超300万人打卡的超级IP",
-      "content": "国庆假期刚过，成都又迎来一个全球超300万人打卡的超级IP",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CMzNsTFdqNEVaT2dwT1FiRjNoaUtKdk5aeS1ZRVk2SHkycFpNR0hIUHV3ZkRReE9XZUFIbFZOR2Q3YllMZl9qd0RNRWJIZUE3X1FTVWlaNUZsaW9zdENQWFJqUmVuUmE5d1F0V1drWjQ?oc=5"
-    },
-    {
-      "id": "bb6a4763",
-      "title": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警 - Informat.ro",
-      "date": "2026-10-08",
-      "category": "综合资讯",
-      "summary": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
-      "content": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWpoSnlvTEI0SEhCWG1IYUNVbnUydlZ6ZkRiUUs0TGNiUDhIajFrSFdWUHBHVmYyX1VCRGFFOU9VbE94SUNzUnpLVjJ5bDBTdkYxMmU0U0xiQ21mejVrZGR0cHJONmNvV1o5M05tYTB4STdVVEtRY3pib3U1dTNTeG4zd1A4bU8yc1BlUW5sMmdtY3hKOFZHMDN2YzEzYVJObzVCYWJsSDc1UQ?oc=5"
     }
   ]
 }
