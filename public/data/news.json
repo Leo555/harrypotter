@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T22:17:37.413Z",
+  "lastUpdated": "2026-10-13T04:20:01.402Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -323,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9icmRpSFpUQnNNMnc1SEJwd20yTjRHdkdKSEhLd2tCTi1WeVJqd3Jub2M5V0Fram9ZMjZGNWI5Mk9Bd3BJZ0VuN0tWajQ3bVhVdGlHa1pPTG8wZmxkNUtwUkF0Zi1YN01GYlhZbHpsTi1yUUU?oc=5"
     },
     {
-      "id": "d82ce363",
-      "title": "《哈利·波特：魔法幻境》中国首秀落地成都- 中国日报网 - China Daily",
-      "date": "2026-10-08",
-      "category": "综合资讯",
-      "summary": "《哈利·波特：魔法幻境》中国首秀落地成都- 中国日报网",
-      "content": "《哈利·波特：魔法幻境》中国首秀落地成都- 中国日报网",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11LTBoV3J6LTB1VXJJOU5yeDdJdThvbVNuT2p6azgtMkFrTXZ1Y2FWalphY3hhaVptRFFialpsQ1VCN2QyZkowV3YwZGhWdGNVZjNSS09tZEl1cHBKVEdEdkVzb2FBUXZLN01UYmpBUThWenAwYjRPLVRBM3o?oc=5"
-    },
-    {
       "id": "bb6a4763",
       "title": "一名俄罗斯女子在一家咖啡馆看到《哈利·波特》中的角色“多比”雕像时，想要报警 - Informat.ro",
       "date": "2026-10-08",
@@ -401,6 +381,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fM1Z5b0FnemlBa1ZSWEFUdXdidjlnWjBtSkxoTzAxUWlQaUNKZ2N6d2dMR0tuZTRRODJoMjZDWkhYOEdUbXlMUUZvS05QSEo4ZWlRT3RJWmYxYW9RSV84Mjk3NUg3NkNYTVk4NldycTktQ0JXanBjWFJNQm02UG8?oc=5"
+    },
+    {
+      "id": "d82ce363",
+      "title": "《哈利·波特：魔法幻境》中国首秀落地成都- 中国日报网 - China Daily",
+      "date": "2026-10-08",
+      "category": "综合资讯",
+      "summary": "《哈利·波特：魔法幻境》中国首秀落地成都- 中国日报网",
+      "content": "《哈利·波特：魔法幻境》中国首秀落地成都- 中国日报网",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11LTBoV3J6LTB1VXJJOU5yeDdJdThvbVNuT2p6azgtMkFrTXZ1Y2FWalphY3hhaVptRFFialpsQ1VCN2QyZkowV3YwZGhWdGNVZjNSS09tZEl1cHBKVEdEdkVzb2FBUXZLN01UYmpBUThWenAwYjRPLVRBM3o?oc=5"
     }
   ]
 }
