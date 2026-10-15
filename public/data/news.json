@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T07:47:58.434Z",
+  "lastUpdated": "2026-10-15T13:45:30.974Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -61,26 +61,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbGctZWxYbU1iclFEZUJkcjNqdTBOaklPVVRRRC15RnNNejRYMkpLemxwY0lLVjNMUVgtdjc2YkpFcmRweHRLTThJUzQ2LWNTTVhDdE1CODVhRTBMelFXVFRkVlpiODJCUld1bVA2S1lTV2F3MllZNlBXZW9lMHVPSGZWcGpGY2pXQ1lGZkwzeklFRUF2Nlk0dzZaem42NXdNaUlOWGt0OWl5OF9XWkJDVzZmQllsVUU?oc=5"
-    },
-    {
-      "id": "8f6f7321",
-      "title": "BBC将播罗琳纪录片聚焦其一生与纷争 - 新浪网",
-      "date": "2026-10-14",
-      "category": "综合资讯",
-      "summary": "BBC将播罗琳纪录片聚焦其一生与纷争",
-      "content": "BBC将播罗琳纪录片聚焦其一生与纷争",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMemJjNTllMHdmVHB2WmlVVEdvd05aamNYR1l2WW9Iak5ldGQxVUhodzZGN05SM3JtamtsOVc0MEw5SWZqLW8wU094M3kyY1M0eUU2Wm9UUG93MFNSQ29jTm1MdjRtdlRSaFAzX3lIY2VMdw?oc=5"
     },
     {
       "id": "8698062a",
@@ -161,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvVnYtZGxEc0NTMnZnN3dHbVlsNG5PMmlCQkNhT3BXV19tRVg0THloc2NpcE1tZ05hWlE1cXJ1OFhMcW8yaVNZSWo0eG9QU09DTGtOYUctV280ZS00bWVvMkF6cXRMdTNfQjZFZ2J4Y0JwbUE?oc=5"
+    },
+    {
+      "id": "8f6f7321",
+      "title": "BBC将播罗琳纪录片聚焦其一生与纷争 - 新浪网",
+      "date": "2026-10-14",
+      "category": "综合资讯",
+      "summary": "BBC将播罗琳纪录片聚焦其一生与纷争",
+      "content": "BBC将播罗琳纪录片聚焦其一生与纷争",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMemJjNTllMHdmVHB2WmlVVEdvd05aamNYR1l2WW9Iak5ldGQxVUhodzZGN05SM3JtamtsOVc0MEw5SWZqLW8wU094M3kyY1M0eUU2Wm9UUG93MFNSQ29jTm1MdjRtdlRSaFAzX3lIY2VMdw?oc=5"
     },
     {
       "id": "8130be00",
