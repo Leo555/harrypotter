@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-16T07:36:32.938Z",
+  "lastUpdated": "2026-10-16T13:35:52.699Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "3e53fc0d",
+      "title": "哈利·波特与混血王子彩绘中文版发售，共421页 - 新浪网",
+      "date": "2026-10-16",
+      "category": "综合资讯",
+      "summary": "哈利·波特与混血王子彩绘中文版发售，共421页",
+      "content": "哈利·波特与混血王子彩绘中文版发售，共421页",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55WFV2LW5qc1owNnJBbjRlenJKekVUR1NrUms1M001cFRYZjdieDZWNDlycEJlaWxuZG10QjZIREt0LVNHSkVzZVlDVWFyOFRvLS1mZU14TEJOcE5GbDdfTjlGVi1nTDhoMmxjX3NjQ2o?oc=5"
+    },
     {
       "id": "fd17540d",
       "title": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石 - Notebookcheck CN",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55ZnBCVU1wMGVPRXFBR3B0N3hmcDZiOEVuQlh4U1RnS0tUcXdmbjBheEk5a3M5UVozakZTRkNDUW8xNWlKSlY0Z1RIOWhzV0RjanFJWTgtT1lhS2E4NnZ5ck1KMFBTTklydFRwdVMzejc0WTda?oc=5"
-    },
-    {
-      "id": "6302e85f",
-      "title": "《哈利·波特》幕后故事：电影完结后揭晓的8段人物关系！ ​ - 新浪网",
-      "date": "2026-10-12",
-      "category": "影视动态",
-      "summary": "《哈利·波特》幕后故事：电影完结后揭晓的8段人物关系！ ​",
-      "content": "《哈利·波特》幕后故事：电影完结后揭晓的8段人物关系！ ​",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OajNWZzlhUWlNQ2UtSzY0M2EtVDAzZy1JT2JfODVXOWsxdVpzSW1hYVNTZXgzMFRHck1JWndOVHNHeGJvRk92WkxnV1FTRHp1UkN3Z0Z4eG5GLTMxZ1FDbzBBX3J3a05rUFItZWVlSFFqNm8?oc=5"
     }
   ]
 }
