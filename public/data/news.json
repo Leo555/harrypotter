@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-16T13:35:52.699Z",
+  "lastUpdated": "2026-10-16T18:29:28.529Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "8ca5aafc",
+      "title": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息 - 新浪网",
+      "date": "2026-10-16",
+      "category": "综合资讯",
+      "summary": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息",
+      "content": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OamVjZWJGNnFCbkdoLTFKVnBtbFROQURoZm5wVkJGbmhEX1REcmgyWkZneENaTDNaNFl0andMeFVuTFFZR3BLWUt1bEhIUnF5MWljTi12eXc1THlGV09xQjAwUW12OWY0c0d3cVdvQVg?oc=5"
+    },
     {
       "id": "3e53fc0d",
       "title": "哈利·波特与混血王子彩绘中文版发售，共421页 - 新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMSE9Wa0JPUnVPM1N3bHhJek4wMkNvVHF2NmtncG1DLVBvdjFrM09BTldUNkVXaFVBZHVmRzh6enJpRWlTSHJSem9CcDRpOXlHMk1LZVdkOFdtRkxDQ1RnbEVtQUlScjA5SUxwbUgxVQ?oc=5"
-    },
-    {
-      "id": "4d4728b5",
-      "title": "Timex 最新款 Harry Potter 腕表的黑色表盘下隐藏着一个意想不到的巧妙机关 - Notebookcheck CN",
-      "date": "2026-10-12",
-      "category": "出版物",
-      "summary": "Timex 最新款 Harry Potter 腕表的黑色表盘下隐藏着一个意想不到的巧妙机关",
-      "content": "Timex 最新款 Harry Potter 腕表的黑色表盘下隐藏着一个意想不到的巧妙机关",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55ZnBCVU1wMGVPRXFBR3B0N3hmcDZiOEVuQlh4U1RnS0tUcXdmbjBheEk5a3M5UVozakZTRkNDUW8xNWlKSlY0Z1RIOWhzV0RjanFJWTgtT1lhS2E4NnZ5ck1KMFBTTklydFRwdVMzejc0WTda?oc=5"
     }
   ]
 }
