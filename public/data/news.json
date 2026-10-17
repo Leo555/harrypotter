@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T07:16:04.235Z",
+  "lastUpdated": "2026-10-17T12:32:14.269Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -21,6 +21,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNb1VCdUw1WGhmZTNGYnowY09UMnktSDlMRmNmTDBBOG5zOHkxTTdkdzBicGN6cHMxN3lxSVU1M1d2T3N0SGtfOGtCaUlvT0hVWXNHZVp1azVEYXA2QjdsY00wQVFxdGt1QjNvTVhFWlJvZlZ2R0U4b1hBTXVINVlyWE9sQXdBRGw4Rm5ISWRyQjRVZXJoQTNuR2dKRDROd1cwSlk2MEt0NnpsR1B2TENGWjFhRGNWdEhCS0Y1OFNqSVVmUTBwclBwWkVFQjlVd2pjNE1FZ0RwWlVPd1V3cGVqMmZlZnQxTTdaWHZBWjlQUFYzbEJZbXNPbGFqWW02YmtOcWRBZFNucXJsVUhIM1praXNyRm5qWkZha19vTGdnRFZXV19XNGtQbHgtOUY4MVRLS0g4?oc=5"
+    },
+    {
+      "id": "32d0be9f",
+      "title": "派拉蒙天舞完成约1100亿美元收购华纳兄弟探索，合并后新公司定名天空之舞 - 虎嗅网",
+      "date": "2026-10-16",
+      "category": "影视动态",
+      "summary": "派拉蒙天舞完成约1100亿美元收购华纳兄弟探索，合并后新公司定名天空之舞",
+      "content": "派拉蒙天舞完成约1100亿美元收购华纳兄弟探索，合并后新公司定名天空之舞",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3bDdOdVh4ZWZKMG5tRi1nanB1b3htVkd6ZlRmbV92RzlyaXY3VDBHVjVEU1piR25Ibk9WMUJMR20taDN0NVE1RU8xdHNLRlctS2didA?oc=5"
     },
     {
       "id": "8ca5aafc",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsdlhCRGRobFNOemZzQmktUVFoREJFcC1ubGhMd2szMkpkMkdieEx6VGlYbm1rbG5pSGJta3o4OUN1cmZieVAxQVBMLWx3T3BPeG52TFlQQ3FtR0piRWhXWWlqdw?oc=5"
-    },
-    {
-      "id": "8e49eb33",
-      "title": "小野哈利波特 - 手机新浪网",
-      "date": "2026-10-13",
-      "category": "综合资讯",
-      "summary": "小野哈利波特",
-      "content": "小野哈利波特",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFByTXhmRmJlRS1VVlpTUEhjbV9SZXFQRmJRelVDVUZrWXRNei0wRy1JLVJ3aHhsWllHdWtzOGJDcGp3cWQ4ZjZvNzJWT2tGNVFRQkNDdzkxVG1NZkFQZ3JvRzJkMA?oc=5"
     }
   ]
 }
