@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-10-18T07:29:42.833Z",
+  "lastUpdated": "2026-10-18T12:50:47.983Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "5fff4386",
+      "title": "“哈利·波特”的幕后：三个月翻译“混血王子”、致敬伦勃朗《夜巡》｜天府书展 - 新浪网",
+      "date": "2026-10-18",
+      "category": "出版物",
+      "summary": "“哈利·波特”的幕后：三个月翻译“混血王子”、致敬伦勃朗《夜巡》｜天府书展",
+      "content": "“哈利·波特”的幕后：三个月翻译“混血王子”、致敬伦勃朗《夜巡》｜天府书展",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkRSMXhmcnlDN09HQ3VJdFlZYWlHbzg4Q05iQ1ptektjbTJOTlhhSlBzbXlTWFp1Y2NXcW9IY3g1MFJBVElKVzZkdUpJRnRhdl9xTHg2Vmlwd0prQ0hTRkFLUGdJa2gzNWJWX3NxV290Rl90bEZWTG1BN0lkel9MU2tlVVZRMElIX2h3YzRB?oc=5"
+    },
+    {
+      "id": "0ce8133d",
+      "title": "《哈利·波特与“混血王子”》为什么要加引号？｜视频 - 搜狐网",
+      "date": "2026-10-18",
+      "category": "综合资讯",
+      "summary": "《哈利·波特与“混血王子”》为什么要加引号？｜视频",
+      "content": "《哈利·波特与“混血王子”》为什么要加引号？｜视频",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdS0zSmJrT24wb19HNjJtbUVSOUQyR21ocWpIY01NWWROUXpRNDZzSmsxTzV5Nm1mdm12VjEzTXlUSHdONEc4UVVFTWg2TkNkd0k5SFNOdUo5TEV1Y0pSTi1DbG92REZKT0hVWUhrM3cyb0hyTDdRNHpUbExBZy13Q3JWQTBsTF9mWEl4UDRhbw?oc=5"
+    },
     {
       "id": "fd7c04ed",
       "title": "魔法继续！哈利波特展览悉尼站延长至2027年1月31日 - 澳洲看新闻",
@@ -23,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNb1VCdUw1WGhmZTNGYnowY09UMnktSDlMRmNmTDBBOG5zOHkxTTdkdzBicGN6cHMxN3lxSVU1M1d2T3N0SGtfOGtCaUlvT0hVWXNHZVp1azVEYXA2QjdsY00wQVFxdGt1QjNvTVhFWlJvZlZ2R0U4b1hBTXVINVlyWE9sQXdBRGw4Rm5ISWRyQjRVZXJoQTNuR2dKRDROd1cwSlk2MEt0NnpsR1B2TENGWjFhRGNWdEhCS0Y1OFNqSVVmUTBwclBwWkVFQjlVd2pjNE1FZ0RwWlVPd1V3cGVqMmZlZnQxTTdaWHZBWjlQUFYzbEJZbXNPbGFqWW02YmtOcWRBZFNucXJsVUhIM1praXNyRm5qWkZha19vTGdnRFZXV19XNGtQbHgtOUY4MVRLS0g4?oc=5"
     },
     {
-      "id": "8ca5aafc",
-      "title": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息 - 新浪网",
-      "date": "2026-10-16",
-      "category": "综合资讯",
-      "summary": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息",
-      "content": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OamVjZWJGNnFCbkdoLTFKVnBtbFROQURoZm5wVkJGbmhEX1REcmgyWkZneENaTDNaNFl0andMeFVuTFFZR3BLWUt1bEhIUnF5MWljTi12eXc1THlGV09xQjAwUW12OWY0c0d3cVdvQVg?oc=5"
-    },
-    {
       "id": "32d0be9f",
       "title": "派拉蒙天舞完成约1100亿美元收购华纳兄弟探索，合并后新公司定名天空之舞 - 虎嗅网",
       "date": "2026-10-16",
@@ -61,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3bDdOdVh4ZWZKMG5tRi1nanB1b3htVkd6ZlRmbV92RzlyaXY3VDBHVjVEU1piR25Ibk9WMUJMR20taDN0NVE1RU8xdHNLRlctS2didA?oc=5"
+    },
+    {
+      "id": "8ca5aafc",
+      "title": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息 - 新浪网",
+      "date": "2026-10-16",
+      "category": "综合资讯",
+      "summary": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息",
+      "content": "哈利·波特与混血王子彩绘版福灵剂亮相，评论微博一天内收好消息",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OamVjZWJGNnFCbkdoLTFKVnBtbFROQURoZm5wVkJGbmhEX1REcmgyWkZneENaTDNaNFl0andMeFVuTFFZR3BLWUt1bEhIUnF5MWljTi12eXc1THlGV09xQjAwUW12OWY0c0d3cVdvQVg?oc=5"
     },
     {
       "id": "b03df981",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMemJjNTllMHdmVHB2WmlVVEdvd05aamNYR1l2WW9Iak5ldGQxVUhodzZGN05SM3JtamtsOVc0MEw5SWZqLW8wU094M3kyY1M0eUU2Wm9UUG93MFNSQ29jTm1MdjRtdlRSaFAzX3lIY2VMdw?oc=5"
-    },
-    {
-      "id": "ccd8978a",
-      "title": "哈利波特魔性健身操火出圈，Keep哪找的神人策划 - 4A广告网",
-      "date": "2026-10-14",
-      "category": "影视动态",
-      "summary": "哈利波特魔性健身操火出圈，Keep哪找的神人策划",
-      "content": "哈利波特魔性健身操火出圈，Keep哪找的神人策划",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpb2J2TGZZeUQxUEl6R3RiTVktN3NLSVVQaDJwZGhjcFl4RnZqV1NkWWw5Q0Zsa2xleTh1MkZNSUw3eFRMWGllb1UzRDJEX3czM2dLTWNlSFhEdUFscUpJ?oc=5"
-    },
-    {
-      "id": "a64a231d",
-      "title": "新版《哈利波特》上映前，是时候让孩子创造一个属于自己的故事世界了！ - 搜狐网",
-      "date": "2026-10-13",
-      "category": "影视动态",
-      "summary": "新版《哈利波特》上映前，是时候让孩子创造一个属于自己的故事世界了！",
-      "content": "新版《哈利波特》上映前，是时候让孩子创造一个属于自己的故事世界了！",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sS3JxT2tEWHlPVmVLWG1BZUVyT2JQajZTQjVYbW9vbTVDUmJjSGEwWTBUVmN4TDhoWjhuYmh4NTNndUhQUkZ1T3kxMTY4a1hjWWhIcy1fSnZGN1A5eF9QYQ?oc=5"
     }
   ]
 }
