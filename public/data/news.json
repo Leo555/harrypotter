@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-19T15:58:30.006Z",
+  "lastUpdated": "2026-10-19T21:48:54.612Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "b2458107",
+      "title": "全新治愈系清洁游戏仿佛为 Harry Potter 粉丝量身打造 – 还可免费试玩 - Notebookcheck CN",
+      "date": "2026-10-19",
+      "category": "影视动态",
+      "summary": "全新治愈系清洁游戏仿佛为 Harry Potter 粉丝量身打造 – 还可免费试玩",
+      "content": "全新治愈系清洁游戏仿佛为 Harry Potter 粉丝量身打造 – 还可免费试玩",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nYkctV2hpTDZESmdOM1otSmZWNmEtMTBrSkhKeldVUTJjUnlHMXEwMVB4SGJsRUQxalZrN0R4eVhyVk1rQi1BUWF4Z1c3UGIyS09IcEJhOU1XMjktZEZYdkh0eWtFMGtPUkx5Tg?oc=5"
+    },
     {
       "id": "d807d893",
       "title": "杂物社推出哈利·波特键帽盲盒 - 新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNZ2JuSnFrNHFORDltaUYxN3NJZlpFaDE2WlU3WWYxN2FacjNzbThSclBCMHQ5cGxIejhQVm5Fc2cyd1pTZk1JM1ZfUWJmZjRxaGtKeFhUMFp4d0NOaW9NYmQ4ZTlyWVBiMzZudk9WZmdHODVhMFVwNDl3bXB3ZVQzSmVEc0hJaG9rSUk3eHVxT2JCOXZwd1FaeDZocWZKeGRfRlpGY3hIOThwZFFrVHpaNi1veC1LdzlMb25oS1pXbkN4MGtldG5NWEFzRkVNREV0amRZTF92ZnJKYWlCTVFHTDlzNHJLUVc1LUM3bzhsM1ExVExaOE4zZ2l2emd6em5WWDVQc0VWaFVTaWVJdVRXWkRxcGdQeXMxSzNOYTBYRXBmZUJKaGxGWWRCbm0xeUJBUTRkWlZvYWJxRkFxRDczTzNTbVJLVXM2S3UtNUhEektRUjUxNGFIaVJHWjMzUlNHazhFaXUtYmZicTVFTkhDUkR3emhhVElya1ZRdUJCOFFrSG8?oc=5"
-    },
-    {
-      "id": "8130be00",
-      "title": "EA私有化与游戏股飙升15% 15% - games.gg",
-      "date": "2026-10-14",
-      "category": "影视动态",
-      "summary": "EA私有化与游戏股飙升15% 15%",
-      "content": "EA私有化与游戏股飙升15% 15%",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQcGtDRlV5OUl2QktVT0tBT3o2VG5LYV8xQ3YyQ3FiMmM5M245UENNSVJhbmtYN3RrQWcydURVMDJ1RURKVXJFWW1mdVY0bFFOMUtDQ0MxWmxWcnJWMktnQWl0cVBHWllmWXdhQVp2Y25ZZ3g5aG1RTVlR?oc=5"
     }
   ]
 }
