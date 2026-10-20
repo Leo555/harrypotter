@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T21:48:54.612Z",
+  "lastUpdated": "2026-10-20T02:27:53.394Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -283,26 +283,6 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55WFV2LW5qc1owNnJBbjRlenJKekVUR1NrUms1M001cFRYZjdieDZWNDlycEJlaWxuZG10QjZIREt0LVNHSkVzZVlDVWFyOFRvLS1mZU14TEJOcE5GbDdfTjlGVi1nTDhoMmxjX3NjQ2o?oc=5"
     },
     {
-      "id": "fd17540d",
-      "title": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石 - Notebookcheck CN",
-      "date": "2026-10-15",
-      "category": "出版物",
-      "summary": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石",
-      "content": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DZ0ZXSzZUelJnOWwzeVZVbUphSkhJb0QtTUFub0NMekhRLS01UEJYM05uVTdnR3gzbF9MbEh3Z3dLMjV4eXI5UGo5MC1CLVZCVzlwTlVPc1lSdlpxRk1Dd21NeWU1dVFCY2dVMEVBMmJhTkV6WkZuRTNobF9rTE0?oc=5"
-    },
-    {
       "id": "5038fa3f",
       "title": "NVIDIA升级DLSS 5：AI模型效率翻倍，4K显存占用降20% - 디지털투데이",
       "date": "2026-10-15",
@@ -321,6 +301,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbGctZWxYbU1iclFEZUJkcjNqdTBOaklPVVRRRC15RnNNejRYMkpLemxwY0lLVjNMUVgtdjc2YkpFcmRweHRLTThJUzQ2LWNTTVhDdE1CODVhRTBMelFXVFRkVlpiODJCUld1bVA2S1lTV2F3MllZNlBXZW9lMHVPSGZWcGpGY2pXQ1lGZkwzeklFRUF2Nlk0dzZaem42NXdNaUlOWGt0OWl5OF9XWkJDVzZmQllsVUU?oc=5"
+    },
+    {
+      "id": "fd17540d",
+      "title": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石 - Notebookcheck CN",
+      "date": "2026-10-15",
+      "category": "出版物",
+      "summary": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石",
+      "content": "Timex 扩充 Harry Potter 系列，推出三款全新 Q Timex 腕表，设计灵感源自时间转换器和魔法石",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DZ0ZXSzZUelJnOWwzeVZVbUphSkhJb0QtTUFub0NMekhRLS01UEJYM05uVTdnR3gzbF9MbEh3Z3dLMjV4eXI5UGo5MC1CLVZCVzlwTlVPc1lSdlpxRk1Dd21NeWU1dVFCY2dVMEVBMmJhTkV6WkZuRTNobF9rTE0?oc=5"
     },
     {
       "id": "3f7e61b9",
