@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-21T14:12:04.204Z",
+  "lastUpdated": "2026-10-21T19:00:54.181Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "3588c809",
+      "title": "如何通过《哈利·波特》讲述曼托瓦公爵宫的故事：洛伦佐·博诺尔迪谈 - Finestre sull'Arte",
+      "date": "2026-10-21",
+      "category": "影视动态",
+      "summary": "如何通过《哈利·波特》讲述曼托瓦公爵宫的故事：洛伦佐·博诺尔迪谈",
+      "content": "如何通过《哈利·波特》讲述曼托瓦公爵宫的故事：洛伦佐·博诺尔迪谈",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWlpUakFEem56TlNyelFtaXppcVp2dE1yNjY4RGt6MjRGSmZBRng4bXZSZU16TkU1YlR0d042OFpuUjhtUzE4eUhpLXJkMmRIbkdwN1V1UnBObk1sV0dFTVJ2aXA3UzFtZXNXNzdpYXVhY05jcFoyN1A3NGpDUzllSUpWQzVPVGpqWDVQN3BfcFBKMVdhVzVNa2FjWkxjamZpV1ZDMEhmdW4tc2E1Rk9CSFdfdDJRaWQ5dy15VFdvNDludE52UzZLamQ0QXVzSTdxSWxYeERaUnlPRVZ2cS0w?oc=5"
+    },
     {
       "id": "71afae25",
       "title": "三个选项摆在眼前，你要怎么选！ ​ - 手机新浪网",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpNXdJOUszeFhpVzN4N0pSeDJTMWJaN3NacG9UQmd0dEJSTmlmeVc1SWV4VkFBVFRWWHFNb1V4Yk5NNkdOOEpTTmUtYVNKZw?oc=5"
-    },
-    {
-      "id": "3e53fc0d",
-      "title": "哈利·波特与混血王子彩绘中文版发售，共421页 - 新浪网",
-      "date": "2026-10-16",
-      "category": "综合资讯",
-      "summary": "哈利·波特与混血王子彩绘中文版发售，共421页",
-      "content": "哈利·波特与混血王子彩绘中文版发售，共421页",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55WFV2LW5qc1owNnJBbjRlenJKekVUR1NrUms1M001cFRYZjdieDZWNDlycEJlaWxuZG10QjZIREt0LVNHSkVzZVlDVWFyOFRvLS1mZU14TEJOcE5GbDdfTjlGVi1nTDhoMmxjX3NjQ2o?oc=5"
     }
   ]
 }
