@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-24T07:41:25.394Z",
+  "lastUpdated": "2026-10-24T12:58:57.187Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "f4e58678",
+      "title": "《哈利波特》真人剧传前期狂砸1.5亿 重金还原魔法世界 - 亚洲电视新闻",
+      "date": "2026-10-24",
+      "category": "综合资讯",
+      "summary": "《哈利波特》真人剧传前期狂砸1.5亿 重金还原魔法世界",
+      "content": "《哈利波特》真人剧传前期狂砸1.5亿 重金还原魔法世界",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQRjZjUzBuT0Nob3VUNGNyRUlzZy0tRFRCYzhhTEEzNnc2cGpnbkNob3ZMVUVzY1ItclhpcWtMeTFWblZhdmJ4V1FTRUFoOTZoaUc2X0I3SjRVWTZhalBqREk4NThHZ3NBWG9jd2xIeDdpNEZtUVpndHBVUS1Ta091VkZLU3E1V1J4bHl3MkFGUUhzcGN6MzFXMnFaenFKQUdQcVdmMnZyUVVSX0pSTEdxc1FnZnltM2ZaQmRiSVFuY0xPYXpPai1rTEMyM05tdDk0bzBRbDd6UVRpR3ZMc0FvOUlEZ3dYcTg1dHp5cXhnREhGT2VfZTE0QzE5SklGQlhrdFFGUFpoR19wTlFrNEc3OGExY1FMS0RMOFFPNFA2eHI0OS1felJtRkdqUE1IeVlzZ1c3d3FWbVRBcllaSFJaVENyenN3OC1LV2ZnajhKUlpQRlNv?oc=5"
+    },
     {
       "id": "fe8d7c40",
       "title": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉 - 诗华日报",
@@ -83,26 +103,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKYXZCMnl4VjFndFhyS1JZT2YyTHhycUhJbUxSVkVXWWtfRjhNZVc0U1Y5dTQ2bDc0Mnp3aWpETFN3MHBrTkh1eldpY0c2SFF4RXdzU3JfRHNyeURjWVVrLTZNWQ?oc=5"
     },
     {
-      "id": "959fbb39",
-      "title": "哈利·波特能吃老本，LABUBU为什么不行？ - 潮起网",
-      "date": "2026-10-22",
-      "category": "综合资讯",
-      "summary": "哈利·波特能吃老本，LABUBU为什么不行？",
-      "content": "哈利·波特能吃老本，LABUBU为什么不行？",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2SDU0UFQ3ZzU2b1FqenNPejNYSlN5V25mUi1LTXVPNHNPT0lCbmxFMkZQdjllQ1ozQ3h5UHVBLXFkOUtjZWVlMDQyOWxwc3lfODRuT2tDaUNvTkF6eS1OemVVTQ?oc=5"
-    },
-    {
       "id": "8644b022",
       "title": "剧版哈利波特12月伦敦首映 团队加强安保 - 新浪网",
       "date": "2026-10-22",
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQam9tZjVBUmZJZUQ4X1F1WGRlZFBzVk1LTW9QSFNPUmsxc3Rkb3FOSGRGZVROYnJJQ29Ub0ZuS092c2ljTk80dFhXUTZheUtsaDFJTnM1eGVXU2xOUkprMWh3akdUOTdCbi1WV2k4RHdKOThpaWJmYzBrOUZlY1NId1Qtc25aUWNxZS1XYm1HT0hRTlpuZXhaVm9PSElHaUczZTZVdDRINmZYOXBuYVFtNnoxN2tWLXRuZFNkYVJUOTRWb2hLT19TaHJDUkpjb1pCc0JodS12M1k?oc=5"
+    },
+    {
+      "id": "959fbb39",
+      "title": "哈利·波特能吃老本，LABUBU为什么不行？ - 潮起网",
+      "date": "2026-10-22",
+      "category": "综合资讯",
+      "summary": "哈利·波特能吃老本，LABUBU为什么不行？",
+      "content": "哈利·波特能吃老本，LABUBU为什么不行？",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2SDU0UFQ3ZzU2b1FqenNPejNYSlN5V25mUi1LTXVPNHNPT0lCbmxFMkZQdjllQ1ozQ3h5UHVBLXFkOUtjZWVlMDQyOWxwc3lfODRuT2tDaUNvTkF6eS1OemVVTQ?oc=5"
     },
     {
       "id": "cc7b31cd",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Wc09DYmJscFpQbml3ckZNVlpUeWktVDkwZTN4MzM3YjZXS0phYjE0emEtSzNaMTRnTVJWejVUUmFUX0J3d1lMNHdyRkkxM3FwRHhnOUxkZHNGb2Fu?oc=5"
-    },
-    {
-      "id": "459ecc41",
-      "title": "《哈利·波特》魔法世界糖果镜 将于10月第三周起发售! - コラボカフェ",
-      "date": "2026-10-19",
-      "category": "影视动态",
-      "summary": "《哈利·波特》魔法世界糖果镜 将于10月第三周起发售!",
-      "content": "《哈利·波特》魔法世界糖果镜 将于10月第三周起发售!",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1FuckRzTmNVZ0tPbE5LaVVwc1AxUVV0aWM1Y09KdWUwQ0d0SzIzQllYbkVrd08xenhvX2xXaF9UMlBkeUpwSkVDcHlyOUVFZWRWaUtob2ptVEVVRFVDdGpGUWp0cTZuckEyWF9fdnRuYm5jMVk3WTdxZ2ZndVN4UUgxc3FBTmZHeVh5WWJxSGpQUW5GTDZYb0t6NVg5UTJX0gGoAUFVX3lxTFBCdUJ4U2FZbDVGSGlEaXE5eDROQ3VnRzZWTlo0V05PVEZWQmdYT2F1ZmpQWHJrLUVnWVlMMnBoTW5yNVZDU01Qa2EySzhYLUExM0NLTTBQYVlGb2hMSTRrM1A1enYzV0pJM2JsU24tSS0yZ19pUzUwVlExNzlPUVNxUW9zQ05jN2pCYzZMQWVMZURJU2JfWktOeGdWZC01MXZwWGtNNGRVQQ?oc=5"
     }
   ]
 }
