@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-10-24T02:20:06.918Z",
+  "lastUpdated": "2026-10-24T07:41:25.394Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "fe8d7c40",
+      "title": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉 - 诗华日报",
+      "date": "2026-10-24",
+      "category": "综合资讯",
+      "summary": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉",
+      "content": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Vb0xLYklDY2llV05vUzBtOGdGbVRZaG5wS0xSOVVkMDNhUEpTYjZieFZLNWw0SnJzX0JFWUpScWJlVUZwaWZMdUFpdXNpQQ?oc=5"
+    },
+    {
+      "id": "b2e2bfac",
+      "title": "艾玛·沃特森回应J.K.罗琳：罗琳称永远不会原谅《哈利·波特》的演员们 - 新浪网",
+      "date": "2026-10-24",
+      "category": "综合资讯",
+      "summary": "艾玛·沃特森回应J.K.罗琳：罗琳称永远不会原谅《哈利·波特》的演员们",
+      "content": "艾玛·沃特森回应J.K.罗琳：罗琳称永远不会原谅《哈利·波特》的演员们",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSlhCS3k5QjY1OGlicDVJMllYR1NkUXEwcW5aQVhyRU1nTlVpNGVPeXFza2J2NjM4OVVBbDJLaFl2RzR5c0hhRWdMMGNhOUpMWDVic0d2WGNOeVZFRVZxdU9WajRPdWQyQzlPNWRMN19ybE9JejdPSG1rQjcxT055Rm15eXFyaXk0NHpHamptay1BTUhlMUlXRHNiNU1TUEhSMWNodlB3U2dFSVZkTlhRczh2VkdGMjNtQnhjUGoyblM0NGRDdTJYQV9xRXYzMHE0aTU4R19wbWpNZw?oc=5"
+    },
     {
       "id": "db10d4de",
       "title": "下周最后试镜！粉丝睇好苏格兰男星接任新占士邦｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
@@ -43,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKYXZCMnl4VjFndFhyS1JZT2YyTHhycUhJbUxSVkVXWWtfRjhNZVc0U1Y5dTQ2bDc0Mnp3aWpETFN3MHBrTkh1eldpY0c2SFF4RXdzU3JfRHNyeURjWVVrLTZNWQ?oc=5"
     },
     {
-      "id": "8644b022",
-      "title": "剧版哈利波特12月伦敦首映 团队加强安保 - 新浪网",
-      "date": "2026-10-22",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特12月伦敦首映 团队加强安保",
-      "content": "剧版哈利波特12月伦敦首映 团队加强安保",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DVEVkUnJRbkM4Y1BrUnFUcVF2YUVRcXZiSFc2TFA3VVplVnF1RDJwNlBfcE9rbl9faWJxLUxMNmJCajc5UEFOV3EzUW1PaVFIa1BoYjVUSXpLaW5kN0xFSWpvUFU5WmRpZWx4S1RXLXY?oc=5"
-    },
-    {
       "id": "959fbb39",
       "title": "哈利·波特能吃老本，LABUBU为什么不行？ - 潮起网",
       "date": "2026-10-22",
@@ -81,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2SDU0UFQ3ZzU2b1FqenNPejNYSlN5V25mUi1LTXVPNHNPT0lCbmxFMkZQdjllQ1ozQ3h5UHVBLXFkOUtjZWVlMDQyOWxwc3lfODRuT2tDaUNvTkF6eS1OemVVTQ?oc=5"
+    },
+    {
+      "id": "8644b022",
+      "title": "剧版哈利波特12月伦敦首映 团队加强安保 - 新浪网",
+      "date": "2026-10-22",
+      "category": "综合资讯",
+      "summary": "剧版哈利波特12月伦敦首映 团队加强安保",
+      "content": "剧版哈利波特12月伦敦首映 团队加强安保",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DVEVkUnJRbkM4Y1BrUnFUcVF2YUVRcXZiSFc2TFA3VVplVnF1RDJwNlBfcE9rbl9faWJxLUxMNmJCajc5UEFOV3EzUW1PaVFIa1BoYjVUSXpLaW5kN0xFSWpvUFU5WmRpZWx4S1RXLXY?oc=5"
     },
     {
       "id": "98b6c272",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1FuckRzTmNVZ0tPbE5LaVVwc1AxUVV0aWM1Y09KdWUwQ0d0SzIzQllYbkVrd08xenhvX2xXaF9UMlBkeUpwSkVDcHlyOUVFZWRWaUtob2ptVEVVRFVDdGpGUWp0cTZuckEyWF9fdnRuYm5jMVk3WTdxZ2ZndVN4UUgxc3FBTmZHeVh5WWJxSGpQUW5GTDZYb0t6NVg5UTJX0gGoAUFVX3lxTFBCdUJ4U2FZbDVGSGlEaXE5eDROQ3VnRzZWTlo0V05PVEZWQmdYT2F1ZmpQWHJrLUVnWVlMMnBoTW5yNVZDU01Qa2EySzhYLUExM0NLTTBQYVlGb2hMSTRrM1A1enYzV0pJM2JsU24tSS0yZ19pUzUwVlExNzlPUVNxUW9zQ05jN2pCYzZMQWVMZURJU2JfWktOeGdWZC01MXZwWGtNNGRVQQ?oc=5"
-    },
-    {
-      "id": "8b585a6d",
-      "title": "美术编辑对于“哈利·波特”图书有多重要？｜天府书展 - 搜狐",
-      "date": "2026-10-18",
-      "category": "影视动态",
-      "summary": "美术编辑对于“哈利·波特”图书有多重要？｜天府书展",
-      "content": "美术编辑对于“哈利·波特”图书有多重要？｜天府书展",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZVBvd1Q2LTJJd0w2alhRT0tJUVFqcGF4NnFTcFJNYllJMHgtZHdVTGNQSHZmQWQyTThIaEIza09oMzlnZS1SbXRpWHQ4OGhsUWZGMmtkSW9hNTVoZm5NdllsQjlLWmQyR1JJaUVkeTlYbk9WbEM0YUpWaDVVcWJrbGRoSlg4cFZvMTF5YQ?oc=5"
-    },
-    {
-      "id": "0ce8133d",
-      "title": "《哈利·波特与“混血王子”》为什么要加引号？｜视频 - 搜狐网",
-      "date": "2026-10-18",
-      "category": "综合资讯",
-      "summary": "《哈利·波特与“混血王子”》为什么要加引号？｜视频",
-      "content": "《哈利·波特与“混血王子”》为什么要加引号？｜视频",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MUE9rUnZKYXNLMHZSSElzdU1aVkhOc3JxOExZN3QtWVZFaVlfLXhhYmNvV0RuUEU0WGdGYThHVXUyRkVfeDVTTzhWeUNnOVVJeW51ZXpSdw?oc=5"
     }
   ]
 }
