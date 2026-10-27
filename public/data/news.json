@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-10-27T08:27:26.314Z",
+  "lastUpdated": "2026-10-27T14:59:20.877Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "a4e59047",
-      "title": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福 - 手机新浪网",
+      "id": "b186d3ea",
+      "title": "HBO《Harry Potter》剧集选定贾斯珀·塔尔博特和汉娜·秦分别饰演詹姆·波特与莉莉·波特；哈里·吉尔比将饰演查理·韦斯莱 - Mezha.net",
       "date": "2026-10-27",
       "category": "影视动态",
-      "summary": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
-      "content": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
+      "summary": "HBO《Harry Potter》剧集选定贾斯珀·塔尔博特和汉娜·秦分别饰演詹姆·波特与莉莉·波特；哈里·吉尔比将饰演查理·韦斯莱",
+      "content": "HBO《Harry Potter》剧集选定贾斯珀·塔尔博特和汉娜·秦分别饰演詹姆·波特与莉莉·波特；哈里·吉尔比将饰演查理·韦斯莱",
       "image": "📺",
       "relatedLinks": [
         {
@@ -20,7 +20,87 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85LVhZd3NidjBiVmVpY2ZXSUVUb3NidGpaZWlyN1V2TVdmaEdabUNpYTRTWjQwbnFmTGxhR3V3YWN3cy04bC1iNzBCdkdpUTA5V2RjX3VEaFhYNEJEMXVrVlJaREd2enlwQ19pUW1MRnZacTg?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzhyb09XWU0wbEpXWEVOUWp5LVZwQTA4aE9keDdKYmpwUXZjVFAyQUhrRkVzcFc0VWRDcGdMZjBFNzA2aHlKRUotZzB4eTd0aUdnR0tGejZYMFkwT0FRQkN1QlVZbEtONl9JT2RHY2NYcEtIY2JOcldSemp2V1JucTFac2lybUY0alE2MVBvcFpDcEk?oc=5"
+    },
+    {
+      "id": "eadafb3b",
+      "title": "剧版哈利·波特公布三位新演员，第一季亮相 - 手机新浪网",
+      "date": "2026-10-27",
+      "category": "综合资讯",
+      "summary": "剧版哈利·波特公布三位新演员，第一季亮相",
+      "content": "剧版哈利·波特公布三位新演员，第一季亮相",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oRDQwTXVRcFZidmhiS1VYVW5VNmlyTzltUllQMHNMUTdZaExITHdpcllmT0VoTG8zaV9DRGxXOVpVQ3A0SVJGVFNkbUNXX1pmaENVSkxESTZxTkVZZGVkVVA2cDE0MWVHc1JFQTc1Zw?oc=5"
+    },
+    {
+      "id": "d519df63",
+      "title": "《Harry Potter》HBO剧集选定詹姆斯和莉莉·波特演员，查理·韦斯莱也将首次亮相荧屏 - Mezha.net",
+      "date": "2026-10-27",
+      "category": "影视动态",
+      "summary": "《Harry Potter》HBO剧集选定詹姆斯和莉莉·波特演员，查理·韦斯莱也将首次亮相荧屏",
+      "content": "《Harry Potter》HBO剧集选定詹姆斯和莉莉·波特演员，查理·韦斯莱也将首次亮相荧屏",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0lidkhIY0VEUXY4eS1BNzY3WERzNnRwS08xc1lSOWh5SElDMzJOeFUxRXZ4RXgxV2FZcG5zcHF1MVJVRGhKd0kxSGRZcVRfRkQtdDNfbmZZRE9rb3E4aGN1VkJHQkxPb3dZNlVMM2JoZkFxWDRDczlDUzh5b3dJa3BiLTdjcTU0anRtNGlqc1RSWVA3TlAzcg?oc=5"
+    },
+    {
+      "id": "242c737b",
+      "title": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》 - 潮起网",
+      "date": "2026-10-27",
+      "category": "影视动态",
+      "summary": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》",
+      "content": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ec2tvUFNReHR1QmozSUtyR0NEOWlPOGhBQTdPbVlqUTc2NVZHUW5xNmNKODJzbUcxcG50UU5xcDRUNGZJdHBZZGIzcjNyTGFLX2RiRTJYQ3ZueFdybHpxS1hB?oc=5"
+    },
+    {
+      "id": "86ae3f9a",
+      "title": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？ - 新浪财经",
+      "date": "2026-10-27",
+      "category": "综合资讯",
+      "summary": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
+      "content": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKcF9fMThxWGV3SnZZbTQ3T0FQb2lQR00yZXA1azZkdGlaMGpacnlSYjM0MzkzdXBuVWU5YnpQVUFOTFoyMmlNbkVpNHRCZms5RVBNbUpRSGZNX0JERWhYVGs4dGpxbVBGRFI5TElrOTJOZmZscFVUV2dKZjA?oc=5"
     },
     {
       "id": "202a78e2",
@@ -43,6 +123,26 @@
       "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wRHF2ckNQQ0xfSW1XRmlKX1dOeVZsbkNJNXFKbWZYOGdLeW92THVyRDJrY2t4cEc5Y21ISDJlNm96RnVybl9sMjJ6TjRHWFVfWTFmY2NsVHl6bnB0VlVUS0RlTF85ZWpxQXR3Ug?oc=5"
     },
     {
+      "id": "a4e59047",
+      "title": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福 - 手机新浪网",
+      "date": "2026-10-27",
+      "category": "影视动态",
+      "summary": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
+      "content": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85LVhZd3NidjBiVmVpY2ZXSUVUb3NidGpaZWlyN1V2TVdmaEdabUNpYTRTWjQwbnFmTGxhR3V3YWN3cy04bC1iNzBCdkdpUTA5V2RjX3VEaFhYNEJEMXVrVlJaREd2enlwQ19pUW1MRnZacTg?oc=5"
+    },
+    {
       "id": "97216062",
       "title": "上次英格兰人拿金球时：哈利·波特和指环王刚上映 GTA3最抢手... - 直播吧",
       "date": "2026-10-26",
@@ -61,26 +161,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FTXRyZ0NpZGhMUlJkM2d1SnZiV0RFOGxaUVgzY2syTGNMWUhBVHZOSFJVbUk1MkZLTTZmUWF3bF9Tc0VxZkgxUzhDZGpvWVZncHdpWE5qWFFUTXAwbjdHcXF4d0pUcDluZGl0Y1djMm4xZw?oc=5"
-    },
-    {
-      "id": "244f6a0f",
-      "title": "天灵灵地灵灵哈利身高长到一八零、剧版哈利波特、哈利波特、魔法 - 手机新浪网",
-      "date": "2026-10-26",
-      "category": "综合资讯",
-      "summary": "天灵灵地灵灵哈利身高长到一八零、剧版哈利波特、哈利波特、魔法",
-      "content": "天灵灵地灵灵哈利身高长到一八零、剧版哈利波特、哈利波特、魔法",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHVEs3djNOd1lkQ3d5d3dkb0JLVVFiUFg1RG10c2s5dWtrTnVxLTZUbHlaZ09VYV9TaUZIS0plQUpOQTFwSjlXaDVPSUJqTG5ESjZBT29qR0Q1Y0ZTZVZuQTR1VDNNN2MwS3RjbHVIemtic1k?oc=5"
     },
     {
       "id": "d2bdb91b",
@@ -121,6 +201,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40bDZ6QVcwWWhrcWZ2M21CeHZSS0lsb0xHVVBHb1JxNl9Bci0zY1llYU1SM1JWOGZjZ2NtbngzYVpyMXNOdk50Yk5taV9tUzNZYjdVZXR3RlF5UkZkYUVVMEF5cw?oc=5"
+    },
+    {
+      "id": "244f6a0f",
+      "title": "天灵灵地灵灵哈利身高长到一八零、剧版哈利波特、哈利波特、魔法 - 手机新浪网",
+      "date": "2026-10-26",
+      "category": "综合资讯",
+      "summary": "天灵灵地灵灵哈利身高长到一八零、剧版哈利波特、哈利波特、魔法",
+      "content": "天灵灵地灵灵哈利身高长到一八零、剧版哈利波特、哈利波特、魔法",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHVEs3djNOd1lkQ3d5d3dkb0JLVVFiUFg1RG10c2s5dWtrTnVxLTZUbHlaZ09VYV9TaUZIS0plQUpOQTFwSjlXaDVPSUJqTG5ESjZBT29qR0Q1Y0ZTZVZuQTR1VDNNN2MwS3RjbHVIemtic1k?oc=5"
     },
     {
       "id": "f605abf9",
@@ -223,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNYlcwWHM2NUQwek9jbUtLR1NoM0hWelEtT3Bvdk9mLVA0bV9YRTBhZUVtTUhBUjJoTXZxS04yTlYwVU5vMmxQYVRaUXZzRGo4VGtwZ0F0ZFdiRk9nZjJnWnFWNVZUbml0SjJESzkzRFBkWGpxLU1rRVdGZDAxazJWdGY1NGhxTGlRdzFoXzBXalJPV2tlbTJVNDNESEpHTGlFa2w2TTlEM0pDZHNKT1Qxb3EyRlM4Y014MUtqME4zclVNUWFVZzdfZ2FWYUtmTHVrZk9LZ3p3MmY4MjBPdGhNMFV6cHB0bVFSRzFDQnItVVhKYVpmTnB3VFhYN2NDbG1jS1M3X3hZZWxFVGVSNnJtY3JEME5QaGctTV8yVDFXU0RrbUZzUVRJWGJrVGlGUGxvYW9CaUZuRy0zN0hCdDcxdndVdHVmakoyaWozTVZsMVgzYUpkWElUa0xwUUVBSk9MX1V0c3NfR1A5M3JmWTY1WWZjRVR4TmJUaS1wY3I0LVNoMHJfQTE4?oc=5"
     },
     {
-      "id": "e3f11a23",
-      "title": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉 - 马来西亚东方日报",
-      "date": "2026-10-24",
-      "category": "综合资讯",
-      "summary": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉",
-      "content": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5MbG92LVhpMXBIMkdhU2NOOHFlb25hMkEweGtMMkxaekE4ZkNfazE1dzhNOWpjNnlKdUJfeGZDRWsyMWJHV0hhWlZhb0Q2ejdMMG5GaHhWMzl4cElMa1FNd0tWcnh5MlFFMnB3OGNHNnBteEYyN2FBcw?oc=5"
-    },
-    {
       "id": "115c0e02",
       "title": "新浪网· - 手机新浪网",
       "date": "2026-10-24",
@@ -261,6 +341,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tVWoxaElHNzF4SVZ2bVd2NThZQ3dGbUh0djFIb1BkNElRUFdaN3Z2cU9PM0hqSzlGbFRUUFNBaGdIeHhPa1YyR3ktakZ4X2ZFMk5HWmZGZjU4V3RtbThvNUlxNA?oc=5"
+    },
+    {
+      "id": "fe8d7c40",
+      "title": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉 - 诗华日报",
+      "date": "2026-10-24",
+      "category": "综合资讯",
+      "summary": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉",
+      "content": "《哈利波特》真人剧烧钱打造魔法世界 传前期投入逾8亿令吉",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Vb0xLYklDY2llV05vUzBtOGdGbVRZaG5wS0xSOVVkMDNhUEpTYjZieFZLNWw0SnJzX0JFWUpScWJlVUZwaWZMdUFpdXNpQQ?oc=5"
     },
     {
       "id": "f4e58678",
@@ -301,106 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSlhCS3k5QjY1OGlicDVJMllYR1NkUXEwcW5aQVhyRU1nTlVpNGVPeXFza2J2NjM4OVVBbDJLaFl2RzR5c0hhRWdMMGNhOUpMWDVic0d2WGNOeVZFRVZxdU9WajRPdWQyQzlPNWRMN19ybE9JejdPSG1rQjcxT055Rm15eXFyaXk0NHpHamptay1BTUhlMUlXRHNiNU1TUEhSMWNodlB3U2dFSVZkTlhRczh2VkdGMjNtQnhjUGoyblM0NGRDdTJYQV9xRXYzMHE0aTU4R19wbWpNZw?oc=5"
-    },
-    {
-      "id": "db10d4de",
-      "title": "下周最后试镜！粉丝睇好苏格兰男星接任新占士邦｜即时新闻｜缤FUN星网｜on.cc东网 - on.cc東網",
-      "date": "2026-10-23",
-      "category": "影视动态",
-      "summary": "下周最后试镜！粉丝睇好苏格兰男星接任新占士邦｜即时新闻｜缤FUN星网｜on.cc东网",
-      "content": "下周最后试镜！粉丝睇好苏格兰男星接任新占士邦｜即时新闻｜缤FUN星网｜on.cc东网",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWnVuZGY0RjZSbGFuMEVYVy0yRDZwd1o2bzJ3M3R0T3d5dXVOOVBVSDM2YUhMVmQ3dDFmdEx6U19WbkdaVmpidnlHRU4tbzc3TWwwclBDbTN2V0RXQm8xcF8tVDIxbVZqSGp2eDZ0cWE3QzBKdUE5Wkh5QXppQ0lCVFU3dW1qdjlVcnF0Ni1MQkVFNFlYejhVNWVBYw?oc=5"
-    },
-    {
-      "id": "1c62efe5",
-      "title": "Amazon Luna 扩展至十二个国家，并将 Hogwarts Legacy 加入其目录 - Foro3D",
-      "date": "2026-10-22",
-      "category": "游戏资讯",
-      "summary": "Amazon Luna 扩展至十二个国家，并将 Hogwarts Legacy 加入其目录",
-      "content": "Amazon Luna 扩展至十二个国家，并将 Hogwarts Legacy 加入其目录",
-      "image": "🎮",
-      "relatedLinks": [
-        {
-          "label": "🎩 分院帽测试",
-          "path": "/interactive/sorting"
-        },
-        {
-          "label": "✨ 咒语大全",
-          "path": "/world/spells"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeDRvTHhoa0Nza1FTTWVtSnZNbl9LOTNVX0dwZ013cDJCcGlESGhGN2xLVm1qRkpEbWtFM1VYVlZFY25qM0FWYUlfU0NmaWRqNUlRZkxrcjVNQUVJdDhfbWJmcEQwWlUtWWgwOTNhYkxUMk5saGxqNGRUMndfa3JDdThBelhxblVWbkM2a29iSlZFalF0OWNoWi1IdWJfS2R3bG05OG1DT0FVTlZtbmpfZQ?oc=5"
-    },
-    {
-      "id": "98b6c272",
-      "title": "我们绿瞳高瘦毒舌救世主即将迎来史诗级加强 ｜哈利波特 - 新浪网",
-      "date": "2026-10-22",
-      "category": "综合资讯",
-      "summary": "我们绿瞳高瘦毒舌救世主即将迎来史诗级加强 ｜哈利波特",
-      "content": "我们绿瞳高瘦毒舌救世主即将迎来史诗级加强 ｜哈利波特",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQam9tZjVBUmZJZUQ4X1F1WGRlZFBzVk1LTW9QSFNPUmsxc3Rkb3FOSGRGZVROYnJJQ29Ub0ZuS092c2ljTk80dFhXUTZheUtsaDFJTnM1eGVXU2xOUkprMWh3akdUOTdCbi1WV2k4RHdKOThpaWJmYzBrOUZlY1NId1Qtc25aUWNxZS1XYm1HT0hRTlpuZXhaVm9PSElHaUczZTZVdDRINmZYOXBuYVFtNnoxN2tWLXRuZFNkYVJUOTRWb2hLT19TaHJDUkpjb1pCc0JodS12M1k?oc=5"
-    },
-    {
-      "id": "2c0325d3",
-      "title": "《哈利·波特与魔法石》剧集有望跻身HBO史上制作成本最高的剧集之列。一位熟悉J.K.罗琳经典作品改编项目的消息人士证实，《哈利·波特与魔法石》剧集的制作成本将与《权力的游戏》最终季和《最后生还者》处于同一水平。制作公司的财务数据也为该剧的预算提供了线索 - 手机新浪网",
-      "date": "2026-10-22",
-      "category": "影视动态",
-      "summary": "《哈利·波特与魔法石》剧集有望跻身HBO史上制作成本最高的剧集之列。一位熟悉J.K.罗琳经典作品改编项目的消息人士证实，《哈利·波特与魔法石》剧集的制作成本将与《权力的游戏》最终季和《最后生还者》处于同一水平。制作公司的财务数据也为该剧的预...",
-      "content": "《哈利·波特与魔法石》剧集有望跻身HBO史上制作成本最高的剧集之列。一位熟悉J.K.罗琳经典作品改编项目的消息人士证实，《哈利·波特与魔法石》剧集的制作成本将与《权力的游戏》最终季和《最后生还者》处于同一水平。制作公司的财务数据也为该剧的预算提供了线索",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKYXZCMnl4VjFndFhyS1JZT2YyTHhycUhJbUxSVkVXWWtfRjhNZVc0U1Y5dTQ2bDc0Mnp3aWpETFN3MHBrTkh1eldpY0c2SFF4RXdzU3JfRHNyeURjWVVrLTZNWQ?oc=5"
-    },
-    {
-      "id": "8644b022",
-      "title": "剧版哈利波特12月伦敦首映 团队加强安保 - 新浪网",
-      "date": "2026-10-22",
-      "category": "综合资讯",
-      "summary": "剧版哈利波特12月伦敦首映 团队加强安保",
-      "content": "剧版哈利波特12月伦敦首映 团队加强安保",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DVEVkUnJRbkM4Y1BrUnFUcVF2YUVRcXZiSFc2TFA3VVplVnF1RDJwNlBfcE9rbl9faWJxLUxMNmJCajc5UEFOV3EzUW1PaVFIa1BoYjVUSXpLaW5kN0xFSWpvUFU5WmRpZWx4S1RXLXY?oc=5"
     }
   ]
 }
