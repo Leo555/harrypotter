@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T22:01:22.161Z",
+  "lastUpdated": "2026-10-27T02:44:44.009Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -20,7 +20,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MNHJEcWhzWU9NaHFETkIxalcyOXc2dmpRcFJ3Y1BLRkNJUkNPX0VLN1lDcDdiY1plNFVFTWhTMnk4VVZ6VlhtMGZqZHdwMkl2MFpwb3RrdmdLTFBTZFAtUmstRURwb1pzZHZRRUZ3T19wTHRMNkNOZi1n?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FTXRyZ0NpZGhMUlJkM2d1SnZiV0RFOGxaUVgzY2syTGNMWUhBVHZOSFJVbUk1MkZLTTZmUWF3bF9Tc0VxZkgxUzhDZGpvWVZncHdpWE5qWFFUTXAwbjdHcXF4d0pUcDluZGl0Y1djMm4xZw?oc=5"
     },
     {
       "id": "244f6a0f",
@@ -43,13 +43,13 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHVEs3djNOd1lkQ3d5d3dkb0JLVVFiUFg1RG10c2s5dWtrTnVxLTZUbHlaZ09VYV9TaUZIS0plQUpOQTFwSjlXaDVPSUJqTG5ESjZBT29qR0Q1Y0ZTZVZuQTR1VDNNN2MwS3RjbHVIemtic1k?oc=5"
     },
     {
-      "id": "f605abf9",
-      "title": "J.K.罗琳突然发声：多次收到死亡威胁，我的观点没有改变 - 凤凰网",
+      "id": "d2bdb91b",
+      "title": "J.K.罗琳突发声：多次收死亡威胁 观点没有变 - 文学城",
       "date": "2026-10-26",
-      "category": "综合资讯",
-      "summary": "J.K.罗琳突然发声：多次收到死亡威胁，我的观点没有改变",
-      "content": "J.K.罗琳突然发声：多次收到死亡威胁，我的观点没有改变",
-      "image": "📰",
+      "category": "影视动态",
+      "summary": "J.K.罗琳突发声：多次收死亡威胁 观点没有变",
+      "content": "J.K.罗琳突发声：多次收死亡威胁 观点没有变",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -60,7 +60,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Bbm5MYTR4WXVNblVoQWt1d25wWnZNSHFEVlIxTjNfdGJqM01rMEJzY29jOEZjMkpOVGkzVWNjMlB6bGJCMlBUaWtGUDU?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yTDZfNGlUNWN4ZDNQQm4tU1ZsMzVLNzlHNlM4bnY5YTNDMldqN3BHZWVYQ0FRa19teWxTc1BFMWtVUWhoM3V6ZGphaGJhdHFRNlhoSGdDWUJqUTAwSjRXMjhUSHdibjhK?oc=5"
     },
     {
       "id": "55777a1d",
@@ -81,6 +81,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40bDZ6QVcwWWhrcWZ2M21CeHZSS0lsb0xHVVBHb1JxNl9Bci0zY1llYU1SM1JWOGZjZ2NtbngzYVpyMXNOdk50Yk5taV9tUzNZYjdVZXR3RlF5UkZkYUVVMEF5cw?oc=5"
+    },
+    {
+      "id": "f605abf9",
+      "title": "J.K.罗琳突然发声：多次收到死亡威胁，我的观点没有改变 - 凤凰网",
+      "date": "2026-10-26",
+      "category": "综合资讯",
+      "summary": "J.K.罗琳突然发声：多次收到死亡威胁，我的观点没有改变",
+      "content": "J.K.罗琳突然发声：多次收到死亡威胁，我的观点没有改变",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Bbm5MYTR4WXVNblVoQWt1d25wWnZNSHFEVlIxTjNfdGJqM01rMEJzY29jOEZjMkpOVGkzVWNjMlB6bGJCMlBUaWtGUDU?oc=5"
+    },
+    {
+      "id": "853b6d51",
+      "title": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法 - 加西网",
+      "date": "2026-10-25",
+      "category": "影视动态",
+      "summary": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法",
+      "content": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNYlcwWHM2NUQwek9jbUtLR1NoM0hWelEtT3Bvdk9mLVA0bV9YRTBhZUVtTUhBUjJoTXZxS04yTlYwVU5vMmxQYVRaUXZzRGo4VGtwZ0F0ZFdiRk9nZjJnWnFWNVZUbml0SjJESzkzRFBkWGpxLU1rRVdGZDAxazJWdGY1NGhxTGlRdzFoXzBXalJPV2tlbTJVNDNESEpHTGlFa2w2TTlEM0pDZHNKT1Qxb3EyRlM4Y014MUtqME4zclVNUWFVZzdfZ2FWYUtmTHVrZk9LZ3p3MmY4MjBPdGhNMFV6cHB0bVFSRzFDQnItVVhKYVpmTnB3VFhYN2NDbG1jS1M3X3hZZWxFVGVSNnJtY3JEME5QaGctTV8yVDFXU0RrbUZzUVRJWGJrVGlGUGxvYW9CaUZuRy0zN0hCdDcxdndVdHVmakoyaWozTVZsMVgzYUpkWElUa0xwUUVBSk9MX1V0c3NfR1A5M3JmWTY1WWZjRVR4TmJUaS1wY3I0LVNoMHJfQTE4?oc=5"
     },
     {
       "id": "c5ce799f",
@@ -143,12 +183,12 @@
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NNjZ0QzhaWDlxZC1FUXVRVFNmU2ZtbWN2cGt2U2ZmR0c2UVJkaFVSREFpSll3TU1xRmhIZDJfR3dYRDF2d3Bhd0p1LXhUUF9IMVBleWg1N181Q3Vyb0VDbnZNcFNoVEZDQVhaVUN4U1pjUQ?oc=5"
     },
     {
-      "id": "853b6d51",
-      "title": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法 - 加西网",
-      "date": "2026-10-25",
+      "id": "115c0e02",
+      "title": "新浪网· - 手机新浪网",
+      "date": "2026-10-24",
       "category": "影视动态",
-      "summary": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法",
-      "content": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法",
+      "summary": "新浪网·",
+      "content": "新浪网·",
       "image": "📺",
       "relatedLinks": [
         {
@@ -160,7 +200,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNYlcwWHM2NUQwek9jbUtLR1NoM0hWelEtT3Bvdk9mLVA0bV9YRTBhZUVtTUhBUjJoTXZxS04yTlYwVU5vMmxQYVRaUXZzRGo4VGtwZ0F0ZFdiRk9nZjJnWnFWNVZUbml0SjJESzkzRFBkWGpxLU1rRVdGZDAxazJWdGY1NGhxTGlRdzFoXzBXalJPV2tlbTJVNDNESEpHTGlFa2w2TTlEM0pDZHNKT1Qxb3EyRlM4Y014MUtqME4zclVNUWFVZzdfZ2FWYUtmTHVrZk9LZ3p3MmY4MjBPdGhNMFV6cHB0bVFSRzFDQnItVVhKYVpmTnB3VFhYN2NDbG1jS1M3X3hZZWxFVGVSNnJtY3JEME5QaGctTV8yVDFXU0RrbUZzUVRJWGJrVGlGUGxvYW9CaUZuRy0zN0hCdDcxdndVdHVmakoyaWozTVZsMVgzYUpkWElUa0xwUUVBSk9MX1V0c3NfR1A5M3JmWTY1WWZjRVR4TmJUaS1wY3I0LVNoMHJfQTE4?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tVWoxaElHNzF4SVZ2bVd2NThZQ3dGbUh0djFIb1BkNElRUFdaN3Z2cU9PM0hqSzlGbFRUUFNBaGdIeHhPa1YyR3ktakZ4X2ZFMk5HWmZGZjU4V3RtbThvNUlxNA?oc=5"
     },
     {
       "id": "f4e58678",
@@ -181,26 +221,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQRjZjUzBuT0Nob3VUNGNyRUlzZy0tRFRCYzhhTEEzNnc2cGpnbkNob3ZMVUVzY1ItclhpcWtMeTFWblZhdmJ4V1FTRUFoOTZoaUc2X0I3SjRVWTZhalBqREk4NThHZ3NBWG9jd2xIeDdpNEZtUVpndHBVUS1Ta091VkZLU3E1V1J4bHl3MkFGUUhzcGN6MzFXMnFaenFKQUdQcVdmMnZyUVVSX0pSTEdxc1FnZnltM2ZaQmRiSVFuY0xPYXpPai1rTEMyM05tdDk0bzBRbDd6UVRpR3ZMc0FvOUlEZ3dYcTg1dHp5cXhnREhGT2VfZTE0QzE5SklGQlhrdFFGUFpoR19wTlFrNEc3OGExY1FMS0RMOFFPNFA2eHI0OS1felJtRkdqUE1IeVlzZ1c3d3FWbVRBcllaSFJaVENyenN3OC1LV2ZnajhKUlpQRlNv?oc=5"
-    },
-    {
-      "id": "115c0e02",
-      "title": "新浪网· - 手机新浪网",
-      "date": "2026-10-24",
-      "category": "影视动态",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tVWoxaElHNzF4SVZ2bVd2NThZQ3dGbUh0djFIb1BkNElRUFdaN3Z2cU9PM0hqSzlGbFRUUFNBaGdIeHhPa1YyR3ktakZ4X2ZFMk5HWmZGZjU4V3RtbThvNUlxNA?oc=5"
     },
     {
       "id": "e3f11a23",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wd1pXR01OejlzQ3RJZGt2NGVIbGdCWlZRRnZzWFBQUGZVZER0RmRISnlqZXJiWG5yOVdpYWxJaHlZdEJBMUxoZ0UtUzlJa3NqWmtCMg?oc=5"
-    },
-    {
-      "id": "3e6d9abf",
-      "title": "魔法照进现实！《哈利·波特：魔法幻境》中国首展成都启幕 - 华人头条",
-      "date": "2026-10-21",
-      "category": "综合资讯",
-      "summary": "魔法照进现实！《哈利·波特：魔法幻境》中国首展成都启幕",
-      "content": "魔法照进现实！《哈利·波特：魔法幻境》中国首展成都启幕",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMEpIaDFjQXJMUzVwWm42UzViN0tLVjNIdDBrSVg1bTgyOWJNaEdqS2JYYzV2ZEg3ODVtc1RudDhBb0l5QzNLeE0wb1g3TFVDbzdFQmU2dkRJeG1fVjRMcDUzY3owUVpDZXFWcVlBMnEzbUVkMmlQUE5weGRmTjk4VTlKamd0U3po?oc=5"
     }
   ]
 }
