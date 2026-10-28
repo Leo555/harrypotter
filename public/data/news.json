@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T19:50:06.200Z",
+  "lastUpdated": "2026-10-28T00:07:24.850Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -23,6 +23,26 @@
       "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzhyb09XWU0wbEpXWEVOUWp5LVZwQTA4aE9keDdKYmpwUXZjVFAyQUhrRkVzcFc0VWRDcGdMZjBFNzA2aHlKRUotZzB4eTd0aUdnR0tGejZYMFkwT0FRQkN1QlVZbEtONl9JT2RHY2NYcEtIY2JOcldSemp2V1JucTFac2lybUY0alE2MVBvcFpDcEk?oc=5"
     },
     {
+      "id": "45bddb00",
+      "title": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟 - 手机新浪网",
+      "date": "2026-10-27",
+      "category": "影视动态",
+      "summary": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
+      "content": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WWEswNVUwWTA3V0ZvRmVwclFWMjFUTkI5a1RZRTNYWm5DMUk1TTUyOFM1SFl2QVFZd3JVdGV2NVBHMWM3QUpjT2p0ZXdPckZnZVNxc0JHWFVvbnNwT1JPaTV5TlIwWlNoTENEMEdDSQ?oc=5"
+    },
+    {
       "id": "d519df63",
       "title": "《Harry Potter》HBO剧集选定詹姆斯和莉莉·波特演员，查理·韦斯莱也将首次亮相荧屏 - Mezha.net",
       "date": "2026-10-27",
@@ -41,6 +61,46 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0lidkhIY0VEUXY4eS1BNzY3WERzNnRwS08xc1lSOWh5SElDMzJOeFUxRXZ4RXgxV2FZcG5zcHF1MVJVRGhKd0kxSGRZcVRfRkQtdDNfbmZZRE9rb3E4aGN1VkJHQkxPb3dZNlVMM2JoZkFxWDRDczlDUzh5b3dJa3BiLTdjcTU0anRtNGlqc1RSWVA3TlAzcg?oc=5"
+    },
+    {
+      "id": "86ae3f9a",
+      "title": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？ - 新浪财经",
+      "date": "2026-10-27",
+      "category": "综合资讯",
+      "summary": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
+      "content": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKcF9fMThxWGV3SnZZbTQ3T0FQb2lQR00yZXA1azZkdGlaMGpacnlSYjM0MzkzdXBuVWU5YnpQVUFOTFoyMmlNbkVpNHRCZms5RVBNbUpRSGZNX0JERWhYVGs4dGpxbVBGRFI5TElrOTJOZmZscFVUV2dKZjA?oc=5"
+    },
+    {
+      "id": "202a78e2",
+      "title": "JK罗琳称多次收到死亡威胁 坚定立场不变 - 中华网",
+      "date": "2026-10-27",
+      "category": "综合资讯",
+      "summary": "JK罗琳称多次收到死亡威胁 坚定立场不变",
+      "content": "JK罗琳称多次收到死亡威胁 坚定立场不变",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wRHF2ckNQQ0xfSW1XRmlKX1dOeVZsbkNJNXFKbWZYOGdLeW92THVyRDJrY2t4cEc5Y21ISDJlNm96RnVybl9sMjJ6TjRHWFVfWTFmY2NsVHl6bnB0VlVUS0RlTF85ZWpxQXR3Ug?oc=5"
     },
     {
       "id": "7c2d8a00",
@@ -143,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrVXo1LTVMbTdzR0FNSVluUjRvQzBTTkYwazRMc0ZhWE9aYXNzTE9MUmFaeWF0QUdZN0ZEdkl6ZjRIci1kVG4ybV90VjVBblhqWS1KbHpsclk1WGdpUjlGdjRRU0RoZ2kzNmdHcHJxdTI?oc=5"
     },
     {
-      "id": "86ae3f9a",
-      "title": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？ - 新浪财经",
-      "date": "2026-10-27",
-      "category": "综合资讯",
-      "summary": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
-      "content": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKcF9fMThxWGV3SnZZbTQ3T0FQb2lQR00yZXA1azZkdGlaMGpacnlSYjM0MzkzdXBuVWU5YnpQVUFOTFoyMmlNbkVpNHRCZms5RVBNbUpRSGZNX0JERWhYVGs4dGpxbVBGRFI5TElrOTJOZmZscFVUV2dKZjA?oc=5"
-    },
-    {
       "id": "a4e59047",
       "title": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福 - 手机新浪网",
       "date": "2026-10-27",
@@ -201,26 +241,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNejJvTmlHNGt3SWlkcmU0SHVTd2JwMVBMN1JMREZLczFYZi0zd18yRzVMd2EyS1RRWTVYWFQtTmhJbmNmYkRGRV9CaHFUWlNrRERKWTVhaDJ4Ukh3TXhsT3dHMlJMSGktdVd6SWhMS2lvYmVVYloyMzdxVEltX1R2NTdRMTVIdWlJb3lZd2xOX085dkd4cW9aR2tORXdveHpJU3I1WXA5UmE2VTZrVWdoZGFWZ09aVjU2aFJ4UnQ2cjJXVlBES0c2QWFpTWpCWTQxZ0l3NHRhbw?oc=5"
-    },
-    {
-      "id": "202a78e2",
-      "title": "JK罗琳称多次收到死亡威胁 坚定立场不变 - 中华网",
-      "date": "2026-10-27",
-      "category": "综合资讯",
-      "summary": "JK罗琳称多次收到死亡威胁 坚定立场不变",
-      "content": "JK罗琳称多次收到死亡威胁 坚定立场不变",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wRHF2ckNQQ0xfSW1XRmlKX1dOeVZsbkNJNXFKbWZYOGdLeW92THVyRDJrY2t4cEc5Y21ISDJlNm96RnVybl9sMjJ6TjRHWFVfWTFmY2NsVHl6bnB0VlVUS0RlTF85ZWpxQXR3Ug?oc=5"
     },
     {
       "id": "97216062",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NNjZ0QzhaWDlxZC1FUXVRVFNmU2ZtbWN2cGt2U2ZmR0c2UVJkaFVSREFpSll3TU1xRmhIZDJfR3dYRDF2d3Bhd0p1LXhUUF9IMVBleWg1N181Q3Vyb0VDbnZNcFNoVEZDQVhaVUN4U1pjUQ?oc=5"
-    },
-    {
-      "id": "853b6d51",
-      "title": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法 - 加西网",
-      "date": "2026-10-25",
-      "category": "影视动态",
-      "summary": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法",
-      "content": "8部奇幻剧比肩《哈利·波特》,魔法世界各有各的拍法",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNYlcwWHM2NUQwek9jbUtLR1NoM0hWelEtT3Bvdk9mLVA0bV9YRTBhZUVtTUhBUjJoTXZxS04yTlYwVU5vMmxQYVRaUXZzRGo4VGtwZ0F0ZFdiRk9nZjJnWnFWNVZUbml0SjJESzkzRFBkWGpxLU1rRVdGZDAxazJWdGY1NGhxTGlRdzFoXzBXalJPV2tlbTJVNDNESEpHTGlFa2w2TTlEM0pDZHNKT1Qxb3EyRlM4Y014MUtqME4zclVNUWFVZzdfZ2FWYUtmTHVrZk9LZ3p3MmY4MjBPdGhNMFV6cHB0bVFSRzFDQnItVVhKYVpmTnB3VFhYN2NDbG1jS1M3X3hZZWxFVGVSNnJtY3JEME5QaGctTV8yVDFXU0RrbUZzUVRJWGJrVGlGUGxvYW9CaUZuRy0zN0hCdDcxdndVdHVmakoyaWozTVZsMVgzYUpkWElUa0xwUUVBSk9MX1V0c3NfR1A5M3JmWTY1WWZjRVR4TmJUaS1wY3I0LVNoMHJfQTE4?oc=5"
     }
   ]
 }
