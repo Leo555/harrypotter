@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-10-28T00:07:24.850Z",
+  "lastUpdated": "2026-10-28T09:05:07.003Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "8148c097",
+      "title": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司 - 虎扑体育",
+      "date": "2026-10-28",
+      "category": "影视动态",
+      "summary": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司",
+      "content": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSTjUyUGw5RTNualI4QWk0S3FxRlhnVTV3RU1JQ0RfUjVhUWhiSUdTcVMyQ2puVlRMOGZMSzBfc0RkT0JTM0hzRTQ5d2pVdw?oc=5"
+    },
+    {
+      "id": "705ed369",
+      "title": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》 - 手机新浪网",
+      "date": "2026-10-28",
+      "category": "综合资讯",
+      "summary": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》",
+      "content": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAyWXRuUzBfSlkxNTUzTFlyZXhHVGFfOVdTSk1Nc05qcFVwME9VUVo0S292MzlRbWNUQk9PQlRmUzRqOUI3NlBGbFF0Y2pmSVBnaHh1UFdURGFzM2RCSFVDMlU5MzZ5QjI0V0RjaDItUkVGREo1dWtJdjlNM0xNZw?oc=5"
+    },
     {
       "id": "b186d3ea",
       "title": "HBO《Harry Potter》剧集选定贾斯珀·塔尔博特和汉娜·秦分别饰演詹姆·波特与莉莉·波特；哈里·吉尔比将饰演查理·韦斯莱 - Mezha.net",
@@ -21,26 +61,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzhyb09XWU0wbEpXWEVOUWp5LVZwQTA4aE9keDdKYmpwUXZjVFAyQUhrRkVzcFc0VWRDcGdMZjBFNzA2aHlKRUotZzB4eTd0aUdnR0tGejZYMFkwT0FRQkN1QlVZbEtONl9JT2RHY2NYcEtIY2JOcldSemp2V1JucTFac2lybUY0alE2MVBvcFpDcEk?oc=5"
-    },
-    {
-      "id": "45bddb00",
-      "title": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟 - 手机新浪网",
-      "date": "2026-10-27",
-      "category": "影视动态",
-      "summary": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
-      "content": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WWEswNVUwWTA3V0ZvRmVwclFWMjFUTkI5a1RZRTNYWm5DMUk1TTUyOFM1SFl2QVFZd3JVdGV2NVBHMWM3QUpjT2p0ZXdPckZnZVNxc0JHWFVvbnNwT1JPaTV5TlIwWlNoTENEMEdDSQ?oc=5"
     },
     {
       "id": "d519df63",
@@ -81,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKcF9fMThxWGV3SnZZbTQ3T0FQb2lQR00yZXA1azZkdGlaMGpacnlSYjM0MzkzdXBuVWU5YnpQVUFOTFoyMmlNbkVpNHRCZms5RVBNbUpRSGZNX0JERWhYVGs4dGpxbVBGRFI5TElrOTJOZmZscFVUV2dKZjA?oc=5"
+    },
+    {
+      "id": "45bddb00",
+      "title": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟 - 手机新浪网",
+      "date": "2026-10-27",
+      "category": "影视动态",
+      "summary": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
+      "content": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WWEswNVUwWTA3V0ZvRmVwclFWMjFUTkI5a1RZRTNYWm5DMUk1TTUyOFM1SFl2QVFZd3JVdGV2NVBHMWM3QUpjT2p0ZXdPckZnZVNxc0JHWFVvbnNwT1JPaTV5TlIwWlNoTENEMEdDSQ?oc=5"
     },
     {
       "id": "202a78e2",
@@ -163,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oRDQwTXVRcFZidmhiS1VYVW5VNmlyTzltUllQMHNMUTdZaExITHdpcllmT0VoTG8zaV9DRGxXOVpVQ3A0SVJGVFNkbUNXX1pmaENVSkxESTZxTkVZZGVkVVA2cDE0MWVHc1JFQTc1Zw?oc=5"
     },
     {
-      "id": "242c737b",
-      "title": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》 - 潮起网",
-      "date": "2026-10-27",
-      "category": "影视动态",
-      "summary": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》",
-      "content": "文心无限OCR 2开源，一口气读完3600页全套《哈利·波特》",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ec2tvUFNReHR1QmozSUtyR0NEOWlPOGhBQTdPbVlqUTc2NVZHUW5xNmNKODJzbUcxcG50UU5xcDRUNGZJdHBZZGIzcjNyTGFLX2RiRTJYQ3ZueFdybHpxS1hB?oc=5"
-    },
-    {
       "id": "681181b7",
       "title": "HBO剧版哈利·波特公布三位新演员，查理·韦斯莱与詹姆斯·波特夫妇选角揭晓 - 手机新浪网",
       "date": "2026-10-27",
@@ -260,7 +280,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MNHJEcWhzWU9NaHFETkIxalcyOXc2dmpRcFJ3Y1BLRkNJUkNPX0VLN1lDcDdiY1plNFVFTWhTMnk4VVZ6VlhtMGZqZHdwMkl2MFpwb3RrdmdLTFBTZFAtUmstRURwb1pzZHZRRUZ3T19wTHRMNkNOZi1n?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FTXRyZ0NpZGhMUlJkM2d1SnZiV0RFOGxaUVgzY2syTGNMWUhBVHZOSFJVbUk1MkZLTTZmUWF3bF9Tc0VxZkgxUzhDZGpvWVZncHdpWE5qWFFUTXAwbjdHcXF4d0pUcDluZGl0Y1djMm4xZw?oc=5"
     },
     {
       "id": "d2bdb91b",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSmxTcEJ2TmFRRm5taTRDS2F3aXh6SFdsLWF1NHV0Rzg0Z1JKM3otQzhpNmlreGRaNmtKUzdHcXg5aHZrZjRXSjVZRV9lcDRScm05UW56aUJUXzBDMVc3Sl8zREQwcjhLdXJoOEItcUVZeVc4c1NIRUVjRDd1QktubHdKVmFNN0NzcEluaWJqeS1OTjA2MU9QZVdvWWJZc1U0S2k3VlZ5RkxUX2RFWDBIMExMTmhET2M1bDlyN0N0MjVOaUZ5VWxsV0hjamY3MVdPTW9jeGcyMlU?oc=5"
-    },
-    {
-      "id": "25d507ba",
-      "title": "剧版哈利·波特借F1拍摄技术呈现骑扫帚第一视角 - 手机新浪网",
-      "date": "2026-10-25",
-      "category": "影视动态",
-      "summary": "剧版哈利·波特借F1拍摄技术呈现骑扫帚第一视角",
-      "content": "剧版哈利·波特借F1拍摄技术呈现骑扫帚第一视角",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NNjZ0QzhaWDlxZC1FUXVRVFNmU2ZtbWN2cGt2U2ZmR0c2UVJkaFVSREFpSll3TU1xRmhIZDJfR3dYRDF2d3Bhd0p1LXhUUF9IMVBleWg1N181Q3Vyb0VDbnZNcFNoVEZDQVhaVUN4U1pjUQ?oc=5"
     }
   ]
 }
