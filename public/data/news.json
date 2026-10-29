@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-10-29T17:43:49.622Z",
+  "lastUpdated": "2026-10-29T22:09:17.056Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "c9fe6c94",
+      "title": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY - Harry Potter™: The Exhibition",
+      "date": "2026-10-29",
+      "category": "影视动态",
+      "summary": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY",
+      "content": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV3JyWnJ6WUFxVXJ3bmxVMGpCMDFfd1RpMm5OSFZTNlR1eldKQXZCeVhHQ3JnVmxocHRfZ0ZwQm9qQnlPMDZWSGN6VlRjdC1Qelh3eFBXNzdRRUdWZVM4LTk1YVhscHdQQW1hcDJiVFJrSWZKY2s1X3NJU24tdnJENzdfRl9hd3ltV0FwTGVqaHUzWW9yNFRybEdR?oc=5"
+    },
     {
       "id": "43b15d8c",
       "title": "《哈利波特》真人剧首张海报公开！今年圣诞节首播 - 驱动之家",
@@ -63,13 +83,13 @@
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtVTBDQnZ5YTBLQUpCZTlPTDZONjkyZ091NmswbzNJLWVQYVFFVXhpQjNQcEF4Njc1Q2tkanFnZ1BNSkNQYWlJZF9mbTlzSWs4THVPb09HQWhLdUFydnk4WmlGTjJ2QQ?oc=5"
     },
     {
-      "id": "f7c974be",
-      "title": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演 - 手机新浪网",
-      "date": "2026-10-28",
-      "category": "综合资讯",
-      "summary": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
-      "content": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
-      "image": "📰",
+      "id": "221ed58c",
+      "title": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5 - Foro3D",
+      "date": "2026-10-29",
+      "category": "影视动态",
+      "summary": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5",
+      "content": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -80,7 +100,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZUhEc183VUctc3JKMEF5RldWQ1c2ZUdFMExCNkhuN3NNOGJqbmxLV3lUY3Q2ekZkVnpnX3R6R3pzTmt4NUJPQTZvV2FGTThGRkR6cVQxVFRZNVM2LXpGdWJ3Z1plYWlGOUdSX3FQU3dKZ0o2YVhLYWZBMk4xQ2RDZEV0Z1EyVjM2bHZaWUpWbTdnb1kzWDJnRTY1SXdiQmlZWmcxMjlrX1p5SFZva3N1OG9DVTk5WWhf?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0c2bkR2WV9LeDVzX01JeVg3M2k5U2N3U296YUVUMW04Nzk2czZycUVDNnkxSW9zS2JuU1VkUm14eW8yX2xBMmxjZldfM3dOek43aVcxV0NhbWNENDdDNmtwTVNaRGJUUTlOdG1ycl9wRDU2NmRpdXZaREw5dktKRUVDdGVSWlM2bEVTS2NadzZEUnlzS1U5SFl4UFV2RDlfdU4yOElveHJQWEVYQzVWbzFaMA?oc=5"
     },
     {
       "id": "8148c097",
@@ -123,6 +143,26 @@
       "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGx1MGxTcmNGcEhxc3NhUXVOc0FycVhVLTZyNUEwT3J0MDVUWFRMak40UlMtTzB0N0U2SHVIVERzWWwzU2EtM2dzQzJXd3F1Z0JmbU9YcURscG4yY1BmZTVWdEJsYmtaM1pYeFV1RHBiaE01dUNjM1lfUzFwaFAtYmN1bzYxbko5b2tnZEdqQXM4YjBjdHZ4TlVlSmJmOTZLcVlqelB3SU5yUk5SanJFZw?oc=5"
     },
     {
+      "id": "f7c974be",
+      "title": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演 - 手机新浪网",
+      "date": "2026-10-28",
+      "category": "影视动态",
+      "summary": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
+      "content": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLTlYZUIxa2dWTG45Qi0xUEpLTUNmTE5QSzJmc2M3Y29BY1MxSFhHUkJXTWRGT2NPN1NFM05aYTIzRVdJM1ItTDRaUmJ4VlUzTHEwRzRmdVNlbjktb29HdWlwMlZmRDd4VjF4cTJMTGw5d1VQMW1DTEwzWE5ZRktvd0xZVUpwaDBsdThfMFZFdXg2OHZ3dXloREtzZ1ZnWXBvdXAxU2RRcXE5QWRWbXk2ZVF2WGpVdmpvelV6SDRxdmRvdXdsNFZEM240RWRzTjF6WmllNm4zNXJJak9Gb3J1U3BYV2pKdw?oc=5"
+    },
+    {
       "id": "ba2923ce",
       "title": "HBO《哈利·波特》剧集第二季须知 - Mezha.net",
       "date": "2026-10-28",
@@ -163,13 +203,13 @@
       "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uQlpLVG1xN3VoM0ZSV2ZBeFdQV05Lekotei1FYUxUNlBMTWJaOFZNMFp2ZzR6c05JUDhqNExJZERCaEJlTEg1QXBpR2lSV3o4Z2FkM3NmeUcwNjNtQXV2bGtmTHNIeURSOF8wN0JWbTBsaUx4anM3YWpwcWxhZw?oc=5"
     },
     {
-      "id": "7f3e5ec6",
-      "title": "其实德拉科才是哈利波特里面学生味最重的人 - 手机新浪网",
+      "id": "4f95e2a0",
+      "title": "外国网友用AI制作了来自1950年代风格的《哈利.波特与魔法石》预告！！！ ​ - 手机新浪网",
       "date": "2026-10-28",
-      "category": "综合资讯",
-      "summary": "其实德拉科才是哈利波特里面学生味最重的人",
-      "content": "其实德拉科才是哈利波特里面学生味最重的人",
-      "image": "📰",
+      "category": "影视动态",
+      "summary": "外国网友用AI制作了来自1950年代风格的《哈利.波特与魔法石》预告！！！ ​",
+      "content": "外国网友用AI制作了来自1950年代风格的《哈利.波特与魔法石》预告！！！ ​",
+      "image": "📺",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -180,7 +220,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMlYwTEI5TFA1UmYxcnVlUFNaSkc3cWQzLTBKTnpIMGdDSjhmaXBka2xlMWZrVm5VYWdSRldhV2hEWEFHbW9aNDhBaGRqbVFEWERxeXd5anpFM0Y2ajl5WFF3ZmNVS0hWTFpkcng2NkNmR1FCRVdic0lhWVFDT0ZfUXZ6LXprUEZ3WDdXUnJiZ1hwV2ZpVVR0ZVFXTmFtbzYxNXU1TEdHamVCSWp1SUxqVTYyTGZ0V0JmN0pFbE1aOV9DdkJrYjA2cjZfVDNzaXVDUGdiNTZ6TmZ1dw?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VekItRHlRWWlGMkd3eDZBVFhORUJhajdITFhQV0YycWdEQUg4NFlJTk96U1pFODFBVUJGVG5yYWl4VmVOa3l0c2VrMkQxdjVqNjk0Q1VReFhSRGQwS18yNlRaRFpudmNMWmpncGZXbXJBRHhuMUVzS2lMWURXOWM?oc=5"
     },
     {
       "id": "705ed369",
@@ -203,13 +243,13 @@
       "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAyWXRuUzBfSlkxNTUzTFlyZXhHVGFfOVdTSk1Nc05qcFVwME9VUVo0S292MzlRbWNUQk9PQlRmUzRqOUI3NlBGbFF0Y2pmSVBnaHh1UFdURGFzM2RCSFVDMlU5MzZ5QjI0V0RjaDItUkVGREo1dWtJdjlNM0xNZw?oc=5"
     },
     {
-      "id": "4f95e2a0",
-      "title": "外国网友用AI制作了来自1950年代风格的《哈利.波特与魔法石》预告！！！ ​ - 手机新浪网",
+      "id": "7f3e5ec6",
+      "title": "其实德拉科才是哈利波特里面学生味最重的人 - 手机新浪网",
       "date": "2026-10-28",
-      "category": "影视动态",
-      "summary": "外国网友用AI制作了来自1950年代风格的《哈利.波特与魔法石》预告！！！ ​",
-      "content": "外国网友用AI制作了来自1950年代风格的《哈利.波特与魔法石》预告！！！ ​",
-      "image": "📺",
+      "category": "综合资讯",
+      "summary": "其实德拉科才是哈利波特里面学生味最重的人",
+      "content": "其实德拉科才是哈利波特里面学生味最重的人",
+      "image": "📰",
       "relatedLinks": [
         {
           "label": "📚 原著百科",
@@ -220,7 +260,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VekItRHlRWWlGMkd3eDZBVFhORUJhajdITFhQV0YycWdEQUg4NFlJTk96U1pFODFBVUJGVG5yYWl4VmVOa3l0c2VrMkQxdjVqNjk0Q1VReFhSRGQwS18yNlRaRFpudmNMWmpncGZXbXJBRHhuMUVzS2lMWURXOWM?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMlYwTEI5TFA1UmYxcnVlUFNaSkc3cWQzLTBKTnpIMGdDSjhmaXBka2xlMWZrVm5VYWdSRldhV2hEWEFHbW9aNDhBaGRqbVFEWERxeXd5anpFM0Y2ajl5WFF3ZmNVS0hWTFpkcng2NkNmR1FCRVdic0lhWVFDT0ZfUXZ6LXprUEZ3WDdXUnJiZ1hwV2ZpVVR0ZVFXTmFtbzYxNXU1TEdHamVCSWp1SUxqVTYyTGZ0V0JmN0pFbE1aOV9DdkJrYjA2cjZfVDNzaXVDUGdiNTZ6TmZ1dw?oc=5"
     },
     {
       "id": "b186d3ea",
@@ -323,46 +363,6 @@
       "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrVXo1LTVMbTdzR0FNSVluUjRvQzBTTkYwazRMc0ZhWE9aYXNzTE9MUmFaeWF0QUdZN0ZEdkl6ZjRIci1kVG4ybV90VjVBblhqWS1KbHpsclk1WGdpUjlGdjRRU0RoZ2kzNmdHcHJxdTI?oc=5"
     },
     {
-      "id": "a4e59047",
-      "title": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福 - 手机新浪网",
-      "date": "2026-10-27",
-      "category": "影视动态",
-      "summary": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
-      "content": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85LVhZd3NidjBiVmVpY2ZXSUVUb3NidGpaZWlyN1V2TVdmaEdabUNpYTRTWjQwbnFmTGxhR3V3YWN3cy04bC1iNzBCdkdpUTA5V2RjX3VEaFhYNEJEMXVrVlJaREd2enlwQ19pUW1MRnZacTg?oc=5"
-    },
-    {
-      "id": "86ae3f9a",
-      "title": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？ - 新浪财经",
-      "date": "2026-10-27",
-      "category": "综合资讯",
-      "summary": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
-      "content": "一口气读完 3600 页《哈利·波特》，百度开源文心如何实现文档解析“页数自由”？",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKcF9fMThxWGV3SnZZbTQ3T0FQb2lQR00yZXA1azZkdGlaMGpacnlSYjM0MzkzdXBuVWU5YnpQVUFOTFoyMmlNbkVpNHRCZms5RVBNbUpRSGZNX0JERWhYVGs4dGpxbVBGRFI5TElrOTJOZmZscFVUV2dKZjA?oc=5"
-    },
-    {
       "id": "37689017",
       "title": "刘宇宁直播整活名场面在线cos哈利波特！ - 手机新浪网",
       "date": "2026-10-27",
@@ -383,12 +383,12 @@
       "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNejJvTmlHNGt3SWlkcmU0SHVTd2JwMVBMN1JMREZLczFYZi0zd18yRzVMd2EyS1RRWTVYWFQtTmhJbmNmYkRGRV9CaHFUWlNrRERKWTVhaDJ4Ukh3TXhsT3dHMlJMSGktdVd6SWhMS2lvYmVVYloyMzdxVEltX1R2NTdRMTVIdWlJb3lZd2xOX085dkd4cW9aR2tORXdveHpJU3I1WXA5UmE2VTZrVWdoZGFWZ09aVjU2aFJ4UnQ2cjJXVlBES0c2QWFpTWpCWTQxZ0l3NHRhbw?oc=5"
     },
     {
-      "id": "45bddb00",
-      "title": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟 - 手机新浪网",
+      "id": "a4e59047",
+      "title": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福 - 手机新浪网",
       "date": "2026-10-27",
       "category": "影视动态",
-      "summary": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
-      "content": "哈利波特剧集宣布詹姆莉莉演员，Jasper Talbot与汉娜奇恩加盟",
+      "summary": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
+      "content": "马尔福一家的可取之处就是他们彼此相爱 哈利波特｜德拉科马尔福",
       "image": "📺",
       "relatedLinks": [
         {
@@ -400,7 +400,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WWEswNVUwWTA3V0ZvRmVwclFWMjFUTkI5a1RZRTNYWm5DMUk1TTUyOFM1SFl2QVFZd3JVdGV2NVBHMWM3QUpjT2p0ZXdPckZnZVNxc0JHWFVvbnNwT1JPaTV5TlIwWlNoTENEMEdDSQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85LVhZd3NidjBiVmVpY2ZXSUVUb3NidGpaZWlyN1V2TVdmaEdabUNpYTRTWjQwbnFmTGxhR3V3YWN3cy04bC1iNzBCdkdpUTA5V2RjX3VEaFhYNEJEMXVrVlJaREd2enlwQ19pUW1MRnZacTg?oc=5"
     }
   ]
 }
