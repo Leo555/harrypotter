@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:45:25.054Z",
+  "lastUpdated": "2026-10-31T03:03:30.085Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -123,6 +123,26 @@
       "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0c2bkR2WV9LeDVzX01JeVg3M2k5U2N3U296YUVUMW04Nzk2czZycUVDNnkxSW9zS2JuU1VkUm14eW8yX2xBMmxjZldfM3dOek43aVcxV0NhbWNENDdDNmtwTVNaRGJUUTlOdG1ycl9wRDU2NmRpdXZaREw5dktKRUVDdGVSWlM2bEVTS2NadzZEUnlzS1U5SFl4UFV2RDlfdU4yOElveHJQWEVYQzVWbzFaMA?oc=5"
     },
     {
+      "id": "115c0e02",
+      "title": "新浪网· - 手机新浪网",
+      "date": "2026-10-28",
+      "category": "综合资讯",
+      "summary": "新浪网·",
+      "content": "新浪网·",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nLV8xZ2dFbTNVcGVPQ2VzQWFmc015emZmeTFjQnZtdTBDM1RoM2o5eHkzUjZsdjEzM054NW9oRmFzTTdLNlBNTGEwbUFUYmNOWEdnQ0pOTlRXNk9KS2VScmZYUQ?oc=5"
+    },
+    {
       "id": "8148c097",
       "title": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司 - 虎扑体育",
       "date": "2026-10-28",
@@ -143,26 +163,6 @@
       "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSTjUyUGw5RTNualI4QWk0S3FxRlhnVTV3RU1JQ0RfUjVhUWhiSUdTcVMyQ2puVlRMOGZMSzBfc0RkT0JTM0hzRTQ5d2pVdw?oc=5"
     },
     {
-      "id": "f7c974be",
-      "title": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演 - 手机新浪网",
-      "date": "2026-10-28",
-      "category": "影视动态",
-      "summary": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
-      "content": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLTlYZUIxa2dWTG45Qi0xUEpLTUNmTE5QSzJmc2M3Y29BY1MxSFhHUkJXTWRGT2NPN1NFM05aYTIzRVdJM1ItTDRaUmJ4VlUzTHEwRzRmdVNlbjktb29HdWlwMlZmRDd4VjF4cTJMTGw5d1VQMW1DTEwzWE5ZRktvd0xZVUpwaDBsdThfMFZFdXg2OHZ3dXloREtzZ1ZnWXBvdXAxU2RRcXE5QWRWbXk2ZVF2WGpVdmpvelV6SDRxdmRvdXdsNFZEM240RWRzTjF6WmllNm4zNXJJak9Gb3J1U3BYV2pKdw?oc=5"
-    },
-    {
       "id": "ba2923ce",
       "title": "HBO《哈利·波特》剧集第二季须知 - Mezha.net",
       "date": "2026-10-28",
@@ -181,6 +181,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObEhYZkpubzdqb2dvYVVLcHNpRWJuZ0UtWmFnaUNWd3FQa2JqdkEweFJZVjZLX2F3SktKTVZqWDRfUW5pamdhbm14M1FUdHgtc2Z4WE5tSkNEbTdmelU2dmJ3WXM1S243TmNZdTF0MnNjeDM1ekhFNmJtTm5aSHlRcUIwWjBSY2JjdDFDY093?oc=5"
+    },
+    {
+      "id": "f7c974be",
+      "title": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演 - 手机新浪网",
+      "date": "2026-10-28",
+      "category": "影视动态",
+      "summary": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
+      "content": "霍尔特退出剧版《哈利·波特》 哈灵顿接替出演",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLTlYZUIxa2dWTG45Qi0xUEpLTUNmTE5QSzJmc2M3Y29BY1MxSFhHUkJXTWRGT2NPN1NFM05aYTIzRVdJM1ItTDRaUmJ4VlUzTHEwRzRmdVNlbjktb29HdWlwMlZmRDd4VjF4cTJMTGw5d1VQMW1DTEwzWE5ZRktvd0xZVUpwaDBsdThfMFZFdXg2OHZ3dXloREtzZ1ZnWXBvdXAxU2RRcXE5QWRWbXk2ZVF2WGpVdmpvelV6SDRxdmRvdXdsNFZEM240RWRzTjF6WmllNm4zNXJJak9Gb3J1U3BYV2pKdw?oc=5"
     },
     {
       "id": "7f3e5ec6",
@@ -301,26 +321,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzhyb09XWU0wbEpXWEVOUWp5LVZwQTA4aE9keDdKYmpwUXZjVFAyQUhrRkVzcFc0VWRDcGdMZjBFNzA2aHlKRUotZzB4eTd0aUdnR0tGejZYMFkwT0FRQkN1QlVZbEtONl9JT2RHY2NYcEtIY2JOcldSemp2V1JucTFac2lybUY0alE2MVBvcFpDcEk?oc=5"
-    },
-    {
-      "id": "32353208",
-      "title": "新浪网· - 新浪网",
-      "date": "2026-10-27",
-      "category": "影视动态",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qUHhUMFJMd1FNTXY4bHVxMDRXTTJoUTVqLXhtSjY5R3d5aVFweWNIZExTekpLbVFVbTB4Q0prT2dnem5yUkhGTkx0VEdzbXdsWjBqVUhCM01nVlpMVTAxbjJRbw?oc=5"
     },
     {
       "id": "d519df63",
