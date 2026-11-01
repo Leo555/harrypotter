@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-01T10:03:36.205Z",
+  "lastUpdated": "2026-11-01T17:21:23.935Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "797fb1e2",
+      "title": "泰国人权律师扮哈利波特倡王室改革 累计判刑38年 - 禁闻网",
+      "date": "2026-11-01",
+      "category": "综合资讯",
+      "summary": "泰国人权律师扮哈利波特倡王室改革 累计判刑38年",
+      "content": "泰国人权律师扮哈利波特倡王室改革 累计判刑38年",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oLXZyMlhscEY1VWhOeEU0R3VwdXB6N0JoTHN4UjJVSU5JUkVscGxJRlBORHBLU0IwOHdTczk3eFJuSjVmMWo4M21Xb2FySHpvRjlaT3N3SDdNRzJLUFZrZlp2YWtFdVh0YU9vN1BEajVlUdIBd0FVX3lxTE1mNjZ3MW9NVVJNdlFEaGgwalpBZl85VEUwVFUwNVdHRU9vVHdvSFVPcnZBa25fU2hZZHM4NU4zZEt1NElMalFLLTA4RkpaYVg3WVJjMjEydjBnbm5IUlZ6NE12TlY1NlNyLWhLdTkzZHh3azV2NDRF?oc=5"
+    },
     {
       "id": "569b8b18",
       "title": "曾扮哈利波特挑战王室 泰人权律师再判2年8个月 - China Press",
@@ -61,26 +81,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54ekY3YzNneVRqMVNHbjJUVWM3a3JPbzlSa3hRb2ExTnYwd1FFcXhHa3J1TElOZG9UT2hFOEZUdUtJWjF6aFBiZjFFajZiRmFsWURxdHlQaEdaSGJ4aEJ4eFJnckN6NHowWS0wYVlmdw?oc=5"
-    },
-    {
-      "id": "c7266888",
-      "title": "泰国人权律师扮哈利波特倡王室改革 累计判刑38年 - 茉莉花新闻网",
-      "date": "2026-10-31",
-      "category": "综合资讯",
-      "summary": "泰国人权律师扮哈利波特倡王室改革 累计判刑38年",
-      "content": "泰国人权律师扮哈利波特倡王室改革 累计判刑38年",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1yZ0tlX3hrOXhxRkprb2RScHdRVGhxamRmdVR5Y08xcFVsZTNiWkhHMnp3STE5TE5jajdhU0FuNHdtLVpPOEE?oc=5"
     },
     {
       "id": "97fffc78",
@@ -143,6 +143,26 @@
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXRjlWckU3WmNvV1A1cXk5dC1QWFMwRTNRZVJJZ1EzbmtXdHRYODhuYUZEVkFDLXNNejBOdEc2ZzR4NFlNMHp1VXFhSUlpMjdHX09McWFaWDZWVVRwbkk0My0wcHhmRVVlQnZUT3cybkl5blE?oc=5"
     },
     {
+      "id": "6c4d7cd4",
+      "title": "百度开源文心OCR 2支持无限页解析 - QQ News",
+      "date": "2026-10-30",
+      "category": "综合资讯",
+      "summary": "百度开源文心OCR 2支持无限页解析",
+      "content": "百度开源文心OCR 2支持无限页解析",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94cnVMOFUtak1wTFNDc0lhUmw0RXQtenpyb3dBRFhWQjZtNm1jS0tUZnR3VV9GSUVac2FSNE1melBmUnBCN3pCZjlaVmJnazRJMkFfZ0ZB?oc=5"
+    },
+    {
       "id": "65bfaff4",
       "title": "詹姆与莉莉放弃雷霆官宣图，少年热烈温柔耀眼 - 手机新浪网",
       "date": "2026-10-30",
@@ -181,6 +201,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWX2dZTWpaenBWbmtUb1E3cDNPLU5vbzBTUld2dEw0WjB2aHk4SFVHcmJvTzVBdUJzOVVRUkFzY3d0Q256MWpSNERVc2ZKdHB1d3JBVndod0dCMVJWSTFUOXdGdTNVNHpJ?oc=5"
+    },
+    {
+      "id": "c9fe6c94",
+      "title": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY - Harry Potter™: The Exhibition",
+      "date": "2026-10-29",
+      "category": "影视动态",
+      "summary": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY",
+      "content": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV3JyWnJ6WUFxVXJ3bmxVMGpCMDFfd1RpMm5OSFZTNlR1eldKQXZCeVhHQ3JnVmxocHRfZ0ZwQm9qQnlPMDZWSGN6VlRjdC1Qelh3eFBXNzdRRUdWZVM4LTk1YVhscHdQQW1hcDJiVFJrSWZKY2s1X3NJU24tdnJENzdfRl9hd3ltV0FwTGVqaHUzWW9yNFRybEdR?oc=5"
     },
     {
       "id": "43b15d8c",
@@ -223,6 +263,66 @@
       "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtVTBDQnZ5YTBLQUpCZTlPTDZONjkyZ091NmswbzNJLWVQYVFFVXhpQjNQcEF4Njc1Q2tkanFnZ1BNSkNQYWlJZF9mbTlzSWs4THVPb09HQWhLdUFydnk4WmlGTjJ2QQ?oc=5"
     },
     {
+      "id": "458a0633",
+      "title": "百度集团副总裁吴甜，已离职 - https://www.mrjjxw.com/",
+      "date": "2026-10-29",
+      "category": "综合资讯",
+      "summary": "百度集团副总裁吴甜，已离职",
+      "content": "百度集团副总裁吴甜，已离职",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3STF5a1BvQmVULXJBVnJ2N0dqdFVzaHZ2Rko3QURzdmRPRjVQZG44MEN5dWxWMklLTDU5QXROZHUwMWpzN1BjVnVoQzNQWkZkdVNYTDBWLXI1LUJWUV9ncDk1cUY4UQ?oc=5"
+    },
+    {
+      "id": "ad9b95c7",
+      "title": "布朗：如今篮球过于依赖数据分析 但人与比赛的情感联系无法量化 - 新浪网",
+      "date": "2026-10-29",
+      "category": "综合资讯",
+      "summary": "布朗：如今篮球过于依赖数据分析 但人与比赛的情感联系无法量化",
+      "content": "布朗：如今篮球过于依赖数据分析 但人与比赛的情感联系无法量化",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSWhCaUdpSXY1X0I5RXU2UHBUM2xSOC02UUhtODRDc2p2WmVWZC1WU0VNbEs4b3pkT3A4MThpbE14SWcxLW5tSk8xb1A4aWF4VlRraXdvSTlnSGtnbVB2NkpvZHFVWUtRMHNrZ3JSRlo1TXZyV0VwRDVFdUhQN2duT3NNN1Y?oc=5"
+    },
+    {
+      "id": "221ed58c",
+      "title": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5 - Foro3D",
+      "date": "2026-10-29",
+      "category": "影视动态",
+      "summary": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5",
+      "content": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0c2bkR2WV9LeDVzX01JeVg3M2k5U2N3U296YUVUMW04Nzk2czZycUVDNnkxSW9zS2JuU1VkUm14eW8yX2xBMmxjZldfM3dOek43aVcxV0NhbWNENDdDNmtwTVNaRGJUUTlOdG1ycl9wRDU2NmRpdXZaREw5dktKRUVDdGVSWlM2bEVTS2NadzZEUnlzS1U5SFl4UFV2RDlfdU4yOElveHJQWEVYQzVWbzFaMA?oc=5"
+    },
+    {
       "id": "76041c33",
       "title": "Halloween Costume Prices Double in Five Years - News On Japan",
       "date": "2026-10-29",
@@ -263,46 +363,6 @@
       "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZzIzRE1JZXhaWFBDUmcxNXYxWDZMZDhFTlN3UzZPSTFGNnNkeTRjOEtFMGFObmJWQllyMTlNekJBTDdJODZXYlMyQ0Y5Ym5NMFhUTmdiLXVyUEJDWnRTRGJnQm16Y1lDbVdxNGNJNnJNLVktOEpPajRKZmw3VzluV2R0ZVF0Qi1sbzRhczJEcnY2MlhfNzJ5Z3BLTXY5Q1J5UW1OMDJ6RVU0MmxWOS1OZU93TkExOGtXNVhlSFpLMFREcUh2aVBlT0pjQ0l4REZLa2dtODlxZw?oc=5"
     },
     {
-      "id": "c9fe6c94",
-      "title": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY - Harry Potter™: The Exhibition",
-      "date": "2026-10-29",
-      "category": "影视动态",
-      "summary": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY",
-      "content": "HARRY POTTER™: THE EXHIBITION IS COMING TO SYDNEY",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV3JyWnJ6WUFxVXJ3bmxVMGpCMDFfd1RpMm5OSFZTNlR1eldKQXZCeVhHQ3JnVmxocHRfZ0ZwQm9qQnlPMDZWSGN6VlRjdC1Qelh3eFBXNzdRRUdWZVM4LTk1YVhscHdQQW1hcDJiVFJrSWZKY2s1X3NJU24tdnJENzdfRl9hd3ltV0FwTGVqaHUzWW9yNFRybEdR?oc=5"
-    },
-    {
-      "id": "458a0633",
-      "title": "百度集团副总裁吴甜，已离职 - https://www.mrjjxw.com/",
-      "date": "2026-10-29",
-      "category": "综合资讯",
-      "summary": "百度集团副总裁吴甜，已离职",
-      "content": "百度集团副总裁吴甜，已离职",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3STF5a1BvQmVULXJBVnJ2N0dqdFVzaHZ2Rko3QURzdmRPRjVQZG44MEN5dWxWMklLTDU5QXROZHUwMWpzN1BjVnVoQzNQWkZkdVNYTDBWLXI1LUJWUV9ncDk1cUY4UQ?oc=5"
-    },
-    {
       "id": "527f253e",
       "title": "杰伦·布朗：我不在乎能否获奖 很多奖项评选标准太过于主观 - 新浪网",
       "date": "2026-10-29",
@@ -323,26 +383,6 @@
       "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSG5PXzN1ck1aX183MmhxWjJweTJPM01UQnpCYWNrbGFpY3k1aW9sX2UzRzZYdk5yb0dfT0hNeVVGR3JyM1hNMjJ1dl9Yb0tPeDF6bmwySG1sYTdMQm9NdDVaYThMbkZBS1Jmd1pOZE5rWDZnSTh6REE5UTZfbmZPcGp3TXM?oc=5"
     },
     {
-      "id": "221ed58c",
-      "title": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5 - Foro3D",
-      "date": "2026-10-29",
-      "category": "影视动态",
-      "summary": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5",
-      "content": "NVIDIA 通过更小更高效的神经网络模型更新 DLSS 5",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0c2bkR2WV9LeDVzX01JeVg3M2k5U2N3U296YUVUMW04Nzk2czZycUVDNnkxSW9zS2JuU1VkUm14eW8yX2xBMmxjZldfM3dOek43aVcxV0NhbWNENDdDNmtwTVNaRGJUUTlOdG1ycl9wRDU2NmRpdXZaREw5dktKRUVDdGVSWlM2bEVTS2NadzZEUnlzS1U5SFl4UFV2RDlfdU4yOElveHJQWEVYQzVWbzFaMA?oc=5"
-    },
-    {
       "id": "192878ca",
       "title": "我们世界里的每个人都会知道他的名字。HBO原创系列剧集《哈利·波特与魔法石》即将播出。#哈利波特HBO# ​ - 新浪网",
       "date": "2026-10-29",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OV0VHNDF2c0dNRnlrTzJsQjB0WDhJX2U4aDdfZ1JFZlNNUkJ0SjlVQ0N4Ri1Ka0dZVmtzdGJ3alBoTDBzVHllZDV0Y0VnWjJfbWFyMUx0VTZxVnN6dTZhZDhpSQ?oc=5"
-    },
-    {
-      "id": "115c0e02",
-      "title": "新浪网· - 手机新浪网",
-      "date": "2026-10-28",
-      "category": "综合资讯",
-      "summary": "新浪网·",
-      "content": "新浪网·",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nLV8xZ2dFbTNVcGVPQ2VzQWFmc015emZmeTFjQnZtdTBDM1RoM2o5eHkzUjZsdjEzM054NW9oRmFzTTdLNlBNTGEwbUFUYmNOWEdnQ0pOTlRXNk9KS2VScmZYUQ?oc=5"
-    },
-    {
-      "id": "8148c097",
-      "title": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司 - 虎扑体育",
-      "date": "2026-10-28",
-      "category": "影视动态",
-      "summary": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司",
-      "content": "[流言板]剧版《哈利波特》第二季《哈利波特与密室》新增三位新卡司",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSTjUyUGw5RTNualI4QWk0S3FxRlhnVTV3RU1JQ0RfUjVhUWhiSUdTcVMyQ2puVlRMOGZMSzBfc0RkT0JTM0hzRTQ5d2pVdw?oc=5"
     }
   ]
 }
