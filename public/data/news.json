@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-11-03T20:41:33.005Z",
+  "lastUpdated": "2026-11-04T00:57:25.541Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "903131a3",
+      "title": "《哈利波特》布置引争议 卑诗小镇公开道歉 - 加拿大新闻网",
+      "date": "2026-11-03",
+      "category": "影视动态",
+      "summary": "《哈利波特》布置引争议 卑诗小镇公开道歉",
+      "content": "《哈利波特》布置引争议 卑诗小镇公开道歉",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1jSjlrS2YtNnpTVU8tUUMyUkZROEhoU0haQlViVkN1c0g3N193Ym04djYzaExwTGhzMXBQWmpOM0RoeHZ4?oc=5"
+    },
+    {
+      "id": "2f4817df",
+      "title": "NVIDIA 将 DLSS 5 加入 RTX Remix，用于升级旧游戏画面 — Engadget - UA.NEWS",
+      "date": "2026-11-03",
+      "category": "影视动态",
+      "summary": "NVIDIA 将 DLSS 5 加入 RTX Remix，用于升级旧游戏画面 — Engadget",
+      "content": "NVIDIA 将 DLSS 5 加入 RTX Remix，用于升级旧游戏画面 — Engadget",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTFVNS1FdzhkVFV1ZGZYZWlzb3Z0RHZ2U29DaVluWkV4UWNUQzhQN21HSmpnY2dENDN4Q0ptVC0tWmJJakJvYUNLV2FTNXFqc3dOZWJRREtjM3NUVURGTEFQRVhNeTFaSWFxcktOU2pZd2p3Yy1SWnZ6SFBOX1RWY0FsTGpMSy1sMDNkZ2pZYWI2UXRDN0FXZ0Q2c2RCb1lQakFUdk9n?oc=5"
+    },
     {
       "id": "a563f8ad",
       "title": "realme推出哈利·波特特别版 realme 16 Pro - Mezha.net",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10UDFqdmkzenZmZFFibGdGTEFwbzFPOHVlMEhHX2oxelNtZ2N2VGJHT0tCbXpFNkZnd1VoUVVmaU52Uk9Zc2c3SmxYc2ttaTNkTnc?oc=5"
-    },
-    {
-      "id": "65bfaff4",
-      "title": "詹姆与莉莉放弃雷霆官宣图，少年热烈温柔耀眼 - 手机新浪网",
-      "date": "2026-10-30",
-      "category": "综合资讯",
-      "summary": "詹姆与莉莉放弃雷霆官宣图，少年热烈温柔耀眼",
-      "content": "詹姆与莉莉放弃雷霆官宣图，少年热烈温柔耀眼",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRDVDSVpHQUI4RG9PYTgwTXBLOWxvak1vRWRPLVRfMloxVGo3ZDQ2QTluOU9FME1ya256Z0NPcml3T2ppdThKZF9hNnVnNGE4ekFEQjIzTlo4eDcwNjRicjR1X0ZScGJ0T0psQTFaRnNvY3ZEQ3RKWmNydC1aN1Y2eVY1V251MzdUYzRfcDBwWjl0Sy16QU5OOUNpekQ0eTY0UlBqWDZycmloZThXaFF0SzJlUTlMSE9wWnVETjcxdFhxeGdONHRkTWZYWkVKcWJERVZJSWRaNE5sc1RR?oc=5"
-    },
-    {
-      "id": "6c4d7cd4",
-      "title": "百度开源文心OCR 2支持无限页解析 - QQ News",
-      "date": "2026-10-30",
-      "category": "综合资讯",
-      "summary": "百度开源文心OCR 2支持无限页解析",
-      "content": "百度开源文心OCR 2支持无限页解析",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94cnVMOFUtak1wTFNDc0lhUmw0RXQtenpyb3dBRFhWQjZtNm1jS0tUZnR3VV9GSUVac2FSNE1melBmUnBCN3pCZjlaVmJnazRJMkFfZ0ZB?oc=5"
     }
   ]
 }
