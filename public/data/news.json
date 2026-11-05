@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-11-05T09:59:54.668Z",
+  "lastUpdated": "2026-11-05T19:11:16.305Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "2a4dea6a",
+      "title": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级 - Mezha.net",
+      "date": "2026-11-05",
+      "category": "游戏资讯",
+      "summary": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级",
+      "content": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVkzbU1nY0VJVGdNMXJ2VkQ4TXJRcjJYcmg0M0pocGM1SFBVRWM3Qll5YzhQV2dCSUdPek42Uk5qTWxCSHlNZXJEZFFtRmhuSWJzLTFDOWVwaUN2MWhVMmZXeGYtOUt0UE9hUjVVeGxFN3Q0Ry1xVzExdElPYXR4b3Q2UUtYZEIzMlZSWTM3cFpUeG1IdmRB?oc=5"
+    },
+    {
+      "id": "afe8474b",
+      "title": "《肌肉魔法使》翻拍真人版！男主是前田真剑佑 海报恶搞哈利波特 - 茉莉花新闻网",
+      "date": "2026-11-04",
+      "category": "综合资讯",
+      "summary": "《肌肉魔法使》翻拍真人版！男主是前田真剑佑 海报恶搞哈利波特",
+      "content": "《肌肉魔法使》翻拍真人版！男主是前田真剑佑 海报恶搞哈利波特",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5jUHZBaTBuemEzbUpCcGVJRVRGd2JSeFR0Vmp5eDRtTnFQNWx6SXZKUDFDZUFRTEJmdjZpYjFxcS1xcDZ0Z3c?oc=5"
+    },
+    {
+      "id": "25c82f3c",
+      "title": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5 - 驱动之家",
+      "date": "2026-11-04",
+      "category": "游戏资讯",
+      "summary": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5",
+      "content": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZZENZVThmOWNCVXU3N0VfejI0Z1d4Tjlta01MZ01TT3ZvRHF4Y01yV1U1TnVIcGdBdl9jbTdOX1FZdEZ1amcyMlZFNVR0ZDN2cTJLemt4TzM?oc=5"
+    },
     {
       "id": "76432e4b",
       "title": "在伦敦，最大的一家《哈利·波特》 专卖店开业时引发了抗议活动 - UA.NEWS",
@@ -41,26 +101,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZHhOQVNjeUVoLXB0NjB6azdtLU9qLUZEX3Ayb014ODl6Tk1sZW1GX2tZMVdacGNlRklYQXF5dDQzSHEyZ1lXRXhBdXYyYnFFcmpNUl9VQkdETFNmN3JXcGpudUJvQzg0eDdfSmlIRWlNU2ZuRTV5MmZ6NTludGFveU5fSVRXRzNZRFlOam9BZ205Z2NuaW5HNWxQMmFTV3hLcjVWQTVGM1hXRkg1T3c?oc=5"
-    },
-    {
-      "id": "25c82f3c",
-      "title": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5 - 驱动之家",
-      "date": "2026-11-04",
-      "category": "游戏资讯",
-      "summary": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5",
-      "content": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5",
-      "image": "🎮",
-      "relatedLinks": [
-        {
-          "label": "🎩 分院帽测试",
-          "path": "/interactive/sorting"
-        },
-        {
-          "label": "✨ 咒语大全",
-          "path": "/world/spells"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZZENZVThmOWNCVXU3N0VfejI0Z1d4Tjlta01MZ01TT3ZvRHF4Y01yV1U1TnVIcGdBdl9jbTdOX1FZdEZ1amcyMlZFNVR0ZDN2cTJLemt4TzM?oc=5"
     },
     {
       "id": "aa4ce134",
@@ -361,46 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPNDg1TjZGU3JfRTVfcEJYa2lzYTlvMldsT3pXSjN0SktvVGd1M0F0d0d5UzZ3dGd6d3ZqemNEdUllRm96ODgzR3NvR3ZsaUdkZU9NS0oxckpMdlY4bmkwMHM1TmdRUnFqT2VLMVowUkI5ZEFLbnhzeWpacTk4cVIzTDV2T1V0RmhSQWRfMlFPdll4QVJ4S2ZsOWJ5RW1sMWZ5XzU4RW5MMHgyaWVmaGlkUHViY2tJVkl2bTVJYkVxNFFLZG5HQk5LYVJMbnVUOTRhQWVXejFGbHgzZFIwcVFtWGpHVmt4bk5qYWF0enR2ajNabWNnYWxBNWt2NVUwcDVVNmh1WWdCaUQ2SmRRZmFjcVRvY211eHlHWG13TkxPQ2pUZVdRWHp3YXlsaGlfMjBnOEV0VkgyY3hpYVFPaFNxV2Z1TG1zZw?oc=5"
-    },
-    {
-      "id": "cf5970da",
-      "title": "装扮成哈利波特，公开质疑泰国王室——他如今面临34年监禁 - BBC",
-      "date": "2026-10-31",
-      "category": "综合资讯",
-      "summary": "装扮成哈利波特，公开质疑泰国王室——他如今面临34年监禁",
-      "content": "装扮成哈利波特，公开质疑泰国王室——他如今面临34年监禁",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mWmJwVE9BcDJKX0x1Y29KMmkxcUxvc2RYMU5XZUJicU9jRkRBZW9ZeGlCTUVXRlQzQ1NQOFBKSzBuX3IzcDhtcFVMODBJZDlLdTBQdW1TbFVRMmhnNU1NYU5EWUZEcnPSAWxBVV95cUxPX2drZkVsTWNQUVhfM2pZLXhXb3JZY1NGNW50d2UtUDZ4Rm0zSE9iTXR6NC1kR0xJQ3JWRnFiUlY4SGNBb0hpdnBPV0hfZmlLRXFpSHBzQTNhTExlSDVaTE5fZERwZGRqZHg5Zy0?oc=5"
-    },
-    {
-      "id": "a219296c",
-      "title": "我将全力候燥这个剧版哈里波特！电视剧 詹莉 - 手机新浪网",
-      "date": "2026-10-31",
-      "category": "影视动态",
-      "summary": "我将全力候燥这个剧版哈里波特！电视剧 詹莉",
-      "content": "我将全力候燥这个剧版哈里波特！电视剧 詹莉",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQktxYjdKMVhRdUkyb2lhWlBRekZoY3lPcl95SUItc25QWk1McDVlNG9VbnlIZ0twRUNKQnpIaTNXeFA5SVdINDZ0TDA1U2JTYmxISEs0X2VBX2oxb3Y1NHFXSW9GckFSX0p1TVgzcmZkVHpiVXRrcFJ6eXAycjRpZGQ5d0lJSF9kWlBNMUcwOEI0VW5jdnVaS2NJX0N4akpsMXpsNnU3RmtuWjBmSTFZT3pjcmNvLUkyLWF0c0ZGT2VOLWdlSU5YeE5JU0VoZW5Hbjd3dFQtdkxwWTA?oc=5"
     }
   ]
 }
