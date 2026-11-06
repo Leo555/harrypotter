@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T10:02:55.969Z",
+  "lastUpdated": "2026-11-06T18:38:16.909Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -83,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5jUHZBaTBuemEzbUpCcGVJRVRGd2JSeFR0Vmp5eDRtTnFQNWx6SXZKUDFDZUFRTEJmdjZpYjFxcS1xcDZ0Z3c?oc=5"
     },
     {
-      "id": "f239105e",
-      "title": "《哈利波特》剧版“斯内普”穿裙装亮相时尚大奖，混搭风造型吸睛 - QQ News",
-      "date": "2026-11-04",
-      "category": "影视动态",
-      "summary": "《哈利波特》剧版“斯内普”穿裙装亮相时尚大奖，混搭风造型吸睛",
-      "content": "《哈利波特》剧版“斯内普”穿裙装亮相时尚大奖，混搭风造型吸睛",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FMzV1NU5ZOWw1RjVTdjc0REpJVDd0RjltRWE0RkEtNmdzYzV1NHNTVDVmSmRJRnB5V0wxdlVCZTM2RUpTczlxUnh1UXowUEVHLS1SbE1R?oc=5"
-    },
-    {
       "id": "25c82f3c",
       "title": "《霍格沃茨之遗》、《燕云十六声》和《战争雷霆》将于 11 月 支持 DLSS 5 - 驱动之家",
       "date": "2026-11-04",
@@ -121,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZZENZVThmOWNCVXU3N0VfejI0Z1d4Tjlta01MZ01TT3ZvRHF4Y01yV1U1TnVIcGdBdl9jbTdOX1FZdEZ1amcyMlZFNVR0ZDN2cTJLemt4TzM?oc=5"
+    },
+    {
+      "id": "f239105e",
+      "title": "《哈利波特》剧版“斯内普”穿裙装亮相时尚大奖，混搭风造型吸睛 - QQ News",
+      "date": "2026-11-04",
+      "category": "影视动态",
+      "summary": "《哈利波特》剧版“斯内普”穿裙装亮相时尚大奖，混搭风造型吸睛",
+      "content": "《哈利波特》剧版“斯内普”穿裙装亮相时尚大奖，混搭风造型吸睛",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FMzV1NU5ZOWw1RjVTdjc0REpJVDd0RjltRWE0RkEtNmdzYzV1NHNTVDVmSmRJRnB5V0wxdlVCZTM2RUpTczlxUnh1UXowUEVHLS1SbE1R?oc=5"
     },
     {
       "id": "76432e4b",
