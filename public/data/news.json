@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-11-07T21:10:48.323Z",
+  "lastUpdated": "2026-11-08T03:05:39.876Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
-      "id": "d66868bb",
-      "title": "《哈利·波特：魔法幻境》中国首秀落地成都 秋假推出特惠票及研学活动 - 川观新闻",
+      "id": "6d3cdf53",
+      "title": "《哈利·波特：魔法幻境》中国首秀落地成都 秋假推出特惠票及研学活动 - 四川新闻",
       "date": "2026-11-07",
-      "category": "社区活动",
+      "category": "影视动态",
       "summary": "《哈利·波特：魔法幻境》中国首秀落地成都 秋假推出特惠票及研学活动",
       "content": "《哈利·波特：魔法幻境》中国首秀落地成都 秋假推出特惠票及研学活动",
-      "image": "🎉",
+      "image": "📺",
       "relatedLinks": [
         {
-          "label": "🧪 魔药百科",
-          "path": "/world/potions"
+          "label": "📚 原著百科",
+          "path": "/books"
         },
         {
-          "label": "🪄 魔杖匹配",
-          "path": "/interactive/wand"
+          "label": "🧙 人物百科",
+          "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VUkNmZkE3RnBsSEg5NTFkdDd4NGZyQ09NMU94RFRJU2twSkZjYmRUdGxvRGxNajdidDc5YUtFUjc3UWpMZENzcnNvc1lfUQ?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hQ3Q3aFVPWENDVHpxUVpMYjZTVWNvcGtjYmU1bTQ3dEtPdzVmMGY3Z0pmOExIZ1k0WGhKQlM4WVR4dUhVWU1GMWNuc19aNGhMNHJMUWRuWHFZYmtxMTlTaXM0SQ?oc=5"
     },
     {
       "id": "2a59142b",
@@ -83,26 +83,6 @@
       "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUU9tNXo0b3JRUFlzUXN3a28yT0VLZlpZd1JLaFpqcHpYY2JIaGt5OVpscWJaM2Y3dkZKbGl3NWVTQ2Q3VUc1bXlEZUQtWGJVSXBibWVlcUdnWFR6YkRBLUFiak5xX2IwNGhlcWJRZlJUZlFJOC1Ud0ZnekZINXlmbGotOXBldGVlSFJMMlQ1eEI1YlhHU2MyUVlBVHQzQ0VwNUQ3Q0xKTXJrRXhOTWc?oc=5"
     },
     {
-      "id": "2a4dea6a",
-      "title": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级 - Mezha.net",
-      "date": "2026-11-05",
-      "category": "游戏资讯",
-      "summary": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级",
-      "content": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级",
-      "image": "🎮",
-      "relatedLinks": [
-        {
-          "label": "🎩 分院帽测试",
-          "path": "/interactive/sorting"
-        },
-        {
-          "label": "✨ 咒语大全",
-          "path": "/world/spells"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVkzbU1nY0VJVGdNMXJ2VkQ4TXJRcjJYcmg0M0pocGM1SFBVRWM3Qll5YzhQV2dCSUdPek42Uk5qTWxCSHlNZXJEZFFtRmhuSWJzLTFDOWVwaUN2MWhVMmZXeGYtOUt0UE9hUjVVeGxFN3Q0Ry1xVzExdElPYXR4b3Q2UUtYZEIzMlZSWTM3cFpUeG1IdmRB?oc=5"
-    },
-    {
       "id": "4d94cad1",
       "title": "Hogwarts Legacy PC 版迎来 Nvidia DLSS 5 重大画质升级 - Notebookcheck CN",
       "date": "2026-11-05",
@@ -121,6 +101,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcmZtVzA5dlhwTXhBeTc1TEZ3aUt3RGNhNE5iUE5WOC1DLWo0TWxtTWxGMEF4U1ZqSklXcVNHcFFxM1N3bzkxVlhUR2xfc1ZjTU9vNlRPbnVud3VPQ3dnWHZIX1dLazdFUmxZdThicnFhYUJtS21lLXItNXBVNmtOTWYwR21YajQ?oc=5"
+    },
+    {
+      "id": "2a4dea6a",
+      "title": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级 - Mezha.net",
+      "date": "2026-11-05",
+      "category": "游戏资讯",
+      "summary": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级",
+      "content": "《Hogwarts Legacy》在PC端加入 Nvidia DLSS 5 图形升级",
+      "image": "🎮",
+      "relatedLinks": [
+        {
+          "label": "🎩 分院帽测试",
+          "path": "/interactive/sorting"
+        },
+        {
+          "label": "✨ 咒语大全",
+          "path": "/world/spells"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVkzbU1nY0VJVGdNMXJ2VkQ4TXJRcjJYcmg0M0pocGM1SFBVRWM3Qll5YzhQV2dCSUdPek42Uk5qTWxCSHlNZXJEZFFtRmhuSWJzLTFDOWVwaUN2MWhVMmZXeGYtOUt0UE9hUjVVeGxFN3Q0Ry1xVzExdElPYXR4b3Q2UUtYZEIzMlZSWTM3cFpUeG1IdmRB?oc=5"
     },
     {
       "id": "6b1ad707",
