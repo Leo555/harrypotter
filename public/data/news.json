@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-09T00:14:30.982Z",
+  "lastUpdated": "2026-11-09T10:32:27.349Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "a627acac",
+      "title": "装扮成哈利波特，公开质疑泰国王室--他如今面临34年监禁 - 早晨报",
+      "date": "2026-11-09",
+      "category": "综合资讯",
+      "summary": "装扮成哈利波特，公开质疑泰国王室--他如今面临34年监禁",
+      "content": "装扮成哈利波特，公开质疑泰国王室--他如今面临34年监禁",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwbkFjeHZlWTlIMGM0NF9COURqOUFlSDQtZmdyZVBnUm8tRDFTMnRtcXdHeDZ2alMzVTJYT2s0ZHM5d3hzRlZYRmM4RERocWlOR2MwVGN2SEtKdXByT2FCcTZDLVdpdXNoZEttTXhBWQ?oc=5"
+    },
     {
       "id": "39722ca9",
       "title": "魔法归来 争议未散：《哈利·波特》走上银幕25年 - DW.com",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTFVNS1FdzhkVFV1ZGZYZWlzb3Z0RHZ2U29DaVluWkV4UWNUQzhQN21HSmpnY2dENDN4Q0ptVC0tWmJJakJvYUNLV2FTNXFqc3dOZWJRREtjM3NUVURGTEFQRVhNeTFaSWFxcktOU2pZd2p3Yy1SWnZ6SFBOX1RWY0FsTGpMSy1sMDNkZ2pZYWI2UXRDN0FXZ0Q2c2RCb1lQakFUdk9n?oc=5"
-    },
-    {
-      "id": "ba57b8b7",
-      "title": "限量版“哈利·波特”系列 |商店新闻 - Marunouchi.com",
-      "date": "2026-11-02",
-      "category": "影视动态",
-      "summary": "限量版“哈利·波特”系列 |商店新闻",
-      "content": "限量版“哈利·波特”系列 |商店新闻",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BOTMtUV9JYjVhM1lkdXBhZmF6a3NZQ3ozamJTZkhNaU9vV01XTVN3UHI0eW1BT3hGbDFNSlN1S0tlT2JINTNsaWNyME5ZZGNUSUJMVjZjNWhIUmYwR0E?oc=5"
     }
   ]
 }
