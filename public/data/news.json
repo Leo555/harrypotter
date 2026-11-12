@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T14:09:44.415Z",
+  "lastUpdated": "2026-11-12T21:38:05.676Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -41,6 +41,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSUhaWFFQSlFaNHRKeFpFdS0xS3VZbHJpdFdSYlh6QmIyS3dnZEhHU1NmWXdlTGVBVk5wRGlXdUVjVG9za1FySGdYalY2QXA1Vm1USURLYktoc2dMTkVJOGVIV0htcW5TUFNTekNnNHJvZVExUFMxREJacUo2bjNKZkNtSVdBOFVyZDRXUjlxOVFJV2NIN2x1SXg3d1dLSm1tUklKM2t0WUZmSTBCZEpnUUYyNUxYdmJCZlk2VU9CWnprbW9MZjZSUW5sOHYwc2x5dHhGdTY2enJpUlU?oc=5"
+    },
+    {
+      "id": "813378a0",
+      "title": "哈利·波特剧版演员观影 利思戈称远超预期 - 手机新浪网",
+      "date": "2026-11-12",
+      "category": "综合资讯",
+      "summary": "哈利·波特剧版演员观影 利思戈称远超预期",
+      "content": "哈利·波特剧版演员观影 利思戈称远超预期",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSRGczWW1wazdmRHQ4Nm8wQVFTekpiaTdxV24xdVZiRWJFaklQVEo2ZUNPM2VFQklYWU1UMGFKU0t6YkRLYTdLTmd0WE13dG56eTc2dzBpWjFzcEVzMVhqMjVVc2daMy1EVjUtMklObG4?oc=5"
     },
     {
       "id": "e90121b0",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUU9tNXo0b3JRUFlzUXN3a28yT0VLZlpZd1JLaFpqcHpYY2JIaGt5OVpscWJaM2Y3dkZKbGl3NWVTQ2Q3VUc1bXlEZUQtWGJVSXBibWVlcUdnWFR6YkRBLUFiak5xX2IwNGhlcWJRZlJUZlFJOC1Ud0ZnekZINXlmbGotOXBldGVlSFJMMlQ1eEI1YlhHU2MyUVlBVHQzQ0VwNUQ3Q0xKTXJrRXhOTWc?oc=5"
-    },
-    {
-      "id": "4d94cad1",
-      "title": "Hogwarts Legacy PC 版迎来 Nvidia DLSS 5 重大画质升级 - Notebookcheck CN",
-      "date": "2026-11-05",
-      "category": "影视动态",
-      "summary": "Hogwarts Legacy PC 版迎来 Nvidia DLSS 5 重大画质升级",
-      "content": "Hogwarts Legacy PC 版迎来 Nvidia DLSS 5 重大画质升级",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcmZtVzA5dlhwTXhBeTc1TEZ3aUt3RGNhNE5iUE5WOC1DLWo0TWxtTWxGMEF4U1ZqSklXcVNHcFFxM1N3bzkxVlhUR2xfc1ZjTU9vNlRPbnVud3VPQ3dnWHZIX1dLazdFUmxZdThicnFhYUJtS21lLXItNXBVNmtOTWYwR21YajQ?oc=5"
     }
   ]
 }
