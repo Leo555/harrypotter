@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T03:56:03.240Z",
+  "lastUpdated": "2026-11-13T13:33:27.502Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -63,26 +63,6 @@
       "source": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSUhaWFFQSlFaNHRKeFpFdS0xS3VZbHJpdFdSYlh6QmIyS3dnZEhHU1NmWXdlTGVBVk5wRGlXdUVjVG9za1FySGdYalY2QXA1Vm1USURLYktoc2dMTkVJOGVIV0htcW5TUFNTekNnNHJvZVExUFMxREJacUo2bjNKZkNtSVdBOFVyZDRXUjlxOVFJV2NIN2x1SXg3d1dLSm1tUklKM2t0WUZmSTBCZEpnUUYyNUxYdmJCZlk2VU9CWnprbW9MZjZSUW5sOHYwc2x5dHhGdTY2enJpUlU?oc=5"
     },
     {
-      "id": "813378a0",
-      "title": "哈利·波特剧版演员观影 利思戈称远超预期 - 手机新浪网",
-      "date": "2026-11-12",
-      "category": "综合资讯",
-      "summary": "哈利·波特剧版演员观影 利思戈称远超预期",
-      "content": "哈利·波特剧版演员观影 利思戈称远超预期",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSRGczWW1wazdmRHQ4Nm8wQVFTekpiaTdxV24xdVZiRWJFaklQVEo2ZUNPM2VFQklYWU1UMGFKU0t6YkRLYTdLTmd0WE13dG56eTc2dzBpWjFzcEVzMVhqMjVVc2daMy1EVjUtMklObG4?oc=5"
-    },
-    {
       "id": "e90121b0",
       "title": "HBO剧版《哈利·波特》海报预告有15秒的音频，算是剧版bgm的抢先体验？ - 手机新浪网",
       "date": "2026-11-12",
@@ -101,6 +81,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtZGNpdS1QZVgwSjJwMEl1MGFvUkJkTnlIMkZBUkNSdnlJRTc5TkJzdDdmeXlXNW5oTTJIMGRoc2lLZVBMSXN0X0pHS3FMLWlyUHRQNDBpNmVfSnFtcWp3T2kxeXhpXzF1clpyZnlxNkFUU2M?oc=5"
+    },
+    {
+      "id": "813378a0",
+      "title": "哈利·波特剧版演员观影 利思戈称远超预期 - 手机新浪网",
+      "date": "2026-11-12",
+      "category": "综合资讯",
+      "summary": "哈利·波特剧版演员观影 利思戈称远超预期",
+      "content": "哈利·波特剧版演员观影 利思戈称远超预期",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSRGczWW1wazdmRHQ4Nm8wQVFTekpiaTdxV24xdVZiRWJFaklQVEo2ZUNPM2VFQklYWU1UMGFKU0t6YkRLYTdLTmd0WE13dG56eTc2dzBpWjFzcEVzMVhqMjVVc2daMy1EVjUtMklObG4?oc=5"
     },
     {
       "id": "703dff95",
@@ -161,6 +161,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBIZWhtQ2kyZ2c4YWk5U2w2NXZkS1BXazl2eUozWWJsUnF4WWM3MDc3QXp5aV9BYWFSQWE1UTVqQm5IWVJsdlJzcnRsSWx4S0RCOHQ0OTI5V2kzZWhTVUJYM3E4NlRsNEtGRXFuLVdfQkk2LVFVZDcw?oc=5"
+    },
+    {
+      "id": "8ac863fd",
+      "title": "HBO剧版《哈利波特》角色海报 - 新浪网",
+      "date": "2026-11-10",
+      "category": "影视动态",
+      "summary": "HBO剧版《哈利波特》角色海报",
+      "content": "HBO剧版《哈利波特》角色海报",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZNmJNVDVuRGwxN01sQWJvNWluWExLZEpsTWQzbnZYWnB0aEN5bHpKWExGaVNMN2N0UzNkR082RFZXRWUxamdiQ1dJNHlFdWprVHZYQkFvQWszd2Y4c0E3c05fZw?oc=5"
     },
     {
       "id": "3051545b",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaRC1SMjRwdWxiRElmdS16MEFMRmdNMXVaS3NEX0pUQUtXTFZ6YkowRktBc29ONkhHcV9tcUw0b204dmcwYmwxbDg0dE5MZl9vak9oWHRoSnNBNmMxUzA0OWdHSnk2dThkQThibkFHT080Zw?oc=5"
-    },
-    {
-      "id": "33ddeaca",
-      "title": "差点成为“哈利·波特”的男孩……经巴黎、伦敦后登陆首尔 - 매일경제",
-      "date": "2026-11-06",
-      "category": "综合资讯",
-      "summary": "差点成为“哈利·波特”的男孩……经巴黎、伦敦后登陆首尔",
-      "content": "差点成为“哈利·波特”的男孩……经巴黎、伦敦后登陆首尔",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Ka2ZPelBVc0NZb3VVLWtnaDBqa2p2VGJLS3RiajMxei1mY0JFaU9QZHlYN1FmSkZ4R0paNmFrQ3A1bmJaX2VqQWJzWGlnVW1BRlE?oc=5"
     }
   ]
 }
