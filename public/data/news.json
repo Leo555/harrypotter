@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T10:51:32.350Z",
+  "lastUpdated": "2026-11-19T19:42:23.090Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
     {
@@ -63,6 +63,26 @@
       "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wa29IYV9PNUxDWWgxZ3pDdzNrclB5MHNTZE9UYV9uRFU2SVhzYVBvR21QSlJRWG5nQ0NxaHJjRXRyVlhHbzAyVzBWM3Y5OWRaelE4b0lkeUx3d2RpUnhQcw?oc=5"
     },
     {
+      "id": "3c6554b1",
+      "title": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内 - 速豹新闻网",
+      "date": "2026-11-18",
+      "category": "影视动态",
+      "summary": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
+      "content": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6dlYyYmJXalROTEFtUUNXNTFGdW9IM3JKdjRuN3BiR3cxVjhwbF9TM3YwbGRRZF9jaV83TVBld3dSRGJ1dHRNRlYxUlk0QU0zb0d4aDcwRlZOd1BQbWc0R3ZR?oc=5"
+    },
+    {
       "id": "006e649f",
       "title": "哈利波特手游明年停服，有玩家“打骨折”甩卖账号 - 21财经",
       "date": "2026-11-18",
@@ -101,26 +121,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenlLX1ZZVWYxV2M2MTJaUldxdUNnLXQxV25wd2ZqQjBzVlJldURJOXVpX1Jmdk9odDJMZXdBQXoxa0lFajBfZ3YxbGhhelRRRXBRbS0tUHpxZW5CdVZ5XzBEdlVzclZrYzg5andCRTBILUM4Z2ZLODFiSkdCY3pvRDQ1aW9tZEdBUWhzNQ?oc=5"
-    },
-    {
-      "id": "3c6554b1",
-      "title": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内 - 速豹新闻网",
-      "date": "2026-11-18",
-      "category": "影视动态",
-      "summary": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
-      "content": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6dlYyYmJXalROTEFtUUNXNTFGdW9IM3JKdjRuN3BiR3cxVjhwbF9TM3YwbGRRZF9jaV83TVBld3dSRGJ1dHRNRlYxUlk0QU0zb0d4aDcwRlZOd1BQbWc0R3ZR?oc=5"
     },
     {
       "id": "b6291533",
@@ -203,26 +203,6 @@
       "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ2JzTEI4aUZfTzR2bGFYb3o3UHVEZ0Z0cXpGdnI1bVctNTYybnBvTVloTW5NOHNXUTZLTmZ3a053b0R1Q2JHTFdvSzVzaXRmeDZiT3ZXNFpSYzA4T2R4SDJJTTBpUVZybkNFa3VnV0dndWNhYTlWOEFULVl2d2pOeDF4STZzeGRBUWtsag?oc=5"
     },
     {
-      "id": "360f8f0b",
-      "title": "优惠 | Harry Potter 遇上 Stardew Valley：全新奇幻 RPG（94% 好评）首次打折促销 - Notebookcheck CN",
-      "date": "2026-11-17",
-      "category": "出版物",
-      "summary": "优惠 | Harry Potter 遇上 Stardew Valley：全新奇幻 RPG（94% 好评）首次打折促销",
-      "content": "优惠 | Harry Potter 遇上 Stardew Valley：全新奇幻 RPG（94% 好评）首次打折促销",
-      "image": "📚",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "📖 在线阅读",
-          "path": "/reader"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeVByT1hCemY3SGYyTlgwNDRSS0kxd3p4NkdDQnBITzVHd29zMGFiR2J5cFZUWFdPenFFUmZQZThGNWx3OThhVDVHYnJHZW5URHZ3SHhhckhXOWg5clFBWHVCcTJuYThkY2FGanVKRzV6aUNuN3VHN24xbTctS1A2NWxxY3NmV1Zpc2c?oc=5"
-    },
-    {
       "id": "c8a96c42",
       "title": "网易手游《哈利波特：魔法觉醒》：因授权协议到期，27年3月停运 - 凤凰网",
       "date": "2026-11-17",
@@ -241,6 +221,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9MMnNvcVFUdGg0bFFhcUJFMHNLdmpvY1hjOEFPVEpyREN5SkgxdGtIOVpqZ054aWFPSkh6NTZuUXd4VXJuTVIzTmRVSEU?oc=5"
+    },
+    {
+      "id": "360f8f0b",
+      "title": "优惠 | Harry Potter 遇上 Stardew Valley：全新奇幻 RPG（94% 好评）首次打折促销 - Notebookcheck CN",
+      "date": "2026-11-17",
+      "category": "出版物",
+      "summary": "优惠 | Harry Potter 遇上 Stardew Valley：全新奇幻 RPG（94% 好评）首次打折促销",
+      "content": "优惠 | Harry Potter 遇上 Stardew Valley：全新奇幻 RPG（94% 好评）首次打折促销",
+      "image": "📚",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "📖 在线阅读",
+          "path": "/reader"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeVByT1hCemY3SGYyTlgwNDRSS0kxd3p4NkdDQnBITzVHd29zMGFiR2J5cFZUWFdPenFFUmZQZThGNWx3OThhVDVHYnJHZW5URHZ3SHhhckhXOWg5clFBWHVCcTJuYThkY2FGanVKRzV6aUNuN3VHN24xbTctS1A2NWxxY3NmV1Zpc2c?oc=5"
     },
     {
       "id": "c631c77a",
@@ -323,26 +323,6 @@
       "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUHNEaUw1S2NlaGY4ZDhkbzVoaWE4bGp2a0lZOF9DeG9QZk84NGU4NXFDT0p6cVVhMGR3czhLNVZnUGlsMVEyandKUDhQTmJvelpQaWFUU3RDWWU2WE9vNlBFTlRRT1FwM085cUp0eGxVZER3Q2JHdTg5ZnkwblBrVnZiR3E?oc=5"
     },
     {
-      "id": "f8631a07",
-      "title": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳 - 17173",
-      "date": "2026-11-17",
-      "category": "影视动态",
-      "summary": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳",
-      "content": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92Vmc5TDJ6NGRWQ3M0bTNxUDRoRTlRZ09TVkJQeERVWXhBT1VqaUFYak9wVERqR0dsRktGVUpTaUc4S3dNR1RpTWtfVjBiQ3FTeDdUYVFZMDhueGtIZUYzWTk0S28?oc=5"
-    },
-    {
       "id": "6756d080",
       "title": "《哈利波特：魔法觉醒》宣布关服 魔法落幕的24小时：有人花近万元接盘账号 老玩家发帖征集游戏数据火种 - Sohu",
       "date": "2026-11-17",
@@ -361,6 +341,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdG9qOVYteWtVRHE3NktiWHlRNUIxUkVFREJSVFdiUHZtVHhNMzFpeFhrYjVxd2t2bm9lLVBReXZMUHpRMXpKTjlWeUNHS25pOVIyS1RUT0VpX21VdDF4UGFtM212U3VlM3E4cDJkamtGcWppcktoNkdlLTN6VEJ6YVBSVmpsdVNPTXFYRg?oc=5"
+    },
+    {
+      "id": "f8631a07",
+      "title": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳 - 17173",
+      "date": "2026-11-17",
+      "category": "影视动态",
+      "summary": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳",
+      "content": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92Vmc5TDJ6NGRWQ3M0bTNxUDRoRTlRZ09TVkJQeERVWXhBT1VqaUFYak9wVERqR0dsRktGVUpTaUc4S3dNR1RpTWtfVjBiQ3FTeDdUYVFZMDhueGtIZUYzWTk0S28?oc=5"
     },
     {
       "id": "f8f3bf79",
