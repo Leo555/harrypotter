@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-20T01:55:53.250Z",
+  "lastUpdated": "2026-11-20T10:41:07.309Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "5a64237b",
+      "title": "Newzoo：《GTA 6》首周收入有望超《星球大战》《指环王》《哈利·波特》各自最卖座影片总和 - 凤凰网科技",
+      "date": "2026-11-19",
+      "category": "综合资讯",
+      "summary": "Newzoo：《GTA 6》首周收入有望超《星球大战》《指环王》《哈利·波特》各自最卖座影片总和",
+      "content": "Newzoo：《GTA 6》首周收入有望超《星球大战》《指环王》《哈利·波特》各自最卖座影片总和",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ga2xHNWhRckJJVExXUXl6VDE4eGI5cVMzMGJiRmVTbFlhN3N3SldpYnF1cW4yZFhxNUVIZ0J1cllYeGpIMk1kR0UtTzE?oc=5"
+    },
     {
       "id": "f629c80f",
       "title": "#哈利波特[超话]# 仅用0秒接受了国产版《哈利波特》 欢迎来到---大东北！--吉---林！霍格沃斯屯---！ ​ - 手机新浪网",
@@ -83,26 +103,6 @@
       "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbGs5QlZjdVRWTWgxZHJkNHFCc25GN1NvSjVTamZHN3kycG5XSkhqSlotUm41MUtRd1FGQ1ljdi1OQ2dPcC1sQmMyby1YeFdISEo4WWdDczd3aG1ZM1NHb1pyZElicTI2RWxHV2ZBUm9HQ0VCZUdxTUFwaGVXU2J6cVZ1NWJ6akdvX0xQSXZ2UQ?oc=5"
     },
     {
-      "id": "3c6554b1",
-      "title": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内 - 速豹新闻网",
-      "date": "2026-11-18",
-      "category": "影视动态",
-      "summary": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
-      "content": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6dlYyYmJXalROTEFtUUNXNTFGdW9IM3JKdjRuN3BiR3cxVjhwbF9TM3YwbGRRZF9jaV83TVBld3dSRGJ1dHRNRlYxUlk0QU0zb0d4aDcwRlZOd1BQbWc0R3ZR?oc=5"
-    },
-    {
       "id": "8cdfe714",
       "title": "《哈利波特：魔法觉醒》即将关服 消费上万元的律师懵了 拉动上百玩家维权 - Sohu",
       "date": "2026-11-18",
@@ -141,6 +141,26 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX05wajh3SlpOcHVPUzEyOElkSnZiMlEwcG95UldsQ2J5Rkg0eE9xekdENGVQYUM0LU1SU1NaUmJXX2FJcGZ4LTNaZlZjSUIxSUM4MjdYSUIzQmpSSm1uTVZZUHpVRkx2VkJWQ2QzSVJSa0lRTy1RQjROWGdJNTVEVWN2eFdzblo0b2E0YQ?oc=5"
+    },
+    {
+      "id": "3c6554b1",
+      "title": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内 - 速豹新闻网",
+      "date": "2026-11-18",
+      "category": "影视动态",
+      "summary": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
+      "content": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
+      "image": "📺",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6dlYyYmJXalROTEFtUUNXNTFGdW9IM3JKdjRuN3BiR3cxVjhwbF9TM3YwbGRRZF9jaV83TVBld3dSRGJ1dHRNRlYxUlk0QU0zb0d4aDcwRlZOd1BQbWc0R3ZR?oc=5"
     },
     {
       "id": "6ec5f862",
@@ -263,6 +283,26 @@
       "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeVByT1hCemY3SGYyTlgwNDRSS0kxd3p4NkdDQnBITzVHd29zMGFiR2J5cFZUWFdPenFFUmZQZThGNWx3OThhVDVHYnJHZW5URHZ3SHhhckhXOWg5clFBWHVCcTJuYThkY2FGanVKRzV6aUNuN3VHN24xbTctS1A2NWxxY3NmV1Zpc2c?oc=5"
     },
     {
+      "id": "115c0e02",
+      "title": "新浪网· - 手机新浪网",
+      "date": "2026-11-17",
+      "category": "综合资讯",
+      "summary": "新浪网·",
+      "content": "新浪网·",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3al9QRVA4WmlJQWpULTNORVFHUHZtMGdjcjJHWXNXRDctRndwMlBqdjNONFR3VVVGbE9qR2t0MmJRcDk4eTQzLVBGc0szRlFoVUd0THlfYU5DTkRGdEJtZTBGaw?oc=5"
+    },
+    {
       "id": "f8631a07",
       "title": "HBO《哈利·波特》剧集原声带首段片段曝光，粉丝反响不佳 - 17173",
       "date": "2026-11-17",
@@ -343,12 +383,12 @@
       "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ka0dOX08ydE91VzdZYnZOZlJCVks2YnpvdTBXZjRmYmNwWEdxZzAzZmkyU0FpTkxiYVNRUmRVemxNY1YzSFVBMlJ5YkNycUgxdDdMM29oVWdTSTdNV3ZKYnF5clpvWHlhZkxLa1NIYw?oc=5"
     },
     {
-      "id": "b3d15edc",
-      "title": "《哈利波特：魔法觉醒》5年资深玩家看到“关服”消息：前一天晚上刚花9900元买号 - 封面新闻",
+      "id": "8d9d9502",
+      "title": "JR九州举行哈利波特涂装列车发车仪式 - 共同网",
       "date": "2026-11-17",
       "category": "综合资讯",
-      "summary": "《哈利波特：魔法觉醒》5年资深玩家看到“关服”消息：前一天晚上刚花9900元买号",
-      "content": "《哈利波特：魔法觉醒》5年资深玩家看到“关服”消息：前一天晚上刚花9900元买号",
+      "summary": "JR九州举行哈利波特涂装列车发车仪式",
+      "content": "JR九州举行哈利波特涂装列车发车仪式",
       "image": "📰",
       "relatedLinks": [
         {
@@ -360,47 +400,7 @@
           "path": "/characters"
         }
       ],
-      "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUHNEaUw1S2NlaGY4ZDhkbzVoaWE4bGp2a0lZOF9DeG9QZk84NGU4NXFDT0p6cVVhMGR3czhLNVZnUGlsMVEyandKUDhQTmJvelpQaWFUU3RDWWU2WE9vNlBFTlRRT1FwM085cUp0eGxVZER3Q2JHdTg5ZnkwblBrVnZiR3E?oc=5"
-    },
-    {
-      "id": "79448eda",
-      "title": "官宣：罗伯特·帕丁森成为新一任007，曾出演《哈利·波特》《暮光之城》《新蝙蝠侠》等 - 新浪财经",
-      "date": "2026-11-17",
-      "category": "综合资讯",
-      "summary": "官宣：罗伯特·帕丁森成为新一任007，曾出演《哈利·波特》《暮光之城》《新蝙蝠侠》等",
-      "content": "官宣：罗伯特·帕丁森成为新一任007，曾出演《哈利·波特》《暮光之城》《新蝙蝠侠》等",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1amdPaXFoWEVIekQ0ajVvXzZyVURpdVNlbHhhQVFjRkhUWFRmeGV6NVpUTnpGcFRHR3NSNHpqRngzZ21mTGdEbWpTSWlWMTJqdUFRcjJmUGpIQlBqX29QVVAtSHFFcVlHMThIX2V0OHowZlZ6WmtiOQ?oc=5"
-    },
-    {
-      "id": "b50eccac",
-      "title": "罗伯特·帕丁森官宣新一任007，40岁手握两大史诗级IP - 手机新浪网",
-      "date": "2026-11-17",
-      "category": "综合资讯",
-      "summary": "罗伯特·帕丁森官宣新一任007，40岁手握两大史诗级IP",
-      "content": "罗伯特·帕丁森官宣新一任007，40岁手握两大史诗级IP",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZT1laS2NLZUJJS092Nlk4X0UyeXRXX1RETE9ESS1McWlVVVRnWW1ud1U1RktKZmdIeFNEX3lYNHN2aENNazdTdGl5MS00X0dlZmx5WkZEN2dkYlVtWkxVZ2xmMnh0NG12SF8tOWE4MUZzQ0E?oc=5"
+      "source": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCMUE5MUwteU5vQ1ZwbTBrSW1RZ2J2MmhQbFFBZ080TF8wTTMyUXJUUnliS2l6MF93OWxrZVJyLWNNWW1HcXVvTmdycnRTaVRULVpqT3gyMA?oc=5"
     }
   ]
 }
