@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-11-22T10:27:46.585Z",
+  "lastUpdated": "2026-11-22T18:47:19.184Z",
   "source": "Daily Prophet Auto-Update",
   "news": [
+    {
+      "id": "43daccbe",
+      "title": "乐高哈利波特新套装泄露 明年年初上市 - www.itsdw.cn",
+      "date": "2026-11-22",
+      "category": "周边商品",
+      "summary": "乐高哈利波特新套装泄露 明年年初上市",
+      "content": "乐高哈利波特新套装泄露 明年年初上市",
+      "image": "🛍️",
+      "relatedLinks": [
+        {
+          "label": "⚗️ 魔法物品",
+          "path": "/world/items"
+        },
+        {
+          "label": "🐉 魔法生物",
+          "path": "/world/creatures"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE96NFVHSFRpTnpIYlhrM0ozb1hOdDdCUWhKZDc0TjQ5azFSUUxJeUdEeE9OcXVmdGxZWjlZTzAwdUpQVl95YjJwOHdZZTM?oc=5"
+    },
     {
       "id": "8ef55913",
       "title": "HBO哈利波特剧版教师海报发布，邓布利多斯内普麦格海格亮相12月25日开播 - 新浪财经",
@@ -223,6 +243,26 @@
       "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54MFV5RWNldUx0WDk4LS02ak5EY2hyUWEyS2xuVmcxMy1tU05sZFdrQWlfSDBHU2xWUlhKeWkxUHptb09URmlNT2I3Q09nTzFRUlZWbENwRERrMl9QVFpLaW1rTQ?oc=5"
     },
     {
+      "id": "c81efdc3",
+      "title": "剧版《哈利波特》全新海报公布：马尔福少爷等角色 - news.qq.com",
+      "date": "2026-11-18",
+      "category": "综合资讯",
+      "summary": "剧版《哈利波特》全新海报公布：马尔福少爷等角色",
+      "content": "剧版《哈利波特》全新海报公布：马尔福少爷等角色",
+      "image": "📰",
+      "relatedLinks": [
+        {
+          "label": "📚 原著百科",
+          "path": "/books"
+        },
+        {
+          "label": "🧙 人物百科",
+          "path": "/characters"
+        }
+      ],
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpVEw2d0ZjYWV4anprVVVWZDZBUWdEX04xeWFpXzd5MGpKWjljdUpLVXBRY1Y5OHFvRUo4TTZUYlNYZTdkUGhLTXFYcmhMeGNWN2ZmZG9R?oc=5"
+    },
+    {
       "id": "29461456",
       "title": "消息称黄仁勋考虑重返英伟达，高德发布云控红绿灯系统，阿里Qwen4发布，哈利波特魔法觉醒手游停运，这是今天的其他大新闻！ - 新浪财经",
       "date": "2026-11-18",
@@ -241,26 +281,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQT1hWUDhHbEw0dU5CNEFXcUs0dWJPZk5YbVpwQnplUG5SZEl5a1hqN3lsSEFnOGV1Umg3MWdodi13UmdQaUVTWWozRURVaV92TEpRWk1KMVROZ3k3dS1yWjhJMVVTWFhKWllRTUNCY0gxUlI3aDJ4bFBxY0Y5ajluYnZiVzhKZXRuZGRYMWhqSkt5bTJsNkQtOWlfRDFBV3pneloyY0F1ejlpN0Jsb19HN1Q1bzQxR1ZLalpWdXh5SXZWWWdNbzRkMnpZRURRNXBvcmwxNThkM0JiVU5US3lZN0tJcFhOeVhCeGtwWEQ3MmstVlB0SXV4X0dmU2hxTE5QYXJoWUNrckpSRGlCVWdTRVFieURMQ3JFcDg0T0ZjdEFEQWp2dEJQVGFZTThJUm9IcktjNzdpcHpoR0k?oc=5"
-    },
-    {
-      "id": "a70fdf2f",
-      "title": "剧版《哈利波特》全新海报公布：马尔福少爷等角色 - 腾讯新闻",
-      "date": "2026-11-18",
-      "category": "综合资讯",
-      "summary": "剧版《哈利波特》全新海报公布：马尔福少爷等角色",
-      "content": "剧版《哈利波特》全新海报公布：马尔福少爷等角色",
-      "image": "📰",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpVEw2d0ZjYWV4anprVVVWZDZBUWdEX04xeWFpXzd5MGpKWjljdUpLVXBRY1Y5OHFvRUo4TTZUYlNYZTdkUGhLTXFYcmhMeGNWN2ZmZG9R?oc=5"
     },
     {
       "id": "69a27f89",
@@ -381,26 +401,6 @@
         }
       ],
       "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbGs5QlZjdVRWTWgxZHJkNHFCc25GN1NvSjVTamZHN3kycG5XSkhqSlotUm41MUtRd1FGQ1ljdi1OQ2dPcC1sQmMyby1YeFdISEo4WWdDczd3aG1ZM1NHb1pyZElicTI2RWxHV2ZBUm9HQ0VCZUdxTUFwaGVXU2J6cVZ1NWJ6akdvX0xQSXZ2UQ?oc=5"
-    },
-    {
-      "id": "3c6554b1",
-      "title": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内 - 速豹新闻网",
-      "date": "2026-11-18",
-      "category": "影视动态",
-      "summary": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
-      "content": "突发公告：12月21日，全平台下架！网友：晴天霹雳- 国内",
-      "image": "📺",
-      "relatedLinks": [
-        {
-          "label": "📚 原著百科",
-          "path": "/books"
-        },
-        {
-          "label": "🧙 人物百科",
-          "path": "/characters"
-        }
-      ],
-      "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6dlYyYmJXalROTEFtUUNXNTFGdW9IM3JKdjRuN3BiR3cxVjhwbF9TM3YwbGRRZF9jaV83TVBld3dSRGJ1dHRNRlYxUlk0QU0zb0d4aDcwRlZOd1BQbWc0R3ZR?oc=5"
     }
   ]
 }
